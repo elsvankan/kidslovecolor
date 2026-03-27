@@ -410,7 +410,7 @@ h3 { font-size: 1.1rem; }
 
 .card-thumbnail {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1 / 1.414;
   display: flex;
   align-items: center;
   justify-content: center;

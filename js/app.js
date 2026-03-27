@@ -461,7 +461,7 @@ function renderCard(item) {
         loading="lazy"
         decoding="async"
         width="300"
-        height="300"
+        height="424"
         title="${ld.title} – ${t('free_coloring_page')}"
       />
       <div class="card-overlay" aria-hidden="true">
@@ -658,15 +658,13 @@ function printColoring(item) {
     * { margin:0; padding:0; box-sizing:border-box; }
     body { font-family: 'Nunito', Arial, sans-serif; background: white; }
     .print-wrap { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; padding:1cm; }
-    .print-title { font-size:18pt; font-weight:900; color:#5B21B6; margin-bottom:6pt; text-align:center; }
-    .print-img { max-width:18cm; max-height:22cm; display:block; }
+    .print-img { max-width:19cm; max-height:27cm; display:block; }
     .print-footer { margin-top:10pt; font-size:8pt; color:#9CA3AF; text-align:center; }
     @media print { body { -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
   </style>
 </head>
 <body>
   <div class="print-wrap">
-    <p class="print-title">${ld.title}</p>
     <img class="print-img" src="${absImgSrc}" alt="${ld.altText || ld.title}"/>
     <p class="print-footer">${t('print_tagline')}</p>
   </div>
