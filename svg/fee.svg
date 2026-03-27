@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Left fairy wing (upper) -->
+  <path d="M138,120 Q95,85 68,100 Q50,115 62,135 Q75,155 110,148 Q130,143 138,130 Z"/>
+  <!-- Right fairy wing (upper) -->
+  <path d="M162,120 Q205,85 232,100 Q250,115 238,135 Q225,155 190,148 Q170,143 162,130 Z"/>
+  <!-- Left fairy wing (lower) -->
+  <path d="M138,135 Q105,140 88,165 Q80,180 92,190 Q108,198 125,182 Q140,168 140,148 Z"/>
+  <!-- Right fairy wing (lower) -->
+  <path d="M162,135 Q195,140 212,165 Q220,180 208,190 Q192,198 175,182 Q160,168 160,148 Z"/>
+  <!-- Wing patterns upper left -->
+  <path d="M92,108 Q110,100 125,110 Q112,118 92,108" fill="none" stroke-width="1.5"/>
+  <path d="M78,125 Q95,118 108,125" fill="none" stroke-width="1.5"/>
+  <!-- Wing patterns upper right -->
+  <path d="M208,108 Q190,100 175,110 Q188,118 208,108" fill="none" stroke-width="1.5"/>
+  <path d="M222,125 Q205,118 192,125" fill="none" stroke-width="1.5"/>
+  <!-- Wing patterns lower left -->
+  <path d="M100,162 Q112,155 120,162 Q112,170 100,162" fill="none" stroke-width="1.5"/>
+  <!-- Wing patterns lower right -->
+  <path d="M200,162 Q188,155 180,162 Q188,170 200,162" fill="none" stroke-width="1.5"/>
+  <!-- Fairy sparkle dust -->
+  <circle cx="68" cy="142" r="3" fill="#ffdc78" stroke="#e8c800"/>
+  <circle cx="82" cy="158" r="2" fill="#ffdc78" stroke="#e8c800"/>
+  <circle cx="55" cy="155" r="2" fill="#ffdc78" stroke="#e8c800"/>
+  <circle cx="232" cy="142" r="3" fill="#ffdc78" stroke="#e8c800"/>
+  <circle cx="218" cy="158" r="2" fill="#ffdc78" stroke="#e8c800"/>
+  <circle cx="245" cy="155" r="2" fill="#ffdc78" stroke="#e8c800"/>
+  <!-- Head -->
+  <circle cx="150" cy="75" r="35"/>
+  <!-- Hair -->
+  <path d="M118,65 Q115,48 130,40 Q150,32 170,40 Q185,48 182,65" fill="white" stroke-width="2.5"/>
+  <!-- Hair flowing right -->
+  <path d="M182,68 Q195,80 192,95 Q188,108 180,112" fill="none" stroke-width="2.5"/>
+  <!-- Hair bun on top -->
+  <circle cx="150" cy="40" r="14"/>
+  <!-- Hair details -->
+  <path d="M135,42 Q140,35 150,38" fill="none" stroke-width="1.5"/>
+  <path d="M155,38 Q162,34 168,40" fill="none" stroke-width="1.5"/>
+  <!-- Eyes (big fairy eyes) -->
+  <ellipse cx="138" cy="75" rx="10" ry="12"/>
+  <ellipse cx="162" cy="75" rx="10" ry="12"/>
+  <!-- Pupils -->
+  <ellipse cx="138" cy="77" rx="6" ry="9" fill="#222" stroke="none"/>
+  <ellipse cx="162" cy="77" rx="6" ry="9" fill="#222" stroke="none"/>
+  <!-- Eye shines -->
+  <circle cx="141" cy="73" r="3" fill="white" stroke="none"/>
+  <circle cx="165" cy="73" r="3" fill="white" stroke="none"/>
+  <!-- Eyelashes top left -->
+  <line x1="129" y1="65" x2="127" y2="60" stroke-width="1.5"/>
+  <line x1="134" y1="63" x2="133" y2="58" stroke-width="1.5"/>
+  <line x1="139" y1="63" x2="139" y2="58" stroke-width="1.5"/>
+  <!-- Eyelashes top right -->
+  <line x1="153" y1="63" x2="153" y2="58" stroke-width="1.5"/>
+  <line x1="158" y1="63" x2="159" y2="58" stroke-width="1.5"/>
+  <line x1="163" y1="65" x2="165" y2="60" stroke-width="1.5"/>
+  <!-- Small nose -->
+  <path d="M148,86 Q150,90 152,86" fill="none" stroke-width="2"/>
+  <!-- Smile -->
+  <path d="M140,96 Q150,103 160,96" fill="none" stroke-width="2"/>
+  <!-- Rosy cheeks -->
+  <ellipse cx="127" cy="83" rx="9" ry="6" fill="none" stroke-width="1.5"/>
+  <ellipse cx="173" cy="83" rx="9" ry="6" fill="none" stroke-width="1.5"/>
+  <!-- Tiara -->
+  <path d="M125,52 L130,42 L135,52" stroke-width="2"/>
+  <path d="M140,52 L145,38 L150,52" stroke-width="2"/>
+  <path d="M155,52 L160,42 L165,52" stroke-width="2"/>
+  <path d="M125,52 L165,52" stroke-width="2"/>
+  <!-- Center gem -->
+  <polygon points="150,42 153,48 147,48" fill="white"/>
+  <!-- Body/dress -->
+  <path d="M130,108 Q140,102 150,100 Q160,102 170,108 L172,148 L128,148 Z"/>
+  <!-- Skirt -->
+  <path d="M128,148 Q105,162 100,195 Q120,205 150,207 Q180,205 200,195 Q195,162 172,148 Z"/>
+  <!-- Dress decoration -->
+  <path d="M115,175 Q150,185 185,175" fill="none" stroke-width="1.5"/>
+  <path d="M108,192 Q150,205 192,192" fill="none" stroke-width="1.5"/>
+  <!-- Left arm -->
+  <path d="M130,115 Q110,120 100,135 Q107,142 115,138 Q125,130 132,122 Z"/>
+  <!-- Right arm with wand -->
+  <path d="M170,115 Q190,120 200,135 Q193,142 185,138 Q175,130 168,122 Z"/>
+  <!-- Wand -->
+  <line x1="200" y1="132" x2="230" y2="98" stroke-width="2.5"/>
+  <!-- Star on wand -->
+  <path d="M230,90 L233,80 L236,90 L246,90 L238,96 L241,106 L233,100 L225,106 L228,96 L220,90 Z" stroke-width="2"/>
+  <!-- Magic sparkles -->
+  <circle cx="215" cy="105" r="3" fill="none" stroke-width="1.5"/>
+  <circle cx="242" cy="112" r="2" fill="none" stroke-width="1.5"/>
+  <path d="M222,95 L224,91 L226,95 L230,95 L227,98 L228,102 L224,99 L220,102 L221,98 L218,95 Z" stroke-width="1"/>
+</svg>

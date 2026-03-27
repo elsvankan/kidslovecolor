@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Ground / snow hill -->
+  <path d="M15,285 Q80,260 150,265 Q220,260 285,285 Z"/>
+  <!-- Bottom snowball -->
+  <circle cx="150" cy="225" r="60"/>
+  <!-- Middle snowball -->
+  <circle cx="150" cy="148" r="44"/>
+  <!-- Head snowball -->
+  <circle cx="150" cy="85" r="34"/>
+  <!-- Hat brim -->
+  <rect x="108" y="52" width="84" height="8" rx="4"/>
+  <!-- Hat body -->
+  <rect x="118" y="18" width="64" height="36" rx="4"/>
+  <!-- Hat band -->
+  <rect x="118" y="44" width="64" height="8" rx="0"/>
+  <!-- Left eye -->
+  <circle cx="138" cy="78" r="6" fill="#222" stroke="#222"/>
+  <!-- Right eye -->
+  <circle cx="162" cy="78" r="6" fill="#222" stroke="#222"/>
+  <!-- Carrot nose -->
+  <path d="M150,88 L150,103 L165,95 Z" fill="white" stroke-width="2.5"/>
+  <!-- Nose tip detail -->
+  <line x1="155" y1="92" x2="153" y2="98" stroke-width="1.5"/>
+  <line x1="160" y1="93" x2="158" y2="99" stroke-width="1.5"/>
+  <!-- Mouth (coal dots) -->
+  <circle cx="138" cy="108" r="4" fill="#333" stroke="#333"/>
+  <circle cx="145" cy="113" r="4" fill="#333" stroke="#333"/>
+  <circle cx="153" cy="115" r="4" fill="#333" stroke="#333"/>
+  <circle cx="161" cy="113" r="4" fill="#333" stroke="#333"/>
+  <circle cx="168" cy="108" r="4" fill="#333" stroke="#333"/>
+  <!-- Left ear muffs -->
+  <circle cx="116" cy="82" r="11"/>
+  <!-- Right ear muffs -->
+  <circle cx="184" cy="82" r="11"/>
+  <!-- Ear muff band -->
+  <path d="M116,71 Q150,62 184,71" fill="none" stroke-width="4"/>
+  <!-- Scarf -->
+  <path d="M110,118 Q150,130 190,118 Q188,128 150,138 Q112,128 110,118 Z"/>
+  <!-- Scarf knot/end left -->
+  <path d="M118,125 Q108,138 112,152 Q115,155 120,148 Q118,138 120,128 Z"/>
+  <!-- Scarf end right -->
+  <path d="M182,125 Q192,135 188,145 Q184,148 182,142 Q184,132 180,128 Z"/>
+  <!-- Scarf fringe left -->
+  <line x1="112" y1="152" x2="108" y2="160" stroke-width="2"/>
+  <line x1="116" y1="154" x2="112" y2="162" stroke-width="2"/>
+  <line x1="120" y1="153" x2="117" y2="161" stroke-width="2"/>
+  <!-- Body buttons -->
+  <circle cx="150" cy="148" r="5" fill="#333" stroke="#333"/>
+  <circle cx="150" cy="165" r="5" fill="#333" stroke="#333"/>
+  <circle cx="150" cy="182" r="5" fill="#333" stroke="#333"/>
+  <!-- Left stick arm -->
+  <path d="M108,145 Q78,128 58,115" stroke-width="5" fill="none"/>
+  <!-- Left arm branch 1 -->
+  <path d="M75,124 Q68,112 62,110" stroke-width="3" fill="none"/>
+  <!-- Left arm branch 2 -->
+  <path d="M80,120 Q78,108 76,104" stroke-width="3" fill="none"/>
+  <!-- Right stick arm -->
+  <path d="M192,145 Q222,128 242,115" stroke-width="5" fill="none"/>
+  <!-- Right arm branch 1 -->
+  <path d="M225,124 Q232,112 238,110" stroke-width="3" fill="none"/>
+  <!-- Right arm branch 2 -->
+  <path d="M220,120 Q222,108 224,104" stroke-width="3" fill="none"/>
+  <!-- Snowflakes in background -->
+  <path d="M38,40 L38,60 M28,50 L48,50 M31,43 L45,57 M45,43 L31,57" fill="none" stroke-width="2"/>
+  <path d="M255,25 L255,45 M245,35 L265,35 M248,28 L262,42 M262,28 L248,42" fill="none" stroke-width="2"/>
+  <path d="M62,185 L62,197 M56,191 L68,191 M58,187 L66,195 M66,187 L58,195" fill="none" stroke-width="1.5"/>
+  <path d="M240,180 L240,192 M234,186 L246,186 M236,182 L244,190 M244,182 L236,190" fill="none" stroke-width="1.5"/>
+</svg>

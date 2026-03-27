@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Stem -->
+  <path d="M150,185 Q145,220 142,260" stroke-width="5"/>
+  <!-- Left leaf -->
+  <path d="M147,230 Q118,220 108,205 Q122,195 142,212 Z"/>
+  <!-- Left leaf vein -->
+  <path d="M147,230 Q125,215 108,205" fill="none" stroke-width="1.5"/>
+  <!-- Right leaf -->
+  <path d="M145,215 Q172,200 188,192 Q182,208 148,222 Z"/>
+  <!-- Right leaf vein -->
+  <path d="M145,215 Q172,200 188,192" fill="none" stroke-width="1.5"/>
+  <!-- Petal 1 (top) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(0, 150, 150)"/>
+  <!-- Petal 2 (top-right) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(45, 150, 150)"/>
+  <!-- Petal 3 (right) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(90, 150, 150)"/>
+  <!-- Petal 4 (bottom-right) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(135, 150, 150)"/>
+  <!-- Petal 5 (bottom) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(180, 150, 150)"/>
+  <!-- Petal 6 (bottom-left) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(225, 150, 150)"/>
+  <!-- Petal 7 (left) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(270, 150, 150)"/>
+  <!-- Petal 8 (top-left) -->
+  <ellipse cx="150" cy="95" rx="28" ry="50" transform="rotate(315, 150, 150)"/>
+  <!-- Center -->
+  <circle cx="150" cy="150" r="35"/>
+  <!-- Center pattern (seeds) -->
+  <circle cx="150" cy="138" r="5"/>
+  <circle cx="162" cy="142" r="5"/>
+  <circle cx="165" cy="154" r="5"/>
+  <circle cx="158" cy="164" r="5"/>
+  <circle cx="147" cy="167" r="5"/>
+  <circle cx="137" cy="162" r="5"/>
+  <circle cx="133" cy="152" r="5"/>
+  <circle cx="137" cy="141" r="5"/>
+  <circle cx="150" cy="150" r="5"/>
+  <!-- Bee visiting -->
+  <ellipse cx="232" cy="88" rx="15" ry="10" transform="rotate(-20, 232, 88)"/>
+  <!-- Bee stripes -->
+  <line x1="222" y1="84" x2="225" y2="94" stroke-width="2" transform="rotate(-20, 232, 88)"/>
+  <line x1="228" y1="83" x2="231" y2="93" stroke-width="2" transform="rotate(-20, 232, 88)"/>
+  <line x1="234" y1="83" x2="237" y2="93" stroke-width="2" transform="rotate(-20, 232, 88)"/>
+  <!-- Bee wings -->
+  <ellipse cx="228" cy="78" rx="12" ry="7" transform="rotate(-30, 228, 78)" fill="none" stroke-width="1.5"/>
+  <ellipse cx="238" cy="78" rx="10" ry="6" transform="rotate(-10, 238, 78)" fill="none" stroke-width="1.5"/>
+  <!-- Bee antennae -->
+  <line x1="242" y1="82" x2="248" y2="74" stroke-width="1.5" transform="rotate(-20, 232, 88)"/>
+  <line x1="245" y1="83" x2="253" y2="77" stroke-width="1.5" transform="rotate(-20, 232, 88)"/>
+  <!-- Bee eyes -->
+  <circle cx="243" cy="85" r="3" fill="#222" stroke="none" transform="rotate(-20, 232, 88)"/>
+  <!-- Small flowers in background -->
+  <circle cx="42" cy="65" r="8"/>
+  <circle cx="42" cy="65" r="15" fill="none" stroke-width="2"/>
+  <!-- Petals of small flower -->
+  <line x1="42" y1="48" x2="42" y2="42" stroke-width="1.5"/>
+  <line x1="42" y1="82" x2="42" y2="88" stroke-width="1.5"/>
+  <line x1="25" y1="65" x2="19" y2="65" stroke-width="1.5"/>
+  <line x1="59" y1="65" x2="65" y2="65" stroke-width="1.5"/>
+  <!-- Ground line -->
+  <path d="M18,270 Q80,262 150,265 Q220,268 282,260" fill="none" stroke-width="3"/>
+  <!-- Grass -->
+  <path d="M30,268 Q32,255 34,268" fill="none" stroke-width="2"/>
+  <path d="M60,270 Q62,257 65,270" fill="none" stroke-width="2"/>
+  <path d="M95,265 Q97,252 100,265" fill="none" stroke-width="2"/>
+  <path d="M200,268 Q203,255 206,268" fill="none" stroke-width="2"/>
+  <path d="M240,264 Q242,251 245,264" fill="none" stroke-width="2"/>
+  <path d="M268,268 Q270,255 273,268" fill="none" stroke-width="2"/>
+</svg>

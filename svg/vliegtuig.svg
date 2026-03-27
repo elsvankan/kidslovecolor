@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Clouds background -->
+  <path d="M18,68 Q25,55 38,60 Q40,45 55,48 Q60,38 72,42 Q80,35 88,42 Q98,38 102,50 Q115,48 115,62 Q115,72 105,72 L25,72 Q15,72 18,68 Z" stroke-width="2"/>
+  <path d="M188,45 Q195,32 208,37 Q210,22 225,25 Q230,15 242,19 Q250,12 258,19 Q268,15 272,27 Q285,25 285,39 Q285,49 275,49 L195,49 Q185,49 188,45 Z" stroke-width="2"/>
+  <!-- Fuselage -->
+  <path d="M30,148 Q30,135 40,132 L230,132 Q265,132 275,148 Q278,158 265,165 L40,165 Q30,165 30,155 Z"/>
+  <!-- Nose cone -->
+  <path d="M265,148 Q285,148 292,152 Q285,158 265,158"/>
+  <!-- Tail section -->
+  <path d="M40,132 Q30,132 20,138 Q15,142 20,148" fill="none"/>
+  <!-- Main wings -->
+  <path d="M90,132 Q100,80 150,70 Q160,80 158,132 Z"/>
+  <path d="M90,165 Q100,218 150,228 Q160,218 158,165 Z"/>
+  <!-- Wing detail lines -->
+  <path d="M115,132 Q120,100 135,85" fill="none" stroke-width="1.5"/>
+  <path d="M115,165 Q120,198 135,212" fill="none" stroke-width="1.5"/>
+  <!-- Engine under wing -->
+  <ellipse cx="125" cy="155" rx="22" ry="10" transform="rotate(-5, 125, 155)"/>
+  <path d="M103,153 Q100,148 105,143 Q110,140 118,140" fill="none" stroke-width="2"/>
+  <!-- Tail fin vertical -->
+  <path d="M40,132 Q35,110 25,95 Q35,90 50,100 L55,132 Z"/>
+  <!-- Tail fin horizontal left -->
+  <path d="M48,140 Q30,133 18,138 Q20,148 35,152 L48,148 Z"/>
+  <!-- Tail fin horizontal right -->
+  <path d="M48,158 Q30,165 18,160 Q20,150 35,146 L48,150 Z"/>
+  <!-- Windows row -->
+  <rect x="185" y="137" width="18" height="14" rx="5" fill="#e8f4ff"/>
+  <rect x="210" y="137" width="18" height="14" rx="5" fill="#e8f4ff"/>
+  <rect x="235" y="137" width="16" height="14" rx="5" fill="#e8f4ff"/>
+  <rect x="160" y="137" width="18" height="14" rx="5" fill="#e8f4ff"/>
+  <rect x="135" y="137" width="18" height="14" rx="5" fill="#e8f4ff"/>
+  <rect x="110" y="137" width="18" height="14" rx="5" fill="#e8f4ff"/>
+  <!-- Door -->
+  <rect x="80" y="134" width="22" height="28" rx="4"/>
+  <!-- Cockpit windows -->
+  <path d="M257,137 Q268,135 275,141 Q275,148 268,152 Q258,152 255,148 Z" fill="#c8e8ff"/>
+  <!-- Landing gear front -->
+  <path d="M245,165 L245,178" stroke-width="4"/>
+  <ellipse cx="245" cy="182" rx="12" ry="6" fill="white"/>
+  <!-- Landing gear rear -->
+  <path d="M120,165 L120,180" stroke-width="4"/>
+  <ellipse cx="120" cy="184" rx="14" ry="7" fill="white"/>
+  <!-- Airline stripe -->
+  <path d="M40,152 L265,152" fill="none" stroke-width="2" stroke-dasharray="none"/>
+</svg>

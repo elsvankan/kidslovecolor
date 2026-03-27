@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Main stem/petiole -->
+  <path d="M150,270 Q148,240 150,210" stroke-width="5"/>
+  <!-- Twig connection -->
+  <path d="M150,270 Q165,278 182,268" stroke-width="4" fill="none"/>
+  <path d="M182,268 Q196,265 205,270" stroke-width="3" fill="none"/>
+  <!-- Main maple leaf shape -->
+  <path d="M150,210
+    Q155,195 168,185
+    Q178,178 188,182
+    Q192,172 185,162
+    Q195,162 202,155
+    Q196,148 188,150
+    Q192,138 186,130
+    Q178,134 176,144
+    Q168,132 158,132
+    Q154,122 150,115
+    Q146,122 142,132
+    Q132,132 124,144
+    Q122,134 114,130
+    Q108,138 112,150
+    Q104,148 98,155
+    Q105,162 115,162
+    Q108,172 112,182
+    Q122,178 132,185
+    Q145,195 150,210 Z"/>
+  <!-- Center vein -->
+  <line x1="150" y1="210" x2="150" y2="120" stroke-width="2"/>
+  <!-- Left main vein 1 (to top-left lobe) -->
+  <path d="M150,185 Q138,165 124,144" fill="none" stroke-width="2"/>
+  <!-- Left vein to left lobe -->
+  <path d="M143,175 Q130,168 112,162" fill="none" stroke-width="2"/>
+  <!-- Right main vein 1 (to top-right lobe) -->
+  <path d="M150,185 Q162,165 176,144" fill="none" stroke-width="2"/>
+  <!-- Right vein to right lobe -->
+  <path d="M157,175 Q170,168 188,162" fill="none" stroke-width="2"/>
+  <!-- Upper left vein -->
+  <path d="M150,160 Q140,148 130,140" fill="none" stroke-width="1.5"/>
+  <!-- Upper right vein -->
+  <path d="M150,160 Q160,148 170,140" fill="none" stroke-width="1.5"/>
+  <!-- Top left vein to tip -->
+  <path d="M148,145 Q144,132 142,122" fill="none" stroke-width="1.5"/>
+  <!-- Top right vein to tip -->
+  <path d="M152,145 Q156,132 158,122" fill="none" stroke-width="1.5"/>
+  <!-- Small sub-veins left -->
+  <path d="M136,168 Q130,165 124,168" fill="none" stroke-width="1"/>
+  <path d="M128,152 Q122,150 116,152" fill="none" stroke-width="1"/>
+  <!-- Small sub-veins right -->
+  <path d="M164,168 Q170,165 176,168" fill="none" stroke-width="1"/>
+  <path d="M172,152 Q178,150 184,152" fill="none" stroke-width="1"/>
+  <!-- Small sub-veins top -->
+  <path d="M146,135 Q140,132 136,135" fill="none" stroke-width="1"/>
+  <path d="M154,135 Q160,132 164,135" fill="none" stroke-width="1"/>
+  <!-- Additional small leaves on twig -->
+  <path d="M182,268 Q188,255 198,252 Q200,262 192,268 Z" stroke-width="2"/>
+  <!-- Acorn decoration -->
+  <ellipse cx="62" cy="105" rx="16" ry="22"/>
+  <!-- Acorn cap -->
+  <path d="M46,106 Q62,95 78,106 Q78,100 62,96 Q46,100 46,106 Z"/>
+  <!-- Acorn stem -->
+  <line x1="62" y1="94" x2="62" y2="82" stroke-width="3"/>
+  <!-- Acorn texture -->
+  <path d="M52,108 Q62,104 72,108" fill="none" stroke-width="1.5"/>
+  <path d="M50,114 Q62,110 74,114" fill="none" stroke-width="1.5"/>
+  <path d="M50,120 Q62,116 74,120" fill="none" stroke-width="1.5"/>
+  <!-- Small mushroom -->
+  <path d="M228,250 Q228,235 240,232 Q252,235 252,250 Z"/>
+  <rect x="234" y="250" width="12" height="22" rx="3"/>
+  <!-- Mushroom spots -->
+  <circle cx="238" cy="237" r="3" fill="none" stroke-width="1.5"/>
+  <circle cx="245" cy="234" r="3" fill="none" stroke-width="1.5"/>
+  <circle cx="248" cy="241" r="3" fill="none" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Branch -->
+  <path d="M20,240 Q100,228 180,235 Q220,238 280,230" fill="none" stroke-width="8"/>
+  <!-- Branch texture -->
+  <path d="M60,240 Q65,245 70,240" fill="none" stroke-width="2"/>
+  <path d="M140,237 Q145,242 150,237" fill="none" stroke-width="2"/>
+  <path d="M210,237 Q215,242 220,237" fill="none" stroke-width="2"/>
+  <!-- Body -->
+  <ellipse cx="150" cy="190" rx="52" ry="42"/>
+  <!-- Tail feathers -->
+  <path d="M196,195 Q232,208 240,228 Q228,225 215,215 Q220,232 205,240 Q198,225 195,210 Z"/>
+  <!-- Wing left -->
+  <path d="M112,175 Q95,155 85,168 Q82,182 100,192 Q112,190 120,182 Z"/>
+  <!-- Wing right -->
+  <path d="M188,175 Q205,155 215,168 Q218,182 200,192 Q188,190 180,182 Z"/>
+  <!-- Wing feather details -->
+  <path d="M90,170 Q95,175 100,170" fill="none" stroke-width="1.5"/>
+  <path d="M88,178 Q95,183 102,178" fill="none" stroke-width="1.5"/>
+  <!-- Head -->
+  <circle cx="150" cy="148" r="36"/>
+  <!-- Eye -->
+  <circle cx="163" cy="143" r="11"/>
+  <!-- Pupil -->
+  <circle cx="165" cy="143" r="6" fill="#222" stroke="none"/>
+  <!-- Eye shine -->
+  <circle cx="167" cy="141" r="3" fill="white" stroke="none"/>
+  <!-- Beak upper -->
+  <path d="M182,148 Q200,152 192,162 Q178,158 175,150 Z"/>
+  <!-- Beak lower -->
+  <path d="M182,148 Q200,152 192,162" fill="none"/>
+  <!-- Beak divider -->
+  <line x1="182" y1="148" x2="196" y2="155" stroke-width="1.5"/>
+  <!-- Crest on head -->
+  <path d="M145,113 Q148,95 152,88 Q158,100 165,112" fill="none" stroke-width="2.5"/>
+  <path d="M152,88 Q155,78 158,72" fill="none" stroke-width="2"/>
+  <!-- Breast detail line -->
+  <path d="M130,175 Q150,185 170,175" fill="none" stroke-width="1.5"/>
+  <!-- Left foot -->
+  <path d="M130,230 L125,248" stroke-width="3"/>
+  <path d="M125,248 L110,258" stroke-width="2.5"/>
+  <path d="M125,248 L120,262" stroke-width="2.5"/>
+  <path d="M125,248 L130,260" stroke-width="2.5"/>
+  <path d="M125,248 L138,255" stroke-width="2.5"/>
+  <!-- Right foot -->
+  <path d="M165" y1="232" x2="170" y2="248" stroke-width="3"/>
+  <path d="M170,248 L155,258" stroke-width="2.5"/>
+  <path d="M170,248 L165,262" stroke-width="2.5"/>
+  <path d="M170,248 L175,260" stroke-width="2.5"/>
+  <path d="M170,248 L183,255" stroke-width="2.5"/>
+  <line x1="130" y1="230" x2="125" y2="248" stroke-width="3"/>
+  <line x1="165" y1="232" x2="170" y2="248" stroke-width="3"/>
+</svg>

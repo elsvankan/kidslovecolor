@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Body -->
+  <ellipse cx="155" cy="195" rx="90" ry="72"/>
+  <!-- Head -->
+  <circle cx="90" cy="128" r="62"/>
+  <!-- Left ear (big) -->
+  <ellipse cx="42" cy="125" rx="35" ry="48"/>
+  <!-- Trunk -->
+  <path d="M60,155 Q30,185 38,220 Q43,240 58,242 Q73,244 75,225 Q77,208 62,198" fill="white" stroke="#1a1a1a"/>
+  <!-- Trunk nostril -->
+  <ellipse cx="58" cy="238" rx="8" ry="5"/>
+  <!-- Left eye -->
+  <circle cx="72" cy="112" r="12"/>
+  <!-- Left pupil -->
+  <circle cx="74" cy="114" r="6" fill="#222" stroke="none"/>
+  <!-- Eye shine -->
+  <circle cx="77" cy="111" r="3" fill="white" stroke="none"/>
+  <!-- Eyebrow left -->
+  <path d="M60,98 Q72,91 84,96" fill="none" stroke-width="2.5"/>
+  <!-- Tusk left -->
+  <path d="M68,148 Q50,165 48,185 Q47,198 58,198" fill="none" stroke-width="5"/>
+  <!-- Body wrinkles -->
+  <path d="M80,165 Q105,155 130,165" fill="none" stroke-width="1.5"/>
+  <path d="M155,175 Q175,165 195,172" fill="none" stroke-width="1.5"/>
+  <!-- Front left leg -->
+  <rect x="85" y="248" width="38" height="45" rx="14"/>
+  <!-- Front right leg -->
+  <rect x="142" y="252" width="38" height="44" rx="14"/>
+  <!-- Back left leg -->
+  <rect x="195" y="250" width="38" height="45" rx="14"/>
+  <!-- Tail -->
+  <path d="M242,180 Q268,175 270,192 Q272,205 260,210" fill="none" stroke-width="4"/>
+  <!-- Tail tuft -->
+  <path d="M255,207 Q260,218 252,224" fill="none" stroke-width="3"/>
+  <path d="M258,209 Q265,218 258,226" fill="none" stroke-width="3"/>
+  <path d="M261,210 Q270,217 265,226" fill="none" stroke-width="3"/>
+  <!-- Wrinkle on trunk -->
+  <path d="M50,185 Q55,182 60,185" fill="none" stroke-width="1.5"/>
+  <path d="M48,198 Q55,195 62,198" fill="none" stroke-width="1.5"/>
+  <path d="M48,212 Q55,209 62,212" fill="none" stroke-width="1.5"/>
+  <!-- Toenails -->
+  <ellipse cx="99" cy="290" rx="7" ry="4"/>
+  <ellipse cx="113" cy="291" rx="7" ry="4"/>
+  <ellipse cx="127" cy="290" rx="7" ry="4"/>
+</svg>

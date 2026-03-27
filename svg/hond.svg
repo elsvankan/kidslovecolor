@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Body -->
+  <ellipse cx="148" cy="210" rx="75" ry="60"/>
+  <!-- Head -->
+  <circle cx="148" cy="115" r="60"/>
+  <!-- Left floppy ear -->
+  <ellipse cx="90" cy="128" rx="25" ry="40" transform="rotate(-15, 90, 128)"/>
+  <!-- Right floppy ear -->
+  <ellipse cx="206" cy="128" rx="25" ry="40" transform="rotate(15, 206, 128)"/>
+  <!-- Left eye -->
+  <circle cx="127" cy="105" r="13"/>
+  <!-- Left pupil -->
+  <circle cx="129" cy="107" r="7" fill="#222" stroke="none"/>
+  <!-- Left eye shine -->
+  <circle cx="132" cy="103" r="3" fill="white" stroke="none"/>
+  <!-- Right eye -->
+  <circle cx="169" cy="105" r="13"/>
+  <!-- Right pupil -->
+  <circle cx="171" cy="107" r="7" fill="#222" stroke="none"/>
+  <!-- Right eye shine -->
+  <circle cx="174" cy="103" r="3" fill="white" stroke="none"/>
+  <!-- Snout -->
+  <ellipse cx="148" cy="135" rx="28" ry="22"/>
+  <!-- Nose -->
+  <ellipse cx="148" cy="127" rx="14" ry="10" fill="#333"/>
+  <!-- Nostril left -->
+  <ellipse cx="141" cy="128" rx="4" ry="3" fill="white" stroke="none"/>
+  <!-- Nostril right -->
+  <ellipse cx="155" cy="128" rx="4" ry="3" fill="white" stroke="none"/>
+  <!-- Mouth -->
+  <path d="M148,137 Q138,150 126,146" fill="none"/>
+  <path d="M148,137 Q158,150 170,146" fill="none"/>
+  <!-- Tongue -->
+  <ellipse cx="148" cy="152" rx="10" ry="8" fill="#e88" stroke="#e88"/>
+  <!-- Eyebrow left -->
+  <path d="M114,91 Q127,85 140,91" fill="none" stroke-width="2.5"/>
+  <!-- Eyebrow right -->
+  <path d="M156,91 Q169,85 182,91" fill="none" stroke-width="2.5"/>
+  <!-- Tail (wagging up) -->
+  <path d="M223,215 Q265,195 268,160 Q271,140 252,145" fill="none" stroke-width="7"/>
+  <!-- Front left leg -->
+  <rect x="95" y="245" width="30" height="38" rx="12"/>
+  <!-- Front right leg -->
+  <rect x="175" y="245" width="30" height="38" rx="12"/>
+  <!-- Spots on body -->
+  <ellipse cx="155" cy="200" rx="18" ry="14" fill="#ddd" stroke="#bbb"/>
+  <!-- Collar -->
+  <path d="M92,163 Q148,178 204,163" fill="none" stroke-width="5"/>
+  <!-- Tag -->
+  <circle cx="148" cy="179" r="8" fill="white"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Body -->
+  <ellipse cx="150" cy="155" rx="10" ry="55"/>
+  <!-- Head -->
+  <circle cx="150" cy="92" r="14"/>
+  <!-- Left antenna -->
+  <path d="M145,80 Q125,50 118,35" fill="none" stroke-width="2.5"/>
+  <circle cx="118" cy="35" r="5" fill="#1a1a1a" stroke="none"/>
+  <!-- Right antenna -->
+  <path d="M155,80 Q175,50 182,35" fill="none" stroke-width="2.5"/>
+  <circle cx="182" cy="35" r="5" fill="#1a1a1a" stroke="none"/>
+  <!-- Upper left wing -->
+  <path d="M148,110 Q100,80 62,100 Q30,120 40,155 Q50,188 85,185 Q120,182 145,155 Z"/>
+  <!-- Upper right wing -->
+  <path d="M152,110 Q200,80 238,100 Q270,120 260,155 Q250,188 215,185 Q180,182 155,155 Z"/>
+  <!-- Lower left wing -->
+  <path d="M146,165 Q110,170 80,195 Q55,218 65,242 Q75,262 102,258 Q130,252 146,210 Z"/>
+  <!-- Lower right wing -->
+  <path d="M154,165 Q190,170 220,195 Q245,218 235,242 Q225,262 198,258 Q170,252 154,210 Z"/>
+  <!-- Wing pattern upper left - large circle -->
+  <circle cx="90" cy="138" r="22" stroke-width="2"/>
+  <!-- Wing pattern upper left - small circle -->
+  <circle cx="68" cy="150" r="10" stroke-width="2"/>
+  <!-- Wing pattern upper right - large circle -->
+  <circle cx="210" cy="138" r="22" stroke-width="2"/>
+  <!-- Wing pattern upper right - small circle -->
+  <circle cx="232" cy="150" r="10" stroke-width="2"/>
+  <!-- Wing pattern lower left -->
+  <circle cx="100" cy="220" r="14" stroke-width="2"/>
+  <!-- Wing pattern lower right -->
+  <circle cx="200" cy="220" r="14" stroke-width="2"/>
+  <!-- Wavy edge pattern on upper left wing -->
+  <path d="M65,120 Q72,110 80,118 Q87,126 95,116 Q103,106 110,115" fill="none" stroke-width="1.5"/>
+  <!-- Wavy edge pattern on upper right wing -->
+  <path d="M235,120 Q228,110 220,118 Q213,126 205,116 Q197,106 190,115" fill="none" stroke-width="1.5"/>
+  <!-- Body segments -->
+  <line x1="150" y1="115" x2="150" y2="205" stroke="#1a1a1a" stroke-width="1.5"/>
+  <ellipse cx="150" cy="135" rx="8" ry="6"/>
+  <ellipse cx="150" cy="155" rx="8" ry="6"/>
+  <ellipse cx="150" cy="175" rx="8" ry="6"/>
+  <ellipse cx="150" cy="195" rx="7" ry="5"/>
+</svg>

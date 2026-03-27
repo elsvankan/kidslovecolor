@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Sun -->
+  <circle cx="252" cy="55" r="25"/>
+  <line x1="252" y1="20" x2="252" y2="12" stroke-width="3"/>
+  <line x1="252" y1="90" x2="252" y2="98" stroke-width="3"/>
+  <line x1="217" y1="55" x2="209" y2="55" stroke-width="3"/>
+  <line x1="287" y1="55" x2="295" y2="55" stroke-width="3"/>
+  <line x1="228" y1="31" x2="222" y2="25" stroke-width="3"/>
+  <line x1="276" y1="79" x2="282" y2="85" stroke-width="3"/>
+  <line x1="228" y1="79" x2="222" y2="85" stroke-width="3"/>
+  <line x1="276" y1="31" x2="282" y2="25" stroke-width="3"/>
+  <!-- Mast -->
+  <line x1="140" y1="55" x2="140" y2="195" stroke-width="4"/>
+  <!-- Main sail -->
+  <path d="M140,65 Q190,90 190,165 L140,165 Z"/>
+  <!-- Front sail (jib) -->
+  <path d="M140,80 Q90,105 95,165 L140,165 Z"/>
+  <!-- Sail details -->
+  <path d="M140,90 Q175,110 175,150" fill="none" stroke-width="1.5"/>
+  <path d="M140,115 Q168,130 170,160" fill="none" stroke-width="1.5"/>
+  <!-- Rigging ropes -->
+  <line x1="140" y1="65" x2="95" y2="165" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <line x1="140" y1="65" x2="185" y2="165" stroke-width="1.5" stroke-dasharray="4,3"/>
+  <!-- Hull -->
+  <path d="M55,200 Q60,190 140,188 Q220,190 245,200 Q250,215 240,222 Q200,235 140,237 Q80,235 58,222 Q50,215 55,200 Z"/>
+  <!-- Waterline stripe -->
+  <path d="M58,215 Q140,225 242,215" fill="none" stroke-width="2"/>
+  <!-- Deck rail -->
+  <path d="M65,200 L215,200" fill="none" stroke-width="2"/>
+  <!-- Porthole left -->
+  <circle cx="90" cy="210" r="10"/>
+  <!-- Porthole right -->
+  <circle cx="190" cy="210" r="10"/>
+  <!-- Porthole middle -->
+  <circle cx="140" cy="213" r="10"/>
+  <!-- Flag at top of mast -->
+  <path d="M140,55 Q160,50 175,55 Q160,62 140,58 Z" fill="white"/>
+  <!-- Boom -->
+  <line x1="140" y1="165" x2="200" y2="165" stroke-width="3"/>
+  <!-- Water waves -->
+  <path d="M15,248 Q35,238 55,248 Q75,258 95,248 Q115,238 135,248 Q155,258 175,248 Q195,238 215,248 Q235,258 255,248 Q270,240 285,248" fill="none" stroke-width="3"/>
+  <path d="M15,265 Q35,255 55,265 Q75,275 95,265 Q115,255 135,265 Q155,275 175,265 Q195,255 215,265 Q235,275 255,265 Q270,257 285,265" fill="none" stroke-width="2"/>
+  <!-- Anchor symbol -->
+  <circle cx="170" cy="205" r="5"/>
+  <line x1="170" y1="210" x2="170" y2="220" stroke-width="2"/>
+  <line x1="163" y1="218" x2="177" y2="218" stroke-width="2"/>
+</svg>

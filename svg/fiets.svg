@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Rear wheel -->
+  <circle cx="80" cy="210" r="68"/>
+  <circle cx="80" cy="210" r="52"/>
+  <circle cx="80" cy="210" r="8" fill="#333" stroke="#333"/>
+  <!-- Rear spokes -->
+  <line x1="80" y1="162" x2="80" y2="258" stroke-width="2"/>
+  <line x1="32" y1="210" x2="128" y2="210" stroke-width="2"/>
+  <line x1="46" y1="176" x2="114" y2="244" stroke-width="2"/>
+  <line x1="114" y1="176" x2="46" y2="244" stroke-width="2"/>
+  <line x1="38" y1="193" x2="122" y2="227" stroke-width="1.5"/>
+  <line x1="122" y1="193" x2="38" y2="227" stroke-width="1.5"/>
+  <!-- Front wheel -->
+  <circle cx="222" cy="210" r="68"/>
+  <circle cx="222" cy="210" r="52"/>
+  <circle cx="222" cy="210" r="8" fill="#333" stroke="#333"/>
+  <!-- Front spokes -->
+  <line x1="222" y1="162" x2="222" y2="258" stroke-width="2"/>
+  <line x1="174" y1="210" x2="270" y2="210" stroke-width="2"/>
+  <line x1="188" y1="176" x2="256" y2="244" stroke-width="2"/>
+  <line x1="256" y1="176" x2="188" y2="244" stroke-width="2"/>
+  <line x1="180" y1="193" x2="264" y2="227" stroke-width="1.5"/>
+  <line x1="264" y1="193" x2="180" y2="227" stroke-width="1.5"/>
+  <!-- Frame - chain stay left -->
+  <line x1="80" y1="210" x2="151" y2="210" stroke-width="4"/>
+  <!-- Frame - bottom bracket -->
+  <circle cx="151" cy="210" r="10" fill="white" stroke-width="3"/>
+  <!-- Frame - down tube -->
+  <line x1="151" y1="210" x2="195" y2="135" stroke-width="5"/>
+  <!-- Frame - seat tube -->
+  <line x1="151" y1="210" x2="165" y2="132" stroke-width="5"/>
+  <!-- Frame - top tube -->
+  <line x1="165" y1="132" x2="195" y2="135" stroke-width="4"/>
+  <!-- Frame - seat stay -->
+  <line x1="165" y1="132" x2="80" y2="210" stroke-width="4"/>
+  <!-- Frame - fork left -->
+  <line x1="195" y1="135" x2="218" y2="210" stroke-width="4"/>
+  <!-- Frame - fork right -->
+  <line x1="195" y1="135" x2="226" y2="210" stroke-width="4"/>
+  <!-- Head tube -->
+  <rect x="190" y="125" width="10" height="25" rx="4" fill="white"/>
+  <!-- Handlebar stem -->
+  <line x1="195" y1="127" x2="195" y2="110" stroke-width="5"/>
+  <!-- Handlebars -->
+  <path d="M175,110 Q195,105 215,110" fill="none" stroke-width="5"/>
+  <!-- Handlebar grips -->
+  <rect x="170" y="107" width="10" height="8" rx="4" fill="white"/>
+  <rect x="210" y="107" width="10" height="8" rx="4" fill="white"/>
+  <!-- Seat post -->
+  <line x1="165" y1="132" x2="158" y2="112" stroke-width="5"/>
+  <!-- Saddle -->
+  <path d="M140,110 Q158,105 176,110" fill="none" stroke-width="6"/>
+  <!-- Pedal crank left -->
+  <line x1="151" y1="210" x2="138" y2="228" stroke-width="4"/>
+  <!-- Pedal left -->
+  <rect x="128" y="225" width="20" height="7" rx="3" fill="white"/>
+  <!-- Pedal crank right -->
+  <line x1="151" y1="210" x2="164" y2="192" stroke-width="4"/>
+  <!-- Pedal right -->
+  <rect x="155" y="186" width="20" height="7" rx="3" fill="white"/>
+  <!-- Chain ring -->
+  <circle cx="151" cy="210" r="22" fill="none" stroke-width="2"/>
+  <!-- Bell -->
+  <circle cx="182" cy="110" r="6" fill="white"/>
+</svg>

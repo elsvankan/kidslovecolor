@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Outer rays (triangular) -->
+  <!-- Top -->
+  <path d="M150,145 L140,95 L160,95 Z"/>
+  <!-- Top right 1 -->
+  <path d="M150,145 L185,100 L200,115 Z"/>
+  <!-- Right -->
+  <path d="M150,150 L200,140 L200,160 Z"/>
+  <!-- Bottom right 1 -->
+  <path d="M150,155 L200,185 L185,200 Z"/>
+  <!-- Bottom -->
+  <path d="M150,155 L160,205 L140,205 Z"/>
+  <!-- Bottom left 1 -->
+  <path d="M150,155 L115,200 L100,185 Z"/>
+  <!-- Left -->
+  <path d="M150,150 L100,160 L100,140 Z"/>
+  <!-- Top left 1 -->
+  <path d="M150,145 L100,115 L115,100 Z"/>
+  <!-- Wavy/curved rays between -->
+  <path d="M150,145 L165,92 L175,105" fill="none" stroke-width="3"/>
+  <path d="M150,145 L198,128 L195,142" fill="none" stroke-width="3"/>
+  <path d="M150,155 L198,172 L190,182" fill="none" stroke-width="3"/>
+  <path d="M150,155 L165,207 L155,212" fill="none" stroke-width="3"/>
+  <path d="M150,155 L135,207 L145,212" fill="none" stroke-width="3"/>
+  <path d="M150,155 L102,172 L110,182" fill="none" stroke-width="3"/>
+  <path d="M150,150 L102,128 L105,142" fill="none" stroke-width="3"/>
+  <path d="M150,145 L135,92 L125,105" fill="none" stroke-width="3"/>
+  <!-- Main sun circle -->
+  <circle cx="150" cy="150" r="55"/>
+  <!-- Eyes -->
+  <ellipse cx="132" cy="140" rx="10" ry="12"/>
+  <ellipse cx="168" cy="140" rx="10" ry="12"/>
+  <!-- Pupils (looking friendly downward) -->
+  <ellipse cx="133" cy="143" rx="6" ry="8" fill="#222" stroke="none"/>
+  <ellipse cx="169" cy="143" rx="6" ry="8" fill="#222" stroke="none"/>
+  <!-- Eye shines -->
+  <circle cx="136" cy="139" r="3" fill="white" stroke="none"/>
+  <circle cx="172" cy="139" r="3" fill="white" stroke="none"/>
+  <!-- Eyebrows (arched and happy) -->
+  <path d="M120,128 Q132,120 144,126" fill="none" stroke-width="3"/>
+  <path d="M156,126 Q168,118 180,125" fill="none" stroke-width="3"/>
+  <!-- Nose -->
+  <path d="M147,155 Q150,160 153,155" fill="none" stroke-width="2.5"/>
+  <!-- Big happy smile -->
+  <path d="M122,168 Q150,192 178,168" fill="none" stroke-width="4"/>
+  <!-- Smile crinkles -->
+  <path d="M122,168 Q118,162 120,155" fill="none" stroke-width="2"/>
+  <path d="M178,168 Q182,162 180,155" fill="none" stroke-width="2"/>
+  <!-- Cheeks -->
+  <ellipse cx="115" cy="162" rx="14" ry="10" fill="none" stroke-width="2"/>
+  <ellipse cx="185" cy="162" rx="14" ry="10" fill="none" stroke-width="2"/>
+  <!-- Small stars near sun -->
+  <path d="M42,55 L44,48 L46,55 L53,55 L48,60 L50,67 L44,62 L38,67 L40,60 L35,55 Z" stroke-width="1.5"/>
+  <path d="M255,42 L257,35 L259,42 L266,42 L261,47 L263,54 L257,49 L251,54 L253,47 L248,42 Z" stroke-width="1.5"/>
+  <path d="M270,168 L271,163 L272,168 L277,168 L273,171 L274,176 L271,173 L268,176 L269,171 L265,168 Z" stroke-width="1.5"/>
+  <path d="M28,175 L29,170 L30,175 L35,175 L31,178 L32,183 L29,180 L26,183 L27,178 L23,175 Z" stroke-width="1.5"/>
+  <!-- Clouds below / around sun -->
+  <path d="M20,255 Q45,242 70,248 Q78,238 95,240 Q108,230 125,238 Q128,228 145,232 Q148,220 165,228 Q178,220 190,228 Q198,218 215,225 Q225,215 242,225 Q258,218 275,232" fill="none" stroke-width="3"/>
+</svg>

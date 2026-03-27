@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Body -->
+  <ellipse cx="150" cy="215" rx="72" ry="58"/>
+  <!-- Head -->
+  <circle cx="150" cy="118" r="58"/>
+  <!-- Left ear -->
+  <polygon points="100,73 80,28 128,62"/>
+  <!-- Right ear inner -->
+  <polygon points="200,73 220,28 172,62"/>
+  <!-- Left ear inner -->
+  <polygon points="104,68 88,38 124,64" fill="#f0a0a0" stroke="#f0a0a0"/>
+  <!-- Right ear inner -->
+  <polygon points="196,68 212,38 176,64" fill="#f0a0a0" stroke="#f0a0a0"/>
+  <!-- Left eye -->
+  <ellipse cx="128" cy="108" rx="12" ry="14"/>
+  <!-- Left pupil -->
+  <ellipse cx="128" cy="110" rx="6" ry="11" fill="#222" stroke="none"/>
+  <!-- Right eye -->
+  <ellipse cx="172" cy="108" rx="12" ry="14"/>
+  <!-- Right pupil -->
+  <ellipse cx="172" cy="110" rx="6" ry="11" fill="#222" stroke="none"/>
+  <!-- Nose -->
+  <polygon points="150,130 143,140 157,140" fill="#e88"/>
+  <!-- Mouth -->
+  <path d="M143,140 Q133,152 122,148" fill="none"/>
+  <path d="M157,140 Q167,152 178,148" fill="none"/>
+  <!-- Left whiskers -->
+  <line x1="75" y1="128" x2="138" y2="133"/>
+  <line x1="75" y1="140" x2="138" y2="140"/>
+  <line x1="75" y1="152" x2="138" y2="147"/>
+  <!-- Right whiskers -->
+  <line x1="162" y1="133" x2="225" y2="128"/>
+  <line x1="162" y1="140" x2="225" y2="140"/>
+  <line x1="162" y1="147" x2="225" y2="152"/>
+  <!-- Tail -->
+  <path d="M222,230 Q268,195 265,148 Q262,118 244,128" fill="none" stroke-width="6"/>
+  <!-- Front left paw -->
+  <ellipse cx="112" cy="263" rx="26" ry="16"/>
+  <!-- Front right paw -->
+  <ellipse cx="188" cy="263" rx="26" ry="16"/>
+  <!-- Toe lines left -->
+  <line x1="103" y1="255" x2="103" y2="271"/>
+  <line x1="112" y1="253" x2="112" y2="271"/>
+  <line x1="121" y1="255" x2="121" y2="271"/>
+  <!-- Toe lines right -->
+  <line x1="179" y1="255" x2="179" y2="271"/>
+  <line x1="188" y1="253" x2="188" y2="271"/>
+  <line x1="197" y1="255" x2="197" y2="271"/>
+  <!-- Collar -->
+  <path d="M96,162 Q150,175 204,162" fill="none" stroke-width="4"/>
+  <!-- Bell -->
+  <circle cx="150" cy="176" r="7" fill="white"/>
+</svg>

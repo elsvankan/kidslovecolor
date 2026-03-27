@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Crown -->
+  <path d="M112,52 L112,40 L125,52 L150,32 L175,52 L188,40 L188,52 Z"/>
+  <path d="M112,52 L188,52 L185,68 L115,68 Z"/>
+  <!-- Crown gems -->
+  <circle cx="150" cy="42" r="6" fill="white"/>
+  <circle cx="125" cy="52" r="4" fill="white"/>
+  <circle cx="175" cy="52" r="4" fill="white"/>
+  <!-- Head -->
+  <circle cx="150" cy="90" r="42"/>
+  <!-- Hair -->
+  <path d="M110,78 Q108,60 120,55 Q135,48 150,48 Q165,48 180,55 Q192,60 190,78" fill="white" stroke-width="3"/>
+  <!-- Hair curls left -->
+  <path d="M108,82 Q95,90 92,108 Q90,125 100,135" fill="none" stroke-width="3.5"/>
+  <!-- Hair curls right -->
+  <path d="M192,82 Q205,90 208,108 Q210,125 200,135" fill="none" stroke-width="3.5"/>
+  <!-- Hair strands -->
+  <path d="M115,62 Q110,75 112,88" fill="none" stroke-width="2"/>
+  <path d="M130,52 Q126,65 128,80" fill="none" stroke-width="2"/>
+  <path d="M150,50 Q148,65 150,80" fill="none" stroke-width="2"/>
+  <path d="M170,52 Q174,65 172,80" fill="none" stroke-width="2"/>
+  <path d="M185,62 Q190,75 188,88" fill="none" stroke-width="2"/>
+  <!-- Eyes -->
+  <ellipse cx="136" cy="90" rx="11" ry="13"/>
+  <ellipse cx="164" cy="90" rx="11" ry="13"/>
+  <!-- Pupils -->
+  <ellipse cx="136" cy="92" rx="6" ry="9" fill="#222" stroke="none"/>
+  <ellipse cx="164" cy="92" rx="6" ry="9" fill="#222" stroke="none"/>
+  <!-- Eye shines -->
+  <circle cx="139" cy="88" r="3" fill="white" stroke="none"/>
+  <circle cx="167" cy="88" r="3" fill="white" stroke="none"/>
+  <!-- Eyelashes -->
+  <path d="M126,82 Q130,78 134,80" fill="none" stroke-width="2"/>
+  <path d="M159,80 Q162,77 166,80" fill="none" stroke-width="2"/>
+  <!-- Nose -->
+  <path d="M147,103 Q150,108 153,103" fill="none" stroke-width="2"/>
+  <!-- Smile -->
+  <path d="M136,115 Q150,126 164,115" fill="none" stroke-width="2.5"/>
+  <!-- Cheeks -->
+  <ellipse cx="125" cy="107" rx="12" ry="8" fill="none" stroke-width="1.5"/>
+  <ellipse cx="175" cy="107" rx="12" ry="8" fill="none" stroke-width="1.5"/>
+  <!-- Neck -->
+  <rect x="140" y="130" width="20" height="20" rx="5"/>
+  <!-- Necklace -->
+  <path d="M130,150 Q150,162 170,150" fill="none" stroke-width="2"/>
+  <circle cx="150" cy="162" r="5" fill="white"/>
+  <!-- Dress bodice -->
+  <path d="M108,150 Q120,140 150,138 Q180,140 192,150 L195,195 L105,195 Z"/>
+  <!-- Dress skirt -->
+  <path d="M105,195 Q75,210 55,250 Q100,260 150,262 Q200,260 245,250 Q225,210 195,195 Z"/>
+  <!-- Dress skirt layers -->
+  <path d="M70,235 Q110,245 150,248 Q190,245 230,235" fill="none" stroke-width="2"/>
+  <path d="M58,252 Q100,265 150,268 Q200,265 242,252" fill="none" stroke-width="2"/>
+  <!-- Dress decoration stars -->
+  <path d="M120,215 L122,209 L124,215 L130,215 L125,219 L127,225 L122,221 L117,225 L119,219 L114,215 Z" stroke-width="1.5"/>
+  <path d="M170,220 L172,214 L174,220 L180,220 L175,224 L177,230 L172,226 L167,230 L169,224 L164,220 Z" stroke-width="1.5"/>
+  <!-- Left arm -->
+  <path d="M108,155 Q85,165 75,185 Q80,192 88,188 Q98,180 112,168 Z"/>
+  <!-- Right arm -->
+  <path d="M192,155 Q215,165 225,185 Q220,192 212,188 Q202,180 188,168 Z"/>
+  <!-- Left hand with wand -->
+  <circle cx="72" cy="188" r="8"/>
+  <!-- Wand -->
+  <line x1="72" y1="180" x2="55" y2="148" stroke-width="3"/>
+  <!-- Star on wand -->
+  <path d="M55,140 L57,132 L59,140 L67,140 L61,145 L63,153 L55,148 L47,153 L49,145 L43,140 Z" stroke-width="2"/>
+  <!-- Dress bow -->
+  <path d="M130,162 Q140,155 150,160 Q140,168 130,162 Z"/>
+  <path d="M170,162 Q160,155 150,160 Q160,168 170,162 Z"/>
+  <circle cx="150" cy="160" r="5"/>
+</svg>

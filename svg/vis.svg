@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="white" stroke="#1a1a1a" stroke-width="3" stroke-linejoin="round" stroke-linecap="round">
+  <!-- Tail fin -->
+  <path d="M238,150 Q275,118 272,90 Q269,65 248,78 Q238,115 238,150 Q238,185 248,222 Q269,235 272,210 Q275,182 238,150 Z"/>
+  <!-- Body -->
+  <ellipse cx="145" cy="150" rx="95" ry="65"/>
+  <!-- Dorsal fin (top) -->
+  <path d="M100,87 Q130,50 170,80 Q165,88 140,88 Q115,88 100,87 Z"/>
+  <!-- Pectoral fin -->
+  <path d="M120,155 Q105,185 115,208 Q130,200 145,180 Q145,165 120,155 Z"/>
+  <!-- Ventral fin (bottom) -->
+  <path d="M130,212 Q150,240 170,220 Q158,210 140,210 Q135,210 130,212 Z"/>
+  <!-- Eye -->
+  <circle cx="82" cy="138" r="20"/>
+  <!-- Pupil -->
+  <circle cx="78" cy="136" r="10" fill="#222" stroke="none"/>
+  <!-- Eye shine -->
+  <circle cx="81" cy="133" r="5" fill="white" stroke="none"/>
+  <!-- Mouth -->
+  <path d="M50,158 Q42,150 50,143" fill="none" stroke-width="3"/>
+  <!-- Scales pattern -->
+  <path d="M100,115 Q118,105 138,115" fill="none" stroke-width="1.5"/>
+  <path d="M138,115 Q158,105 178,115" fill="none" stroke-width="1.5"/>
+  <path d="M178,115 Q198,105 215,115" fill="none" stroke-width="1.5"/>
+  <path d="M90,135 Q108,125 128,135" fill="none" stroke-width="1.5"/>
+  <path d="M128,135 Q148,125 168,135" fill="none" stroke-width="1.5"/>
+  <path d="M168,135 Q188,125 208,135" fill="none" stroke-width="1.5"/>
+  <path d="M100,155 Q118,145 138,155" fill="none" stroke-width="1.5"/>
+  <path d="M138,155 Q158,145 178,155" fill="none" stroke-width="1.5"/>
+  <path d="M178,155 Q198,145 215,155" fill="none" stroke-width="1.5"/>
+  <path d="M95,173 Q115,163 135,173" fill="none" stroke-width="1.5"/>
+  <path d="M135,173 Q155,163 175,173" fill="none" stroke-width="1.5"/>
+  <path d="M175,173 Q195,163 212,173" fill="none" stroke-width="1.5"/>
+  <path d="M105,192 Q125,182 145,192" fill="none" stroke-width="1.5"/>
+  <path d="M145,192 Q165,182 185,192" fill="none" stroke-width="1.5"/>
+  <!-- Gill line -->
+  <path d="M105,108 Q95,150 105,195" fill="none" stroke-width="2.5"/>
+  <!-- Bubbles -->
+  <circle cx="30" cy="110" r="7" fill="none"/>
+  <circle cx="18" cy="88" r="5" fill="none"/>
+  <circle cx="38" cy="75" r="10" fill="none"/>
+</svg>
