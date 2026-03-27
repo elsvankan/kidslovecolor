@@ -12,6 +12,14 @@
 // -------------------------------------------------------
 const _htmlLang = document.documentElement.lang;
 let currentLang = ['nl','en','fr','es','zh'].includes(_htmlLang) ? _htmlLang : 'nl';
+
+// Fix image paths: subpages (en/fr/es/zh) keep the ../ prefix; root (nl) strips it
+const _IS_SUBPAGE = currentLang !== 'nl';
+function resolveImgPath(img) {
+  if (!img) return null;
+  return _IS_SUBPAGE ? img : img.replace(/^\.\.\//, '');
+}
+
 let activeCategory  = 'all';
 let searchQuery     = '';
 let currentColoring = null;
@@ -428,7 +436,7 @@ function renderCard(item) {
   const diffClass = 'difficulty-' + item.difficulty;
 
   const altText = ld.altText || `${t('free_coloring_page')} ${ld.title} – KidsLoveColor`;
-  const imgSrc  = item.img || `data:image/svg+xml,${encodeURIComponent(placeholderSVG(ld.title))}`;
+  const imgSrc  = resolveImgPath(item.img) || `data:image/svg+xml,${encodeURIComponent(placeholderSVG(ld.title))}`;
 
   const printLabel    = `${t('print_btn')} – ${ld.title}`;
   const downloadLabel = `${t('download_btn')} – ${ld.title}`;
@@ -546,7 +554,7 @@ function openModal(id) {
   const ld      = item[currentLang] || item.nl;
   const cat     = CATEGORIES[item.category];
   const catLabel= cat ? (cat[currentLang]?.label || cat.nl.label) : item.category;
-  const imgSrc  = item.img || `data:image/svg+xml,${encodeURIComponent(placeholderSVG(ld.title))}`;
+  const imgSrc  = resolveImgPath(item.img) || `data:image/svg+xml,${encodeURIComponent(placeholderSVG(ld.title))}`;
   const altText = ld.altText || `${t('free_coloring_page')} ${ld.title}`;
 
   const modalTitle = document.getElementById('modalTitle');
@@ -633,7 +641,7 @@ function injectSingleImageSchema(item) {
 // -------------------------------------------------------
 function printColoring(item) {
   const ld      = item[currentLang] || item.nl;
-  const imgSrc  = item.img || '';
+  const imgSrc  = resolveImgPath(item.img) || '';
   const printWin = window.open('', '_blank', 'width=800,height=900');
   if (!printWin) { alert(t('popup_alert')); return; }
 
@@ -680,8 +688,8 @@ function downloadColoring(item) {
   if (!item.img) { alert(t('no_img_alert')); return; }
   const ld   = item[currentLang] || item.nl;
   const link = document.createElement('a');
-  link.href     = item.img;
-  link.download = item.slug + (item.img.endsWith('.svg') ? '.svg' : '.png');
+  link.href     = resolveImgPath(item.img);
+  link.download = item.slug + (item.img.endsWith('.svg') ? '.svg' : '.jpg');
   link.setAttribute('aria-label', `${ld.altText || ld.title} – download`);
   document.body.appendChild(link);
   link.click();
