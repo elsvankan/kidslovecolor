@@ -223,8 +223,10 @@ function updateSEO(cat) {
   // H2 section heading
   const h2 = document.getElementById('sectionHeading');
   if (h2) {
-    const catIcon = (CATEGORIES[cat] || CATEGORIES.all).icon || '🖍️';
-    h2.innerHTML = `<span aria-hidden="true">${catIcon}</span> ${langData.h2 || t('section_heading')}`;
+    const catIcon = (CATEGORIES[cat] || CATEGORIES.all).icon;
+    h2.innerHTML = catIcon
+      ? `<span aria-hidden="true">${catIcon}</span> ${langData.h2 || t('section_heading')}`
+      : langData.h2 || t('section_heading');
   }
 
   // Category intro text
@@ -341,7 +343,7 @@ function renderCategories() {
       aria-pressed="${key === activeCategory}"
       title="${titleAttr}"
     >
-      <span class="cat-icon" aria-hidden="true">${cat.icon}</span>
+      ${cat.icon ? `<span class="cat-icon" aria-hidden="true">${cat.icon}</span>` : ''}
       ${label}
     </button>`;
   }).join('');

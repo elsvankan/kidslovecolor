@@ -10,7 +10,7 @@
   <meta name="keywords" content="免费涂色页, 儿童涂色, 可打印涂色页, 涂色书, 动物涂色, 公主涂色, 交通工具涂色, 四季涂色"/>
   <meta name="author" content="KidsLoveColor.com"/>
   <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"/>
-  <meta name="theme-color" content="#7C3AED"/>
+  <meta name="theme-color" content="#FF6B6B"/>
   <link rel="canonical" href="https://kidslovecolor.com/zh/" id="canonical"/>
 
   <!-- hreflang: 所有语言版本 -->
@@ -47,7 +47,7 @@
   <meta name="twitter:image:alt"   content="KidsLoveColor – 免费儿童涂色页"/>
 
   <!-- FAVICON -->
-  <link rel="icon"             href="/favicon.svg"          type="image/svg+xml"/>
+  <link rel="icon"             href="/img/logo.svg"          type="image/svg+xml"/>
   <link rel="apple-touch-icon" href="/img/apple-touch-icon.png"/>
 
   <!-- FONTS — Nunito + Noto Sans SC for Chinese -->
@@ -56,7 +56,7 @@
   <link rel="preload"    href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"/>
   <noscript><link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Noto+Sans+SC:wght@400;700;900&display=swap" rel="stylesheet"/></noscript>
 
-  <link rel="stylesheet" href="../css/style.css"/>
+  <link rel="stylesheet" href="../css/style.css?v=2"/>
 
   <!-- GOOGLE ADSENSE -->
   <!--
@@ -75,7 +75,7 @@
         "url": "https://kidslovecolor.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://kidslovecolor.com/favicon.svg",
+          "url": "https://kidslovecolor.com/img/logo.svg",
           "width": 64,
           "height": 64
         }
@@ -148,13 +148,11 @@
 <header class="site-header" role="banner">
   <div class="header-top">
     <a href="/zh/" class="logo" aria-label="KidsLoveColor – 免费涂色页，首页">
-      <div class="logo-icon" aria-hidden="true">🎨</div>
-      <span class="logo-text">Kids<span>Love</span>Color</span>
+      <img src="/img/logo.svg" alt="KidsLoveColor" class="logo-img" width="140" height="130"/>
     </a>
 
     <div class="header-search" role="search">
       <label for="searchInput" class="sr-only">搜索免费涂色页</label>
-      <span class="search-icon" aria-hidden="true">🔍</span>
       <input
         type="search"
         id="searchInput"
@@ -181,7 +179,6 @@
 <section class="hero-section" aria-labelledby="heroHeading">
   <div class="container">
     <h1 id="heroHeading">
-      <span aria-hidden="true">🎨</span>
       免费儿童涂色页
     </h1>
     <p>
@@ -239,7 +236,6 @@
 
     <div class="section-header">
       <h2 class="section-title" id="sectionHeading">
-        <span aria-hidden="true">🖍️</span>
         可打印涂色页
       </h2>
       <span class="result-count" id="resultCount" role="status" aria-live="polite">16 张涂色页</span>
@@ -256,7 +252,6 @@
     </div>
 
     <div class="no-results" id="noResults" role="status" aria-live="polite" aria-atomic="true">
-      <div class="no-results-icon" aria-hidden="true">🔍</div>
       <h3>未找到涂色页</h3>
       <p>请尝试其他搜索词或选择其他类别。</p>
     </div>
@@ -305,26 +300,26 @@
     </div>
 
     <div class="sidebar-card">
-      <h3 class="sidebar-title">💡 家长小贴士</h3>
+      <h3 class="sidebar-title">家长小贴士</h3>
       <ul class="tip-list">
-        <li><span class="tip-icon" aria-hidden="true">🖨️</span> 用A4纸打印效果最佳</li>
-        <li><span class="tip-icon" aria-hidden="true">✏️</span> 使用彩色铅笔、马克笔或蜡笔</li>
-        <li><span class="tip-icon" aria-hidden="true">🏆</span> 把最美的涂色页挂在冰箱上！</li>
-        <li><span class="tip-icon" aria-hidden="true">📁</span> 把所有涂色页收集在一个文件夹里</li>
-        <li><span class="tip-icon" aria-hidden="true">🎁</span> 作为礼物送给爷爷奶奶</li>
+        <li>用A4纸打印效果最佳</li>
+        <li>使用彩色铅笔、马克笔或蜡笔</li>
+        <li>把最美的涂色页挂在冰箱上！</li>
+        <li>把所有涂色页收集在一个文件夹里</li>
+        <li>作为礼物送给爷爷奶奶</li>
       </ul>
     </div>
 
     <div class="sidebar-card">
-      <h3 class="sidebar-title">📂 涂色页分类</h3>
+      <h3 class="sidebar-title">涂色页分类</h3>
       <nav aria-label="分类导航（侧边栏）">
         <ul class="tip-list">
-          <li><a href="/zh/?cat=dieren"     title="免费动物涂色页"><span aria-hidden="true">🐾</span> 动物涂色页</a></li>
-          <li><a href="/zh/?cat=voertuigen" title="免费交通工具涂色页"><span aria-hidden="true">🚗</span> 交通工具涂色页</a></li>
-          <li><a href="/zh/?cat=prinsessen" title="免费公主涂色页"><span aria-hidden="true">👑</span> 公主与仙女涂色页</a></li>
-          <li><a href="/zh/?cat=seizoenen"  title="免费四季涂色页"><span aria-hidden="true">🌸</span> 四季与自然涂色页</a></li>
-          <li><a href="/zh/?cat=feestdagen" title="免费节日涂色页"><span aria-hidden="true">🎉</span> 节日涂色页</a></li>
-          <li><a href="/zh/?cat=ruimte"     title="免费太空涂色页"><span aria-hidden="true">🚀</span> 太空涂色页</a></li>
+          <li><a href="/zh/?cat=dieren"     title="免费动物涂色页">动物涂色页</a></li>
+          <li><a href="/zh/?cat=voertuigen" title="免费交通工具涂色页">交通工具涂色页</a></li>
+          <li><a href="/zh/?cat=prinsessen" title="免费公主涂色页">公主与仙女涂色页</a></li>
+          <li><a href="/zh/?cat=seizoenen"  title="免费四季涂色页">四季与自然涂色页</a></li>
+          <li><a href="/zh/?cat=feestdagen" title="免费节日涂色页">节日涂色页</a></li>
+          <li><a href="/zh/?cat=ruimte"     title="免费太空涂色页">太空涂色页</a></li>
         </ul>
       </nav>
     </div>
@@ -346,8 +341,7 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="/zh/" class="logo" aria-label="KidsLoveColor 首页">
-          <div class="logo-icon" aria-hidden="true">🎨</div>
-          <span class="logo-text">Kids<span>Love</span>Color</span>
+          <img src="/img/logo.svg" alt="KidsLoveColor" class="footer-logo-img" width="100" height="92"/>
         </a>
         <p>
           最好的<strong>免费可打印儿童涂色页</strong>网站。
@@ -358,12 +352,12 @@
       <nav class="footer-links" aria-label="分类">
         <h4>涂色页分类</h4>
         <ul>
-          <li><a href="/zh/?cat=dieren"     title="免费动物涂色页">🐾 动物涂色页</a></li>
-          <li><a href="/zh/?cat=voertuigen" title="免费交通工具涂色页">🚗 交通工具涂色页</a></li>
-          <li><a href="/zh/?cat=prinsessen" title="免费公主涂色页">👑 公主涂色页</a></li>
-          <li><a href="/zh/?cat=seizoenen"  title="免费四季涂色页">🌸 四季涂色页</a></li>
-          <li><a href="/zh/?cat=feestdagen" title="免费节日涂色页">🎉 节日涂色页</a></li>
-          <li><a href="/zh/?cat=ruimte"     title="免费太空涂色页">🚀 太空涂色页</a></li>
+          <li><a href="/zh/?cat=dieren"     title="免费动物涂色页">动物涂色页</a></li>
+          <li><a href="/zh/?cat=voertuigen" title="免费交通工具涂色页">交通工具涂色页</a></li>
+          <li><a href="/zh/?cat=prinsessen" title="免费公主涂色页">公主涂色页</a></li>
+          <li><a href="/zh/?cat=seizoenen"  title="免费四季涂色页">四季涂色页</a></li>
+          <li><a href="/zh/?cat=feestdagen" title="免费节日涂色页">节日涂色页</a></li>
+          <li><a href="/zh/?cat=ruimte"     title="免费太空涂色页">太空涂色页</a></li>
         </ul>
       </nav>
 
@@ -407,10 +401,10 @@
     </div>
     <div class="modal-actions">
       <button class="btn btn-primary" id="modalPrint">
-        <span aria-hidden="true">🖨️</span> 打印
+        打印
       </button>
       <button class="btn btn-green" id="modalDownload">
-        <span aria-hidden="true">⬇️</span> 下载
+        下载
       </button>
     </div>
     <div role="complementary" aria-label="广告" class="modal-ad">
