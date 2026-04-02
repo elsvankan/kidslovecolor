@@ -182,6 +182,8 @@ document.addEventListener('DOMContentLoaded', () => {
   setupModal();
   setupScrollTop();
   updateLangUI();
+  setupMobileSearch();
+  hideEmptyAdBanners();
   injectColoringPageSchema();   // structured data on page load
 });
 
@@ -388,7 +390,13 @@ function renderGrid() {
 
   if (filtered.length === 0) {
     grid.innerHTML = '';
-    if (noRes) noRes.classList.add('visible');
+    if (noRes) {
+      noRes.innerHTML = `
+        <div class="no-results-icon" aria-hidden="true">🎨</div>
+        <h3>${t('no_results_title')}</h3>
+        <p>${t('no_results_text')}</p>`;
+      noRes.classList.add('visible');
+    }
     return;
   }
 
@@ -706,6 +714,45 @@ function setupScrollTop() {
     btn.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
   btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+// -------------------------------------------------------
+// MOBILE SEARCH TOGGLE
+// -------------------------------------------------------
+function setupMobileSearch() {
+  const btn       = document.getElementById('mobileSearchBtn');
+  const searchDiv = document.querySelector('.header-search');
+  const headerTop = document.querySelector('.header-top');
+  if (!btn || !searchDiv) return;
+
+  btn.addEventListener('click', () => {
+    const isOpen = searchDiv.classList.toggle('mobile-open');
+    headerTop?.classList.toggle('search-expanded', isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+    if (isOpen) document.getElementById('searchInput')?.focus();
+  });
+
+  // Close mobile search when Escape is pressed
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && searchDiv.classList.contains('mobile-open')) {
+      searchDiv.classList.remove('mobile-open');
+      headerTop?.classList.remove('search-expanded');
+      btn.setAttribute('aria-expanded', 'false');
+      btn.focus();
+    }
+  });
+}
+
+// -------------------------------------------------------
+// HIDE EMPTY AD BANNERS
+// -------------------------------------------------------
+function hideEmptyAdBanners() {
+  document.querySelectorAll('.ad-banner').forEach(banner => {
+    if (!banner.querySelector('ins.adsbygoogle')) {
+      const wrapper = banner.closest('[role="complementary"]') || banner.parentElement;
+      if (wrapper) wrapper.style.display = 'none';
+    }
+  });
 }
 
 // -------------------------------------------------------
