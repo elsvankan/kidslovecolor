@@ -686,3 +686,6 @@ const COLORINGS = [
   },
 
 ];
+
+// Expose on window so inline scripts can access the count
+window.COLORINGS = COLORINGS;
