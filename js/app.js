@@ -185,6 +185,13 @@ document.addEventListener('DOMContentLoaded', () => {
   setupMobileSearch();
   hideEmptyAdBanners();
   injectColoringPageSchema();   // structured data on page load
+
+  // Auto-open modal when visiting /kleurplaat/SLUG directly
+  const slugMatch = window.location.pathname.match(/^\/kleurplaat\/([^/]+)$/);
+  if (slugMatch) {
+    const item = COLORINGS.find(c => c.slug === slugMatch[1]);
+    if (item) openModal(item.id);
+  }
 });
 
 // -------------------------------------------------------
@@ -598,8 +605,7 @@ function openModal(id) {
   document.body.style.overflow = 'hidden';
   setTimeout(() => modalTitle?.focus(), 100);
 
-  history.pushState({ modal: item.slug }, '',
-    window.location.pathname + '?kleurplaat=' + item.slug);
+  history.pushState({ modal: item.slug }, '', '/kleurplaat/' + item.slug);
 
   injectSingleImageSchema(item);
 }
@@ -609,7 +615,11 @@ function closeModal() {
   overlay?.classList.remove('open');
   document.body.style.overflow = '';
   currentColoring = null;
-  history.back();
+  if (window.location.pathname.startsWith('/kleurplaat/')) {
+    history.pushState({}, '', '/');
+  } else {
+    history.back();
+  }
 }
 
 // -------------------------------------------------------
@@ -629,7 +639,7 @@ function injectSingleImageSchema(item) {
   const schema = {
     '@context': 'https://schema.org',
     '@type':    'ImageObject',
-    '@id':      `${BASE_URL}?kleurplaat=${item.slug}`,
+    '@id':      `https://kidslovecolor.com/kleurplaat/${item.slug}`,
     'name':     `${ld.title} – ${freeLabel[currentLang] || freeLabel.nl}`,
     'description': ld.description || '',
     'contentUrl':  imgUrl,
