@@ -17,7 +17,13 @@
  * After running:
  *   1. Review the entry added to js/data.js
  *   2. Copy image to img/kleurplaten/ if not already there
- *   3. git add . && git commit -m "Add [name]" && git push
+ *   3. node generate-kleurplaat-pages.js   ← ALTIJD DOEN voor Pinterest!
+ *   4. git add . && git commit -m "Add [name]" && git push
+ *
+ * Waarom generate-kleurplaat-pages.js?
+ *   Pinterest voert geen JavaScript uit. Zonder pre-rendered HTML krijgt
+ *   Pinterest een lege pagina en geeft 404 in de pin builder.
+ *   Het script genereert echte HTML-pagina's met og:image voor elke kleurplaat.
  */
 
 const fs = require('fs');
