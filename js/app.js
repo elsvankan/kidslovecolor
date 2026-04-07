@@ -670,13 +670,11 @@ function printColoring(item) {
     html, body { width:100%; height:100%; background:white; }
     body { font-family: 'Nunito', Arial, sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; }
     .print-img { width:100%; height:auto; max-height:92vh; object-fit:contain; display:block; }
-    .print-footer { margin-top:4pt; font-size:7pt; color:#9CA3AF; text-align:center; flex-shrink:0; }
     @media print { body { -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
   </style>
 </head>
 <body>
     <img class="print-img" src="${absImgSrc}" alt="${ld.altText || ld.title}"/>
-    <p class="print-footer">${t('print_tagline')}</p>
   <script>
     window.onload = function() {
       window.print();
