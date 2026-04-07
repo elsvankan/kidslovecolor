@@ -288,6 +288,36 @@ const CATEGORIES = {
     slug_en: 'food',
   },
 
+  kawaii: {
+    nl: { label: 'Kawaii', pageTitle: 'Kawaii Kleurplaten voor Kinderen – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare kawaii kleurplaten: schattige karakters, dieren en voorwerpen in kawaii-stijl. Leuk voor kinderen!', h2: 'Kawaii Kleurplaten – Gratis Printbaar', intro: 'Schattige kawaii kleurplaten voor kinderen! Leuke karakters, dieren en voorwerpen in de populaire Japanse kawaii-stijl.' },
+    en: { label: 'Kawaii', pageTitle: 'Kawaii Coloring Pages for Kids – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable kawaii coloring pages: cute characters, animals and objects in kawaii style. Fun for kids!', h2: 'Kawaii Coloring Pages – Free Printable', intro: 'Cute kawaii coloring pages for kids! Fun characters, animals and objects in the popular Japanese kawaii style.' },
+    fr: { label: 'Kawaii', pageTitle: 'Pages à Colorier Kawaii pour Enfants – Gratuit | KidsLoveColor.com', metaDesc: 'Pages à colorier kawaii gratuites : personnages mignons, animaux et objets en style kawaii. Amusant pour les enfants!', h2: 'Pages à Colorier Kawaii – Gratuit', intro: 'Pages à colorier kawaii mignonnes pour les enfants! Personnages amusants, animaux et objets dans le style japonais kawaii populaire.' },
+    es: { label: 'Kawaii', pageTitle: 'Páginas para Colorear Kawaii para Niños – Gratis | KidsLoveColor.com', metaDesc: 'Páginas para colorear kawaii gratis: personajes lindos, animales y objetos en estilo kawaii. ¡Divertido para niños!', h2: 'Páginas para Colorear Kawaii – Gratis', intro: '¡Páginas para colorear kawaii lindas para niños! Personajes divertidos, animales y objetos en el popular estilo japonés kawaii.' },
+    zh: { label: '可爱', pageTitle: '可爱涂色页 儿童 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费可爱涂色页：可爱的角色、动物和物品。适合儿童！', h2: '可爱涂色页 – 免费可打印', intro: '适合儿童的可爱涂色页！有趣的角色、动物和日本流行可爱风格的物品。' },
+    icon: '🌸',
+    slug_en: 'kawaii',
+  },
+
+  natuur: {
+    nl: { label: 'Natuur', pageTitle: 'Natuur Kleurplaten voor Kinderen – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare natuur kleurplaten: bloemen, bomen, paddenstoelen, planten en meer. Direct downloaden of afdrukken.', h2: 'Natuur Kleurplaten – Gratis Printbaar', intro: 'Ontdek de natuur met onze kleurplaten! Bloemen, planten, bomen en paddenstoelen — prachtig om in te kleuren.' },
+    en: { label: 'Nature', pageTitle: 'Nature Coloring Pages for Kids – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable nature coloring pages: flowers, trees, mushrooms, plants and more. Download or print instantly.', h2: 'Nature Coloring Pages – Free Printable', intro: 'Discover nature with our coloring pages! Flowers, plants, trees and mushrooms — beautiful to color.' },
+    fr: { label: 'Nature', pageTitle: 'Pages à Colorier Nature pour Enfants – Gratuit | KidsLoveColor.com', metaDesc: 'Pages à colorier nature gratuites : fleurs, arbres, champignons, plantes et plus. Téléchargez ou imprimez.', h2: 'Pages à Colorier Nature – Gratuit', intro: 'Découvrez la nature avec nos pages à colorier ! Fleurs, plantes, arbres et champignons — magnifiques à colorier.' },
+    es: { label: 'Naturaleza', pageTitle: 'Páginas para Colorear Naturaleza para Niños – Gratis | KidsLoveColor.com', metaDesc: 'Páginas para colorear naturaleza gratis: flores, árboles, hongos, plantas y más. Descarga o imprime.', h2: 'Páginas para Colorear Naturaleza – Gratis', intro: '¡Descubre la naturaleza con nuestras páginas para colorear! Flores, plantas, árboles y hongos — hermosos para colorear.' },
+    zh: { label: '自然', pageTitle: '儿童自然涂色页 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费自然涂色页：花朵、树木、蘑菇、植物等。立即下载或打印。', h2: '自然涂色页 – 免费可打印', intro: '用我们的涂色页探索自然！花朵、植物、树木和蘑菇 — 美丽的着色体验。' },
+    icon: '🌿',
+    slug_en: 'nature',
+  },
+
+  sprookjes: {
+    nl: { label: 'Sprookjes', pageTitle: 'Sprookjes Kleurplaten voor Kinderen – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare sprookjes kleurplaten: eenhoorns, prinsessen, feeën en meer. Direct downloaden of afdrukken.', h2: 'Sprookjes Kleurplaten – Gratis Printbaar', intro: 'Magische sprookjes kleurplaten voor kinderen! Eenhoorns, prinsessen, draken en feeën — prachtig om in te kleuren.' },
+    en: { label: 'Fairy Tales', pageTitle: 'Fairy Tale Coloring Pages for Kids – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable fairy tale coloring pages: unicorns, princesses, fairies and more. Download or print instantly.', h2: 'Fairy Tale Coloring Pages – Free Printable', intro: 'Magical fairy tale coloring pages for kids! Unicorns, princesses, dragons and fairies — beautiful to color.' },
+    fr: { label: 'Contes de fées', pageTitle: 'Pages à Colorier Contes de Fées pour Enfants – Gratuit | KidsLoveColor.com', metaDesc: 'Pages à colorier contes de fées gratuites : licornes, princesses, fées et plus. Téléchargez ou imprimez.', h2: 'Pages à Colorier Contes de Fées – Gratuit', intro: 'Pages à colorier magiques pour les enfants ! Licornes, princesses, dragons et fées — magnifiques à colorier.' },
+    es: { label: 'Cuentos de hadas', pageTitle: 'Páginas para Colorear Cuentos de Hadas para Niños – Gratis | KidsLoveColor.com', metaDesc: 'Páginas para colorear cuentos de hadas gratis: unicornios, princesas, hadas y más. Descarga o imprime.', h2: 'Páginas para Colorear Cuentos de Hadas – Gratis', intro: '¡Páginas para colorear mágicas para niños! Unicornios, princesas, dragones y hadas — hermosos para colorear.' },
+    zh: { label: '童话', pageTitle: '儿童童话涂色页 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费童话涂色页：独角兽、公主、仙子等。立即下载或打印。', h2: '童话涂色页 – 免费可打印', intro: '适合儿童的神奇童话涂色页！独角兽、公主、龙和仙子 — 美丽的着色体验。' },
+    icon: '🦄',
+    slug_en: 'fairy-tales',
+  },
+
   ruimte: {
     nl: {
       label:     'Ruimte',
@@ -479,7 +509,7 @@ const COLORINGS = [
 
   // ===== NEW: KAWAII =====
   {
-    id: 28, slug: 'kawaii-flowers-cactus', category: 'kawaii', difficulty: 'easy',
+    id: 28, slug: 'kawaii-flowers-cactus', category: 'natuur', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-flowers-cactus.jpg',
     nl: { title: 'Kawaii Bloemen & Cactus', description: 'Gratis kawaii kleurplaat met schattige bloemen en cactussen in potjes met lieve gezichtjes.', keywords: 'kawaii bloemen cactus kleurplaat gratis kinderen schattig', altText: 'Gratis kawaii kleurplaat bloemen en cactus – kinderen' },
     en: { title: 'Kawaii Flowers & Cactus', description: 'Free kawaii coloring page with cute flowers and cacti in pots with sweet little faces.', keywords: 'kawaii flowers cactus coloring page free kids cute', altText: 'Free kawaii coloring page flowers and cactus – kids' },
@@ -488,7 +518,7 @@ const COLORINGS = [
     zh: { title: '可爱花朵与仙人掌', description: '免费可爱风格涂色页，画的是有可爱小脸的花朵和盆栽仙人掌。', keywords: '可爱 花朵 仙人掌 涂色 免费 儿童', altText: '免费涂色页 可爱花朵与仙人掌 – 儿童' },
   },
   {
-    id: 29, slug: 'kawaii-cactus', category: 'kawaii', difficulty: 'easy',
+    id: 29, slug: 'kawaii-cactus', category: 'natuur', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-cactus.jpg',
     nl: { title: 'Kawaii Cactussen', description: 'Gratis kleurplaat met vier vrolijke kawaii cactussen in kleurrijke potjes met lieve gezichtjes.', keywords: 'kawaii cactus kleurplaat potjes gratis kinderen vrolijk', altText: 'Gratis kawaii kleurplaat cactussen – kinderen' },
     en: { title: 'Kawaii Cacti', description: 'Free coloring page with four cheerful kawaii cacti in colorful pots with sweet faces.', keywords: 'kawaii cactus coloring page pots free kids cheerful', altText: 'Free kawaii coloring page cacti – kids' },
@@ -497,7 +527,7 @@ const COLORINGS = [
     zh: { title: '可爱仙人掌', description: '免费涂色页，画的是四个有可爱小脸的彩色盆栽仙人掌。', keywords: '可爱 仙人掌 涂色 免费 盆栽 儿童', altText: '免费涂色页 可爱仙人掌 – 儿童' },
   },
   {
-    id: 30, slug: 'kawaii-cat-dog', category: 'kawaii', difficulty: 'easy',
+    id: 30, slug: 'kawaii-cat-dog', category: 'dieren', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-cat-dog.jpg',
     nl: { title: 'Kawaii Kat & Hond', description: 'Gratis kawaii kleurplaat van een schattige kat en hond bij een hondenhok. Met vlindertjes en zon.', keywords: 'kawaii kat hond kleurplaat hondenhok gratis kinderen', altText: 'Gratis kawaii kleurplaat kat en hond – kinderen' },
     en: { title: 'Kawaii Cat & Dog', description: 'Free kawaii coloring page of a cute cat and dog at a kennel. With butterflies and sunshine.', keywords: 'kawaii cat dog coloring page kennel butterflies free kids', altText: 'Free kawaii coloring page cat and dog – kids' },
@@ -506,7 +536,7 @@ const COLORINGS = [
     zh: { title: '可爱猫咪与小狗', description: '免费可爱风格涂色页，画的是在小狗屋旁边的猫咪和小狗，有蝴蝶和阳光。', keywords: '可爱 猫 狗 涂色 免费 蝴蝶 儿童', altText: '免费涂色页 可爱猫咪与小狗 – 儿童' },
   },
   {
-    id: 31, slug: 'bunny-cupcake', category: 'kawaii', difficulty: 'easy',
+    id: 31, slug: 'bunny-cupcake', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/bunny-cupcake.jpg',
     nl: { title: 'Konijn op Cupcake', description: 'Gratis kawaii kleurplaat van een schattig konijn bovenop een grote cupcake met donuts.', keywords: 'konijn cupcake kleurplaat kawaii donut gratis kinderen', altText: 'Gratis kleurplaat konijn op cupcake – kinderen' },
     en: { title: 'Bunny on Cupcake', description: 'Free kawaii coloring page of a cute bunny sitting on top of a big cupcake with donuts.', keywords: 'bunny cupcake coloring page kawaii donut free kids', altText: 'Free coloring page bunny on cupcake – kids' },
@@ -515,7 +545,7 @@ const COLORINGS = [
     zh: { title: '纸杯蛋糕上的小兔', description: '免费可爱风格涂色页，画的是坐在大纸杯蛋糕上的小兔子，周围有甜甜圈。', keywords: '兔子 纸杯蛋糕 涂色 免费 甜甜圈 儿童', altText: '免费涂色页 纸杯蛋糕上的小兔 – 儿童' },
   },
   {
-    id: 32, slug: 'kawaii-sweets', category: 'kawaii', difficulty: 'easy',
+    id: 32, slug: 'kawaii-sweets', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-sweets.jpg',
     nl: { title: 'Kawaii Snoepjes', description: 'Gratis kleurplaat vol kawaii snoepjes: donuts, taarten, cupcakes en ijsjes met lieve gezichtjes.', keywords: 'kawaii snoep kleurplaat donut taart cupcake ijsje gratis kinderen', altText: 'Gratis kawaii kleurplaat snoepjes – kinderen' },
     en: { title: 'Kawaii Sweets', description: 'Free coloring page full of kawaii sweets: donuts, cakes, cupcakes and ice cream with cute faces.', keywords: 'kawaii sweets coloring page donut cake cupcake ice cream free kids', altText: 'Free kawaii coloring page sweets – kids' },
@@ -524,7 +554,7 @@ const COLORINGS = [
     zh: { title: '可爱甜点大集合', description: '免费涂色页，满满的可爱甜点：甜甜圈、蛋糕、纸杯蛋糕和冰淇淋。', keywords: '可爱 甜点 涂色 免费 蛋糕 儿童', altText: '免费涂色页 可爱甜点大集合 – 儿童' },
   },
   {
-    id: 33, slug: 'kawaii-fastfood', category: 'kawaii', difficulty: 'easy',
+    id: 33, slug: 'kawaii-fastfood', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-fastfood.jpg',
     nl: { title: 'Kawaii Fast Food', description: 'Gratis kawaii kleurplaat met een schattige donut, hamburger en drankje met vrolijke gezichtjes.', keywords: 'kawaii fastfood kleurplaat donut hamburger drankje gratis kinderen', altText: 'Gratis kawaii kleurplaat fast food – kinderen' },
     en: { title: 'Kawaii Fast Food', description: 'Free kawaii coloring page with a cute donut, burger and drink with cheerful little faces.', keywords: 'kawaii fast food coloring page donut burger drink free kids', altText: 'Free kawaii coloring page fast food – kids' },
@@ -533,7 +563,7 @@ const COLORINGS = [
     zh: { title: '可爱快餐', description: '免费可爱风格涂色页，画的是有可爱小脸的甜甜圈、汉堡和饮料。', keywords: '可爱 快餐 涂色 免费 汉堡 儿童', altText: '免费涂色页 可爱快餐 – 儿童' },
   },
   {
-    id: 34, slug: 'kawaii-bottle-animals', category: 'kawaii', difficulty: 'medium',
+    id: 34, slug: 'kawaii-bottle-animals', category: 'dieren', difficulty: 'medium',
     img: '../img/kleurplaten/kawaii-bottle-animals.jpg',
     nl: { title: 'Dieren in een Fles', description: 'Gratis kawaii kleurplaat van schattige kleine diertjes (konijn, beer) in een magische fles met bladeren.', keywords: 'kawaii dieren fles kleurplaat konijn beer gratis kinderen magisch', altText: 'Gratis kawaii kleurplaat dieren in fles – kinderen' },
     en: { title: 'Animals in a Bottle', description: 'Free kawaii coloring page of cute little animals (rabbit, bear) in a magic bottle with leaves.', keywords: 'kawaii animals bottle coloring page rabbit bear free kids magic', altText: 'Free kawaii coloring page animals in bottle – kids' },
@@ -542,7 +572,7 @@ const COLORINGS = [
     zh: { title: '魔法瓶中的小动物', description: '免费可爱风格涂色页，画的是在有叶子装饰的魔法瓶里的小兔子和小熊。', keywords: '可爱 动物 瓶子 涂色 免费 魔法 儿童', altText: '免费涂色页 魔法瓶中的小动物 – 儿童' },
   },
   {
-    id: 35, slug: 'kawaii-fruit', category: 'kawaii', difficulty: 'easy',
+    id: 35, slug: 'kawaii-fruit', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-fruit.jpg',
     nl: { title: 'Kawaii Fruit', description: 'Gratis kawaii kleurplaat met een vrolijk stel fruitjes: ananas, banaan, aardbei, watermeloen en meer.', keywords: 'kawaii fruit kleurplaat ananas banaan aardbei gratis kinderen', altText: 'Gratis kawaii kleurplaat fruit – kinderen' },
     en: { title: 'Kawaii Fruit', description: 'Free kawaii coloring page with a cheerful bunch of fruits: pineapple, banana, strawberry, watermelon and more.', keywords: 'kawaii fruit coloring page pineapple banana strawberry watermelon free kids', altText: 'Free kawaii coloring page fruit – kids' },
@@ -551,7 +581,7 @@ const COLORINGS = [
     zh: { title: '可爱水果派对', description: '免费可爱风格涂色页，画的是菠萝、香蕉、草莓、西瓜等一群快乐的水果。', keywords: '可爱 水果 涂色 免费 菠萝 草莓 儿童', altText: '免费涂色页 可爱水果派对 – 儿童' },
   },
   {
-    id: 36, slug: 'kawaii-vegetables', category: 'kawaii', difficulty: 'easy',
+    id: 36, slug: 'kawaii-vegetables', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-vegetables.jpg',
     nl: { title: 'Kawaii Groenten', description: 'Gratis kawaii kleurplaat met vrolijke groenten: paprika, broccoli, wortel, ananas en meer met lieve gezichtjes.', keywords: 'kawaii groenten kleurplaat paprika broccoli wortel gratis kinderen', altText: 'Gratis kawaii kleurplaat groenten – kinderen' },
     en: { title: 'Kawaii Vegetables', description: 'Free kawaii coloring page with cheerful vegetables: pepper, broccoli, carrot and more with cute faces.', keywords: 'kawaii vegetables coloring page pepper broccoli carrot free kids', altText: 'Free kawaii coloring page vegetables – kids' },
@@ -560,7 +590,7 @@ const COLORINGS = [
     zh: { title: '可爱蔬菜', description: '免费可爱风格涂色页，画的是有可爱小脸的辣椒、西兰花、胡萝卜等蔬菜。', keywords: '可爱 蔬菜 涂色 免费 胡萝卜 儿童', altText: '免费涂色页 可爱蔬菜 – 儿童' },
   },
   {
-    id: 37, slug: 'kawaii-burgers', category: 'kawaii', difficulty: 'easy',
+    id: 37, slug: 'kawaii-burgers', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-burgers.jpg',
     nl: { title: 'Kawaii Hamburgers', description: 'Gratis kawaii kleurplaat met grappige hamburgers, frietjes en een smoothie met gezichtjes.', keywords: 'kawaii hamburger frietjes kleurplaat gratis kinderen smoothie', altText: 'Gratis kawaii kleurplaat hamburgers – kinderen' },
     en: { title: 'Kawaii Burgers', description: 'Free kawaii coloring page with funny burgers, fries and a smoothie with cute faces.', keywords: 'kawaii burger fries coloring page smoothie free kids', altText: 'Free kawaii coloring page burgers – kids' },
@@ -569,7 +599,7 @@ const COLORINGS = [
     zh: { title: '可爱汉堡', description: '免费可爱风格涂色页，画的是有可爱小脸的汉堡、薯条和奶昔。', keywords: '可爱 汉堡 薯条 涂色 免费 儿童', altText: '免费涂色页 可爱汉堡 – 儿童' },
   },
   {
-    id: 38, slug: 'kawaii-ice-cream', category: 'kawaii', difficulty: 'easy',
+    id: 38, slug: 'kawaii-ice-cream', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-ice-cream.jpg',
     nl: { title: 'Kawaii IJsjes', description: 'Gratis kawaii kleurplaat met een schattig ijslolly en een hoorntje met lieve gezichtjes en hartjes.', keywords: 'kawaii ijsje kleurplaat ijslolly hoorntje gratis kinderen hartjes', altText: 'Gratis kawaii kleurplaat ijsjes – kinderen' },
     en: { title: 'Kawaii Ice Cream', description: 'Free kawaii coloring page with a cute popsicle and ice cream cone with sweet faces and hearts.', keywords: 'kawaii ice cream coloring page popsicle cone hearts free kids', altText: 'Free kawaii coloring page ice cream – kids' },
@@ -578,7 +608,7 @@ const COLORINGS = [
     zh: { title: '可爱冰淇淋', description: '免费可爱风格涂色页，画的是有可爱小脸和爱心的冰棒和冰淇淋甜筒。', keywords: '可爱 冰淇淋 涂色 免费 爱心 儿童', altText: '免费涂色页 可爱冰淇淋 – 儿童' },
   },
   {
-    id: 39, slug: 'kawaii-desserts', category: 'kawaii', difficulty: 'easy',
+    id: 39, slug: 'kawaii-desserts', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-desserts.jpg',
     nl: { title: 'Kawaii Desserts', description: 'Gratis kawaii kleurplaat vol lekkere desserts: glaasjes met mousse, ijsjes, cupcakes en taartjes.', keywords: 'kawaii desserts kleurplaat mousse cupcake taartje ijsje gratis kinderen', altText: 'Gratis kawaii kleurplaat desserts – kinderen' },
     en: { title: 'Kawaii Desserts', description: 'Free kawaii coloring page full of delicious desserts: mousse glasses, ice cream, cupcakes and little cakes.', keywords: 'kawaii desserts coloring page mousse cupcake cake ice cream free kids', altText: 'Free kawaii coloring page desserts – kids' },
@@ -587,7 +617,7 @@ const COLORINGS = [
     zh: { title: '可爱甜品', description: '免费可爱风格涂色页，满满的美味甜品：慕斯杯、冰淇淋、纸杯蛋糕和小蛋糕。', keywords: '可爱 甜品 涂色 免费 蛋糕 冰淇淋 儿童', altText: '免费涂色页 可爱甜品 – 儿童' },
   },
   {
-    id: 40, slug: 'kawaii-cat-ice-cream', category: 'kawaii', difficulty: 'easy',
+    id: 40, slug: 'kawaii-cat-ice-cream', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-cat-ice-cream.jpg',
     nl: { title: 'Kat met IJsje', description: 'Gratis kawaii kleurplaat van een schattige kat die een ijsje vasthoudt, omringd door hartjes en sterren.', keywords: 'kawaii kat ijsje kleurplaat hartjes sterren gratis kinderen', altText: 'Gratis kawaii kleurplaat kat met ijsje – kinderen' },
     en: { title: 'Cat with Ice Cream', description: 'Free kawaii coloring page of a cute cat holding an ice cream, surrounded by hearts and stars.', keywords: 'kawaii cat ice cream coloring page hearts stars free kids', altText: 'Free kawaii coloring page cat with ice cream – kids' },
@@ -596,7 +626,7 @@ const COLORINGS = [
     zh: { title: '拿冰淇淋的猫咪', description: '免费可爱风格涂色页，画的是手拿冰淇淋、被爱心和星星围绕的可爱猫咪。', keywords: '可爱 猫 冰淇淋 涂色 免费 爱心 儿童', altText: '免费涂色页 拿冰淇淋的猫咪 – 儿童' },
   },
   {
-    id: 41, slug: 'kawaii-pizza', category: 'kawaii', difficulty: 'easy',
+    id: 41, slug: 'kawaii-pizza', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-pizza.jpg',
     nl: { title: 'Kawaii Pizza & Friends', description: 'Gratis kawaii kleurplaat met pizza, hotdog, hamburger, frietjes en een ijsje met vrolijke gezichtjes.', keywords: 'kawaii pizza hotdog hamburger frietjes kleurplaat gratis kinderen', altText: 'Gratis kawaii kleurplaat pizza en vrienden – kinderen' },
     en: { title: 'Kawaii Pizza & Friends', description: 'Free kawaii coloring page with pizza, hot dog, burger, fries and ice cream with cheerful faces.', keywords: 'kawaii pizza hot dog burger fries coloring page free kids', altText: 'Free kawaii coloring page pizza and friends – kids' },
@@ -605,7 +635,7 @@ const COLORINGS = [
     zh: { title: '可爱披萨伙伴', description: '免费可爱风格涂色页，画的是有可爱小脸的披萨、热狗、汉堡、薯条和冰淇淋。', keywords: '可爱 披萨 热狗 汉堡 涂色 免费 儿童', altText: '免费涂色页 可爱披萨伙伴 – 儿童' },
   },
   {
-    id: 42, slug: 'kawaii-plants', category: 'kawaii', difficulty: 'medium',
+    id: 42, slug: 'kawaii-plants', category: 'natuur', difficulty: 'medium',
     img: '../img/kleurplaten/kawaii-plants.jpg',
     nl: { title: 'Kawaii Plantjes', description: 'Gratis kawaii kleurplaat met schattige planten, bloemen en een cactus met gezichtjes en hartjes.', keywords: 'kawaii planten bloemen cactus kleurplaat gratis kinderen hartjes', altText: 'Gratis kawaii kleurplaat plantjes – kinderen' },
     en: { title: 'Kawaii Plants', description: 'Free kawaii coloring page with cute plants, flowers and a cactus with little faces and hearts.', keywords: 'kawaii plants flowers cactus coloring page hearts free kids', altText: 'Free kawaii coloring page plants – kids' },
@@ -623,7 +653,7 @@ const COLORINGS = [
     zh: { title: '可爱学校用品', description: '免费可爱风格涂色页，画的是书包、笔记本、时钟、铅笔和地球仪等学校用品。', keywords: '可爱 学校 书包 铅笔 涂色 免费 儿童', altText: '免费涂色页 可爱学校用品 – 儿童' },
   },
   {
-    id: 44, slug: 'kawaii-smoothie', category: 'kawaii', difficulty: 'easy',
+    id: 44, slug: 'kawaii-smoothie', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-smoothie.jpg',
     nl: { title: 'Kawaii Smoothie', description: 'Gratis kawaii kleurplaat van een grote smoothie omringd door vrolijke fruitjes met lieve gezichtjes.', keywords: 'kawaii smoothie kleurplaat fruit gratis kinderen schattig', altText: 'Gratis kawaii kleurplaat smoothie – kinderen' },
     en: { title: 'Kawaii Smoothie', description: 'Free kawaii coloring page of a big smoothie surrounded by cheerful fruits with cute little faces.', keywords: 'kawaii smoothie coloring page fruit free kids cute', altText: 'Free kawaii coloring page smoothie – kids' },
@@ -632,7 +662,7 @@ const COLORINGS = [
     zh: { title: '可爱奶昔', description: '免费可爱风格涂色页，画的是被有可爱小脸的水果围绕的大奶昔。', keywords: '可爱 奶昔 水果 涂色 免费 儿童', altText: '免费涂色页 可爱奶昔 – 儿童' },
   },
   {
-    id: 45, slug: 'kawaii-cake', category: 'kawaii', difficulty: 'easy',
+    id: 45, slug: 'kawaii-cake', category: 'eten', difficulty: 'easy',
     img: '../img/kleurplaten/kawaii-cake.jpg',
     nl: { title: 'Kawaii Taart Feest', description: 'Gratis kawaii kleurplaat van een grote taart met snoepjes, ijsjes en allerlei andere lekkernijen.', keywords: 'kawaii taart feest kleurplaat snoep ijsje gratis kinderen', altText: 'Gratis kawaii kleurplaat taart feest – kinderen' },
     en: { title: 'Kawaii Cake Party', description: 'Free kawaii coloring page of a big cake with candies, ice cream and all kinds of other treats.', keywords: 'kawaii cake party coloring page candy ice cream free kids', altText: 'Free kawaii coloring page cake party – kids' },
