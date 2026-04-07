@@ -327,6 +327,49 @@ const CATEGORIES = {
     icon: '',
     slug_en: 'space',
   },
+
+
+  oceaan: {
+    nl: { label: 'Oceaan', pageTitle: 'Oceaan Kleurplaten voor Kinderen – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare oceaan en zee dieren kleurplaten. Dolfijnen, walvissen, schildpadden en meer. Perfect voor kinderen!', h2: 'Oceaan Kleurplaten – Gratis Printbaar', intro: 'Duik met je kind in onze verzameling oceaan en zee dieren kleurplaten! Van vriendelijke dolfijnen tot majesteitelijke walvissen, deze kleurplaten brengen de wondere wereld onder water tot leven.' },
+    en: { label: 'Ocean', pageTitle: 'Ocean Coloring Pages for Kids – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable ocean and sea animal coloring pages. Dolphins, whales, sea turtles, and more. Perfect for kids!', h2: 'Ocean Coloring Pages – Free Printable', intro: 'Dive into our collection of ocean and sea animal coloring pages with your child! From friendly dolphins to majestic whales, these coloring pages bring the wonderful underwater world to life.' },
+    fr: { label: 'Océan', pageTitle: 'Pages à Colorier Océan pour Enfants – Gratuit Imprimable | KidsLoveColor.com', metaDesc: 'Pages à colorier gratuites d\'océan et animaux marins. Dauphins, baleines, tortues marines et plus. Parfait pour les enfants!', h2: 'Pages à Colorier Océan – Gratuit Imprimable', intro: 'Plongez dans notre collection de pages à colorier d\'océan et animaux marins avec votre enfant! Des dauphins amicaux aux baleines majestueuses, ces pages à colorier animent le merveilleux monde sous-marin.' },
+    es: { label: 'Océano', pageTitle: 'Páginas para Colorear Océano para Niños – Gratis Imprimible | KidsLoveColor.com', metaDesc: 'Páginas para colorear gratis de océano y animales marinos. Delfines, ballenas, tortugas marinas y más. ¡Perfecto para niños!', h2: 'Páginas para Colorear Océano – Gratis Imprimible', intro: '¡Sumérgete en nuestra colección de páginas para colorear de océano y animales marinos con tu hijo! Desde delfines amigables hasta ballenas majestuosas, estas páginas para colorear dan vida al maravilloso mundo submarino.' },
+    zh: { label: '海洋', pageTitle: '海洋涂色页 儿童 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费海洋和海洋动物涂色页。海豚、鲸鱼、海龟等。适合儿童！', h2: '海洋涂色页 – 免费可打印', intro: '与您的孩子一起潜入我们的海洋和海洋动物涂色页集合！从友善的海豚到雄伟的鲸鱼，这些涂色页将神奇的海底世界栩栩如生地展现出来。' },
+    icon: '',
+    slug_en: 'ocean',
+  },
+
+  letters: {
+    nl: { label: 'Letters', pageTitle: 'Bloemen Letters Kleurplaten – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare bloemen alfabetletters kleurplaten. Perfect voor het leren van letters terwijl je kleurt. Alle letters A-Z beschikbaar!', h2: 'Bloemen Letters Kleurplaten – Gratis Printbaar', intro: 'Combineer leren en kleuren met onze prachtige bloemen alfabet kleurplaten! Deze decoratieve letters zijn voorzien van bloemmotieven en zijn perfect voor kinderen die hun ABC\'s leren terwijl ze creatief zijn.' },
+    en: { label: 'Letters', pageTitle: 'Floral Letter Coloring Pages – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable floral alphabet letter coloring pages. Perfect for learning letters while coloring. All letters A-Z available!', h2: 'Floral Letter Coloring Pages – Free Printable', intro: 'Combine learning and coloring with our beautiful floral alphabet coloring pages! These decorative letters feature flower designs and are perfect for kids learning their ABCs while being creative.' },
+    fr: { label: 'Lettres', pageTitle: 'Pages à Colorier Lettres Florales – Gratuit Imprimable | KidsLoveColor.com', metaDesc: 'Pages à colorier gratuites d\'alphabet florales. Parfait pour apprendre les lettres en coloriant. Tous les lettres A-Z disponibles!', h2: 'Pages à Colorier Lettres Florales – Gratuit Imprimable', intro: 'Combinez l\'apprentissage et la coloration avec nos belles pages à colorier d\'alphabet floral! Ces lettres décoratives présentent des motifs floraux et sont parfaites pour les enfants qui apprennent leurs ABC en étant créatifs.' },
+    es: { label: 'Letras', pageTitle: 'Páginas para Colorear Letras Florales – Gratis Imprimible | KidsLoveColor.com', metaDesc: 'Páginas para colorear gratis de letras del alfabeto florales. Perfecto para aprender letras mientras colorea. ¡Todas las letras A-Z disponibles!', h2: 'Páginas para Colorear Letras Florales – Gratis Imprimible', intro: '¡Combina el aprendizaje y la coloración con nuestras hermosas páginas para colorear del alfabeto floral! Estas letras decorativas cuentan con diseños de flores y son perfectas para que los niños aprendan su ABC mientras son creativos.' },
+    zh: { label: '字母', pageTitle: '花卉字母涂色页 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费花卉字母表涂色页。完美用于在着色时学习字母。A-Z 字母都可用！', h2: '花卉字母涂色页 – 免费可打印', intro: '用我们美丽的花卉字母表涂色页来结合学习和着色！这些装饰字母采用花卉设计，非常适合在创意中学习字母表的儿童。' },
+    icon: '',
+    slug_en: 'letters',
+  },
+
+  mandala: {
+    nl: { label: 'Mandala', pageTitle: 'Mandala Kleurplaten – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare mandala en zentangle kleurplaten. Gedetailleerde patronen voor volwassenen en oudere kinderen. Ontspannend en meditatief kleuren!', h2: 'Mandala Kleurplaten – Gratis Printbaar', intro: 'Ontdek de rust en ontspanning van onze mandala en zentangle kleurplaten. Met gedetailleerde patronen en ingewikkelde designs zijn deze kleurplaten perfect voor volwassenen en oudere kinderen die op zoek zijn naar een meditatieve en therapeutische kleurervaring.' },
+    en: { label: 'Mandala', pageTitle: 'Mandala Coloring Pages – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable mandala and zentangle coloring pages. Detailed patterns for adults and older children. Relaxing and meditative coloring!', h2: 'Mandala Coloring Pages – Free Printable', intro: 'Discover the peace and relaxation of our mandala and zentangle coloring pages. With intricate patterns and detailed designs, these coloring pages are perfect for adults and older children seeking a meditative and therapeutic coloring experience.' },
+    fr: { label: 'Mandala', pageTitle: 'Pages à Colorier Mandala – Gratuit Imprimable | KidsLoveColor.com', metaDesc: 'Pages à colorier gratuites de mandala et zentangle. Motifs détaillés pour adultes et enfants plus âgés. Coloration apaisante et méditative!', h2: 'Pages à Colorier Mandala – Gratuit Imprimable', intro: 'Découvrez la paix et la détente de nos pages à colorier mandala et zentangle. Avec des motifs complexes et des designs détaillés, ces pages à colorier sont parfaites pour les adultes et les enfants plus âgés qui recherchent une expérience de coloration méditative et thérapeutique.' },
+    es: { label: 'Mandala', pageTitle: 'Páginas para Colorear Mandala – Gratis Imprimible | KidsLoveColor.com', metaDesc: 'Páginas para colorear gratis de mandala y zentangle. Patrones detallados para adultos y niños mayores. ¡Coloración relajante y meditativa!', h2: 'Páginas para Colorear Mandala – Gratis Imprimible', intro: '¡Descubre la paz y la relajación de nuestras páginas para colorear mandala y zentangle! Con patrones intrincados y diseños detallados, estas páginas para colorear son perfectas para adultos y niños mayores que buscan una experiencia de coloración meditativa y terapéutica.' },
+    zh: { label: '曼陀罗', pageTitle: '曼陀罗涂色页 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费曼陀罗和禅绕画涂色页。成人和年长儿童的详细图案。放松和冥想着色！', h2: '曼陀罗涂色页 – 免费可打印', intro: '发现我们曼陀罗和禅绕画涂色页的平静和放松。这些涂色页具有复杂的图案和详细的设计，非常适合寻求冥想和治疗性着色体验的成人和年长儿童。' },
+    icon: '',
+    slug_en: 'mandala',
+  },
+
+  gezichten: {
+    nl: { label: 'Gezichten', pageTitle: 'Gezichten Kleurplaten – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare gezichten kleurplaten met bloemen kronen en patronen. Decoratieve portretten voor kinderen en volwassenen.', h2: 'Gezichten Kleurplaten – Gratis Printbaar', intro: 'Onze collectie gezichten kleurplaten bevat prachtige decoratieve portretten versierd met bloemen, kronen en ingewikkelde patronen. Perfect voor alle leeftijden om te genieten van het kleuren van mooie en creatieve gezichten!' },
+    en: { label: 'Faces', pageTitle: 'Face Coloring Pages – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable face coloring pages with floral crowns and patterns. Decorative portraits for kids and adults.', h2: 'Face Coloring Pages – Free Printable', intro: 'Our collection of face coloring pages features beautiful decorative portraits adorned with flowers, crowns, and intricate patterns. Perfect for all ages to enjoy coloring beautiful and creative faces!' },
+    fr: { label: 'Visages', pageTitle: 'Pages à Colorier Visages – Gratuit Imprimable | KidsLoveColor.com', metaDesc: 'Pages à colorier visages gratuites avec couronnes florales et motifs. Portraits décoratives pour enfants et adultes.', h2: 'Pages à Colorier Visages – Gratuit Imprimable', intro: 'Notre collection de pages à colorier de visages présente de beaux portraits décoratives ornés de fleurs, couronnes et motifs complexes. Parfait pour tous les âges pour profiter de la coloration de visages beaux et créatifs!' },
+    es: { label: 'Caras', pageTitle: 'Páginas para Colorear Caras – Gratis Imprimible | KidsLoveColor.com', metaDesc: 'Páginas para colorear caras gratis con coronas florales y patrones. Retratos decorativos para niños y adultos.', h2: 'Páginas para Colorear Caras – Gratis Imprimible', intro: '¡Nuestra colección de páginas para colorear de caras presenta hermosos retratos decorativos adornados con flores, coronas y patrones intrincados! Perfecto para que todas las edades disfruten coloreando caras hermosas y creativas.' },
+    zh: { label: '面孔', pageTitle: '面孔涂色页 – 免费可打印 | KidsLoveColor.com', metaDesc: '免费面孔涂色页，带有花卉皇冠和图案。儿童和成人的装饰肖像。', h2: '面孔涂色页 – 免费可打印', intro: '我们的面孔涂色页集合展示了美丽的装饰肖像，饰有花卉、皇冠和复杂的图案。非常适合所有年龄段享受着色美丽和创意面孔！' },
+    icon: '',
+    slug_en: 'faces',
+  },
+
+
 };
 
 // -------------------------------------------------------
@@ -1296,6 +1339,688 @@ const COLORINGS = [
     fr: { title: 'Camping-car des Aventuriers du Week-end', description: 'Page à colorier gratuite d\'un camping-car confortable en aventure, parfait pour les petits rêveurs voyageurs.', keywords: 'camping car week-end aventure coloriage gratuit enfants', altText: 'Page à colorier camping-car des aventuriers du week-end – enfants' },
     es: { title: 'Caravana de Aventureros de Fin de Semana', description: 'Página para colorear gratis de una acogedora caravana en aventura, perfecta para pequeños soñadores viajeros.', keywords: 'caravana fin semana aventura colorear gratis niños', altText: 'Colorear caravana de aventureros de fin de semana – niños' },
     zh: { title: '周末旅行者房车', description: '免费涂色页，画的是出发冒险的温馨房车，非常适合爱做梦的小旅行者。', keywords: '周末 房车 涂色 免费 儿童', altText: '免费涂色页 周末旅行者房车 – 儿童' },
+  },
+
+
+
+  {
+    id: 123, slug: 'dolphin-swimming-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/dolphin-swimming-underwater-coloring-page.jpg',
+    nl: { title: 'Dolfijn Zwemmend Onderwater', description: 'Gratis kleurplaat van een schattige dolfijn die zwemt in het blauwe oceaanwater. Makkelijk te kleuren voor kinderen.', keywords: 'dolfijn kleurplaat oceaan zee gratis kinderen zwemmend', altText: 'Gratis kleurplaat dolfijn zwemmend onderwater' },
+    en: { title: 'Dolphin Swimming Underwater', description: 'Free coloring page of a cute dolphin swimming in the blue ocean water. Easy to color for children.', keywords: 'dolphin coloring page ocean sea free kids swimming', altText: 'Free coloring page dolphin swimming underwater' },
+    fr: { title: 'Dauphin Nageant Sous l\'Eau', description: 'Page à colorier gratuite d\'un mignon dauphin nageant dans l\'eau bleue de l\'océan. Facile à colorier pour les enfants.', keywords: 'dauphin coloriage océan mer gratuit enfants nageant', altText: 'Page à colorier dauphin nageant sous l\'eau' },
+    es: { title: 'Delfín Nadando Bajo el Agua', description: 'Página para colorear gratis de un lindo delfín nadando en el agua azul del océano. Fácil de colorear para niños.', keywords: 'delfín colorear océano mar gratis niños nadando', altText: 'Página para colorear delfín nadando bajo el agua' },
+    zh: { title: '海豚水下游泳', description: '免费涂色页：可爱的海豚在蓝色海洋中游泳。适合儿童轻松涂色。', keywords: '海豚涂色页 海洋 大海 免费 儿童 游泳', altText: '免费涂色页 海豚水下游泳' },
+  },
+
+  {
+    id: 124, slug: 'baby-dolphin-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/baby-dolphin-underwater-coloring-page.jpg',
+    nl: { title: 'Baby Dolfijn Onderwater', description: 'Gratis kleurplaat van een schattige baby dolfijn spelen in het oceaanwater met vis. Makkelijk voor kinderen.', keywords: 'baby dolfijn kleurplaat oceaan kleine dolfijn gratis kinderen', altText: 'Gratis kleurplaat baby dolfijn onderwater' },
+    en: { title: 'Baby Dolphin Underwater', description: 'Free coloring page of a cute baby dolphin playing in the ocean water with fish. Easy for children.', keywords: 'baby dolphin coloring page ocean little dolphin free kids', altText: 'Free coloring page baby dolphin underwater' },
+    fr: { title: 'Bébé Dauphin Sous l\'Eau', description: 'Page à colorier gratuite d\'un mignon bébé dauphin jouant dans l\'eau de l\'océan avec du poisson. Facile pour les enfants.', keywords: 'bébé dauphin coloriage océan petit dauphin gratuit enfants', altText: 'Page à colorier bébé dauphin sous l\'eau' },
+    es: { title: 'Bebé Delfín Bajo el Agua', description: 'Página para colorear gratis de un lindo bebé delfín jugando en el agua del océano con peces. Fácil para niños.', keywords: 'bebé delfín colorear océano pequeño delfín gratis niños', altText: 'Página para colorear bebé delfín bajo el agua' },
+    zh: { title: '宝宝海豚水下', description: '免费涂色页：可爱的宝宝海豚在海洋中与鱼一起玩耍。适合儿童。', keywords: '宝宝海豚涂色页 海洋 小海豚 免费 儿童', altText: '免费涂色页 宝宝海豚水下' },
+  },
+
+  {
+    id: 125, slug: 'princess-castle-treasure-chest', category: 'sprookjes', difficulty: 'easy',
+    img: '../img/kleurplaten/princess-castle-treasure-chest-coloring-page.jpg',
+    nl: { title: 'Prinseskasteelschatkist', description: 'Gratis kleurplaat van een prachtige prinseskasteeel met een schatkist vol edelstenen. Sprookje kleurplaat voor kinderen.', keywords: 'prinseskasteelschatkist kleurplaat sprookje gratis kinderen', altText: 'Gratis kleurplaat prinseskasteelschatkist' },
+    en: { title: 'Princess Castle Treasure Chest', description: 'Free coloring page of a beautiful princess castle with a treasure chest full of gems. Fairy tale coloring page for kids.', keywords: 'princess castle treasure chest coloring page fairy tale free kids', altText: 'Free coloring page princess castle treasure chest' },
+    fr: { title: 'Château de Princesse Coffre au Trésor', description: 'Page à colorier gratuite d\'un beau château de princesse avec un coffre au trésor plein de gemmes. Page à colorier conte de fées pour enfants.', keywords: 'château de princesse coffre au trésor coloriage conte de fées gratuit enfants', altText: 'Page à colorier château de princesse coffre au trésor' },
+    es: { title: 'Castillo de Princesa Cofre de Tesoro', description: 'Página para colorear gratis de un hermoso castillo de princesa con un cofre de tesoro lleno de gemas. Página para colorear de cuento de hadas para niños.', keywords: 'castillo de princesa cofre de tesoro colorear cuento de hadas gratis niños', altText: 'Página para colorear castillo de princesa cofre de tesoro' },
+    zh: { title: '公主城堡宝箱', description: '免费涂色页：美丽的公主城堡和装满宝石的宝箱。儿童童话涂色页。', keywords: '公主城堡宝箱涂色页 童话 免费 儿童', altText: '免费涂色页 公主城堡宝箱' },
+  },
+
+  {
+    id: 126, slug: 'terrier-dog', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/terrier-dog-coloring-page.jpg',
+    nl: { title: 'Terriër Hond', description: 'Gratis kleurplaat van een schattige kleine terriër hond. Leuke hondekleurplaat voor kinderen.', keywords: 'terriër hond kleurplaat dieren huisdier gratis kinderen', altText: 'Gratis kleurplaat terriër hond' },
+    en: { title: 'Terrier Dog', description: 'Free coloring page of a cute little terrier dog. Fun dog coloring page for kids.', keywords: 'terrier dog coloring page animals pet free kids', altText: 'Free coloring page terrier dog' },
+    fr: { title: 'Chien Terrier', description: 'Page à colorier gratuite d\'un mignon petit chien terrier. Page à colorier de chien amusante pour les enfants.', keywords: 'chien terrier coloriage animaux animal de compagnie gratuit enfants', altText: 'Page à colorier chien terrier' },
+    es: { title: 'Perro Terrier', description: 'Página para colorear gratis de un lindo pequeño perro terrier. Página para colorear de perro divertida para niños.', keywords: 'perro terrier colorear animales mascota gratis niños', altText: 'Página para colorear perro terrier' },
+    zh: { title: '梗犬', description: '免费涂色页：可爱的小梗犬。儿童趣味狗涂色页。', keywords: '梗犬涂色页 动物 宠物 免费 儿童', altText: '免费涂色页 梗犬' },
+  },
+
+  {
+    id: 127, slug: 'bunny-on-cupcake-kawaii', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/bunny-on-cupcake-kawaii-coloring-page.jpg',
+    nl: { title: 'Kawaii Konijn op Cupcake', description: 'Gratis kleurplaat van een schattig kawaii konijn zittend op een grote cupcake. Leuke kawaii kleurplaat voor kinderen.', keywords: 'kawaii konijn cupcake kleurplaat gratis kinderen schattig', altText: 'Gratis kleurplaat kawaii konijn op cupcake' },
+    en: { title: 'Kawaii Bunny on Cupcake', description: 'Free coloring page of a cute kawaii bunny sitting on a big cupcake. Fun kawaii coloring page for kids.', keywords: 'kawaii bunny cupcake coloring page free kids cute', altText: 'Free coloring page kawaii bunny on cupcake' },
+    fr: { title: 'Lapin Kawaii sur Cupcake', description: 'Page à colorier gratuite d\'un mignon lapin kawaii assis sur un grand cupcake. Page à colorier kawaii amusante pour les enfants.', keywords: 'lapin kawaii cupcake coloriage gratuit enfants mignon', altText: 'Page à colorier lapin kawaii sur cupcake' },
+    es: { title: 'Conejito Kawaii en Cupcake', description: 'Página para colorear gratis de un lindo conejito kawaii sentado en un gran cupcake. Página para colorear kawaii divertida para niños.', keywords: 'conejito kawaii cupcake colorear gratis niños lindo', altText: 'Página para colorear conejito kawaii en cupcake' },
+    zh: { title: '可爱兔子在纸杯蛋糕上', description: '免费涂色页：可爱的卡哇伊兔子坐在大纸杯蛋糕上。儿童有趣的卡哇伊涂色页。', keywords: '卡哇伊兔子纸杯蛋糕涂色页 免费 儿童 可爱', altText: '免费涂色页 可爱兔子在纸杯蛋糕上' },
+  },
+
+  {
+    id: 128, slug: 'bird-family-on-branch', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/bird-family-on-branch-coloring-page.jpg',
+    nl: { title: 'Vogelfamilie op Tak', description: 'Gratis kleurplaat van een gelukkige vogelfamilie zittend samen op een tak. Leuke vogel kleurplaat voor kinderen.', keywords: 'vogel familie tak kleurplaat dieren gratis kinderen', altText: 'Gratis kleurplaat vogelfamilie op tak' },
+    en: { title: 'Bird Family on Branch', description: 'Free coloring page of a happy bird family sitting together on a branch. Fun bird coloring page for kids.', keywords: 'bird family branch coloring page animals free kids', altText: 'Free coloring page bird family on branch' },
+    fr: { title: 'Famille d\'Oiseaux sur Branche', description: 'Page à colorier gratuite d\'une heureuse famille d\'oiseaux assise ensemble sur une branche. Page à colorier d\'oiseau amusante pour les enfants.', keywords: 'famille d\'oiseaux branche coloriage animaux gratuit enfants', altText: 'Page à colorier famille d\'oiseaux sur branche' },
+    es: { title: 'Familia de Pájaros en Rama', description: 'Página para colorear gratis de una feliz familia de pájaros sentada juntos en una rama. Página para colorear de pájaro divertida para niños.', keywords: 'familia pájaros rama colorear animales gratis niños', altText: 'Página para colorear familia de pájaros en rama' },
+    zh: { title: '树枝上的鸟家族', description: '免费涂色页：快乐的鸟家族坐在树枝上。儿童趣味鸟涂色页。', keywords: '鸟家族树枝涂色页 动物 免费 儿童', altText: '免费涂色页 树枝上的鸟家族' },
+  },
+
+  {
+    id: 129, slug: 'abstract-zentangle-waves-1', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/abstract-zentangle-waves-1-coloring-page.jpg',
+    nl: { title: 'Abstract Zentangle Golven 1', description: 'Gratis kleurplaat met abstract zentangle golfpatroon. Gedetailleerd ontspannend design voor volwassenen en oudere kinderen.', keywords: 'zentangle golven abstract patroon kleurplaat mandala gratis', altText: 'Gratis kleurplaat abstract zentangle golven' },
+    en: { title: 'Abstract Zentangle Waves 1', description: 'Free coloring page with abstract zentangle wave pattern. Detailed relaxing design for adults and older kids.', keywords: 'zentangle waves abstract pattern coloring page mandala free', altText: 'Free coloring page abstract zentangle waves' },
+    fr: { title: 'Vagues Zentangle Abstraites 1', description: 'Page à colorier gratuite avec motif de vagues zentangle abstraites. Design détaillé relaxant pour adultes et enfants plus âgés.', keywords: 'zentangle vagues motif abstrait coloriage mandala gratuit', altText: 'Page à colorier vagues zentangle abstraites' },
+    es: { title: 'Ondas Zentangle Abstractas 1', description: 'Página para colorear gratis con patrón de ondas zentangle abstractas. Diseño detallado relajante para adultos y niños mayores.', keywords: 'zentangle ondas motif abstracto colorear mandala gratis', altText: 'Página para colorear ondas zentangle abstractas' },
+    zh: { title: '抽象禅绕画波浪 1', description: '免费涂色页：抽象禅绕画波浪图案。成人和年长儿童的详细放松设计。', keywords: '禅绕波浪抽象图案涂色页 曼陀罗 免费', altText: '免费涂色页 抽象禅绕画波浪' },
+  },
+
+  {
+    id: 130, slug: 'abstract-zentangle-flowers-1', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/abstract-zentangle-flowers-1-coloring-page.jpg',
+    nl: { title: 'Abstract Zentangle Bloemen 1', description: 'Gratis kleurplaat met abstract zentangle bloempatroon. Gedetailleerd mandalapatroon voor ontspannen en meditatief kleuren.', keywords: 'zentangle bloemen abstract patroon kleurplaat mandala gratis', altText: 'Gratis kleurplaat abstract zentangle bloemen' },
+    en: { title: 'Abstract Zentangle Flowers 1', description: 'Free coloring page with abstract zentangle flower pattern. Detailed mandala pattern for relaxing and meditative coloring.', keywords: 'zentangle flowers abstract pattern coloring page mandala free', altText: 'Free coloring page abstract zentangle flowers' },
+    fr: { title: 'Fleurs Zentangle Abstraites 1', description: 'Page à colorier gratuite avec motif de fleurs zentangle abstraites. Motif mandala détaillé pour la coloration relaxante et méditative.', keywords: 'zentangle fleurs motif abstrait coloriage mandala gratuit', altText: 'Page à colorier fleurs zentangle abstraites' },
+    es: { title: 'Flores Zentangle Abstractas 1', description: 'Página para colorear gratis con patrón de flores zentangle abstractas. Patrón mandala detallado para coloración relajante y meditativa.', keywords: 'zentangle flores motif abstracto colorear mandala gratis', altText: 'Página para colorear flores zentangle abstractas' },
+    zh: { title: '抽象禅绕画花卉 1', description: '免费涂色页：抽象禅绕画花卉图案。详细的曼陀罗图案，用于放松和冥想着色。', keywords: '禅绕花卉抽象图案涂色页 曼陀罗 免费', altText: '免费涂色页 抽象禅绕画花卉' },
+  },
+
+  {
+    id: 131, slug: 'abstract-zentangle-flowers-2', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/abstract-zentangle-flowers-2-coloring-page.jpg',
+    nl: { title: 'Abstract Zentangle Bloemen 2', description: 'Gratis kleurplaat met ingewikkeldes zentangle bloempatroon. Perfect voor volwassenen die op zoek naar meditatief kleuren.', keywords: 'zentangle bloemen abstract patroon kleurplaat mandala gratis', altText: 'Gratis kleurplaat abstract zentangle bloemen 2' },
+    en: { title: 'Abstract Zentangle Flowers 2', description: 'Free coloring page with intricate zentangle flower pattern. Perfect for adults seeking meditative coloring.', keywords: 'zentangle flowers abstract pattern coloring page mandala free', altText: 'Free coloring page abstract zentangle flowers 2' },
+    fr: { title: 'Fleurs Zentangle Abstraites 2', description: 'Page à colorier gratuite avec motif de fleurs zentangle complexe. Parfait pour les adultes recherchant une coloration méditative.', keywords: 'zentangle fleurs motif abstrait coloriage mandala gratuit', altText: 'Page à colorier fleurs zentangle abstraites 2' },
+    es: { title: 'Flores Zentangle Abstractas 2', description: 'Página para colorear gratis con patrón complejo de flores zentangle. Perfecto para adultos que buscan coloración meditativa.', keywords: 'zentangle flores motif abstracto colorear mandala gratis', altText: 'Página para colorear flores zentangle abstractas 2' },
+    zh: { title: '抽象禅绕画花卉 2', description: '免费涂色页：复杂的禅绕画花卉图案。非常适合寻求冥想着色的成人。', keywords: '禅绕花卉抽象图案涂色页 曼陀罗 免费', altText: '免费涂色页 抽象禅绕画花卉 2' },
+  },
+
+  {
+    id: 132, slug: 'rooster-mandala', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/rooster-mandala-coloring-page.jpg',
+    nl: { title: 'Haan Mandala', description: 'Gratis kleurplaat van een decoratieve haan mandala met ingewikkelde patronen. Gedetailleerd design voor ontspannen kleuren.', keywords: 'haan mandala kleurplaat decoratief patroon gratis', altText: 'Gratis kleurplaat haan mandala' },
+    en: { title: 'Rooster Mandala', description: 'Free coloring page of a decorative rooster mandala with intricate patterns. Detailed design for relaxing coloring.', keywords: 'rooster mandala coloring page decorative pattern free', altText: 'Free coloring page rooster mandala' },
+    fr: { title: 'Coq Mandala', description: 'Page à colorier gratuite d\'un coq mandala décoratif avec motifs complexes. Design détaillé pour la coloration relaxante.', keywords: 'coq mandala coloriage motif décoratif gratuit', altText: 'Page à colorier coq mandala' },
+    es: { title: 'Gallo Mandala', description: 'Página para colorear gratis de un gallo mandala decorativo con patrones complejos. Diseño detallado para coloración relajante.', keywords: 'gallo mandala colorear motif decorativo gratis', altText: 'Página para colorear gallo mandala' },
+    zh: { title: '公鸡曼陀罗', description: '免费涂色页：装饰性公鸡曼陀罗，具有复杂的图案。用于放松着色的详细设计。', keywords: '公鸡曼陀罗涂色页 装饰 图案 免费', altText: '免费涂色页 公鸡曼陀罗' },
+  },
+
+  {
+    id: 133, slug: 'abstract-zentangle-flowers-water', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/abstract-zentangle-flowers-water-coloring-page.jpg',
+    nl: { title: 'Abstract Zentangle Bloemen Water', description: 'Gratis kleurplaat met abstract zentangle bloemen en water golven. Gedetailleerd mandala design voor ontspannend kleuren.', keywords: 'zentangle bloemen water patroon kleurplaat mandala gratis', altText: 'Gratis kleurplaat abstract zentangle bloemen water' },
+    en: { title: 'Abstract Zentangle Flowers Water', description: 'Free coloring page with abstract zentangle flowers and water waves. Detailed mandala design for relaxing coloring.', keywords: 'zentangle flowers water pattern coloring page mandala free', altText: 'Free coloring page abstract zentangle flowers water' },
+    fr: { title: 'Fleurs Zentangle Abstraites Eau', description: 'Page à colorier gratuite avec fleurs zentangle abstraites et vagues d\'eau. Design mandala détaillé pour la coloration relaxante.', keywords: 'zentangle fleurs eau motif coloriage mandala gratuit', altText: 'Page à colorier fleurs zentangle abstraites eau' },
+    es: { title: 'Flores Zentangle Abstractas Agua', description: 'Página para colorear gratis con flores zentangle abstractas y ondas de agua. Diseño mandala detallado para coloración relajante.', keywords: 'zentangle flores agua motif colorear mandala gratis', altText: 'Página para colorear flores zentangle abstractas agua' },
+    zh: { title: '抽象禅绕画花卉水', description: '免费涂色页：抽象禅绕画花卉和水波。详细的曼陀罗设计，用于放松着色。', keywords: '禅绕花卉水图案涂色页 曼陀罗 免费', altText: '免费涂色页 抽象禅绕画花卉水' },
+  },
+
+  {
+    id: 134, slug: 'ocean-animals-scene', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/ocean-animals-scene-coloring-page.jpg',
+    nl: { title: 'Oceaan Dierenschène', description: 'Gratis kleurplaat met een prachtige oceaan scène met veel zee dieren. Leuke kleurplaat voor kinderen.', keywords: 'oceaan dieren scène zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat oceaan dierenschène' },
+    en: { title: 'Ocean Animals Scene', description: 'Free coloring page featuring a beautiful ocean scene with many sea animals. Fun coloring page for kids.', keywords: 'ocean animals scene sea coloring page free kids', altText: 'Free coloring page ocean animals scene' },
+    fr: { title: 'Scène Animaux Océan', description: 'Page à colorier gratuite présentant une belle scène océan avec de nombreux animaux marins. Page à colorier amusante pour les enfants.', keywords: 'scène animaux océan mer coloriage gratuit enfants', altText: 'Page à colorier scène animaux océan' },
+    es: { title: 'Escena Animales Océano', description: 'Página para colorear gratis con una hermosa escena oceánica con muchos animales marinos. Página para colorear divertida para niños.', keywords: 'escena animales océano mar colorear gratis niños', altText: 'Página para colorear escena animales océano' },
+    zh: { title: '海洋动物场景', description: '免费涂色页：美丽的海洋场景和许多海洋动物。儿童趣味涂色页。', keywords: '海洋动物场景海洋涂色页 免费 儿童', altText: '免费涂色页 海洋动物场景' },
+  },
+
+  {
+    id: 135, slug: 'abstract-zentangle-waves-2', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/abstract-zentangle-waves-2-coloring-page.jpg',
+    nl: { title: 'Abstract Zentangle Golven 2', description: 'Gratis kleurplaat met abstract zentangle golfpatroon. Gedetailleerd ontspannend design voor volwassenen.', keywords: 'zentangle golven abstract patroon kleurplaat mandala gratis', altText: 'Gratis kleurplaat abstract zentangle golven 2' },
+    en: { title: 'Abstract Zentangle Waves 2', description: 'Free coloring page with abstract zentangle wave pattern. Detailed relaxing design for adults.', keywords: 'zentangle waves abstract pattern coloring page mandala free', altText: 'Free coloring page abstract zentangle waves 2' },
+    fr: { title: 'Vagues Zentangle Abstraites 2', description: 'Page à colorier gratuite avec motif de vagues zentangle abstraites. Design détaillé relaxant pour adultes.', keywords: 'zentangle vagues motif abstrait coloriage mandala gratuit', altText: 'Page à colorier vagues zentangle abstraites 2' },
+    es: { title: 'Ondas Zentangle Abstractas 2', description: 'Página para colorear gratis con patrón de ondas zentangle abstractas. Diseño detallado relajante para adultos.', keywords: 'zentangle ondas motif abstracto colorear mandala gratis', altText: 'Página para colorear ondas zentangle abstractas 2' },
+    zh: { title: '抽象禅绕画波浪 2', description: '免费涂色页：抽象禅绕画波浪图案。成人的详细放松设计。', keywords: '禅绕波浪抽象图案涂色页 曼陀罗 免费', altText: '免费涂色页 抽象禅绕画波浪 2' },
+  },
+
+  {
+    id: 136, slug: 'dolphin-coral-reef', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/dolphin-coral-reef-coloring-page.jpg',
+    nl: { title: 'Dolfijn op Koraalrif', description: 'Gratis kleurplaat van een dolfijn spelen op een kleurrijk koraalrif. Leuke oceaan kleurplaat voor kinderen.', keywords: 'dolfijn koraalrif oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dolfijn op koraalrif' },
+    en: { title: 'Dolphin Coral Reef', description: 'Free coloring page of a dolphin playing on a colorful coral reef. Fun ocean coloring page for kids.', keywords: 'dolphin coral reef ocean sea coloring page free kids', altText: 'Free coloring page dolphin coral reef' },
+    fr: { title: 'Dauphin Récif de Corail', description: 'Page à colorier gratuite d\'un dauphin jouant sur un récif de corail coloré. Page à colorier océan amusante pour les enfants.', keywords: 'dauphin récif de corail océan mer coloriage gratuit enfants', altText: 'Page à colorier dauphin récif de corail' },
+    es: { title: 'Delfín Arrecife de Coral', description: 'Página para colorear gratis de un delfín jugando en un colorido arrecife de coral. Página para colorear océano divertida para niños.', keywords: 'delfín arrecife de coral océano mar colorear gratis niños', altText: 'Página para colorear delfín arrecife de coral' },
+    zh: { title: '海豚珊瑚礁', description: '免费涂色页：海豚在彩色珊瑚礁上玩耍。儿童趣味海洋涂色页。', keywords: '海豚珊瑚礁海洋海涂色页 免费 儿童', altText: '免费涂色页 海豚珊瑚礁' },
+  },
+
+  {
+    id: 137, slug: 'kawaii-voodoo-doll-jungle', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii-voodoo-doll-jungle-coloring-page.jpg',
+    nl: { title: 'Kawaii Voodoo Pop Jungle', description: 'Gratis kleurplaat van een schattige kawaii voodoo pop in het oerwoud. Leuke kawaii kleurplaat voor kinderen.', keywords: 'kawaii voodoo pop jungle kleurplaat schattig gratis kinderen', altText: 'Gratis kleurplaat kawaii voodoo pop jungle' },
+    en: { title: 'Kawaii Voodoo Doll Jungle', description: 'Free coloring page of a cute kawaii voodoo doll in the jungle. Fun kawaii coloring page for kids.', keywords: 'kawaii voodoo doll jungle coloring page cute free kids', altText: 'Free coloring page kawaii voodoo doll jungle' },
+    fr: { title: 'Poupée Vaudou Kawaii Jungle', description: 'Page à colorier gratuite d\'une mignonne poupée vaudou kawaii dans la jungle. Page à colorier kawaii amusante pour les enfants.', keywords: 'poupée vaudou kawaii jungle coloriage mignon gratuit enfants', altText: 'Page à colorier poupée vaudou kawaii jungle' },
+    es: { title: 'Muñeca Vudú Kawaii Selva', description: 'Página para colorear gratis de una linda muñeca vudú kawaii en la selva. Página para colorear kawaii divertida para niños.', keywords: 'muñeca vudú kawaii selva colorear lindo gratis niños', altText: 'Página para colorear muñeca vudú kawaii selva' },
+    zh: { title: '可爱巫毒娃娃丛林', description: '免费涂色页：可爱的卡哇伊巫毒娃娃在丛林中。儿童有趣的卡哇伊涂色页。', keywords: '卡哇伊巫毒娃娃丛林涂色页 免费 儿童 可爱', altText: '免费涂色页 可爱巫毒娃娃丛林' },
+  },
+
+  {
+    id: 138, slug: 'manta-ray-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/manta-ray-underwater-coloring-page.jpg',
+    nl: { title: 'Manta Ray Onderwater', description: 'Gratis kleurplaat van een elegante manta ray zwemmend onderwater. Leuke oceaan kleurplaat voor kinderen.', keywords: 'manta ray onderwater oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat manta ray onderwater' },
+    en: { title: 'Manta Ray Underwater', description: 'Free coloring page of an elegant manta ray swimming underwater. Fun ocean coloring page for kids.', keywords: 'manta ray underwater ocean sea coloring page free kids', altText: 'Free coloring page manta ray underwater' },
+    fr: { title: 'Raie Manta Sous l\'Eau', description: 'Page à colorier gratuite d\'une élégante raie manta nageant sous l\'eau. Page à colorier océan amusante pour les enfants.', keywords: 'raie manta sous l\'eau océan mer coloriage gratuit enfants', altText: 'Page à colorier raie manta sous l\'eau' },
+    es: { title: 'Manta Raya Bajo el Agua', description: 'Página para colorear gratis de una elegante manta raya nadando bajo el agua. Página para colorear océano divertida para niños.', keywords: 'manta raya bajo el agua océano mar colorear gratis niños', altText: 'Página para colorear manta raya bajo el agua' },
+    zh: { title: '蝠鲼水下', description: '免费涂色页：优雅的蝠鲼在水下游泳。儿童趣味海洋涂色页。', keywords: '蝠鲼水下海洋涂色页 免费 儿童', altText: '免费涂色页 蝠鲼水下' },
+  },
+
+  {
+    id: 139, slug: 'cute-whale-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/cute-whale-underwater-coloring-page.jpg',
+    nl: { title: 'Schattige Walvis Onderwater', description: 'Gratis kleurplaat van een schattige walvis zwemmend in het diepe oceaanwater. Leuke kleurplaat voor kinderen.', keywords: 'walvis onderwater oceaan zee kleurplaat gratis kinderen schattig', altText: 'Gratis kleurplaat schattige walvis onderwater' },
+    en: { title: 'Cute Whale Underwater', description: 'Free coloring page of a cute whale swimming in the deep ocean water. Fun coloring page for kids.', keywords: 'whale underwater ocean sea coloring page free kids cute', altText: 'Free coloring page cute whale underwater' },
+    fr: { title: 'Baleine Mignonne Sous l\'Eau', description: 'Page à colorier gratuite d\'une mignonne baleine nageant dans les eaux profondes de l\'océan. Page à colorier amusante pour les enfants.', keywords: 'baleine sous l\'eau océan mer coloriage gratuit enfants mignon', altText: 'Page à colorier baleine mignonne sous l\'eau' },
+    es: { title: 'Ballena Linda Bajo el Agua', description: 'Página para colorear gratis de una linda ballena nadando en las profundas aguas del océano. Página para colorear divertida para niños.', keywords: 'ballena bajo el agua océano mar colorear gratis niños linda', altText: 'Página para colorear ballena linda bajo el agua' },
+    zh: { title: '可爱鲸鱼水下', description: '免费涂色页：可爱的鲸鱼在深海中游泳。儿童趣味涂色页。', keywords: '鲸鱼水下海洋涂色页 免费 儿童 可爱', altText: '免费涂色页 可爱鲸鱼水下' },
+  },
+
+  {
+    id: 140, slug: 'eagle-head-mandala', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/eagle-head-mandala-coloring-page.jpg',
+    nl: { title: 'Arend Hoofd Mandala', description: 'Gratis kleurplaat van een decoratief adelaar hoofd mandala met ingewikkelde patronen. Gedetailleerd design voor ontspannend kleuren.', keywords: 'arend hoofd mandala kleurplaat decoratief patroon gratis', altText: 'Gratis kleurplaat arend hoofd mandala' },
+    en: { title: 'Eagle Head Mandala', description: 'Free coloring page of a decorative eagle head mandala with intricate patterns. Detailed design for relaxing coloring.', keywords: 'eagle head mandala coloring page decorative pattern free', altText: 'Free coloring page eagle head mandala' },
+    fr: { title: 'Tête d\'Aigle Mandala', description: 'Page à colorier gratuite d\'une tête d\'aigle mandala décorative avec motifs complexes. Design détaillé pour la coloration relaxante.', keywords: 'tête d\'aigle mandala coloriage motif décoratif gratuit', altText: 'Page à colorier tête d\'aigle mandala' },
+    es: { title: 'Cabeza de Águila Mandala', description: 'Página para colorear gratis de una cabeza de águila mandala decorativa con patrones complejos. Diseño detallado para coloración relajante.', keywords: 'cabeza de águila mandala colorear motif decorativo gratis', altText: 'Página para colorear cabeza de águila mandala' },
+    zh: { title: '鹰头曼陀罗', description: '免费涂色页：装饰性鹰头曼陀罗，具有复杂的图案。用于放松着色的详细设计。', keywords: '鹰头曼陀罗涂色页 装饰 图案 免费', altText: '免费涂色页 鹰头曼陀罗' },
+  },
+
+  {
+    id: 141, slug: 'floral-letter-c', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-c-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter C', description: 'Gratis kleurplaat van een decoratieve letter C met bloemen. Perfect voor het leren van letters terwijl je kleurt.', keywords: 'letter c bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter C' },
+    en: { title: 'Floral Letter C', description: 'Free coloring page of a decorative letter C with flowers. Perfect for learning letters while coloring.', keywords: 'letter c flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter C' },
+    fr: { title: 'Lettre C Floral', description: 'Page à colorier gratuite d\'une lettre C décoratives avec des fleurs. Parfait pour apprendre les lettres en coloriant.', keywords: 'lettre c fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre C floral' },
+    es: { title: 'Letra C Floral', description: 'Página para colorear gratis de una letra C decorativa con flores. Perfecto para aprender letras mientras colorea.', keywords: 'letra c flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra C floral' },
+    zh: { title: '花卉字母 C', description: '免费涂色页：装饰性字母 C 与花卉。完美用于在着色时学习字母。', keywords: '字母 c 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 C' },
+  },
+
+  {
+    id: 142, slug: 'floral-letter-o-1', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-o-1-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter O 1', description: 'Gratis kleurplaat van een decoratieve letter O met bloemen. Leuke kleurplaat voor leren.', keywords: 'letter o bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter O 1' },
+    en: { title: 'Floral Letter O 1', description: 'Free coloring page of a decorative letter O with flowers. Fun coloring page for learning.', keywords: 'letter o flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter O 1' },
+    fr: { title: 'Lettre O Floral 1', description: 'Page à colorier gratuite d\'une lettre O décoratives avec des fleurs. Page à colorier amusante pour l\'apprentissage.', keywords: 'lettre o fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre O floral 1' },
+    es: { title: 'Letra O Floral 1', description: 'Página para colorear gratis de una letra O decorativa con flores. Página para colorear divertida para aprender.', keywords: 'letra o flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra O floral 1' },
+    zh: { title: '花卉字母 O 1', description: '免费涂色页：装饰性字母 O 与花卉。儿童趣味学习涂色页。', keywords: '字母 o 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 O 1' },
+  },
+
+  {
+    id: 143, slug: 'floral-letter-o-2', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-o-2-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter O 2', description: 'Gratis kleurplaat van een andere decoratieve letter O met bloemen variant. Perfect voor leren.', keywords: 'letter o bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter O 2' },
+    en: { title: 'Floral Letter O 2', description: 'Free coloring page of another decorative letter O with flower variant. Perfect for learning.', keywords: 'letter o flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter O 2' },
+    fr: { title: 'Lettre O Floral 2', description: 'Page à colorier gratuite d\'une autre lettre O décoratives avec variante fleur. Parfait pour l\'apprentissage.', keywords: 'lettre o fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre O floral 2' },
+    es: { title: 'Letra O Floral 2', description: 'Página para colorear gratis de otra letra O decorativa con variante de flores. Perfecto para aprender.', keywords: 'letra o flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra O floral 2' },
+    zh: { title: '花卉字母 O 2', description: '免费涂色页：另一个装饰性字母 O 与花卉变体。完美用于学习。', keywords: '字母 o 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 O 2' },
+  },
+
+  {
+    id: 144, slug: 'floral-letter-d-1', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-d-1-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter D 1', description: 'Gratis kleurplaat van een decoratieve letter D met bloemen. Leuk voor leren.', keywords: 'letter d bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter D 1' },
+    en: { title: 'Floral Letter D 1', description: 'Free coloring page of a decorative letter D with flowers. Fun for learning.', keywords: 'letter d flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter D 1' },
+    fr: { title: 'Lettre D Floral 1', description: 'Page à colorier gratuite d\'une lettre D décoratives avec des fleurs. Amusant pour l\'apprentissage.', keywords: 'lettre d fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre D floral 1' },
+    es: { title: 'Letra D Floral 1', description: 'Página para colorear gratis de una letra D decorativa con flores. Divertido para aprender.', keywords: 'letra d flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra D floral 1' },
+    zh: { title: '花卉字母 D 1', description: '免费涂色页：装饰性字母 D 与花卉。儿童趣味学习。', keywords: '字母 d 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 D 1' },
+  },
+
+  {
+    id: 145, slug: 'floral-letter-d-2', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-d-2-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter D 2', description: 'Gratis kleurplaat van een andere decoratieve letter D met bloemen. Perfect voor leren.', keywords: 'letter d bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter D 2' },
+    en: { title: 'Floral Letter D 2', description: 'Free coloring page of another decorative letter D with flowers. Perfect for learning.', keywords: 'letter d flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter D 2' },
+    fr: { title: 'Lettre D Floral 2', description: 'Page à colorier gratuite d\'une autre lettre D décoratives avec des fleurs. Parfait pour l\'apprentissage.', keywords: 'lettre d fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre D floral 2' },
+    es: { title: 'Letra D Floral 2', description: 'Página para colorear gratis de otra letra D decorativa con flores. Perfecto para aprender.', keywords: 'letra d flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra D floral 2' },
+    zh: { title: '花卉字母 D 2', description: '免费涂色页：另一个装饰性字母 D 与花卉。完美用于学习。', keywords: '字母 d 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 D 2' },
+  },
+
+  {
+    id: 146, slug: 'floral-letter-e', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-e-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter E', description: 'Gratis kleurplaat van een decoratieve letter E met bloemen. Leuke kleurplaat voor kinderen.', keywords: 'letter e bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter E' },
+    en: { title: 'Floral Letter E', description: 'Free coloring page of a decorative letter E with flowers. Fun coloring page for kids.', keywords: 'letter e flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter E' },
+    fr: { title: 'Lettre E Floral', description: 'Page à colorier gratuite d\'une lettre E décoratives avec des fleurs. Page à colorier amusante pour les enfants.', keywords: 'lettre e fleurs alphabet coloriage gratuit enfants lerne', altText: 'Page à colorier lettre E floral' },
+    es: { title: 'Letra E Floral', description: 'Página para colorear gratis de una letra E decorativa con flores. Página para colorear divertida para niños.', keywords: 'letra e flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra E floral' },
+    zh: { title: '花卉字母 E', description: '免费涂色页：装饰性字母 E 与花卉。儿童趣味涂色页。', keywords: '字母 e 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 E' },
+  },
+
+  {
+    id: 147, slug: 'floral-letter-f', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-f-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter F', description: 'Gratis kleurplaat van een decoratieve letter F met bloemen. Perfect voor het leren van letters.', keywords: 'letter f bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter F' },
+    en: { title: 'Floral Letter F', description: 'Free coloring page of a decorative letter F with flowers. Perfect for learning letters.', keywords: 'letter f flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter F' },
+    fr: { title: 'Lettre F Floral', description: 'Page à colorier gratuite d\'une lettre F décoratives avec des fleurs. Parfait pour apprendre les lettres.', keywords: 'lettre f fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre F floral' },
+    es: { title: 'Letra F Floral', description: 'Página para colorear gratis de una letra F decorativa con flores. Perfecto para aprender letras.', keywords: 'letra f flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra F floral' },
+    zh: { title: '花卉字母 F', description: '免费涂色页：装饰性字母 F 与花卉。完美用于学习字母。', keywords: '字母 f 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 F' },
+  },
+
+  {
+    id: 148, slug: 'floral-letter-g-1', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-g-1-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter G 1', description: 'Gratis kleurplaat van een decoratieve letter G met bloemen. Leuk om te kleuren.', keywords: 'letter g bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter G 1' },
+    en: { title: 'Floral Letter G 1', description: 'Free coloring page of a decorative letter G with flowers. Fun to color.', keywords: 'letter g flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter G 1' },
+    fr: { title: 'Lettre G Floral 1', description: 'Page à colorier gratuite d\'une lettre G décoratives avec des fleurs. Amusant à colorier.', keywords: 'lettre g fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre G floral 1' },
+    es: { title: 'Letra G Floral 1', description: 'Página para colorear gratis de una letra G decorativa con flores. Divertido de colorear.', keywords: 'letra g flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra G floral 1' },
+    zh: { title: '花卉字母 G 1', description: '免费涂色页：装饰性字母 G 与花卉。有趣的着色。', keywords: '字母 g 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 G 1' },
+  },
+
+  {
+    id: 149, slug: 'floral-letter-g-2', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-g-2-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter G 2', description: 'Gratis kleurplaat van een andere decoratieve letter G met bloemen. Leuke variant.', keywords: 'letter g bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter G 2' },
+    en: { title: 'Floral Letter G 2', description: 'Free coloring page of another decorative letter G with flowers. Fun variant.', keywords: 'letter g flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter G 2' },
+    fr: { title: 'Lettre G Floral 2', description: 'Page à colorier gratuite d\'une autre lettre G décoratives avec des fleurs. Variante amusante.', keywords: 'lettre g fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre G floral 2' },
+    es: { title: 'Letra G Floral 2', description: 'Página para colorear gratis de otra letra G decorativa con flores. Variante divertida.', keywords: 'letra g flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra G floral 2' },
+    zh: { title: '花卉字母 G 2', description: '免费涂色页：另一个装饰性字母 G 与花卉。有趣的变体。', keywords: '字母 g 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 G 2' },
+  },
+
+  {
+    id: 150, slug: 'floral-letter-g-3', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-g-3-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter G 3', description: 'Gratis kleurplaat van een derde decoratieve letter G met bloemen. Perfect voor leren.', keywords: 'letter g bloemen alfabetkleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter G 3' },
+    en: { title: 'Floral Letter G 3', description: 'Free coloring page of a third decorative letter G with flowers. Perfect for learning.', keywords: 'letter g flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter G 3' },
+    fr: { title: 'Lettre G Floral 3', description: 'Page à colorier gratuite d\'une troisième lettre G décoratives avec des fleurs. Parfait pour l\'apprentissage.', keywords: 'lettre g fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre G floral 3' },
+    es: { title: 'Letra G Floral 3', description: 'Página para colorear gratis de una tercera letra G decorativa con flores. Perfecto para aprender.', keywords: 'letra g flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra G floral 3' },
+    zh: { title: '花卉字母 G 3', description: '免费涂色页：第三个装饰性字母 G 与花卉。完美用于学习。', keywords: '字母 g 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 G 3' },
+  },
+
+  {
+    id: 151, slug: 'floral-letter-i-sunflowers-1', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-i-sunflowers-1-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter I Zonnebloemen 1', description: 'Gratis kleurplaat van een decoratieve letter I met zonnebloemen. Leuke alfabet kleurplaat.', keywords: 'letter i zonnebloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter I zonnebloemen 1' },
+    en: { title: 'Floral Letter I Sunflowers 1', description: 'Free coloring page of a decorative letter I with sunflowers. Fun alphabet coloring page.', keywords: 'letter i sunflowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter I sunflowers 1' },
+    fr: { title: 'Lettre I Floral Tournesols 1', description: 'Page à colorier gratuite d\'une lettre I décoratives avec des tournesols. Page à colorier d\'alphabet amusante.', keywords: 'lettre i tournesols alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre I floral tournesols 1' },
+    es: { title: 'Letra I Floral Girasoles 1', description: 'Página para colorear gratis de una letra I decorativa con girasoles. Página para colorear de alfabeto divertida.', keywords: 'letra i girasoles alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra I floral girasoles 1' },
+    zh: { title: '花卉字母 I 向日葵 1', description: '免费涂色页：装饰性字母 I 与向日葵。有趣的字母表涂色页。', keywords: '字母 i 向日葵字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 I 向日葵 1' },
+  },
+
+  {
+    id: 152, slug: 'floral-letter-i-sunflowers-2', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-i-sunflowers-2-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter I Zonnebloemen 2', description: 'Gratis kleurplaat van een andere decoratieve letter I met zonnebloemen. Leuke variant.', keywords: 'letter i zonnebloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter I zonnebloemen 2' },
+    en: { title: 'Floral Letter I Sunflowers 2', description: 'Free coloring page of another decorative letter I with sunflowers. Fun variant.', keywords: 'letter i sunflowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter I sunflowers 2' },
+    fr: { title: 'Lettre I Floral Tournesols 2', description: 'Page à colorier gratuite d\'une autre lettre I décoratives avec des tournesols. Variante amusante.', keywords: 'lettre i tournesols alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre I floral tournesols 2' },
+    es: { title: 'Letra I Floral Girasoles 2', description: 'Página para colorear gratis de otra letra I decorativa con girasoles. Variante divertida.', keywords: 'letra i girasoles alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra I floral girasoles 2' },
+    zh: { title: '花卉字母 I 向日葵 2', description: '免费涂色页：另一个装饰性字母 I 与向日葵。有趣的变体。', keywords: '字母 i 向日葵字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 I 向日葵 2' },
+  },
+
+  {
+    id: 153, slug: 'floral-letter-k-grapes', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-k-grapes-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter K Druiven', description: 'Gratis kleurplaat van een decoratieve letter K met druiven. Leuke alfabet kleurplaat.', keywords: 'letter k druiven alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter K druiven' },
+    en: { title: 'Floral Letter K Grapes', description: 'Free coloring page of a decorative letter K with grapes. Fun alphabet coloring page.', keywords: 'letter k grapes alphabet coloring page free kids learn', altText: 'Free coloring page floral letter K grapes' },
+    fr: { title: 'Lettre K Floral Raisins', description: 'Page à colorier gratuite d\'une lettre K décoratives avec des raisins. Page à colorier d\'alphabet amusante.', keywords: 'lettre k raisins alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre K floral raisins' },
+    es: { title: 'Letra K Floral Uvas', description: 'Página para colorear gratis de una letra K decorativa con uvas. Página para colorear de alfabeto divertida.', keywords: 'letra k uvas alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra K floral uvas' },
+    zh: { title: '花卉字母 K 葡萄', description: '免费涂色页：装饰性字母 K 与葡萄。有趣的字母表涂色页。', keywords: '字母 k 葡萄字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 K 葡萄' },
+  },
+
+  {
+    id: 154, slug: 'floral-letter-l', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-l-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter L', description: 'Gratis kleurplaat van een decoratieve letter L met bloemen. Perfect voor het leren van letters.', keywords: 'letter l bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter L' },
+    en: { title: 'Floral Letter L', description: 'Free coloring page of a decorative letter L with flowers. Perfect for learning letters.', keywords: 'letter l flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter L' },
+    fr: { title: 'Lettre L Floral', description: 'Page à colorier gratuite d\'une lettre L décoratives avec des fleurs. Parfait pour apprendre les lettres.', keywords: 'lettre l fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre L floral' },
+    es: { title: 'Letra L Floral', description: 'Página para colorear gratis de una letra L decorativa con flores. Perfecto para aprender letras.', keywords: 'letra l flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra L floral' },
+    zh: { title: '花卉字母 L', description: '免费涂色页：装饰性字母 L 与花卉。完美用于学习字母。', keywords: '字母 l 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 L' },
+  },
+
+  {
+    id: 155, slug: 'floral-letter-n', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-n-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter N', description: 'Gratis kleurplaat van een decoratieve letter N met bloemen. Leuke alfabet kleurplaat voor kinderen.', keywords: 'letter n bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter N' },
+    en: { title: 'Floral Letter N', description: 'Free coloring page of a decorative letter N with flowers. Fun alphabet coloring page for kids.', keywords: 'letter n flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter N' },
+    fr: { title: 'Lettre N Floral', description: 'Page à colorier gratuite d\'une lettre N décoratives avec des fleurs. Page à colorier d\'alphabet amusante pour les enfants.', keywords: 'lettre n fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre N floral' },
+    es: { title: 'Letra N Floral', description: 'Página para colorear gratis de una letra N decorativa con flores. Página para colorear de alfabeto divertida para niños.', keywords: 'letra n flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra N floral' },
+    zh: { title: '花卉字母 N', description: '免费涂色页：装饰性字母 N 与花卉。儿童有趣的字母表涂色页。', keywords: '字母 n 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 N' },
+  },
+
+  {
+    id: 156, slug: 'floral-letter-o-mandala', category: 'letters', difficulty: 'medium',
+    img: '../img/kleurplaten/floral-letter-o-mandala-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter O Mandala', description: 'Gratis kleurplaat van een decoratieve mandala letter O met bloemen. Gedetailleerd design voor ontspannend kleuren.', keywords: 'letter o mandala bloemen kleurplaat decoratief patroon gratis', altText: 'Gratis kleurplaat bloemen letter O mandala' },
+    en: { title: 'Floral Letter O Mandala', description: 'Free coloring page of a decorative mandala letter O with flowers. Detailed design for relaxing coloring.', keywords: 'letter o mandala flowers coloring page decorative pattern free', altText: 'Free coloring page floral letter O mandala' },
+    fr: { title: 'Lettre O Mandala Floral', description: 'Page à colorier gratuite d\'une lettre O mandala décoratives avec des fleurs. Design détaillé pour la coloration relaxante.', keywords: 'lettre o mandala fleurs coloriage motif décoratif gratuit', altText: 'Page à colorier lettre O mandala floral' },
+    es: { title: 'Letra O Mandala Floral', description: 'Página para colorear gratis de una letra O mandala decorativa con flores. Diseño detallado para coloración relajante.', keywords: 'letra o mandala flores colorear motif decorativo gratis', altText: 'Página para colorear letra O mandala floral' },
+    zh: { title: '花卉字母 O 曼陀罗', description: '免费涂色页：装饰性曼陀罗字母 O 与花卉。用于放松着色的详细设计。', keywords: '字母 o 曼陀罗花卉涂色页 装饰 图案 免费', altText: '免费涂色页 花卉字母 O 曼陀罗' },
+  },
+
+  {
+    id: 157, slug: 'floral-letter-o-3', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-o-3-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter O 3', description: 'Gratis kleurplaat van een derde decoratieve letter O met bloemen. Perfect voor leren.', keywords: 'letter o bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter O 3' },
+    en: { title: 'Floral Letter O 3', description: 'Free coloring page of a third decorative letter O with flowers. Perfect for learning.', keywords: 'letter o flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter O 3' },
+    fr: { title: 'Lettre O Floral 3', description: 'Page à colorier gratuite d\'une troisième lettre O décoratives avec des fleurs. Parfait pour l\'apprentissage.', keywords: 'lettre o fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre O floral 3' },
+    es: { title: 'Letra O Floral 3', description: 'Página para colorear gratis de una tercera letra O decorativa con flores. Perfecto para aprender.', keywords: 'letra o flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra O floral 3' },
+    zh: { title: '花卉字母 O 3', description: '免费涂色页：第三个装饰性字母 O 与花卉。完美用于学习。', keywords: '字母 o 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 O 3' },
+  },
+
+  {
+    id: 158, slug: 'floral-letter-p', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-p-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter P', description: 'Gratis kleurplaat van een decoratieve letter P met bloemen. Leuke alfabet kleurplaat voor kinderen.', keywords: 'letter p bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter P' },
+    en: { title: 'Floral Letter P', description: 'Free coloring page of a decorative letter P with flowers. Fun alphabet coloring page for kids.', keywords: 'letter p flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter P' },
+    fr: { title: 'Lettre P Floral', description: 'Page à colorier gratuite d\'une lettre P décoratives avec des fleurs. Page à colorier d\'alphabet amusante pour les enfants.', keywords: 'lettre p fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre P floral' },
+    es: { title: 'Letra P Floral', description: 'Página para colorear gratis de una letra P decorativa con flores. Página para colorear de alfabeto divertida para niños.', keywords: 'letra p flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra P floral' },
+    zh: { title: '花卉字母 P', description: '免费涂色页：装饰性字母 P 与花卉。儿童有趣的字母表涂色页。', keywords: '字母 p 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 P' },
+  },
+
+  {
+    id: 159, slug: 'floral-letter-s-1', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-s-1-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter S 1', description: 'Gratis kleurplaat van een decoratieve letter S met bloemen. Perfect voor het leren van letters.', keywords: 'letter s bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter S 1' },
+    en: { title: 'Floral Letter S 1', description: 'Free coloring page of a decorative letter S with flowers. Perfect for learning letters.', keywords: 'letter s flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter S 1' },
+    fr: { title: 'Lettre S Floral 1', description: 'Page à colorier gratuite d\'une lettre S décoratives avec des fleurs. Parfait pour apprendre les lettres.', keywords: 'lettre s fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre S floral 1' },
+    es: { title: 'Letra S Floral 1', description: 'Página para colorear gratis de una letra S decorativa con flores. Perfecto para aprender letras.', keywords: 'letra s flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra S floral 1' },
+    zh: { title: '花卉字母 S 1', description: '免费涂色页：装饰性字母 S 与花卉。完美用于学习字母。', keywords: '字母 s 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 S 1' },
+  },
+
+  {
+    id: 160, slug: 'floral-letter-s-2', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-s-2-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter S 2', description: 'Gratis kleurplaat van een andere decoratieve letter S met bloemen. Leuke variant.', keywords: 'letter s bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter S 2' },
+    en: { title: 'Floral Letter S 2', description: 'Free coloring page of another decorative letter S with flowers. Fun variant.', keywords: 'letter s flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter S 2' },
+    fr: { title: 'Lettre S Floral 2', description: 'Page à colorier gratuite d\'une autre lettre S décoratives avec des fleurs. Variante amusante.', keywords: 'lettre s fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre S floral 2' },
+    es: { title: 'Letra S Floral 2', description: 'Página para colorear gratis de otra letra S decorativa con flores. Variante divertida.', keywords: 'letra s flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra S floral 2' },
+    zh: { title: '花卉字母 S 2', description: '免费涂色页：另一个装饰性字母 S 与花卉。有趣的变体。', keywords: '字母 s 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 S 2' },
+  },
+
+  {
+    id: 161, slug: 'floral-letter-u', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-u-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter U', description: 'Gratis kleurplaat van een decoratieve letter U met bloemen. Leuke alfabet kleurplaat voor kinderen.', keywords: 'letter u bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter U' },
+    en: { title: 'Floral Letter U', description: 'Free coloring page of a decorative letter U with flowers. Fun alphabet coloring page for kids.', keywords: 'letter u flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter U' },
+    fr: { title: 'Lettre U Floral', description: 'Page à colorier gratuite d\'une lettre U décoratives avec des fleurs. Page à colorier d\'alphabet amusante pour les enfants.', keywords: 'lettre u fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre U floral' },
+    es: { title: 'Letra U Floral', description: 'Página para colorear gratis de una letra U decorativa con flores. Página para colorear de alfabeto divertida para niños.', keywords: 'letra u flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra U floral' },
+    zh: { title: '花卉字母 U', description: '免费涂色页：装饰性字母 U 与花卉。儿童有趣的字母表涂色页。', keywords: '字母 u 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 U' },
+  },
+
+  {
+    id: 162, slug: 'floral-letter-v', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-v-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter V', description: 'Gratis kleurplaat van een decoratieve letter V met bloemen. Perfect voor het leren van letters.', keywords: 'letter v bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter V' },
+    en: { title: 'Floral Letter V', description: 'Free coloring page of a decorative letter V with flowers. Perfect for learning letters.', keywords: 'letter v flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter V' },
+    fr: { title: 'Lettre V Floral', description: 'Page à colorier gratuite d\'une lettre V décoratives avec des fleurs. Parfait pour apprendre les lettres.', keywords: 'lettre v fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre V floral' },
+    es: { title: 'Letra V Floral', description: 'Página para colorear gratis de una letra V decorativa con flores. Perfecto para aprender letras.', keywords: 'letra v flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra V floral' },
+    zh: { title: '花卉字母 V', description: '免费涂色页：装饰性字母 V 与花卉。完美用于学习字母。', keywords: '字母 v 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 V' },
+  },
+
+  {
+    id: 163, slug: 'floral-letter-z', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/floral-letter-z-coloring-page.jpg',
+    nl: { title: 'Bloemen Letter Z', description: 'Gratis kleurplaat van een decoratieve letter Z met bloemen. Leuke alfabet kleurplaat voor kinderen.', keywords: 'letter z bloemen alfabet kleurplaat gratis kinderen leren', altText: 'Gratis kleurplaat bloemen letter Z' },
+    en: { title: 'Floral Letter Z', description: 'Free coloring page of a decorative letter Z with flowers. Fun alphabet coloring page for kids.', keywords: 'letter z flowers alphabet coloring page free kids learn', altText: 'Free coloring page floral letter Z' },
+    fr: { title: 'Lettre Z Floral', description: 'Page à colorier gratuite d\'une lettre Z décoratives avec des fleurs. Page à colorier d\'alphabet amusante pour les enfants.', keywords: 'lettre z fleurs alphabet coloriage gratuit enfants apprendre', altText: 'Page à colorier lettre Z floral' },
+    es: { title: 'Letra Z Floral', description: 'Página para colorear gratis de una letra Z decorativa con flores. Página para colorear de alfabeto divertida para niños.', keywords: 'letra z flores alfabeto colorear gratis niños aprender', altText: 'Página para colorear letra Z floral' },
+    zh: { title: '花卉字母 Z', description: '免费涂色页：装饰性字母 Z 与花卉。儿童有趣的字母表涂色页。', keywords: '字母 z 花卉字母表涂色页 免费 儿童 学习', altText: '免费涂色页 花卉字母 Z' },
+  },
+
+  {
+    id: 164, slug: 'kawaii-fruit-characters', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii-fruit-characters-coloring-page.jpg',
+    nl: { title: 'Kawaii Fruit Karakters', description: 'Gratis kleurplaat van schattige kawaii fruit karakters. Leuke kleurplaat met vrolijke fruitpersonages.', keywords: 'kawaii fruit karakters kleurplaat schattig gratis kinderen', altText: 'Gratis kleurplaat kawaii fruit karakters' },
+    en: { title: 'Kawaii Fruit Characters', description: 'Free coloring page of cute kawaii fruit characters. Fun coloring page with cheerful fruit personalities.', keywords: 'kawaii fruit characters coloring page cute free kids', altText: 'Free coloring page kawaii fruit characters' },
+    fr: { title: 'Caractères Fruit Kawaii', description: 'Page à colorier gratuite de mignons caractères fruit kawaii. Page à colorier amusante avec des personnages de fruit joyeux.', keywords: 'kawaii fruit caractères coloriage mignon gratuit enfants', altText: 'Page à colorier caractères fruit kawaii' },
+    es: { title: 'Caracteres Frutas Kawaii', description: 'Página para colorear gratis de lindos caracteres de frutas kawaii. Página para colorear divertida con personalidades de frutas alegres.', keywords: 'kawaii frutas caracteres colorear lindo gratis niños', altText: 'Página para colorear caracteres frutas kawaii' },
+    zh: { title: '可爱水果角色', description: '免费涂色页：可爱的卡哇伊水果角色。有趣的涂色页，有欢快的水果个性。', keywords: '卡哇伊水果角色涂色页 免费 儿童 可爱', altText: '免费涂色页 可爱水果角色' },
+  },
+
+  {
+    id: 165, slug: 'betta-fish-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/betta-fish-underwater-coloring-page.jpg',
+    nl: { title: 'Betta Vis Onderwater', description: 'Gratis kleurplaat van een prachtige betta vis zwemmend onderwater. Leuke oceaan kleurplaat voor kinderen.', keywords: 'betta vis onderwater oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat betta vis onderwater' },
+    en: { title: 'Betta Fish Underwater', description: 'Free coloring page of a beautiful betta fish swimming underwater. Fun ocean coloring page for kids.', keywords: 'betta fish underwater ocean coloring page free kids', altText: 'Free coloring page betta fish underwater' },
+    fr: { title: 'Poisson Betta Sous l\'Eau', description: 'Page à colorier gratuite d\'un beau poisson betta nageant sous l\'eau. Page à colorier océan amusante pour les enfants.', keywords: 'poisson betta sous l\'eau océan coloriage gratuit enfants', altText: 'Page à colorier poisson betta sous l\'eau' },
+    es: { title: 'Pez Betta Bajo el Agua', description: 'Página para colorear gratis de un hermoso pez betta nadando bajo el agua. Página para colorear océano divertida para niños.', keywords: 'pez betta bajo el agua océano colorear gratis niños', altText: 'Página para colorear pez betta bajo el agua' },
+    zh: { title: '斗鱼水下', description: '免费涂色页：美丽的斗鱼在水下游泳。儿童趣味海洋涂色页。', keywords: '斗鱼水下海洋涂色页 免费 儿童', altText: '免费涂色页 斗鱼水下' },
+  },
+
+  {
+    id: 166, slug: 'kawaii-space-aliens', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii-space-aliens-coloring-page.jpg',
+    nl: { title: 'Kawaii Ruimte Aliens', description: 'Gratis kleurplaat van schattige kawaii ruimte aliens. Leuke kleurplaat met vriendelijke buitenaardse karakters.', keywords: 'kawaii ruimte aliens kleurplaat schattig gratis kinderen', altText: 'Gratis kleurplaat kawaii ruimte aliens' },
+    en: { title: 'Kawaii Space Aliens', description: 'Free coloring page of cute kawaii space aliens. Fun coloring page with friendly extraterrestrial characters.', keywords: 'kawaii space aliens coloring page cute free kids', altText: 'Free coloring page kawaii space aliens' },
+    fr: { title: 'Aliens Espace Kawaii', description: 'Page à colorier gratuite de mignons aliens espace kawaii. Page à colorier amusante avec des caractères extraterrestres amicaux.', keywords: 'kawaii espace aliens coloriage mignon gratuit enfants', altText: 'Page à colorier aliens espace kawaii' },
+    es: { title: 'Aliens Espacio Kawaii', description: 'Página para colorear gratis de lindos aliens del espacio kawaii. Página para colorear divertida con caracteres extraterrestres amigables.', keywords: 'kawaii espacio aliens colorear lindo gratis niños', altText: 'Página para colorear aliens espacio kawaii' },
+    zh: { title: '可爱太空外星人', description: '免费涂色页：可爱的卡哇伊太空外星人。有趣的涂色页，有友好的外星角色。', keywords: '卡哇伊太空外星人涂色页 免费 儿童 可爱', altText: '免费涂色页 可爱太空外星人' },
+  },
+
+  {
+    id: 167, slug: 'winter-bears-in-snow', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/winter-bears-in-snow-coloring-page.jpg',
+    nl: { title: 'Winter Beren in Sneeuw', description: 'Gratis kleurplaat van speelse beren spelend in de sneeuw. Leuke seizoen kleurplaat voor kinderen.', keywords: 'winter beren sneeuw kleurplaat seizoenen gratis kinderen', altText: 'Gratis kleurplaat winter beren in sneeuw' },
+    en: { title: 'Winter Bears in Snow', description: 'Free coloring page of playful bears playing in the snow. Fun seasonal coloring page for kids.', keywords: 'winter bears snow coloring page seasonal free kids', altText: 'Free coloring page winter bears in snow' },
+    fr: { title: 'Ours d\'Hiver dans la Neige', description: 'Page à colorier gratuite d\'ours joueurs jouant dans la neige. Page à colorier saisonnière amusante pour les enfants.', keywords: 'hiver ours neige coloriage saisonnier gratuit enfants', altText: 'Page à colorier ours d\'hiver dans la neige' },
+    es: { title: 'Osos de Invierno en Nieve', description: 'Página para colorear gratis de osos traviesos jugando en la nieve. Página para colorear estacional divertida para niños.', keywords: 'invierno osos nieve colorear estacional gratis niños', altText: 'Página para colorear osos de invierno en nieve' },
+    zh: { title: '冬季熊在雪中', description: '免费涂色页：顽皮的熊在雪中玩耍。儿童有趣的季节涂色页。', keywords: '冬季熊雪涂色页 季节 免费 儿童', altText: '免费涂色页 冬季熊在雪中' },
+  },
+
+  {
+    id: 168, slug: 'whale-and-jellyfish-1', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/whale-and-jellyfish-1-coloring-page.jpg',
+    nl: { title: 'Walvis en Kwal 1', description: 'Gratis kleurplaat van een walvis en kwal samen in het oceaanwater. Leuke oceaan kleurplaat.', keywords: 'walvis kwal oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat walvis en kwal 1' },
+    en: { title: 'Whale and Jellyfish 1', description: 'Free coloring page of a whale and jellyfish together in the ocean water. Fun ocean coloring page.', keywords: 'whale jellyfish ocean sea coloring page free kids', altText: 'Free coloring page whale and jellyfish 1' },
+    fr: { title: 'Baleine et Méduse 1', description: 'Page à colorier gratuite d\'une baleine et méduse ensemble dans l\'eau océan. Page à colorier océan amusante.', keywords: 'baleine méduse océan mer coloriage gratuit enfants', altText: 'Page à colorier baleine et méduse 1' },
+    es: { title: 'Ballena y Medusa 1', description: 'Página para colorear gratis de una ballena y medusa juntas en el agua del océano. Página para colorear océano divertida.', keywords: 'ballena medusa océano mar colorear gratis niños', altText: 'Página para colorear ballena y medusa 1' },
+    zh: { title: '鲸鱼和水母 1', description: '免费涂色页：鲸鱼和水母在海洋中。有趣的海洋涂色页。', keywords: '鲸鱼水母海洋涂色页 免费 儿童', altText: '免费涂色页 鲸鱼和水母 1' },
+  },
+
+  {
+    id: 169, slug: 'whale-and-jellyfish-2', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/whale-and-jellyfish-2-coloring-page.jpg',
+    nl: { title: 'Walvis en Kwal 2', description: 'Gratis kleurplaat van een andere scène met walvis en kwal. Leuke oceaan kleurplaat voor kinderen.', keywords: 'walvis kwal oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat walvis en kwal 2' },
+    en: { title: 'Whale and Jellyfish 2', description: 'Free coloring page of another scene with whale and jellyfish. Fun ocean coloring page for kids.', keywords: 'whale jellyfish ocean sea coloring page free kids', altText: 'Free coloring page whale and jellyfish 2' },
+    fr: { title: 'Baleine et Méduse 2', description: 'Page à colorier gratuite d\'une autre scène avec baleine et méduse. Page à colorier océan amusante pour les enfants.', keywords: 'baleine méduse océan mer coloriage gratuit enfants', altText: 'Page à colorier baleine et méduse 2' },
+    es: { title: 'Ballena y Medusa 2', description: 'Página para colorear gratis de otra escena con ballena y medusa. Página para colorear océano divertida para niños.', keywords: 'ballena medusa océano mar colorear gratis niños', altText: 'Página para colorear ballena y medusa 2' },
+    zh: { title: '鲸鱼和水母 2', description: '免费涂色页：鲸鱼和水母的另一个场景。儿童趣味海洋涂色页。', keywords: '鲸鱼水母海洋涂色页 免费 儿童', altText: '免费涂色页 鲸鱼和水母 2' },
+  },
+
+  {
+    id: 170, slug: 'dolphin-jumping-ocean', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/dolphin-jumping-ocean-coloring-page.jpg',
+    nl: { title: 'Dolfijn Springend in Oceaan', description: 'Gratis kleurplaat van een dolfijn springend uit het oceaanwater. Leuke oceaan kleurplaat voor kinderen.', keywords: 'dolfijn springend oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dolfijn springend in oceaan' },
+    en: { title: 'Dolphin Jumping Ocean', description: 'Free coloring page of a dolphin jumping out of the ocean water. Fun ocean coloring page for kids.', keywords: 'dolphin jumping ocean sea coloring page free kids', altText: 'Free coloring page dolphin jumping ocean' },
+    fr: { title: 'Dauphin Sautant Océan', description: 'Page à colorier gratuite d\'un dauphin sautant hors de l\'eau océan. Page à colorier océan amusante pour les enfants.', keywords: 'dauphin sautant océan mer coloriage gratuit enfants', altText: 'Page à colorier dauphin sautant océan' },
+    es: { title: 'Delfín Saltando Océano', description: 'Página para colorear gratis de un delfín saltando fuera del agua del océano. Página para colorear océano divertida para niños.', keywords: 'delfín saltando océano mar colorear gratis niños', altText: 'Página para colorear delfín saltando océano' },
+    zh: { title: '海豚跳跃海洋', description: '免费涂色页：海豚从海洋中跳出来。儿童趣味海洋涂色页。', keywords: '海豚跳跃海洋涂色页 免费 儿童', altText: '免费涂色页 海豚跳跃海洋' },
+  },
+
+  {
+    id: 171, slug: 'whale-with-dolphins', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/whale-with-dolphins-coloring-page.jpg',
+    nl: { title: 'Walvis met Dolfijnen', description: 'Gratis kleurplaat van een walvis met dolfijnen zwemmend samen. Leuke oceaan kleurplaat voor kinderen.', keywords: 'walvis dolfijnen oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kluurplaat walvis met dolfijnen' },
+    en: { title: 'Whale with Dolphins', description: 'Free coloring page of a whale with dolphins swimming together. Fun ocean coloring page for kids.', keywords: 'whale dolphins ocean sea coloring page free kids', altText: 'Free coloring page whale with dolphins' },
+    fr: { title: 'Baleine avec Dauphins', description: 'Page à colorier gratuite d\'une baleine avec dauphins nageant ensemble. Page à colorier océan amusante pour les enfants.', keywords: 'baleine dauphins océan mer coloriage gratuit enfants', altText: 'Page à colorier baleine avec dauphins' },
+    es: { title: 'Ballena con Delfines', description: 'Página para colorear gratis de una ballena con delfines nadando juntos. Página para colorear océano divertida para niños.', keywords: 'ballena delfines océano mar colorear gratis niños', altText: 'Página para colorear ballena con delfines' },
+    zh: { title: '鲸鱼与海豚', description: '免费涂色页：鲸鱼与海豚一起游泳。儿童趣味海洋涂色页。', keywords: '鲸鱼海豚海洋涂色页 免费 儿童', altText: '免费涂色页 鲸鱼与海豚' },
+  },
+
+  {
+    id: 172, slug: 'narwhal-with-fish', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/narwhal-with-fish-coloring-page.jpg',
+    nl: { title: 'Narwal met Vis', description: 'Gratis kleurplaat van een narwal zwemmend met vissen. Leuke oceaan kleurplaat voor kinderen.', keywords: 'narwal vis oceaan zee kleurplaat gratis kinderen', altText: 'Gratis kleurplaat narwal met vis' },
+    en: { title: 'Narwhal with Fish', description: 'Free coloring page of a narwhal swimming with fish. Fun ocean coloring page for kids.', keywords: 'narwhal fish ocean sea coloring page free kids', altText: 'Free coloring page narwhal with fish' },
+    fr: { title: 'Narval avec Poisson', description: 'Page à colorier gratuite d\'un narval nageant avec du poisson. Page à colorier océan amusante pour les enfants.', keywords: 'narval poisson océan mer coloriage gratuit enfants', altText: 'Page à colorier narval avec poisson' },
+    es: { title: 'Narval con Pez', description: 'Página para colorear gratis de un narval nadando con peces. Página para colorear océano divertida para niños.', keywords: 'narval pez océano mar colorear gratis niños', altText: 'Página para colorear narval con pez' },
+    zh: { title: '独角鲸和鱼', description: '免费涂色页：独角鲸与鱼一起游泳。儿童趣味海洋涂色页。', keywords: '独角鲸鱼海洋涂色页 免费 儿童', altText: '免费涂色页 独角鲸和鱼' },
+  },
+
+  {
+    id: 173, slug: 'narwhal-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/narwhal-underwater-coloring-page.jpg',
+    nl: { title: 'Narwal Onderwater', description: 'Gratis kleurplaat van een narwal zwemmend diep onderwater. Leuke oceaan kleurplaat voor kinderen.', keywords: 'narwal onderwater oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat narwal onderwater' },
+    en: { title: 'Narwhal Underwater', description: 'Free coloring page of a narwhal swimming deep underwater. Fun ocean coloring page for kids.', keywords: 'narwhal underwater ocean sea coloring page free kids', altText: 'Free coloring page narwhal underwater' },
+    fr: { title: 'Narval Sous l\'Eau', description: 'Page à colorier gratuite d\'un narval nageant profondément sous l\'eau. Page à colorier océan amusante pour les enfants.', keywords: 'narval sous l\'eau océan mer coloriage gratuit enfants', altText: 'Page à colorier narval sous l\'eau' },
+    es: { title: 'Narval Bajo el Agua', description: 'Página para colorear gratis de un narval nadando profundamente bajo el agua. Página para colorear océano divertida para niños.', keywords: 'narval bajo el agua océano mar colorear gratis niños', altText: 'Página para colorear narval bajo el agua' },
+    zh: { title: '独角鲸水下', description: '免费涂色页：独角鲸在深海中游泳。儿童趣味海洋涂色页。', keywords: '独角鲸水下海洋涂色页 免费 儿童', altText: '免费涂色页 独角鲸水下' },
+  },
+
+  {
+    id: 174, slug: 'whale-with-fish', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/whale-with-fish-coloring-page.jpg',
+    nl: { title: 'Walvis met Vissen', description: 'Gratis kleurplaat van een walvis zwemmend met vissen. Leuke oceaan kleurplaat voor kinderen.', keywords: 'walvis vissen oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat walvis met vissen' },
+    en: { title: 'Whale with Fish', description: 'Free coloring page of a whale swimming with fish. Fun ocean coloring page for kids.', keywords: 'whale fish ocean sea coloring page free kids', altText: 'Free coloring page whale with fish' },
+    fr: { title: 'Baleine avec Poissons', description: 'Page à colorier gratuite d\'une baleine nageant avec du poisson. Page à colorier océan amusante pour les enfants.', keywords: 'baleine poissons océan mer coloriage gratuit enfants', altText: 'Page à colorier baleine avec poissons' },
+    es: { title: 'Ballena con Peces', description: 'Página para colorear gratis de una ballena nadando con peces. Página para colorear océano divertida para niños.', keywords: 'ballena peces océano mar colorear gratis niños', altText: 'Página para colorear ballena con peces' },
+    zh: { title: '鲸鱼和鱼', description: '免费涂色页：鲸鱼与鱼一起游泳。儿童趣味海洋涂色页。', keywords: '鲸鱼鱼海洋涂色页 免费 儿童', altText: '免费涂色页 鲸鱼和鱼' },
+  },
+
+  {
+    id: 175, slug: 'octopus-underwater-1', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/octopus-underwater-1-coloring-page.jpg',
+    nl: { title: 'Octopus Onderwater 1', description: 'Gratis kleurplaat van een octopus zwemmend onderwater. Leuke oceaan kleurplaat voor kinderen.', keywords: 'octopus onderwater oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat octopus onderwater 1' },
+    en: { title: 'Octopus Underwater 1', description: 'Free coloring page of an octopus swimming underwater. Fun ocean coloring page for kids.', keywords: 'octopus underwater ocean sea coloring page free kids', altText: 'Free coloring page octopus underwater 1' },
+    fr: { title: 'Pieuvre Sous l\'Eau 1', description: 'Page à colorier gratuite d\'une pieuvre nageant sous l\'eau. Page à colorier océan amusante pour les enfants.', keywords: 'pieuvre sous l\'eau océan mer coloriage gratuit enfants', altText: 'Page à colorier pieuvre sous l\'eau 1' },
+    es: { title: 'Pulpo Bajo el Agua 1', description: 'Página para colorear gratis de un pulpo nadando bajo el agua. Página para colorear océano divertida para niños.', keywords: 'pulpo bajo el agua océano mar colorear gratis niños', altText: 'Página para colorear pulpo bajo el agua 1' },
+    zh: { title: '章鱼水下 1', description: '免费涂色页：章鱼在水下游泳。儿童趣味海洋涂色页。', keywords: '章鱼水下海洋涂色页 免费 儿童', altText: '免费涂色页 章鱼水下 1' },
+  },
+
+  {
+    id: 176, slug: 'octopus-sea-creatures', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/octopus-sea-creatures-coloring-page.jpg',
+    nl: { title: 'Octopus en Zeedieren', description: 'Gratis kleurplaat van een octopus met andere zeedieren. Leuke oceaan kleurplaat voor kinderen.', keywords: 'octopus zeedieren oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat octopus en zeedieren' },
+    en: { title: 'Octopus Sea Creatures', description: 'Free coloring page of an octopus with other sea creatures. Fun ocean coloring page for kids.', keywords: 'octopus sea creatures ocean sea coloring page free kids', altText: 'Free coloring page octopus sea creatures' },
+    fr: { title: 'Pieuvre Créatures Marines', description: 'Page à colorier gratuite d\'une pieuvre avec d\'autres créatures marines. Page à colorier océan amusante pour les enfants.', keywords: 'pieuvre créatures marines océan mer coloriage gratuit enfants', altText: 'Page à colorier pieuvre créatures marines' },
+    es: { title: 'Pulpo Criaturas Marinas', description: 'Página para colorear gratis de un pulpo con otras criaturas marinas. Página para colorear océano divertida para niños.', keywords: 'pulpo criaturas marinas océano mar colorear gratis niños', altText: 'Página para colorear pulpo criaturas marinas' },
+    zh: { title: '章鱼海洋生物', description: '免费涂色页：章鱼和其他海洋生物。儿童趣味海洋涂色页。', keywords: '章鱼海洋生物涂色页 免费 儿童', altText: '免费涂色页 章鱼海洋生物' },
+  },
+
+  {
+    id: 177, slug: 'octopus-with-seaweed', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/octopus-with-seaweed-coloring-page.jpg',
+    nl: { title: 'Octopus met Zeewierin', description: 'Gratis kleurplaat van een octopus tussen zeewieren. Leuke oceaan kluurplaat voor kinderen.', keywords: 'octopus zeewier oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat octopus met zeewier' },
+    en: { title: 'Octopus with Seaweed', description: 'Free coloring page of an octopus surrounded by seaweed. Fun ocean coloring page for kids.', keywords: 'octopus seaweed ocean sea coloring page free kids', altText: 'Free coloring page octopus with seaweed' },
+    fr: { title: 'Pieuvre avec Algues', description: 'Page à colorier gratuite d\'une pieuvre entourée d\'algues. Page à colorier océan amusante pour les enfants.', keywords: 'pieuvre algues océan mer coloriage gratuit enfants', altText: 'Page à colorier pieuvre avec algues' },
+    es: { title: 'Pulpo con Algas', description: 'Página para colorear gratis de un pulpo rodeado de algas. Página para colorear océano divertida para niños.', keywords: 'pulpo algas océano mar colorear gratis niños', altText: 'Página para colorear pulpo con algas' },
+    zh: { title: '章鱼与海草', description: '免费涂色页：章鱼被海草包围。儿童趣味海洋涂色页。', keywords: '章鱼海草涂色页 免费 儿童', altText: '免费涂色页 章鱼与海草' },
+  },
+
+  {
+    id: 178, slug: 'jellyfish-group', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/jellyfish-group-coloring-page.jpg',
+    nl: { title: 'Kwallen Groep', description: 'Gratis kleurplaat van een groep prachtige kwallen. Leuke oceaan kluurplaat voor kinderen.', keywords: 'kwallen groep oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat kwallen groep' },
+    en: { title: 'Jellyfish Group', description: 'Free coloring page of a group of beautiful jellyfish. Fun ocean coloring page for kids.', keywords: 'jellyfish group ocean sea coloring page free kids', altText: 'Free coloring page jellyfish group' },
+    fr: { title: 'Groupe de Méduses', description: 'Page à colorier gratuite d\'un groupe de belles méduses. Page à colorier océan amusante pour les enfants.', keywords: 'méduses groupe océan mer coloriage gratuit enfants', altText: 'Page à colorier groupe de méduses' },
+    es: { title: 'Grupo de Medusas', description: 'Página para colorear gratis de un grupo de hermosas medusas. Página para colorear océano divertida para niños.', keywords: 'medusas grupo océano mar colorear gratis niños', altText: 'Página para colorear grupo de medusas' },
+    zh: { title: '水母群', description: '免费涂色页：一群美丽的水母。儿童趣味海洋涂色页。', keywords: '水母群海洋涂色页 免费 儿童', altText: '免费涂色页 水母群' },
+  },
+
+  {
+    id: 179, slug: 'shark-underwater', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/shark-underwater-coloring-page.jpg',
+    nl: { title: 'Haai Onderwater', description: 'Gratis kleurplaat van een haai zwemmend onderwater. Leuke oceaan kluurplaat voor kinderen.', keywords: 'haai onderwater oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat haai onderwater' },
+    en: { title: 'Shark Underwater', description: 'Free coloring page of a shark swimming underwater. Fun ocean coloring page for kids.', keywords: 'shark underwater ocean sea coloring page free kids', altText: 'Free coloring page shark underwater' },
+    fr: { title: 'Requin Sous l\'Eau', description: 'Page à colorier gratuite d\'un requin nageant sous l\'eau. Page à colorier océan amusante pour les enfants.', keywords: 'requin sous l\'eau océan mer coloriage gratuit enfants', altText: 'Page à colorier requin sous l\'eau' },
+    es: { title: 'Tiburón Bajo el Agua', description: 'Página para colorear gratis de un tiburón nadando bajo el agua. Página para colorear océano divertida para niños.', keywords: 'tiburón bajo el agua océano mar colorear gratis niños', altText: 'Página para colorear tiburón bajo el agua' },
+    zh: { title: '鲨鱼水下', description: '免费涂色页：鲨鱼在水下游泳。儿童趣味海洋涂色页。', keywords: '鲨鱼水下海洋涂色页 免费 儿童', altText: '免费涂色页 鲨鱼水下' },
+  },
+
+  {
+    id: 180, slug: 'shark-with-fish', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/shark-with-fish-coloring-page.jpg',
+    nl: { title: 'Haai met Vissen', description: 'Gratis kleurplaat van een haai zwemmend met vissen. Leuke oceaan kluurplaat voor kinderen.', keywords: 'haai vissen oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kleurplaat haai met vissen' },
+    en: { title: 'Shark with Fish', description: 'Free coloring page of a shark swimming with fish. Fun ocean coloring page for kids.', keywords: 'shark fish ocean sea coloring page free kids', altText: 'Free coloring page shark with fish' },
+    fr: { title: 'Requin avec Poissons', description: 'Page à colorier gratuite d\'un requin nageant avec du poisson. Page à colorier océan amusante pour les enfants.', keywords: 'requin poissons océan mer coloriage gratuit enfants', altText: 'Page à colorier requin avec poissons' },
+    es: { title: 'Tiburón con Peces', description: 'Página para colorear gratis de un tiburón nadando con peces. Página para colorear océano divertida para niños.', keywords: 'tiburón peces océano mar colorear gratis niños', altText: 'Página para colorear tiburón con peces' },
+    zh: { title: '鲨鱼和鱼', description: '免费涂色页：鲨鱼与鱼一起游泳。儿童趣味海洋涂色页。', keywords: '鲨鱼鱼海洋涂色页 免费 儿童', altText: '免费涂色页 鲨鱼和鱼' },
+  },
+
+  {
+    id: 181, slug: 'sailboat-night-sky', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/sailboat-night-sky-coloring-page.jpg',
+    nl: { title: 'Zeilboot Nachtlucht', description: 'Gratis kluurplaat van een zeilboot op de oceaan onder de sterrenhemel. Leuke nacht kluurplaat voor kinderen.', keywords: 'zeilboot nacht oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kluurplaat zeilboot nachtlucht' },
+    en: { title: 'Sailboat Night Sky', description: 'Free coloring page of a sailboat on the ocean under the starry sky. Fun night coloring page for kids.', keywords: 'sailboat night ocean sea coloring page free kids', altText: 'Free coloring page sailboat night sky' },
+    fr: { title: 'Voilier Ciel de Nuit', description: 'Page à colorier gratuite d\'un voilier sur l\'océan sous le ciel étoilé. Page à colorier de nuit amusante pour les enfants.', keywords: 'voilier nuit océan mer coloriage gratuit enfants', altText: 'Page à colorier voilier ciel de nuit' },
+    es: { title: 'Velero Cielo Nocturno', description: 'Página para colorear gratis de un velero en el océano bajo el cielo estrellado. Página para colorear nocturna divertida para niños.', keywords: 'velero noche océano mar colorear gratis niños', altText: 'Página para colorear velero cielo nocturno' },
+    zh: { title: '帆船夜空', description: '免费涂色页：帆船在夜空下的海洋。儿童有趣的夜晚涂色页。', keywords: '帆船夜晚海洋涂色页 免费 儿童', altText: '免费涂色页 帆船夜空' },
+  },
+
+  {
+    id: 182, slug: 'sailboat-nautical', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/sailboat-nautical-coloring-page.jpg',
+    nl: { title: 'Zeilboot Nautisch', description: 'Gratis kluurplaat van een zeilboot met nautische elementen. Leuke zomerkluurplaat voor kinderen.', keywords: 'zeilboot nautisch oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kluurplaat zeilboot nautisch' },
+    en: { title: 'Sailboat Nautical', description: 'Free coloring page of a sailboat with nautical elements. Fun summer coloring page for kids.', keywords: 'sailboat nautical ocean sea coloring page free kids', altText: 'Free coloring page sailboat nautical' },
+    fr: { title: 'Voilier Nautique', description: 'Page à colorier gratuite d\'un voilier avec des éléments nautiques. Page à colorier d\'été amusante pour les enfants.', keywords: 'voilier nautique océan mer coloriage gratuit enfants', altText: 'Page à colorier voilier nautique' },
+    es: { title: 'Velero Náutico', description: 'Página para colorear gratis de un velero con elementos náuticos. Página para colorear de verano divertida para niños.', keywords: 'velero náutico océano mar colorear gratis niños', altText: 'Página para colorear velero náutico' },
+    zh: { title: '帆船航海', description: '免费涂色页：带有航海元素的帆船。儿童有趣的夏季涂色页。', keywords: '帆船航海海洋涂色页 免费 儿童', altText: '免费涂色页 帆船航海' },
+  },
+
+  {
+    id: 183, slug: 'dolphin-and-sea-turtle', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/dolphin-and-sea-turtle-coloring-page.jpg',
+    nl: { title: 'Dolfijn en Zeschildpad', description: 'Gratis kluurplaat van een dolfijn en zeeschildpad zwemmend samen. Leuke oceaan kluurplaat voor kinderen.', keywords: 'dolfijn zeeschildpad oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kluurplaat dolfijn en zeeschildpad' },
+    en: { title: 'Dolphin and Sea Turtle', description: 'Free coloring page of a dolphin and sea turtle swimming together. Fun ocean coloring page for kids.', keywords: 'dolphin sea turtle ocean sea coloring page free kids', altText: 'Free coloring page dolphin and sea turtle' },
+    fr: { title: 'Dauphin et Tortue Marine', description: 'Page à colorier gratuite d\'un dauphin et une tortue marine nageant ensemble. Page à colorier océan amusante pour les enfants.', keywords: 'dauphin tortue marine océan mer coloriage gratuit enfants', altText: 'Page à colorier dauphin et tortue marine' },
+    es: { title: 'Delfín y Tortuga Marina', description: 'Página para colorear gratis de un delfín y tortuga marina nadando juntos. Página para colorear océano divertida para niños.', keywords: 'delfín tortuga marina océano mar colorear gratis niños', altText: 'Página para colorear delfín y tortuga marina' },
+    zh: { title: '海豚和海龟', description: '免费涂色页：海豚和海龟一起游泳。儿童趣味海洋涂色页。', keywords: '海豚海龟海洋涂色页 免费 儿童', altText: '免费涂色页 海豚和海龟' },
+  },
+
+  {
+    id: 184, slug: 'sea-turtle-detailed', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/sea-turtle-detailed-coloring-page.jpg',
+    nl: { title: 'Zeeschildpad Gedetailleerd', description: 'Gratis kluurplaat van een gedetailleerde zeeschildpad. Leuke oceaan kluurplaat voor kinderen.', keywords: 'zeeschildpad gedetailleerd oceaan zee kluurplaat gratis kinderen', altText: 'Gratis kluurplaat zeeschildpad gedetailleerd' },
+    en: { title: 'Sea Turtle Detailed', description: 'Free coloring page of a detailed sea turtle. Fun ocean coloring page for kids.', keywords: 'sea turtle detailed ocean sea coloring page free kids', altText: 'Free coloring page sea turtle detailed' },
+    fr: { title: 'Tortue Marine Détaillée', description: 'Page à colorier gratuite d\'une tortue marine détaillée. Page à colorier océan amusante pour les enfants.', keywords: 'tortue marine détaillée océan mer coloriage gratuit enfants', altText: 'Page à colorier tortue marine détaillée' },
+    es: { title: 'Tortuga Marina Detallada', description: 'Página para colorear gratis de una tortuga marina detallada. Página para colorear océano divertida para niños.', keywords: 'tortuga marina detallada océano mar colorear gratis niños', altText: 'Página para colorear tortuga marina detallada' },
+    zh: { title: '海龟详细', description: '免费涂色页：详细的海龟。儿童趣味海洋涂色页。', keywords: '海龟详细海洋涂色页 免费 儿童', altText: '免费涂色页 海龟详细' },
+  },
+
+  {
+    id: 185, slug: 'decorative-female-face-flowers', category: 'gezichten', difficulty: 'medium',
+    img: '../img/kleurplaten/decorative-female-face-flowers-coloring-page.jpg',
+    nl: { title: 'Decoratief Vrouwen Gezicht Bloemen', description: 'Gratis kluurplaat van een decoratief vrouwen gezicht met bloemen patronen. Gedetailleerd design voor ontspannend kleuren.', keywords: 'vrouwen gezicht bloemen decoratief kluurplaat mandala gratis', altText: 'Gratis kluurplaat decoratief vrouwen gezicht bloemen' },
+    en: { title: 'Decorative Female Face Flowers', description: 'Free coloring page of a decorative female face with flower patterns. Detailed design for relaxing coloring.', keywords: 'female face flowers decorative coloring page mandala free', altText: 'Free coloring page decorative female face flowers' },
+    fr: { title: 'Visage Féminin Décoratif Fleurs', description: 'Page à colorier gratuite d\'un visage féminin décoratif avec motifs floraux. Design détaillé pour la coloration relaxante.', keywords: 'visage féminin fleurs décoratives coloriage mandala gratuit', altText: 'Page à colorier visage féminin décoratif fleurs' },
+    es: { title: 'Cara Femenina Decorativa Flores', description: 'Página para colorear gratis de una cara femenina decorativa con patrones de flores. Diseño detallado para coloración relajante.', keywords: 'cara femenina flores decorativa colorear mandala gratis', altText: 'Página para colorear cara femenina decorativa flores' },
+    zh: { title: '装饰性女性面孔花卉', description: '免费涂色页：装饰性女性面孔和花卉图案。用于放松着色的详细设计。', keywords: '女性面孔花卉装饰涂色页 曼陀罗 免费', altText: '免费涂色页 装饰性女性面孔花卉' },
+  },
+
+  {
+    id: 186, slug: 'woman-face-architecture-flowers', category: 'gezichten', difficulty: 'medium',
+    img: '../img/kleurplaten/woman-face-architecture-flowers-coloring-page.jpg',
+    nl: { title: 'Vrouw Gezicht Architectuur Bloemen', description: 'Gratis kluurplaat van een vrouw gezicht met architectuur en bloemen elementen. Gedetailleerd design voor volwassenen.', keywords: 'vrouw gezicht architectuur bloemen kluurplaat decoratief gratis', altText: 'Gratis kluurplaat vrouw gezicht architectuur bloemen' },
+    en: { title: 'Woman Face Architecture Flowers', description: 'Free coloring page of a woman face with architecture and flower elements. Detailed design for adults.', keywords: 'woman face architecture flowers coloring page decorative free', altText: 'Free coloring page woman face architecture flowers' },
+    fr: { title: 'Visage Femme Architecture Fleurs', description: 'Page à colorier gratuite d\'un visage de femme avec architecture et éléments floraux. Design détaillé pour adultes.', keywords: 'visage femme architecture fleurs coloriage décoratives gratuit', altText: 'Page à colorier visage femme architecture fleurs' },
+    es: { title: 'Cara Mujer Arquitectura Flores', description: 'Página para colorear gratis de una cara de mujer con arquitectura y elementos de flores. Diseño detallado para adultos.', keywords: 'cara mujer arquitectura flores colorear decorativa gratis', altText: 'Página para colorear cara mujer arquitectura flores' },
+    zh: { title: '女性面孔建筑花卉', description: '免费涂色页：女性面孔与建筑和花卉元素。成人的详细设计。', keywords: '女性面孔建筑花卉涂色页 装饰 免费', altText: '免费涂色页 女性面孔建筑花卉' },
+  },
+
+  {
+    id: 187, slug: 'girl-face-floral-crown-1', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/girl-face-floral-crown-1-coloring-page.jpg',
+    nl: { title: 'Meisje Gezicht Bloemen Kroon 1', description: 'Gratis kluurplaat van een meisje met bloemen kroon. Leuke gezichten kluurplaat voor kinderen.', keywords: 'meisje gezicht bloemen kroon kluurplaat gratis kinderen', altText: 'Gratis kluurplaat meisje gezicht bloemen kroon 1' },
+    en: { title: 'Girl Face Floral Crown 1', description: 'Free coloring page of a girl with a floral crown. Fun face coloring page for kids.', keywords: 'girl face floral crown coloring page free kids', altText: 'Free coloring page girl face floral crown 1' },
+    fr: { title: 'Visage Fille Couronne Floral 1', description: 'Page à colorier gratuite d\'une fille avec une couronne floral. Page à colorier de visage amusante pour les enfants.', keywords: 'visage fille couronne fleur coloriage gratuit enfants', altText: 'Page à colorier visage fille couronne floral 1' },
+    es: { title: 'Cara Niña Corona Floral 1', description: 'Página para colorear gratis de una niña con una corona floral. Página para colorear de caras divertida para niños.', keywords: 'cara niña corona floral colorear gratis niños', altText: 'Página para colorear cara niña corona floral 1' },
+    zh: { title: '女孩面孔花卉皇冠 1', description: '免费涂色页：戴花卉皇冠的女孩。儿童有趣的面孔涂色页。', keywords: '女孩面孔花卉皇冠涂色页 免费 儿童', altText: '免费涂色页 女孩面孔花卉皇冠 1' },
+  },
+
+  {
+    id: 188, slug: 'deer-head-mandala-floral', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/deer-head-mandala-floral-coloring-page.jpg',
+    nl: { title: 'Hertenkop Mandala Bloemen', description: 'Gratis kluurplaat van een herte kop mandala met bloemen. Gedetailleerd design voor ontspannend kleuren.', keywords: 'hertenkop mandala bloemen kluurplaat decoratief patroon gratis', altText: 'Gratis kluurplaat hertenkop mandala bloemen' },
+    en: { title: 'Deer Head Mandala Floral', description: 'Free coloring page of a deer head mandala with flowers. Detailed design for relaxing coloring.', keywords: 'deer head mandala floral coloring page decorative pattern free', altText: 'Free coloring page deer head mandala floral' },
+    fr: { title: 'Tête de Cerf Mandala Floral', description: 'Page à colorier gratuite d\'une tête de cerf mandala avec fleurs. Design détaillé pour la coloration relaxante.', keywords: 'tête de cerf mandala fleur coloriage motif décoratif gratuit', altText: 'Page à colorier tête de cerf mandala floral' },
+    es: { title: 'Cabeza de Ciervo Mandala Floral', description: 'Página para colorear gratis de una cabeza de ciervo mandala con flores. Diseño detallado para coloración relajante.', keywords: 'cabeza de ciervo mandala floral colorear motif decorativo gratis', altText: 'Página para colorear cabeza de ciervo mandala floral' },
+    zh: { title: '鹿头曼陀罗花卉', description: '免费涂色页：鹿头曼陀罗和花卉。用于放松着色的详细设计。', keywords: '鹿头曼陀罗花卉涂色页 装饰 图案 免费', altText: '免费涂色页 鹿头曼陀罗花卉' },
+  },
+
+  {
+    id: 189, slug: 'girl-face-floral-crown-2', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/girl-face-floral-crown-2-coloring-page.jpg',
+    nl: { title: 'Meisje Gezicht Bloemen Kroon 2', description: 'Gratis kluurplaat van een ander meisje met bloemen kroon. Leuke gezichten kluurplaat voor kinderen.', keywords: 'meisje gezicht bloemen kroon kluurplaat gratis kinderen', altText: 'Gratis kluurplaat meisje gezicht bloemen kroon 2' },
+    en: { title: 'Girl Face Floral Crown 2', description: 'Free coloring page of another girl with a floral crown. Fun face coloring page for kids.', keywords: 'girl face floral crown coloring page free kids', altText: 'Free coloring page girl face floral crown 2' },
+    fr: { title: 'Visage Fille Couronne Floral 2', description: 'Page à colorier gratuite d\'une autre fille avec une couronne floral. Page à colorier de visage amusante pour les enfants.', keywords: 'visage fille couronne fleur coloriage gratuit enfants', altText: 'Page à colorier visage fille couronne floral 2' },
+    es: { title: 'Cara Niña Corona Floral 2', description: 'Página para colorear gratis de otra niña con una corona floral. Página para colorear de caras divertida para niños.', keywords: 'cara niña corona floral colorear gratis niños', altText: 'Página para colorear cara niña corona floral 2' },
+    zh: { title: '女孩面孔花卉皇冠 2', description: '免费涂色页：另一个戴花卉皇冠的女孩。儿童有趣的面孔涂色页。', keywords: '女孩面孔花卉皇冠涂色页 免费 儿童', altText: '免费涂色页 女孩面孔花卉皇冠 2' },
+  },
+
+  {
+    id: 190, slug: 'giraffe-head-mandala-leaves', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/giraffe-head-mandala-leaves-coloring-page.jpg',
+    nl: { title: 'Giraffekop Mandala Bladeren', description: 'Gratis kluurplaat van een giraffekop mandala met bladeren. Gedetailleerd design voor ontspannend kleuren.', keywords: 'giraffekop mandala bladeren kluurplaat decoratief patroon gratis', altText: 'Gratis kluurplaat giraffekop mandala bladeren' },
+    en: { title: 'Giraffe Head Mandala Leaves', description: 'Free coloring page of a giraffe head mandala with leaves. Detailed design for relaxing coloring.', keywords: 'giraffe head mandala leaves coloring page decorative pattern free', altText: 'Free coloring page giraffe head mandala leaves' },
+    fr: { title: 'Tête de Girafe Mandala Feuilles', description: 'Page à colorier gratuite d\'une tête de girafe mandala avec feuilles. Design détaillé pour la coloration relaxante.', keywords: 'tête de girafe mandala feuilles coloriage motif décoratif gratuit', altText: 'Page à colorier tête de girafe mandala feuilles' },
+    es: { title: 'Cabeza de Jirafa Mandala Hojas', description: 'Página para colorear gratis de una cabeza de jirafa mandala con hojas. Diseño detallado para coloración relajante.', keywords: 'cabeza de jirafa mandala hojas colorear motif decorativo gratis', altText: 'Página para colorear cabeza de jirafa mandala hojas' },
+    zh: { title: '长颈鹿头曼陀罗叶子', description: '免费涂色页：长颈鹿头曼陀罗和叶子。用于放松着色的详细设计。', keywords: '长颈鹿头曼陀罗叶子涂色页 装饰 图案 免费', altText: '免费涂色页 长颈鹿头曼陀罗叶子' },
   },
 
 ];
