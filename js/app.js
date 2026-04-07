@@ -186,6 +186,13 @@ document.addEventListener('DOMContentLoaded', () => {
   hideEmptyAdBanners();
   injectColoringPageSchema();   // structured data on page load
 
+  // Restore URL from 404.html SPA redirect (for /kleurplaat/SLUG direct visits)
+  const spaPendingPath = sessionStorage.getItem('spa_path');
+  if (spaPendingPath) {
+    sessionStorage.removeItem('spa_path');
+    history.replaceState({}, '', spaPendingPath);
+  }
+
   // Auto-open modal when visiting /kleurplaat/SLUG directly
   const slugMatch = window.location.pathname.match(/^\/kleurplaat\/([^/]+)$/);
   if (slugMatch) {
