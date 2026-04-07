@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8"/>
+  <title>KidsLoveColor</title>
+  <script>
+    // SPA redirect: store requested path, then serve from root
+    // app.js will restore the URL and open the correct coloring
+    var path = window.location.pathname + window.location.search;
+    sessionStorage.setItem('spa_path', path);
+    window.location.replace('/');
+  </script>
+</head>
+<body></body>
+</html>
