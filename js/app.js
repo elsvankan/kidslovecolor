@@ -665,11 +665,11 @@ function printColoring(item) {
   <meta charset="UTF-8"/>
   <title>${ld.title} – KidsLoveColor.com</title>
   <style>
-    @page { size: A4 portrait; margin: 0.8cm; }
+    @page { size: A4 portrait; margin: 0; }
     * { margin:0; padding:0; box-sizing:border-box; }
-    html, body { width:100%; height:100%; background:white; }
-    body { font-family: 'Nunito', Arial, sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; }
-    .print-img { width:100%; height:auto; max-height:92vh; object-fit:contain; display:block; }
+    html, body { width:210mm; height:297mm; overflow:hidden; background:white; }
+    body { display:flex; align-items:center; justify-content:center; }
+    .print-img { width:200mm; height:283mm; object-fit:contain; display:block; }
     @media print { body { -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
   </style>
 </head>
