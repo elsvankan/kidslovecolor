@@ -21,7 +21,7 @@ const coloringsMatch = dataRaw.match(/const COLORINGS\s*=\s*(\[[\s\S]*?\n\];)/);
 if (!coloringsMatch) { console.error('COLORINGS not found'); process.exit(1); }
 const COLORINGS = eval(coloringsMatch[1]);
 
-const BASE_URL = 'https://www.kidslovecolor.com';
+const BASE_URL = 'https://kidslovecolor.com';
 const outDir = path.join(__dirname, 'kleurplaat');
 
 let created = 0;
@@ -63,11 +63,11 @@ for (const page of COLORINGS) {
   <meta name="twitter:description" content="${escapeHtml(desc)}"/>
   <meta name="twitter:image"       content="${imgUrl}"/>
 
-  <!-- Redirect to SPA -->
-  <meta http-equiv="refresh" content="0; url=/?kleurplaat=${slug}#kleurplaat-${slug}"/>
+  <!-- Redirect to SPA: store path so app.js can open the modal -->
+  <meta http-equiv="refresh" content="0; url=/"/>
   <script>
-    sessionStorage.setItem('kleurplaat', '${slug}');
-    window.location.replace('/?kleurplaat=${slug}#kleurplaat-${slug}');
+    sessionStorage.setItem('spa_path', '/kleurplaat/${slug}');
+    window.location.replace('/');
   </script>
 </head>
 <body>

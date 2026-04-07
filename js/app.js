@@ -198,6 +198,16 @@ document.addEventListener('DOMContentLoaded', () => {
   if (slugMatch) {
     const item = COLORINGS.find(c => c.slug === slugMatch[1]);
     if (item) openModal(item.id);
+  } else {
+    // Fallback: handle ?kleurplaat=SLUG from older static page redirects
+    const kpParam = new URLSearchParams(window.location.search).get('kleurplaat');
+    if (kpParam) {
+      const item = COLORINGS.find(c => c.slug === kpParam);
+      if (item) {
+        history.replaceState({}, '', '/kleurplaat/' + kpParam);
+        openModal(item.id);
+      }
+    }
   }
 });
 
