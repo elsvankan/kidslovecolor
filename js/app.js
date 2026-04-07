@@ -665,19 +665,18 @@ function printColoring(item) {
   <meta charset="UTF-8"/>
   <title>${ld.title} – KidsLoveColor.com</title>
   <style>
+    @page { size: A4 portrait; margin: 0.8cm; }
     * { margin:0; padding:0; box-sizing:border-box; }
-    body { font-family: 'Nunito', Arial, sans-serif; background: white; }
-    .print-wrap { display:flex; flex-direction:column; align-items:center; justify-content:center; min-height:100vh; padding:1cm; }
-    .print-img { max-width:19cm; max-height:27cm; display:block; }
-    .print-footer { margin-top:10pt; font-size:8pt; color:#9CA3AF; text-align:center; }
+    html, body { width:100%; height:100%; background:white; }
+    body { font-family: 'Nunito', Arial, sans-serif; display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; }
+    .print-img { width:100%; height:auto; max-height:92vh; object-fit:contain; display:block; }
+    .print-footer { margin-top:4pt; font-size:7pt; color:#9CA3AF; text-align:center; flex-shrink:0; }
     @media print { body { -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
   </style>
 </head>
 <body>
-  <div class="print-wrap">
     <img class="print-img" src="${absImgSrc}" alt="${ld.altText || ld.title}"/>
     <p class="print-footer">${t('print_tagline')}</p>
-  </div>
   <script>
     window.onload = function() {
       window.print();
