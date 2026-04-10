@@ -13,9 +13,9 @@ Doel: de grootste gratis kleurplatenwebsite in NL, EN-GB, EN-US, FR, ES en ZH.
 - [x] Google Search Console gekoppeld
 - [x] AdSense geactiveerd (ca-pub-3734051660277140)
 - [x] Unpack font (Adobe Fonts)
-- [ ] **Sitemap regenereren** met alle 174 kleurplaat-URLs + image tags
-- [ ] **hreflang updaten** naar locale codes (nl-NL, en-GB, en-US, fr-FR, es-ES, zh-Hans)
-- [ ] **robots.txt updaten** (voeg /fr/, /es/, /zh/, /kleurplaat/ toe)
+- [x] **Sitemap regenereren** met alle 174 kleurplaat-URLs + image tags
+- [x] **hreflang updaten** naar locale codes (nl-NL, en-GB, en-US, fr-FR, es-ES, zh-Hans)
+- [x] **robots.txt updaten** (voeg /fr/, /es/, /zh/, /kleurplaat/ toe)
 
 ---
 
