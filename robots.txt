@@ -4,17 +4,20 @@
 User-agent: *
 Allow: /
 
-# Bestanden die gecrawld mogen worden
-Allow: /index.html
+# Alle taalversies toestaan
 Allow: /en/
+Allow: /fr/
+Allow: /es/
+Allow: /zh/
+
+# Kleurplaat-pagina's (SEO landing pages)
+Allow: /kleurplaat/
+
+# Statische bestanden
 Allow: /css/
 Allow: /js/
-Allow: /svg/
 Allow: /img/
-Allow: /sitemap.xml
-
-# Geen waarde voor SEO — blokkeer JS/CSS niet want Google heeft het nodig
-# om de pagina correct te renderen
+Allow: /svg/
 
 # Sitemap
 Sitemap: https://kidslovecolor.com/sitemap.xml
@@ -23,14 +26,13 @@ Sitemap: https://kidslovecolor.com/sitemap.xml
 # Bot-specifieke regels
 # -------------------------------------------------------
 
-# Google-specifiek (alles toestaan)
+# Google (alles toestaan, ook afbeeldingen)
 User-agent: Googlebot
 Allow: /
 
-# Google Afbeeldingen (afbeeldingen toestaan voor betere zichtbaarheid)
 User-agent: Googlebot-Image
-Allow: /svg/
 Allow: /img/
+Allow: /svg/
 
 # Bing
 User-agent: Bingbot
