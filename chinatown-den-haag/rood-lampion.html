@@ -477,17 +477,23 @@
   const N = 26;              // number of spine sample points (head -> tail)
   let W = window.innerWidth;
   let H = window.innerHeight;
-  let bodyLength, spacing, amp, freq, centerX, maxWidth;
+  let bodyLength, spacing, amp, freq, centerX, maxWidth, headAnchor;
 
   function recalc(){
     W = window.innerWidth; H = window.innerHeight;
     svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
     bodyLength = H * 0.8;
     spacing = bodyLength / (N - 1);
-    amp = Math.min(W * 0.24, 210);
+    // On narrow screens, hug the right edge with a smaller swing so the
+    // head doesn't wander across the headline copy.
+    const narrow = W < 700;
+    amp = Math.min(W * (narrow ? 0.15 : 0.24), 210);
     freq = (2 * Math.PI) / (bodyLength * 1.15);
-    centerX = W * 0.66;
+    centerX = W * (narrow ? 0.8 : 0.66);
     maxWidth = Math.max(26, Math.min(W * 0.045, 42));
+    // Head rides higher on narrow screens (empty top-right corner)
+    // instead of at mid-viewport where the copy sits.
+    headAnchor = H * (narrow ? 0.34 : 0.58);
   }
 
   /* -- body: filled tapered ribbon + gold outline + lighter belly stripe -- */
@@ -570,13 +576,13 @@
   const right = new Array(N).fill(0).map(() => ({x:0, y:0}));
 
   function computePoints(scrollY, time){
-    const headWorldY = scrollY + H * 0.58;
+    const headWorldY = scrollY + headAnchor;
     for (let i = 0; i < N; i++){
       const worldY = headWorldY - i * spacing;
       const idle = 11 * Math.sin(worldY * 0.012 + time * 0.0011 + i * 0.28);
       const x = centerX + amp * Math.sin(worldY * freq) + idle;
       const bob = 5 * Math.sin(time * 0.0009 + i * 0.32);
-      const y = (H * 0.58 - i * spacing) + bob;
+      const y = (headAnchor - i * spacing) + bob;
       points[i].x = x;
       points[i].y = y;
     }
@@ -625,8 +631,17 @@
     headGroup.setAttribute('transform', `translate(${p0.x.toFixed(1)},${p0.y.toFixed(1)}) rotate(${(angle - 90).toFixed(1)})`);
   }
 
+  // Eased scroll-follow: the dragon trails the real scroll position and
+  // catches up over roughly half a second, so it reads as swimming after
+  // the visitor rather than being bolted to the scrollbar.
+  let smoothScroll = window.scrollY || 0;
+  let lastTime = 0;
   function loop(t){
-    computePoints(window.scrollY || window.pageYOffset, t);
+    const dt = Math.min(64, (t - lastTime) || 16.7);
+    lastTime = t;
+    const target = window.scrollY || window.pageYOffset || 0;
+    smoothScroll += (target - smoothScroll) * (1 - Math.pow(0.92, dt / 16.7));
+    computePoints(smoothScroll, t);
     render();
     if (!reduceMotion) requestAnimationFrame(loop);
   }
@@ -635,6 +650,15 @@
   recalc();
 
   if (reduceMotion){
+    // Static fallback: re-parent the overlay into the hero and make it
+    // absolute instead of fixed, so the dragon scrolls away with the
+    // hero rather than sitting frozen over every section.
+    const stage = svg.parentElement;
+    const hero = document.querySelector('.hero');
+    if (hero){
+      hero.appendChild(stage);
+      stage.style.position = 'absolute';
+    }
     computePoints(0, 0);
     render();
   } else {
