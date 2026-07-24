@@ -597,6 +597,13 @@ function main() {
   const existingSlugs = getExistingSlugs(dataContent);
   let nextId = getMaxId(dataContent) + 1;
 
+  if (process.argv.includes('--resync-sitemap')) {
+    const allEntries = getAllEntries(dataContent);
+    fs.writeFileSync(SITEMAP, regenerateSitemap(allEntries), 'utf8');
+    console.log(`✅ sitemap.xml herbouwd (${allEntries.length} kleurplaten), geen nieuwe bestanden verwerkt.\n`);
+    return;
+  }
+
   // Lees alle jpg's in img/kleurplaten/
   const allImages = fs.readdirSync(IMG_DIR).filter(f => /\.jpg$/i.test(f));
 
