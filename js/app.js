@@ -709,7 +709,7 @@ function printColoring(item) {
 <head>
   <meta charset="UTF-8"/>
   <title>${ld.title} – KidsLoveColor.com</title>
-  <style>
+  <style id="pageSize">
     @page { size: A4 portrait; margin: 0; }
     * { margin: 0; padding: 0; box-sizing: border-box; }
     html, body { width: 210mm; height: 297mm; overflow: hidden; background: white; }
@@ -721,7 +721,17 @@ function printColoring(item) {
   <img src="${absImgSrc}" alt="${ld.altText || ld.title}"/>
   <script>
     var img = document.querySelector('img');
-    function doPrint() { window.print(); window.onafterprint = function() { window.close(); }; }
+    function doPrint() {
+      if (img.naturalWidth > img.naturalHeight) {
+        document.getElementById('pageSize').textContent =
+          '@page { size: A4 landscape; margin: 0; } * { margin:0; padding:0; box-sizing:border-box; } ' +
+          'html, body { width: 297mm; height: 210mm; overflow: hidden; background: white; } ' +
+          'img { width: 297mm; height: 210mm; object-fit: contain; display: block; } ' +
+          '@media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }';
+      }
+      window.print();
+      window.onafterprint = function() { window.close(); };
+    }
     if (img.complete) { doPrint(); } else { img.onload = doPrint; }
   <\/script>
 </body>
@@ -782,8 +792,18 @@ async function downloadPdf(item) {
       reader.readAsDataURL(blob);
     });
 
-    const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
-    doc.addImage(dataUrl, 'JPEG', 0, 0, 210, 297);
+    const { width, height } = await new Promise((res, rej) => {
+      const probe = new Image();
+      probe.onload  = () => res({ width: probe.naturalWidth, height: probe.naturalHeight });
+      probe.onerror = rej;
+      probe.src = dataUrl;
+    });
+    const landscape = width > height;
+
+    const doc = new jsPDF({ orientation: landscape ? 'landscape' : 'portrait', unit: 'mm', format: 'a4' });
+    const pageW = landscape ? 297 : 210;
+    const pageH = landscape ? 210 : 297;
+    doc.addImage(dataUrl, 'JPEG', 0, 0, pageW, pageH);
     doc.save(item.slug + '.pdf');
   } catch (e) {
     console.error('PDF download:', e);

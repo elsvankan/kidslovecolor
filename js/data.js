@@ -2129,6 +2129,16 @@ const COLORINGS = [
     zh: { title: '公主 Dress With 花朵', description: '免费公主公主 dress with 花朵涂色页，适合儿童的魔法涂色。', keywords: '公主 dress with 花朵 公主涂色 免费儿童', altText: '免费涂色页 公主 Dress With 花朵 – 儿童' },
   },
 
+  {
+    id: 202, slug: 'race-cars-competing-on-a-track', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--race-cars-competing-on-a-track.jpg',
+    nl: { title: 'Race Cars Competing On A Track', description: 'Gratis kleurplaat van race cars competing on a track. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'race cars competing on a track voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat race cars competing on a track – kinderen' },
+    en: { title: 'Race Cars Competing On A Track', description: 'Free coloring page of race cars competing on a track. Cool vehicle coloring page for kids.', keywords: 'race cars competing on a track vehicle coloring page free kids', altText: 'Free coloring page race cars competing on a track – kids' },
+    fr: { title: 'Race Cars Competing On A Track', description: 'Page à colorier gratuite de race cars competing on a track. Coloriage de véhicule pour les enfants.', keywords: 'race cars competing on a track coloriage véhicule gratuit enfants', altText: 'Page à colorier race cars competing on a track – enfants' },
+    es: { title: 'Race Cars Competing On A Track', description: 'Página para colorear gratis de race cars competing on a track. Colorear vehículos para niños.', keywords: 'race cars competing on a track colorear vehículos gratis niños', altText: 'Página para colorear race cars competing on a track – niños' },
+    zh: { title: 'Race Cars Competing On A Track', description: '免费race cars competing on a track涂色页，适合儿童的交通工具涂色。', keywords: 'race cars competing on a track 交通工具涂色 免费儿童', altText: '免费涂色页 Race Cars Competing On A Track – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
