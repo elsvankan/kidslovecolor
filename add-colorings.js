@@ -18,8 +18,9 @@
 
 'use strict';
 
-const fs   = require('fs');
-const path = require('path');
+const fs              = require('fs');
+const path            = require('path');
+const { execSync }    = require('child_process');
 
 // ─────────────────────────────────────────────────────────────
 // CONFIG
@@ -633,6 +634,15 @@ function main() {
     console.log(`  ✚ [${id}] ${parsed.slug} (${parsed.category}, ${parsed.difficulty})`);
 
     if (!DRY_RUN) {
+      // Watermark toevoegen
+      const imgPath = path.join(IMG_DIR, filename);
+      try {
+        execSync(`python3 "${path.join(ROOT, 'watermark.py')}" "${imgPath}"`, { stdio: 'pipe' });
+        console.log(`     🖼  Watermark toegevoegd`);
+      } catch (e) {
+        console.warn(`     ⚠  Watermark mislukt: ${e.stderr?.toString().trim() || e.message}`);
+      }
+
       // SEO-pagina aanmaken
       const slugDir = path.join(SLUG_DIR, parsed.slug);
       fs.mkdirSync(slugDir, { recursive: true });

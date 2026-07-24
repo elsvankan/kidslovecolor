@@ -44,7 +44,10 @@ const TRANSLATIONS = {
     all_pages:          'Alle kleurplaten',
     search_placeholder: 'Zoek kleurplaten...',
     print_btn:          'Afdrukken',
-    download_btn:       'Downloaden',
+    download_btn:       'JPG',
+    download_pdf_btn:   'PDF',
+    pdf_generating:     'PDF maken...',
+    pdf_error:          'PDF mislukt. Gebruik Afdrukken → Opslaan als PDF.',
     close:              'Sluiten',
     difficulty_easy:    'Makkelijk',
     difficulty_medium:  'Gemiddeld',
@@ -70,7 +73,10 @@ const TRANSLATIONS = {
     all_pages:          'All coloring pages',
     search_placeholder: 'Search coloring pages...',
     print_btn:          'Print',
-    download_btn:       'Download',
+    download_btn:       'JPG',
+    download_pdf_btn:   'PDF',
+    pdf_generating:     'Creating PDF...',
+    pdf_error:          'PDF failed. Use Print → Save as PDF instead.',
     close:              'Close',
     difficulty_easy:    'Easy',
     difficulty_medium:  'Medium',
@@ -96,7 +102,10 @@ const TRANSLATIONS = {
     all_pages:          'Toutes les pages à colorier',
     search_placeholder: 'Rechercher des pages à colorier...',
     print_btn:          'Imprimer',
-    download_btn:       'Télécharger',
+    download_btn:       'JPG',
+    download_pdf_btn:   'PDF',
+    pdf_generating:     'Création PDF...',
+    pdf_error:          'PDF échoué. Utilisez Imprimer → Enregistrer en PDF.',
     close:              'Fermer',
     difficulty_easy:    'Facile',
     difficulty_medium:  'Moyen',
@@ -122,7 +131,10 @@ const TRANSLATIONS = {
     all_pages:          'Todas las páginas para colorear',
     search_placeholder: 'Buscar páginas para colorear...',
     print_btn:          'Imprimir',
-    download_btn:       'Descargar',
+    download_btn:       'JPG',
+    download_pdf_btn:   'PDF',
+    pdf_generating:     'Creando PDF...',
+    pdf_error:          'PDF fallido. Use Imprimir → Guardar como PDF.',
     close:              'Cerrar',
     difficulty_easy:    'Fácil',
     difficulty_medium:  'Medio',
@@ -148,7 +160,10 @@ const TRANSLATIONS = {
     all_pages:          '所有涂色页',
     search_placeholder: '搜索涂色页...',
     print_btn:          '打印',
-    download_btn:       '下载',
+    download_btn:       'JPG',
+    download_pdf_btn:   'PDF',
+    pdf_generating:     '生成PDF...',
+    pdf_error:          'PDF失败。请使用打印 → 另存为PDF。',
     close:              '关闭',
     difficulty_easy:    '简单',
     difficulty_medium:  '中等',
@@ -575,6 +590,9 @@ function setupModal() {
   document.getElementById('modalDownload')?.addEventListener('click', () => {
     if (currentColoring) downloadColoring(currentColoring);
   });
+  document.getElementById('modalDownloadPdf')?.addEventListener('click', () => {
+    if (currentColoring) downloadPdf(currentColoring);
+  });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && overlay.classList.contains('open')) closeModal();
   });
@@ -693,20 +711,18 @@ function printColoring(item) {
   <title>${ld.title} – KidsLoveColor.com</title>
   <style>
     @page { size: A4 portrait; margin: 0; }
-    * { margin:0; padding:0; box-sizing:border-box; }
-    html, body { width:210mm; height:297mm; overflow:hidden; background:white; }
-    body { display:flex; align-items:center; justify-content:center; }
-    .print-img { width:200mm; height:283mm; object-fit:contain; display:block; }
-    @media print { body { -webkit-print-color-adjust:exact; print-color-adjust:exact; } }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 210mm; height: 297mm; overflow: hidden; background: white; }
+    img { width: 210mm; height: 297mm; object-fit: contain; display: block; }
+    @media print { body { -webkit-print-color-adjust: exact; print-color-adjust: exact; } }
   </style>
 </head>
 <body>
-    <img class="print-img" src="${absImgSrc}" alt="${ld.altText || ld.title}"/>
+  <img src="${absImgSrc}" alt="${ld.altText || ld.title}"/>
   <script>
-    window.onload = function() {
-      window.print();
-      window.onafterprint = function() { window.close(); };
-    };
+    var img = document.querySelector('img');
+    function doPrint() { window.print(); window.onafterprint = function() { window.close(); }; }
+    if (img.complete) { doPrint(); } else { img.onload = doPrint; }
   <\/script>
 </body>
 </html>`);
@@ -726,6 +742,55 @@ function downloadColoring(item) {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
+}
+
+// -------------------------------------------------------
+// PDF DOWNLOAD
+// -------------------------------------------------------
+function loadJsPdf() {
+  if (window.jspdf) return Promise.resolve(window.jspdf);
+  return new Promise((resolve, reject) => {
+    const s = document.createElement('script');
+    s.src = 'https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js';
+    s.onload  = () => resolve(window.jspdf);
+    s.onerror = reject;
+    document.head.appendChild(s);
+  });
+}
+
+async function downloadPdf(item) {
+  const ld  = item[currentLang] || item.nl;
+  const btn = document.getElementById('modalDownloadPdf');
+  if (btn) { btn.disabled = true; btn.textContent = t('pdf_generating'); }
+
+  try {
+    const jspdf = await loadJsPdf();
+    const { jsPDF } = jspdf;
+
+    const imgSrc = resolveImgPath(item.img) || '';
+    const absImgSrc = imgSrc.startsWith('http')
+      ? imgSrc
+      : window.location.origin + '/' + imgSrc.replace(/^\.\.\//,'');
+
+    const response = await fetch(absImgSrc);
+    if (!response.ok) throw new Error('fetch ' + response.status);
+    const blob = await response.blob();
+    const dataUrl = await new Promise((res, rej) => {
+      const reader = new FileReader();
+      reader.onload  = () => res(reader.result);
+      reader.onerror = rej;
+      reader.readAsDataURL(blob);
+    });
+
+    const doc = new jsPDF({ orientation: 'portrait', unit: 'mm', format: 'a4' });
+    doc.addImage(dataUrl, 'JPEG', 0, 0, 210, 297);
+    doc.save(item.slug + '.pdf');
+  } catch (e) {
+    console.error('PDF download:', e);
+    alert(t('pdf_error'));
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = t('download_pdf_btn'); }
+  }
 }
 
 // -------------------------------------------------------

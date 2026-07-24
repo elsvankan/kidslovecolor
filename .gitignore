@@ -1,0 +1,10 @@
+# Watermark tracking (lokaal bestand, niet in git)
+img/kleurplaten/.watermarked.json
+
+# OS-bestanden
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
