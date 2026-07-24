@@ -2083,6 +2083,52 @@ const COLORINGS = [
     zh: { title: '花 曼陀罗 图案 With 叶子', description: '免费曼陀罗花 曼陀罗 图案 with 叶子涂色页，放松身心的美丽图案涂色。', keywords: '花 曼陀罗 图案 with 叶子 曼陀罗涂色 免费儿童', altText: '免费涂色页 花 曼陀罗 图案 With 叶子 – 儿童' },
   },
 
+  {
+    id: 197, slug: 'christmas-tree-with-ornaments', category: 'feestdagen', difficulty: 'easy',
+    img: '../img/kleurplaten/feestdagen--easy--christmas-tree-with-ornaments.jpg',
+    nl: { title: 'Kerst Boom With Ornaments', description: 'Gratis feestdagenkleurplaat: kerst boom with ornaments. Feestelijk kleurplaatje voor kinderen.', keywords: 'kerst boom with ornaments feestdagen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kerst boom with ornaments – kinderen' },
+    en: { title: 'Christmas Tree With Ornaments', description: 'Free holiday coloring page: christmas tree with ornaments. Festive coloring page for kids.', keywords: '  with ornaments holiday coloring page free kids', altText: 'Free coloring page christmas tree with ornaments – kids' },
+    fr: { title: 'NoëL Arbre With Ornaments', description: 'Page à colorier fête gratuite: noël arbre with ornaments. Coloriage festif pour les enfants.', keywords: 'noël arbre with ornaments coloriage fête gratuit enfants', altText: 'Page à colorier noël arbre with ornaments – enfants' },
+    es: { title: 'Navidad áRbol With Ornaments', description: 'Página para colorear fiesta gratis: navidad árbol with ornaments. Colorear festivo para niños.', keywords: 'navidad árbol with ornaments colorear fiestas gratis niños', altText: 'Página para colorear navidad árbol with ornaments – niños' },
+    zh: { title: '圣诞节 树 With Ornaments', description: '免费节日圣诞节 树 with ornaments涂色页，适合儿童的节日涂色。', keywords: '圣诞节 树 with ornaments 节日涂色 免费儿童', altText: '免费涂色页 圣诞节 树 With Ornaments – 儿童' },
+  },
+  {
+    id: 198, slug: 'happy-girl-face-with-pigtails', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/gezichten--easy--happy-girl-face-with-pigtails.jpg',
+    nl: { title: 'Vrolijke Meisje Gezicht With Pigtails', description: 'Gratis gezichtenkleurplaat van vrolijke meisje gezicht with pigtails. Mooi kleurplaatje voor kinderen.', keywords: 'vrolijke meisje gezicht with pigtails gezichten kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vrolijke meisje gezicht with pigtails – kinderen' },
+    en: { title: 'Happy Girl Face With Pigtails', description: 'Free face coloring page of happy girl face with pigtails. Beautiful coloring page for kids.', keywords: '   with pigtails face coloring page free kids', altText: 'Free coloring page happy girl face with pigtails – kids' },
+    fr: { title: 'Joyeux Fille Visage With Pigtails', description: 'Page à colorier visage gratuite de joyeux fille visage with pigtails. Magnifique coloriage pour les enfants.', keywords: 'joyeux fille visage with pigtails coloriage visage gratuit enfants', altText: 'Page à colorier joyeux fille visage with pigtails – enfants' },
+    es: { title: 'Feliz NiñA Cara With Pigtails', description: 'Página para colorear cara gratis de feliz niña cara with pigtails. Hermoso colorear para niños.', keywords: 'feliz niña cara with pigtails colorear caras gratis niños', altText: 'Página para colorear feliz niña cara with pigtails – niños' },
+    zh: { title: '快乐的 女孩 脸 With Pigtails', description: '免费面孔快乐的 女孩 脸 with pigtails涂色页，适合儿童的涂色。', keywords: '快乐的 女孩 脸 with pigtails 面孔涂色 免费儿童', altText: '免费涂色页 快乐的 女孩 脸 With Pigtails – 儿童' },
+  },
+  {
+    id: 199, slug: 'kawaii-unicorn-with-stars', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-unicorn-with-stars.jpg',
+    nl: { title: 'Kawaii Eenhoorn With Sterren', description: 'Gratis kawaii kleurplaat van kawaii eenhoorn with sterren. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii eenhoorn with sterren kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii eenhoorn with sterren – kinderen' },
+    en: { title: 'Kawaii Unicorn With Stars', description: 'Free kawaii coloring page of kawaii unicorn with stars. Super cute coloring page for kids.', keywords: '  with  kawaii coloring page free kids', altText: 'Free coloring page kawaii unicorn with stars – kids' },
+    fr: { title: 'Kawaii Licorne With éToiles', description: 'Page à colorier kawaii gratuite de kawaii licorne with étoiles. Coloriage super mignon pour les enfants.', keywords: 'kawaii licorne with étoiles coloriage kawaii gratuit enfants', altText: 'Page à colorier kawaii licorne with étoiles – enfants' },
+    es: { title: 'Kawaii Unicornio With Estrellas', description: 'Página para colorear kawaii gratis de kawaii unicornio with estrellas. Colorear súper lindo para niños.', keywords: 'kawaii unicornio with estrellas colorear kawaii gratis niños', altText: 'Página para colorear kawaii unicornio with estrellas – niños' },
+    zh: { title: '卡哇伊 独角兽 With 星星', description: '免费卡哇伊卡哇伊 独角兽 with 星星涂色页，超可爱儿童涂色。', keywords: '卡哇伊 独角兽 with 星星 卡哇伊涂色 免费儿童', altText: '免费涂色页 卡哇伊 独角兽 With 星星 – 儿童' },
+  },
+  {
+    id: 200, slug: 'cute-princess-with-magic-wand', category: 'prinsessen', difficulty: 'easy',
+    img: '../img/kleurplaten/prinsessen--easy--cute-princess-with-magic-wand.jpg',
+    nl: { title: 'Schattige Prinses With Magic Wand', description: 'Gratis prinsessenkleurplaat van schattige prinses with magic wand. Magisch kleurplaatje voor kinderen.', keywords: 'schattige prinses with magic wand prinsessen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat schattige prinses with magic wand – kinderen' },
+    en: { title: 'Cute Princess With Magic Wand', description: 'Free princess coloring page of cute princess with magic wand. Magical coloring page for kids.', keywords: '  with magic wand princess coloring page free kids', altText: 'Free coloring page cute princess with magic wand – kids' },
+    fr: { title: 'Mignon Princesse With Magic Wand', description: 'Page à colorier princesse gratuite de mignon princesse with magic wand. Coloriage magique pour les enfants.', keywords: 'mignon princesse with magic wand coloriage princesse gratuit enfants', altText: 'Page à colorier mignon princesse with magic wand – enfants' },
+    es: { title: 'Lindo Princesa With Magic Wand', description: 'Página para colorear princesa gratis de lindo princesa with magic wand. Colorear mágico para niños.', keywords: 'lindo princesa with magic wand colorear princesas gratis niños', altText: 'Página para colorear lindo princesa with magic wand – niños' },
+    zh: { title: '可爱的 公主 With Magic Wand', description: '免费公主可爱的 公主 with magic wand涂色页，适合儿童的魔法涂色。', keywords: '可爱的 公主 with magic wand 公主涂色 免费儿童', altText: '免费涂色页 可爱的 公主 With Magic Wand – 儿童' },
+  },
+  {
+    id: 201, slug: 'princess-dress-with-flowers', category: 'prinsessen', difficulty: 'medium',
+    img: '../img/kleurplaten/prinsessen--medium--princess-dress-with-flowers.jpg',
+    nl: { title: 'Prinses Dress With Bloemen', description: 'Gratis prinsessenkleurplaat van prinses dress with bloemen. Magisch kleurplaatje voor kinderen.', keywords: 'prinses dress with bloemen prinsessen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat prinses dress with bloemen – kinderen' },
+    en: { title: 'Princess Dress With Flowers', description: 'Free princess coloring page of princess dress with flowers. Magical coloring page for kids.', keywords: ' dress with  princess coloring page free kids', altText: 'Free coloring page princess dress with flowers – kids' },
+    fr: { title: 'Princesse Dress With Fleurs', description: 'Page à colorier princesse gratuite de princesse dress with fleurs. Coloriage magique pour les enfants.', keywords: 'princesse dress with fleurs coloriage princesse gratuit enfants', altText: 'Page à colorier princesse dress with fleurs – enfants' },
+    es: { title: 'Princesa Dress With Flores', description: 'Página para colorear princesa gratis de princesa dress with flores. Colorear mágico para niños.', keywords: 'princesa dress with flores colorear princesas gratis niños', altText: 'Página para colorear princesa dress with flores – niños' },
+    zh: { title: '公主 Dress With 花朵', description: '免费公主公主 dress with 花朵涂色页，适合儿童的魔法涂色。', keywords: '公主 dress with 花朵 公主涂色 免费儿童', altText: '免费涂色页 公主 Dress With 花朵 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
