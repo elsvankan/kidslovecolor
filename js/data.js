@@ -2053,6 +2053,34 @@ const COLORINGS = [
     zh: { title: '长颈鹿头曼陀罗叶子', description: '免费涂色页：长颈鹿头曼陀罗和叶子。用于放松着色的详细设计。', keywords: '长颈鹿头曼陀罗叶子涂色页 装饰 图案 免费', altText: '免费涂色页 长颈鹿头曼陀罗叶子' },
   },
 
+  {
+    id: 191, slug: 'cute-baby-elephant', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--cute-baby-elephant.jpg',
+    nl: { title: 'Schattige Baby Olifant', description: 'Gratis kleurplaat van schattige baby olifant. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'schattige baby olifant dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat schattige baby olifant – kinderen' },
+    en: { title: 'Cute Baby Elephant', description: 'Free coloring page of cute baby elephant. Fun animal coloring page for kids to color and print.', keywords: '   animal coloring page free kids', altText: 'Free coloring page cute baby elephant – kids' },
+    fr: { title: 'Mignon BéBé éLéPhant', description: 'Page à colorier gratuite de mignon bébé éléphant. Amusant coloriage d\'animal pour les enfants.', keywords: 'mignon bébé éléphant coloriage animal gratuit enfants', altText: 'Page à colorier mignon bébé éléphant – enfants' },
+    es: { title: 'Lindo Bebé Elefante', description: 'Página para colorear gratis de lindo bebé elefante. Divertido colorear de animales para niños.', keywords: 'lindo bebé elefante colorear animales gratis niños', altText: 'Página para colorear lindo bebé elefante – niños' },
+    zh: { title: '可爱的 宝宝 大象', description: '免费可爱的 宝宝 大象涂色页，适合儿童的动物涂色，可打印。', keywords: '可爱的 宝宝 大象 动物涂色 免费儿童', altText: '免费涂色页 可爱的 宝宝 大象 – 儿童' },
+  },
+  {
+    id: 192, slug: 'kawaii-bunny-face', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-bunny-face.jpg',
+    nl: { title: 'Kawaii Konijntje Gezicht', description: 'Gratis kawaii kleurplaat van kawaii konijntje gezicht. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii konijntje gezicht kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii konijntje gezicht – kinderen' },
+    en: { title: 'Kawaii Bunny Face', description: 'Free kawaii coloring page of kawaii bunny face. Super cute coloring page for kids.', keywords: '   kawaii coloring page free kids', altText: 'Free coloring page kawaii bunny face – kids' },
+    fr: { title: 'Kawaii Lapin Visage', description: 'Page à colorier kawaii gratuite de kawaii lapin visage. Coloriage super mignon pour les enfants.', keywords: 'kawaii lapin visage coloriage kawaii gratuit enfants', altText: 'Page à colorier kawaii lapin visage – enfants' },
+    es: { title: 'Kawaii Conejito Cara', description: 'Página para colorear kawaii gratis de kawaii conejito cara. Colorear súper lindo para niños.', keywords: 'kawaii conejito cara colorear kawaii gratis niños', altText: 'Página para colorear kawaii conejito cara – niños' },
+    zh: { title: '卡哇伊 小兔子 脸', description: '免费卡哇伊卡哇伊 小兔子 脸涂色页，超可爱儿童涂色。', keywords: '卡哇伊 小兔子 脸 卡哇伊涂色 免费儿童', altText: '免费涂色页 卡哇伊 小兔子 脸 – 儿童' },
+  },
+  {
+    id: 193, slug: 'princess-crown-simple', category: 'prinsessen', difficulty: 'easy',
+    img: '../img/kleurplaten/prinsessen--easy--princess-crown-simple.jpg',
+    nl: { title: 'Prinses Kroon Simple', description: 'Gratis prinsessenkleurplaat van prinses kroon simple. Magisch kleurplaatje voor kinderen.', keywords: 'prinses kroon simple prinsessen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat prinses kroon simple – kinderen' },
+    en: { title: 'Princess Crown Simple', description: 'Free princess coloring page of princess crown simple. Magical coloring page for kids.', keywords: '  simple princess coloring page free kids', altText: 'Free coloring page princess crown simple – kids' },
+    fr: { title: 'Princesse Couronne Simple', description: 'Page à colorier princesse gratuite de princesse couronne simple. Coloriage magique pour les enfants.', keywords: 'princesse couronne simple coloriage princesse gratuit enfants', altText: 'Page à colorier princesse couronne simple – enfants' },
+    es: { title: 'Princesa Corona Simple', description: 'Página para colorear princesa gratis de princesa corona simple. Colorear mágico para niños.', keywords: 'princesa corona simple colorear princesas gratis niños', altText: 'Página para colorear princesa corona simple – niños' },
+    zh: { title: '公主 皇冠 Simple', description: '免费公主公主 皇冠 simple涂色页，适合儿童的魔法涂色。', keywords: '公主 皇冠 simple 公主涂色 免费儿童', altText: '免费涂色页 公主 皇冠 Simple – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
