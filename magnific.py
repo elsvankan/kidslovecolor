@@ -296,6 +296,78 @@ TOPIC_POOL = [
     dict(cat='gezichten', diff='easy', desc='smiling sun face with rays', landscape=False, titles=dict(
         nl='Lachend Zonnegezicht met Stralen', en='Smiling Sun Face With Rays',
         fr='Visage de Soleil Souriant avec des Rayons', es='Cara de Sol Sonriente con Rayos', zh='带着光芒的微笑太阳脸')),
+
+    # ── Populaire onderwerpen (dinosaurussen, eenhoorns, zeemeerminnen,
+    #    wildlife, ruimte) — evergreen top-thema's voor kinderkleurplaten,
+    #    geen character-IP (Paw Patrol e.d. zijn auteursrechtelijk beschermd)
+    dict(cat='dieren', diff='medium', desc='trex dinosaur roaring in a prehistoric jungle', landscape=True, titles=dict(
+        nl='T-Rex Dinosaurus Brullend in een Oerwoud', en='T-Rex Dinosaur Roaring in a Prehistoric Jungle',
+        fr='Dinosaure T-Rex Rugissant dans une Jungle Préhistorique', es='Dinosaurio T-Rex Rugiendo en una Selva Prehistórica', zh='在史前丛林中咆哮的霸王龙')),
+    dict(cat='dieren', diff='medium', desc='triceratops dinosaur grazing near volcanoes', landscape=True, titles=dict(
+        nl='Triceratops Dinosaurus Grazend bij Vulkanen', en='Triceratops Dinosaur Grazing Near Volcanoes',
+        fr='Dinosaure Tricératops Broutant près de Volcans', es='Dinosaurio Triceratops Pastando cerca de Volcanes', zh='在火山附近吃草的三角龙')),
+    dict(cat='dieren', diff='easy', desc='cute baby dinosaur hatching from an egg', landscape=False, titles=dict(
+        nl='Schattige Baby Dinosaurus die uit een Ei Kruipt', en='Cute Baby Dinosaur Hatching From an Egg',
+        fr="Mignon Bébé Dinosaure Sortant d'un Œuf", es='Lindo Bebé Dinosaurio Saliendo de un Huevo', zh='从蛋里孵化的可爱恐龙宝宝')),
+    dict(cat='dieren', diff='hard', desc='safari animals gathered at a watering hole', landscape=True, titles=dict(
+        nl='Safaridieren Verzameld bij een Waterplas', en='Safari Animals Gathered at a Watering Hole',
+        fr="Animaux du Safari Rassemblés autour d'un Point d'Eau", es='Animales de Safari Reunidos en un Abrevadero', zh='聚集在水坑边的野生动物')),
+    dict(cat='dieren', diff='easy', desc='baby unicorn playing in a flower meadow', landscape=False, titles=dict(
+        nl='Baby Eenhoorn Spelend in een Bloemenweide', en='Baby Unicorn Playing in a Flower Meadow',
+        fr='Bébé Licorne Jouant dans une Prairie Fleurie', es='Bebé Unicornio Jugando en un Prado Florido', zh='在花草地上玩耍的小独角兽')),
+
+    dict(cat='kawaii', diff='easy', desc='kawaii mermaid swimming with fish', landscape=False, titles=dict(
+        nl='Kawaii Zeemeermin Zwemmend met Visjes', en='Kawaii Mermaid Swimming With Fish',
+        fr='Sirène Kawaii Nageant avec des Poissons', es='Sirena Kawaii Nadando con Peces', zh='和小鱼一起游泳的卡哇伊美人鱼')),
+    dict(cat='kawaii', diff='easy', desc='kawaii baby dragon breathing tiny sparkles', landscape=False, titles=dict(
+        nl='Kawaii Babydraakje dat Kleine Sterretjes Blaast', en='Kawaii Baby Dragon Breathing Tiny Sparkles',
+        fr='Bébé Dragon Kawaii Soufflant de Petites Étincelles', es='Bebé Dragón Kawaii Soplando Pequeñas Chispas', zh='喷出小星光的卡哇伊小龙')),
+    dict(cat='kawaii', diff='easy', desc='kawaii sloth hanging from a branch', landscape=False, titles=dict(
+        nl='Kawaii Luiaard Hangend aan een Tak', en='Kawaii Sloth Hanging From a Branch',
+        fr='Paresseux Kawaii Suspendu à une Branche', es='Perezoso Kawaii Colgado de una Rama', zh='挂在树枝上的卡哇伊树懒')),
+
+    dict(cat='oceaan', diff='medium', desc='mermaid princess in an underwater palace', landscape=True, titles=dict(
+        nl='Zeemeerminprinses in een Onderwaterpaleis', en='Mermaid Princess in an Underwater Palace',
+        fr='Princesse Sirène dans un Palais Sous-marin', es='Princesa Sirena en un Palacio Submarino', zh='在海底宫殿里的美人鱼公主')),
+    dict(cat='oceaan', diff='medium', desc='whale swimming with her calf in the ocean', landscape=True, titles=dict(
+        nl='Walvis Zwemmend met haar Kalfje in de Oceaan', en='Whale Swimming With Her Calf in the Ocean',
+        fr="Baleine Nageant avec son Petit dans l'Océan", es='Ballena Nadando con su Cría en el Océano', zh='在海洋中与幼鲸一起游泳的鲸鱼')),
+
+    dict(cat='sprookjes', diff='medium', desc='friendly dragon flying over mountains', landscape=True, titles=dict(
+        nl='Vriendelijke Draak Vliegend over Bergen', en='Friendly Dragon Flying Over Mountains',
+        fr='Dragon Amical Volant au-dessus des Montagnes', es='Dragón Amigable Volando sobre las Montañas', zh='飞越群山的友好巨龙')),
+
+    dict(cat='natuur', diff='medium', desc='wildlife scene with deer and rabbits in a forest', landscape=True, titles=dict(
+        nl='Wildlifescène met Herten en Konijnen in een Bos', en='Wildlife Scene With Deer and Rabbits in a Forest',
+        fr='Scène de Faune avec des Cerfs et des Lapins dans une Forêt', es='Escena de Fauna con Ciervos y Conejos en un Bosque', zh='森林中有鹿和兔子的野生动物场景')),
+    dict(cat='natuur', diff='hard', desc='tropical rainforest scene with toucan and monkey', landscape=True, titles=dict(
+        nl='Tropisch Regenwoud met Toekan en Aap', en='Tropical Rainforest Scene With Toucan and Monkey',
+        fr='Scène de Forêt Tropicale avec un Toucan et un Singe', es='Escena de Selva Tropical con Tucán y Mono', zh='有巨嘴鸟和猴子的热带雨林场景')),
+
+    dict(cat='ruimte', diff='easy', desc='astronaut planting a flag on the moon', landscape=False, titles=dict(
+        nl='Astronaut die een Vlag Plant op de Maan', en='Astronaut Planting a Flag on the Moon',
+        fr='Astronaute Plantant un Drapeau sur la Lune', es='Astronauta Plantando una Bandera en la Luna', zh='在月球上插旗的宇航员')),
+    dict(cat='ruimte', diff='medium', desc="rocket flying past saturn's rings", landscape=False, titles=dict(
+        nl='Raket die langs de Ringen van Saturnus Vliegt', en="Rocket Flying Past Saturn's Rings",
+        fr="Fusée Volant devant les Anneaux de Saturne", es='Cohete Volando junto a los Anillos de Saturno', zh='飞过土星光环的火箭')),
+
+    dict(cat='mandala', diff='medium', desc='dinosaur themed mandala', landscape=False, titles=dict(
+        nl='Dinosaurus Mandala', en='Dinosaur Themed Mandala',
+        fr='Mandala à Thème Dinosaure', es='Mandala Temático de Dinosaurios', zh='恐龙主题曼陀罗')),
+    dict(cat='mandala', diff='hard', desc='unicorn themed mandala', landscape=False, titles=dict(
+        nl='Eenhoorn Mandala', en='Unicorn Themed Mandala',
+        fr='Mandala à Thème Licorne', es='Mandala Temático de Unicornios', zh='独角兽主题曼陀罗')),
+
+    dict(cat='voertuigen', diff='medium', desc='monster truck jumping over cars', landscape=True, titles=dict(
+        nl="Monstertruck die over Auto's Springt", en='Monster Truck Jumping Over Cars',
+        fr='Monster Truck Sautant par-dessus des Voitures', es='Camión Monstruo Saltando sobre Coches', zh='跳跃越过汽车的怪兽卡车')),
+    dict(cat='voertuigen', diff='easy', desc='dump truck working at a construction site', landscape=True, titles=dict(
+        nl='Kiepwagen Werkend op een Bouwplaats', en='Dump Truck Working at a Construction Site',
+        fr='Camion-benne Travaillant sur un Chantier', es='Camión Volquete Trabajando en una Obra', zh='在建筑工地工作的自卸卡车')),
+
+    dict(cat='feestdagen', diff='easy', desc='dinosaur wearing a halloween costume', landscape=False, titles=dict(
+        nl='Dinosaurus in een Halloweenkostuum', en='Dinosaur Wearing a Halloween Costume',
+        fr="Dinosaure en Costume d'Halloween", es='Dinosaurio con Disfraz de Halloween', zh='穿着万圣节服装的恐龙')),
 ]
 
 
