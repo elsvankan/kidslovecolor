@@ -1,0 +1,54 @@
+name: Daily Coloring Pages
+
+on:
+  schedule:
+    # 06:17 UTC dagelijks (bewust geen :00, zie workflow-documentatie)
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'Aantal kleurplaten om te genereren'
+        required: false
+        default: '5'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-coloring-pages
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install system dependencies (cairosvg)
+        run: sudo apt-get update && sudo apt-get install -y libcairo2
+
+      - name: Install Python dependencies
+        run: pip install requests Pillow cairosvg
+
+      - name: Configure git identity
+        run: |
+          git config user.name "KidsLoveColor Bot"
+          git config user.email "bot@kidslovecolor.com"
+
+      - name: Generate coloring pages
+        env:
+          MAGNIFIC_API_KEY: ${{ secrets.MAGNIFIC_API_KEY }}
+        run: python3 magnific.py --batch "${{ github.event.inputs.count || '5' }}"

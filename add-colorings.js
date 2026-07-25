@@ -18,20 +18,39 @@
 
 'use strict';
 
-const fs   = require('fs');
-const path = require('path');
+const fs              = require('fs');
+const path            = require('path');
+const { execSync }    = require('child_process');
 
 // ─────────────────────────────────────────────────────────────
 // CONFIG
 // ─────────────────────────────────────────────────────────────
-const ROOT     = __dirname;
-const IMG_DIR  = path.join(ROOT, 'img/kleurplaten');
-const DATA_JS  = path.join(ROOT, 'js/data.js');
-const SLUG_DIR = path.join(ROOT, 'kleurplaat');
-const SITEMAP  = path.join(ROOT, 'sitemap.xml');
-const BASE_URL = 'https://kidslovecolor.com';
-const TODAY    = new Date().toISOString().split('T')[0];
-const DRY_RUN  = process.argv.includes('--dry');
+const ROOT        = __dirname;
+const IMG_DIR      = path.join(ROOT, 'img/kleurplaten');
+const DATA_JS      = path.join(ROOT, 'js/data.js');
+const SLUG_DIR     = path.join(ROOT, 'kleurplaat');
+const SITEMAP      = path.join(ROOT, 'sitemap.xml');
+const TITLES_FILE  = path.join(IMG_DIR, '.titles.json');
+const BASE_URL     = 'https://kidslovecolor.com';
+const TODAY        = new Date().toISOString().split('T')[0];
+const DRY_RUN      = process.argv.includes('--dry');
+
+// ─────────────────────────────────────────────────────────────
+// TITEL-OVERRIDES (optioneel bestand img/kleurplaten/.titles.json)
+// Handgeschreven, natuurlijke vertalingen per bestandsnaam, aangeleverd
+// door magnific.py voor de vaste onderwerpenpool. Voorkomt kromme
+// woord-voor-woord vertalingen bij scènes met meerdere woorden/zinsdelen.
+// Formaat: { "bestandsnaam.jpg": { nl: '...', en: '...', fr: '...', es: '...', zh: '...' } }
+// ─────────────────────────────────────────────────────────────
+function loadTitleOverrides() {
+  if (!fs.existsSync(TITLES_FILE)) return {};
+  try {
+    return JSON.parse(fs.readFileSync(TITLES_FILE, 'utf8'));
+  } catch (e) {
+    console.warn(`  ⚠ Kan ${TITLES_FILE} niet lezen: ${e.message}`);
+    return {};
+  }
+}
 
 const VALID_CATS = new Set([
   'dieren','voertuigen','prinsessen','seizoenen','feestdagen',
@@ -257,6 +276,28 @@ const DICT = {
   branch:      { nl:'tak',             fr:'branche',         es:'rama',            zh:'树枝' },
   football:    { nl:'voetbal',         fr:'football',        es:'fútbol',          zh:'足球' },
   soccer:      { nl:'voetbal',         fr:'football',        es:'fútbol',          zh:'足球' },
+
+  // Voorzetsels/lidwoorden — meestal weglaten, behalve waar een taal het nodig heeft
+  with:        { nl:'met',             fr:'avec',            es:'con',             zh:'带' },
+  and:         { nl:'en',              fr:'et',              es:'y',               zh:'和' },
+  on:          { nl:'op',              fr:'sur',             es:'sobre',           zh:'在' },
+  in:          { nl:'in',              fr:'dans',            es:'en',              zh:'在' },
+  a:           { nl:'',                fr:'',                es:'',                zh:'' },
+  an:          { nl:'',                fr:'',                es:'',                zh:'' },
+  the:         { nl:'',                fr:'',                es:'',                zh:'' },
+  of:          { nl:'van',             fr:'de',              es:'de',              zh:'的' },
+
+  // Extra woorden voor de rotatiepool
+  magic:       { nl:'toverstokje',     fr:'baguette magique',es:'varita mágica',   zh:'魔杖' },
+  wand:        { nl:'toverstokje',     fr:'baguette magique',es:'varita mágica',   zh:'魔杖' },
+  dress:       { nl:'jurk',            fr:'robe',            es:'vestido',         zh:'裙子' },
+  ornaments:   { nl:'kerstballen',     fr:'décorations',     es:'adornos',         zh:'装饰品' },
+  pigtails:    { nl:'staartjes',       fr:'couettes',        es:'coletas',         zh:'双马尾' },
+  bow:         { nl:'strik',           fr:'nœud',            es:'lazo',            zh:'蝴蝶结' },
+  race:        { nl:'race',            fr:'course',          es:'carrera',         zh:'赛车' },
+  cars:        { nl:'auto\'s',         fr:'voitures',        es:'coches',          zh:'汽车' },
+  competing:   { nl:'wedstrijd rijdend',fr:'en compétition', es:'compitiendo',     zh:'比赛' },
+  track:       { nl:'circuit',         fr:'circuit',         es:'pista',           zh:'赛道' },
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -351,41 +392,47 @@ function translateWords(words, lang) {
 
 function buildTitle(words, lang) {
   if (lang === 'en') return titleCase(words.join(' '));
-  const translated = translateWords(words, lang);
+  const translated = translateWords(words, lang).filter(Boolean);
   return titleCase(translated.join(' '));
 }
 
+const CAT_KEYWORDS = {
+  nl: { dieren:'dieren kleurplaat', voertuigen:'voertuigen kleurplaat', prinsessen:'prinsessen kleurplaat',
+        seizoenen:'seizoenen kleurplaat', feestdagen:'feestdagen kleurplaat', eten:'eten kleurplaat',
+        kawaii:'kawaii kleurplaat', natuur:'natuur kleurplaat', sprookjes:'sprookjes kleurplaat',
+        ruimte:'ruimte kleurplaat', oceaan:'oceaan kleurplaat', letters:'letters kleurplaat',
+        mandala:'mandala kleurplaat', gezichten:'gezichten kleurplaat' },
+  en: { dieren:'animal coloring page', voertuigen:'vehicle coloring page', prinsessen:'princess coloring page',
+        seizoenen:'seasonal coloring page', feestdagen:'holiday coloring page', eten:'food coloring page',
+        kawaii:'kawaii coloring page', natuur:'nature coloring page', sprookjes:'fairy tale coloring page',
+        ruimte:'space coloring page', oceaan:'ocean coloring page', letters:'letter coloring page',
+        mandala:'mandala coloring page', gezichten:'face coloring page' },
+  fr: { dieren:'coloriage animal', voertuigen:'coloriage véhicule', prinsessen:'coloriage princesse',
+        seizoenen:'coloriage saisons', feestdagen:'coloriage fête', eten:'coloriage nourriture',
+        kawaii:'coloriage kawaii', natuur:'coloriage nature', sprookjes:'coloriage conte de fées',
+        ruimte:'coloriage espace', oceaan:'coloriage océan', letters:'coloriage lettre',
+        mandala:'coloriage mandala', gezichten:'coloriage visage' },
+  es: { dieren:'colorear animales', voertuigen:'colorear vehículos', prinsessen:'colorear princesas',
+        seizoenen:'colorear estaciones', feestdagen:'colorear fiestas', eten:'colorear comida',
+        kawaii:'colorear kawaii', natuur:'colorear naturaleza', sprookjes:'colorear cuentos de hadas',
+        ruimte:'colorear espacio', oceaan:'colorear océano', letters:'colorear letras',
+        mandala:'colorear mandala', gezichten:'colorear caras' },
+  zh: { dieren:'动物涂色', voertuigen:'交通工具涂色', prinsessen:'公主涂色',
+        seizoenen:'季节涂色', feestdagen:'节日涂色', eten:'食物涂色',
+        kawaii:'卡哇伊涂色', natuur:'自然涂色', sprookjes:'童话涂色',
+        ruimte:'太空涂色', oceaan:'海洋涂色', letters:'字母涂色',
+        mandala:'曼陀罗涂色', gezichten:'面孔涂色' },
+};
+const KEYWORD_SUFFIX = { nl:'gratis kinderen', en:'free kids', fr:'gratuit enfants', es:'gratis niños', zh:'免费儿童' };
+
 function buildKeywords(words, lang, category) {
-  const catKeywords = {
-    nl: { dieren:'dieren kleurplaat', voertuigen:'voertuigen kleurplaat', prinsessen:'prinsessen kleurplaat',
-          seizoenen:'seizoenen kleurplaat', feestdagen:'feestdagen kleurplaat', eten:'eten kleurplaat',
-          kawaii:'kawaii kleurplaat', natuur:'natuur kleurplaat', sprookjes:'sprookjes kleurplaat',
-          ruimte:'ruimte kleurplaat', oceaan:'oceaan kleurplaat', letters:'letters kleurplaat',
-          mandala:'mandala kleurplaat', gezichten:'gezichten kleurplaat' },
-    en: { dieren:'animal coloring page', voertuigen:'vehicle coloring page', prinsessen:'princess coloring page',
-          seizoenen:'seasonal coloring page', feestdagen:'holiday coloring page', eten:'food coloring page',
-          kawaii:'kawaii coloring page', natuur:'nature coloring page', sprookjes:'fairy tale coloring page',
-          ruimte:'space coloring page', oceaan:'ocean coloring page', letters:'letter coloring page',
-          mandala:'mandala coloring page', gezichten:'face coloring page' },
-    fr: { dieren:'coloriage animal', voertuigen:'coloriage véhicule', prinsessen:'coloriage princesse',
-          seizoenen:'coloriage saisons', feestdagen:'coloriage fête', eten:'coloriage nourriture',
-          kawaii:'coloriage kawaii', natuur:'coloriage nature', sprookjes:'coloriage conte de fées',
-          ruimte:'coloriage espace', oceaan:'coloriage océan', letters:'coloriage lettre',
-          mandala:'coloriage mandala', gezichten:'coloriage visage' },
-    es: { dieren:'colorear animales', voertuigen:'colorear vehículos', prinsessen:'colorear princesas',
-          seizoenen:'colorear estaciones', feestdagen:'colorear fiestas', eten:'colorear comida',
-          kawaii:'colorear kawaii', natuur:'colorear naturaleza', sprookjes:'colorear cuentos de hadas',
-          ruimte:'colorear espacio', oceaan:'colorear océano', letters:'colorear letras',
-          mandala:'colorear mandala', gezichten:'colorear caras' },
-    zh: { dieren:'动物涂色', voertuigen:'交通工具涂色', prinsessen:'公主涂色',
-          seizoenen:'季节涂色', feestdagen:'节日涂色', eten:'食物涂色',
-          kawaii:'卡哇伊涂色', natuur:'自然涂色', sprookjes:'童话涂色',
-          ruimte:'太空涂色', oceaan:'海洋涂色', letters:'字母涂色',
-          mandala:'曼陀罗涂色', gezichten:'面孔涂色' },
-  };
-  const suffix = { nl:'gratis kinderen', en:'free kids', fr:'gratuit enfants', es:'gratis niños', zh:'免费儿童' };
-  const translated = translateWords(words, lang).join(' ');
-  return `${translated} ${catKeywords[lang][category]} ${suffix[lang]}`;
+  const translated = lang === 'en' ? words.join(' ') : translateWords(words, lang).filter(Boolean).join(' ');
+  return `${translated} ${CAT_KEYWORDS[lang][category]} ${KEYWORD_SUFFIX[lang]}`;
+}
+
+function keywordsFromTitle(title, lang, category) {
+  const words = title.toLowerCase().split(/\s+/).filter(Boolean);
+  return `${words.join(' ')} ${CAT_KEYWORDS[lang][category]} ${KEYWORD_SUFFIX[lang]}`;
 }
 
 function e(str) {
@@ -418,19 +465,20 @@ function parseFilename(filename) {
 // ─────────────────────────────────────────────────────────────
 // ENTRY AANMAKEN
 // ─────────────────────────────────────────────────────────────
-function buildEntry(id, parsed) {
+function buildEntry(id, parsed, overrides) {
   const { category, difficulty, slug, words, filename } = parsed;
   const langs = ['nl','en','fr','es','zh'];
   const desc  = CAT_DESC[category] || CAT_DESC['dieren'];
+  const override = (overrides || {})[filename];
 
   const langData = {};
   for (const lang of langs) {
-    const title = buildTitle(words, lang);
+    const title = override ? override[lang] : buildTitle(words, lang);
     const titleLower = title.toLowerCase();
     langData[lang] = {
       title,
       description: desc[lang](titleLower),
-      keywords:    buildKeywords(words, lang, category),
+      keywords:    override ? keywordsFromTitle(title, lang, category) : buildKeywords(words, lang, category),
       altText:     lang === 'nl' ? `Gratis kleurplaat ${titleLower} – kinderen`
                  : lang === 'en' ? `Free coloring page ${titleLower} – kids`
                  : lang === 'fr' ? `Page à colorier ${titleLower} – enfants`
@@ -595,6 +643,14 @@ function main() {
   let dataContent = fs.readFileSync(DATA_JS, 'utf8');
   const existingSlugs = getExistingSlugs(dataContent);
   let nextId = getMaxId(dataContent) + 1;
+  const titleOverrides = loadTitleOverrides();
+
+  if (process.argv.includes('--resync-sitemap')) {
+    const allEntries = getAllEntries(dataContent);
+    fs.writeFileSync(SITEMAP, regenerateSitemap(allEntries), 'utf8');
+    console.log(`✅ sitemap.xml herbouwd (${allEntries.length} kleurplaten), geen nieuwe bestanden verwerkt.\n`);
+    return;
+  }
 
   // Lees alle jpg's in img/kleurplaten/
   const allImages = fs.readdirSync(IMG_DIR).filter(f => /\.jpg$/i.test(f));
@@ -622,17 +678,27 @@ function main() {
     if (!parsed) continue;
 
     const id = nextId++;
-    const entryBlock = buildEntry(id, parsed);
+    const entryBlock = buildEntry(id, parsed, titleOverrides);
     newEntryBlocks.push(entryBlock);
     addedParsed.push({ parsed, entryBlock });
 
     // NL titel en beschrijving voor SEO-pagina
-    const nlTitle = buildTitle(parsed.words, 'nl');
+    const override = titleOverrides[filename];
+    const nlTitle = override ? override.nl : buildTitle(parsed.words, 'nl');
     const nlDesc  = CAT_DESC[parsed.category].nl(nlTitle.toLowerCase());
 
     console.log(`  ✚ [${id}] ${parsed.slug} (${parsed.category}, ${parsed.difficulty})`);
 
     if (!DRY_RUN) {
+      // Watermark toevoegen
+      const imgPath = path.join(IMG_DIR, filename);
+      try {
+        execSync(`python3 "${path.join(ROOT, 'watermark.py')}" "${imgPath}"`, { stdio: 'pipe' });
+        console.log(`     🖼  Watermark toegevoegd`);
+      } catch (e) {
+        console.warn(`     ⚠  Watermark mislukt: ${e.stderr?.toString().trim() || e.message}`);
+      }
+
       // SEO-pagina aanmaken
       const slugDir = path.join(SLUG_DIR, parsed.slug);
       fs.mkdirSync(slugDir, { recursive: true });
@@ -675,4 +741,8 @@ function main() {
   }
 }
 
-main();
+if (require.main === module) {
+  main();
+}
+
+module.exports = { buildEntry, buildSeoPage, buildTitle, CAT_DESC, loadTitleOverrides };

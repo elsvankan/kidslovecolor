@@ -2053,6 +2053,102 @@ const COLORINGS = [
     zh: { title: '长颈鹿头曼陀罗叶子', description: '免费涂色页：长颈鹿头曼陀罗和叶子。用于放松着色的详细设计。', keywords: '长颈鹿头曼陀罗叶子涂色页 装饰 图案 免费', altText: '免费涂色页 长颈鹿头曼陀罗叶子' },
   },
 
+  {
+    id: 194, slug: 'cute-cat-sitting-with-a-bow', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--cute-cat-sitting-with-a-bow.jpg',
+    nl: { title: 'Schattige Kat Zittend met een Strik', description: 'Gratis kawaii kleurplaat van schattige kat zittend met een strik. Superschattig kleurplaatje voor kinderen.', keywords: 'schattige kat zittend met een strik kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat schattige kat zittend met een strik – kinderen' },
+    en: { title: 'Cute Cat Sitting With a Bow', description: 'Free kawaii coloring page of cute cat sitting with a bow. Super cute coloring page for kids.', keywords: 'cute cat sitting with a bow kawaii coloring page free kids', altText: 'Free coloring page cute cat sitting with a bow – kids' },
+    fr: { title: 'Chat Mignon Assis avec un Nœud', description: 'Page à colorier kawaii gratuite de chat mignon assis avec un nœud. Coloriage super mignon pour les enfants.', keywords: 'chat mignon assis avec un nœud coloriage kawaii gratuit enfants', altText: 'Page à colorier chat mignon assis avec un nœud – enfants' },
+    es: { title: 'Gato Lindo Sentado con un Lazo', description: 'Página para colorear kawaii gratis de gato lindo sentado con un lazo. Colorear súper lindo para niños.', keywords: 'gato lindo sentado con un lazo colorear kawaii gratis niños', altText: 'Página para colorear gato lindo sentado con un lazo – niños' },
+    zh: { title: '戴蝴蝶结坐着的可爱猫咪', description: '免费卡哇伊戴蝴蝶结坐着的可爱猫咪涂色页，超可爱儿童涂色。', keywords: '戴蝴蝶结坐着的可爱猫咪 卡哇伊涂色 免费儿童', altText: '免费涂色页 戴蝴蝶结坐着的可爱猫咪 – 儿童' },
+  },
+
+  {
+    id: 195, slug: 'princess-with-a-magic-wand-and-stars', category: 'prinsessen', difficulty: 'easy',
+    img: '../img/kleurplaten/prinsessen--easy--princess-with-a-magic-wand-and-stars.jpg',
+    nl: { title: 'Prinses met een Toverstokje en Sterren', description: 'Gratis prinsessenkleurplaat van prinses met een toverstokje en sterren. Magisch kleurplaatje voor kinderen.', keywords: 'prinses met een toverstokje en sterren prinsessen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat prinses met een toverstokje en sterren – kinderen' },
+    en: { title: 'Princess With a Magic Wand and Stars', description: 'Free princess coloring page of princess with a magic wand and stars. Magical coloring page for kids.', keywords: 'princess with a magic wand and stars princess coloring page free kids', altText: 'Free coloring page princess with a magic wand and stars – kids' },
+    fr: { title: 'Princesse avec une Baguette Magique et des Étoiles', description: 'Page à colorier princesse gratuite de princesse avec une baguette magique et des étoiles. Coloriage magique pour les enfants.', keywords: 'princesse avec une baguette magique et des étoiles coloriage princesse gratuit enfants', altText: 'Page à colorier princesse avec une baguette magique et des étoiles – enfants' },
+    es: { title: 'Princesa con una Varita Mágica y Estrellas', description: 'Página para colorear princesa gratis de princesa con una varita mágica y estrellas. Colorear mágico para niños.', keywords: 'princesa con una varita mágica y estrellas colorear princesas gratis niños', altText: 'Página para colorear princesa con una varita mágica y estrellas – niños' },
+    zh: { title: '拿着魔杖和星星的公主', description: '免费公主拿着魔杖和星星的公主涂色页，适合儿童的魔法涂色。', keywords: '拿着魔杖和星星的公主 公主涂色 免费儿童', altText: '免费涂色页 拿着魔杖和星星的公主 – 儿童' },
+  },
+
+  {
+    id: 196, slug: 'flower-mandala-pattern-with-leaves', category: 'mandala', difficulty: 'hard',
+    img: '../img/kleurplaten/mandala--hard--flower-mandala-pattern-with-leaves.jpg',
+    nl: { title: 'Bloemenmandala Patroon met Bladeren', description: 'Gratis mandalakleurplaat: bloemenmandala patroon met bladeren. Ontspannend kleurplaatje met mooie patronen.', keywords: 'bloemenmandala patroon met bladeren mandala kleurplaat gratis kinderen', altText: 'Gratis kleurplaat bloemenmandala patroon met bladeren – kinderen' },
+    en: { title: 'Flower Mandala Pattern With Leaves', description: 'Free mandala coloring page: flower mandala pattern with leaves. Relaxing coloring page with beautiful patterns.', keywords: 'flower mandala pattern with leaves mandala coloring page free kids', altText: 'Free coloring page flower mandala pattern with leaves – kids' },
+    fr: { title: 'Motif de Mandala Floral avec des Feuilles', description: 'Page à colorier mandala gratuite: motif de mandala floral avec des feuilles. Coloriage relaxant avec de beaux motifs.', keywords: 'motif de mandala floral avec des feuilles coloriage mandala gratuit enfants', altText: 'Page à colorier motif de mandala floral avec des feuilles – enfants' },
+    es: { title: 'Patrón de Mandala Floral con Hojas', description: 'Página para colorear mandala gratis: patrón de mandala floral con hojas. Colorear relajante con hermosos patrones.', keywords: 'patrón de mandala floral con hojas colorear mandala gratis niños', altText: 'Página para colorear patrón de mandala floral con hojas – niños' },
+    zh: { title: '带叶子的花卉曼陀罗图案', description: '免费曼陀罗带叶子的花卉曼陀罗图案涂色页，放松身心的美丽图案涂色。', keywords: '带叶子的花卉曼陀罗图案 曼陀罗涂色 免费儿童', altText: '免费涂色页 带叶子的花卉曼陀罗图案 – 儿童' },
+  },
+
+  {
+    id: 197, slug: 'christmas-tree-with-ornaments', category: 'feestdagen', difficulty: 'easy',
+    img: '../img/kleurplaten/feestdagen--easy--christmas-tree-with-ornaments.jpg',
+    nl: { title: 'Kerstboom met Kerstballen', description: 'Gratis feestdagenkleurplaat: kerstboom met kerstballen. Feestelijk kleurplaatje voor kinderen.', keywords: 'kerstboom met kerstballen feestdagen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kerstboom met kerstballen – kinderen' },
+    en: { title: 'Christmas Tree With Ornaments', description: 'Free holiday coloring page: christmas tree with ornaments. Festive coloring page for kids.', keywords: 'christmas tree with ornaments holiday coloring page free kids', altText: 'Free coloring page christmas tree with ornaments – kids' },
+    fr: { title: 'Sapin de Noël avec des Décorations', description: 'Page à colorier fête gratuite: sapin de noël avec des décorations. Coloriage festif pour les enfants.', keywords: 'sapin de noël avec des décorations coloriage fête gratuit enfants', altText: 'Page à colorier sapin de noël avec des décorations – enfants' },
+    es: { title: 'Árbol de Navidad con Adornos', description: 'Página para colorear fiesta gratis: árbol de navidad con adornos. Colorear festivo para niños.', keywords: 'árbol de navidad con adornos colorear fiestas gratis niños', altText: 'Página para colorear árbol de navidad con adornos – niños' },
+    zh: { title: '挂满装饰品的圣诞树', description: '免费节日挂满装饰品的圣诞树涂色页，适合儿童的节日涂色。', keywords: '挂满装饰品的圣诞树 节日涂色 免费儿童', altText: '免费涂色页 挂满装饰品的圣诞树 – 儿童' },
+  },
+  {
+    id: 198, slug: 'happy-girl-face-with-pigtails', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/gezichten--easy--happy-girl-face-with-pigtails.jpg',
+    nl: { title: 'Vrolijk Meisjesgezicht met Staartjes', description: 'Gratis gezichtenkleurplaat van vrolijk meisjesgezicht met staartjes. Mooi kleurplaatje voor kinderen.', keywords: 'vrolijk meisjesgezicht met staartjes gezichten kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vrolijk meisjesgezicht met staartjes – kinderen' },
+    en: { title: 'Happy Girl Face With Pigtails', description: 'Free face coloring page of happy girl face with pigtails. Beautiful coloring page for kids.', keywords: 'happy girl face with pigtails face coloring page free kids', altText: 'Free coloring page happy girl face with pigtails – kids' },
+    fr: { title: 'Visage de Fille Joyeuse avec des Couettes', description: 'Page à colorier visage gratuite de visage de fille joyeuse avec des couettes. Magnifique coloriage pour les enfants.', keywords: 'visage de fille joyeuse avec des couettes coloriage visage gratuit enfants', altText: 'Page à colorier visage de fille joyeuse avec des couettes – enfants' },
+    es: { title: 'Cara de Niña Feliz con Coletas', description: 'Página para colorear cara gratis de cara de niña feliz con coletas. Hermoso colorear para niños.', keywords: 'cara de niña feliz con coletas colorear caras gratis niños', altText: 'Página para colorear cara de niña feliz con coletas – niños' },
+    zh: { title: '扎着双马尾的快乐女孩脸', description: '免费面孔扎着双马尾的快乐女孩脸涂色页，适合儿童的涂色。', keywords: '扎着双马尾的快乐女孩脸 面孔涂色 免费儿童', altText: '免费涂色页 扎着双马尾的快乐女孩脸 – 儿童' },
+  },
+  {
+    id: 199, slug: 'kawaii-unicorn-with-stars', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-unicorn-with-stars.jpg',
+    nl: { title: 'Kawaii Eenhoorn met Sterren', description: 'Gratis kawaii kleurplaat van kawaii eenhoorn met sterren. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii eenhoorn met sterren kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii eenhoorn met sterren – kinderen' },
+    en: { title: 'Kawaii Unicorn With Stars', description: 'Free kawaii coloring page of kawaii unicorn with stars. Super cute coloring page for kids.', keywords: 'kawaii unicorn with stars kawaii coloring page free kids', altText: 'Free coloring page kawaii unicorn with stars – kids' },
+    fr: { title: 'Licorne Kawaii avec des Étoiles', description: 'Page à colorier kawaii gratuite de licorne kawaii avec des étoiles. Coloriage super mignon pour les enfants.', keywords: 'licorne kawaii avec des étoiles coloriage kawaii gratuit enfants', altText: 'Page à colorier licorne kawaii avec des étoiles – enfants' },
+    es: { title: 'Unicornio Kawaii con Estrellas', description: 'Página para colorear kawaii gratis de unicornio kawaii con estrellas. Colorear súper lindo para niños.', keywords: 'unicornio kawaii con estrellas colorear kawaii gratis niños', altText: 'Página para colorear unicornio kawaii con estrellas – niños' },
+    zh: { title: '带星星的卡哇伊独角兽', description: '免费卡哇伊带星星的卡哇伊独角兽涂色页，超可爱儿童涂色。', keywords: '带星星的卡哇伊独角兽 卡哇伊涂色 免费儿童', altText: '免费涂色页 带星星的卡哇伊独角兽 – 儿童' },
+  },
+  {
+    id: 200, slug: 'cute-princess-with-magic-wand', category: 'prinsessen', difficulty: 'easy',
+    img: '../img/kleurplaten/prinsessen--easy--cute-princess-with-magic-wand.jpg',
+    nl: { title: 'Schattige Prinses met Toverstokje', description: 'Gratis prinsessenkleurplaat van schattige prinses met toverstokje. Magisch kleurplaatje voor kinderen.', keywords: 'schattige prinses met toverstokje prinsessen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat schattige prinses met toverstokje – kinderen' },
+    en: { title: 'Cute Princess With Magic Wand', description: 'Free princess coloring page of cute princess with magic wand. Magical coloring page for kids.', keywords: 'cute princess with magic wand princess coloring page free kids', altText: 'Free coloring page cute princess with magic wand – kids' },
+    fr: { title: 'Jolie Princesse avec une Baguette Magique', description: 'Page à colorier princesse gratuite de jolie princesse avec une baguette magique. Coloriage magique pour les enfants.', keywords: 'jolie princesse avec une baguette magique coloriage princesse gratuit enfants', altText: 'Page à colorier jolie princesse avec une baguette magique – enfants' },
+    es: { title: 'Linda Princesa con Varita Mágica', description: 'Página para colorear princesa gratis de linda princesa con varita mágica. Colorear mágico para niños.', keywords: 'linda princesa con varita mágica colorear princesas gratis niños', altText: 'Página para colorear linda princesa con varita mágica – niños' },
+    zh: { title: '拿着魔杖的可爱公主', description: '免费公主拿着魔杖的可爱公主涂色页，适合儿童的魔法涂色。', keywords: '拿着魔杖的可爱公主 公主涂色 免费儿童', altText: '免费涂色页 拿着魔杖的可爱公主 – 儿童' },
+  },
+  {
+    id: 201, slug: 'princess-dress-with-flowers', category: 'prinsessen', difficulty: 'medium',
+    img: '../img/kleurplaten/prinsessen--medium--princess-dress-with-flowers.jpg',
+    nl: { title: 'Prinsessenjurk met Bloemen', description: 'Gratis prinsessenkleurplaat van prinsessenjurk met bloemen. Magisch kleurplaatje voor kinderen.', keywords: 'prinsessenjurk met bloemen prinsessen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat prinsessenjurk met bloemen – kinderen' },
+    en: { title: 'Princess Dress With Flowers', description: 'Free princess coloring page of princess dress with flowers. Magical coloring page for kids.', keywords: 'princess dress with flowers princess coloring page free kids', altText: 'Free coloring page princess dress with flowers – kids' },
+    fr: { title: 'Robe de Princesse avec des Fleurs', description: 'Page à colorier princesse gratuite de robe de princesse avec des fleurs. Coloriage magique pour les enfants.', keywords: 'robe de princesse avec des fleurs coloriage princesse gratuit enfants', altText: 'Page à colorier robe de princesse avec des fleurs – enfants' },
+    es: { title: 'Vestido de Princesa con Flores', description: 'Página para colorear princesa gratis de vestido de princesa con flores. Colorear mágico para niños.', keywords: 'vestido de princesa con flores colorear princesas gratis niños', altText: 'Página para colorear vestido de princesa con flores – niños' },
+    zh: { title: '带花朵的公主裙', description: '免费公主带花朵的公主裙涂色页，适合儿童的魔法涂色。', keywords: '带花朵的公主裙 公主涂色 免费儿童', altText: '免费涂色页 带花朵的公主裙 – 儿童' },
+  },
+
+  {
+    id: 202, slug: 'race-cars-competing-on-a-track', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--race-cars-competing-on-a-track.jpg',
+    nl: { title: 'Raceauto\'s die Wedstrijd Rijden op een Circuit', description: 'Gratis kleurplaat van raceauto\'s die wedstrijd rijden op een circuit. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'raceauto\'s die wedstrijd rijden op een circuit voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat raceauto\'s die wedstrijd rijden op een circuit – kinderen' },
+    en: { title: 'Race Cars Competing on a Track', description: 'Free coloring page of race cars competing on a track. Cool vehicle coloring page for kids.', keywords: 'race cars competing on a track vehicle coloring page free kids', altText: 'Free coloring page race cars competing on a track – kids' },
+    fr: { title: 'Voitures de Course en Compétition sur un Circuit', description: 'Page à colorier gratuite de voitures de course en compétition sur un circuit. Coloriage de véhicule pour les enfants.', keywords: 'voitures de course en compétition sur un circuit coloriage véhicule gratuit enfants', altText: 'Page à colorier voitures de course en compétition sur un circuit – enfants' },
+    es: { title: 'Coches de Carreras Compitiendo en una Pista', description: 'Página para colorear gratis de coches de carreras compitiendo en una pista. Colorear vehículos para niños.', keywords: 'coches de carreras compitiendo en una pista colorear vehículos gratis niños', altText: 'Página para colorear coches de carreras compitiendo en una pista – niños' },
+    zh: { title: '在赛道上比赛的赛车', description: '免费在赛道上比赛的赛车涂色页，适合儿童的交通工具涂色。', keywords: '在赛道上比赛的赛车 交通工具涂色 免费儿童', altText: '免费涂色页 在赛道上比赛的赛车 – 儿童' },
+  },
+
+  {
+    id: 203, slug: 'full-body-elephant-walking-in-the-jungle', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--full-body-elephant-walking-in-the-jungle.jpg',
+    nl: { title: 'Olifant Wandelend in de Jungle', description: 'Gratis kleurplaat van olifant wandelend in de jungle. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'olifant wandelend in de jungle dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat olifant wandelend in de jungle – kinderen' },
+    en: { title: 'Elephant Walking in the Jungle', description: 'Free coloring page of elephant walking in the jungle. Fun animal coloring page for kids to color and print.', keywords: 'elephant walking in the jungle animal coloring page free kids', altText: 'Free coloring page elephant walking in the jungle – kids' },
+    fr: { title: 'Éléphant se Promenant dans la Jungle', description: 'Page à colorier gratuite de éléphant se promenant dans la jungle. Amusant coloriage d\'animal pour les enfants.', keywords: 'éléphant se promenant dans la jungle coloriage animal gratuit enfants', altText: 'Page à colorier éléphant se promenant dans la jungle – enfants' },
+    es: { title: 'Elefante Caminando en la Selva', description: 'Página para colorear gratis de elefante caminando en la selva. Divertido colorear de animales para niños.', keywords: 'elefante caminando en la selva colorear animales gratis niños', altText: 'Página para colorear elefante caminando en la selva – niños' },
+    zh: { title: '在丛林中散步的大象', description: '免费在丛林中散步的大象涂色页，适合儿童的动物涂色，可打印。', keywords: '在丛林中散步的大象 动物涂色 免费儿童', altText: '免费涂色页 在丛林中散步的大象 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

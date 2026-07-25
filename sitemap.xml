@@ -5,9 +5,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml"
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
-  <!-- =============================================
-       HOMEPAGES (alle taalvarianten)
-       ============================================= -->
   <url>
     <loc>https://kidslovecolor.com/</loc>
     <xhtml:link rel="alternate" hreflang="nl-NL"    href="https://kidslovecolor.com/"/>
@@ -17,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -31,7 +28,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -45,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -59,7 +56,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -73,17 +70,14 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 
-  <!-- =============================================
-       KLEURPLAAT PAGINA'S (174 stuks)
-       ============================================= -->
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/baby-stegosaurus</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -96,7 +90,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/dinosaur-brontosaurus</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -109,7 +103,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/cute-puppy</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -122,7 +116,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/cat-rainbow</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -135,7 +129,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bird-family</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -148,7 +142,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sea-animals</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -161,7 +155,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-tree</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -174,7 +168,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-boba</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -187,7 +181,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-birthday</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -200,7 +194,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-flowers</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -213,7 +207,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bunny-carrots</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -226,7 +220,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-flowers-cactus</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -239,7 +233,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-cactus</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -252,7 +246,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-cat-dog</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -265,7 +259,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bunny-cupcake</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -278,7 +272,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-sweets</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -291,7 +285,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-fastfood</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -304,7 +298,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-bottle-animals</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -317,7 +311,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-fruit</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -330,7 +324,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-vegetables</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -343,7 +337,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-burgers</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -356,7 +350,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-ice-cream</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -369,7 +363,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-desserts</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -382,7 +376,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-cat-ice-cream</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -395,7 +389,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-pizza</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -408,7 +402,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-plants</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -421,7 +415,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-school</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -434,7 +428,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-smoothie</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -447,7 +441,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-cake</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -460,7 +454,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bunny-teacup</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -473,7 +467,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-flowers-sun</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -486,7 +480,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-mushrooms</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -499,7 +493,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-mushroom-scene</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -512,7 +506,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-space</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -525,7 +519,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/unicorn-hearts</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -538,7 +532,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/unicorn-cloud-stars</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -551,7 +545,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/unicorn-rainbow-cute</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -564,7 +558,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/unicorn-rainbow</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -577,7 +571,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bear-mandala-walking</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -590,7 +584,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/desert-camping</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -603,7 +597,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/dolphins-ocean</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -616,7 +610,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/easter-bunnies-set</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -629,7 +623,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/easter-bunny-basket</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -642,7 +636,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/easter-bunny-eggs</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -655,7 +649,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/easter-bunny-realistic</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -668,7 +662,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/elephant-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -681,7 +675,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/enchanted-forest</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -694,7 +688,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/february-lovebirds</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -707,7 +701,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/firefighter-boy-dog</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -720,7 +714,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/firefighter-boy-truck</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -733,7 +727,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/firefighter-hose</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -746,7 +740,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/firefighters-station</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -759,7 +753,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-heart</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -772,7 +766,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -785,7 +779,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/fox-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -798,7 +792,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/halloween-hedgehogs</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -811,7 +805,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/happy-rabbits-garden</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -824,7 +818,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/hello-summer-beach</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -837,7 +831,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/horse-mandala-galloping</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -850,7 +844,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/horse-mandala-running</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -863,7 +857,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/ice-cream-popsicles</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -876,7 +870,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/ice-cream-sundae</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -889,7 +883,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/january-candles</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -902,7 +896,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/january-cozy</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -915,7 +909,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/july-summer-reading</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -928,7 +922,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-donut-juice</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -941,7 +935,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-planets-stars</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -954,7 +948,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-space-cat</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -967,7 +961,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-space-planets</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -980,7 +974,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-space-ufo</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -993,7 +987,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-unicorn-magic</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1006,7 +1000,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-aboriginal-art</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1019,7 +1013,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-mandala-branch</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1032,7 +1026,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-mandala-climbing</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1045,7 +1039,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/koala-mandala-sitting</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1058,7 +1052,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/lion-flowers</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1071,7 +1065,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/may-flowers-bees</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1084,7 +1078,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/mermaid-on-rock</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1097,7 +1091,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/mermaid-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1110,7 +1104,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/monkey-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1123,7 +1117,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/november-harvest</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1136,7 +1130,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/otter-flowers</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1149,7 +1143,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/outer-space-planets</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1162,7 +1156,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/panda-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1175,20 +1169,20 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/pandas-bamboo</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://kidslovecolor.com/img/kleurplaten/pandas-bamboo.jpg</image:loc>
-      <image:title>Panda&#x27;s in Bamboe – Gratis Kleurplaat</image:title>
-      <image:caption>Gratis kleurplaat van twee schattige panda&#x27;s die spelen en eten in een bamboebos.</image:caption>
+      <image:title>Panda&#39;s in Bamboe – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kleurplaat van twee schattige panda&#39;s die spelen en eten in een bamboebos.</image:caption>
       <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
     </image:image>
   </url>
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/police-arrest</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1201,7 +1195,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/police-bulldog</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1214,7 +1208,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/police-officer-dog</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1227,7 +1221,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/saturn-rocket</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1240,7 +1234,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sea-turtle</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1253,7 +1247,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/september-classroom</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1266,7 +1260,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/september-garden</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1279,7 +1273,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sloth-mandala-hanging</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1292,7 +1286,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sloth-mandala-tree</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1305,7 +1299,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/snail-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1318,7 +1312,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/space-planets-rockets</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1331,7 +1325,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/space-rainbow-planets</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1344,7 +1338,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/squirrel-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1357,7 +1351,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/summer-beach-crab</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1370,7 +1364,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/summer-doodle-pattern</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1383,7 +1377,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/summer-flowers-ice-cream</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1396,7 +1390,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/summer-flowers-text</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1409,7 +1403,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/summer-travel-van</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1422,7 +1416,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/unicorn-garden</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1435,7 +1429,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/unicorn-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1448,7 +1442,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/weekend-wanderers-camper</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1461,7 +1455,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/dolphin-swimming-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1474,7 +1468,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/baby-dolphin-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1487,7 +1481,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/princess-castle-treasure-chest</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1500,7 +1494,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/terrier-dog</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1513,7 +1507,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bunny-on-cupcake-kawaii</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1526,7 +1520,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/bird-family-on-branch</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1539,7 +1533,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/abstract-zentangle-waves-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1552,7 +1546,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/abstract-zentangle-flowers-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1565,7 +1559,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/abstract-zentangle-flowers-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1578,7 +1572,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/rooster-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1591,7 +1585,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/abstract-zentangle-flowers-water</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1604,7 +1598,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/ocean-animals-scene</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1617,7 +1611,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/abstract-zentangle-waves-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1630,7 +1624,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/dolphin-coral-reef</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1643,7 +1637,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-voodoo-doll-jungle</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1656,7 +1650,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/manta-ray-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1669,7 +1663,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/cute-whale-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1682,7 +1676,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/eagle-head-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1695,7 +1689,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-c</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1708,7 +1702,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-o-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1721,7 +1715,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-o-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1734,7 +1728,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-d-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1747,7 +1741,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-d-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1760,7 +1754,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-e</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1773,7 +1767,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-f</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1786,7 +1780,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-g-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1799,7 +1793,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-g-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1812,7 +1806,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-g-3</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1825,7 +1819,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-i-sunflowers-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1838,7 +1832,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-i-sunflowers-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1851,7 +1845,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-k-grapes</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1864,7 +1858,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-l</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1877,7 +1871,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-n</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1890,7 +1884,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-o-mandala</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1903,7 +1897,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-o-3</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1916,7 +1910,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-p</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1929,7 +1923,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-s-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1942,7 +1936,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-s-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1955,7 +1949,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-u</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1968,7 +1962,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-v</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1981,7 +1975,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/floral-letter-z</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -1994,7 +1988,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-fruit-characters</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2007,7 +2001,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/betta-fish-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2020,7 +2014,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/kawaii-space-aliens</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2033,7 +2027,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/winter-bears-in-snow</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2046,7 +2040,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/whale-and-jellyfish-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2059,7 +2053,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/whale-and-jellyfish-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2072,7 +2066,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/dolphin-jumping-ocean</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2085,7 +2079,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/whale-with-dolphins</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2098,7 +2092,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/narwhal-with-fish</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2111,7 +2105,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/narwhal-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2124,7 +2118,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/whale-with-fish</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2137,7 +2131,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/octopus-underwater-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2150,7 +2144,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/octopus-sea-creatures</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2163,7 +2157,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/octopus-with-seaweed</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2176,7 +2170,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/jellyfish-group</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2189,7 +2183,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/shark-underwater</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2202,7 +2196,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/shark-with-fish</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2215,7 +2209,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sailboat-night-sky</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2228,7 +2222,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sailboat-nautical</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2241,7 +2235,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/dolphin-and-sea-turtle</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2254,7 +2248,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/sea-turtle-detailed</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2267,7 +2261,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/decorative-female-face-flowers</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2280,7 +2274,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/woman-face-architecture-flowers</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2293,7 +2287,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/girl-face-floral-crown-1</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2306,7 +2300,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/deer-head-mandala-floral</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2319,7 +2313,7 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/girl-face-floral-crown-2</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -2332,13 +2326,143 @@
 
   <url>
     <loc>https://kidslovecolor.com/kleurplaat/giraffe-head-mandala-leaves</loc>
-    <lastmod>2026-04-10</lastmod>
+    <lastmod>2026-07-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
       <image:loc>https://kidslovecolor.com/img/kleurplaten/giraffe-head-mandala-leaves-coloring-page.jpg</image:loc>
       <image:title>Giraffekop Mandala Bladeren – Gratis Kleurplaat</image:title>
       <image:caption>Gratis kleurplaat van een giraffekop mandala met bladeren. Gedetailleerd design voor ontspannend kleuren.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/cute-cat-sitting-with-a-bow</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/kawaii--easy--cute-cat-sitting-with-a-bow.jpg</image:loc>
+      <image:title>Schattige Kat Zittend met een Strik – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kawaii kleurplaat van schattige kat zittend met een strik. Superschattig kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/princess-with-a-magic-wand-and-stars</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/prinsessen--easy--princess-with-a-magic-wand-and-stars.jpg</image:loc>
+      <image:title>Prinses met een Toverstokje en Sterren – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis prinsessenkleurplaat van prinses met een toverstokje en sterren. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/flower-mandala-pattern-with-leaves</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/mandala--hard--flower-mandala-pattern-with-leaves.jpg</image:loc>
+      <image:title>Bloemenmandala Patroon met Bladeren – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis mandalakleurplaat: bloemenmandala patroon met bladeren. Ontspannend kleurplaatje met mooie patronen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/christmas-tree-with-ornaments</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/feestdagen--easy--christmas-tree-with-ornaments.jpg</image:loc>
+      <image:title>Kerstboom met Kerstballen – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis feestdagenkleurplaat: kerstboom met kerstballen. Feestelijk kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/happy-girl-face-with-pigtails</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/gezichten--easy--happy-girl-face-with-pigtails.jpg</image:loc>
+      <image:title>Vrolijk Meisjesgezicht met Staartjes – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis gezichtenkleurplaat van vrolijk meisjesgezicht met staartjes. Mooi kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/kawaii-unicorn-with-stars</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/kawaii--easy--kawaii-unicorn-with-stars.jpg</image:loc>
+      <image:title>Kawaii Eenhoorn met Sterren – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kawaii kleurplaat van kawaii eenhoorn met sterren. Superschattig kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/cute-princess-with-magic-wand</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/prinsessen--easy--cute-princess-with-magic-wand.jpg</image:loc>
+      <image:title>Schattige Prinses met Toverstokje – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis prinsessenkleurplaat van schattige prinses met toverstokje. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/princess-dress-with-flowers</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/prinsessen--medium--princess-dress-with-flowers.jpg</image:loc>
+      <image:title>Prinsessenjurk met Bloemen – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis prinsessenkleurplaat van prinsessenjurk met bloemen. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/race-cars-competing-on-a-track</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/voertuigen--medium--race-cars-competing-on-a-track.jpg</image:loc>
+      <image:title>Raceauto&#39;s die Wedstrijd Rijden op een Circuit – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kleurplaat van raceauto&#39;s die wedstrijd rijden op een circuit. Stoer voertuigenkleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/full-body-elephant-walking-in-the-jungle</loc>
+    <lastmod>2026-07-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/dieren--easy--full-body-elephant-walking-in-the-jungle.jpg</image:loc>
+      <image:title>Olifant Wandelend in de Jungle – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kleurplaat van olifant wandelend in de jungle. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.</image:caption>
       <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
     </image:image>
   </url>

@@ -1,0 +1,18 @@
+# API keys — nooit in git!
+.env
+.env.local
+
+# Watermark tracking (lokaal bestand, niet in git)
+img/kleurplaten/.watermarked.json
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS-bestanden
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.swp
