@@ -451,6 +451,12 @@ def _save(url, out_path, landscape):
     r.raise_for_status()
     img = Image.open(io.BytesIO(r.content)).convert('RGB')
 
+    # Magnific-beelden hebben vaak een dun (1-2px) donker randlijntje op de
+    # rechter- en/of onderrand (generatie-artefact). Wegsnijden voordat we
+    # verder verwerken, anders komt het lijntje mee in de eindafbeelding.
+    EDGE_TRIM = 5
+    img = img.crop((0, 0, img.width - EDGE_TRIM, img.height - EDGE_TRIM))
+
     target_w, target_h = A4_LANDSCAPE if landscape else A4_PORTRAIT
 
     # "Contain"-fit: schaal zonder vervorming, vul de rest met wit
