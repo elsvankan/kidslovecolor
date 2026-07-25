@@ -415,13 +415,24 @@ function renderGrid() {
   const counter = document.getElementById('resultCount');
   if (!grid) return;
 
+  const NEW_COUNT = 24;
+  const newestIds = activeCategory === 'nieuw'
+    ? new Set([...COLORINGS].sort((a, b) => b.id - a.id).slice(0, NEW_COUNT).map(c => c.id))
+    : null;
+
   const filtered = COLORINGS.filter(item => {
-    const matchCat    = activeCategory === 'all' || item.category === activeCategory;
+    const matchCat    = activeCategory === 'all' ? true
+                       : activeCategory === 'nieuw' ? newestIds.has(item.id)
+                       : item.category === activeCategory;
     const ld          = item[currentLang] || item.nl;
     const searchIn    = (ld.title + ' ' + ld.keywords + ' ' + item.category).toLowerCase();
     const matchSearch = !searchQuery || searchIn.includes(searchQuery.toLowerCase());
     return matchCat && matchSearch;
   });
+
+  if (activeCategory === 'nieuw') {
+    filtered.sort((a, b) => b.id - a.id);
+  }
 
   if (counter) {
     counter.textContent = t('result_count').replace('{n}', filtered.length);

@@ -68,5 +68,145 @@
     "fr": "Éléphant se Promenant dans la Jungle",
     "es": "Elefante Caminando en la Selva",
     "zh": "在丛林中散步的大象"
+  },
+  "dieren--medium--lion-family-resting-under-a-tree.jpg": {
+    "nl": "Leeuwenfamilie Rustend Onder een Boom",
+    "en": "Lion Family Resting Under a Tree",
+    "fr": "Famille de Lions se Reposant Sous un Arbre",
+    "es": "Familia de Leones Descansando Bajo un Árbol",
+    "zh": "在树下休息的狮子一家"
+  },
+  "dieren--easy--puppy-playing-with-a-ball-in-the-garden.jpg": {
+    "nl": "Puppy Spelend met een Bal in de Tuin",
+    "en": "Puppy Playing With a Ball in the Garden",
+    "fr": "Chiot Jouant Avec un Ballon dans le Jardin",
+    "es": "Cachorro Jugando con una Pelota en el Jardín",
+    "zh": "在花园里玩球的小狗"
+  },
+  "dieren--medium--giraffe-eating-leaves-from-a-tall-tree.jpg": {
+    "nl": "Giraffe Etend van Bladeren uit een Hoge Boom",
+    "en": "Giraffe Eating Leaves From a Tall Tree",
+    "fr": "Girafe Mangeant des Feuilles d'un Grand Arbre",
+    "es": "Jirafa Comiendo Hojas de un Árbol Alto",
+    "zh": "在高树上吃树叶的长颈鹿"
+  },
+  "dieren--hard--zoo-scene-with-many-different-animals.jpg": {
+    "nl": "Dierentuinscène met Veel Verschillende Dieren",
+    "en": "Zoo Scene With Many Different Animals",
+    "fr": "Scène de Zoo Avec Beaucoup d'Animaux Différents",
+    "es": "Escena de Zoológico con Muchos Animales Diferentes",
+    "zh": "有许多不同动物的动物园场景"
+  },
+  "dieren--medium--monkey-swinging-from-jungle-vines.jpg": {
+    "nl": "Aap Slingerend aan Jungle Lianen",
+    "en": "Monkey Swinging From Jungle Vines",
+    "fr": "Singe se Balançant sur des Lianes de la Jungle",
+    "es": "Mono Columpiándose en Lianas de la Selva",
+    "zh": "在丛林藤蔓上荡秋千的猴子"
+  },
+  "dieren--easy--farm-scene-with-cow-pig-and-chicken.jpg": {
+    "nl": "Boerderijscène met Koe, Varken en Kip",
+    "en": "Farm Scene With Cow, Pig and Chicken",
+    "fr": "Scène de Ferme Avec Vache, Cochon et Poule",
+    "es": "Escena de Granja con Vaca, Cerdo y Gallina",
+    "zh": "有奶牛、猪和小鸡的农场场景"
+  },
+  "dieren--hard--horse-galloping-through-a-meadow.jpg": {
+    "nl": "Paard Galopperend door een Weiland",
+    "en": "Horse Galloping Through a Meadow",
+    "fr": "Cheval Galopant à Travers une Prairie",
+    "es": "Caballo Galopando por un Prado",
+    "zh": "在草地上飞奔的马"
+  },
+  "voertuigen--easy--fire-truck-with-ladder-driving-to-a-rescue.jpg": {
+    "nl": "Brandweerwagen met Ladder Onderweg naar een Redding",
+    "en": "Fire Truck With Ladder Driving to a Rescue",
+    "fr": "Camion de Pompiers Avec Échelle en Mission de Sauvetage",
+    "es": "Camión de Bomberos con Escalera en una Misión de Rescate",
+    "zh": "带云梯前往救援的消防车"
+  },
+  "voertuigen--easy--rocket-ship-launching-into-space.jpg": {
+    "nl": "Raket die Wordt Gelanceerd de Ruimte in",
+    "en": "Rocket Ship Launching Into Space",
+    "fr": "Fusée qui Décolle Vers l'Espace",
+    "es": "Cohete Despegando Hacia el Espacio",
+    "zh": "发射升空的火箭"
+  },
+  "voertuigen--medium--pirate-ship-sailing-on-ocean-waves.jpg": {
+    "nl": "Piratenschip Varend op Oceaangolven",
+    "en": "Pirate Ship Sailing on Ocean Waves",
+    "fr": "Bateau Pirate Naviguant sur les Vagues de l'Océan",
+    "es": "Barco Pirata Navegando en las Olas del Océano",
+    "zh": "在海浪中航行的海盗船"
+  },
+  "voertuigen--hard--busy-airport-scene-with-airplanes.jpg": {
+    "nl": "Drukke Luchthavenscène met Vliegtuigen",
+    "en": "Busy Airport Scene With Airplanes",
+    "fr": "Scène Animée d'Aéroport Avec des Avions",
+    "es": "Escena Animada de Aeropuerto con Aviones",
+    "zh": "繁忙的机场与飞机场景"
+  },
+  "voertuigen--easy--tractor-working-in-a-farm-field.jpg": {
+    "nl": "Tractor Werkend op een Boerderijveld",
+    "en": "Tractor Working in a Farm Field",
+    "fr": "Tracteur Travaillant dans un Champ de Ferme",
+    "es": "Tractor Trabajando en un Campo de Granja",
+    "zh": "在农田里工作的拖拉机"
+  },
+  "voertuigen--medium--train-crossing-a-bridge-over-a-river.jpg": {
+    "nl": "Trein die een Brug over een Rivier Oversteekt",
+    "en": "Train Crossing a Bridge Over a River",
+    "fr": "Train Traversant un Pont Au-dessus d'une Rivière",
+    "es": "Tren Cruzando un Puente Sobre un Río",
+    "zh": "穿过河上大桥的火车"
+  },
+  "prinsessen--easy--princess-dancing-in-a-castle-ballroom.jpg": {
+    "nl": "Prinses Dansend in een Kasteel Balzaal",
+    "en": "Princess Dancing in a Castle Ballroom",
+    "fr": "Princesse Dansant dans une Salle de Bal du Château",
+    "es": "Princesa Bailando en el Salón de Baile del Castillo",
+    "zh": "在城堡舞厅跳舞的公主"
+  },
+  "prinsessen--medium--princess-riding-a-unicorn-through-a-forest.jpg": {
+    "nl": "Prinses Rijdend op een Eenhoorn door een Bos",
+    "en": "Princess Riding a Unicorn Through a Forest",
+    "fr": "Princesse Chevauchant une Licorne à Travers une Forêt",
+    "es": "Princesa Montando un Unicornio por un Bosque",
+    "zh": "骑着独角兽穿过森林的公主"
+  },
+  "prinsessen--hard--princess-castle-with-towers-and-a-garden.jpg": {
+    "nl": "Prinsessenkasteel met Torens en een Tuin",
+    "en": "Princess Castle With Towers and a Garden",
+    "fr": "Château de Princesse Avec des Tours et un Jardin",
+    "es": "Castillo de Princesa con Torres y un Jardín",
+    "zh": "有塔楼和花园的公主城堡"
+  },
+  "prinsessen--medium--princess-having-a-tea-party-with-friends.jpg": {
+    "nl": "Prinses die Theevisite Houdt met Vriendinnen",
+    "en": "Princess Having a Tea Party With Friends",
+    "fr": "Princesse Prenant le Thé Avec des Amies",
+    "es": "Princesa Tomando el Té con Amigas",
+    "zh": "和朋友们喝下午茶的公主"
+  },
+  "prinsessen--easy--princess-walking-with-her-pet-swan.jpg": {
+    "nl": "Prinses Wandelend met haar Huisdier Zwaan",
+    "en": "Princess Walking With Her Pet Swan",
+    "fr": "Princesse se Promenant Avec son Cygne Apprivoisé",
+    "es": "Princesa Paseando con su Cisne Mascota",
+    "zh": "和她的宠物天鹅散步的公主"
+  },
+  "seizoenen--medium--children-building-a-snowman-in-winter.jpg": {
+    "nl": "Kinderen die een Sneeuwpop Maken in de Winter",
+    "en": "Children Building a Snowman in Winter",
+    "fr": "Enfants Construisant un Bonhomme de Neige en Hiver",
+    "es": "Niños Construyendo un Muñeco de Nieve en Invierno",
+    "zh": "冬天堆雪人的孩子们"
+  },
+  "seizoenen--easy--autumn-scene-with-falling-leaves-and-a-tree.jpg": {
+    "nl": "Herfstscène met Vallende Bladeren en een Boom",
+    "en": "Autumn Scene With Falling Leaves and a Tree",
+    "fr": "Scène d'Automne Avec des Feuilles qui Tombent et un Arbre",
+    "es": "Escena de Otoño con Hojas Cayendo y un Árbol",
+    "zh": "落叶和树木的秋日场景"
   }
 }
