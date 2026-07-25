@@ -19,10 +19,12 @@ from pathlib import Path
 from PIL import Image
 import cairosvg
 
-ROOT      = Path(__file__).parent
-LOGO_SVG  = ROOT / 'img' / 'logo.svg'
-IMAGE_DIR = ROOT / 'img' / 'kleurplaten'
-DONE_FILE = IMAGE_DIR / '.watermarked.json'
+ROOT       = Path(__file__).parent
+LOGO_SVG   = ROOT / 'img' / 'logo.svg'
+IMAGE_DIR  = ROOT / 'img' / 'kleurplaten'
+THUMB_DIR  = IMAGE_DIR / 'thumbs'
+DONE_FILE  = IMAGE_DIR / '.watermarked.json'
+THUMB_WIDTH = 400  # px — genoeg voor scherpe weergave op 300px-brede kaarten (incl. retina)
 
 # InDesign-afmetingen in punten (1 pt = 1/72 inch)
 LOGO_W_PT   = 43.125
@@ -67,7 +69,23 @@ def watermark(img_path: Path, dry: bool = False) -> None:
     with Image.open(img_path) as img:
         base = img.convert('RGBA')
         base.paste(logo, (left, top), mask=logo)
-        base.convert('RGB').save(img_path, 'JPEG', quality=90, dpi=(150, 150))
+        final = base.convert('RGB')
+        final.save(img_path, 'JPEG', quality=90, dpi=(150, 150))
+
+    make_thumbnail(img_path, final)
+
+
+def make_thumbnail(img_path: Path, img: Image.Image = None) -> None:
+    """Genereert een kleine JPEG (400px breed) voor gebruik in de grid,
+    zodat kaartjes niet de volledige afdrukkwaliteit-JPEG (500-800KB)
+    hoeven te downloaden — belangrijk voor LCP/paginagewicht."""
+    THUMB_DIR.mkdir(exist_ok=True)
+    if img is None:
+        img = Image.open(img_path).convert('RGB')
+    w, h = img.size
+    thumb_h = round(THUMB_WIDTH * h / w)
+    thumb = img.resize((THUMB_WIDTH, thumb_h), Image.LANCZOS)
+    thumb.save(THUMB_DIR / img_path.name, 'JPEG', quality=72, dpi=(96, 96))
 
 
 def _load_done() -> set:
@@ -91,10 +109,18 @@ def main() -> int:
         files = sorted(IMAGE_DIR.glob('*.jpg')) + sorted(IMAGE_DIR.glob('*.png'))
 
     done = _load_done()
-    ok = fail = skip = 0
+    ok = fail = skip = thumbs = 0
 
     for f in files:
         if not force and f.name in done:
+            # Al gewatermerkt — check alleen of de thumbnail nog ontbreekt
+            # (bijv. voor bestanden van vóór de thumbnail-functionaliteit).
+            if not dry and not (THUMB_DIR / f.name).exists():
+                try:
+                    make_thumbnail(f)
+                    thumbs += 1
+                except Exception as e:
+                    print(f"  ✗ thumbnail {f.name}: {e}")
             skip += 1
             continue
         try:
@@ -106,6 +132,9 @@ def main() -> int:
         except Exception as e:
             print(f"  ✗ {f.name}: {e}")
             fail += 1
+
+    if thumbs:
+        print(f"  ({thumbs} ontbrekende thumbnails alsnog aangemaakt)")
 
     if not dry and ok:
         _save_done(done)

@@ -368,6 +368,71 @@ TOPIC_POOL = [
     dict(cat='feestdagen', diff='easy', desc='dinosaur wearing a halloween costume', landscape=False, titles=dict(
         nl='Dinosaurus in een Halloweenkostuum', en='Dinosaur Wearing a Halloween Costume',
         fr="Dinosaure en Costume d'Halloween", es='Dinosaurio con Disfraz de Halloween', zh='穿着万圣节服装的恐龙')),
+
+    # ── Klassieke sprookjes & verhalen (public domain, generieke stijl —
+    #    geen Disney-achtige tekenstijl, alleen het rechtenvrije verhaal/
+    #    personage zelf). Veiliger dan recent-PD-geworden merken zoals
+    #    Winnie de Poeh: sprookjes hebben geen enkele merkhouder.
+    dict(cat='sprookjes', diff='medium', desc='alice falling down the rabbit hole into wonderland', landscape=False, titles=dict(
+        nl='Alice Valt door het Konijnenhol naar Wonderland', en='Alice Falling Down the Rabbit Hole Into Wonderland',
+        fr='Alice Tombant dans le Terrier du Lapin vers le Pays des Merveilles', es='Alicia Cayendo por la Madriguera del Conejo al País de las Maravillas', zh='爱丽丝掉进兔子洞进入仙境')),
+    dict(cat='sprookjes', diff='medium', desc='alice having a tea party with the mad hatter', landscape=True, titles=dict(
+        nl='Alice Thee Drinkend met de Dolle Hoedenmaker', en='Alice Having a Tea Party With the Mad Hatter',
+        fr='Alice Prenant le Thé avec le Chapelier Fou', es='Alicia Tomando el Té con el Sombrerero Loco', zh='爱丽丝和疯帽子喝茶')),
+    dict(cat='sprookjes', diff='easy', desc='cheshire cat grinning in a tree', landscape=False, titles=dict(
+        nl='Cheshire Kat Grijnzend in een Boom', en='Cheshire Cat Grinning in a Tree',
+        fr='Chat du Cheshire Souriant dans un Arbre', es='Gato de Cheshire Sonriendo en un Árbol', zh='在树上咧嘴笑的柴郡猫')),
+    dict(cat='sprookjes', diff='medium', desc='peter pan flying over london rooftops', landscape=True, titles=dict(
+        nl='Peter Pan Vliegend over de Daken van Londen', en='Peter Pan Flying Over London Rooftops',
+        fr='Peter Pan Volant au-dessus des Toits de Londres', es='Peter Pan Volando sobre los Tejados de Londres', zh='彼得潘飞越伦敦屋顶')),
+    dict(cat='kawaii', diff='easy', desc='tiny forest fairy sitting on a mushroom', landscape=False, titles=dict(
+        nl='Klein Boself Zittend op een Paddenstoel', en='Tiny Forest Fairy Sitting on a Mushroom',
+        fr='Petite Fée des Bois Assise sur un Champignon', es='Pequeña Hada del Bosque Sentada en una Seta', zh='坐在蘑菇上的小森林精灵')),
+    dict(cat='sprookjes', diff='medium', desc='girl walking the yellow brick road with a scarecrow', landscape=True, titles=dict(
+        nl='Meisje dat over de Gele Bakstenen Weg Loopt met een Vogelverschrikker', en='Girl Walking the Yellow Brick Road With a Scarecrow',
+        fr='Fille Marchant sur le Chemin de Briques Jaunes avec un Épouvantail', es='Niña Caminando por el Camino de Baldosas Amarillas con un Espantapájaros', zh='女孩和稻草人走在黄砖路上')),
+    dict(cat='sprookjes', diff='medium', desc='tin man scarecrow and lion walking together', landscape=True, titles=dict(
+        nl='Blikken Man, Vogelverschrikker en Leeuw Lopend Samen', en='Tin Man, Scarecrow and Lion Walking Together',
+        fr='Homme de Fer-blanc, Épouvantail et Lion Marchant Ensemble', es='Hombre de Hojalata, Espantapájaros y León Caminando Juntos', zh='铁皮人、稻草人和狮子一起走')),
+    dict(cat='sprookjes', diff='easy', desc='wooden puppet boy walking to school', landscape=False, titles=dict(
+        nl='Houten Poppenjongen op weg naar School', en='Wooden Puppet Boy Walking to School',
+        fr="Garçon Marionnette en Bois Allant à l'École", es='Niño Marioneta de Madera Caminando a la Escuela', zh='木偶男孩走去上学')),
+    dict(cat='prinsessen', diff='easy', desc='princess trying on a glass slipper', landscape=False, titles=dict(
+        nl='Prinses die een Glazen Muiltje Past', en='Princess Trying on a Glass Slipper',
+        fr='Princesse Essayant une Pantoufle de Verre', es='Princesa Probándose una Zapatilla de Cristal', zh='公主试穿水晶鞋')),
+    dict(cat='prinsessen', diff='easy', desc='princess sleeping in a castle tower', landscape=False, titles=dict(
+        nl='Prinses die Slaapt in een Kasteeltoren', en='Princess Sleeping in a Castle Tower',
+        fr='Princesse Dormant dans une Tour de Château', es='Princesa Durmiendo en una Torre del Castillo', zh='在城堡塔楼里沉睡的公主')),
+    dict(cat='prinsessen', diff='medium', desc='princess letting down her long hair from a tower', landscape=True, titles=dict(
+        nl='Prinses die haar Lange Haar laat Zakken uit een Toren', en='Princess Letting Down Her Long Hair From a Tower',
+        fr='Princesse Laissant Tomber ses Longs Cheveux depuis une Tour', es='Princesa Dejando Caer su Largo Cabello desde una Torre', zh='从塔楼垂下长发的公主')),
+    dict(cat='sprookjes', diff='easy', desc='little girl in a red hooded cape walking through the forest', landscape=False, titles=dict(
+        nl='Meisje met Rode Cape Lopend door het Bos', en='Little Girl in a Red Hooded Cape Walking Through the Forest',
+        fr='Petite Fille en Cape Rouge Marchant dans la Forêt', es='Niña con Capa Roja Caminando por el Bosque', zh='穿红色斗篷的小女孩走过森林')),
+    dict(cat='dieren', diff='easy', desc='clever cat wearing boots and a hat', landscape=False, titles=dict(
+        nl='Slimme Kat met Laarzen en een Hoed', en='Clever Cat Wearing Boots and a Hat',
+        fr='Chat Malin Portant des Bottes et un Chapeau', es='Gato Astuto con Botas y Sombrero', zh='穿靴子戴帽子的聪明猫')),
+    dict(cat='dieren', diff='medium', desc='three little pigs building houses', landscape=True, titles=dict(
+        nl='Drie Kleine Biggetjes die Huizen Bouwen', en='Three Little Pigs Building Houses',
+        fr='Les Trois Petits Cochons Construisant des Maisons', es='Los Tres Cerditos Construyendo Casas', zh='三只小猪盖房子')),
+    dict(cat='dieren', diff='medium', desc='girl having porridge with three bears', landscape=True, titles=dict(
+        nl='Meisje dat Pap Eet met Drie Beren', en='Girl Having Porridge With Three Bears',
+        fr='Fille Mangeant de la Bouillie avec Trois Ours', es='Niña Comiendo Papilla con Tres Osos', zh='和三只熊一起吃粥的女孩')),
+    dict(cat='sprookjes', diff='medium', desc='boy climbing a giant beanstalk to the clouds', landscape=True, titles=dict(
+        nl='Jongen die een Reuzenbonenstaak Beklimt naar de Wolken', en='Boy Climbing a Giant Beanstalk to the Clouds',
+        fr='Garçon Grimpant à une Tige de Haricot Géante vers les Nuages', es='Niño Trepando por una Planta de Habichuelas Gigante hacia las Nubes', zh='男孩爬上通往云端的巨大豆茎')),
+    dict(cat='sprookjes', diff='medium', desc='brother and sister finding a candy house in the forest', landscape=True, titles=dict(
+        nl='Broer en Zus die een Snoephuisje Vinden in het Bos', en='Brother and Sister Finding a Candy House in the Forest',
+        fr='Frère et Sœur Découvrant une Maison en Bonbons dans la Forêt', es='Hermano y Hermana Encontrando una Casa de Dulces en el Bosque', zh='兄妹在森林里发现糖果屋')),
+    dict(cat='sprookjes', diff='medium', desc='archer shooting an arrow in a green forest', landscape=True, titles=dict(
+        nl='Boogschutter die een Pijl Afschiet in een Groen Bos', en='Archer Shooting an Arrow in a Green Forest',
+        fr='Archer Tirant une Flèche dans une Forêt Verte', es='Arquero Disparando una Flecha en un Bosque Verde', zh='在绿色森林中射箭的弓箭手')),
+    dict(cat='dieren', diff='easy', desc='ugly duckling swimming with swans', landscape=False, titles=dict(
+        nl='Lelijk Jong Eendje Zwemmend met Zwanen', en='Ugly Duckling Swimming With Swans',
+        fr='Vilain Petit Canard Nageant avec des Cygnes', es='Patito Feo Nadando con Cisnes', zh='和天鹅一起游泳的丑小鸭')),
+    dict(cat='feestdagen', diff='medium', desc='nutcracker soldier standing guard at christmas', landscape=False, titles=dict(
+        nl='Notenkraker Soldaat die de Wacht Houdt met Kerst', en='Nutcracker Soldier Standing Guard at Christmas',
+        fr='Soldat Casse-Noisette Montant la Garde à Noël', es='Soldado Cascanueces Haciendo Guardia en Navidad', zh='圣诞节站岗的胡桃夹子士兵')),
 ]
 
 

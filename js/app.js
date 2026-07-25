@@ -20,6 +20,14 @@ function resolveImgPath(img) {
   return _IS_SUBPAGE ? img : img.replace(/^\.\.\//, '');
 }
 
+// Kleine JPEG-variant voor kaartjes in de grid (zie watermark.py) —
+// scheelt honderden KB per kaartje t.o.v. de volledige afdrukkwaliteit-JPEG.
+function resolveThumbPath(img) {
+  const resolved = resolveImgPath(img);
+  if (!resolved || resolved.endsWith('.svg')) return resolved;
+  return resolved.replace(/\/([^/]+)$/, '/thumbs/$1');
+}
+
 let activeCategory  = 'all';
 let searchQuery     = '';
 let currentColoring = null;
@@ -496,7 +504,8 @@ function renderCard(item) {
   const diffClass = 'difficulty-' + item.difficulty;
 
   const altText = ld.altText || `${t('free_coloring_page')} ${ld.title} – KidsLoveColor`;
-  const imgSrc  = resolveImgPath(item.img) || `data:image/svg+xml,${encodeURIComponent(placeholderSVG(ld.title))}`;
+  const imgSrc      = resolveImgPath(item.img) || `data:image/svg+xml,${encodeURIComponent(placeholderSVG(ld.title))}`;
+  const thumbSrc    = resolveThumbPath(item.img) || imgSrc;
 
   const printLabel    = `${t('print_btn')} – ${ld.title}`;
   const downloadLabel = `${t('download_btn')} – ${ld.title}`;
@@ -516,7 +525,8 @@ function renderCard(item) {
   >
     <div class="card-thumbnail">
       <img
-        src="${imgSrc}"
+        src="${thumbSrc}"
+        onerror="this.onerror=null;this.src='${imgSrc}';"
         alt="${altText}"
         loading="lazy"
         decoding="async"

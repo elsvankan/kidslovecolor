@@ -301,6 +301,16 @@ const DICT = {
 };
 
 // ─────────────────────────────────────────────────────────────
+// NL-LABELS PER CATEGORIE (voor breadcrumb structured data)
+// ─────────────────────────────────────────────────────────────
+const CAT_LABELS_NL = {
+  dieren: 'Dieren', voertuigen: 'Voertuigen', prinsessen: 'Prinsessen & Feeën',
+  seizoenen: 'Seizoenen & Natuur', feestdagen: 'Feestdagen', eten: 'Eten & Drinken',
+  kawaii: 'Kawaii', natuur: 'Natuur', sprookjes: 'Sprookjes', ruimte: 'Ruimte',
+  oceaan: 'Oceaan', letters: 'Letters', mandala: 'Mandala', gezichten: 'Gezichten',
+};
+
+// ─────────────────────────────────────────────────────────────
 // BESCHRIJVINGEN PER CATEGORIE
 // ─────────────────────────────────────────────────────────────
 const CAT_DESC = {
@@ -504,9 +514,21 @@ function buildEntry(id, parsed, overrides) {
 // SEO-PAGINA AANMAKEN
 // ─────────────────────────────────────────────────────────────
 function buildSeoPage(parsed, nlTitle, nlDesc) {
-  const { slug, filename } = parsed;
+  const { slug, filename, category } = parsed;
   const imgUrl = `${BASE_URL}/img/kleurplaten/${filename}`;
   const pageUrl = `${BASE_URL}/kleurplaat/${slug}`;
+  const catLabel = CAT_LABELS_NL[category] || category;
+  const catUrl = `${BASE_URL}/?cat=${encodeURIComponent(category)}`;
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    'itemListElement': [
+      { '@type': 'ListItem', 'position': 1, 'name': 'Home', 'item': BASE_URL + '/' },
+      { '@type': 'ListItem', 'position': 2, 'name': catLabel, 'item': catUrl },
+      { '@type': 'ListItem', 'position': 3, 'name': nlTitle, 'item': pageUrl },
+    ],
+  };
 
   return `<!DOCTYPE html>
 <html lang="nl" prefix="og: https://ogp.me/ns#">
@@ -533,6 +555,9 @@ function buildSeoPage(parsed, nlTitle, nlDesc) {
   <meta name="twitter:title"       content="${e(nlTitle)} – Gratis Kleurplaat"/>
   <meta name="twitter:description" content="${e(nlDesc)}"/>
   <meta name="twitter:image"       content="${imgUrl}"/>
+
+  <!-- Breadcrumb structured data -->
+  <script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>
 
   <!-- Redirect naar SPA -->
   <meta http-equiv="refresh" content="0; url=/"/>
