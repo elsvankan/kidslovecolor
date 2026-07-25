@@ -20,15 +20,16 @@ erop, registreert de kleurplaat in alle 5 talen, werkt de sitemap bij en
 pusht automatisch naar git (tenzij --no-push).
 """
 
-import sys, os, time, re, subprocess, io
+import sys, os, time, re, json, subprocess, io
 from pathlib import Path
 import requests
 from PIL import Image
 
-ROOT     = Path(__file__).parent
-ENV      = ROOT / '.env'
-API_BASE = 'https://api.magnific.com/v1'
-IMG_DIR  = ROOT / 'img' / 'kleurplaten'
+ROOT        = Path(__file__).parent
+ENV         = ROOT / '.env'
+API_BASE    = 'https://api.magnific.com/v1'
+IMG_DIR     = ROOT / 'img' / 'kleurplaten'
+TITLES_FILE = IMG_DIR / '.titles.json'
 
 A4_PORTRAIT  = (1240, 1754)
 A4_LANDSCAPE = (1754, 1240)
@@ -72,97 +73,229 @@ HEAD_OK_CATS = {'gezichten'}
 # (categorie, moeilijkheid, beschrijving, landscape:bool)
 # --batch kiest hieruit de eerstvolgende N die nog niet bestaan.
 # ─────────────────────────────────────────────────────────────
+# Elk item is een dict: cat, diff, desc (EN, gebruikt voor de Magnific
+# prompt + bestandsnaam), landscape, en titles — de HANDGESCHREVEN,
+# natuurlijke titel per taal. Deze titels omzeilen het woord-voor-woord
+# vertaalwoordenboek in add-colorings.js volledig (dat struikelt over
+# volzin-achtige scènebeschrijvingen met voorzetsels/werkwoorden) en
+# worden via .titles.json aan add-colorings.js doorgegeven.
 TOPIC_POOL = [
     # dieren — volledige lijven, scènes
-    ('dieren', 'easy',   'full body elephant walking in the jungle', False),
-    ('dieren', 'medium', 'lion family resting under a tree',          True),
-    ('dieren', 'easy',   'puppy playing with a ball in the garden',   False),
-    ('dieren', 'medium', 'giraffe eating leaves from a tall tree',    False),
-    ('dieren', 'hard',   'zoo scene with many different animals',    True),
-    ('dieren', 'medium', 'monkey swinging from jungle vines',         False),
-    ('dieren', 'easy',   'farm scene with cow, pig and chicken',      True),
-    ('dieren', 'hard',   'horse galloping through a meadow',          True),
+    dict(cat='dieren', diff='easy', desc='full body elephant walking in the jungle', landscape=False, titles=dict(
+        nl='Olifant Wandelend in de Jungle', en='Elephant Walking in the Jungle',
+        fr='Éléphant se Promenant dans la Jungle', es='Elefante Caminando en la Selva', zh='在丛林中散步的大象')),
+    dict(cat='dieren', diff='medium', desc='lion family resting under a tree', landscape=True, titles=dict(
+        nl='Leeuwenfamilie Rustend Onder een Boom', en='Lion Family Resting Under a Tree',
+        fr='Famille de Lions se Reposant Sous un Arbre', es='Familia de Leones Descansando Bajo un Árbol', zh='在树下休息的狮子一家')),
+    dict(cat='dieren', diff='easy', desc='puppy playing with a ball in the garden', landscape=False, titles=dict(
+        nl='Puppy Spelend met een Bal in de Tuin', en='Puppy Playing With a Ball in the Garden',
+        fr='Chiot Jouant Avec un Ballon dans le Jardin', es='Cachorro Jugando con una Pelota en el Jardín', zh='在花园里玩球的小狗')),
+    dict(cat='dieren', diff='medium', desc='giraffe eating leaves from a tall tree', landscape=False, titles=dict(
+        nl='Giraffe Etend van Bladeren uit een Hoge Boom', en='Giraffe Eating Leaves From a Tall Tree',
+        fr="Girafe Mangeant des Feuilles d'un Grand Arbre", es='Jirafa Comiendo Hojas de un Árbol Alto', zh='在高树上吃树叶的长颈鹿')),
+    dict(cat='dieren', diff='hard', desc='zoo scene with many different animals', landscape=True, titles=dict(
+        nl='Dierentuinscène met Veel Verschillende Dieren', en='Zoo Scene With Many Different Animals',
+        fr="Scène de Zoo Avec Beaucoup d'Animaux Différents", es='Escena de Zoológico con Muchos Animales Diferentes', zh='有许多不同动物的动物园场景')),
+    dict(cat='dieren', diff='medium', desc='monkey swinging from jungle vines', landscape=False, titles=dict(
+        nl='Aap Slingerend aan Jungle Lianen', en='Monkey Swinging From Jungle Vines',
+        fr='Singe se Balançant sur des Lianes de la Jungle', es='Mono Columpiándose en Lianas de la Selva', zh='在丛林藤蔓上荡秋千的猴子')),
+    dict(cat='dieren', diff='easy', desc='farm scene with cow, pig and chicken', landscape=True, titles=dict(
+        nl='Boerderijscène met Koe, Varken en Kip', en='Farm Scene With Cow, Pig and Chicken',
+        fr='Scène de Ferme Avec Vache, Cochon et Poule', es='Escena de Granja con Vaca, Cerdo y Gallina', zh='有奶牛、猪和小鸡的农场场景')),
+    dict(cat='dieren', diff='hard', desc='horse galloping through a meadow', landscape=True, titles=dict(
+        nl='Paard Galopperend door een Weiland', en='Horse Galloping Through a Meadow',
+        fr='Cheval Galopant à Travers une Prairie', es='Caballo Galopando por un Prado', zh='在草地上飞奔的马')),
 
     # voertuigen — altijd volledige machine, vaak liggend
-    ('voertuigen', 'easy',   'fire truck with ladder driving to a rescue', True),
-    ('voertuigen', 'medium', 'race cars competing on a track',             True),
-    ('voertuigen', 'easy',   'rocket ship launching into space',           False),
-    ('voertuigen', 'medium', 'pirate ship sailing on ocean waves',         True),
-    ('voertuigen', 'hard',   'busy airport scene with airplanes',          True),
-    ('voertuigen', 'easy',   'tractor working in a farm field',            True),
-    ('voertuigen', 'medium', 'train crossing a bridge over a river',       True),
+    dict(cat='voertuigen', diff='easy', desc='fire truck with ladder driving to a rescue', landscape=True, titles=dict(
+        nl='Brandweerwagen met Ladder Onderweg naar een Redding', en='Fire Truck With Ladder Driving to a Rescue',
+        fr='Camion de Pompiers Avec Échelle en Mission de Sauvetage', es='Camión de Bomberos con Escalera en una Misión de Rescate', zh='带云梯前往救援的消防车')),
+    dict(cat='voertuigen', diff='medium', desc='race cars competing on a track', landscape=True, titles=dict(
+        nl="Raceauto's die Wedstrijd Rijden op een Circuit", en='Race Cars Competing on a Track',
+        fr='Voitures de Course en Compétition sur un Circuit', es='Coches de Carreras Compitiendo en una Pista', zh='在赛道上比赛的赛车')),
+    dict(cat='voertuigen', diff='easy', desc='rocket ship launching into space', landscape=False, titles=dict(
+        nl='Raket die Wordt Gelanceerd de Ruimte in', en='Rocket Ship Launching Into Space',
+        fr="Fusée qui Décolle Vers l'Espace", es='Cohete Despegando Hacia el Espacio', zh='发射升空的火箭')),
+    dict(cat='voertuigen', diff='medium', desc='pirate ship sailing on ocean waves', landscape=True, titles=dict(
+        nl='Piratenschip Varend op Oceaangolven', en='Pirate Ship Sailing on Ocean Waves',
+        fr='Bateau Pirate Naviguant sur les Vagues de l\'Océan', es='Barco Pirata Navegando en las Olas del Océano', zh='在海浪中航行的海盗船')),
+    dict(cat='voertuigen', diff='hard', desc='busy airport scene with airplanes', landscape=True, titles=dict(
+        nl='Drukke Luchthavenscène met Vliegtuigen', en='Busy Airport Scene With Airplanes',
+        fr="Scène Animée d'Aéroport Avec des Avions", es='Escena Animada de Aeropuerto con Aviones', zh='繁忙的机场与飞机场景')),
+    dict(cat='voertuigen', diff='easy', desc='tractor working in a farm field', landscape=True, titles=dict(
+        nl='Tractor Werkend op een Boerderijveld', en='Tractor Working in a Farm Field',
+        fr='Tracteur Travaillant dans un Champ de Ferme', es='Tractor Trabajando en un Campo de Granja', zh='在农田里工作的拖拉机')),
+    dict(cat='voertuigen', diff='medium', desc='train crossing a bridge over a river', landscape=True, titles=dict(
+        nl='Trein die een Brug over een Rivier Oversteekt', en='Train Crossing a Bridge Over a River',
+        fr="Train Traversant un Pont Au-dessus d'une Rivière", es='Tren Cruzando un Puente Sobre un Río', zh='穿过河上大桥的火车')),
 
     # prinsessen — volledige figuur in een setting
-    ('prinsessen', 'easy',   'princess dancing in a castle ballroom',      False),
-    ('prinsessen', 'medium', 'princess riding a unicorn through a forest', True),
-    ('prinsessen', 'hard',   'princess castle with towers and a garden',   True),
-    ('prinsessen', 'medium', 'princess having a tea party with friends',   True),
-    ('prinsessen', 'easy',   'princess walking with her pet swan',         False),
+    dict(cat='prinsessen', diff='easy', desc='princess dancing in a castle ballroom', landscape=False, titles=dict(
+        nl='Prinses Dansend in een Kasteel Balzaal', en='Princess Dancing in a Castle Ballroom',
+        fr='Princesse Dansant dans une Salle de Bal du Château', es='Princesa Bailando en el Salón de Baile del Castillo', zh='在城堡舞厅跳舞的公主')),
+    dict(cat='prinsessen', diff='medium', desc='princess riding a unicorn through a forest', landscape=True, titles=dict(
+        nl='Prinses Rijdend op een Eenhoorn door een Bos', en='Princess Riding a Unicorn Through a Forest',
+        fr='Princesse Chevauchant une Licorne à Travers une Forêt', es='Princesa Montando un Unicornio por un Bosque', zh='骑着独角兽穿过森林的公主')),
+    dict(cat='prinsessen', diff='hard', desc='princess castle with towers and a garden', landscape=True, titles=dict(
+        nl='Prinsessenkasteel met Torens en een Tuin', en='Princess Castle With Towers and a Garden',
+        fr='Château de Princesse Avec des Tours et un Jardin', es='Castillo de Princesa con Torres y un Jardín', zh='有塔楼和花园的公主城堡')),
+    dict(cat='prinsessen', diff='medium', desc='princess having a tea party with friends', landscape=True, titles=dict(
+        nl='Prinses die Theevisite Houdt met Vriendinnen', en='Princess Having a Tea Party With Friends',
+        fr='Princesse Prenant le Thé Avec des Amies', es='Princesa Tomando el Té con Amigas', zh='和朋友们喝下午茶的公主')),
+    dict(cat='prinsessen', diff='easy', desc='princess walking with her pet swan', landscape=False, titles=dict(
+        nl='Prinses Wandelend met haar Huisdier Zwaan', en='Princess Walking With Her Pet Swan',
+        fr='Princesse se Promenant Avec son Cygne Apprivoisé', es='Princesa Paseando con su Cisne Mascota', zh='和她的宠物天鹅散步的公主')),
 
     # seizoenen — volledige buitenscène
-    ('seizoenen', 'medium', 'children building a snowman in winter',       True),
-    ('seizoenen', 'easy',   'autumn scene with falling leaves and a tree', False),
-    ('seizoenen', 'medium', 'spring garden full of blooming flowers',      True),
-    ('seizoenen', 'easy',   'kids playing at the beach in summer',         True),
-    ('seizoenen', 'hard',   'four seasons tree in one picture',            False),
+    dict(cat='seizoenen', diff='medium', desc='children building a snowman in winter', landscape=True, titles=dict(
+        nl='Kinderen die een Sneeuwpop Maken in de Winter', en='Children Building a Snowman in Winter',
+        fr="Enfants Construisant un Bonhomme de Neige en Hiver", es='Niños Construyendo un Muñeco de Nieve en Invierno', zh='冬天堆雪人的孩子们')),
+    dict(cat='seizoenen', diff='easy', desc='autumn scene with falling leaves and a tree', landscape=False, titles=dict(
+        nl='Herfstscène met Vallende Bladeren en een Boom', en='Autumn Scene With Falling Leaves and a Tree',
+        fr="Scène d'Automne Avec des Feuilles qui Tombent et un Arbre", es='Escena de Otoño con Hojas Cayendo y un Árbol', zh='落叶和树木的秋日场景')),
+    dict(cat='seizoenen', diff='medium', desc='spring garden full of blooming flowers', landscape=True, titles=dict(
+        nl='Lentetuin vol Bloeiende Bloemen', en='Spring Garden Full of Blooming Flowers',
+        fr="Jardin de Printemps Rempli de Fleurs en Éclosion", es='Jardín de Primavera Lleno de Flores en Flor', zh='开满鲜花的春日花园')),
+    dict(cat='seizoenen', diff='easy', desc='kids playing at the beach in summer', landscape=True, titles=dict(
+        nl='Kinderen die Spelen op het Strand in de Zomer', en='Kids Playing at the Beach in Summer',
+        fr='Enfants Jouant à la Plage en Été', es='Niños Jugando en la Playa en Verano', zh='夏天在海滩上玩耍的孩子们')),
+    dict(cat='seizoenen', diff='hard', desc='four seasons tree in one picture', landscape=False, titles=dict(
+        nl='Boom in Vier Seizoenen in Één Plaatje', en='Four Seasons Tree in One Picture',
+        fr='Arbre des Quatre Saisons en Une Seule Image', es='Árbol de las Cuatro Estaciones en una Sola Imagen', zh='一幅图中的四季之树')),
 
     # feestdagen — volledige scène
-    ('feestdagen', 'easy',   'santa claus delivering presents by sleigh',  True),
-    ('feestdagen', 'medium', 'halloween scene with pumpkins and a bat',    True),
-    ('feestdagen', 'easy',   'birthday party table with cake and balloons',True),
-    ('feestdagen', 'medium', 'easter bunny hiding eggs in a garden',       True),
-    ('feestdagen', 'easy',   'fireworks celebration at new year',          True),
+    dict(cat='feestdagen', diff='easy', desc='santa claus delivering presents by sleigh', landscape=True, titles=dict(
+        nl='Kerstman die Cadeautjes Bezorgt met de Slee', en='Santa Claus Delivering Presents by Sleigh',
+        fr='Père Noël Livrant des Cadeaux en Traîneau', es='Papá Noel Entregando Regalos en Trineo', zh='乘雪橇送礼物的圣诞老人')),
+    dict(cat='feestdagen', diff='medium', desc='halloween scene with pumpkins and a bat', landscape=True, titles=dict(
+        nl='Halloweenscène met Pompoenen en een Vleermuis', en='Halloween Scene With Pumpkins and a Bat',
+        fr="Scène d'Halloween Avec des Citrouilles et une Chauve-souris", es='Escena de Halloween con Calabazas y un Murciélago', zh='南瓜和蝙蝠的万圣节场景')),
+    dict(cat='feestdagen', diff='easy', desc='birthday party table with cake and balloons', landscape=True, titles=dict(
+        nl='Verjaardagstafel met Taart en Ballonnen', en='Birthday Party Table With Cake and Balloons',
+        fr="Table d'Anniversaire Avec Gâteau et Ballons", es='Mesa de Cumpleaños con Pastel y Globos', zh='有蛋糕和气球的生日聚会桌')),
+    dict(cat='feestdagen', diff='medium', desc='easter bunny hiding eggs in a garden', landscape=True, titles=dict(
+        nl='Paashaas die Eieren Verstopt in een Tuin', en='Easter Bunny Hiding Eggs in a Garden',
+        fr='Lapin de Pâques Cachant des Œufs dans un Jardin', es='Conejo de Pascua Escondiendo Huevos en un Jardín', zh='在花园里藏彩蛋的复活节兔子')),
+    dict(cat='feestdagen', diff='easy', desc='fireworks celebration at new year', landscape=True, titles=dict(
+        nl='Vuurwerkfeest met Oud en Nieuw', en='Fireworks Celebration at New Year',
+        fr="Feu d'Artifice pour Célébrer le Nouvel An", es='Celebración de Fuegos Artificiales de Año Nuevo', zh='新年烟花庆典')),
 
     # eten — kawaii personage met omgeving
-    ('eten', 'easy',   'kawaii ice cream cone with a happy face on a beach', False),
-    ('eten', 'medium', 'fruit basket full of different kawaii fruits',      True),
-    ('eten', 'easy',   'kawaii cupcake with sprinkles and a cherry',        False),
-    ('eten', 'medium', 'picnic scene with sandwiches and juice',            True),
+    dict(cat='eten', diff='easy', desc='kawaii ice cream cone with a happy face on a beach', landscape=False, titles=dict(
+        nl='Kawaii IJshoorntje met een Blij Gezicht op het Strand', en='Kawaii Ice Cream Cone With a Happy Face on a Beach',
+        fr='Cornet de Glace Kawaii Avec un Visage Joyeux sur la Plage', es='Cono de Helado Kawaii con Cara Feliz en la Playa', zh='沙滩上带笑脸的卡哇伊冰淇淋筒')),
+    dict(cat='eten', diff='medium', desc='fruit basket full of different kawaii fruits', landscape=True, titles=dict(
+        nl='Fruitmand vol Verschillende Kawaii Vruchten', en='Fruit Basket Full of Different Kawaii Fruits',
+        fr='Panier de Fruits Rempli de Différents Fruits Kawaii', es='Cesta de Frutas Llena de Diferentes Frutas Kawaii', zh='装满各种卡哇伊水果的果篮')),
+    dict(cat='eten', diff='easy', desc='kawaii cupcake with sprinkles and a cherry', landscape=False, titles=dict(
+        nl='Kawaii Cupcake met Spikkels en een Kers', en='Kawaii Cupcake With Sprinkles and a Cherry',
+        fr='Cupcake Kawaii Avec des Vermicelles et une Cerise', es='Cupcake Kawaii con Chispas y una Cereza', zh='带糖粒和樱桃的卡哇伊纸杯蛋糕')),
+    dict(cat='eten', diff='medium', desc='picnic scene with sandwiches and juice', landscape=True, titles=dict(
+        nl='Picknickscène met Broodjes en Sap', en='Picnic Scene With Sandwiches and Juice',
+        fr='Scène de Pique-nique Avec des Sandwichs et du Jus', es='Escena de Picnic con Sándwiches y Jugo', zh='有三明治和果汁的野餐场景')),
 
     # kawaii — volledig figuur, actie
-    ('kawaii', 'easy',   'kawaii bear having a picnic under a tree',   True),
-    ('kawaii', 'medium', 'kawaii fox playing in autumn leaves',        False),
-    ('kawaii', 'easy',   'kawaii penguin sliding on ice',              False),
-    ('kawaii', 'medium', 'kawaii dinosaur playing with balloons',      False),
+    dict(cat='kawaii', diff='easy', desc='kawaii bear having a picnic under a tree', landscape=True, titles=dict(
+        nl='Kawaii Beer die Picknickt Onder een Boom', en='Kawaii Bear Having a Picnic Under a Tree',
+        fr='Ours Kawaii Pique-niquant Sous un Arbre', es='Oso Kawaii de Picnic Bajo un Árbol', zh='在树下野餐的卡哇伊小熊')),
+    dict(cat='kawaii', diff='medium', desc='kawaii fox playing in autumn leaves', landscape=False, titles=dict(
+        nl='Kawaii Vosje Spelend in Herfstbladeren', en='Kawaii Fox Playing in Autumn Leaves',
+        fr="Renard Kawaii Jouant dans les Feuilles d'Automne", es='Zorro Kawaii Jugando en Hojas de Otoño', zh='在秋叶中玩耍的卡哇伊狐狸')),
+    dict(cat='kawaii', diff='easy', desc='kawaii penguin sliding on ice', landscape=False, titles=dict(
+        nl='Kawaii Pinguïn Glijdend over het IJs', en='Kawaii Penguin Sliding on Ice',
+        fr='Pingouin Kawaii Glissant sur la Glace', es='Pingüino Kawaii Deslizándose sobre el Hielo', zh='在冰上滑行的卡哇伊企鹅')),
+    dict(cat='kawaii', diff='medium', desc='kawaii dinosaur playing with balloons', landscape=False, titles=dict(
+        nl='Kawaii Dinosaurus Spelend met Ballonnen', en='Kawaii Dinosaur Playing With Balloons',
+        fr='Dinosaure Kawaii Jouant Avec des Ballons', es='Dinosaurio Kawaii Jugando con Globos', zh='和气球玩耍的卡哇伊恐龙')),
 
     # natuur — landschap
-    ('natuur', 'medium', 'forest scene with tall trees and a stream',  True),
-    ('natuur', 'easy',   'sunflower field under a smiling sun',        True),
-    ('natuur', 'hard',   'jungle scene with waterfall and plants',     True),
-    ('natuur', 'medium', 'butterfly garden with many flowers',         False),
+    dict(cat='natuur', diff='medium', desc='forest scene with tall trees and a stream', landscape=True, titles=dict(
+        nl='Bosscène met Hoge Bomen en een Beekje', en='Forest Scene With Tall Trees and a Stream',
+        fr='Scène de Forêt Avec de Grands Arbres et un Ruisseau', es='Escena de Bosque con Árboles Altos y un Arroyo', zh='有高大树木和小溪的森林场景')),
+    dict(cat='natuur', diff='easy', desc='sunflower field under a smiling sun', landscape=True, titles=dict(
+        nl='Zonnebloemenveld onder een Lachende Zon', en='Sunflower Field Under a Smiling Sun',
+        fr='Champ de Tournesols Sous un Soleil Souriant', es='Campo de Girasoles Bajo un Sol Sonriente', zh='微笑太阳下的向日葵田')),
+    dict(cat='natuur', diff='hard', desc='jungle scene with waterfall and plants', landscape=True, titles=dict(
+        nl='Jungle Scène met Waterval en Planten', en='Jungle Scene With Waterfall and Plants',
+        fr='Scène de Jungle Avec une Cascade et des Plantes', es='Escena de Selva con Cascada y Plantas', zh='有瀑布和植物的丛林场景')),
+    dict(cat='natuur', diff='medium', desc='butterfly garden with many flowers', landscape=False, titles=dict(
+        nl='Vlindertuin met Veel Bloemen', en='Butterfly Garden With Many Flowers',
+        fr='Jardin de Papillons Avec Beaucoup de Fleurs', es='Jardín de Mariposas con Muchas Flores', zh='有很多花朵的蝴蝶花园')),
 
     # sprookjes — volledige scène
-    ('sprookjes', 'medium', 'dragon guarding a treasure in a cave',      True),
-    ('sprookjes', 'hard',   'enchanted forest with fairies and mushrooms', True),
-    ('sprookjes', 'medium', 'knight riding a horse to a castle',         True),
-    ('sprookjes', 'easy',   'friendly wizard casting a magic spell',     False),
+    dict(cat='sprookjes', diff='medium', desc='dragon guarding a treasure in a cave', landscape=True, titles=dict(
+        nl='Draak die een Schat Bewaakt in een Grot', en='Dragon Guarding a Treasure in a Cave',
+        fr='Dragon Gardant un Trésor dans une Grotte', es='Dragón Custodiando un Tesoro en una Cueva', zh='在洞穴里守护宝藏的龙')),
+    dict(cat='sprookjes', diff='hard', desc='enchanted forest with fairies and mushrooms', landscape=True, titles=dict(
+        nl='Betoverd Bos met Feeën en Paddenstoelen', en='Enchanted Forest With Fairies and Mushrooms',
+        fr='Forêt Enchantée Avec des Fées et des Champignons', es='Bosque Encantado con Hadas y Setas', zh='有仙女和蘑菇的魔法森林')),
+    dict(cat='sprookjes', diff='medium', desc='knight riding a horse to a castle', landscape=True, titles=dict(
+        nl='Ridder Rijdend op een Paard naar een Kasteel', en='Knight Riding a Horse to a Castle',
+        fr='Chevalier Chevauchant Vers un Château', es='Caballero Cabalgando Hacia un Castillo', zh='骑马前往城堡的骑士')),
+    dict(cat='sprookjes', diff='easy', desc='friendly wizard casting a magic spell', landscape=False, titles=dict(
+        nl='Vriendelijke Tovenaar die een Toverspreuk Uitspreekt', en='Friendly Wizard Casting a Magic Spell',
+        fr='Magicien Sympathique Lançant un Sort Magique', es='Mago Amistoso Lanzando un Hechizo Mágico', zh='施展魔法咒语的友好巫师')),
 
     # ruimte — volledige scène
-    ('ruimte', 'medium', 'astronaut floating among planets and stars', False),
-    ('ruimte', 'easy',   'friendly alien waving next to a UFO',        False),
-    ('ruimte', 'hard',   'solar system with all planets and the sun',  True),
+    dict(cat='ruimte', diff='medium', desc='astronaut floating among planets and stars', landscape=False, titles=dict(
+        nl='Astronaut Zwevend Tussen Planeten en Sterren', en='Astronaut Floating Among Planets and Stars',
+        fr='Astronaute Flottant Parmi les Planètes et les Étoiles', es='Astronauta Flotando Entre Planetas y Estrellas', zh='漂浮在行星和星星之间的宇航员')),
+    dict(cat='ruimte', diff='easy', desc='friendly alien waving next to a UFO', landscape=False, titles=dict(
+        nl='Vriendelijke Alien Zwaaiend naast een UFO', en='Friendly Alien Waving Next to a UFO',
+        fr="Extraterrestre Sympathique Saluant à Côté d'un OVNI", es='Extraterrestre Amistoso Saludando Junto a un OVNI', zh='在飞碟旁招手的友好外星人')),
+    dict(cat='ruimte', diff='hard', desc='solar system with all planets and the sun', landscape=True, titles=dict(
+        nl='Zonnestelsel met Alle Planeten en de Zon', en='Solar System With All Planets and the Sun',
+        fr='Système Solaire Avec Toutes les Planètes et le Soleil', es='Sistema Solar con Todos los Planetas y el Sol', zh='包含所有行星和太阳的太阳系')),
 
     # oceaan — volledige scène
-    ('oceaan', 'medium', 'dolphin family jumping over ocean waves',   True),
-    ('oceaan', 'easy',   'happy octopus playing with a beach ball',   False),
-    ('oceaan', 'hard',   'coral reef scene with fish and a turtle',   True),
-    ('oceaan', 'medium', 'mermaid sitting on a rock by the sea',      False),
+    dict(cat='oceaan', diff='medium', desc='dolphin family jumping over ocean waves', landscape=True, titles=dict(
+        nl='Dolfijnenfamilie Springend over Oceaangolven', en='Dolphin Family Jumping Over Ocean Waves',
+        fr='Famille de Dauphins Sautant par-dessus les Vagues', es='Familia de Delfines Saltando sobre las Olas del Océano', zh='跃过海浪的海豚一家')),
+    dict(cat='oceaan', diff='easy', desc='happy octopus playing with a beach ball', landscape=False, titles=dict(
+        nl='Blije Octopus Spelend met een Strandbal', en='Happy Octopus Playing With a Beach Ball',
+        fr='Poulpe Joyeux Jouant Avec un Ballon de Plage', es='Pulpo Feliz Jugando con una Pelota de Playa', zh='和沙滩球玩耍的快乐章鱼')),
+    dict(cat='oceaan', diff='hard', desc='coral reef scene with fish and a turtle', landscape=True, titles=dict(
+        nl='Koraalrifscène met Vissen en een Schildpad', en='Coral Reef Scene With Fish and a Turtle',
+        fr='Scène de Récif Corallien Avec des Poissons et une Tortue', es='Escena de Arrecife de Coral con Peces y una Tortuga', zh='有鱼和海龟的珊瑚礁场景')),
+    dict(cat='oceaan', diff='medium', desc='mermaid sitting on a rock by the sea', landscape=False, titles=dict(
+        nl='Zeemeermin Zittend op een Rots bij de Zee', en='Mermaid Sitting on a Rock by the Sea',
+        fr='Sirène Assise sur un Rocher au Bord de la Mer', es='Sirena Sentada en una Roca junto al Mar', zh='坐在海边岩石上的美人鱼')),
 
     # letters — decoratief, portret
-    ('letters', 'medium', 'letter A decorated with apples and ants',    False),
-    ('letters', 'medium', 'letter B decorated with butterflies',        False),
-    ('letters', 'medium', 'letter S decorated with stars and a sun',    False),
+    dict(cat='letters', diff='medium', desc='letter A decorated with apples and ants', landscape=False, titles=dict(
+        nl='Letter A Versierd met Appels en Mieren', en='Letter A Decorated With Apples and Ants',
+        fr='Lettre A Décorée de Pommes et de Fourmis', es='Letra A Decorada con Manzanas y Hormigas', zh='用苹果和蚂蚁装饰的字母A')),
+    dict(cat='letters', diff='medium', desc='letter B decorated with butterflies', landscape=False, titles=dict(
+        nl='Letter B Versierd met Vlinders', en='Letter B Decorated With Butterflies',
+        fr='Lettre B Décorée de Papillons', es='Letra B Decorada con Mariposas', zh='用蝴蝶装饰的字母B')),
+    dict(cat='letters', diff='medium', desc='letter S decorated with stars and a sun', landscape=False, titles=dict(
+        nl='Letter S Versierd met Sterren en een Zon', en='Letter S Decorated With Stars and a Sun',
+        fr="Lettre S Décorée d'Étoiles et d'un Soleil", es='Letra S Decorada con Estrellas y un Sol', zh='用星星和太阳装饰的字母S')),
 
     # mandala — altijd portret, symmetrisch
-    ('mandala', 'hard',   'animal themed mandala with birds',          False),
-    ('mandala', 'medium', 'simple flower mandala for beginners',       False),
-    ('mandala', 'hard',   'ocean themed mandala with shells and waves',False),
+    dict(cat='mandala', diff='hard', desc='animal themed mandala with birds', landscape=False, titles=dict(
+        nl='Dieren Mandala met Vogels', en='Animal Themed Mandala With Birds',
+        fr='Mandala à Thème Animal Avec des Oiseaux', es='Mandala Temático de Animales con Pájaros', zh='以动物为主题的鸟类曼陀罗')),
+    dict(cat='mandala', diff='medium', desc='simple flower mandala for beginners', landscape=False, titles=dict(
+        nl='Eenvoudige Bloemenmandala voor Beginners', en='Simple Flower Mandala for Beginners',
+        fr='Mandala Floral Simple pour Débutants', es='Mandala Floral Sencillo para Principiantes', zh='适合初学者的简单花卉曼陀罗')),
+    dict(cat='mandala', diff='hard', desc='ocean themed mandala with shells and waves', landscape=False, titles=dict(
+        nl='Oceaan Mandala met Schelpen en Golven', en='Ocean Themed Mandala With Shells and Waves',
+        fr='Mandala à Thème Océan Avec des Coquillages et des Vagues', es='Mandala Temático del Océano con Conchas y Olas', zh='以海洋为主题的贝壳与波浪曼陀罗')),
 
     # gezichten — hier is een close-up wél de bedoeling
-    ('gezichten', 'easy', 'happy boy face with a big smile',      False),
-    ('gezichten', 'easy', 'cute puppy face with floppy ears',     False),
-    ('gezichten', 'medium', 'lion face with a fluffy mane',       False),
-    ('gezichten', 'easy', 'smiling sun face with rays',           False),
+    dict(cat='gezichten', diff='easy', desc='happy boy face with a big smile', landscape=False, titles=dict(
+        nl='Vrolijk Jongensgezicht met een Grote Glimlach', en='Happy Boy Face With a Big Smile',
+        fr='Visage de Garçon Joyeux avec un Grand Sourire', es='Cara de Niño Feliz con una Gran Sonrisa', zh='带着灿烂笑容的男孩笑脸')),
+    dict(cat='gezichten', diff='easy', desc='cute puppy face with floppy ears', landscape=False, titles=dict(
+        nl='Schattig Puppygezicht met Hangoren', en='Cute Puppy Face With Floppy Ears',
+        fr='Visage de Chiot Mignon avec des Oreilles Tombantes', es='Cara de Cachorro Tierno con Orejas Caídas', zh='长着垂耳的可爱小狗脸')),
+    dict(cat='gezichten', diff='medium', desc='lion face with a fluffy mane', landscape=False, titles=dict(
+        nl='Leeuwengezicht met een Pluizige Manen', en='Lion Face With a Fluffy Mane',
+        fr='Visage de Lion avec une Crinière Pelucheuse', es='Cara de León con una Melena Esponjosa', zh='有蓬松鬃毛的狮子脸')),
+    dict(cat='gezichten', diff='easy', desc='smiling sun face with rays', landscape=False, titles=dict(
+        nl='Lachend Zonnegezicht met Stralen', en='Smiling Sun Face With Rays',
+        fr='Visage de Soleil Souriant avec des Rayons', es='Cara de Sol Sonriente con Rayos', zh='带着光芒的微笑太阳脸')),
 ]
 
 
@@ -265,7 +398,21 @@ def _save(url, out_path, landscape):
     canvas.save(out_path, 'JPEG', quality=92, dpi=(150, 150))
 
 
-def generate_one(category, difficulty, description, key, landscape=False):
+def _save_title_override(filename, titles):
+    """Schrijft de handgeschreven vertalingen weg naar .titles.json,
+    zodat add-colorings.js deze titels 1-op-1 overneemt in plaats van
+    het woord-voor-woord DICT te gebruiken."""
+    data = {}
+    if TITLES_FILE.exists():
+        try:
+            data = json.loads(TITLES_FILE.read_text())
+        except json.JSONDecodeError:
+            data = {}
+    data[filename] = titles
+    TITLES_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
+
+
+def generate_one(category, difficulty, description, key, landscape=False, titles=None):
     filename = _filename_for(category, difficulty, description)
     out_path = IMG_DIR / filename
 
@@ -289,6 +436,10 @@ def generate_one(category, difficulty, description, key, landscape=False):
     print(f'  [3/3] Opslaan als {dims}...')
     _save(img_url, out_path, landscape)
     print(f'  Opgeslagen: {filename}')
+
+    if titles:
+        _save_title_override(filename, titles)
+
     return True
 
 
@@ -296,11 +447,11 @@ def pick_topics(n):
     """Kies de eerstvolgende n onderwerpen uit TOPIC_POOL die nog geen
     bestand hebben, zodat elke dag nieuwe onderwerpen aan bod komen."""
     chosen = []
-    for cat, diff, desc, landscape in TOPIC_POOL:
-        filename = _filename_for(cat, diff, desc)
+    for topic in TOPIC_POOL:
+        filename = _filename_for(topic['cat'], topic['diff'], topic['desc'])
         if (IMG_DIR / filename).exists():
             continue
-        chosen.append((cat, diff, desc, landscape))
+        chosen.append(topic)
         if len(chosen) >= n:
             break
     return chosen
@@ -359,9 +510,10 @@ def main():
 
         print(f'Batch-modus: {len(topics)} kleurplaten genereren...')
         added = 0
-        for cat, diff, desc, landscape in topics:
+        for topic in topics:
             try:
-                if generate_one(cat, diff, desc, key, landscape):
+                if generate_one(topic['cat'], topic['diff'], topic['desc'], key,
+                                 landscape=topic['landscape'], titles=topic['titles']):
                     added += 1
             except Exception as e:
                 print(f'  FOUT: {e}')
