@@ -524,6 +524,20 @@ TOPIC_POOL = [
     dict(cat='natuur', diff='medium', desc='nordic winter scene with a child watching the northern lights', landscape=True, titles=dict(
         nl='Noords Winterlandschap met een Kind dat naar het Noorderlicht Kijkt', en='Nordic Winter Scene With a Child Watching the Northern Lights',
         fr="Scène d'Hiver Nordique avec un Enfant Regardant les Aurores Boréales", es='Escena de Invierno Nórdico con un Niño Mirando la Aurora Boreal', zh='孩子观赏北极光的北欧冬季场景')),
+
+    # ── Meer wereldwijde levensstijlen (Caribisch eilandleven, Alpenleven)
+    dict(cat='natuur', diff='medium', desc='caribbean island beach with palm trees and colorful houses', landscape=True, titles=dict(
+        nl='Caribisch Eilandstrand met Palmbomen en Kleurrijke Huisjes', en='Caribbean Island Beach With Palm Trees and Colorful Houses',
+        fr="Plage d'une Île des Caraïbes avec des Palmiers et des Maisons Colorées", es='Playa de una Isla Caribeña con Palmeras y Casas Coloridas', zh='有棕榈树和彩色房屋的加勒比海岛海滩')),
+    dict(cat='natuur', diff='easy', desc='family relaxing in hammocks on a tropical island', landscape=True, titles=dict(
+        nl='Gezin dat Ontspant in Hangmatten op een Tropisch Eiland', en='Family Relaxing in Hammocks on a Tropical Island',
+        fr='Famille se Détendant dans des Hamacs sur une Île Tropicale', es='Familia Relajándose en Hamacas en una Isla Tropical', zh='在热带岛屿吊床上放松的一家人')),
+    dict(cat='natuur', diff='medium', desc='austrian alpine village with snowy mountains and wooden chalets', landscape=True, titles=dict(
+        nl='Oostenrijks Alpendorp met Besneeuwde Bergen en Houten Chalets', en='Austrian Alpine Village With Snowy Mountains and Wooden Chalets',
+        fr='Village Alpin Autrichien avec des Montagnes Enneigées et des Chalets en Bois', es='Pueblo Alpino Austriaco con Montañas Nevadas y Cabañas de Madera', zh='有雪山和木屋的奥地利阿尔卑斯村庄')),
+    dict(cat='seizoenen', diff='easy', desc='child skiing down a mountain slope in the alps', landscape=True, titles=dict(
+        nl='Kind dat een Berghelling Afskiet in de Alpen', en='Child Skiing Down a Mountain Slope in the Alps',
+        fr='Enfant Skiant sur une Pente de Montagne dans les Alpes', es='Niño Esquiando por una Pendiente de Montaña en los Alpes', zh='在阿尔卑斯山滑雪下坡的孩子')),
 ]
 
 
