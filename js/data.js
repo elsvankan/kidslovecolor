@@ -1420,8 +1420,6 @@ const COLORINGS = [
     zh: { title: '周末旅行者房车', description: '免费涂色页，画的是出发冒险的温馨房车，非常适合爱做梦的小旅行者。', keywords: '周末 房车 涂色 免费 儿童', altText: '免费涂色页 周末旅行者房车 – 儿童' },
   },
 
-
-
   {
     id: 123, slug: 'dolphin-swimming-underwater', category: 'oceaan', difficulty: 'easy',
     img: '../img/kleurplaten/dolphin-swimming-underwater-coloring-page.jpg',
