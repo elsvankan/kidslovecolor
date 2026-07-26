@@ -612,6 +612,40 @@ TOPIC_POOL = [
     dict(cat='eten', diff='easy', desc='chibi strawberry cake slice with a cute face', landscape=False, style='chibi', titles=dict(
         nl='Chibi Aardbeientaartpuntje met een Schattig Gezichtje', en='Chibi Strawberry Cake Slice With a Cute Face',
         fr='Part de Gâteau aux Fraises Chibi avec un Visage Mignon', es='Rebanada de Pastel de Fresa Chibi con una Cara Tierna', zh='有可爱表情的Q版草莓蛋糕')),
+
+    # ── Chibi volledige-scène thuis/dagelijks leven (woonkamer, tuin,
+    #    slaapkamer, school, supermarkt) — drukke gedetailleerde scènes,
+    #    geen geïsoleerd personage.
+    dict(cat='kawaii', diff='medium', desc='family movie night on the couch in the living room with blankets snacks and a cat', landscape=True, style='chibi', titles=dict(
+        nl='Filmavond met het Gezin op de Bank in de Woonkamer met Dekens, Snacks en een Kat', en='Family Movie Night on the Couch in the Living Room With Blankets, Snacks and a Cat',
+        fr='Soirée Cinéma en Famille sur le Canapé au Salon avec Couvertures, Snacks et un Chat', es='Noche de Película en Familia en el Sofá de la Sala con Mantas, Snacks y un Gato', zh='一家人在客厅沙发上盖着毯子、吃着零食、和猫咪一起看电影之夜')),
+    dict(cat='kawaii', diff='medium', desc='children playing in a garden with a sandbox swing and a dog', landscape=True, style='chibi', titles=dict(
+        nl='Kinderen die Spelen in een Tuin met een Zandbak, Schommel en een Hond', en='Children Playing in a Garden With a Sandbox, Swing and a Dog',
+        fr='Enfants Jouant dans un Jardin avec un Bac à Sable, une Balançoire et un Chien', es='Niños Jugando en un Jardín con un Arenero, un Columpio y un Perro', zh='在花园里玩沙坑、秋千和小狗的孩子们')),
+    dict(cat='kawaii', diff='medium', desc='child reading in bed surrounded by stuffed animals and fairy lights in a cozy bedroom', landscape=True, style='chibi', titles=dict(
+        nl='Kind dat Leest in Bed Omringd door Knuffels en Lichtjesslingers in een Gezellige Slaapkamer', en='Child Reading in Bed Surrounded by Stuffed Animals and Fairy Lights in a Cozy Bedroom',
+        fr='Enfant Lisant au Lit Entouré de Peluches et de Guirlandes Lumineuses dans une Chambre Douillette', es='Niño Leyendo en la Cama Rodeado de Peluches y Luces de Hadas en un Dormitorio Acogedor', zh='在温馨卧室里被毛绒玩具和彩灯环绕着看书的孩子')),
+    dict(cat='kawaii', diff='medium', desc='classroom scene with children at their desks and a teacher by a blank chalkboard', landscape=True, style='chibi', titles=dict(
+        nl='Klaslokaalscène met Kinderen achter hun Bureau en een Juf bij een Leeg Schoolbord', en='Classroom Scene With Children at Their Desks and a Teacher by a Blank Chalkboard',
+        fr="Scène de Classe avec des Enfants à leur Bureau et une Institutrice près d'un Tableau Vide", es='Escena de Aula con Niños en sus Pupitres y una Maestra junto a una Pizarra en Blanco', zh='孩子们坐在课桌前、老师站在空白黑板旁的教室场景')),
+    dict(cat='kawaii', diff='medium', desc='family pushing a shopping cart through the supermarket aisles', landscape=True, style='chibi', titles=dict(
+        nl='Gezin dat een Winkelwagen Duwt door de Gangpaden van de Supermarkt', en='Family Pushing a Shopping Cart Through the Supermarket Aisles',
+        fr='Famille Poussant un Chariot dans les Rayons du Supermarché', es='Familia Empujando un Carrito de Compras por los Pasillos del Supermercado', zh='一家人推着购物车逛超市货架')),
+    dict(cat='kawaii', diff='medium', desc='family baking cookies together in a cozy kitchen', landscape=True, style='chibi', titles=dict(
+        nl='Gezin dat Samen Koekjes Bakt in een Gezellige Keuken', en='Family Baking Cookies Together in a Cozy Kitchen',
+        fr='Famille Préparant des Biscuits Ensemble dans une Cuisine Chaleureuse', es='Familia Horneando Galletas Juntos en una Cocina Acogedora', zh='一家人在温馨的厨房里一起烤饼干')),
+    dict(cat='kawaii', diff='easy', desc='child playing with bath toys and bubbles at bath time in the bathroom', landscape=False, style='chibi', titles=dict(
+        nl='Kind dat Speelt met Badspeeltjes en Bubbels tijdens Badtijd in de Badkamer', en='Child Playing With Bath Toys and Bubbles at Bath Time in the Bathroom',
+        fr="Enfant Jouant avec des Jouets de Bain et des Bulles à l'Heure du Bain dans la Salle de Bain", es='Niño Jugando con Juguetes de Baño y Burbujas a la Hora del Baño en el Cuarto de Baño', zh='在浴室洗澡时间玩洗澡玩具和泡泡的孩子')),
+    dict(cat='kawaii', diff='medium', desc='family having a backyard picnic with a blanket basket and balloons', landscape=True, style='chibi', titles=dict(
+        nl='Gezin dat Picknickt in de Achtertuin met een Deken, Mand en Ballonnen', en='Family Having a Backyard Picnic With a Blanket, Basket and Balloons',
+        fr='Famille Pique-niquant dans le Jardin avec une Couverture, un Panier et des Ballons', es='Familia de Picnic en el Patio Trasero con una Manta, una Cesta y Globos', zh='一家人在后院野餐，铺着毯子、带着篮子和气球')),
+    dict(cat='kawaii', diff='medium', desc='child building a blanket pillow fort in the bedroom with fairy lights', landscape=True, style='chibi', titles=dict(
+        nl='Kind dat een Kussenfort Bouwt met Dekens in de Slaapkamer met Lichtjesslingers', en='Child Building a Blanket Pillow Fort in the Bedroom With Fairy Lights',
+        fr='Enfant Construisant une Cabane en Couvertures et Coussins dans la Chambre avec des Guirlandes Lumineuses', es='Niño Construyendo un Fuerte de Almohadas y Mantas en el Dormitorio con Luces de Hadas', zh='在卧室里用毯子枕头搭建堡垒并挂着彩灯的孩子')),
+    dict(cat='kawaii', diff='medium', desc='birthday party in the living room with balloons presents and a cake', landscape=True, style='chibi', titles=dict(
+        nl='Verjaardagsfeestje in de Woonkamer met Ballonnen, Cadeautjes en een Taart', en='Birthday Party in the Living Room With Balloons, Presents and a Cake',
+        fr="Fête d'Anniversaire au Salon avec des Ballons, des Cadeaux et un Gâteau", es='Fiesta de Cumpleaños en la Sala con Globos, Regalos y un Pastel', zh='在客厅举办的生日派对，有气球、礼物和蛋糕')),
 ]
 
 
@@ -635,8 +669,11 @@ STYLE_HINTS = {
         'think classic printed coloring book art.'
     ),
     'chibi': (
-        'Chibi style: super-deformed cute proportions, oversized head, small simplified body, '
-        'big sparkling eyes, minimal simple details. Traditional hand-drawn coloring book line art, '
+        'Chibi/cute family illustration style: a full, busy, richly detailed scene with multiple '
+        'characters and lots of surrounding environmental objects and furniture, not an isolated '
+        'character floating on empty white space. Soft rounded simplified character proportions '
+        '(normal body proportions, not necessarily oversized heads), big expressive eyes, simple '
+        'clean linework, warm cozy everyday-life mood. Traditional hand-drawn coloring book line art, '
         'not a glossy 3D render or generic AI look.'
     ),
     'cozy': (
@@ -667,9 +704,10 @@ def _build_prompt(description, category, difficulty, style='standard'):
         'Style: clean bold outlines only, pure white background, absolutely no shading, '
         'no color fills, no gradients, simple line art ready to color with crayons. '
         'High contrast black lines on white paper. Printable coloring book style. '
-        'The illustration must fill the entire page edge to edge, full-bleed, with no decorative '
-        'border, frame, vignette, oval, circle or any ornamental shape enclosing the scene, and no '
-        f'empty white margin around the artwork. {text_rule}{diversity} {style_hint}'
+        'The illustration must fill the entire page edge to edge, full-bleed, with no empty white '
+        'margin around the artwork. A simple thin single-line border directly at the page edge is '
+        'fine, but never a thick black frame, bold rectangular border, or an ornate decorative '
+        f'frame/vignette with patterns that eats into the page. {text_rule}{diversity} {style_hint}'
     )
 
 

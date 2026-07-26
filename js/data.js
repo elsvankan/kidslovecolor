@@ -3051,6 +3051,16 @@ const COLORINGS = [
     zh: { title: '戴着皇冠拿着魔杖的Q版公主', description: '免费公主戴着皇冠拿着魔杖的q版公主涂色页，适合儿童的魔法涂色。', keywords: '戴着皇冠拿着魔杖的q版公主 公主涂色 免费儿童', altText: '免费涂色页 戴着皇冠拿着魔杖的Q版公主 – 儿童' },
   },
 
+  {
+    id: 298, slug: 'family-movie-night-on-the-couch-in-the-living-room-with-blankets-snacks-and-a-cat', category: 'kawaii', difficulty: 'medium',
+    img: '../img/kleurplaten/kawaii--medium--family-movie-night-on-the-couch-in-the-living-room-with-blankets-snacks-and-a-cat.jpg',
+    nl: { title: 'Familie Movie Night Op Couch In Living Room Met Blankets Snacks En Kat', description: 'Gratis kawaii kleurplaat van familie movie night op couch in living room met blankets snacks en kat. Superschattig kleurplaatje voor kinderen.', keywords: 'familie movie night op couch in living room met blankets snacks en kat kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat familie movie night op couch in living room met blankets snacks en kat – kinderen' },
+    en: { title: 'Family Movie Night On The Couch In The Living Room With Blankets Snacks And A Cat', description: 'Free kawaii coloring page of family movie night on the couch in the living room with blankets snacks and a cat. Super cute coloring page for kids.', keywords: 'family movie night on the couch in the living room with blankets snacks and a cat kawaii coloring page free kids', altText: 'Free coloring page family movie night on the couch in the living room with blankets snacks and a cat – kids' },
+    fr: { title: 'Famille Movie Night Sur Couch Dans Living Room Avec Blankets Snacks Et Chat', description: 'Page à colorier kawaii gratuite de famille movie night sur couch dans living room avec blankets snacks et chat. Coloriage super mignon pour les enfants.', keywords: 'famille movie night sur couch dans living room avec blankets snacks et chat coloriage kawaii gratuit enfants', altText: 'Page à colorier famille movie night sur couch dans living room avec blankets snacks et chat – enfants' },
+    es: { title: 'Familia Movie Night Sobre Couch En Living Room Con Blankets Snacks Y Gato', description: 'Página para colorear kawaii gratis de familia movie night sobre couch en living room con blankets snacks y gato. Colorear súper lindo para niños.', keywords: 'familia movie night sobre couch en living room con blankets snacks y gato colorear kawaii gratis niños', altText: 'Página para colorear familia movie night sobre couch en living room con blankets snacks y gato – niños' },
+    zh: { title: '家庭 Movie Night 在 Couch 在 Living Room 带 Blankets Snacks 和 猫', description: '免费卡哇伊家庭 movie night 在 couch 在 living room 带 blankets snacks 和 猫涂色页，超可爱儿童涂色。', keywords: '家庭 movie night 在 couch 在 living room 带 blankets snacks 和 猫 卡哇伊涂色 免费儿童', altText: '免费涂色页 家庭 Movie Night 在 Couch 在 Living Room 带 Blankets Snacks 和 猫 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
