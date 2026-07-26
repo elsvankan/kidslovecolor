@@ -2541,6 +2541,52 @@ const COLORINGS = [
     zh: { title: '铁皮人、稻草人和狮子一起走', description: '免费童话铁皮人、稻草人和狮子一起走涂色页，适合儿童的魔法涂色。', keywords: '铁皮人、稻草人和狮子一起走 童话涂色 免费儿童', altText: '免费涂色页 铁皮人、稻草人和狮子一起走 – 儿童' },
   },
 
+  {
+    id: 243, slug: 'santa-claus-delivering-presents-by-sleigh', category: 'feestdagen', difficulty: 'easy',
+    img: '../img/kleurplaten/feestdagen--easy--santa-claus-delivering-presents-by-sleigh.jpg',
+    nl: { title: 'Kerstman die Cadeautjes Bezorgt met de Slee', description: 'Gratis feestdagenkleurplaat: kerstman die cadeautjes bezorgt met de slee. Feestelijk kleurplaatje voor kinderen.', keywords: 'kerstman die cadeautjes bezorgt met de slee feestdagen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kerstman die cadeautjes bezorgt met de slee – kinderen' },
+    en: { title: 'Santa Claus Delivering Presents by Sleigh', description: 'Free holiday coloring page: santa claus delivering presents by sleigh. Festive coloring page for kids.', keywords: 'santa claus delivering presents by sleigh holiday coloring page free kids', altText: 'Free coloring page santa claus delivering presents by sleigh – kids' },
+    fr: { title: 'Père Noël Livrant des Cadeaux en Traîneau', description: 'Page à colorier fête gratuite: père noël livrant des cadeaux en traîneau. Coloriage festif pour les enfants.', keywords: 'père noël livrant des cadeaux en traîneau coloriage fête gratuit enfants', altText: 'Page à colorier père noël livrant des cadeaux en traîneau – enfants' },
+    es: { title: 'Papá Noel Entregando Regalos en Trineo', description: 'Página para colorear fiesta gratis: papá noel entregando regalos en trineo. Colorear festivo para niños.', keywords: 'papá noel entregando regalos en trineo colorear fiestas gratis niños', altText: 'Página para colorear papá noel entregando regalos en trineo – niños' },
+    zh: { title: '乘雪橇送礼物的圣诞老人', description: '免费节日乘雪橇送礼物的圣诞老人涂色页，适合儿童的节日涂色。', keywords: '乘雪橇送礼物的圣诞老人 节日涂色 免费儿童', altText: '免费涂色页 乘雪橇送礼物的圣诞老人 – 儿童' },
+  },
+  {
+    id: 244, slug: 'halloween-scene-with-pumpkins-and-a-bat', category: 'feestdagen', difficulty: 'medium',
+    img: '../img/kleurplaten/feestdagen--medium--halloween-scene-with-pumpkins-and-a-bat.jpg',
+    nl: { title: 'Halloweenscène met Pompoenen en een Vleermuis', description: 'Gratis feestdagenkleurplaat: halloweenscène met pompoenen en een vleermuis. Feestelijk kleurplaatje voor kinderen.', keywords: 'halloweenscène met pompoenen en een vleermuis feestdagen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat halloweenscène met pompoenen en een vleermuis – kinderen' },
+    en: { title: 'Halloween Scene With Pumpkins and a Bat', description: 'Free holiday coloring page: halloween scene with pumpkins and a bat. Festive coloring page for kids.', keywords: 'halloween scene with pumpkins and a bat holiday coloring page free kids', altText: 'Free coloring page halloween scene with pumpkins and a bat – kids' },
+    fr: { title: 'Scène d\'Halloween Avec des Citrouilles et une Chauve-souris', description: 'Page à colorier fête gratuite: scène d\'halloween avec des citrouilles et une chauve-souris. Coloriage festif pour les enfants.', keywords: 'scène d\'halloween avec des citrouilles et une chauve-souris coloriage fête gratuit enfants', altText: 'Page à colorier scène d\'halloween avec des citrouilles et une chauve-souris – enfants' },
+    es: { title: 'Escena de Halloween con Calabazas y un Murciélago', description: 'Página para colorear fiesta gratis: escena de halloween con calabazas y un murciélago. Colorear festivo para niños.', keywords: 'escena de halloween con calabazas y un murciélago colorear fiestas gratis niños', altText: 'Página para colorear escena de halloween con calabazas y un murciélago – niños' },
+    zh: { title: '南瓜和蝙蝠的万圣节场景', description: '免费节日南瓜和蝙蝠的万圣节场景涂色页，适合儿童的节日涂色。', keywords: '南瓜和蝙蝠的万圣节场景 节日涂色 免费儿童', altText: '免费涂色页 南瓜和蝙蝠的万圣节场景 – 儿童' },
+  },
+  {
+    id: 245, slug: 'kids-playing-at-the-beach-in-summer', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/seizoenen--easy--kids-playing-at-the-beach-in-summer.jpg',
+    nl: { title: 'Kinderen die Spelen op het Strand in de Zomer', description: 'Gratis seizoenskleurplaat van kinderen die spelen op het strand in de zomer. Kleurrijke kleurplaat voor kinderen.', keywords: 'kinderen die spelen op het strand in de zomer seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kinderen die spelen op het strand in de zomer – kinderen' },
+    en: { title: 'Kids Playing at the Beach in Summer', description: 'Free seasonal coloring page of kids playing at the beach in summer. Colorful coloring page for kids.', keywords: 'kids playing at the beach in summer seasonal coloring page free kids', altText: 'Free coloring page kids playing at the beach in summer – kids' },
+    fr: { title: 'Enfants Jouant à la Plage en Été', description: 'Page à colorier saisons gratuite de enfants jouant à la plage en été. Coloriage coloré pour les enfants.', keywords: 'enfants jouant à la plage en été coloriage saisons gratuit enfants', altText: 'Page à colorier enfants jouant à la plage en été – enfants' },
+    es: { title: 'Niños Jugando en la Playa en Verano', description: 'Página para colorear estaciones gratis de niños jugando en la playa en verano. Colorear colorido para niños.', keywords: 'niños jugando en la playa en verano colorear estaciones gratis niños', altText: 'Página para colorear niños jugando en la playa en verano – niños' },
+    zh: { title: '夏天在海滩上玩耍的孩子们', description: '免费季节夏天在海滩上玩耍的孩子们涂色页，适合儿童的彩色涂色。', keywords: '夏天在海滩上玩耍的孩子们 季节涂色 免费儿童', altText: '免费涂色页 夏天在海滩上玩耍的孩子们 – 儿童' },
+  },
+  {
+    id: 246, slug: 'four-seasons-tree-in-one-picture', category: 'seizoenen', difficulty: 'hard',
+    img: '../img/kleurplaten/seizoenen--hard--four-seasons-tree-in-one-picture.jpg',
+    nl: { title: 'Boom in Vier Seizoenen in Één Plaatje', description: 'Gratis seizoenskleurplaat van boom in vier seizoenen in één plaatje. Kleurrijke kleurplaat voor kinderen.', keywords: 'boom in vier seizoenen in één plaatje seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat boom in vier seizoenen in één plaatje – kinderen' },
+    en: { title: 'Four Seasons Tree in One Picture', description: 'Free seasonal coloring page of four seasons tree in one picture. Colorful coloring page for kids.', keywords: 'four seasons tree in one picture seasonal coloring page free kids', altText: 'Free coloring page four seasons tree in one picture – kids' },
+    fr: { title: 'Arbre des Quatre Saisons en Une Seule Image', description: 'Page à colorier saisons gratuite de arbre des quatre saisons en une seule image. Coloriage coloré pour les enfants.', keywords: 'arbre des quatre saisons en une seule image coloriage saisons gratuit enfants', altText: 'Page à colorier arbre des quatre saisons en une seule image – enfants' },
+    es: { title: 'Árbol de las Cuatro Estaciones en una Sola Imagen', description: 'Página para colorear estaciones gratis de árbol de las cuatro estaciones en una sola imagen. Colorear colorido para niños.', keywords: 'árbol de las cuatro estaciones en una sola imagen colorear estaciones gratis niños', altText: 'Página para colorear árbol de las cuatro estaciones en una sola imagen – niños' },
+    zh: { title: '一幅图中的四季之树', description: '免费季节一幅图中的四季之树涂色页，适合儿童的彩色涂色。', keywords: '一幅图中的四季之树 季节涂色 免费儿童', altText: '免费涂色页 一幅图中的四季之树 – 儿童' },
+  },
+  {
+    id: 247, slug: 'spring-garden-full-of-blooming-flowers', category: 'seizoenen', difficulty: 'medium',
+    img: '../img/kleurplaten/seizoenen--medium--spring-garden-full-of-blooming-flowers.jpg',
+    nl: { title: 'Lentetuin vol Bloeiende Bloemen', description: 'Gratis seizoenskleurplaat van lentetuin vol bloeiende bloemen. Kleurrijke kleurplaat voor kinderen.', keywords: 'lentetuin vol bloeiende bloemen seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat lentetuin vol bloeiende bloemen – kinderen' },
+    en: { title: 'Spring Garden Full of Blooming Flowers', description: 'Free seasonal coloring page of spring garden full of blooming flowers. Colorful coloring page for kids.', keywords: 'spring garden full of blooming flowers seasonal coloring page free kids', altText: 'Free coloring page spring garden full of blooming flowers – kids' },
+    fr: { title: 'Jardin de Printemps Rempli de Fleurs en Éclosion', description: 'Page à colorier saisons gratuite de jardin de printemps rempli de fleurs en éclosion. Coloriage coloré pour les enfants.', keywords: 'jardin de printemps rempli de fleurs en éclosion coloriage saisons gratuit enfants', altText: 'Page à colorier jardin de printemps rempli de fleurs en éclosion – enfants' },
+    es: { title: 'Jardín de Primavera Lleno de Flores en Flor', description: 'Página para colorear estaciones gratis de jardín de primavera lleno de flores en flor. Colorear colorido para niños.', keywords: 'jardín de primavera lleno de flores en flor colorear estaciones gratis niños', altText: 'Página para colorear jardín de primavera lleno de flores en flor – niños' },
+    zh: { title: '开满鲜花的春日花园', description: '免费季节开满鲜花的春日花园涂色页，适合儿童的彩色涂色。', keywords: '开满鲜花的春日花园 季节涂色 免费儿童', altText: '免费涂色页 开满鲜花的春日花园 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
