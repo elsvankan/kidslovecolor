@@ -538,6 +538,44 @@ TOPIC_POOL = [
     dict(cat='seizoenen', diff='easy', desc='child skiing down a mountain slope in the alps', landscape=True, titles=dict(
         nl='Kind dat een Berghelling Afskiet in de Alpen', en='Child Skiing Down a Mountain Slope in the Alps',
         fr='Enfant Skiant sur une Pente de Montagne dans les Alpes', es='Niño Esquiando por una Pendiente de Montaña en los Alpes', zh='在阿尔卑斯山滑雪下坡的孩子')),
+
+    # ── Actueel: NL-zomervakantie, AU-winter, back-to-school, onderbouw, CN/NL
+    dict(cat='seizoenen', diff='easy', desc='family camping trip with a tent and campfire in summer', landscape=True, titles=dict(
+        nl='Gezin op Kampeervakantie met een Tent en Kampvuur in de Zomer', en='Family Camping Trip With a Tent and Campfire in Summer',
+        fr='Famille en Voyage de Camping avec une Tente et un Feu de Camp en Été', es='Familia de Camping con una Tienda y una Fogata en Verano', zh='夏天带着帐篷和篝火去露营的一家人')),
+    dict(cat='seizoenen', diff='easy', desc='kids cooling off playing in a park water fountain on a hot summer day', landscape=False, titles=dict(
+        nl='Kinderen die Afkoelen bij een Waterfontein in het Park op een Warme Zomerdag', en='Kids Cooling Off Playing in a Park Water Fountain on a Hot Summer Day',
+        fr="Enfants se Rafraîchissant dans une Fontaine du Parc par une Chaude Journée d'Été", es='Niños Refrescándose en una Fuente del Parque en un Caluroso Día de Verano', zh='在炎热的夏日里在公园喷泉中玩耍降温的孩子们')),
+    dict(cat='voertuigen', diff='easy', desc='ice cream truck with children buying ice cream in summer', landscape=False, titles=dict(
+        nl='IJscowagen met Kinderen die IJsjes Kopen in de Zomer', en='Ice Cream Truck With Children Buying Ice Cream in Summer',
+        fr='Camion de Glaces avec des Enfants Achetant des Glaces en Été', es='Camión de Helados con Niños Comprando Helado en Verano', zh='夏天孩子们在冰淇淋车前买冰淇淋')),
+    dict(cat='seizoenen', diff='easy', desc='kids swimming and splashing in an outdoor pool', landscape=True, titles=dict(
+        nl='Kinderen die Zwemmen en Spetteren in een Buitenzwembad', en='Kids Swimming and Splashing in an Outdoor Pool',
+        fr='Enfants Nageant et Éclaboussant dans une Piscine Extérieure', es='Niños Nadando y Salpicando en una Piscina al Aire Libre', zh='在户外泳池里游泳戏水的孩子们')),
+    dict(cat='dieren', diff='easy', desc='koala wrapped in a warm scarf on a cool winter day', landscape=False, titles=dict(
+        nl='Koala Gewikkeld in een Warme Sjaal op een Koude Winterdag', en='Koala Wrapped in a Warm Scarf on a Cool Winter Day',
+        fr='Koala Enveloppé dans une Écharpe Chaude par une Fraîche Journée d\'Hiver', es='Koala Envuelto en una Bufanda Cálida en un Fresco Día de Invierno', zh='在寒冷冬日里裹着暖围巾的考拉')),
+    dict(cat='seizoenen', diff='medium', desc='cozy campfire evening with marshmallows under a starry winter sky', landscape=True, titles=dict(
+        nl='Gezellige Kampvuuravond met Marshmallows onder een Sterrenhemel in de Winter', en='Cozy Campfire Evening With Marshmallows Under a Starry Winter Sky',
+        fr='Soirée Feu de Camp Douillette avec des Chamallows sous un Ciel Étoilé d\'Hiver', es='Noche Acogedora de Fogata con Malvaviscos bajo un Cielo Estrellado de Invierno', zh='在冬夜繁星下围着篝火烤棉花糖的温馨夜晚')),
+    dict(cat='seizoenen', diff='easy', desc='child packing a school backpack with books and a pencil case for the first day of school', landscape=False, titles=dict(
+        nl='Kind dat een Schooltas Inpakt met Boeken en een Etui voor de Eerste Schooldag', en='Child Packing a School Backpack With Books and a Pencil Case for the First Day of School',
+        fr='Enfant Préparant son Cartable avec des Livres et une Trousse pour la Rentrée', es='Niño Preparando su Mochila Escolar con Libros y un Estuche para el Primer Día de Clases', zh='为开学第一天准备书包、书本和铅笔盒的孩子')),
+    dict(cat='voertuigen', diff='easy', desc='yellow school bus picking up children on the first day of school', landscape=True, titles=dict(
+        nl='Gele Schoolbus die Kinderen Ophaalt op de Eerste Schooldag', en='Yellow School Bus Picking Up Children on the First Day of School',
+        fr='Bus Scolaire Jaune Récupérant des Enfants pour la Rentrée', es='Autobús Escolar Amarillo Recogiendo Niños el Primer Día de Clases', zh='开学第一天接孩子们的黄色校车')),
+    dict(cat='dieren', diff='easy', desc='five little ducks lined up in a row', landscape=False, titles=dict(
+        nl='Vijf Kleine Eendjes Netjes op een Rijtje', en='Five Little Ducks Lined Up in a Row',
+        fr='Cinq Petits Canards Alignés en Rang', es='Cinco Patitos Pequeños en Fila', zh='排成一排的五只小鸭子')),
+    dict(cat='sprookjes', diff='medium', desc='magpies forming a bridge across a starry night sky for two lovers', landscape=True, titles=dict(
+        nl='Eksters die een Brug Vormen over een Sterrenhemel voor Twee Geliefden', en='Magpies Forming a Bridge Across a Starry Night Sky for Two Lovers',
+        fr='Pies Formant un Pont dans un Ciel Étoilé pour Deux Amoureux', es='Urracas Formando un Puente en un Cielo Estrellado para Dos Enamorados', zh='喜鹊在星空中搭起鹊桥')),
+    dict(cat='eten', diff='easy', desc='chinese child eating a popsicle on a hot summer day', landscape=False, titles=dict(
+        nl='Chinees Kind dat een Ijslolly Eet op een Warme Zomerdag', en='Chinese Child Eating a Popsicle on a Hot Summer Day',
+        fr="Enfant Chinois Mangeant une Glace à l'Eau par une Chaude Journée d'Été", es='Niño Chino Comiendo una Paleta Helada en un Caluroso Día de Verano', zh='炎热夏日里吃冰棍的中国孩子')),
+    dict(cat='seizoenen', diff='medium', desc='dutch kids cycling past a canal with flower baskets on their bikes in summer', landscape=True, titles=dict(
+        nl='Nederlandse Kinderen die langs een Gracht Fietsen met Bloemenmandjes op de Fiets in de Zomer', en='Dutch Kids Cycling Past a Canal With Flower Baskets on Their Bikes in Summer',
+        fr="Enfants Néerlandais Faisant du Vélo le Long d'un Canal avec des Paniers de Fleurs en Été", es='Niños Holandeses en Bicicleta junto a un Canal con Cestas de Flores en Verano', zh='夏天骑着装有花篮的自行车沿运河骑行的荷兰孩子们')),
 ]
 
 
