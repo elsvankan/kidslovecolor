@@ -20,7 +20,7 @@ erop, registreert de kleurplaat in alle 5 talen, werkt de sitemap bij en
 pusht automatisch naar git (tenzij --no-push).
 """
 
-import sys, os, time, re, json, subprocess, io
+import sys, os, time, re, json, hashlib, subprocess, io
 from pathlib import Path
 import requests
 from PIL import Image
@@ -58,6 +58,32 @@ CAT_HINTS = {
     'gezichten':  'cute character face, expressive portrait, simple face features',
     'beroepen':   'person doing a job or profession, friendly character, work scene',
 }
+
+# Categorieën waar een mens de hoofdfiguur is — hier passen we automatische
+# diversiteit toe zodat het geheel wereldwijd herkenbaar is (Oost-Azië,
+# Afrika, Zuid-Azië, Latijns-Amerika, Midden-Oosten, Zuidoost-Azië, Europa,
+# gemengd) i.p.v. steeds impliciet hetzelfde standaard AI-gezicht.
+HUMAN_CATEGORIES = {'prinsessen', 'gezichten', 'beroepen'}
+DIVERSE_APPEARANCES = [
+    'East Asian', 'Black African', 'South Asian (Indian)', 'Latin American',
+    'Middle Eastern', 'Southeast Asian', 'White European', 'mixed-race',
+]
+# Trefwoorden die aangeven dat de beschrijving al zelf een etniciteit/regio
+# noemt — dan niet nogmaals automatisch overschrijven.
+_ETHNICITY_KEYWORDS = (
+    'asian', 'african', 'black', 'indian', 'latina', 'latino', 'nordic',
+    'middle eastern', 'hispanic', 'chinese', 'european', 'aboriginal',
+)
+
+
+def _diversity_hint(description, category):
+    if category not in HUMAN_CATEGORIES:
+        return ''
+    if any(k in description.lower() for k in _ETHNICITY_KEYWORDS):
+        return ''
+    idx = int(hashlib.md5(description.encode()).hexdigest(), 16) % len(DIVERSE_APPEARANCES)
+    return f' The main character has {DIVERSE_APPEARANCES[idx]} features.'
+
 
 DIFF_HINTS = {
     'easy':   'very simple large shapes, minimal detail, big areas to fill, for ages 3-6',
@@ -466,6 +492,38 @@ TOPIC_POOL = [
     dict(cat='beroepen', diff='easy', desc='veterinarian gently examining a puppy', landscape=False, titles=dict(
         nl='Dierenarts die Voorzichtig een Puppy Onderzoekt', en='Veterinarian Gently Examining a Puppy',
         fr='Vétérinaire Examinant Doucement un Chiot', es='Veterinario Examinando Suavemente a un Cachorro', zh='温柔地检查小狗的兽医')),
+
+    # ── Wereldwijde diversiteit & Chinese feestdagen
+    dict(cat='feestdagen', diff='medium', desc='chinese children performing a dragon dance for lunar new year', landscape=True, titles=dict(
+        nl='Chinese Kinderen die een Drakendans Opvoeren voor Chinees Nieuwjaar', en='Chinese Children Performing a Dragon Dance for Lunar New Year',
+        fr="Enfants Chinois Exécutant une Danse du Dragon pour le Nouvel An Chinois", es='Niños Chinos Realizando una Danza del Dragón para el Año Nuevo Chino', zh='中国孩子们表演春节舞龙')),
+    dict(cat='feestdagen', diff='easy', desc='chinese family celebrating mid autumn festival with lanterns and mooncakes', landscape=False, titles=dict(
+        nl='Chinees Gezin dat het Maanfeest Viert met Lampionnen en Maancakes', en='Chinese Family Celebrating Mid-Autumn Festival With Lanterns and Mooncakes',
+        fr='Famille Chinoise Célébrant la Fête de la Mi-Automne avec des Lanternes et des Gâteaux de Lune', es='Familia China Celebrando el Festival del Medio Otoño con Faroles y Pasteles de Luna', zh='中国家庭提着灯笼吃月饼庆祝中秋节')),
+    dict(cat='prinsessen', diff='easy', desc='black african princess wearing a colorful traditional dress and beaded jewelry', landscape=False, titles=dict(
+        nl='Afrikaanse Prinses in Kleurrijke Traditionele Jurk met Kralensieraden', en='Black African Princess Wearing a Colorful Traditional Dress and Beaded Jewelry',
+        fr='Princesse Africaine en Robe Traditionnelle Colorée avec des Bijoux à Perles', es='Princesa Africana con Vestido Tradicional Colorido y Joyas de Cuentas', zh='穿着色彩鲜艳传统服饰和珠饰的非洲公主')),
+    dict(cat='prinsessen', diff='easy', desc='asian princess in an elegant silk dress with a hand fan', landscape=False, titles=dict(
+        nl='Aziatische Prinses in Elegante Zijden Jurk met een Waaier', en='Asian Princess in an Elegant Silk Dress With a Hand Fan',
+        fr='Princesse Asiatique en Élégante Robe de Soie avec un Éventail', es='Princesa Asiática con Elegante Vestido de Seda y un Abanico', zh='穿着优雅丝绸裙拿着扇子的亚洲公主')),
+    dict(cat='beroepen', diff='easy', desc="black doctor listening to a childs heartbeat with a stethoscope", landscape=False, titles=dict(
+        nl='Zwarte Dokter die met een Stethoscoop naar het Hartje van een Kind Luistert', en="Black Doctor Listening to a Child's Heartbeat With a Stethoscope",
+        fr="Médecin Noir Écoutant le Cœur d'un Enfant avec un Stéthoscope", es='Doctor Negro Escuchando el Corazón de un Niño con un Estetoscopio', zh='用听诊器听孩子心跳的黑人医生')),
+    dict(cat='beroepen', diff='easy', desc='latina teacher reading a book to a group of children', landscape=True, titles=dict(
+        nl='Latijns-Amerikaanse Juf die een Boek Voorleest aan een Groep Kinderen', en='Latina Teacher Reading a Book to a Group of Children',
+        fr="Enseignante Latino-Américaine Lisant un Livre à un Groupe d'Enfants", es='Maestra Latina Leyendo un Libro a un Grupo de Niños', zh='给一群孩子读书的拉丁裔老师')),
+    dict(cat='gezichten', diff='easy', desc='happy asian boy face with a big smile', landscape=False, titles=dict(
+        nl='Vrolijk Aziatisch Jongensgezicht met een Grote Glimlach', en='Happy Asian Boy Face With a Big Smile',
+        fr='Visage de Garçon Asiatique Joyeux avec un Grand Sourire', es='Cara de Niño Asiático Feliz con una Gran Sonrisa', zh='露出灿烂笑容的亚洲男孩笑脸')),
+    dict(cat='gezichten', diff='easy', desc='happy indian girl face with braided hair and a flower', landscape=False, titles=dict(
+        nl='Vrolijk Indiaas Meisjesgezicht met Gevlochten Haar en een Bloem', en='Happy Indian Girl Face With Braided Hair and a Flower',
+        fr='Visage de Fille Indienne Joyeuse avec des Cheveux Tressés et une Fleur', es='Cara de Niña India Feliz con Cabello Trenzado y una Flor', zh='扎着辫子戴着花的印度女孩笑脸')),
+    dict(cat='natuur', diff='medium', desc='australian outback scene with kangaroos koalas and gum trees', landscape=True, titles=dict(
+        nl="Australisch Outback Landschap met Kangoeroes, Koala's en Eucalyptusbomen", en='Australian Outback Scene With Kangaroos, Koalas and Gum Trees',
+        fr="Scène de l'Outback Australien avec des Kangourous, des Koalas et des Eucalyptus", es='Escena del Outback Australiano con Canguros, Koalas y Eucaliptos', zh='有袋鼠、考拉和桉树的澳大利亚内陆场景')),
+    dict(cat='natuur', diff='medium', desc='nordic winter scene with a child watching the northern lights', landscape=True, titles=dict(
+        nl='Noords Winterlandschap met een Kind dat naar het Noorderlicht Kijkt', en='Nordic Winter Scene With a Child Watching the Northern Lights',
+        fr="Scène d'Hiver Nordique avec un Enfant Regardant les Aurores Boréales", es='Escena de Invierno Nórdico con un Niño Mirando la Aurora Boreal', zh='孩子观赏北极光的北欧冬季场景')),
 ]
 
 
@@ -492,13 +550,14 @@ def _build_prompt(description, category, difficulty):
         if category == 'letters' else
         'Do not include any text, letters, words, signs, labels or writing anywhere in the image.'
     )
+    diversity = _diversity_hint(description, category)
     return (
         f'black and white coloring page for children: {description}. '
         f'{CAT_HINTS.get(category, "")}. {framing} '
         f'{DIFF_HINTS.get(difficulty, DIFF_HINTS["easy"])}. '
         'Style: clean bold outlines only, pure white background, absolutely no shading, '
         'no color fills, no gradients, simple line art ready to color with crayons. '
-        f'High contrast black lines on white paper. Printable coloring book style. {text_rule}'
+        f'High contrast black lines on white paper. Printable coloring book style. {text_rule}{diversity}'
     )
 
 
