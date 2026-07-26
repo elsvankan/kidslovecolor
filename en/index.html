@@ -218,24 +218,44 @@
      HERO
      ============================================= -->
 <section class="hero-section" aria-labelledby="heroHeading">
-  <div class="container">
-    <h1 id="heroHeading">
-      Free Coloring Pages for Kids
-    </h1>
-    <p>
-      Download or print printable coloring pages in one click.
-      Animals, vehicles, princesses, seasons and much more —
-      always <strong>100% free</strong>, no registration needed.
-    </p>
-    <div class="hero-stats" role="list" aria-label="Site statistics">
-      <div class="stat-item" role="listitem">
-        <span class="stat-number" id="totalCount">16+</span>
-        <span class="stat-label">Free Coloring Pages</span>
+  <div class="container hero-home">
+    <div class="hero-copy">
+      <p class="hero-eyebrow">New coloring pages, every week</p>
+      <h1 id="heroHeading">Little makers,<br/>big imagination.</h1>
+      <p>
+        Discover a world full of free coloring pages. Choose what fits you,
+        print instantly and give every page your own colors.
+      </p>
+      <div class="hero-actions">
+        <a class="hero-button" href="#main">Browse coloring pages <span>→</span></a>
+        <a class="hero-text-link" href="#steun-ons">Help us stay ad-free</a>
       </div>
-      <div class="stat-item" role="listitem">
-        <span class="stat-number">100%</span>
-        <span class="stat-label">Free &amp; Printable</span>
+      <div class="hero-stats" role="list" aria-label="Site statistics">
+        <div class="stat-item" role="listitem">
+          <span class="stat-number" id="totalCount">100+</span>
+          <span class="stat-label">Free Coloring Pages</span>
+        </div>
+        <div class="stat-item" role="listitem">
+          <span class="stat-number">0</span>
+          <span class="stat-label">Annoying ads</span>
+        </div>
+        <div class="stat-item" role="listitem">
+          <span class="stat-number">100%</span>
+          <span class="stat-label">Instantly printable</span>
+        </div>
       </div>
+    </div>
+    <div class="hero-art" aria-label="Examples of our coloring pages">
+      <figure class="hero-paper hero-paper-left">
+        <img src="/img/kleurplaten/cat-rainbow.jpg" alt="Coloring page of a cat with a rainbow"/>
+      </figure>
+      <figure class="hero-paper hero-paper-center">
+        <span>This week</span>
+        <img src="/img/kleurplaten/baby-stegosaurus.jpg" alt="Coloring page of a baby stegosaurus"/>
+      </figure>
+      <figure class="hero-paper hero-paper-right">
+        <img src="/img/kleurplaten/princess-castle-treasure-chest-coloring-page.jpg" alt="Coloring page of a princess castle"/>
+      </figure>
     </div>
   </div>
 </section>
@@ -416,6 +436,57 @@
   </aside>
 </main>
 
+<section class="how-section" aria-labelledby="howHeading">
+  <div class="how-title">
+    <p>How it works</p>
+    <h2 id="howHeading">From screen to artwork in 1–2–3.</h2>
+  </div>
+  <ol class="how-steps">
+    <li><span>1</span><div><h3>Pick your page</h3><p>Search and find something that makes you smile right away.</p></div></li>
+    <li><span>2</span><div><h3>Print for free</h3><p>Download in A4/Letter size or send the coloring page straight to your printer.</p></div></li>
+    <li><span>3</span><div><h3>Make it yours</h3><p>Pencils, paint or markers — coloring outside the lines is allowed.</p></div></li>
+  </ol>
+</section>
+
+<section class="support-section" id="steun-ons" aria-labelledby="supportHeading">
+  <div class="support-story">
+    <p class="support-kicker">A small gesture, a big stack of coloring pages</p>
+    <h2 id="supportHeading">Help this coloring world grow and stay ad-free?</h2>
+    <p class="support-intro">
+      Kids Love Color is a mother-and-daughter project with one big wish:
+      free coloring pages for every child — without annoying ads, pop-ups
+      or distractions.
+    </p>
+    <div class="support-promise">
+      <span aria-hidden="true">☺</span>
+      <p>Your contribution helps us create new drawings and keep this happy place online.</p>
+    </div>
+  </div>
+  <div class="support-menu" aria-label="Choose a contribution">
+    <button class="support-card support-card-coffee" type="button" data-support="coffee" aria-pressed="false">
+      <span class="support-card-top"><small>For mom</small><strong>€3</strong></span>
+      <span class="support-emoji" aria-hidden="true">☕</span>
+      <span class="support-card-title">Donate a cup of coffee</span>
+      <span class="support-card-action">Choose coffee <span>↗</span></span>
+    </button>
+    <button class="support-card support-card-bubble" type="button" data-support="bubble" aria-pressed="false">
+      <span class="support-card-top"><small>For daughter</small><strong>€5</strong></span>
+      <span class="support-emoji" aria-hidden="true">🧋</span>
+      <span class="support-card-title">Donate a bubble tea</span>
+      <span class="support-card-action">Choose bubble tea <span>↗</span></span>
+    </button>
+    <div class="support-thanks" id="supportNote" aria-live="polite">
+      Pick your treat — every contribution adds color.
+    </div>
+  </div>
+</section>
+
+<section class="final-color-cta" aria-labelledby="colorCtaHeading">
+  <p>Time for a new artwork</p>
+  <h2 id="colorCtaHeading">What will you color today?</h2>
+  <a href="#main">Find a coloring page <span>↗</span></a>
+</section>
+
 <!-- =============================================
      FOOTER
      ============================================= -->
@@ -550,6 +621,55 @@
   document.addEventListener('DOMContentLoaded', function() {
     var el = document.getElementById('totalCount');
     if (el && window.COLORINGS) el.textContent = window.COLORINGS.length + '+';
+
+    var supportButtons = document.querySelectorAll('[data-support]');
+    var supportNote = document.getElementById('supportNote');
+    var donationState = new URLSearchParams(window.location.search).get('donation');
+
+    if (supportNote && donationState === 'thanks') {
+      supportNote.classList.add('is-visible');
+      supportNote.textContent = '♥ Welcome back — thank you for your support! Mollie is processing your payment.';
+    } else if (supportNote && donationState === 'cancelled') {
+      supportNote.classList.add('is-visible');
+      supportNote.textContent = 'The payment was cancelled. No worries — you can always try again later.';
+    }
+
+    supportButtons.forEach(function(button) {
+      button.addEventListener('click', async function() {
+        supportButtons.forEach(function(item) {
+          item.disabled = true;
+          item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
+        });
+
+        if (supportNote) {
+          supportNote.classList.add('is-visible');
+          supportNote.textContent = 'Opening secure Mollie checkout…';
+        }
+
+        try {
+          var response = await fetch('/api/create-payment', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ support: button.dataset.support })
+          });
+          var result = await response.json();
+
+          if (!response.ok || !result.checkoutUrl) {
+            throw new Error(result.error || 'Could not start the payment.');
+          }
+
+          window.location.assign(result.checkoutUrl);
+        } catch (error) {
+          supportButtons.forEach(function(item) {
+            item.disabled = false;
+            item.setAttribute('aria-pressed', 'false');
+          });
+          if (supportNote) {
+            supportNote.textContent = error.message || 'Payment isn\'t working right now. Please try again later.';
+          }
+        }
+      });
+    });
   });
 })();
 </script>

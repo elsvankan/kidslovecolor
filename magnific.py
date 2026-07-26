@@ -4,12 +4,16 @@ magnific.py — KidsLoveColor.com
 Genereert kleurplaten via Magnific AI en voegt ze toe aan de site.
 
 Gebruik:
-  python3 magnific.py <categorie> <moeilijkheid> "<beschrijving>" [--landscape]
+  python3 magnific.py <categorie> <moeilijkheid> "<beschrijving>" [--landscape] [--style=chibi|cozy]
   python3 magnific.py kawaii easy "cute cat with flowers"
   python3 magnific.py dieren medium "elephant family in savanna" --landscape
+  python3 magnific.py kawaii easy "cute cat with flowers" --style=chibi
 
   python3 magnific.py --batch [n]      # genereer n kleurplaten (default 5) uit de rotatiepool
   python3 magnific.py --batch --no-push
+
+Stijlen: standard (default), chibi, cozy — zie STYLE_HINTS. Een topic in
+TOPIC_POOL kan zelf 'style': 'chibi' zetten om dat altijd te gebruiken.
 
 Categorieën: dieren, voertuigen, prinsessen, seizoenen, feestdagen,
              eten, kawaii, natuur, sprookjes, ruimte, oceaan, letters, mandala, gezichten
@@ -591,7 +595,27 @@ def _load_key():
     sys.exit(1)
 
 
-def _build_prompt(description, category, difficulty):
+# Kiesbare kunststijlen bovenop de standaard lijntekenstijl.
+STYLE_HINTS = {
+    'standard': (
+        'Traditional hand-drawn children\'s picture-book illustration style. '
+        'Not a glossy 3D render, not airbrushed digital art, not a generic AI-image look — '
+        'think classic printed coloring book art.'
+    ),
+    'chibi': (
+        'Chibi style: super-deformed cute proportions, oversized head, small simplified body, '
+        'big sparkling eyes, minimal simple details. Traditional hand-drawn coloring book line art, '
+        'not a glossy 3D render or generic AI look.'
+    ),
+    'cozy': (
+        'Cozy cottagecore illustration style: soft rounded shapes, warm inviting cluttered-but-tidy '
+        'scene, comforting homely details (blankets, mugs, plants, soft light). Traditional hand-drawn '
+        'coloring book line art, not a glossy 3D render or generic AI look.'
+    ),
+}
+
+
+def _build_prompt(description, category, difficulty, style='standard'):
     framing = (
         'Show the full character or the full scene composition, not just an isolated head or face close-up.'
         if category not in HEAD_OK_CATS else
@@ -603,13 +627,17 @@ def _build_prompt(description, category, difficulty):
         'Do not include any text, letters, words, signs, labels or writing anywhere in the image.'
     )
     diversity = _diversity_hint(description, category)
+    style_hint = STYLE_HINTS.get(style, STYLE_HINTS['standard'])
     return (
         f'black and white coloring page for children: {description}. '
         f'{CAT_HINTS.get(category, "")}. {framing} '
         f'{DIFF_HINTS.get(difficulty, DIFF_HINTS["easy"])}. '
         'Style: clean bold outlines only, pure white background, absolutely no shading, '
         'no color fills, no gradients, simple line art ready to color with crayons. '
-        f'High contrast black lines on white paper. Printable coloring book style. {text_rule}{diversity}'
+        'High contrast black lines on white paper. Printable coloring book style. '
+        'The illustration must fill the entire page edge to edge, full-bleed, with no decorative '
+        'border, frame, vignette, oval, circle or any ornamental shape enclosing the scene, and no '
+        f'empty white margin around the artwork. {text_rule}{diversity} {style_hint}'
     )
 
 
@@ -704,7 +732,7 @@ def _save_title_override(filename, titles):
     TITLES_FILE.write_text(json.dumps(data, indent=2, ensure_ascii=False))
 
 
-def generate_one(category, difficulty, description, key, landscape=False, titles=None):
+def generate_one(category, difficulty, description, key, landscape=False, titles=None, style='standard'):
     filename = _filename_for(category, difficulty, description)
     out_path = IMG_DIR / filename
 
@@ -712,7 +740,7 @@ def generate_one(category, difficulty, description, key, landscape=False, titles
         print(f'  Bestaat al, overgeslagen: {filename}')
         return False
 
-    prompt = _build_prompt(description, category, difficulty)
+    prompt = _build_prompt(description, category, difficulty, style)
     orientation = 'liggend' if landscape else 'portret'
 
     print(f'\n--- {filename} ({orientation}) ---')
@@ -788,6 +816,13 @@ def main():
 
     key = _load_key()
     do_push = '--no-push' not in flags
+    style = 'standard'
+    for f in flags:
+        if f.startswith('--style='):
+            style = f.split('=', 1)[1]
+    if style not in STYLE_HINTS:
+        print(f'Ongeldige stijl: {style}. Kies uit: {", ".join(STYLE_HINTS)}')
+        sys.exit(1)
 
     if '--batch' in flags:
         n = 5
@@ -805,7 +840,8 @@ def main():
         for topic in topics:
             try:
                 if generate_one(topic['cat'], topic['diff'], topic['desc'], key,
-                                 landscape=topic['landscape'], titles=topic['titles']):
+                                 landscape=topic['landscape'], titles=topic['titles'],
+                                 style=topic.get('style', 'standard')):
                     added += 1
             except Exception as e:
                 print(f'  FOUT: {e}')
@@ -832,7 +868,7 @@ def main():
         print('Moeilijkheid moet easy, medium of hard zijn.')
         sys.exit(1)
 
-    if generate_one(category, difficulty, description, key, landscape):
+    if generate_one(category, difficulty, description, key, landscape, style=style):
         run_add_colorings()
         if do_push:
             git_push(f'Nieuwe kleurplaat: {description}')

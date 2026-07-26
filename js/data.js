@@ -2959,6 +2959,7 @@ const COLORINGS = [
     zh: { title: '开学第一天接孩子们的黄色校车', description: '免费开学第一天接孩子们的黄色校车涂色页，适合儿童的交通工具涂色。', keywords: '开学第一天接孩子们的黄色校车 交通工具涂色 免费儿童', altText: '免费涂色页 开学第一天接孩子们的黄色校车 – 儿童' },
   },
 
+
 ];
 
 // Expose on window so inline scripts can access the count
