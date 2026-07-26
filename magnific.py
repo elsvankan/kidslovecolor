@@ -507,17 +507,17 @@ TOPIC_POOL = [
         nl='Aziatische Prinses in Elegante Zijden Jurk met een Waaier', en='Asian Princess in an Elegant Silk Dress With a Hand Fan',
         fr='Princesse Asiatique en Élégante Robe de Soie avec un Éventail', es='Princesa Asiática con Elegante Vestido de Seda y un Abanico', zh='穿着优雅丝绸裙拿着扇子的亚洲公主')),
     dict(cat='beroepen', diff='easy', desc="black doctor listening to a childs heartbeat with a stethoscope", landscape=False, titles=dict(
-        nl='Zwarte Dokter die met een Stethoscoop naar het Hartje van een Kind Luistert', en="Black Doctor Listening to a Child's Heartbeat With a Stethoscope",
-        fr="Médecin Noir Écoutant le Cœur d'un Enfant avec un Stéthoscope", es='Doctor Negro Escuchando el Corazón de un Niño con un Estetoscopio', zh='用听诊器听孩子心跳的黑人医生')),
+        nl='Dokter die met een Stethoscoop naar het Hartje van een Kind Luistert', en="Doctor Listening to a Child's Heartbeat With a Stethoscope",
+        fr="Médecin Écoutant le Cœur d'un Enfant avec un Stéthoscope", es='Doctor Escuchando el Corazón de un Niño con un Estetoscopio', zh='用听诊器听孩子心跳的医生')),
     dict(cat='beroepen', diff='easy', desc='latina teacher reading a book to a group of children', landscape=True, titles=dict(
-        nl='Latijns-Amerikaanse Juf die een Boek Voorleest aan een Groep Kinderen', en='Latina Teacher Reading a Book to a Group of Children',
-        fr="Enseignante Latino-Américaine Lisant un Livre à un Groupe d'Enfants", es='Maestra Latina Leyendo un Libro a un Grupo de Niños', zh='给一群孩子读书的拉丁裔老师')),
+        nl='Juf die een Boek Voorleest aan een Groep Kinderen', en='Teacher Reading a Book to a Group of Children',
+        fr="Enseignante Lisant un Livre à un Groupe d'Enfants", es='Maestra Leyendo un Libro a un Grupo de Niños', zh='给一群孩子读书的老师')),
     dict(cat='gezichten', diff='easy', desc='happy asian boy face with a big smile', landscape=False, titles=dict(
-        nl='Vrolijk Aziatisch Jongensgezicht met een Grote Glimlach', en='Happy Asian Boy Face With a Big Smile',
-        fr='Visage de Garçon Asiatique Joyeux avec un Grand Sourire', es='Cara de Niño Asiático Feliz con una Gran Sonrisa', zh='露出灿烂笑容的亚洲男孩笑脸')),
+        nl='Blij Jongensgezicht met een Brede Glimlach', en='Cheerful Boy Face With a Big Smile',
+        fr='Visage de Garçon Souriant avec un Large Sourire', es='Cara de Niño Sonriente con una Amplia Sonrisa', zh='露出灿烂笑容的开心男孩脸')),
     dict(cat='gezichten', diff='easy', desc='happy indian girl face with braided hair and a flower', landscape=False, titles=dict(
-        nl='Vrolijk Indiaas Meisjesgezicht met Gevlochten Haar en een Bloem', en='Happy Indian Girl Face With Braided Hair and a Flower',
-        fr='Visage de Fille Indienne Joyeuse avec des Cheveux Tressés et une Fleur', es='Cara de Niña India Feliz con Cabello Trenzado y una Flor', zh='扎着辫子戴着花的印度女孩笑脸')),
+        nl='Vrolijk Meisjesgezicht met Gevlochten Haar en een Bloem', en='Happy Girl Face With Braided Hair and a Flower',
+        fr='Visage de Fille Joyeuse avec des Cheveux Tressés et une Fleur', es='Cara de Niña Feliz con Cabello Trenzado y una Flor', zh='扎着辫子戴着花的快乐女孩笑脸')),
     dict(cat='natuur', diff='medium', desc='australian outback scene with kangaroos koalas and gum trees', landscape=True, titles=dict(
         nl="Australisch Outback Landschap met Kangoeroes, Koala's en Eucalyptusbomen", en='Australian Outback Scene With Kangaroos, Koalas and Gum Trees',
         fr="Scène de l'Outback Australien avec des Kangourous, des Koalas et des Eucalyptus", es='Escena del Outback Australiano con Canguros, Koalas y Eucaliptos', zh='有袋鼠、考拉和桉树的澳大利亚内陆场景')),
