@@ -37,7 +37,7 @@ A4_LANDSCAPE = (1754, 1240)
 VALID_CATS = {
     'dieren','voertuigen','prinsessen','seizoenen','feestdagen',
     'eten','kawaii','natuur','sprookjes','ruimte','oceaan',
-    'letters','mandala','gezichten',
+    'letters','mandala','gezichten','beroepen',
 }
 
 # Stijlhints per categorie voor de prompt
@@ -56,6 +56,7 @@ CAT_HINTS = {
     'letters':    'decorative alphabet letter, ornamental design',
     'mandala':    'symmetrical mandala pattern, geometric repeating design',
     'gezichten':  'cute character face, expressive portrait, simple face features',
+    'beroepen':   'person doing a job or profession, friendly character, work scene',
 }
 
 DIFF_HINTS = {
@@ -433,6 +434,38 @@ TOPIC_POOL = [
     dict(cat='feestdagen', diff='medium', desc='nutcracker soldier standing guard at christmas', landscape=False, titles=dict(
         nl='Notenkraker Soldaat die de Wacht Houdt met Kerst', en='Nutcracker Soldier Standing Guard at Christmas',
         fr='Soldat Casse-Noisette Montant la Garde à Noël', es='Soldado Cascanueces Haciendo Guardia en Navidad', zh='圣诞节站岗的胡桃夹子士兵')),
+
+    # ── Festival & beroepen (incl. bouwmarkt/DIY-thema)
+    dict(cat='feestdagen', diff='medium', desc='kids at a fair with a ferris wheel and carousel', landscape=True, titles=dict(
+        nl='Kinderen op de Kermis met een Reuzenrad en Draaimolen', en='Kids at a Fair with a Ferris Wheel and Carousel',
+        fr='Enfants à la Fête Foraine avec une Grande Roue et un Carrousel', es='Niños en la Feria con una Noria y un Carrusel', zh='在游乐场玩摩天轮和旋转木马的孩子们')),
+    dict(cat='feestdagen', diff='medium', desc='festival scene with balloons a stage and food stalls', landscape=True, titles=dict(
+        nl='Festivalscène met Ballonnen, een Podium en Kraampjes', en='Festival Scene With Balloons, a Stage and Food Stalls',
+        fr='Scène de Festival avec des Ballons, une Scène et des Stands', es='Escena de Festival con Globos, un Escenario y Puestos de Comida', zh='有气球、舞台和小吃摊的节日场景')),
+    dict(cat='beroepen', diff='easy', desc='handyman with a toolbox fixing a shelf', landscape=False, titles=dict(
+        nl='Klusjesman met Gereedschapskist die een Plank Repareert', en='Handyman With a Toolbox Fixing a Shelf',
+        fr='Bricoleur avec une Boîte à Outils Réparant une Étagère', es='Manitas con una Caja de Herramientas Arreglando un Estante', zh='拿着工具箱修理架子的维修工')),
+    dict(cat='beroepen', diff='easy', desc='friendly builder wearing a hard hat with a hammer', landscape=False, titles=dict(
+        nl='Vriendelijke Bouwvakker met Bouwhelm en Hamer', en='Friendly Builder Wearing a Hard Hat With a Hammer',
+        fr='Ouvrier du Bâtiment Sympathique avec un Casque et un Marteau', es='Constructor Amigable con Casco y un Martillo', zh='戴着安全帽拿着锤子的友好建筑工人')),
+    dict(cat='beroepen', diff='medium', desc='diy workshop scene with tools hanging on a wall', landscape=True, titles=dict(
+        nl='Doe-het-zelf Werkplaats met Gereedschap aan de Muur', en='DIY Workshop Scene With Tools Hanging on a Wall',
+        fr='Atelier de Bricolage avec des Outils Accrochés au Mur', es='Taller de Bricolaje con Herramientas Colgadas en la Pared', zh='墙上挂满工具的DIY工作间')),
+    dict(cat='beroepen', diff='medium', desc='little boy helping dad paint a fence', landscape=True, titles=dict(
+        nl='Kleine Jongen die Papa Helpt een Hek te Verven', en='Little Boy Helping Dad Paint a Fence',
+        fr='Petit Garçon Aidant Papa à Peindre une Clôture', es='Niño Pequeño Ayudando a Papá a Pintar una Cerca', zh='帮爸爸刷栅栏的小男孩')),
+    dict(cat='beroepen', diff='easy', desc='firefighter standing next to a fire truck', landscape=False, titles=dict(
+        nl='Brandweerman Staand naast een Brandweerwagen', en='Firefighter Standing Next to a Fire Truck',
+        fr="Pompier Debout à Côté d'un Camion de Pompiers", es='Bombero de Pie junto a un Camión de Bomberos', zh='站在消防车旁的消防员')),
+    dict(cat='beroepen', diff='easy', desc='doctor with a stethoscope examining a teddy bear', landscape=False, titles=dict(
+        nl='Dokter met Stethoscoop die een Teddybeer Onderzoekt', en='Doctor With a Stethoscope Examining a Teddy Bear',
+        fr='Médecin avec un Stéthoscope Examinant un Ours en Peluche', es='Doctor con un Estetoscopio Examinando un Osito de Peluche', zh='拿着听诊器检查泰迪熊的医生')),
+    dict(cat='beroepen', diff='easy', desc='baker holding a fresh loaf of bread wearing a chef hat', landscape=False, titles=dict(
+        nl='Bakker met Kokshoed die een Vers Brood Vasthoudt', en='Baker Holding a Fresh Loaf of Bread Wearing a Chef Hat',
+        fr='Boulanger avec une Toque Tenant un Pain Frais', es='Panadero con Gorro de Chef Sosteniendo un Pan Fresco', zh='戴着厨师帽拿着新鲜面包的面包师')),
+    dict(cat='beroepen', diff='easy', desc='veterinarian gently examining a puppy', landscape=False, titles=dict(
+        nl='Dierenarts die Voorzichtig een Puppy Onderzoekt', en='Veterinarian Gently Examining a Puppy',
+        fr='Vétérinaire Examinant Doucement un Chiot', es='Veterinario Examinando Suavemente a un Cachorro', zh='温柔地检查小狗的兽医')),
 ]
 
 
@@ -454,13 +487,18 @@ def _build_prompt(description, category, difficulty):
         if category not in HEAD_OK_CATS else
         'Close-up portrait framing is fine here.'
     )
+    text_rule = (
+        'The letter itself may appear as the main decorative shape.'
+        if category == 'letters' else
+        'Do not include any text, letters, words, signs, labels or writing anywhere in the image.'
+    )
     return (
         f'black and white coloring page for children: {description}. '
         f'{CAT_HINTS.get(category, "")}. {framing} '
         f'{DIFF_HINTS.get(difficulty, DIFF_HINTS["easy"])}. '
         'Style: clean bold outlines only, pure white background, absolutely no shading, '
         'no color fills, no gradients, simple line art ready to color with crayons. '
-        'High contrast black lines on white paper. Printable coloring book style.'
+        f'High contrast black lines on white paper. Printable coloring book style. {text_rule}'
     )
 
 
