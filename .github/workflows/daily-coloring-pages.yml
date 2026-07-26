@@ -27,28 +27,50 @@ jobs:
         with:
           fetch-depth: 0
 
+      # Proefperiode van 1 maand (afgesproken 2026-07-26). Stopt zichzelf
+      # automatisch op de cutoff-datum i.p.v. onbeperkt door te draaien op
+      # het Magnific-abonnement. Verhoog CUTOFF (of verwijder deze stap +
+      # de 'if: steps.trial...' checks hieronder) om door te gaan na de proef.
+      - name: Check proefperiode
+        id: trial
+        run: |
+          CUTOFF="2026-08-26"
+          TODAY=$(date -u +%Y-%m-%d)
+          if [[ "$TODAY" < "$CUTOFF" ]]; then
+            echo "active=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "active=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Proefperiode van 1 maand afgelopen sinds $CUTOFF — dagelijkse generatie wordt overgeslagen. Pas CUTOFF aan in .github/workflows/daily-coloring-pages.yml om door te gaan."
+          fi
+
       - name: Setup Python
+        if: steps.trial.outputs.active == 'true'
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
       - name: Setup Node
+        if: steps.trial.outputs.active == 'true'
         uses: actions/setup-node@v4
         with:
           node-version: '20'
 
       - name: Install system dependencies (cairosvg)
+        if: steps.trial.outputs.active == 'true'
         run: sudo apt-get update && sudo apt-get install -y libcairo2
 
       - name: Install Python dependencies
+        if: steps.trial.outputs.active == 'true'
         run: pip install requests Pillow cairosvg
 
       - name: Configure git identity
+        if: steps.trial.outputs.active == 'true'
         run: |
           git config user.name "KidsLoveColor Bot"
           git config user.email "bot@kidslovecolor.com"
 
       - name: Generate coloring pages
+        if: steps.trial.outputs.active == 'true'
         env:
           MAGNIFIC_API_KEY: ${{ secrets.MAGNIFIC_API_KEY }}
         run: python3 magnific.py --batch "${{ github.event.inputs.count || '5' }}"
