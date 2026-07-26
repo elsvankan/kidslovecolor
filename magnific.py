@@ -580,6 +580,38 @@ TOPIC_POOL = [
     dict(cat='seizoenen', diff='medium', desc='dutch kids cycling past a canal with flower baskets on their bikes in summer', landscape=True, titles=dict(
         nl='Nederlandse Kinderen die langs een Gracht Fietsen met Bloemenmandjes op de Fiets in de Zomer', en='Dutch Kids Cycling Past a Canal With Flower Baskets on Their Bikes in Summer',
         fr="Enfants Néerlandais Faisant du Vélo le Long d'un Canal avec des Paniers de Fleurs en Été", es='Niños Holandeses en Bicicleta junto a un Canal con Cestas de Flores en Verano', zh='夏天骑着装有花篮的自行车沿运河骑行的荷兰孩子们')),
+
+    # ── Chibi-stijl (populair nu)
+    dict(cat='dieren', diff='easy', desc='chibi baby fox curled up sleeping', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Babyvosje Opgekruld in Slaap', en='Chibi Baby Fox Curled Up Sleeping',
+        fr='Bébé Renard Chibi Endormi en Boule', es='Bebé Zorro Chibi Dormido Acurrucado', zh='蜷缩着睡觉的Q版小狐狸')),
+    dict(cat='dieren', diff='easy', desc='chibi bunny hopping with a carrot', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Konijntje dat Huppelt met een Wortel', en='Chibi Bunny Hopping With a Carrot',
+        fr='Lapin Chibi Sautillant avec une Carotte', es='Conejito Chibi Saltando con una Zanahoria', zh='抱着胡萝卜蹦跳的Q版兔子')),
+    dict(cat='kawaii', diff='easy', desc='chibi panda hugging a bamboo stalk', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Panda die een Bamboestengel Knuffelt', en='Chibi Panda Hugging a Bamboo Stalk',
+        fr='Panda Chibi Enlaçant une Tige de Bambou', es='Panda Chibi Abrazando un Tallo de Bambú', zh='抱着竹子的Q版熊猫')),
+    dict(cat='kawaii', diff='easy', desc='chibi dragon breathing tiny hearts', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Draakje dat Kleine Hartjes Blaast', en='Chibi Dragon Breathing Tiny Hearts',
+        fr='Petit Dragon Chibi Soufflant de Petits Cœurs', es='Dragón Chibi Soplando Pequeños Corazones', zh='吐出小爱心的Q版小龙')),
+    dict(cat='prinsessen', diff='easy', desc='chibi princess holding a wand with a crown', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Prinses met Kroon die een Toverstokje Vasthoudt', en='Chibi Princess Holding a Wand With a Crown',
+        fr='Princesse Chibi avec Couronne Tenant une Baguette', es='Princesa Chibi con Corona Sosteniendo una Varita', zh='戴着皇冠拿着魔杖的Q版公主')),
+    dict(cat='prinsessen', diff='easy', desc='chibi mermaid sitting on a shell', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Zeemeermin Zittend op een Schelp', en='Chibi Mermaid Sitting on a Shell',
+        fr='Sirène Chibi Assise sur un Coquillage', es='Sirena Chibi Sentada en una Concha', zh='坐在贝壳上的Q版美人鱼')),
+    dict(cat='gezichten', diff='easy', desc='chibi girl face with big sparkly eyes and twin buns', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Meisjesgezicht met Grote Glinsterende Ogen en Twee Knotjes', en='Chibi Girl Face With Big Sparkly Eyes and Twin Buns',
+        fr='Visage de Fille Chibi avec de Grands Yeux Pétillants et Deux Chignons', es='Cara de Niña Chibi con Grandes Ojos Brillantes y Dos Moños', zh='有大大闪亮眼睛和双丸子头的Q版女孩脸')),
+    dict(cat='gezichten', diff='easy', desc='chibi boy face wearing round glasses', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Jongensgezicht met Ronde Bril', en='Chibi Boy Face Wearing Round Glasses',
+        fr='Visage de Garçon Chibi avec des Lunettes Rondes', es='Cara de Niño Chibi con Gafas Redondas', zh='戴着圆眼镜的Q版男孩脸')),
+    dict(cat='beroepen', diff='easy', desc='chibi astronaut floating with a star', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Astronaut Zwevend met een Ster', en='Chibi Astronaut Floating With a Star',
+        fr='Astronaute Chibi Flottant avec une Étoile', es='Astronauta Chibi Flotando con una Estrella', zh='拿着星星漂浮的Q版宇航员')),
+    dict(cat='eten', diff='easy', desc='chibi strawberry cake slice with a cute face', landscape=False, style='chibi', titles=dict(
+        nl='Chibi Aardbeientaartpuntje met een Schattig Gezichtje', en='Chibi Strawberry Cake Slice With a Cute Face',
+        fr='Part de Gâteau aux Fraises Chibi avec un Visage Mignon', es='Rebanada de Pastel de Fresa Chibi con una Cara Tierna', zh='有可爱表情的Q版草莓蛋糕')),
 ]
 
 
