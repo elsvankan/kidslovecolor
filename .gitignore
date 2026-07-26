@@ -1,6 +1,11 @@
 # API keys — nooit in git!
 .env
+.env.*
+!.env.example
 .env.local
+
+# Lokale Vercel-projectkoppeling
+.vercel
 
 # Watermark tracking (lokaal bestand, niet in git)
 img/kleurplaten/.watermarked.json

@@ -545,16 +545,49 @@
 
     var supportButtons = document.querySelectorAll('[data-support]');
     var supportNote = document.getElementById('supportNote');
+    var donationState = new URLSearchParams(window.location.search).get('donation');
+
+    if (supportNote && donationState === 'thanks') {
+      supportNote.classList.add('is-visible');
+      supportNote.textContent = '♥ Welkom terug — dankjewel voor je steun! Mollie verwerkt je betaling.';
+    } else if (supportNote && donationState === 'cancelled') {
+      supportNote.classList.add('is-visible');
+      supportNote.textContent = 'De betaling is geannuleerd. Geen probleem — je kunt het altijd later nog eens proberen.';
+    }
+
     supportButtons.forEach(function(button) {
-      button.addEventListener('click', function() {
+      button.addEventListener('click', async function() {
         supportButtons.forEach(function(item) {
+          item.disabled = true;
           item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
         });
+
         if (supportNote) {
           supportNote.classList.add('is-visible');
-          supportNote.textContent = button.dataset.support === 'coffee'
-            ? '♥ Koffie gekozen — dankjewel! De veilige betaallink koppelen we hier als volgende stap.'
-            : '♥ Bubble tea gekozen — dankjewel! De veilige betaallink koppelen we hier als volgende stap.';
+          supportNote.textContent = 'Veilige Mollie-betaalpagina wordt geopend…';
+        }
+
+        try {
+          var response = await fetch('/api/create-payment', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ support: button.dataset.support })
+          });
+          var result = await response.json();
+
+          if (!response.ok || !result.checkoutUrl) {
+            throw new Error(result.error || 'De betaling kon niet worden gestart.');
+          }
+
+          window.location.assign(result.checkoutUrl);
+        } catch (error) {
+          supportButtons.forEach(function(item) {
+            item.disabled = false;
+            item.setAttribute('aria-pressed', 'false');
+          });
+          if (supportNote) {
+            supportNote.textContent = error.message || 'Betalen lukt nu even niet. Probeer het later opnieuw.';
+          }
         }
       });
     });
