@@ -708,7 +708,7 @@ TOPIC_POOL = [
             zh='一艘全新的太阳能货船已经启航！它利用阳光发电，同时运载汽车穿越海洋——这是一种既聪明又环保的运输方式。'))),
 
     # ── In het Nieuws — tweede wekelijkse batch
-    dict(cat='actualiteiten', diff='hard', desc='two children building a small wilderness shelter from branches and leaves in a forest, one child carefully lighting a small campfire with sticks, learning bushcraft survival skills', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='two children building a lean-to shelter by leaning branches against a fallen log and covering it with leaves in a forest, a small contained campfire safely burning inside a ring of stones nearby, learning bushcraft survival skills', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Bushcraft Overlevingsvaardigheden Leren in het Bos', en='Children Learning Bushcraft Survival Skills in the Forest',
         fr="Des Enfants Apprenant des Techniques de Survie en Forêt", es='Niños Aprendiendo Técnicas de Supervivencia en el Bosque', zh='孩子们在森林里学习野外生存技能',
         country='nl', newsExplainer=dict(
@@ -717,7 +717,7 @@ TOPIC_POOL = [
             fr="De plus en plus d'enfants apprennent le « bushcraft » : survivre et construire dans la nature avec ce qu'on y trouve. Une émission néerlandaise pour enfants a récemment montré comment construire un abri avec des branches et allumer un petit feu en toute sécurité.",
             es='Cada vez más niños aprenden "bushcraft": sobrevivir y construir en la naturaleza usando solo lo que encuentran al aire libre. Un programa infantil neerlandés mostró hace poco cómo construir un refugio con ramas y encender una pequeña hoguera de forma segura.',
             zh='越来越多的孩子在学习"荒野生存技能"：只用大自然中能找到的东西来生存和搭建。荷兰一档少儿节目最近展示了如何用树枝搭建庇护所，以及如何安全地生一小堆篝火。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a friendly cartoon walking shark using its fins to walk along a coral reef seafloor, recently discovered as a new species, surrounded by colorful fish', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a small slender shark with spotted patterned skin, clearly using its two front fins like little legs to walk along a shallow coral reef seafloor between rocks and coral, surrounded by colorful fish', landscape=True, style='standard', titles=dict(
         nl='Nieuwe Wandelende Haaiensoort Ontdekt op een Koraalrif', en='New Walking Shark Species Discovered on a Coral Reef',
         fr="Nouvelle Espèce de Requin Marcheur Découverte sur un Récif Corallien", es='Nueva Especie de Tiburón Caminante Descubierta en un Arrecife de Coral', zh='珊瑚礁上发现新的会走路的鲨鱼物种',
         country='en', newsExplainer=dict(
@@ -726,7 +726,7 @@ TOPIC_POOL = [
             fr="Des scientifiques ont découvert une toute nouvelle espèce de requin qui ne nage pas mais « marche » sur le fond du récif corallien avec ses nageoires ! C'est le dixième requin marcheur connu au monde, découvert lors d'une plongée de nuit.",
             es='¡Los científicos han descubierto una nueva especie de tiburón que no nada, sino que "camina" por el fondo del arrecife de coral con sus aletas! Es el décimo tiburón caminante conocido en el mundo, descubierto durante una inmersión nocturna.',
             zh='科学家发现了一种全新的鲨鱼物种，它不靠游泳，而是用鱼鳍在珊瑚礁海底"行走"！这是世界上已知的第十种会走路的鲨鱼，是在一次夜间潜水中被发现的。'))),
-    dict(cat='actualiteiten', diff='hard', desc='children watching a colorful circus and puppet show at an outdoor summer festival, a juggler and a magician performing, bunting flags overhead', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a small group of about 8 children sitting on the grass watching a colorful puppet show and a juggler perform on a small outdoor stage at a summer festival, plain bunting flags overhead with no patterns or text', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Genieten van een Circus- en Poppenkastfestival in de Zomer', en='Children Enjoying a Circus and Puppet Festival in Summer',
         fr="Des Enfants Profitant d'un Festival de Cirque et de Marionnettes en Été", es='Niños Disfrutando de un Festival de Circo y Marionetas en Verano', zh='孩子们在夏日马戏木偶节上开心游玩',
         country='fr', newsExplainer=dict(
@@ -735,7 +735,7 @@ TOPIC_POOL = [
             fr="Un grand festival d'été spécialement conçu pour les enfants a débuté en Bretagne, avec du cirque, des marionnettes, des magiciens et des conteurs. C'est la 12e édition de ce festival familial gratuit !",
             es='¡Ha comenzado en Bretaña, Francia, un gran festival de verano hecho especialmente para niños, con circo, marionetas, magos y cuentacuentos! Es la 12ª edición de este festival familiar gratuito.',
             zh='法国布列塔尼地区专为孩子们打造的夏日大型节庆开幕啦，有马戏表演、木偶戏、魔术师和讲故事的人。这已经是这个免费家庭节庆举办的第12届了！'))),
-    dict(cat='actualiteiten', diff='hard', desc='a joyful town festival where people throw ripe red tomatoes at each other in a town square, everyone laughing and covered in tomato splatters, a traditional summer celebration', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a small group of about 6 people in a spanish town square joyfully throwing ripe red tomatoes at each other, tomatoes visibly flying through the air and splattered on the cobblestones and on their clothes, everyone laughing, traditional buildings with balconies in the background', landscape=True, style='cozy', titles=dict(
         nl='Vrolijk Tomatengevecht Festival in een Spaans Stadje', en='Joyful Tomato-Throwing Festival in a Spanish Town',
         fr="Joyeuse Bataille de Tomates dans une Ville Espagnole", es='Alegre Batalla de Tomates en un Pueblo Español', zh='西班牙小镇的欢乐番茄大战节',
         country='es', newsExplainer=dict(
@@ -744,7 +744,7 @@ TOPIC_POOL = [
             fr="Chaque année fin août, des milliers de personnes dans la ville espagnole de Buñol se lancent des tomates mûres pendant La Tomatina — l'une des fêtes les plus joyeuses et les plus salissantes au monde !",
             es='¡Cada año a finales de agosto, miles de personas en el pueblo español de Buñol se lanzan tomates maduros durante La Tomatina, una de las fiestas más alegres y desordenadas del mundo!',
             zh='每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是"番茄大战"（La Tomatina）——世界上最欢乐也最"乱"的节日之一！'))),
-    dict(cat='actualiteiten', diff='hard', desc='caretakers gently looking after newborn twin giant panda cubs in a cozy nursery at a panda conservation center', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='two caretakers wearing plain uniforms gently weighing and bottle-feeding twin baby panda cubs with visible black-and-white fuzzy fur, in a cozy nursery room at a panda conservation center', landscape=True, style='cozy', titles=dict(
         nl='Verzorgers die voor Pasgeboren Tweeling Pandawelpjes Zorgen', en='Caretakers Looking After Newborn Twin Panda Cubs',
         fr="Des Soigneurs qui S'occupent de Bébés Pandas Jumeaux Nouveau-nés", es='Cuidadores Atendiendo a Cachorros de Panda Gemelos Recién Nacidos', zh='饲养员悉心照顾刚出生的大熊猫双胞胎幼崽',
         country='cn', newsExplainer=dict(
