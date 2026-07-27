@@ -689,16 +689,16 @@ TOPIC_POOL = [
             fr="Les Championnats d'Europe de natation débutent à Paris fin juillet ! Des nageurs venus de toute l'Europe se retrouvent pour s'affronter dans le bassin, pendant que les supporters les encouragent avec des drapeaux.",
             es='¡Los Campeonatos Europeos de Natación comienzan en París a finales de julio! Nadadores de toda Europa se reúnen para competir en la piscina, mientras los aficionados los animan con banderas.',
             zh='欧洲游泳锦标赛将于7月底在巴黎拉开帷幕！来自欧洲各地的游泳运动员齐聚泳池一较高下，观众们挥舞着旗帜为他们加油助威。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a mixed group of male and female soccer players celebrating winning a world championship trophy together with confetti falling around them in a stadium', landscape=True, style='cozy', titles=dict(
-        nl='Voetballers die een Wereldkampioenschap Vieren met een Beker, Confetti en de Spaanse Vlag', en='Soccer Players Celebrating a World Championship With a Trophy, Confetti and the Spanish Flag',
-        fr="Des Joueurs de Football Célébrant un Championnat du Monde avec un Trophée, des Confettis et le Drapeau Espagnol", es='Futbolistas Celebrando un Campeonato Mundial con un Trofeo, Confeti y la Bandera de España', zh='足球运动员举着奖杯、伴着彩带和西班牙国旗庆祝世界冠军',
+    dict(cat='actualiteiten', diff='hard', desc='a soccer team of five players celebrating winning a world championship trophy together with confetti falling around them in a stadium, the team is unmistakably a mix of boys and girls — at least two players are girls with long hair or ponytails, clearly feminine features, standing alongside boys with short hair', landscape=True, style='cozy', titles=dict(
+        nl='Voetballers die een Wereldkampioenschap Vieren met een Beker en Confetti', en='Soccer Players Celebrating a World Championship With a Trophy and Confetti',
+        fr="Des Joueurs de Football Célébrant un Championnat du Monde avec un Trophée et des Confettis", es='Futbolistas Celebrando un Campeonato Mundial con un Trofeo y Confeti', zh='足球运动员举着奖杯、伴着彩带庆祝世界冠军',
         country='es', newsExplainer=dict(
             nl='Spanje won onlangs een grote wereldkampioenschap voetbal! Overal in het land werd gevierd met vlaggen, confetti en een grote gouden beker.',
             en='Spain recently won a big soccer World Championship! Fans across the country celebrated with flags, confetti and a giant golden trophy.',
             fr="L'Espagne a récemment remporté un grand championnat du monde de football ! Dans tout le pays, on a fêté ça avec des drapeaux, des confettis et un immense trophée doré.",
             es='¡España ganó hace poco un gran Campeonato Mundial de fútbol! En todo el país se celebró con banderas, confeti y un enorme trofeo dorado.',
             zh='西班牙最近夺得了盛大的足球世界冠军！举国上下挥舞旗帜、抛洒彩带，庆祝这枚金光闪闪的大奖杯。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a large realistic car-carrier cargo ship with a tall boxy hull and rows of small vent openings sailing on the open ocean, a grid of many flat rectangular solar panels covering the flat top deck, no cars visible outside the ship', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a large realistic car-carrier cargo ship sailing on the open ocean, no people visible anywhere on the ship, a cutaway cross-section opening on the side of the hull revealing several rows of parked cars inside the ship, a grid of many flat rectangular solar panels covering the flat top deck', landscape=True, style='standard', titles=dict(
         nl="Een Enorm Vrachtschip vol Zonnepanelen dat Auto's over de Oceaan Vervoert", en='A Giant Cargo Ship Covered in Solar Panels Carrying Cars Across the Ocean',
         fr="Un Immense Cargo Recouvert de Panneaux Solaires Transportant des Voitures sur l'Océan", es='Un Enorme Buque de Carga Cubierto de Paneles Solares Transportando Coches por el Océano', zh='一艘布满太阳能板的巨型货船正运载汽车穿越海洋',
         country='cn', newsExplainer=dict(
