@@ -706,6 +706,53 @@ TOPIC_POOL = [
             fr='Un tout nouveau cargo recouvert de panneaux solaires navigue désormais sur les mers ! Il utilise la lumière du soleil pour produire de l\'énergie tout en transportant des voitures à travers l\'océan — une façon intelligente et propre de déplacer des marchandises dans le monde.',
             es='¡Un flamante buque de carga cubierto de paneles solares ya navega por los mares! Usa la luz del sol para generar energía mientras transporta coches por el océano, una forma inteligente y limpia de mover mercancías por el mundo.',
             zh='一艘全新的太阳能货船已经启航！它利用阳光发电，同时运载汽车穿越海洋——这是一种既聪明又环保的运输方式。'))),
+
+    # ── In het Nieuws — tweede wekelijkse batch
+    dict(cat='actualiteiten', diff='hard', desc='two children building a small wilderness shelter from branches and leaves in a forest, one child carefully lighting a small campfire with sticks, learning bushcraft survival skills', landscape=True, style='cozy', titles=dict(
+        nl='Kinderen die Bushcraft Overlevingsvaardigheden Leren in het Bos', en='Children Learning Bushcraft Survival Skills in the Forest',
+        fr="Des Enfants Apprenant des Techniques de Survie en Forêt", es='Niños Aprendiendo Técnicas de Supervivencia en el Bosque', zh='孩子们在森林里学习野外生存技能',
+        country='nl', newsExplainer=dict(
+            nl='Steeds meer kinderen leren "bushcraft": overleven en bouwen in de natuur zonder gereedschap uit de winkel. Het Klokhuis liet deze week zien hoe je een schuilhut bouwt van takken en hoe je veilig een vuurtje maakt.',
+            en='More and more kids are learning "bushcraft" — surviving and building things in nature using only what they find outdoors. A Dutch kids\' show recently demonstrated how to build a shelter from branches and safely make a small campfire.',
+            fr="De plus en plus d'enfants apprennent le « bushcraft » : survivre et construire dans la nature avec ce qu'on y trouve. Une émission néerlandaise pour enfants a récemment montré comment construire un abri avec des branches et allumer un petit feu en toute sécurité.",
+            es='Cada vez más niños aprenden "bushcraft": sobrevivir y construir en la naturaleza usando solo lo que encuentran al aire libre. Un programa infantil neerlandés mostró hace poco cómo construir un refugio con ramas y encender una pequeña hoguera de forma segura.',
+            zh='越来越多的孩子在学习"荒野生存技能"：只用大自然中能找到的东西来生存和搭建。荷兰一档少儿节目最近展示了如何用树枝搭建庇护所，以及如何安全地生一小堆篝火。'))),
+    dict(cat='actualiteiten', diff='hard', desc='a friendly cartoon walking shark using its fins to walk along a coral reef seafloor, recently discovered as a new species, surrounded by colorful fish', landscape=True, style='standard', titles=dict(
+        nl='Nieuwe Wandelende Haaiensoort Ontdekt op een Koraalrif', en='New Walking Shark Species Discovered on a Coral Reef',
+        fr="Nouvelle Espèce de Requin Marcheur Découverte sur un Récif Corallien", es='Nueva Especie de Tiburón Caminante Descubierta en un Arrecife de Coral', zh='珊瑚礁上发现新的会走路的鲨鱼物种',
+        country='en', newsExplainer=dict(
+            nl='Wetenschappers hebben een gloednieuwe haaiensoort ontdekt die niet zwemt maar met zijn vinnen over de bodem van het koraalrif "loopt"! Het is de tiende bekende wandelende haai ter wereld en hij werd gevonden tijdens een nachtelijke duik.',
+            en='Scientists have discovered a brand-new species of shark that doesn\'t swim but "walks" across the coral reef floor using its fins! It\'s the tenth known walking shark species in the world, and it was found during a nighttime dive.',
+            fr="Des scientifiques ont découvert une toute nouvelle espèce de requin qui ne nage pas mais « marche » sur le fond du récif corallien avec ses nageoires ! C'est le dixième requin marcheur connu au monde, découvert lors d'une plongée de nuit.",
+            es='¡Los científicos han descubierto una nueva especie de tiburón que no nada, sino que "camina" por el fondo del arrecife de coral con sus aletas! Es el décimo tiburón caminante conocido en el mundo, descubierto durante una inmersión nocturna.',
+            zh='科学家发现了一种全新的鲨鱼物种，它不靠游泳，而是用鱼鳍在珊瑚礁海底"行走"！这是世界上已知的第十种会走路的鲨鱼，是在一次夜间潜水中被发现的。'))),
+    dict(cat='actualiteiten', diff='hard', desc='children watching a colorful circus and puppet show at an outdoor summer festival, a juggler and a magician performing, bunting flags overhead', landscape=True, style='cozy', titles=dict(
+        nl='Kinderen die Genieten van een Circus- en Poppenkastfestival in de Zomer', en='Children Enjoying a Circus and Puppet Festival in Summer',
+        fr="Des Enfants Profitant d'un Festival de Cirque et de Marionnettes en Été", es='Niños Disfrutando de un Festival de Circo y Marionetas en Verano', zh='孩子们在夏日马戏木偶节上开心游玩',
+        country='fr', newsExplainer=dict(
+            nl='In Bretagne (Frankrijk) is een groot zomerfestival speciaal voor kinderen begonnen, met circus, poppenkast, goochelaars en verhalenvertellers. Het is al de 12e keer dat dit gratis familiefestival wordt gehouden!',
+            en='A big summer festival made especially for kids has kicked off in Brittany, France, with circus acts, puppet shows, magicians and storytellers. It\'s the 12th year this free family festival has been held!',
+            fr="Un grand festival d'été spécialement conçu pour les enfants a débuté en Bretagne, avec du cirque, des marionnettes, des magiciens et des conteurs. C'est la 12e édition de ce festival familial gratuit !",
+            es='¡Ha comenzado en Bretaña, Francia, un gran festival de verano hecho especialmente para niños, con circo, marionetas, magos y cuentacuentos! Es la 12ª edición de este festival familiar gratuito.',
+            zh='法国布列塔尼地区专为孩子们打造的夏日大型节庆开幕啦，有马戏表演、木偶戏、魔术师和讲故事的人。这已经是这个免费家庭节庆举办的第12届了！'))),
+    dict(cat='actualiteiten', diff='hard', desc='a joyful town festival where people throw ripe red tomatoes at each other in a town square, everyone laughing and covered in tomato splatters, a traditional summer celebration', landscape=True, style='cozy', titles=dict(
+        nl='Vrolijk Tomatengevecht Festival in een Spaans Stadje', en='Joyful Tomato-Throwing Festival in a Spanish Town',
+        fr="Joyeuse Bataille de Tomates dans une Ville Espagnole", es='Alegre Batalla de Tomates en un Pueblo Español', zh='西班牙小镇的欢乐番茄大战节',
+        country='es', newsExplainer=dict(
+            nl='Elk jaar aan het eind van augustus gooien duizenden mensen in het Spaanse stadje Buñol met rijpe tomaten naar elkaar tijdens La Tomatina — een van de vrolijkste en rommeligste feesten ter wereld!',
+            en='Every year at the end of August, thousands of people in the Spanish town of Buñol throw ripe tomatoes at each other during La Tomatina — one of the messiest and most joyful festivals in the world!',
+            fr="Chaque année fin août, des milliers de personnes dans la ville espagnole de Buñol se lancent des tomates mûres pendant La Tomatina — l'une des fêtes les plus joyeuses et les plus salissantes au monde !",
+            es='¡Cada año a finales de agosto, miles de personas en el pueblo español de Buñol se lanzan tomates maduros durante La Tomatina, una de las fiestas más alegres y desordenadas del mundo!',
+            zh='每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是"番茄大战"（La Tomatina）——世界上最欢乐也最"乱"的节日之一！'))),
+    dict(cat='actualiteiten', diff='hard', desc='caretakers gently looking after newborn twin giant panda cubs in a cozy nursery at a panda conservation center', landscape=True, style='cozy', titles=dict(
+        nl='Verzorgers die voor Pasgeboren Tweeling Pandawelpjes Zorgen', en='Caretakers Looking After Newborn Twin Panda Cubs',
+        fr="Des Soigneurs qui S'occupent de Bébés Pandas Jumeaux Nouveau-nés", es='Cuidadores Atendiendo a Cachorros de Panda Gemelos Recién Nacidos', zh='饲养员悉心照顾刚出生的大熊猫双胞胎幼崽',
+        country='cn', newsExplainer=dict(
+            nl='Bij een pandacentrum in China zijn deze zomer een tweeling pandawelpjes geboren — de eerste tweeling van dit jaar! De kleintjes wegen amper 200 gram bij de geboorte, maar groeien supersnel onder de zorg van hun verzorgers.',
+            en='A panda conservation center in China welcomed a pair of twin panda cubs this summer — the first twins born there this year! The tiny cubs weigh barely 200 grams at birth but grow incredibly fast under the care of their keepers.',
+            fr="Un centre de conservation des pandas en Chine a accueilli cet été une paire de bébés pandas jumeaux — les premiers jumeaux nés là-bas cette année ! Les petits pèsent à peine 200 grammes à la naissance mais grandissent très vite grâce aux soins de leurs soigneurs.",
+            es='¡Un centro de conservación de pandas en China recibió este verano una pareja de cachorros de panda gemelos, los primeros gemelos nacidos allí este año! Los pequeños pesan apenas 200 gramos al nacer, pero crecen muy rápido gracias al cuidado de sus cuidadores.',
+            zh='今年夏天，中国一家大熊猫保护中心迎来了一对双胞胎幼崽——这是今年诞生的第一对双胞胎！小家伙们出生时体重还不到200克，但在饲养员的悉心照顾下正快速成长。'))),
 ]
 
 
