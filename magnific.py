@@ -717,15 +717,6 @@ TOPIC_POOL = [
             fr="De plus en plus d'enfants apprennent le « bushcraft » : survivre et construire dans la nature avec ce qu'on y trouve. Une émission néerlandaise pour enfants a récemment montré comment construire un abri avec des branches et allumer un petit feu en toute sécurité.",
             es='Cada vez más niños aprenden "bushcraft": sobrevivir y construir en la naturaleza usando solo lo que encuentran al aire libre. Un programa infantil neerlandés mostró hace poco cómo construir un refugio con ramas y encender una pequeña hoguera de forma segura.',
             zh='越来越多的孩子在学习"荒野生存技能"：只用大自然中能找到的东西来生存和搭建。荷兰一档少儿节目最近展示了如何用树枝搭建庇护所，以及如何安全地生一小堆篝火。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a small slender shark with spotted patterned skin, clearly using its two front fins like little legs to walk along a shallow coral reef seafloor between rocks and coral, surrounded by colorful fish, not holding or interacting with any object, only an underwater coral reef scene with no boats, ships, rockets, satellites or any surface-level or sky elements visible', landscape=True, style='standard', titles=dict(
-        nl='Nieuwe Wandelende Haaiensoort Ontdekt op een Koraalrif', en='New Walking Shark Species Discovered on a Coral Reef',
-        fr="Nouvelle Espèce de Requin Marcheur Découverte sur un Récif Corallien", es='Nueva Especie de Tiburón Caminante Descubierta en un Arrecife de Coral', zh='珊瑚礁上发现新的会走路的鲨鱼物种',
-        country='en', newsExplainer=dict(
-            nl='Wetenschappers hebben een gloednieuwe haaiensoort ontdekt die niet zwemt maar met zijn vinnen over de bodem van het koraalrif "loopt"! Het is de tiende bekende wandelende haai ter wereld en hij werd gevonden tijdens een nachtelijke duik.',
-            en='Scientists have discovered a brand-new species of shark that doesn\'t swim but "walks" across the coral reef floor using its fins! It\'s the tenth known walking shark species in the world, and it was found during a nighttime dive.',
-            fr="Des scientifiques ont découvert une toute nouvelle espèce de requin qui ne nage pas mais « marche » sur le fond du récif corallien avec ses nageoires ! C'est le dixième requin marcheur connu au monde, découvert lors d'une plongée de nuit.",
-            es='¡Los científicos han descubierto una nueva especie de tiburón que no nada, sino que "camina" por el fondo del arrecife de coral con sus aletas! Es el décimo tiburón caminante conocido en el mundo, descubierto durante una inmersión nocturna.',
-            zh='科学家发现了一种全新的鲨鱼物种，它不靠游泳，而是用鱼鳍在珊瑚礁海底"行走"！这是世界上已知的第十种会走路的鲨鱼，是在一次夜间潜水中被发现的。'))),
     dict(cat='actualiteiten', diff='hard', desc='a small group of about 8 children sitting on the grass watching a colorful puppet show and a juggler perform on a small outdoor stage at a summer festival, plain bunting flags overhead with no patterns or text, a simple park setting with trees and flowers only, no rockets, no boats, no hot air balloons, no space or sci-fi elements anywhere', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Genieten van een Circus- en Poppenkastfestival in de Zomer', en='Children Enjoying a Circus and Puppet Festival in Summer',
         fr="Des Enfants Profitant d'un Festival de Cirque et de Marionnettes en Été", es='Niños Disfrutando de un Festival de Circo y Marionetas en Verano', zh='孩子们在夏日马戏木偶节上开心游玩',
@@ -744,15 +735,6 @@ TOPIC_POOL = [
             fr="Chaque année fin août, des milliers de personnes dans la ville espagnole de Buñol se lancent des tomates mûres pendant La Tomatina — l'une des fêtes les plus joyeuses et les plus salissantes au monde !",
             es='¡Cada año a finales de agosto, miles de personas en el pueblo español de Buñol se lanzan tomates maduros durante La Tomatina, una de las fiestas más alegres y desordenadas del mundo!',
             zh='每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是"番茄大战"（La Tomatina）——世界上最欢乐也最"乱"的节日之一！'))),
-    dict(cat='actualiteiten', diff='hard', desc='two caretakers wearing plain uniforms gently weighing and bottle-feeding twin baby panda cubs, drawn as real young animals with visible individual fur linework and realistic panda anatomy and proportions, not smooth or rounded like a plush stuffed toy, in a cozy nursery room at a panda conservation center', landscape=True, style='cozy', titles=dict(
-        nl='Verzorgers die voor Pasgeboren Tweeling Pandawelpjes Zorgen', en='Caretakers Looking After Newborn Twin Panda Cubs',
-        fr="Des Soigneurs qui S'occupent de Bébés Pandas Jumeaux Nouveau-nés", es='Cuidadores Atendiendo a Cachorros de Panda Gemelos Recién Nacidos', zh='饲养员悉心照顾刚出生的大熊猫双胞胎幼崽',
-        country='cn', newsExplainer=dict(
-            nl='Bij een pandacentrum in China zijn deze zomer een tweeling pandawelpjes geboren — de eerste tweeling van dit jaar! De kleintjes wegen amper 200 gram bij de geboorte, maar groeien supersnel onder de zorg van hun verzorgers.',
-            en='A panda conservation center in China welcomed a pair of twin panda cubs this summer — the first twins born there this year! The tiny cubs weigh barely 200 grams at birth but grow incredibly fast under the care of their keepers.',
-            fr="Un centre de conservation des pandas en Chine a accueilli cet été une paire de bébés pandas jumeaux — les premiers jumeaux nés là-bas cette année ! Les petits pèsent à peine 200 grammes à la naissance mais grandissent très vite grâce aux soins de leurs soigneurs.",
-            es='¡Un centro de conservación de pandas en China recibió este verano una pareja de cachorros de panda gemelos, los primeros gemelos nacidos allí este año! Los pequeños pesan apenas 200 gramos al nacer, pero crecen muy rápido gracias al cuidado de sus cuidadores.',
-            zh='今年夏天，中国一家大熊猫保护中心迎来了一对双胞胎幼崽——这是今年诞生的第一对双胞胎！小家伙们出生时体重还不到200克，但在饲养员的悉心照顾下正快速成长。'))),
 ]
 
 
