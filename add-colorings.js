@@ -510,6 +510,7 @@ function buildEntry(id, parsed, overrides) {
                  : lang === 'fr' ? `Page à colorier ${titleLower} – enfants`
                  : lang === 'es' ? `Página para colorear ${titleLower} – niños`
                  :                 `免费涂色页 ${title} – 儿童`,
+      newsExplainer: override && override.newsExplainer ? override.newsExplainer[lang] : null,
     };
   }
 
@@ -524,7 +525,10 @@ function buildEntry(id, parsed, overrides) {
   ];
   for (const lang of langs) {
     const d = langData[lang];
-    lines.push(`    ${lang}: { title: '${d.title.replace(/'/g,"\\'")}', description: '${d.description.replace(/'/g,"\\'")}', keywords: '${d.keywords.replace(/'/g,"\\'")}', altText: '${d.altText.replace(/'/g,"\\'")}' },`);
+    const newsExplainerPart = d.newsExplainer
+      ? `, newsExplainer: '${d.newsExplainer.replace(/'/g,"\\'")}'`
+      : '';
+    lines.push(`    ${lang}: { title: '${d.title.replace(/'/g,"\\'")}', description: '${d.description.replace(/'/g,"\\'")}', keywords: '${d.keywords.replace(/'/g,"\\'")}', altText: '${d.altText.replace(/'/g,"\\'")}'${newsExplainerPart} },`);
   }
   lines.push(`  },`);
   return lines.join('\n');

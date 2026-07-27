@@ -887,6 +887,17 @@ h3 {
   border-top: 1px solid var(--border);
 }
 
+.news-explainer {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: var(--text);
+  background: #fff8e6;
+  border: 1px solid #f5deb3;
+  border-radius: 12px;
+  padding: 0.75rem 1rem;
+  margin-bottom: 0.75rem;
+}
+
 .modal-tags {
   display: flex;
   flex-wrap: wrap;

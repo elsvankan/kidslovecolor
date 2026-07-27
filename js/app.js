@@ -708,7 +708,8 @@ function openModal(id) {
         &nbsp;·&nbsp;
         <span title="${t('license_note')}">${t('license_text')}</span>
       </div>
-      ${ld.description ? `<p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.6rem;">${ld.description}</p>` : ''}
+      ${ld.newsExplainer ? `<p class="news-explainer">📰 ${ld.newsExplainer}</p>`
+        : ld.description ? `<p style="font-size:0.85rem;color:var(--text-muted);margin-bottom:0.6rem;">${ld.description}</p>` : ''}
       <div class="modal-tags" aria-label="${t('keywords_label')}">
         ${keywords.map(kw => `<span class="tag">${kw}</span>`).join('')}
       </div>`;
