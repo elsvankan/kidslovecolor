@@ -65,7 +65,9 @@ CAT_HINTS = {
         'a positive, fun, kid-friendly current-events or news theme. Depict the general idea only — '
         'never a real, specific, recognizable named person (no politicians, celebrities or athletes\' '
         'likenesses), never a real brand name, logo or trademarked mascot. Keep it purely celebratory '
-        'and age-appropriate: no politics, conflict, disasters or sad topics.'
+        'and age-appropriate: no politics, conflict, disasters or sad topics. Any vehicles or technical '
+        'objects (rockets, ships, capsules) should look rounded, friendly and simplified like a '
+        'storybook illustration, not a technically accurate blueprint or realistic engineering render.'
     ),
 }
 
@@ -657,23 +659,23 @@ TOPIC_POOL = [
     # ── In het Nieuws (actualiteiten) — wekelijkse selectie van echt,
     #    actueel, kindvriendelijk nieuws per regio. Geen herkenbare echte
     #    personen/merken/logo's, geen politiek of verdrietig nieuws.
-    dict(cat='actualiteiten', diff='medium', desc='children helping baby sea turtles crawl from the beach to the ocean at night under a full moon', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='children helping baby sea turtles crawl from the beach to the ocean at night under a full moon', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Baby Zeeschildpadjes Helpen naar de Zee te Kruipen', en='Children Helping Baby Sea Turtles Crawl to the Ocean',
         fr="Des Enfants Aidant des Bébés Tortues de Mer à Rejoindre l'Océan", es='Niños Ayudando a Bebés Tortugas Marinas a Llegar al Océano', zh='孩子们帮助小海龟爬向大海',
         country='nl')),
-    dict(cat='actualiteiten', diff='medium', desc='astronauts splashing down in the ocean inside a space capsule with parachutes after a space station mission, greeted by a recovery boat', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='astronauts splashing down in the ocean inside a space capsule with parachutes after a space station mission, greeted by a recovery boat', landscape=True, style='standard', titles=dict(
         nl='Astronauten die Terugkeren naar de Aarde met een Ruimtecapsule aan Parachutes boven de Oceaan', en='Astronauts Returning to Earth in a Space Capsule With Parachutes Over the Ocean',
         fr="Des Astronautes de Retour sur Terre en Capsule Spatiale avec des Parachutes au-Dessus de l'Océan", es='Astronautas Regresando a la Tierra en una Cápsula Espacial con Paracaídas sobre el Océano', zh='宇航员乘坐带降落伞的太空舱返回地球，降落在海洋上空',
         country='en')),
-    dict(cat='actualiteiten', diff='medium', desc='children cheering at a european swimming championship in a big pool with flags and diving blocks', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='children cheering at a european swimming championship in a big pool with flags and diving blocks', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Juichen bij een Europees Zwemkampioenschap in een Groot Zwembad met Vlaggetjes', en='Children Cheering at a European Swimming Championship in a Big Pool With Flags',
         fr="Des Enfants Encourageant lors d'un Championnat d'Europe de Natation dans une Grande Piscine avec des Drapeaux", es='Niños Animando en un Campeonato Europeo de Natación en una Gran Piscina con Banderas', zh='孩子们在挂满旗帜的大泳池边为欧洲游泳锦标赛欢呼',
         country='fr')),
-    dict(cat='actualiteiten', diff='medium', desc='soccer players celebrating winning a world championship trophy with confetti and a spanish flag', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='soccer players celebrating winning a world championship trophy with confetti and a spanish flag', landscape=True, style='cozy', titles=dict(
         nl='Voetballers die een Wereldkampioenschap Vieren met een Beker, Confetti en de Spaanse Vlag', en='Soccer Players Celebrating a World Championship With a Trophy, Confetti and the Spanish Flag',
         fr="Des Joueurs de Football Célébrant un Championnat du Monde avec un Trophée, des Confettis et le Drapeau Espagnol", es='Futbolistas Celebrando un Campeonato Mundial con un Trofeo, Confeti y la Bandera de España', zh='足球运动员举着奖杯、伴着彩带和西班牙国旗庆祝世界冠军',
         country='es')),
-    dict(cat='actualiteiten', diff='medium', desc='a giant cargo ship covered in solar panels carrying cars across the ocean', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a giant cargo ship covered in solar panels carrying cars across the ocean', landscape=True, style='standard', titles=dict(
         nl="Een Enorm Vrachtschip vol Zonnepanelen dat Auto's over de Oceaan Vervoert", en='A Giant Cargo Ship Covered in Solar Panels Carrying Cars Across the Ocean',
         fr="Un Immense Cargo Recouvert de Panneaux Solaires Transportant des Voitures sur l'Océan", es='Un Enorme Buque de Carga Cubierto de Paneles Solares Transportando Coches por el Océano', zh='一艘布满太阳能板的巨型货船正运载汽车穿越海洋',
         country='cn')),
