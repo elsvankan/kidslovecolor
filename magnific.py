@@ -786,7 +786,10 @@ def _slugify(text):
 
 
 def _filename_for(category, difficulty, description):
-    return f'{category}--{difficulty}--{_slugify(description)}.jpg'
+    slug = _slugify(description)
+    if len(slug) > 120:
+        slug = slug[:120].rsplit('-', 1)[0]
+    return f'{category}--{difficulty}--{slug}.jpg'
 
 
 def _headers(key):
