@@ -65,9 +65,12 @@ CAT_HINTS = {
         'a positive, fun, kid-friendly current-events or news theme. Depict the general idea only — '
         'never a real, specific, recognizable named person (no politicians, celebrities or athletes\' '
         'likenesses), never a real brand name, logo or trademarked mascot. Keep it purely celebratory '
-        'and age-appropriate: no politics, conflict, disasters or sad topics. Any vehicles or technical '
-        'objects (rockets, ships, capsules) should look rounded, friendly and simplified like a '
-        'storybook illustration, not a technically accurate blueprint or realistic engineering render.'
+        'and age-appropriate: no politics, conflict, disasters or sad topics. Vehicles and technical '
+        'objects (rockets, ships, capsules, cars) must be drawn as realistic, recognizable inanimate '
+        'objects — never give them a face, eyes, smile or personality; keep the linework clean and '
+        'simplified for a coloring page, but geometrically accurate to the real object, not a cute '
+        'cartoon character. When a group of people is shown (a team, a crowd, a celebration), include '
+        'a natural mix of boys and girls or men and women, not a single gender only.'
     ),
 }
 
@@ -659,7 +662,7 @@ TOPIC_POOL = [
     # ── In het Nieuws (actualiteiten) — wekelijkse selectie van echt,
     #    actueel, kindvriendelijk nieuws per regio. Geen herkenbare echte
     #    personen/merken/logo's, geen politiek of verdrietig nieuws.
-    dict(cat='actualiteiten', diff='hard', desc='children helping baby sea turtles crawl from the beach to the ocean at night under a full moon', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='two children gently guiding baby sea turtles across the sand toward the ocean at night under a full moon, using small red-light flashlights instead of white light so the turtles are not disturbed', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Baby Zeeschildpadjes Helpen naar de Zee te Kruipen', en='Children Helping Baby Sea Turtles Crawl to the Ocean',
         fr="Des Enfants Aidant des Bébés Tortues de Mer à Rejoindre l'Océan", es='Niños Ayudando a Bebés Tortugas Marinas a Llegar al Océano', zh='孩子们帮助小海龟爬向大海',
         country='nl', newsExplainer=dict(
@@ -668,7 +671,7 @@ TOPIC_POOL = [
             fr="Savais-tu qu'il existe 356 espèces de tortues sur Terre ? Certaines tortues de mer sont menacées, alors des bénévoles aident les bébés tortues à ramper en toute sécurité de la plage jusqu'à l'océan pendant la nuit. Une émission scientifique néerlandaise pour enfants a récemment montré combien il est important de prendre soin des tortues !",
             es="¿Sabías que existen 356 especies de tortugas en el mundo? Algunas tortugas marinas están en peligro, así que los voluntarios ayudan a las crías a llegar sanas y salvas desde la playa hasta el mar por la noche. ¡Un programa infantil de ciencia neerlandés mostró hace poco lo importante que es cuidar a las tortugas!",
             zh="你知道地球上有356种乌龟吗？有些海龟濒临灭绝，所以志愿者们会在夜间帮助刚孵化的小海龟安全地从沙滩爬向大海。荷兰一档少儿科普节目最近介绍了保护海龟有多么重要！"))),
-    dict(cat='actualiteiten', diff='hard', desc='astronauts splashing down in the ocean inside a space capsule with parachutes after a space station mission, greeted by a recovery boat', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='astronauts splashing down in the ocean inside a realistic space capsule with parachutes after a space station mission, a small recovery boat nearby with ordinary sailors in life jackets waiting to help, no other rockets or spacecraft in the sky', landscape=True, style='standard', titles=dict(
         nl='Astronauten die Terugkeren naar de Aarde met een Ruimtecapsule aan Parachutes boven de Oceaan', en='Astronauts Returning to Earth in a Space Capsule With Parachutes Over the Ocean',
         fr="Des Astronautes de Retour sur Terre en Capsule Spatiale avec des Parachutes au-Dessus de l'Océan", es='Astronautas Regresando a la Tierra en una Cápsula Espacial con Paracaídas sobre el Océano', zh='宇航员乘坐带降落伞的太空舱返回地球，降落在海洋上空',
         country='en', newsExplainer=dict(
@@ -677,7 +680,7 @@ TOPIC_POOL = [
             fr="Le 26 juillet, un astronaute de la NASA et deux cosmonautes russes sont revenus sur Terre après avoir passé 241 jours à bord de la Station spatiale internationale ! Leur capsule est descendue en douceur dans l'océan grâce à des parachutes, où une équipe de récupération les attendait.",
             es='El 26 de julio, un astronauta de la NASA y dos cosmonautas rusos regresaron a la Tierra tras pasar 241 días a bordo de la Estación Espacial Internacional. Su cápsula descendió suavemente hacia el océano con paracaídas, donde un equipo de rescate los esperaba.',
             zh='7月26日，一名NASA宇航员和两名俄罗斯宇航员在国际空间站度过241天后返回地球！他们乘坐的太空舱借助降落伞轻轻降落在海洋上，救援团队早已等候在那里迎接他们。'))),
-    dict(cat='actualiteiten', diff='hard', desc='children cheering at a european swimming championship in a big pool with flags and diving blocks', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='swimmers racing in the lanes of a big swimming pool at a european championship, a modest-sized crowd of spectators seated in stadium stands cheering, a few plain blank flags along the poolside with no icons or patterns on them', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Juichen bij een Europees Zwemkampioenschap in een Groot Zwembad met Vlaggetjes', en='Children Cheering at a European Swimming Championship in a Big Pool With Flags',
         fr="Des Enfants Encourageant lors d'un Championnat d'Europe de Natation dans une Grande Piscine avec des Drapeaux", es='Niños Animando en un Campeonato Europeo de Natación en una Gran Piscina con Banderas', zh='孩子们在挂满旗帜的大泳池边为欧洲游泳锦标赛欢呼',
         country='fr', newsExplainer=dict(
@@ -686,7 +689,7 @@ TOPIC_POOL = [
             fr="Les Championnats d'Europe de natation débutent à Paris fin juillet ! Des nageurs venus de toute l'Europe se retrouvent pour s'affronter dans le bassin, pendant que les supporters les encouragent avec des drapeaux.",
             es='¡Los Campeonatos Europeos de Natación comienzan en París a finales de julio! Nadadores de toda Europa se reúnen para competir en la piscina, mientras los aficionados los animan con banderas.',
             zh='欧洲游泳锦标赛将于7月底在巴黎拉开帷幕！来自欧洲各地的游泳运动员齐聚泳池一较高下，观众们挥舞着旗帜为他们加油助威。'))),
-    dict(cat='actualiteiten', diff='hard', desc='soccer players celebrating winning a world championship trophy with confetti and a spanish flag', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a mixed group of male and female soccer players celebrating winning a world championship trophy together with confetti falling around them in a stadium', landscape=True, style='cozy', titles=dict(
         nl='Voetballers die een Wereldkampioenschap Vieren met een Beker, Confetti en de Spaanse Vlag', en='Soccer Players Celebrating a World Championship With a Trophy, Confetti and the Spanish Flag',
         fr="Des Joueurs de Football Célébrant un Championnat du Monde avec un Trophée, des Confettis et le Drapeau Espagnol", es='Futbolistas Celebrando un Campeonato Mundial con un Trofeo, Confeti y la Bandera de España', zh='足球运动员举着奖杯、伴着彩带和西班牙国旗庆祝世界冠军',
         country='es', newsExplainer=dict(
@@ -695,7 +698,7 @@ TOPIC_POOL = [
             fr="L'Espagne a récemment remporté un grand championnat du monde de football ! Dans tout le pays, on a fêté ça avec des drapeaux, des confettis et un immense trophée doré.",
             es='¡España ganó hace poco un gran Campeonato Mundial de fútbol! En todo el país se celebró con banderas, confeti y un enorme trofeo dorado.',
             zh='西班牙最近夺得了盛大的足球世界冠军！举国上下挥舞旗帜、抛洒彩带，庆祝这枚金光闪闪的大奖杯。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a giant cargo ship covered in solar panels carrying cars across the ocean', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a large realistic car-carrier cargo ship with a tall boxy hull and rows of small vent openings sailing on the open ocean, a grid of many flat rectangular solar panels covering the flat top deck, no cars visible outside the ship', landscape=True, style='standard', titles=dict(
         nl="Een Enorm Vrachtschip vol Zonnepanelen dat Auto's over de Oceaan Vervoert", en='A Giant Cargo Ship Covered in Solar Panels Carrying Cars Across the Ocean',
         fr="Un Immense Cargo Recouvert de Panneaux Solaires Transportant des Voitures sur l'Océan", es='Un Enorme Buque de Carga Cubierto de Paneles Solares Transportando Coches por el Océano', zh='一艘布满太阳能板的巨型货船正运载汽车穿越海洋',
         country='cn', newsExplainer=dict(
@@ -754,6 +757,9 @@ def _build_prompt(description, category, difficulty, style='standard'):
     text_rule = (
         'The letter itself may appear as the main decorative shape.'
         if category == 'letters' else
+        'Do not include any text, letters, words, banners, signs or writing anywhere in the image — '
+        'AI-generated text is often misspelled or garbled, so avoid it entirely here.'
+        if category == 'actualiteiten' else
         'Small incidental text is allowed if it naturally belongs in the scene (a book cover, a small '
         'sign, a label on a jar), but never a large prominent title, caption or word dominating the image.'
     )
