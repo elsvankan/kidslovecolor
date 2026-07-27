@@ -69,8 +69,7 @@ CAT_HINTS = {
         'objects (rockets, ships, capsules, cars) must be drawn as realistic, recognizable inanimate '
         'objects — never give them a face, eyes, smile or personality; keep the linework clean and '
         'simplified for a coloring page, but geometrically accurate to the real object, not a cute '
-        'cartoon character. When a group of people is shown (a team, a crowd, a celebration), include '
-        'a natural mix of boys and girls or men and women, not a single gender only.'
+        'cartoon character.'
     ),
 }
 
@@ -689,7 +688,7 @@ TOPIC_POOL = [
             fr="Les Championnats d'Europe de natation débutent à Paris fin juillet ! Des nageurs venus de toute l'Europe se retrouvent pour s'affronter dans le bassin, pendant que les supporters les encouragent avec des drapeaux.",
             es='¡Los Campeonatos Europeos de Natación comienzan en París a finales de julio! Nadadores de toda Europa se reúnen para competir en la piscina, mientras los aficionados los animan con banderas.',
             zh='欧洲游泳锦标赛将于7月底在巴黎拉开帷幕！来自欧洲各地的游泳运动员齐聚泳池一较高下，观众们挥舞着旗帜为他们加油助威。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a soccer team of five players celebrating winning a world championship trophy together with confetti falling around them in a stadium, the team is unmistakably a mix of boys and girls — at least two players are girls with long hair or ponytails, clearly feminine features, standing alongside boys with short hair', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a soccer team of five male players celebrating winning a world championship trophy together with confetti falling around them in a stadium', landscape=True, style='cozy', titles=dict(
         nl='Voetballers die een Wereldkampioenschap Vieren met een Beker en Confetti', en='Soccer Players Celebrating a World Championship With a Trophy and Confetti',
         fr="Des Joueurs de Football Célébrant un Championnat du Monde avec un Trophée et des Confettis", es='Futbolistas Celebrando un Campeonato Mundial con un Trofeo y Confeti', zh='足球运动员举着奖杯、伴着彩带庆祝世界冠军',
         country='es', newsExplainer=dict(
