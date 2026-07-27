@@ -717,7 +717,7 @@ TOPIC_POOL = [
             fr="De plus en plus d'enfants apprennent le « bushcraft » : survivre et construire dans la nature avec ce qu'on y trouve. Une émission néerlandaise pour enfants a récemment montré comment construire un abri avec des branches et allumer un petit feu en toute sécurité.",
             es='Cada vez más niños aprenden "bushcraft": sobrevivir y construir en la naturaleza usando solo lo que encuentran al aire libre. Un programa infantil neerlandés mostró hace poco cómo construir un refugio con ramas y encender una pequeña hoguera de forma segura.',
             zh='越来越多的孩子在学习"荒野生存技能"：只用大自然中能找到的东西来生存和搭建。荷兰一档少儿节目最近展示了如何用树枝搭建庇护所，以及如何安全地生一小堆篝火。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a small slender shark with spotted patterned skin, clearly using its two front fins like little legs to walk along a shallow coral reef seafloor between rocks and coral, surrounded by colorful fish', landscape=True, style='standard', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a small slender shark with spotted patterned skin, clearly using its two front fins like little legs to walk along a shallow coral reef seafloor between rocks and coral, surrounded by colorful fish, not holding or interacting with any object, only an underwater coral reef scene with no boats, ships, rockets, satellites or any surface-level or sky elements visible', landscape=True, style='standard', titles=dict(
         nl='Nieuwe Wandelende Haaiensoort Ontdekt op een Koraalrif', en='New Walking Shark Species Discovered on a Coral Reef',
         fr="Nouvelle Espèce de Requin Marcheur Découverte sur un Récif Corallien", es='Nueva Especie de Tiburón Caminante Descubierta en un Arrecife de Coral', zh='珊瑚礁上发现新的会走路的鲨鱼物种',
         country='en', newsExplainer=dict(
@@ -726,7 +726,7 @@ TOPIC_POOL = [
             fr="Des scientifiques ont découvert une toute nouvelle espèce de requin qui ne nage pas mais « marche » sur le fond du récif corallien avec ses nageoires ! C'est le dixième requin marcheur connu au monde, découvert lors d'une plongée de nuit.",
             es='¡Los científicos han descubierto una nueva especie de tiburón que no nada, sino que "camina" por el fondo del arrecife de coral con sus aletas! Es el décimo tiburón caminante conocido en el mundo, descubierto durante una inmersión nocturna.',
             zh='科学家发现了一种全新的鲨鱼物种，它不靠游泳，而是用鱼鳍在珊瑚礁海底"行走"！这是世界上已知的第十种会走路的鲨鱼，是在一次夜间潜水中被发现的。'))),
-    dict(cat='actualiteiten', diff='hard', desc='a small group of about 8 children sitting on the grass watching a colorful puppet show and a juggler perform on a small outdoor stage at a summer festival, plain bunting flags overhead with no patterns or text', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='a small group of about 8 children sitting on the grass watching a colorful puppet show and a juggler perform on a small outdoor stage at a summer festival, plain bunting flags overhead with no patterns or text, a simple park setting with trees and flowers only, no rockets, no boats, no hot air balloons, no space or sci-fi elements anywhere', landscape=True, style='cozy', titles=dict(
         nl='Kinderen die Genieten van een Circus- en Poppenkastfestival in de Zomer', en='Children Enjoying a Circus and Puppet Festival in Summer',
         fr="Des Enfants Profitant d'un Festival de Cirque et de Marionnettes en Été", es='Niños Disfrutando de un Festival de Circo y Marionetas en Verano', zh='孩子们在夏日马戏木偶节上开心游玩',
         country='fr', newsExplainer=dict(
