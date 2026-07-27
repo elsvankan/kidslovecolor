@@ -901,5 +901,50 @@
       "es": "¡Un centro de conservación de pandas en China recibió este verano una pareja de cachorros de panda gemelos, los primeros gemelos nacidos allí este año! Los pequeños pesan apenas 200 gramos al nacer, pero crecen muy rápido gracias al cuidado de sus cuidadores.",
       "zh": "今年夏天，中国一家大熊猫保护中心迎来了一对双胞胎幼崽——这是今年诞生的第一对双胞胎！小家伙们出生时体重还不到200克，但在饲养员的悉心照顾下正快速成长。"
     }
+  },
+  "actualiteiten--hard--a-small-slender-shark-with-spotted-patterned-skin-clearly-using-its-two-front-fins-like-little-legs-to-walk-along-a.jpg": {
+    "nl": "Nieuwe Wandelende Haaiensoort Ontdekt op een Koraalrif",
+    "en": "New Walking Shark Species Discovered on a Coral Reef",
+    "fr": "Nouvelle Espèce de Requin Marcheur Découverte sur un Récif Corallien",
+    "es": "Nueva Especie de Tiburón Caminante Descubierta en un Arrecife de Coral",
+    "zh": "珊瑚礁上发现新的会走路的鲨鱼物种",
+    "country": "en",
+    "newsExplainer": {
+      "nl": "Wetenschappers hebben een gloednieuwe haaiensoort ontdekt die niet zwemt maar met zijn vinnen over de bodem van het koraalrif \"loopt\"! Het is de tiende bekende wandelende haai ter wereld en hij werd gevonden tijdens een nachtelijke duik.",
+      "en": "Scientists have discovered a brand-new species of shark that doesn't swim but \"walks\" across the coral reef floor using its fins! It's the tenth known walking shark species in the world, and it was found during a nighttime dive.",
+      "fr": "Des scientifiques ont découvert une toute nouvelle espèce de requin qui ne nage pas mais « marche » sur le fond du récif corallien avec ses nageoires ! C'est le dixième requin marcheur connu au monde, découvert lors d'une plongée de nuit.",
+      "es": "¡Los científicos han descubierto una nueva especie de tiburón que no nada, sino que \"camina\" por el fondo del arrecife de coral con sus aletas! Es el décimo tiburón caminante conocido en el mundo, descubierto durante una inmersión nocturna.",
+      "zh": "科学家发现了一种全新的鲨鱼物种，它不靠游泳，而是用鱼鳍在珊瑚礁海底\"行走\"！这是世界上已知的第十种会走路的鲨鱼，是在一次夜间潜水中被发现的。"
+    }
+  },
+  "actualiteiten--hard--a-small-group-of-about-8-children-sitting-on-the-grass-watching-a-colorful-puppet-show-and-a-juggler-perform-on-a-small.jpg": {
+    "nl": "Kinderen die Genieten van een Circus- en Poppenkastfestival in de Zomer",
+    "en": "Children Enjoying a Circus and Puppet Festival in Summer",
+    "fr": "Des Enfants Profitant d'un Festival de Cirque et de Marionnettes en Été",
+    "es": "Niños Disfrutando de un Festival de Circo y Marionetas en Verano",
+    "zh": "孩子们在夏日马戏木偶节上开心游玩",
+    "country": "fr",
+    "newsExplainer": {
+      "nl": "In Bretagne (Frankrijk) is een groot zomerfestival speciaal voor kinderen begonnen, met circus, poppenkast, goochelaars en verhalenvertellers. Het is al de 12e keer dat dit gratis familiefestival wordt gehouden!",
+      "en": "A big summer festival made especially for kids has kicked off in Brittany, France, with circus acts, puppet shows, magicians and storytellers. It's the 12th year this free family festival has been held!",
+      "fr": "Un grand festival d'été spécialement conçu pour les enfants a débuté en Bretagne, avec du cirque, des marionnettes, des magiciens et des conteurs. C'est la 12e édition de ce festival familial gratuit !",
+      "es": "¡Ha comenzado en Bretaña, Francia, un gran festival de verano hecho especialmente para niños, con circo, marionetas, magos y cuentacuentos! Es la 12ª edición de este festival familiar gratuito.",
+      "zh": "法国布列塔尼地区专为孩子们打造的夏日大型节庆开幕啦，有马戏表演、木偶戏、魔术师和讲故事的人。这已经是这个免费家庭节庆举办的第12届了！"
+    }
+  },
+  "actualiteiten--hard--a-small-group-of-about-6-people-in-a-spanish-town-square-joyfully-throwing-ripe-red-tomatoes-at-each-other-tomatoes.jpg": {
+    "nl": "Vrolijk Tomatengevecht Festival in een Spaans Stadje",
+    "en": "Joyful Tomato-Throwing Festival in a Spanish Town",
+    "fr": "Joyeuse Bataille de Tomates dans une Ville Espagnole",
+    "es": "Alegre Batalla de Tomates en un Pueblo Español",
+    "zh": "西班牙小镇的欢乐番茄大战节",
+    "country": "es",
+    "newsExplainer": {
+      "nl": "Elk jaar aan het eind van augustus gooien duizenden mensen in het Spaanse stadje Buñol met rijpe tomaten naar elkaar tijdens La Tomatina — een van de vrolijkste en rommeligste feesten ter wereld!",
+      "en": "Every year at the end of August, thousands of people in the Spanish town of Buñol throw ripe tomatoes at each other during La Tomatina — one of the messiest and most joyful festivals in the world!",
+      "fr": "Chaque année fin août, des milliers de personnes dans la ville espagnole de Buñol se lancent des tomates mûres pendant La Tomatina — l'une des fêtes les plus joyeuses et les plus salissantes au monde !",
+      "es": "¡Cada año a finales de agosto, miles de personas en el pueblo español de Buñol se lanzan tomates maduros durante La Tomatina, una de las fiestas más alegres y desordenadas del mundo!",
+      "zh": "每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是\"番茄大战\"（La Tomatina）——世界上最欢乐也最\"乱\"的节日之一！"
+    }
   }
 }

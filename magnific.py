@@ -744,7 +744,7 @@ TOPIC_POOL = [
             fr="Chaque année fin août, des milliers de personnes dans la ville espagnole de Buñol se lancent des tomates mûres pendant La Tomatina — l'une des fêtes les plus joyeuses et les plus salissantes au monde !",
             es='¡Cada año a finales de agosto, miles de personas en el pueblo español de Buñol se lanzan tomates maduros durante La Tomatina, una de las fiestas más alegres y desordenadas del mundo!',
             zh='每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是"番茄大战"（La Tomatina）——世界上最欢乐也最"乱"的节日之一！'))),
-    dict(cat='actualiteiten', diff='hard', desc='two caretakers wearing plain uniforms gently weighing and bottle-feeding twin baby panda cubs with visible black-and-white fuzzy fur, in a cozy nursery room at a panda conservation center', landscape=True, style='cozy', titles=dict(
+    dict(cat='actualiteiten', diff='hard', desc='two caretakers wearing plain uniforms gently weighing and bottle-feeding twin baby panda cubs, drawn as real young animals with visible individual fur linework and realistic panda anatomy and proportions, not smooth or rounded like a plush stuffed toy, in a cozy nursery room at a panda conservation center', landscape=True, style='cozy', titles=dict(
         nl='Verzorgers die voor Pasgeboren Tweeling Pandawelpjes Zorgen', en='Caretakers Looking After Newborn Twin Panda Cubs',
         fr="Des Soigneurs qui S'occupent de Bébés Pandas Jumeaux Nouveau-nés", es='Cuidadores Atendiendo a Cachorros de Panda Gemelos Recién Nacidos', zh='饲养员悉心照顾刚出生的大熊猫双胞胎幼崽',
         country='cn', newsExplainer=dict(
