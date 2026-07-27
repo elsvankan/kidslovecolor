@@ -41,7 +41,7 @@ A4_LANDSCAPE = (1754, 1240)
 VALID_CATS = {
     'dieren','voertuigen','prinsessen','seizoenen','feestdagen',
     'eten','kawaii','natuur','sprookjes','ruimte','oceaan',
-    'letters','mandala','gezichten','beroepen',
+    'letters','mandala','gezichten','beroepen','actualiteiten',
 }
 
 # Stijlhints per categorie voor de prompt
@@ -61,6 +61,12 @@ CAT_HINTS = {
     'mandala':    'symmetrical mandala pattern, geometric repeating design',
     'gezichten':  'cute character face, expressive portrait, simple face features',
     'beroepen':   'person doing a job or profession, friendly character, work scene',
+    'actualiteiten': (
+        'a positive, fun, kid-friendly current-events or news theme. Depict the general idea only — '
+        'never a real, specific, recognizable named person (no politicians, celebrities or athletes\' '
+        'likenesses), never a real brand name, logo or trademarked mascot. Keep it purely celebratory '
+        'and age-appropriate: no politics, conflict, disasters or sad topics.'
+    ),
 }
 
 # Categorieën waar een mens de hoofdfiguur is — hier passen we automatische

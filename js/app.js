@@ -31,6 +31,7 @@ function resolveThumbPath(img) {
 let activeCategory  = 'all';
 let searchQuery     = '';
 let currentColoring = null;
+let selectedCountry = 'all';
 
 // Base URL map for canonical / schema
 const BASE_URL_MAP = {
@@ -76,6 +77,8 @@ const TRANSLATIONS = {
     card_aria:          'Gratis kleurplaat: {title}, categorie {cat}, moeilijkheid {diff}',
     all_free_label:     'Alle gratis kleurplaten',
     free_cat_label:     'Gratis {label} kleurplaten',
+    all_countries_label:      'Alle landen',
+    filter_by_country_label:  'Filter op land:',
   },
   en: {
     all_pages:          'All coloring pages',
@@ -105,6 +108,8 @@ const TRANSLATIONS = {
     card_aria:          'Free coloring page: {title}, category {cat}, difficulty {diff}',
     all_free_label:     'All free coloring pages',
     free_cat_label:     'Free {label} coloring pages',
+    all_countries_label:      'All countries',
+    filter_by_country_label:  'Filter by country:',
   },
   fr: {
     all_pages:          'Toutes les pages à colorier',
@@ -134,6 +139,8 @@ const TRANSLATIONS = {
     card_aria:          'Page à colorier gratuite : {title}, catégorie {cat}, difficulté {diff}',
     all_free_label:     'Toutes les pages à colorier gratuites',
     free_cat_label:     'Pages à colorier {label} gratuites',
+    all_countries_label:      'Tous les pays',
+    filter_by_country_label:  'Filtrer par pays :',
   },
   es: {
     all_pages:          'Todas las páginas para colorear',
@@ -163,6 +170,8 @@ const TRANSLATIONS = {
     card_aria:          'Página para colorear gratis: {title}, categoría {cat}, dificultad {diff}',
     all_free_label:     'Todas las páginas para colorear gratis',
     free_cat_label:     'Páginas para colorear de {label} gratis',
+    all_countries_label:      'Todos los países',
+    filter_by_country_label:  'Filtrar por país:',
   },
   zh: {
     all_pages:          '所有涂色页',
@@ -192,6 +201,8 @@ const TRANSLATIONS = {
     card_aria:          '免费涂色页：{title}，类别 {cat}，难度 {diff}',
     all_free_label:     '所有免费涂色页',
     free_cat_label:     '免费{label}涂色页',
+    all_countries_label:      '所有国家',
+    filter_by_country_label:  '按国家筛选：',
   },
 };
 
@@ -200,6 +211,7 @@ const TRANSLATIONS = {
 // -------------------------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
   renderCategories();
+  renderCountryFilter();
   renderGrid();
   setupSearch();
   setupModal();
@@ -400,10 +412,12 @@ function renderCategories() {
   nav.querySelectorAll('.cat-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       activeCategory = btn.dataset.cat;
+      selectedCountry = 'all';
       nav.querySelectorAll('.cat-btn').forEach(b => {
         b.classList.toggle('active', b.dataset.cat === activeCategory);
         b.setAttribute('aria-pressed', b.dataset.cat === activeCategory);
       });
+      renderCountryFilter();
       renderGrid();
       updateSEO(activeCategory);
       const newUrl = activeCategory === 'all'
@@ -411,6 +425,48 @@ function renderCategories() {
         : window.location.pathname + '?cat=' + encodeURIComponent(activeCategory);
       history.replaceState({ cat: activeCategory }, '', newUrl);
     });
+  });
+}
+
+// -------------------------------------------------------
+// COUNTRY FILTER (alleen zichtbaar bij categorie "In het Nieuws")
+// -------------------------------------------------------
+function renderCountryFilter() {
+  const intro = document.getElementById('categoryIntro');
+  if (!intro || typeof NEWS_REGIONS === 'undefined') return;
+
+  let bar = document.getElementById('countryFilterBar');
+
+  if (activeCategory !== 'actualiteiten') {
+    if (bar) bar.style.display = 'none';
+    return;
+  }
+
+  if (!bar) {
+    bar = document.createElement('div');
+    bar.id = 'countryFilterBar';
+    bar.className = 'country-filter-bar';
+    intro.insertAdjacentElement('afterend', bar);
+  }
+  bar.style.display = '';
+
+  const allLabel = t('all_countries_label');
+  const options = [`<option value="all">${allLabel}</option>`]
+    .concat(Object.entries(NEWS_REGIONS).map(([code, region]) => {
+      const label = region[currentLang] || region.nl;
+      const selected = selectedCountry === code ? 'selected' : '';
+      return `<option value="${code}" ${selected}>${region.flag} ${label}</option>`;
+    }))
+    .join('');
+
+  bar.innerHTML = `
+    <label for="countryFilterSelect">${t('filter_by_country_label')}</label>
+    <select id="countryFilterSelect">${options}</select>
+  `;
+
+  document.getElementById('countryFilterSelect').addEventListener('change', (e) => {
+    selectedCountry = e.target.value;
+    renderGrid();
   });
 }
 
@@ -429,13 +485,15 @@ function renderGrid() {
     : null;
 
   const filtered = COLORINGS.filter(item => {
-    const matchCat    = activeCategory === 'all' ? true
-                       : activeCategory === 'nieuw' ? newestIds.has(item.id)
-                       : item.category === activeCategory;
+    const matchCat     = activeCategory === 'all' ? true
+                        : activeCategory === 'nieuw' ? newestIds.has(item.id)
+                        : item.category === activeCategory;
+    const matchCountry = activeCategory !== 'actualiteiten' || selectedCountry === 'all'
+                        || item.country === selectedCountry;
     const ld          = item[currentLang] || item.nl;
     const searchIn    = (ld.title + ' ' + ld.keywords + ' ' + item.category).toLowerCase();
     const matchSearch = !searchQuery || searchIn.includes(searchQuery.toLowerCase());
-    return matchCat && matchSearch;
+    return matchCat && matchCountry && matchSearch;
   });
 
   if (activeCategory === 'nieuw') {

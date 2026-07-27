@@ -448,7 +448,27 @@ const CATEGORIES = {
     slug_en: 'professions',
   },
 
+  actualiteiten: {
+    nl: { label: 'In het Nieuws', pageTitle: 'Actualiteiten Kleurplaten voor Kinderen – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Leuk, kindvriendelijk wereldnieuws omgezet in gratis kleurplaten — ruimtevaart, dierennieuws, festivals en meer, uit Nederland en de rest van de wereld.', h2: 'Actualiteiten Kleurplaten – Gratis Printbaar', intro: 'Elke week vertalen we leuk, kindvriendelijk nieuws uit de wereld naar een nieuwe kleurplaat. Filter hieronder op land om te zien wat er speelt!' },
+    en: { label: 'In the News', pageTitle: 'Current Events Coloring Pages for Kids – Free Printable | KidsLoveColor.com', metaDesc: 'Fun, kid-friendly world news turned into free coloring pages — space missions, animal news, festivals and more, from the US, UK and beyond.', h2: 'Current Events Coloring Pages – Free Printable', intro: 'Every week we turn fun, kid-friendly news from around the world into a new coloring page. Filter below by country to see what\'s happening!' },
+    fr: { label: 'Dans l\'Actualité', pageTitle: 'Pages à Colorier Actualités pour Enfants – Gratuit | KidsLoveColor.com', metaDesc: 'De l\'actualité mondiale amusante et adaptée aux enfants transformée en pages à colorier gratuites — missions spatiales, actualités animalières, festivals et plus.', h2: 'Pages à Colorier Actualités – Gratuit', intro: 'Chaque semaine, nous transformons une actualité amusante et adaptée aux enfants en nouvelle page à colorier. Filtrez par pays ci-dessous !' },
+    es: { label: 'En las Noticias', pageTitle: 'Páginas para Colorear de Actualidad para Niños – Gratis | KidsLoveColor.com', metaDesc: 'Noticias del mundo divertidas y aptas para niños convertidas en páginas para colorear gratis — misiones espaciales, noticias de animales, festivales y más.', h2: 'Páginas para Colorear de Actualidad – Gratis', intro: '¡Cada semana convertimos una noticia divertida y apta para niños en una nueva página para colorear! Filtra por país abajo.' },
+    zh: { label: '新闻热点', pageTitle: '时事涂色页 – 免费打印 | KidsLoveColor.com', metaDesc: '把有趣又适合儿童的世界新闻变成免费涂色页——太空任务、动物新闻、节日庆典等，来自世界各地。', h2: '时事涂色页 – 免费打印', intro: '我们每周把一条有趣、适合儿童的新闻变成新的涂色页！在下面按国家筛选，看看正在发生什么。' },
+    icon: '📰',
+    slug_en: 'in-the-news',
+  },
 
+};
+
+// -------------------------------------------------------
+// NIEUWSREGIO'S — voor de landfilter binnen "In het Nieuws"
+// -------------------------------------------------------
+const NEWS_REGIONS = {
+  nl: { flag: '🇳🇱', nl: 'Nederland', en: 'Netherlands', fr: 'Pays-Bas', es: 'Países Bajos', zh: '荷兰' },
+  en: { flag: '🇬🇧', nl: 'VS & VK', en: 'US & UK', fr: 'É.-U. et R.-U.', es: 'EE. UU. y R.U.', zh: '美国和英国' },
+  fr: { flag: '🇫🇷', nl: 'Frankrijk', en: 'France', fr: 'France', es: 'Francia', zh: '法国' },
+  es: { flag: '🇪🇸', nl: 'Spanje & Latijns-Amerika', en: 'Spain & Latin America', fr: 'Espagne et Amérique latine', es: 'España y Latinoamérica', zh: '西班牙和拉丁美洲' },
+  cn: { flag: '🇨🇳', nl: 'China', en: 'China', fr: 'Chine', es: 'China', zh: '中国' },
 };
 
 // -------------------------------------------------------
