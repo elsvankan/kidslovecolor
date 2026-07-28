@@ -285,152 +285,324 @@ h4 {
 }
 
 .earth-teaser {
-  background: #a8cfd1;
-  color: #243a3c;
+  background:
+    radial-gradient(circle at 14% 16%, rgba(168, 207, 209, 0.14), transparent 24%),
+    #243a3c;
+  color: #fff;
   display: grid;
-  gap: clamp(38px, 6vw, 90px);
-  grid-template-columns: minmax(0, 0.8fr) minmax(540px, 1.2fr);
+  gap: clamp(48px, 7vw, 110px);
+  grid-template-columns: minmax(0, 0.78fr) minmax(560px, 1.22fr);
   overflow: hidden;
-  padding: clamp(72px, 8vw, 118px) clamp(24px, 7vw, 110px);
+  padding: clamp(86px, 9vw, 138px) clamp(24px, 7vw, 110px) clamp(116px, 11vw, 160px);
   position: relative;
 }
 
-.earth-teaser::before,
-.earth-teaser::after {
-  border: 1px solid rgba(36, 58, 60, 0.17);
+.earth-teaser::before {
+  border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
   content: "";
+  height: 450px;
+  left: -280px;
   pointer-events: none;
   position: absolute;
-}
-
-.earth-teaser::before {
-  height: 330px;
-  right: -105px;
-  top: -175px;
-  width: 330px;
-}
-
-.earth-teaser::after {
-  bottom: -215px;
-  height: 420px;
-  left: 34%;
-  width: 420px;
+  top: -250px;
+  width: 450px;
 }
 
 .earth-teaser-copy,
-.earth-teaser-stories {
+.earth-teaser-visual {
   position: relative;
   z-index: 1;
 }
 
 .earth-teaser-kicker {
+  align-items: center;
+  display: flex;
   font-size: 11px;
   font-weight: 850;
+  gap: 12px;
   letter-spacing: 0.13em;
-  margin: 0 0 14px;
+  margin: 0 0 20px;
   text-transform: uppercase;
 }
 
+.earth-teaser-kicker span {
+  background: #edcf62;
+  border-radius: 999px;
+  color: #243a3c;
+  padding: 8px 10px 7px;
+}
+
 .earth-teaser h2 {
-  font-size: clamp(55px, 6.2vw, 92px);
+  font-size: clamp(68px, 7.5vw, 112px);
   font-weight: 500;
-  letter-spacing: -0.055em;
-  line-height: 0.9;
+  letter-spacing: -0.07em;
+  line-height: 0.76;
   margin: 0;
 }
 
+.earth-teaser h2 span,
+.earth-teaser h2 em {
+  display: block;
+}
+
+.earth-teaser h2 em {
+  color: #f3dce5;
+  font-weight: 500;
+  margin-left: 0.46em;
+}
+
 .earth-teaser-lead {
+  color: #d9e3e3;
   font-size: clamp(15px, 1.3vw, 18px);
   line-height: 1.65;
-  margin: 28px 0 0;
+  margin: 38px 0 0;
   max-width: 520px;
+}
+
+.earth-teaser-facts {
+  display: flex;
+  gap: 12px 22px;
+  margin-top: 30px;
+}
+
+.earth-teaser-facts span {
+  align-items: baseline;
+  color: #bfcfcf;
+  display: flex;
+  font-size: 10px;
+  font-weight: 800;
+  gap: 5px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.earth-teaser-facts strong {
+  color: #edcf62;
+  font-family: var(--klc-display);
+  font-size: 25px;
+  font-weight: 500;
 }
 
 .earth-teaser-button {
   align-items: center;
-  background: #243a3c;
+  background: #f1a8bb;
   border-radius: 999px;
-  color: #fff;
+  color: #243a3c;
   display: inline-flex;
   font-size: 12px;
   font-weight: 800;
   gap: 28px;
-  margin-top: 30px;
-  min-height: 52px;
-  padding: 0 22px;
+  margin-top: 34px;
+  min-height: 56px;
+  padding: 0 24px;
   transition: box-shadow 180ms ease, transform 180ms ease;
 }
 
 .earth-teaser-button:hover,
 .earth-teaser-button:focus-visible {
-  box-shadow: 0 14px 28px rgba(36, 58, 60, 0.2);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25);
   transform: translateY(-3px);
 }
 
-.earth-teaser-stories {
-  display: grid;
-  gap: 14px;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+.earth-teaser-visual {
+  min-height: 590px;
 }
 
-.earth-story-chip {
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(36, 58, 60, 0.14);
-  border-radius: 22px;
-  color: #243a3c;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  min-height: 190px;
-  padding: 22px;
-  transition: box-shadow 180ms ease, transform 180ms ease;
-}
-
-.earth-story-chip:hover,
-.earth-story-chip:focus-visible {
-  box-shadow: 0 18px 38px rgba(36, 58, 60, 0.13);
-  transform: translateY(-5px) rotate(-1deg);
-}
-
-.earth-story-chip-main {
-  background: #f5ddd0;
-  grid-row: span 2;
-  min-height: 394px;
-}
-
-.earth-story-chip > span {
-  align-items: center;
-  background: rgba(255, 255, 255, 0.63);
+.earth-teaser-globe {
+  background: #edcf62;
   border-radius: 50%;
-  display: flex;
-  font-size: 28px;
-  height: 58px;
-  justify-content: center;
-  margin-bottom: auto;
-  width: 58px;
+  height: min(38vw, 550px);
+  max-height: 550px;
+  max-width: 550px;
+  overflow: hidden;
+  position: absolute;
+  right: 5%;
+  top: 1%;
+  width: min(38vw, 550px);
 }
 
-.earth-story-chip-main > span {
-  font-size: 64px;
-  height: 130px;
-  width: 130px;
+.earth-teaser-globe::before,
+.earth-teaser-globe::after,
+.earth-teaser-globe i {
+  border: 1px solid rgba(36, 58, 60, 0.3);
+  border-radius: 50%;
+  content: "";
+  position: absolute;
 }
 
-.earth-story-chip small {
+.earth-teaser-globe::before {
+  inset: 8% 30%;
+}
+
+.earth-teaser-globe::after {
+  inset: 30% 8%;
+}
+
+.earth-teaser-globe i:nth-child(1) {
+  inset: 3% 18%;
+  transform: rotate(50deg);
+}
+
+.earth-teaser-globe i:nth-child(2) {
+  inset: 18% 3%;
+  transform: rotate(-35deg);
+}
+
+.earth-teaser-globe i:nth-child(3) {
+  border-radius: 45%;
+  inset: 43% 15%;
+  transform: rotate(12deg);
+}
+
+.earth-globe-dot {
+  background: #243a3c;
+  border: 5px solid rgba(255, 255, 255, 0.7);
+  border-radius: 50%;
+  box-shadow: 0 8px 18px rgba(36, 58, 60, 0.2);
+  height: 19px;
+  position: absolute;
+  width: 19px;
+}
+
+.earth-globe-dot-one { left: 22%; top: 36%; }
+.earth-globe-dot-two { right: 24%; top: 24%; }
+.earth-globe-dot-three { bottom: 26%; right: 34%; }
+
+.earth-teaser-paper {
+  background: #fff;
+  box-shadow: 0 25px 50px rgba(0, 0, 0, 0.27);
+  color: #243a3c;
+  padding: 12px 12px 16px;
+  position: absolute;
+  transition: transform 180ms ease;
+  width: clamp(180px, 17vw, 250px);
+  z-index: 3;
+}
+
+.earth-teaser-paper:hover,
+.earth-teaser-paper:focus-visible {
+  transform: rotate(0deg) translateY(-6px);
+}
+
+.earth-teaser-paper-dolphin {
+  left: 0;
+  top: 8%;
+  transform: rotate(-7deg);
+}
+
+.earth-teaser-paper-space {
+  bottom: 0;
+  right: 2%;
+  transform: rotate(6deg);
+}
+
+.earth-teaser-paper > span {
+  display: block;
   font-size: 9px;
   font-weight: 850;
   letter-spacing: 0.1em;
-  margin-bottom: 8px;
+  margin: 2px 2px 10px;
   text-transform: uppercase;
 }
 
-.earth-story-chip strong {
+.earth-teaser-paper img {
+  aspect-ratio: 0.86;
+  background: #f8f6f1;
+  display: block;
+  object-fit: contain;
+  width: 100%;
+}
+
+.earth-teaser-paper strong {
+  display: block;
   font-family: var(--klc-display);
-  font-size: clamp(21px, 2vw, 30px);
+  font-size: clamp(17px, 1.45vw, 21px);
   font-weight: 500;
   letter-spacing: -0.035em;
   line-height: 1.05;
+  margin: 13px 2px 0;
+}
+
+.earth-teaser-edition {
+  background: #f3dce5;
+  border: 1px solid rgba(36, 58, 60, 0.12);
+  bottom: 5%;
+  color: #243a3c;
+  display: flex;
+  flex-direction: column;
+  left: 16%;
+  min-height: 205px;
+  padding: 24px;
+  position: absolute;
+  transform: rotate(-2deg);
+  transition: box-shadow 180ms ease, transform 180ms ease;
+  width: clamp(220px, 21vw, 310px);
+  z-index: 4;
+}
+
+.earth-teaser-edition:hover,
+.earth-teaser-edition:focus-visible {
+  box-shadow: 0 24px 46px rgba(0, 0, 0, 0.22);
+  transform: rotate(0deg) translateY(-5px);
+}
+
+.earth-teaser-edition small {
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.earth-teaser-edition > strong {
+  font-family: var(--klc-display);
+  font-size: clamp(30px, 2.7vw, 43px);
+  font-weight: 500;
+  line-height: 0.95;
+  margin: 22px 0;
+}
+
+.earth-teaser-edition > span {
+  align-items: center;
+  border-top: 1px solid rgba(36, 58, 60, 0.22);
+  display: flex;
+  font-size: 10px;
+  font-weight: 800;
+  justify-content: space-between;
+  margin-top: auto;
+  padding-top: 14px;
+}
+
+.earth-teaser-edition b {
+  font-size: 18px;
+}
+
+.earth-teaser-ticker {
+  align-items: center;
+  background: #a8cfd1;
+  bottom: 0;
+  color: #243a3c;
+  display: flex;
+  gap: clamp(15px, 2.2vw, 34px);
+  height: 49px;
+  justify-content: center;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  white-space: nowrap;
+}
+
+.earth-teaser-ticker span {
+  font-size: 10px;
+  font-weight: 850;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.earth-teaser-ticker i {
+  color: #a94f73;
+  font-style: normal;
 }
 
 .category-nav {
@@ -927,6 +1099,15 @@ h4 {
   .earth-teaser {
     grid-template-columns: 1fr;
   }
+
+  .earth-teaser-visual {
+    min-height: 630px;
+  }
+
+  .earth-teaser-globe {
+    height: min(64vw, 550px);
+    width: min(64vw, 550px);
+  }
 }
 
 @media (max-width: 800px) {
@@ -977,7 +1158,17 @@ h4 {
   }
 
   .earth-teaser {
-    padding: 72px 22px;
+    padding: 78px 22px 112px;
+  }
+
+  .earth-teaser-visual {
+    min-height: 570px;
+  }
+
+  .earth-teaser-globe {
+    height: min(76vw, 500px);
+    right: 0;
+    width: min(76vw, 500px);
   }
 
   .coloring-grid {
@@ -1035,14 +1226,74 @@ h4 {
   }
 
   .coloring-grid,
-  .support-menu,
-  .earth-teaser-stories {
+  .support-menu {
     grid-template-columns: 1fr;
   }
 
-  .earth-story-chip-main {
-    grid-row: auto;
-    min-height: 290px;
+  .earth-teaser {
+    padding: 70px 18px 102px;
+  }
+
+  .earth-teaser h2 {
+    font-size: clamp(62px, 20vw, 88px);
+  }
+
+  .earth-teaser h2 em {
+    margin-left: 0.24em;
+  }
+
+  .earth-teaser-facts {
+    flex-wrap: wrap;
+  }
+
+  .earth-teaser-visual {
+    margin-top: 10px;
+    min-height: 500px;
+  }
+
+  .earth-teaser-globe {
+    height: 330px;
+    right: -34px;
+    top: 30px;
+    width: 330px;
+  }
+
+  .earth-teaser-paper {
+    padding: 8px 8px 11px;
+    width: 148px;
+  }
+
+  .earth-teaser-paper-dolphin {
+    left: -3px;
+    top: 0;
+  }
+
+  .earth-teaser-paper-space {
+    bottom: 0;
+    right: -4px;
+  }
+
+  .earth-teaser-paper strong {
+    font-size: 15px;
+    margin-top: 9px;
+  }
+
+  .earth-teaser-edition {
+    bottom: 100px;
+    left: 18%;
+    min-height: 178px;
+    padding: 18px;
+    width: 210px;
+  }
+
+  .earth-teaser-edition > strong {
+    font-size: 29px;
+    margin: 17px 0;
+  }
+
+  .earth-teaser-ticker {
+    justify-content: flex-start;
+    padding-left: 18px;
   }
 
   .support-story h2 {
