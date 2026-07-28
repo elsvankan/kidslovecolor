@@ -1055,5 +1055,33 @@
     "newsQuestion": {
       "nl": "Welke naam zou jij geven aan een planeet die zich lang verstopt?"
     }
+  },
+  "letters--easy--the-letter-a-decorated-with-a-cute-apple-simple-bold-shapes.jpg": {
+    "nl": "Letter A met een Appel",
+    "en": "Letter A with an Apple",
+    "fr": "Lettre A avec une Pomme",
+    "es": "Letra A con una Manzana",
+    "zh": "字母A和苹果"
+  },
+  "letters--easy--the-letter-b-decorated-with-a-cute-butterfly-simple-bold-shapes.jpg": {
+    "nl": "Letter B met een Vlinder",
+    "en": "Letter B with a Butterfly",
+    "fr": "Lettre B avec un Papillon",
+    "es": "Letra B con una Mariposa",
+    "zh": "字母B和蝴蝶"
+  },
+  "letters--easy--the-letter-m-decorated-with-a-cute-crescent-moon-simple-bold-shapes.jpg": {
+    "nl": "Letter M met een Maan",
+    "en": "Letter M with a Moon",
+    "fr": "Lettre M avec une Lune",
+    "es": "Letra M con una Luna",
+    "zh": "字母M和月亮"
+  },
+  "letters--easy--the-letter-r-decorated-with-a-cute-rocket-simple-bold-shapes.jpg": {
+    "nl": "Letter R met een Raket",
+    "en": "Letter R with a Rocket",
+    "fr": "Lettre R avec une Fusée",
+    "es": "Letra R con un Cohete",
+    "zh": "字母R和火箭"
   }
 }
