@@ -857,7 +857,10 @@ def _build_prompt(description, category, difficulty, style='standard'):
         'Close-up portrait framing is fine here.'
     )
     text_rule = (
-        'The letter itself may appear as the main decorative shape.'
+        'The single large letter itself is the main decorative shape, but do not add any other spelled-out '
+        'word, label or caption anywhere in the image (for example do not write out the name of the object) '
+        '— AI-generated text is often misspelled or garbled and this site is multilingual, so a caption in '
+        'one language would be wrong for the rest.'
         if category == 'letters' else
         'Do not include any text, letters, words, banners, signs or writing anywhere in the image — '
         'AI-generated text is often misspelled or garbled, so avoid it entirely here.'

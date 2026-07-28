@@ -3099,15 +3099,6 @@ const COLORINGS = [
     es: { title: 'Letra M con una Luna', description: 'Página para colorear letra gratis de letra m con una luna. Colorear educativo para niños.', keywords: 'letra m con una luna colorear letras gratis niños', altText: 'Página para colorear letra m con una luna – niños' },
     zh: { title: '字母M和月亮', description: '免费字母字母m和月亮涂色页，适合儿童的教育涂色。', keywords: '字母m和月亮 字母涂色 免费儿童', altText: '免费涂色页 字母M和月亮 – 儿童' },
   },
-  {
-    id: 334, slug: 'the-letter-r-decorated-with-a-cute-rocket-simple-bold-shapes', category: 'letters', difficulty: 'easy',
-    img: '../img/kleurplaten/letters--easy--the-letter-r-decorated-with-a-cute-rocket-simple-bold-shapes.jpg',
-    nl: { title: 'Letter R met een Raket', description: 'Gratis letterkleurplaat van letter r met een raket. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter r met een raket letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter r met een raket – kinderen' },
-    en: { title: 'Letter R with a Rocket', description: 'Free letter coloring page of letter r with a rocket. Educational coloring page for kids.', keywords: 'letter r with a rocket letter coloring page free kids', altText: 'Free coloring page letter r with a rocket – kids' },
-    fr: { title: 'Lettre R avec une Fusée', description: 'Page à colorier lettre gratuite de lettre r avec une fusée. Coloriage éducatif pour les enfants.', keywords: 'lettre r avec une fusée coloriage lettre gratuit enfants', altText: 'Page à colorier lettre r avec une fusée – enfants' },
-    es: { title: 'Letra R con un Cohete', description: 'Página para colorear letra gratis de letra r con un cohete. Colorear educativo para niños.', keywords: 'letra r con un cohete colorear letras gratis niños', altText: 'Página para colorear letra r con un cohete – niños' },
-    zh: { title: '字母R和火箭', description: '免费字母字母r和火箭涂色页，适合儿童的教育涂色。', keywords: '字母r和火箭 字母涂色 免费儿童', altText: '免费涂色页 字母R和火箭 – 儿童' },
-  },
 
 ];
 
