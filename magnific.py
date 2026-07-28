@@ -57,7 +57,12 @@ CAT_HINTS = {
     'sprookjes':  'fairy tale magical scene, enchanted fantasy',
     'ruimte':     'outer space scene, stars, planets, rockets',
     'oceaan':     'underwater ocean scene, sea creatures, coral',
-    'letters':    'decorative alphabet letter, ornamental design',
+    'letters':    (
+        'a large bold alphabet letter paired with one simple, instantly recognizable object that starts '
+        'with that letter. Keep it clean and uncluttered — a single friendly illustration, never a busy '
+        'mandala, paisley pattern, or dense wreath of tiny repeating shapes. Plenty of open white space '
+        'left to color.'
+    ),
     'mandala':    'symmetrical mandala pattern, geometric repeating design',
     'gezichten':  'cute character face, expressive portrait, simple face features',
     'beroepen':   'person doing a job or profession, friendly character, work scene',
