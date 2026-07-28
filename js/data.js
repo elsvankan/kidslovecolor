@@ -3072,34 +3072,6 @@ const COLORINGS = [
     zh: { title: '孩子们探索受保护的印度河豚', description: '免费时事涂色页：孩子们探索受保护的印度河豚。适合儿童的有趣时事涂色。', keywords: '孩子们探索受保护的印度河豚 时事涂色 免费儿童', altText: '免费涂色页 孩子们探索受保护的印度河豚 – 儿童', newsExplainer: '巴基斯坦珍稀的印度河豚有了新的保护家园。保护区沿印度河延伸约198公里，并涵盖五条河流交汇的地区。' },
   },
 
-  {
-    id: 331, slug: 'the-letter-a-decorated-with-a-cute-apple-simple-bold-shapes', category: 'letters', difficulty: 'easy',
-    img: '../img/kleurplaten/letters--easy--the-letter-a-decorated-with-a-cute-apple-simple-bold-shapes.jpg',
-    nl: { title: 'Letter A met een Appel', description: 'Gratis letterkleurplaat van letter a met een appel. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter a met een appel letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter a met een appel – kinderen' },
-    en: { title: 'Letter A with an Apple', description: 'Free letter coloring page of letter a with an apple. Educational coloring page for kids.', keywords: 'letter a with an apple letter coloring page free kids', altText: 'Free coloring page letter a with an apple – kids' },
-    fr: { title: 'Lettre A avec une Pomme', description: 'Page à colorier lettre gratuite de lettre a avec une pomme. Coloriage éducatif pour les enfants.', keywords: 'lettre a avec une pomme coloriage lettre gratuit enfants', altText: 'Page à colorier lettre a avec une pomme – enfants' },
-    es: { title: 'Letra A con una Manzana', description: 'Página para colorear letra gratis de letra a con una manzana. Colorear educativo para niños.', keywords: 'letra a con una manzana colorear letras gratis niños', altText: 'Página para colorear letra a con una manzana – niños' },
-    zh: { title: '字母A和苹果', description: '免费字母字母a和苹果涂色页，适合儿童的教育涂色。', keywords: '字母a和苹果 字母涂色 免费儿童', altText: '免费涂色页 字母A和苹果 – 儿童' },
-  },
-  {
-    id: 332, slug: 'the-letter-b-decorated-with-a-cute-butterfly-simple-bold-shapes', category: 'letters', difficulty: 'easy',
-    img: '../img/kleurplaten/letters--easy--the-letter-b-decorated-with-a-cute-butterfly-simple-bold-shapes.jpg',
-    nl: { title: 'Letter B met een Vlinder', description: 'Gratis letterkleurplaat van letter b met een vlinder. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter b met een vlinder letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter b met een vlinder – kinderen' },
-    en: { title: 'Letter B with a Butterfly', description: 'Free letter coloring page of letter b with a butterfly. Educational coloring page for kids.', keywords: 'letter b with a butterfly letter coloring page free kids', altText: 'Free coloring page letter b with a butterfly – kids' },
-    fr: { title: 'Lettre B avec un Papillon', description: 'Page à colorier lettre gratuite de lettre b avec un papillon. Coloriage éducatif pour les enfants.', keywords: 'lettre b avec un papillon coloriage lettre gratuit enfants', altText: 'Page à colorier lettre b avec un papillon – enfants' },
-    es: { title: 'Letra B con una Mariposa', description: 'Página para colorear letra gratis de letra b con una mariposa. Colorear educativo para niños.', keywords: 'letra b con una mariposa colorear letras gratis niños', altText: 'Página para colorear letra b con una mariposa – niños' },
-    zh: { title: '字母B和蝴蝶', description: '免费字母字母b和蝴蝶涂色页，适合儿童的教育涂色。', keywords: '字母b和蝴蝶 字母涂色 免费儿童', altText: '免费涂色页 字母B和蝴蝶 – 儿童' },
-  },
-  {
-    id: 333, slug: 'the-letter-m-decorated-with-a-cute-crescent-moon-simple-bold-shapes', category: 'letters', difficulty: 'easy',
-    img: '../img/kleurplaten/letters--easy--the-letter-m-decorated-with-a-cute-crescent-moon-simple-bold-shapes.jpg',
-    nl: { title: 'Letter M met een Maan', description: 'Gratis letterkleurplaat van letter m met een maan. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter m met een maan letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter m met een maan – kinderen' },
-    en: { title: 'Letter M with a Moon', description: 'Free letter coloring page of letter m with a moon. Educational coloring page for kids.', keywords: 'letter m with a moon letter coloring page free kids', altText: 'Free coloring page letter m with a moon – kids' },
-    fr: { title: 'Lettre M avec une Lune', description: 'Page à colorier lettre gratuite de lettre m avec une lune. Coloriage éducatif pour les enfants.', keywords: 'lettre m avec une lune coloriage lettre gratuit enfants', altText: 'Page à colorier lettre m avec une lune – enfants' },
-    es: { title: 'Letra M con una Luna', description: 'Página para colorear letra gratis de letra m con una luna. Colorear educativo para niños.', keywords: 'letra m con una luna colorear letras gratis niños', altText: 'Página para colorear letra m con una luna – niños' },
-    zh: { title: '字母M和月亮', description: '免费字母字母m和月亮涂色页，适合儿童的教育涂色。', keywords: '字母m和月亮 字母涂色 免费儿童', altText: '免费涂色页 字母M和月亮 – 儿童' },
-  },
-
 ];
 
 // Expose on window so inline scripts can access the count
