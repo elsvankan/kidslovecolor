@@ -307,16 +307,85 @@ TOPIC_POOL = [
         nl='Zeemeermin Zittend op een Rots bij de Zee', en='Mermaid Sitting on a Rock by the Sea',
         fr='Sirène Assise sur un Rocher au Bord de la Mer', es='Sirena Sentada en una Roca junto al Mar', zh='坐在海边岩石上的美人鱼')),
 
-    # letters — decoratief, portret
-    dict(cat='letters', diff='medium', desc='letter A decorated with apples and ants', landscape=False, titles=dict(
-        nl='Letter A Versierd met Appels en Mieren', en='Letter A Decorated With Apples and Ants',
-        fr='Lettre A Décorée de Pommes et de Fourmis', es='Letra A Decorada con Manzanas y Hormigas', zh='用苹果和蚂蚁装饰的字母A')),
-    dict(cat='letters', diff='medium', desc='letter B decorated with butterflies', landscape=False, titles=dict(
-        nl='Letter B Versierd met Vlinders', en='Letter B Decorated With Butterflies',
-        fr='Lettre B Décorée de Papillons', es='Letra B Decorada con Mariposas', zh='用蝴蝶装饰的字母B')),
-    dict(cat='letters', diff='medium', desc='letter S decorated with stars and a sun', landscape=False, titles=dict(
-        nl='Letter S Versierd met Sterren en een Zon', en='Letter S Decorated With Stars and a Sun',
-        fr="Lettre S Décorée d'Étoiles et d'un Soleil", es='Letra S Decorada con Estrellas y un Sol', zh='用星星和太阳装饰的字母S')),
+    # letters — één letter per naam-beginletter, unisex object, geen mandala/paisley
+    dict(cat='letters', diff='easy', desc='the letter A decorated with a cute apple, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter A met een Appel', en='Letter A with an Apple',
+        fr='Lettre A avec une Pomme', es='Letra A con una Manzana', zh='字母A和苹果')),
+    dict(cat='letters', diff='easy', desc='the letter B decorated with a cute butterfly, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter B met een Vlinder', en='Letter B with a Butterfly',
+        fr='Lettre B avec un Papillon', es='Letra B con una Mariposa', zh='字母B和蝴蝶')),
+    dict(cat='letters', diff='easy', desc='the letter C decorated with a cute car, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter C met een Auto', en='Letter C with a Car',
+        fr='Lettre C avec une Voiture', es='Letra C con un Coche', zh='字母C和汽车')),
+    dict(cat='letters', diff='easy', desc='the letter D decorated with a cute dinosaur, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter D met een Dinosaurus', en='Letter D with a Dinosaur',
+        fr='Lettre D avec un Dinosaure', es='Letra D con un Dinosaurio', zh='字母D和恐龙')),
+    dict(cat='letters', diff='easy', desc='the letter E decorated with a cute elephant, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter E met een Olifant', en='Letter E with an Elephant',
+        fr='Lettre E avec un Éléphant', es='Letra E con un Elefante', zh='字母E和大象')),
+    dict(cat='letters', diff='easy', desc='the letter F decorated with a cute fish, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter F met een Vis', en='Letter F with a Fish',
+        fr='Lettre F avec un Poisson', es='Letra F con un Pez', zh='字母F和鱼')),
+    dict(cat='letters', diff='easy', desc='the letter G decorated with a cute guitar, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter G met een Gitaar', en='Letter G with a Guitar',
+        fr='Lettre G avec une Guitare', es='Letra G con una Guitarra', zh='字母G和吉他')),
+    dict(cat='letters', diff='easy', desc='the letter H decorated with a cute helicopter, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter H met een Helikopter', en='Letter H with a Helicopter',
+        fr='Lettre H avec un Hélicoptère', es='Letra H con un Helicóptero', zh='字母H和直升机')),
+    dict(cat='letters', diff='easy', desc='the letter I decorated with a cute ice cream cone, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter I met een IJsje', en='Letter I with an Ice Cream Cone',
+        fr='Lettre I avec une Glace', es='Letra I con un Helado', zh='字母I和冰淇淋')),
+    dict(cat='letters', diff='easy', desc='the letter J decorated with a cute jellyfish, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter J met een Kwal', en='Letter J with a Jellyfish',
+        fr='Lettre J avec une Méduse', es='Letra J con una Medusa', zh='字母J和水母')),
+    dict(cat='letters', diff='easy', desc='the letter K decorated with a cute kite, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter K met een Vlieger', en='Letter K with a Kite',
+        fr='Lettre K avec un Cerf-volant', es='Letra K con una Cometa', zh='字母K和风筝')),
+    dict(cat='letters', diff='easy', desc='the letter L decorated with a cute lion, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter L met een Leeuw', en='Letter L with a Lion',
+        fr='Lettre L avec un Lion', es='Letra L con un León', zh='字母L和狮子')),
+    dict(cat='letters', diff='easy', desc='the letter M decorated with a cute crescent moon, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter M met een Maan', en='Letter M with a Moon',
+        fr='Lettre M avec une Lune', es='Letra M con una Luna', zh='字母M和月亮')),
+    dict(cat='letters', diff='easy', desc='the letter N decorated with a cute narwhal, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter N met een Narwal', en='Letter N with a Narwhal',
+        fr='Lettre N avec un Narval', es='Letra N con un Narval', zh='字母N和独角鲸')),
+    dict(cat='letters', diff='easy', desc='the letter O decorated with a cute octopus, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter O met een Octopus', en='Letter O with an Octopus',
+        fr='Lettre O avec un Poulpe', es='Letra O con un Pulpo', zh='字母O和章鱼')),
+    dict(cat='letters', diff='easy', desc='the letter P decorated with a cute penguin, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter P met een Pinguïn', en='Letter P with a Penguin',
+        fr='Lettre P avec un Pingouin', es='Letra P con un Pingüino', zh='字母P和企鹅')),
+    dict(cat='letters', diff='easy', desc='the letter Q decorated with a cute quokka, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter Q met een Quokka', en='Letter Q with a Quokka',
+        fr='Lettre Q avec un Quokka', es='Letra Q con un Quokka', zh='字母Q和短尾矮袋鼠')),
+    dict(cat='letters', diff='easy', desc='the letter R decorated with a cute rocket, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter R met een Raket', en='Letter R with a Rocket',
+        fr='Lettre R avec une Fusée', es='Letra R con un Cohete', zh='字母R和火箭')),
+    dict(cat='letters', diff='easy', desc='the letter S decorated with a cute star, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter S met een Ster', en='Letter S with a Star',
+        fr='Lettre S avec une Étoile', es='Letra S con una Estrella', zh='字母S和星星')),
+    dict(cat='letters', diff='easy', desc='the letter T decorated with a cute truck, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter T met een Vrachtwagen', en='Letter T with a Truck',
+        fr='Lettre T avec un Camion', es='Letra T con un Camión', zh='字母T和卡车')),
+    dict(cat='letters', diff='easy', desc='the letter U decorated with a cute umbrella, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter U met een Paraplu', en='Letter U with an Umbrella',
+        fr='Lettre U avec un Parapluie', es='Letra U con un Paraguas', zh='字母U和雨伞')),
+    dict(cat='letters', diff='easy', desc='the letter V decorated with a cute volcano, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter V met een Vulkaan', en='Letter V with a Volcano',
+        fr='Lettre V avec un Volcan', es='Letra V con un Volcán', zh='字母V和火山')),
+    dict(cat='letters', diff='easy', desc='the letter W decorated with a cute whale, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter W met een Walvis', en='Letter W with a Whale',
+        fr='Lettre W avec une Baleine', es='Letra W con una Ballena', zh='字母W和鲸鱼')),
+    dict(cat='letters', diff='easy', desc='the letter X decorated with a cute xylophone, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter X met een Xylofoon', en='Letter X with a Xylophone',
+        fr='Lettre X avec un Xylophone', es='Letra X con un Xilófono', zh='字母X和木琴')),
+    dict(cat='letters', diff='easy', desc='the letter Y decorated with a cute yo-yo, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter Y met een Jojo', en='Letter Y with a Yo-yo',
+        fr='Lettre Y avec un Yoyo', es='Letra Y con un Yoyó', zh='字母Y和溜溜球')),
+    dict(cat='letters', diff='easy', desc='the letter Z decorated with a cute zebra, simple bold shapes', landscape=False, titles=dict(
+        nl='Letter Z met een Zebra', en='Letter Z with a Zebra',
+        fr='Lettre Z avec un Zèbre', es='Letra Z con una Cebra', zh='字母Z和斑马')),
 
     # mandala — altijd portret, symmetrisch
     dict(cat='mandala', diff='hard', desc='animal themed mandala with birds', landscape=False, titles=dict(
