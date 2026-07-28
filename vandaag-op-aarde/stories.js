@@ -46,7 +46,7 @@ const WORLD_STORY_EDITIONS = [
         sourceLabel: 'WWF',
         sourceUrl: 'https://www.worldwildlife.org/news/stories/indus-river-dolphins-benefit-from-new-protected-area-in-pakistan/',
         referenceUrl: 'https://www.worldwildlife.org/news/stories/indus-river-dolphins-benefit-from-new-protected-area-in-pakistan/',
-        coloringSlug: 'dolphins-ocean',
+        coloringSlug: 'indus-river-dolphin-sanctuary-pakistan',
       },
       {
         slug: 'bilbies-krijgen-hulp',
@@ -66,6 +66,7 @@ const WORLD_STORY_EDITIONS = [
         sourceLabel: 'NSW Government',
         sourceUrl: 'https://www.nsw.gov.au/ministerial-releases/native-species-back-from-brink-nsw-commits-to-next-decade-of-wildlife-recovery',
         referenceUrl: 'https://www.nationalparks.nsw.gov.au/plants-and-animals/bilby',
+        coloringSlug: 'greater-bilby-recovery-new-south-wales',
       },
       {
         slug: 'miljoen-zonnepanelen',
@@ -85,6 +86,7 @@ const WORLD_STORY_EDITIONS = [
         sourceLabel: 'NASA Earth Observatory',
         sourceUrl: 'https://science.nasa.gov/earth/earth-observatory/a-million-panel-project/',
         referenceUrl: 'https://science.nasa.gov/earth/earth-observatory/a-million-panel-project/',
+        coloringSlug: 'green-river-million-solar-panels-utah',
       },
       {
         slug: 'planeet-speelt-verstoppertje',
@@ -104,7 +106,7 @@ const WORLD_STORY_EDITIONS = [
         sourceLabel: 'NASA Webb',
         sourceUrl: 'https://science.nasa.gov/missions/webb/nasas-webb-discovers-hidden-planet-in-famous-star-system/',
         referenceUrl: 'https://www.esa.int/ESA_Multimedia/Images/2026/07/Beta_Pictoris_system_NIRSpec_IFU_image_and_spectrum',
-        coloringSlug: 'outer-space-planets',
+        coloringSlug: 'beta-pictoris-d-hidden-exoplanet',
       },
     ],
   },
