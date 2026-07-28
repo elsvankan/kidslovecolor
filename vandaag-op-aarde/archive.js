@@ -1,4 +1,18 @@
 (() => {
+  const globe = document.querySelector('[data-world-globe]');
+  if (globe) {
+    const views = [
+      'earth-north-america.webp',
+      'earth-americas.webp',
+      'earth-europe-africa.webp',
+      'earth-africa.webp',
+      'earth-asia.webp',
+    ];
+    const randomIndex = Math.floor(Math.random() * views.length);
+    globe.addEventListener('load', () => globe.classList.add('is-ready'), { once: true });
+    globe.src = `/img/vandaag-op-aarde/globes/${views[randomIndex]}`;
+  }
+
   const archive = document.getElementById('editionArchive');
   if (!archive || typeof WORLD_STORY_EDITIONS === 'undefined') return;
 

@@ -132,62 +132,30 @@
 
 .earth-globe {
   aspect-ratio: 1;
-  background:
-    radial-gradient(circle at 34% 32%, rgba(255, 255, 255, 0.62), transparent 18%),
-    rgba(255, 255, 255, 0.19);
-  border: 1px solid rgba(36, 58, 60, 0.2);
+  background: #f7f7f7;
   border-radius: 50%;
+  box-shadow: 0 35px 75px rgba(36, 58, 60, 0.27);
   margin: auto;
   max-width: 560px;
+  overflow: hidden;
   position: relative;
   width: 100%;
 }
 
-.earth-globe::before,
-.earth-globe::after,
-.earth-globe-line {
-  border: 1px solid rgba(36, 58, 60, 0.2);
-  border-radius: 50%;
-  content: "";
+.earth-globe-image {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  opacity: 0;
   position: absolute;
+  transform: scale(1.075);
+  transition: opacity 500ms ease;
+  width: 100%;
 }
 
-.earth-globe::before {
-  inset: 10% 32%;
+.earth-globe-image.is-ready {
+  opacity: 1;
 }
-
-.earth-globe::after {
-  inset: 32% 10%;
-}
-
-.earth-globe-line-one {
-  inset: 4% 22%;
-  transform: rotate(54deg);
-}
-
-.earth-globe-line-two {
-  inset: 22% 4%;
-  transform: rotate(-32deg);
-}
-
-.earth-globe-item {
-  align-items: center;
-  background: var(--earth-paper);
-  border: 1px solid rgba(36, 58, 60, 0.16);
-  border-radius: 50%;
-  box-shadow: 0 15px 30px rgba(36, 58, 60, 0.11);
-  display: flex;
-  font-size: clamp(25px, 4vw, 48px);
-  height: clamp(64px, 9vw, 104px);
-  justify-content: center;
-  position: absolute;
-  width: clamp(64px, 9vw, 104px);
-}
-
-.earth-globe-item-one { left: 8%; top: 42%; }
-.earth-globe-item-two { right: 12%; top: 12%; }
-.earth-globe-item-three { bottom: 10%; right: 18%; }
-.earth-globe-item-four { left: 35%; top: 27%; }
 
 .earth-intro {
   background: var(--earth-ink);
