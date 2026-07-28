@@ -1055,5 +1055,33 @@
     "newsQuestion": {
       "nl": "Welke naam zou jij geven aan een planeet die zich lang verstopt?"
     }
+  },
+  "letters--easy--the-letter-a-decorated-with-a-small-simple-sprig-of-leaves-and-one-little-flower-simple-bold-shapes.jpg": {
+    "nl": "Letter A met Blaadjes",
+    "en": "Letter A with Leaves",
+    "fr": "Lettre A avec des Feuilles",
+    "es": "Letra A con Hojas",
+    "zh": "字母A和叶子"
+  },
+  "letters--easy--the-letter-b-decorated-with-a-small-simple-roundtopped-tree-simple-bold-shapes.jpg": {
+    "nl": "Letter B met een Boompje",
+    "en": "Letter B with a Little Tree",
+    "fr": "Lettre B avec un Petit Arbre",
+    "es": "Letra B con un Arbolito",
+    "zh": "字母B和小树"
+  },
+  "letters--easy--the-letter-c-decorated-with-a-small-fluffy-cloud-simple-bold-shapes.jpg": {
+    "nl": "Letter C met een Wolkje",
+    "en": "Letter C with a Cloud",
+    "fr": "Lettre C avec un Nuage",
+    "es": "Letra C con una Nube",
+    "zh": "字母C和云朵"
+  },
+  "letters--easy--the-letter-d-decorated-with-a-small-gentle-wave-of-water-and-a-few-droplets-simple-bold-shapes.jpg": {
+    "nl": "Letter D met Water",
+    "en": "Letter D with Water",
+    "fr": "Lettre D avec de l'Eau",
+    "es": "Letra D con Agua",
+    "zh": "字母D和水波"
   }
 }

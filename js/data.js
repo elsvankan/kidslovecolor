@@ -3072,6 +3072,43 @@ const COLORINGS = [
     zh: { title: '孩子们探索受保护的印度河豚', description: '免费时事涂色页：孩子们探索受保护的印度河豚。适合儿童的有趣时事涂色。', keywords: '孩子们探索受保护的印度河豚 时事涂色 免费儿童', altText: '免费涂色页 孩子们探索受保护的印度河豚 – 儿童', newsExplainer: '巴基斯坦珍稀的印度河豚有了新的保护家园。保护区沿印度河延伸约198公里，并涵盖五条河流交汇的地区。' },
   },
 
+  {
+    id: 331, slug: 'the-letter-a-decorated-with-a-small-simple-sprig-of-leaves-and-one-little-flower-simple-bold-shapes', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/letters--easy--the-letter-a-decorated-with-a-small-simple-sprig-of-leaves-and-one-little-flower-simple-bold-shapes.jpg',
+    nl: { title: 'Letter A met Blaadjes', description: 'Gratis letterkleurplaat van letter a met blaadjes. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter a met blaadjes letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter a met blaadjes – kinderen' },
+    en: { title: 'Letter A with Leaves', description: 'Free letter coloring page of letter a with leaves. Educational coloring page for kids.', keywords: 'letter a with leaves letter coloring page free kids', altText: 'Free coloring page letter a with leaves – kids' },
+    fr: { title: 'Lettre A avec des Feuilles', description: 'Page à colorier lettre gratuite de lettre a avec des feuilles. Coloriage éducatif pour les enfants.', keywords: 'lettre a avec des feuilles coloriage lettre gratuit enfants', altText: 'Page à colorier lettre a avec des feuilles – enfants' },
+    es: { title: 'Letra A con Hojas', description: 'Página para colorear letra gratis de letra a con hojas. Colorear educativo para niños.', keywords: 'letra a con hojas colorear letras gratis niños', altText: 'Página para colorear letra a con hojas – niños' },
+    zh: { title: '字母A和叶子', description: '免费字母字母a和叶子涂色页，适合儿童的教育涂色。', keywords: '字母a和叶子 字母涂色 免费儿童', altText: '免费涂色页 字母A和叶子 – 儿童' },
+  },
+  {
+    id: 332, slug: 'the-letter-b-decorated-with-a-small-simple-roundtopped-tree-simple-bold-shapes', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/letters--easy--the-letter-b-decorated-with-a-small-simple-roundtopped-tree-simple-bold-shapes.jpg',
+    nl: { title: 'Letter B met een Boompje', description: 'Gratis letterkleurplaat van letter b met een boompje. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter b met een boompje letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter b met een boompje – kinderen' },
+    en: { title: 'Letter B with a Little Tree', description: 'Free letter coloring page of letter b with a little tree. Educational coloring page for kids.', keywords: 'letter b with a little tree letter coloring page free kids', altText: 'Free coloring page letter b with a little tree – kids' },
+    fr: { title: 'Lettre B avec un Petit Arbre', description: 'Page à colorier lettre gratuite de lettre b avec un petit arbre. Coloriage éducatif pour les enfants.', keywords: 'lettre b avec un petit arbre coloriage lettre gratuit enfants', altText: 'Page à colorier lettre b avec un petit arbre – enfants' },
+    es: { title: 'Letra B con un Arbolito', description: 'Página para colorear letra gratis de letra b con un arbolito. Colorear educativo para niños.', keywords: 'letra b con un arbolito colorear letras gratis niños', altText: 'Página para colorear letra b con un arbolito – niños' },
+    zh: { title: '字母B和小树', description: '免费字母字母b和小树涂色页，适合儿童的教育涂色。', keywords: '字母b和小树 字母涂色 免费儿童', altText: '免费涂色页 字母B和小树 – 儿童' },
+  },
+  {
+    id: 333, slug: 'the-letter-c-decorated-with-a-small-fluffy-cloud-simple-bold-shapes', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/letters--easy--the-letter-c-decorated-with-a-small-fluffy-cloud-simple-bold-shapes.jpg',
+    nl: { title: 'Letter C met een Wolkje', description: 'Gratis letterkleurplaat van letter c met een wolkje. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter c met een wolkje letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter c met een wolkje – kinderen' },
+    en: { title: 'Letter C with a Cloud', description: 'Free letter coloring page of letter c with a cloud. Educational coloring page for kids.', keywords: 'letter c with a cloud letter coloring page free kids', altText: 'Free coloring page letter c with a cloud – kids' },
+    fr: { title: 'Lettre C avec un Nuage', description: 'Page à colorier lettre gratuite de lettre c avec un nuage. Coloriage éducatif pour les enfants.', keywords: 'lettre c avec un nuage coloriage lettre gratuit enfants', altText: 'Page à colorier lettre c avec un nuage – enfants' },
+    es: { title: 'Letra C con una Nube', description: 'Página para colorear letra gratis de letra c con una nube. Colorear educativo para niños.', keywords: 'letra c con una nube colorear letras gratis niños', altText: 'Página para colorear letra c con una nube – niños' },
+    zh: { title: '字母C和云朵', description: '免费字母字母c和云朵涂色页，适合儿童的教育涂色。', keywords: '字母c和云朵 字母涂色 免费儿童', altText: '免费涂色页 字母C和云朵 – 儿童' },
+  },
+  {
+    id: 334, slug: 'the-letter-d-decorated-with-a-small-gentle-wave-of-water-and-a-few-droplets-simple-bold-shapes', category: 'letters', difficulty: 'easy',
+    img: '../img/kleurplaten/letters--easy--the-letter-d-decorated-with-a-small-gentle-wave-of-water-and-a-few-droplets-simple-bold-shapes.jpg',
+    nl: { title: 'Letter D met Water', description: 'Gratis letterkleurplaat van letter d met water. Leerzaam kleurplaatje voor kinderen.', keywords: 'letter d met water letters kleurplaat gratis kinderen', altText: 'Gratis kleurplaat letter d met water – kinderen' },
+    en: { title: 'Letter D with Water', description: 'Free letter coloring page of letter d with water. Educational coloring page for kids.', keywords: 'letter d with water letter coloring page free kids', altText: 'Free coloring page letter d with water – kids' },
+    fr: { title: 'Lettre D avec de l\'Eau', description: 'Page à colorier lettre gratuite de lettre d avec de l\'eau. Coloriage éducatif pour les enfants.', keywords: 'lettre d avec de l\'eau coloriage lettre gratuit enfants', altText: 'Page à colorier lettre d avec de l\'eau – enfants' },
+    es: { title: 'Letra D con Agua', description: 'Página para colorear letra gratis de letra d con agua. Colorear educativo para niños.', keywords: 'letra d con agua colorear letras gratis niños', altText: 'Página para colorear letra d con agua – niños' },
+    zh: { title: '字母D和水波', description: '免费字母字母d和水波涂色页，适合儿童的教育涂色。', keywords: '字母d和水波 字母涂色 免费儿童', altText: '免费涂色页 字母D和水波 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
