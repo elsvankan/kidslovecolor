@@ -218,6 +218,7 @@ document.addEventListener('DOMContentLoaded', () => {
   setupScrollTop();
   updateLangUI();
   setupMobileSearch();
+  setupRandomEarthGlobe();
   hideEmptyAdBanners();
   injectColoringPageSchema();   // structured data on page load
 
@@ -934,6 +935,26 @@ function setupMobileSearch() {
       btn.focus();
     }
   });
+}
+
+// -------------------------------------------------------
+// RANDOM EARTH VIEW
+// -------------------------------------------------------
+function setupRandomEarthGlobe() {
+  const globe = document.querySelector('[data-earth-globe]');
+  if (!globe) return;
+
+  const views = [
+    'earth-north-america.webp',
+    'earth-americas.webp',
+    'earth-europe-africa.webp',
+    'earth-africa.webp',
+    'earth-asia.webp',
+  ];
+  const randomIndex = Math.floor(Math.random() * views.length);
+
+  globe.addEventListener('load', () => globe.classList.add('is-ready'), { once: true });
+  globe.src = `/img/vandaag-op-aarde/globes/${views[randomIndex]}`;
 }
 
 // -------------------------------------------------------

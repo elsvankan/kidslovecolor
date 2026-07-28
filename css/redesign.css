@@ -431,9 +431,11 @@ h4 {
 }
 
 .earth-teaser-globe {
-  background: #edcf62;
+  background: #f7f7f7;
   border-radius: 50%;
+  box-shadow: 0 32px 70px rgba(4, 19, 21, 0.38);
   height: min(38vw, 550px);
+  isolation: isolate;
   max-height: 550px;
   max-width: 550px;
   overflow: hidden;
@@ -443,52 +445,20 @@ h4 {
   width: min(38vw, 550px);
 }
 
-.earth-teaser-globe::before,
-.earth-teaser-globe::after,
-.earth-teaser-globe i {
-  border: 1px solid rgba(36, 58, 60, 0.3);
-  border-radius: 50%;
-  content: "";
+.earth-teaser-globe-image {
+  height: 100%;
+  inset: 0;
+  object-fit: cover;
+  opacity: 0;
   position: absolute;
+  transform: scale(1.075);
+  transition: opacity 500ms ease;
+  width: 100%;
 }
 
-.earth-teaser-globe::before {
-  inset: 8% 30%;
+.earth-teaser-globe-image.is-ready {
+  opacity: 1;
 }
-
-.earth-teaser-globe::after {
-  inset: 30% 8%;
-}
-
-.earth-teaser-globe i:nth-child(1) {
-  inset: 3% 18%;
-  transform: rotate(50deg);
-}
-
-.earth-teaser-globe i:nth-child(2) {
-  inset: 18% 3%;
-  transform: rotate(-35deg);
-}
-
-.earth-teaser-globe i:nth-child(3) {
-  border-radius: 45%;
-  inset: 43% 15%;
-  transform: rotate(12deg);
-}
-
-.earth-globe-dot {
-  background: #243a3c;
-  border: 5px solid rgba(255, 255, 255, 0.7);
-  border-radius: 50%;
-  box-shadow: 0 8px 18px rgba(36, 58, 60, 0.2);
-  height: 19px;
-  position: absolute;
-  width: 19px;
-}
-
-.earth-globe-dot-one { left: 22%; top: 36%; }
-.earth-globe-dot-two { right: 24%; top: 24%; }
-.earth-globe-dot-three { bottom: 26%; right: 34%; }
 
 .earth-teaser-paper {
   background: #fff;
