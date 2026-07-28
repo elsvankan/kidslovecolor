@@ -57,6 +57,27 @@
   padding-bottom: 5px;
 }
 
+.earth-languages {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  margin-right: clamp(16px, 3vw, 42px);
+}
+
+.earth-languages a {
+  border-radius: 999px;
+  color: #657476;
+  font-size: 10px;
+  font-weight: 850;
+  padding: 7px 9px;
+}
+
+.earth-languages a[aria-current="page"] {
+  background: #e8e0f2;
+  color: var(--earth-ink);
+}
+
 .earth-hero {
   align-items: center;
   background: var(--earth-blue);
@@ -631,6 +652,24 @@
 
   .earth-logo span {
     display: none;
+  }
+
+  .earth-languages {
+    gap: 2px;
+    margin: 0 8px 0 auto;
+  }
+
+  .earth-languages a {
+    font-size: 9px;
+    padding: 6px;
+  }
+
+  .earth-back {
+    font-size: 0;
+  }
+
+  .earth-back span {
+    font-size: 18px;
   }
 
   .earth-hero {

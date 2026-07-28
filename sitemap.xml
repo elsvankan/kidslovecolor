@@ -77,6 +77,64 @@
 
   <url>
     <loc>https://kidslovecolor.com/vandaag-op-aarde/</loc>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://kidslovecolor.com/en/today-on-earth/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://kidslovecolor.com/fr/aujourdhui-sur-terre/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://kidslovecolor.com/es/hoy-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kidslovecolor.com/zh/jinri-diqiu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/en/today-on-earth/</loc>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://kidslovecolor.com/en/today-on-earth/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://kidslovecolor.com/fr/aujourdhui-sur-terre/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://kidslovecolor.com/es/hoy-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kidslovecolor.com/zh/jinri-diqiu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/fr/aujourdhui-sur-terre/</loc>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://kidslovecolor.com/en/today-on-earth/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://kidslovecolor.com/fr/aujourdhui-sur-terre/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://kidslovecolor.com/es/hoy-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kidslovecolor.com/zh/jinri-diqiu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/es/hoy-en-la-tierra/</loc>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://kidslovecolor.com/en/today-on-earth/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://kidslovecolor.com/fr/aujourdhui-sur-terre/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://kidslovecolor.com/es/hoy-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kidslovecolor.com/zh/jinri-diqiu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <lastmod>2026-07-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/zh/jinri-diqiu/</loc>
+    <xhtml:link rel="alternate" hreflang="nl-NL" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
+    <xhtml:link rel="alternate" hreflang="en-GB" href="https://kidslovecolor.com/en/today-on-earth/"/>
+    <xhtml:link rel="alternate" hreflang="fr-FR" href="https://kidslovecolor.com/fr/aujourdhui-sur-terre/"/>
+    <xhtml:link rel="alternate" hreflang="es-ES" href="https://kidslovecolor.com/es/hoy-en-la-tierra/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://kidslovecolor.com/zh/jinri-diqiu/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/vandaag-op-aarde/"/>
     <lastmod>2026-07-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

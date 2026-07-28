@@ -352,6 +352,27 @@ h4 {
   margin-left: 0.46em;
 }
 
+.earth-teaser-fr h2 {
+  font-size: clamp(54px, 6.1vw, 90px);
+  letter-spacing: -0.06em;
+}
+
+.earth-teaser-es h2 {
+  font-size: clamp(62px, 6.8vw, 102px);
+}
+
+.earth-teaser-zh h2 {
+  font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: clamp(70px, 7.2vw, 108px);
+  letter-spacing: -0.035em;
+  line-height: 0.88;
+}
+
+.earth-teaser-zh h2 em {
+  font-style: normal;
+  margin-left: 0.7em;
+}
+
 .earth-teaser-lead {
   color: #d9e3e3;
   font-size: clamp(15px, 1.3vw, 18px);
@@ -1240,6 +1261,18 @@ h4 {
 
   .earth-teaser h2 em {
     margin-left: 0.24em;
+  }
+
+  .earth-teaser-fr h2 {
+    font-size: clamp(51px, 16vw, 72px);
+  }
+
+  .earth-teaser-es h2 {
+    font-size: clamp(56px, 17vw, 78px);
+  }
+
+  .earth-teaser-zh h2 {
+    font-size: clamp(66px, 20vw, 88px);
   }
 
   .earth-teaser-facts {

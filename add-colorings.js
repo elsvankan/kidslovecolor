@@ -623,12 +623,28 @@ function regenerateSitemap(allEntries) {
     ['/zh/', '0.9'],
   ].map(([loc, pri]) => `  <url>\n    <loc>${BASE_URL}${loc}</loc>\n${hreflang}\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${pri}</priority>\n  </url>`).join('\n\n');
 
-  const editorialPages = `  <url>
-    <loc>${BASE_URL}/vandaag-op-aarde/</loc>
+  const editorialHreflang = [
+    `    <xhtml:link rel="alternate" hreflang="nl-NL" href="${BASE_URL}/vandaag-op-aarde/"/>`,
+    `    <xhtml:link rel="alternate" hreflang="en-GB" href="${BASE_URL}/en/today-on-earth/"/>`,
+    `    <xhtml:link rel="alternate" hreflang="fr-FR" href="${BASE_URL}/fr/aujourdhui-sur-terre/"/>`,
+    `    <xhtml:link rel="alternate" hreflang="es-ES" href="${BASE_URL}/es/hoy-en-la-tierra/"/>`,
+    `    <xhtml:link rel="alternate" hreflang="zh-Hans" href="${BASE_URL}/zh/jinri-diqiu/"/>`,
+    `    <xhtml:link rel="alternate" hreflang="x-default" href="${BASE_URL}/vandaag-op-aarde/"/>`,
+  ].join('\n');
+
+  const editorialPages = [
+    '/vandaag-op-aarde/',
+    '/en/today-on-earth/',
+    '/fr/aujourdhui-sur-terre/',
+    '/es/hoy-en-la-tierra/',
+    '/zh/jinri-diqiu/',
+  ].map((loc) => `  <url>
+    <loc>${BASE_URL}${loc}</loc>
+${editorialHreflang}
     <lastmod>${TODAY}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-  </url>`;
+  </url>`).join('\n\n');
 
   const coloringUrls = allEntries.map(({ slug, img, nlTitle, nlDesc }) => {
     const imgFile = img.replace('../img/kleurplaten/', '');
