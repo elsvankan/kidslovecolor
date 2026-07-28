@@ -333,7 +333,8 @@ function injectColoringPageSchema(cat) {
   if (existing) existing.remove();
 
   const items = COLORINGS.filter(item =>
-    !cat || cat === 'all' || item.category === cat
+    item.category !== 'actualiteiten'
+    && (!cat || cat === 'all' || item.category === cat)
   );
 
   const langData = (item) => item[currentLang] || item.nl;
@@ -393,21 +394,23 @@ function renderCategories() {
   const nav = document.getElementById('categoryNav');
   if (!nav) return;
 
-  nav.innerHTML = Object.entries(CATEGORIES).map(([key, cat]) => {
-    const label = cat[currentLang]?.label || cat.nl.label;
-    const titleAttr = key === 'all'
-      ? t('all_free_label')
-      : t('free_cat_label').replace('{label}', label.toLowerCase());
-    return `<button
-      class="cat-btn ${key === activeCategory ? 'active' : ''}"
-      data-cat="${key}"
-      aria-pressed="${key === activeCategory}"
-      title="${titleAttr}"
-    >
-      ${cat.icon ? `<span class="cat-icon" aria-hidden="true">${cat.icon}</span>` : ''}
-      ${label}
-    </button>`;
-  }).join('');
+  nav.innerHTML = Object.entries(CATEGORIES)
+    .filter(([key]) => key !== 'actualiteiten')
+    .map(([key, cat]) => {
+      const label = cat[currentLang]?.label || cat.nl.label;
+      const titleAttr = key === 'all'
+        ? t('all_free_label')
+        : t('free_cat_label').replace('{label}', label.toLowerCase());
+      return `<button
+        class="cat-btn ${key === activeCategory ? 'active' : ''}"
+        data-cat="${key}"
+        aria-pressed="${key === activeCategory}"
+        title="${titleAttr}"
+      >
+        ${cat.icon ? `<span class="cat-icon" aria-hidden="true">${cat.icon}</span>` : ''}
+        ${label}
+      </button>`;
+    }).join('');
 
   nav.querySelectorAll('.cat-btn').forEach(btn => {
     btn.addEventListener('click', () => {
@@ -479,12 +482,13 @@ function renderGrid() {
   const counter = document.getElementById('resultCount');
   if (!grid) return;
 
+  const publicColorings = COLORINGS.filter(item => item.category !== 'actualiteiten');
   const NEW_COUNT = 24;
   const newestIds = activeCategory === 'nieuw'
-    ? new Set([...COLORINGS].sort((a, b) => b.id - a.id).slice(0, NEW_COUNT).map(c => c.id))
+    ? new Set([...publicColorings].sort((a, b) => b.id - a.id).slice(0, NEW_COUNT).map(c => c.id))
     : null;
 
-  const filtered = COLORINGS.filter(item => {
+  const filtered = publicColorings.filter(item => {
     const matchCat     = activeCategory === 'all' ? true
                         : activeCategory === 'nieuw' ? newestIds.has(item.id)
                         : item.category === activeCategory;

@@ -623,6 +623,13 @@ function regenerateSitemap(allEntries) {
     ['/zh/', '0.9'],
   ].map(([loc, pri]) => `  <url>\n    <loc>${BASE_URL}${loc}</loc>\n${hreflang}\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>${pri}</priority>\n  </url>`).join('\n\n');
 
+  const editorialPages = `  <url>
+    <loc>${BASE_URL}/vandaag-op-aarde/</loc>
+    <lastmod>${TODAY}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>`;
+
   const coloringUrls = allEntries.map(({ slug, img, nlTitle, nlDesc }) => {
     const imgFile = img.replace('../img/kleurplaten/', '');
     return `  <url>
@@ -647,6 +654,8 @@ function regenerateSitemap(allEntries) {
   xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
 ${homepages}
+
+${editorialPages}
 
 ${coloringUrls}
 

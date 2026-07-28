@@ -284,6 +284,155 @@ h4 {
   z-index: 2;
 }
 
+.earth-teaser {
+  background: #a8cfd1;
+  color: #243a3c;
+  display: grid;
+  gap: clamp(38px, 6vw, 90px);
+  grid-template-columns: minmax(0, 0.8fr) minmax(540px, 1.2fr);
+  overflow: hidden;
+  padding: clamp(72px, 8vw, 118px) clamp(24px, 7vw, 110px);
+  position: relative;
+}
+
+.earth-teaser::before,
+.earth-teaser::after {
+  border: 1px solid rgba(36, 58, 60, 0.17);
+  border-radius: 50%;
+  content: "";
+  pointer-events: none;
+  position: absolute;
+}
+
+.earth-teaser::before {
+  height: 330px;
+  right: -105px;
+  top: -175px;
+  width: 330px;
+}
+
+.earth-teaser::after {
+  bottom: -215px;
+  height: 420px;
+  left: 34%;
+  width: 420px;
+}
+
+.earth-teaser-copy,
+.earth-teaser-stories {
+  position: relative;
+  z-index: 1;
+}
+
+.earth-teaser-kicker {
+  font-size: 11px;
+  font-weight: 850;
+  letter-spacing: 0.13em;
+  margin: 0 0 14px;
+  text-transform: uppercase;
+}
+
+.earth-teaser h2 {
+  font-size: clamp(55px, 6.2vw, 92px);
+  font-weight: 500;
+  letter-spacing: -0.055em;
+  line-height: 0.9;
+  margin: 0;
+}
+
+.earth-teaser-lead {
+  font-size: clamp(15px, 1.3vw, 18px);
+  line-height: 1.65;
+  margin: 28px 0 0;
+  max-width: 520px;
+}
+
+.earth-teaser-button {
+  align-items: center;
+  background: #243a3c;
+  border-radius: 999px;
+  color: #fff;
+  display: inline-flex;
+  font-size: 12px;
+  font-weight: 800;
+  gap: 28px;
+  margin-top: 30px;
+  min-height: 52px;
+  padding: 0 22px;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.earth-teaser-button:hover,
+.earth-teaser-button:focus-visible {
+  box-shadow: 0 14px 28px rgba(36, 58, 60, 0.2);
+  transform: translateY(-3px);
+}
+
+.earth-teaser-stories {
+  display: grid;
+  gap: 14px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+.earth-story-chip {
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(36, 58, 60, 0.14);
+  border-radius: 22px;
+  color: #243a3c;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 190px;
+  padding: 22px;
+  transition: box-shadow 180ms ease, transform 180ms ease;
+}
+
+.earth-story-chip:hover,
+.earth-story-chip:focus-visible {
+  box-shadow: 0 18px 38px rgba(36, 58, 60, 0.13);
+  transform: translateY(-5px) rotate(-1deg);
+}
+
+.earth-story-chip-main {
+  background: #f5ddd0;
+  grid-row: span 2;
+  min-height: 394px;
+}
+
+.earth-story-chip > span {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.63);
+  border-radius: 50%;
+  display: flex;
+  font-size: 28px;
+  height: 58px;
+  justify-content: center;
+  margin-bottom: auto;
+  width: 58px;
+}
+
+.earth-story-chip-main > span {
+  font-size: 64px;
+  height: 130px;
+  width: 130px;
+}
+
+.earth-story-chip small {
+  font-size: 9px;
+  font-weight: 850;
+  letter-spacing: 0.1em;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.earth-story-chip strong {
+  font-family: var(--klc-display);
+  font-size: clamp(21px, 2vw, 30px);
+  font-weight: 500;
+  letter-spacing: -0.035em;
+  line-height: 1.05;
+}
+
 .category-nav {
   background: var(--klc-white);
   border-block: 1px solid var(--klc-line);
@@ -774,6 +923,10 @@ h4 {
   .support-section {
     grid-template-columns: 1fr;
   }
+
+  .earth-teaser {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 800px) {
@@ -821,6 +974,10 @@ h4 {
 
   .main-layout {
     padding: 72px 18px 86px;
+  }
+
+  .earth-teaser {
+    padding: 72px 22px;
   }
 
   .coloring-grid {
@@ -878,8 +1035,14 @@ h4 {
   }
 
   .coloring-grid,
-  .support-menu {
+  .support-menu,
+  .earth-teaser-stories {
     grid-template-columns: 1fr;
+  }
+
+  .earth-story-chip-main {
+    grid-row: auto;
+    min-height: 290px;
   }
 
   .support-story h2 {
