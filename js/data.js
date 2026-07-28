@@ -469,6 +469,10 @@ const NEWS_REGIONS = {
   fr: { flag: '🇫🇷', nl: 'Frankrijk', en: 'France', fr: 'France', es: 'Francia', zh: '法国' },
   es: { flag: '🇪🇸', nl: 'Spanje & Latijns-Amerika', en: 'Spain & Latin America', fr: 'Espagne et Amérique latine', es: 'España y Latinoamérica', zh: '西班牙和拉丁美洲' },
   cn: { flag: '🇨🇳', nl: 'China', en: 'China', fr: 'Chine', es: 'China', zh: '中国' },
+  in: { flag: '🇮🇳', nl: 'India', en: 'India', fr: 'Inde', es: 'India', zh: '印度' },
+  pk: { flag: '🇵🇰', nl: 'Pakistan', en: 'Pakistan', fr: 'Pakistan', es: 'Pakistán', zh: '巴基斯坦' },
+  au: { flag: '🇦🇺', nl: 'Australië', en: 'Australia', fr: 'Australie', es: 'Australia', zh: '澳大利亚' },
+  space: { flag: '🌌', nl: 'Heelal', en: 'Universe', fr: 'Univers', es: 'Universo', zh: '宇宙' },
 };
 
 // -------------------------------------------------------

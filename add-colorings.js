@@ -511,6 +511,9 @@ function buildEntry(id, parsed, overrides) {
                  : lang === 'es' ? `Página para colorear ${titleLower} – niños`
                  :                 `免费涂色页 ${title} – 儿童`,
       newsExplainer: override && override.newsExplainer ? override.newsExplainer[lang] : null,
+      newsArticle:   override && override.newsArticle   ? override.newsArticle[lang]   : null,
+      newsFacts:     override && override.newsFacts      ? override.newsFacts[lang]      : null,
+      newsQuestion:  override && override.newsQuestion   ? override.newsQuestion[lang]   : null,
     };
   }
 
@@ -525,10 +528,12 @@ function buildEntry(id, parsed, overrides) {
   ];
   for (const lang of langs) {
     const d = langData[lang];
-    const newsExplainerPart = d.newsExplainer
-      ? `, newsExplainer: '${d.newsExplainer.replace(/'/g,"\\'")}'`
-      : '';
-    lines.push(`    ${lang}: { title: '${d.title.replace(/'/g,"\\'")}', description: '${d.description.replace(/'/g,"\\'")}', keywords: '${d.keywords.replace(/'/g,"\\'")}', altText: '${d.altText.replace(/'/g,"\\'")}'${newsExplainerPart} },`);
+    const esc = s => s.replace(/'/g,"\\'");
+    const newsExplainerPart = d.newsExplainer ? `, newsExplainer: '${esc(d.newsExplainer)}'` : '';
+    const newsArticlePart   = d.newsArticle   ? `, newsArticle: '${esc(d.newsArticle)}'`     : '';
+    const newsFactsPart     = d.newsFacts     ? `, newsFacts: [${d.newsFacts.map(f => `'${esc(f)}'`).join(', ')}]` : '';
+    const newsQuestionPart  = d.newsQuestion  ? `, newsQuestion: '${esc(d.newsQuestion)}'`   : '';
+    lines.push(`    ${lang}: { title: '${d.title.replace(/'/g,"\\'")}', description: '${d.description.replace(/'/g,"\\'")}', keywords: '${d.keywords.replace(/'/g,"\\'")}', altText: '${d.altText.replace(/'/g,"\\'")}'${newsExplainerPart}${newsArticlePart}${newsFactsPart}${newsQuestionPart} },`);
   }
   lines.push(`  },`);
   return lines.join('\n');
