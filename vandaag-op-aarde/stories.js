@@ -26,6 +26,7 @@ const WORLD_STORY_EDITIONS = [
         sourceLabel: 'UNESCO',
         sourceUrl: 'https://www.unesco.org/en/articles/ancient-buddhist-site-sarnath-inscribed-unesco-world-heritage-list?hub=80094',
         referenceUrl: 'https://commons.wikimedia.org/wiki/File:Dhamek_Stupa_at_Sarnath_UP.jpg',
+        coloringSlug: 'sarnath-dhamek-stupa-children-discovering-ancient-heritage',
       },
       {
         slug: 'veilige-rivier-voor-dolfijnen',

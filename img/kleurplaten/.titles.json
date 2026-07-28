@@ -916,5 +916,33 @@
       "es": "¡Cada año a finales de agosto, miles de personas en el pueblo español de Buñol se lanzan tomates maduros durante La Tomatina, una de las fiestas más alegres y desordenadas del mundo!",
       "zh": "每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是\"番茄大战\"（La Tomatina）——世界上最欢乐也最\"乱\"的节日之一！"
     }
+  },
+  "actualiteiten--hard--sarnath-dhamek-stupa-children-discovering-ancient-heritage.jpg": {
+    "nl": "Kinderen Ontdekken het Bijzondere Erfgoed van Sarnath",
+    "en": "Children Discovering the Special Heritage of Sarnath",
+    "fr": "Des Enfants Découvrent le Patrimoine Exceptionnel de Sarnath",
+    "es": "Niños Descubriendo el Patrimonio Especial de Sarnath",
+    "zh": "孩子们探索鹿野苑的珍贵文化遗产",
+    "country": "in",
+    "newsExplainer": {
+      "nl": "Sarnath in India staat nu op de Werelderfgoedlijst van UNESCO. Kinderen kunnen er de grote Dhamek-stoepa, oude stenen sierbanden en resten van kloosters ontdekken. De erkenning helpt om deze bijzondere plek goed te bewaren voor later.",
+      "en": "Sarnath in India is now on UNESCO's World Heritage List. Children can discover the great Dhamek Stupa, ancient carved stone bands and the remains of monasteries. The recognition helps preserve this special place for the future.",
+      "fr": "Sarnath, en Inde, est désormais inscrit au patrimoine mondial de l'UNESCO. Les enfants peuvent y découvrir le grand stupa de Dhamek, d'anciennes frises sculptées et les vestiges de monastères. Cette reconnaissance aide à préserver ce lieu exceptionnel.",
+      "es": "Sarnath, en India, ya forma parte de la Lista del Patrimonio Mundial de la UNESCO. Los niños pueden descubrir la gran estupa Dhamek, antiguas bandas de piedra tallada y restos de monasterios. Este reconocimiento ayuda a conservar este lugar especial.",
+      "zh": "印度的鹿野苑如今被列入联合国教科文组织世界遗产名录。孩子们可以探索宏伟的达美克佛塔、古老的石雕纹饰和寺院遗迹。这项认可有助于为未来保护这一特别的地方。"
+    },
+    "newsArticle": {
+      "nl": "In het noorden van India ligt Sarnath, een plek met oude gebouwen, ruïnes en grote ronde torens van steen. Mensen komen hier al meer dan 2.500 jaar samen om te leren en stil te staan bij geschiedenis en cultuur. Een van de bekendste bouwwerken is de enorme Dhamek-stoepa. Archeologen vonden er ook oude beelden, pilaren en resten van kloosters. De nieuwe erkenning helpt om de plek goed te bewaren, zodat kinderen van nu en later de verhalen in de oude stenen kunnen blijven ontdekken."
+    },
+    "newsFacts": {
+      "nl": [
+        "Sarnath bestaat al meer dan 2.500 jaar.",
+        "De Dhamek-stoepa is ongeveer 43 meter hoog.",
+        "India heeft nu 45 UNESCO-werelderfgoedlocaties."
+      ]
+    },
+    "newsQuestion": {
+      "nl": "Welke plek bij jou in de buurt zou jij voor later willen bewaren?"
+    }
   }
 }
