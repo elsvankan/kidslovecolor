@@ -3072,6 +3072,52 @@ const COLORINGS = [
     zh: { title: '孩子们探索受保护的印度河豚', description: '免费时事涂色页：孩子们探索受保护的印度河豚。适合儿童的有趣时事涂色。', keywords: '孩子们探索受保护的印度河豚 时事涂色 免费儿童', altText: '免费涂色页 孩子们探索受保护的印度河豚 – 儿童', newsExplainer: '巴基斯坦珍稀的印度河豚有了新的保护家园。保护区沿印度河延伸约198公里，并涵盖五条河流交汇的地区。' },
   },
 
+  {
+    id: 331, slug: 'kawaii-penguin-sliding-on-ice', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-penguin-sliding-on-ice.jpg',
+    nl: { title: 'Kawaii Pinguïn Glijdend over het IJs', description: 'Gratis kawaii kleurplaat van kawaii pinguïn glijdend over het ijs. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii pinguïn glijdend over het ijs kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii pinguïn glijdend over het ijs – kinderen' },
+    en: { title: 'Kawaii Penguin Sliding on Ice', description: 'Free kawaii coloring page of kawaii penguin sliding on ice. Super cute coloring page for kids.', keywords: 'kawaii penguin sliding on ice kawaii coloring page free kids', altText: 'Free coloring page kawaii penguin sliding on ice – kids' },
+    fr: { title: 'Pingouin Kawaii Glissant sur la Glace', description: 'Page à colorier kawaii gratuite de pingouin kawaii glissant sur la glace. Coloriage super mignon pour les enfants.', keywords: 'pingouin kawaii glissant sur la glace coloriage kawaii gratuit enfants', altText: 'Page à colorier pingouin kawaii glissant sur la glace – enfants' },
+    es: { title: 'Pingüino Kawaii Deslizándose sobre el Hielo', description: 'Página para colorear kawaii gratis de pingüino kawaii deslizándose sobre el hielo. Colorear súper lindo para niños.', keywords: 'pingüino kawaii deslizándose sobre el hielo colorear kawaii gratis niños', altText: 'Página para colorear pingüino kawaii deslizándose sobre el hielo – niños' },
+    zh: { title: '在冰上滑行的卡哇伊企鹅', description: '免费卡哇伊在冰上滑行的卡哇伊企鹅涂色页，超可爱儿童涂色。', keywords: '在冰上滑行的卡哇伊企鹅 卡哇伊涂色 免费儿童', altText: '免费涂色页 在冰上滑行的卡哇伊企鹅 – 儿童' },
+  },
+  {
+    id: 332, slug: 'kawaii-dinosaur-playing-with-balloons', category: 'kawaii', difficulty: 'medium',
+    img: '../img/kleurplaten/kawaii--medium--kawaii-dinosaur-playing-with-balloons.jpg',
+    nl: { title: 'Kawaii Dinosaurus Spelend met Ballonnen', description: 'Gratis kawaii kleurplaat van kawaii dinosaurus spelend met ballonnen. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii dinosaurus spelend met ballonnen kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii dinosaurus spelend met ballonnen – kinderen' },
+    en: { title: 'Kawaii Dinosaur Playing With Balloons', description: 'Free kawaii coloring page of kawaii dinosaur playing with balloons. Super cute coloring page for kids.', keywords: 'kawaii dinosaur playing with balloons kawaii coloring page free kids', altText: 'Free coloring page kawaii dinosaur playing with balloons – kids' },
+    fr: { title: 'Dinosaure Kawaii Jouant Avec des Ballons', description: 'Page à colorier kawaii gratuite de dinosaure kawaii jouant avec des ballons. Coloriage super mignon pour les enfants.', keywords: 'dinosaure kawaii jouant avec des ballons coloriage kawaii gratuit enfants', altText: 'Page à colorier dinosaure kawaii jouant avec des ballons – enfants' },
+    es: { title: 'Dinosaurio Kawaii Jugando con Globos', description: 'Página para colorear kawaii gratis de dinosaurio kawaii jugando con globos. Colorear súper lindo para niños.', keywords: 'dinosaurio kawaii jugando con globos colorear kawaii gratis niños', altText: 'Página para colorear dinosaurio kawaii jugando con globos – niños' },
+    zh: { title: '和气球玩耍的卡哇伊恐龙', description: '免费卡哇伊和气球玩耍的卡哇伊恐龙涂色页，超可爱儿童涂色。', keywords: '和气球玩耍的卡哇伊恐龙 卡哇伊涂色 免费儿童', altText: '免费涂色页 和气球玩耍的卡哇伊恐龙 – 儿童' },
+  },
+  {
+    id: 333, slug: 'kawaii-fox-playing-in-autumn-leaves', category: 'kawaii', difficulty: 'medium',
+    img: '../img/kleurplaten/kawaii--medium--kawaii-fox-playing-in-autumn-leaves.jpg',
+    nl: { title: 'Kawaii Vosje Spelend in Herfstbladeren', description: 'Gratis kawaii kleurplaat van kawaii vosje spelend in herfstbladeren. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii vosje spelend in herfstbladeren kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii vosje spelend in herfstbladeren – kinderen' },
+    en: { title: 'Kawaii Fox Playing in Autumn Leaves', description: 'Free kawaii coloring page of kawaii fox playing in autumn leaves. Super cute coloring page for kids.', keywords: 'kawaii fox playing in autumn leaves kawaii coloring page free kids', altText: 'Free coloring page kawaii fox playing in autumn leaves – kids' },
+    fr: { title: 'Renard Kawaii Jouant dans les Feuilles d\'Automne', description: 'Page à colorier kawaii gratuite de renard kawaii jouant dans les feuilles d\'automne. Coloriage super mignon pour les enfants.', keywords: 'renard kawaii jouant dans les feuilles d\'automne coloriage kawaii gratuit enfants', altText: 'Page à colorier renard kawaii jouant dans les feuilles d\'automne – enfants' },
+    es: { title: 'Zorro Kawaii Jugando en Hojas de Otoño', description: 'Página para colorear kawaii gratis de zorro kawaii jugando en hojas de otoño. Colorear súper lindo para niños.', keywords: 'zorro kawaii jugando en hojas de otoño colorear kawaii gratis niños', altText: 'Página para colorear zorro kawaii jugando en hojas de otoño – niños' },
+    zh: { title: '在秋叶中玩耍的卡哇伊狐狸', description: '免费卡哇伊在秋叶中玩耍的卡哇伊狐狸涂色页，超可爱儿童涂色。', keywords: '在秋叶中玩耍的卡哇伊狐狸 卡哇伊涂色 免费儿童', altText: '免费涂色页 在秋叶中玩耍的卡哇伊狐狸 – 儿童' },
+  },
+  {
+    id: 334, slug: 'sunflower-field-under-a-smiling-sun', category: 'natuur', difficulty: 'easy',
+    img: '../img/kleurplaten/natuur--easy--sunflower-field-under-a-smiling-sun.jpg',
+    nl: { title: 'Zonnebloemenveld onder een Lachende Zon', description: 'Gratis natuurkleurplaat van zonnebloemenveld onder een lachende zon. Prachtig kleurplaatje voor kinderen.', keywords: 'zonnebloemenveld onder een lachende zon natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zonnebloemenveld onder een lachende zon – kinderen' },
+    en: { title: 'Sunflower Field Under a Smiling Sun', description: 'Free nature coloring page of sunflower field under a smiling sun. Beautiful coloring page for kids.', keywords: 'sunflower field under a smiling sun nature coloring page free kids', altText: 'Free coloring page sunflower field under a smiling sun – kids' },
+    fr: { title: 'Champ de Tournesols Sous un Soleil Souriant', description: 'Page à colorier nature gratuite de champ de tournesols sous un soleil souriant. Magnifique coloriage pour les enfants.', keywords: 'champ de tournesols sous un soleil souriant coloriage nature gratuit enfants', altText: 'Page à colorier champ de tournesols sous un soleil souriant – enfants' },
+    es: { title: 'Campo de Girasoles Bajo un Sol Sonriente', description: 'Página para colorear naturaleza gratis de campo de girasoles bajo un sol sonriente. Hermoso colorear para niños.', keywords: 'campo de girasoles bajo un sol sonriente colorear naturaleza gratis niños', altText: 'Página para colorear campo de girasoles bajo un sol sonriente – niños' },
+    zh: { title: '微笑太阳下的向日葵田', description: '免费自然微笑太阳下的向日葵田涂色页，适合儿童的自然涂色。', keywords: '微笑太阳下的向日葵田 自然涂色 免费儿童', altText: '免费涂色页 微笑太阳下的向日葵田 – 儿童' },
+  },
+  {
+    id: 335, slug: 'forest-scene-with-tall-trees-and-a-stream', category: 'natuur', difficulty: 'medium',
+    img: '../img/kleurplaten/natuur--medium--forest-scene-with-tall-trees-and-a-stream.jpg',
+    nl: { title: 'Bosscène met Hoge Bomen en een Beekje', description: 'Gratis natuurkleurplaat van bosscène met hoge bomen en een beekje. Prachtig kleurplaatje voor kinderen.', keywords: 'bosscène met hoge bomen en een beekje natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat bosscène met hoge bomen en een beekje – kinderen' },
+    en: { title: 'Forest Scene With Tall Trees and a Stream', description: 'Free nature coloring page of forest scene with tall trees and a stream. Beautiful coloring page for kids.', keywords: 'forest scene with tall trees and a stream nature coloring page free kids', altText: 'Free coloring page forest scene with tall trees and a stream – kids' },
+    fr: { title: 'Scène de Forêt Avec de Grands Arbres et un Ruisseau', description: 'Page à colorier nature gratuite de scène de forêt avec de grands arbres et un ruisseau. Magnifique coloriage pour les enfants.', keywords: 'scène de forêt avec de grands arbres et un ruisseau coloriage nature gratuit enfants', altText: 'Page à colorier scène de forêt avec de grands arbres et un ruisseau – enfants' },
+    es: { title: 'Escena de Bosque con Árboles Altos y un Arroyo', description: 'Página para colorear naturaleza gratis de escena de bosque con árboles altos y un arroyo. Hermoso colorear para niños.', keywords: 'escena de bosque con árboles altos y un arroyo colorear naturaleza gratis niños', altText: 'Página para colorear escena de bosque con árboles altos y un arroyo – niños' },
+    zh: { title: '有高大树木和小溪的森林场景', description: '免费自然有高大树木和小溪的森林场景涂色页，适合儿童的自然涂色。', keywords: '有高大树木和小溪的森林场景 自然涂色 免费儿童', altText: '免费涂色页 有高大树木和小溪的森林场景 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

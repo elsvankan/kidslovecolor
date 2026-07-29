@@ -1055,5 +1055,40 @@
     "newsQuestion": {
       "nl": "Welke naam zou jij geven aan een planeet die zich lang verstopt?"
     }
+  },
+  "kawaii--medium--kawaii-fox-playing-in-autumn-leaves.jpg": {
+    "nl": "Kawaii Vosje Spelend in Herfstbladeren",
+    "en": "Kawaii Fox Playing in Autumn Leaves",
+    "fr": "Renard Kawaii Jouant dans les Feuilles d'Automne",
+    "es": "Zorro Kawaii Jugando en Hojas de Otoño",
+    "zh": "在秋叶中玩耍的卡哇伊狐狸"
+  },
+  "kawaii--easy--kawaii-penguin-sliding-on-ice.jpg": {
+    "nl": "Kawaii Pinguïn Glijdend over het IJs",
+    "en": "Kawaii Penguin Sliding on Ice",
+    "fr": "Pingouin Kawaii Glissant sur la Glace",
+    "es": "Pingüino Kawaii Deslizándose sobre el Hielo",
+    "zh": "在冰上滑行的卡哇伊企鹅"
+  },
+  "kawaii--medium--kawaii-dinosaur-playing-with-balloons.jpg": {
+    "nl": "Kawaii Dinosaurus Spelend met Ballonnen",
+    "en": "Kawaii Dinosaur Playing With Balloons",
+    "fr": "Dinosaure Kawaii Jouant Avec des Ballons",
+    "es": "Dinosaurio Kawaii Jugando con Globos",
+    "zh": "和气球玩耍的卡哇伊恐龙"
+  },
+  "natuur--medium--forest-scene-with-tall-trees-and-a-stream.jpg": {
+    "nl": "Bosscène met Hoge Bomen en een Beekje",
+    "en": "Forest Scene With Tall Trees and a Stream",
+    "fr": "Scène de Forêt Avec de Grands Arbres et un Ruisseau",
+    "es": "Escena de Bosque con Árboles Altos y un Arroyo",
+    "zh": "有高大树木和小溪的森林场景"
+  },
+  "natuur--easy--sunflower-field-under-a-smiling-sun.jpg": {
+    "nl": "Zonnebloemenveld onder een Lachende Zon",
+    "en": "Sunflower Field Under a Smiling Sun",
+    "fr": "Champ de Tournesols Sous un Soleil Souriant",
+    "es": "Campo de Girasoles Bajo un Sol Sonriente",
+    "zh": "微笑太阳下的向日葵田"
   }
 }
