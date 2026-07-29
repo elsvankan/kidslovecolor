@@ -400,6 +400,20 @@ TOPIC_POOL = [
     dict(cat='voertuigen', diff='easy', desc='dump truck working at a construction site', landscape=True, titles=dict(
         nl='Kiepwagen Werkend op een Bouwplaats', en='Dump Truck Working at a Construction Site',
         fr='Camion-benne Travaillant sur un Chantier', es='Camión Volquete Trabajando en una Obra', zh='在建筑工地工作的自卸卡车')),
+    dict(cat='voertuigen', diff='medium', desc='excavator digging next to a crane at a busy construction site', landscape=True, titles=dict(
+        nl='Graafmachine bij een Bouwplaats met een Kraan', en='Excavator at a Construction Site With a Crane',
+        fr='Excavatrice sur un Chantier avec une Grue', es='Excavadora en una Obra con una Grúa', zh='建筑工地上的挖掘机和起重机')),
+
+    dict(cat='sprookjes', diff='hard', desc='brave knight battling a fierce dragon with a sword and shield', landscape=True, titles=dict(
+        nl='Dappere Ridder Vecht tegen een Draak', en='Brave Knight Battling a Fierce Dragon',
+        fr='Chevalier Courageux Combattant un Dragon Féroce', es='Caballero Valiente Luchando contra un Dragón Feroz', zh='勇敢的骑士大战凶猛的恶龙')),
+
+    dict(cat='kawaii', diff='medium', desc="cozy child's bedroom with a small doll bed next to the real bed, stuffed animals and toys around", landscape=True, style='cozy', titles=dict(
+        nl='Kinderkamer met een Poppenbedje naast het Bed', en="Bedroom With a Doll's Bed Next to the Real Bed",
+        fr='Chambre avec un Petit Lit de Poupée à Côté du Lit', es='Habitación con una Camita de Muñeca junto a la Cama', zh='真床旁边放着小娃娃床的卧室')),
+    dict(cat='kawaii', diff='medium', desc='dollhouse filled with tiny furniture, a staircase and little rooms', landscape=False, titles=dict(
+        nl='Poppenhuis vol Piepklein Meubels', en='Dollhouse Full of Tiny Furniture',
+        fr='Maison de Poupée Pleine de Petits Meubles', es='Casa de Muñecas Llena de Muebles Pequeños', zh='摆满小家具的娃娃屋')),
 
     dict(cat='feestdagen', diff='easy', desc='dinosaur wearing a halloween costume', landscape=False, titles=dict(
         nl='Dinosaurus in een Halloweenkostuum', en='Dinosaur Wearing a Halloween Costume',
