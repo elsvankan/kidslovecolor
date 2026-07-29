@@ -31,6 +31,10 @@
     }
   ],
   "rewrites": [
+    {
+      "source": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden",
+      "destination": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden/index.html"
+    },
     { "source": "/en",                    "destination": "/en/index.html" },
     { "source": "/en/",                   "destination": "/en/index.html" },
     { "source": "/fr",                    "destination": "/fr/index.html" },
