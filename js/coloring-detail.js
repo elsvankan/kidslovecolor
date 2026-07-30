@@ -1,14 +1,20 @@
 (function () {
   'use strict';
 
-  var PAGE = {
-    slug: 'puppy-playing-with-a-ball-in-the-garden',
-    title: 'Puppy met een bal in de tuin',
-    category: 'dieren',
-    difficulty: 'easy',
-    image: '/img/kleurplaten/dieren--easy--puppy-playing-with-a-ball-in-the-garden.jpg',
-    alt: 'Gratis kleurplaat van een vrolijke puppy die met een bal speelt in een tuin met bloemen'
-  };
+  var dataElement = document.getElementById('coloringPageData');
+  var PAGE;
+
+  try {
+    PAGE = JSON.parse(dataElement ? dataElement.textContent : '{}');
+  } catch (error) {
+    console.error('Kleurplaatgegevens konden niet worden gelezen:', error);
+    return;
+  }
+
+  if (!PAGE.slug || !PAGE.image) {
+    console.error('Kleurplaatgegevens zijn onvolledig.');
+    return;
+  }
 
   function track(eventName, extra) {
     if (typeof window.gtag !== 'function') return;
@@ -31,8 +37,20 @@
     return new URL(PAGE.image, window.location.origin).href;
   }
 
+  function escapeAttribute(value) {
+    return String(value)
+      .replace(/&/g, '&amp;')
+      .replace(/"/g, '&quot;')
+      .replace(/</g, '&lt;')
+      .replace(/>/g, '&gt;');
+  }
+
   function printColoring() {
     var printWindow = window.open('', '_blank', 'width=800,height=900');
+    var isLandscape = PAGE.orientation === 'landscape';
+    var pageSize = isLandscape ? 'A4 landscape' : 'A4 portrait';
+    var paperWidth = isLandscape ? '297mm' : '210mm';
+    var paperHeight = isLandscape ? '210mm' : '297mm';
     if (!printWindow) {
       setStatus('Sta pop-ups toe om de kleurplaat te kunnen printen.');
       return;
@@ -40,11 +58,11 @@
 
     printWindow.document.write(
       '<!doctype html><html lang="nl"><head><meta charset="UTF-8"/>' +
-      '<title>' + PAGE.title + ' – KidsLoveColor</title>' +
-      '<style>@page{size:A4 portrait;margin:0}*{box-sizing:border-box;margin:0;padding:0}' +
-      'html,body{background:#fff;height:297mm;overflow:hidden;width:210mm}' +
-      'img{display:block;height:297mm;object-fit:contain;width:210mm}</style></head>' +
-      '<body><img src="' + absoluteImageUrl() + '" alt="' + PAGE.alt + '"/>' +
+      '<title>' + escapeAttribute(PAGE.title) + ' – KidsLoveColor</title>' +
+      '<style>@page{size:' + pageSize + ';margin:0}*{box-sizing:border-box;margin:0;padding:0}' +
+      'html,body{background:#fff;height:' + paperHeight + ';overflow:hidden;width:' + paperWidth + '}' +
+      'img{display:block;height:' + paperHeight + ';object-fit:contain;width:' + paperWidth + '}</style></head>' +
+      '<body><img src="' + escapeAttribute(absoluteImageUrl()) + '" alt="' + escapeAttribute(PAGE.alt) + '"/>' +
       '<script>var i=document.querySelector("img");function p(){window.print();window.onafterprint=function(){window.close()}}' +
       'if(i.complete){p()}else{i.onload=p}<\/script></body></html>'
     );
@@ -83,9 +101,10 @@
         reader.onerror = reject;
         reader.readAsDataURL(blob);
       });
-      var doc = new jspdf.jsPDF({orientation: 'portrait', unit: 'mm', format: 'a4'});
-      doc.addImage(dataUrl, 'JPEG', 0, 0, 210, 297);
-      doc.save('puppy-met-bal-kleurplaat-kidslovecolor.pdf');
+      var isLandscape = PAGE.orientation === 'landscape';
+      var doc = new jspdf.jsPDF({orientation: isLandscape ? 'landscape' : 'portrait', unit: 'mm', format: 'a4'});
+      doc.addImage(dataUrl, 'JPEG', 0, 0, isLandscape ? 297 : 210, isLandscape ? 210 : 297);
+      doc.save(PAGE.pdfFilename || (PAGE.slug + '-kidslovecolor.pdf'));
       track('coloring_download', {download_format: 'pdf'});
       setStatus('Je PDF is gedownload. Veel kleurplezier!');
     } catch (error) {
