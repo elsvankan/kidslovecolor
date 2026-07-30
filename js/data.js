@@ -3202,6 +3202,16 @@ const COLORINGS = [
     zh: { title: '有瀑布和植物的丛林场景', description: '免费自然有瀑布和植物的丛林场景涂色页，适合儿童的自然涂色。', keywords: '有瀑布和植物的丛林场景 自然涂色 免费儿童', altText: '免费涂色页 有瀑布和植物的丛林场景 – 儿童' },
   },
 
+  {
+    id: 345, slug: 'butterfly-garden-with-many-flowers', category: 'natuur', difficulty: 'medium',
+    img: '../img/kleurplaten/natuur--medium--butterfly-garden-with-many-flowers.jpg',
+    nl: { title: 'Vlindertuin met Veel Bloemen', description: 'Gratis natuurkleurplaat van vlindertuin met veel bloemen. Prachtig kleurplaatje voor kinderen.', keywords: 'vlindertuin met veel bloemen natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vlindertuin met veel bloemen – kinderen' },
+    en: { title: 'Butterfly Garden With Many Flowers', description: 'Free nature coloring page of butterfly garden with many flowers. Beautiful coloring page for kids.', keywords: 'butterfly garden with many flowers nature coloring page free kids', altText: 'Free coloring page butterfly garden with many flowers – kids' },
+    fr: { title: 'Jardin de Papillons Avec Beaucoup de Fleurs', description: 'Page à colorier nature gratuite de jardin de papillons avec beaucoup de fleurs. Magnifique coloriage pour les enfants.', keywords: 'jardin de papillons avec beaucoup de fleurs coloriage nature gratuit enfants', altText: 'Page à colorier jardin de papillons avec beaucoup de fleurs – enfants' },
+    es: { title: 'Jardín de Mariposas con Muchas Flores', description: 'Página para colorear naturaleza gratis de jardín de mariposas con muchas flores. Hermoso colorear para niños.', keywords: 'jardín de mariposas con muchas flores colorear naturaleza gratis niños', altText: 'Página para colorear jardín de mariposas con muchas flores – niños' },
+    zh: { title: '有很多花朵的蝴蝶花园', description: '免费自然有很多花朵的蝴蝶花园涂色页，适合儿童的自然涂色。', keywords: '有很多花朵的蝴蝶花园 自然涂色 免费儿童', altText: '免费涂色页 有很多花朵的蝴蝶花园 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

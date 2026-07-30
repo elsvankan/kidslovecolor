@@ -812,11 +812,12 @@ def _build_prompt(description, category, difficulty, style='standard'):
         'Style: clean bold outlines only, pure white background, absolutely no shading, '
         'no color fills, no gradients, simple line art ready to color with crayons. '
         'High contrast black lines on white paper. Printable coloring book style. '
-        'The illustration must fill the entire page edge to edge, full-bleed, with no empty white '
-        'margin around the artwork. Do not draw any border, frame or outline rectangle around the '
-        'page at all — no thin single line, no thick black frame, no bold rectangular border, no '
-        'ornate decorative frame/vignette with patterns. The artwork itself simply fades into the '
-        f'white page edge with nothing framing it. {text_rule}{diversity} {style_hint}'
+        'The illustration should fill the page generously, right up close to the edges — a print '
+        'margin is added afterwards in post-processing, so do not shrink the drawing yourself or '
+        'leave large empty white space around it. Do not draw any border, frame or outline rectangle '
+        'around the page at all — no thin single line, no thick black frame, no bold rectangular '
+        'border, no ornate decorative frame/vignette with patterns. The artwork itself simply fades '
+        f'into the page edge with nothing framing it. {text_rule}{diversity} {style_hint}'
     )
 
 
@@ -885,16 +886,22 @@ def _save(url, out_path, landscape):
 
     target_w, target_h = A4_LANDSCAPE if landscape else A4_PORTRAIT
 
+    # Witte printmarge: veel printers kunnen niet tot de papierrand
+    # bedrukken, dus de tekening moet altijd wat lucht overhouden. 45px op
+    # 150dpi ≈ 7,5mm rondom.
+    PRINT_MARGIN = 45
+    avail_w, avail_h = target_w - 2 * PRINT_MARGIN, target_h - 2 * PRINT_MARGIN
+
     # "Contain"-fit: schaal zonder vervorming, vul de rest met wit
     # (voorkomt uitgerekte lijntekeningen bij afwijkende AI-ratio's).
     src_ratio = img.width / img.height
-    dst_ratio = target_w / target_h
+    dst_ratio = avail_w / avail_h
     if src_ratio > dst_ratio:
-        new_w = target_w
-        new_h = round(target_w / src_ratio)
+        new_w = avail_w
+        new_h = round(avail_w / src_ratio)
     else:
-        new_h = target_h
-        new_w = round(target_h * src_ratio)
+        new_h = avail_h
+        new_w = round(avail_h * src_ratio)
     resized = img.resize((new_w, new_h), Image.LANCZOS)
 
     canvas = Image.new('RGB', (target_w, target_h), 'white')
