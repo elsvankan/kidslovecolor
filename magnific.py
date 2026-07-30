@@ -813,9 +813,10 @@ def _build_prompt(description, category, difficulty, style='standard'):
         'no color fills, no gradients, simple line art ready to color with crayons. '
         'High contrast black lines on white paper. Printable coloring book style. '
         'The illustration must fill the entire page edge to edge, full-bleed, with no empty white '
-        'margin around the artwork. A simple thin single-line border directly at the page edge is '
-        'fine, but never a thick black frame, bold rectangular border, or an ornate decorative '
-        f'frame/vignette with patterns that eats into the page. {text_rule}{diversity} {style_hint}'
+        'margin around the artwork. Do not draw any border, frame or outline rectangle around the '
+        'page at all — no thin single line, no thick black frame, no bold rectangular border, no '
+        'ornate decorative frame/vignette with patterns. The artwork itself simply fades into the '
+        f'white page edge with nothing framing it. {text_rule}{diversity} {style_hint}'
     )
 
 
@@ -874,11 +875,13 @@ def _save(url, out_path, landscape):
     r.raise_for_status()
     img = Image.open(io.BytesIO(r.content)).convert('RGB')
 
-    # Magnific-beelden hebben vaak een dun (1-2px) donker randlijntje op de
-    # rechter- en/of onderrand (generatie-artefact). Wegsnijden voordat we
-    # verder verwerken, anders komt het lijntje mee in de eindafbeelding.
-    EDGE_TRIM = 5
-    img = img.crop((0, 0, img.width - EDGE_TRIM, img.height - EDGE_TRIM))
+    # Magnific-beelden hebben soms een dun donker randlijntje op één of
+    # meer randen (generatie-artefact, vaak niet rondom compleet). Nu we de
+    # AI ook expliciet vragen om geen kaderlijn te tekenen, hier alle vier
+    # de randen gelijk en ruim wegsnijden zodat nooit een half lijntje
+    # (bv. alleen rechts) overblijft.
+    EDGE_TRIM = 24
+    img = img.crop((EDGE_TRIM, EDGE_TRIM, img.width - EDGE_TRIM, img.height - EDGE_TRIM))
 
     target_w, target_h = A4_LANDSCAPE if landscape else A4_PORTRAIT
 
