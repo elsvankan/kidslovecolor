@@ -812,10 +812,12 @@ def _build_prompt(description, category, difficulty, style='standard'):
         'Style: clean bold outlines only, pure white background, absolutely no shading, '
         'no color fills, no gradients, simple line art ready to color with crayons. '
         'High contrast black lines on white paper. Printable coloring book style. '
-        'The illustration must fill the entire page edge to edge, full-bleed, with no empty white '
-        'margin around the artwork. A simple thin single-line border directly at the page edge is '
-        'fine, but never a thick black frame, bold rectangular border, or an ornate decorative '
-        f'frame/vignette with patterns that eats into the page. {text_rule}{diversity} {style_hint}'
+        'The illustration should fill the page generously, right up close to the edges — a print '
+        'margin is added afterwards in post-processing, so do not shrink the drawing yourself or '
+        'leave large empty white space around it. Do not draw any border, frame or outline rectangle '
+        'around the page at all — no thin single line, no thick black frame, no bold rectangular '
+        'border, no ornate decorative frame/vignette with patterns. The artwork itself simply fades '
+        f'into the page edge with nothing framing it. {text_rule}{diversity} {style_hint}'
     )
 
 
@@ -874,24 +876,32 @@ def _save(url, out_path, landscape):
     r.raise_for_status()
     img = Image.open(io.BytesIO(r.content)).convert('RGB')
 
-    # Magnific-beelden hebben vaak een dun (1-2px) donker randlijntje op de
-    # rechter- en/of onderrand (generatie-artefact). Wegsnijden voordat we
-    # verder verwerken, anders komt het lijntje mee in de eindafbeelding.
-    EDGE_TRIM = 5
-    img = img.crop((0, 0, img.width - EDGE_TRIM, img.height - EDGE_TRIM))
+    # Magnific-beelden hebben soms een dun donker randlijntje op één of
+    # meer randen (generatie-artefact, vaak niet rondom compleet). Nu we de
+    # AI ook expliciet vragen om geen kaderlijn te tekenen, hier alle vier
+    # de randen gelijk en ruim wegsnijden zodat nooit een half lijntje
+    # (bv. alleen rechts) overblijft.
+    EDGE_TRIM = 24
+    img = img.crop((EDGE_TRIM, EDGE_TRIM, img.width - EDGE_TRIM, img.height - EDGE_TRIM))
 
     target_w, target_h = A4_LANDSCAPE if landscape else A4_PORTRAIT
+
+    # Witte printmarge: veel printers kunnen niet tot de papierrand
+    # bedrukken, dus de tekening moet altijd wat lucht overhouden. 45px op
+    # 150dpi ≈ 7,5mm rondom.
+    PRINT_MARGIN = 45
+    avail_w, avail_h = target_w - 2 * PRINT_MARGIN, target_h - 2 * PRINT_MARGIN
 
     # "Contain"-fit: schaal zonder vervorming, vul de rest met wit
     # (voorkomt uitgerekte lijntekeningen bij afwijkende AI-ratio's).
     src_ratio = img.width / img.height
-    dst_ratio = target_w / target_h
+    dst_ratio = avail_w / avail_h
     if src_ratio > dst_ratio:
-        new_w = target_w
-        new_h = round(target_w / src_ratio)
+        new_w = avail_w
+        new_h = round(avail_w / src_ratio)
     else:
-        new_h = target_h
-        new_w = round(target_h * src_ratio)
+        new_h = avail_h
+        new_w = round(avail_h * src_ratio)
     resized = img.resize((new_w, new_h), Image.LANCZOS)
 
     canvas = Image.new('RGB', (target_w, target_h), 'white')
