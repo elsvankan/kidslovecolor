@@ -519,7 +519,8 @@ function renderGrid() {
     return matchCat && matchCountry && matchSearch;
   });
 
-  if (activeCategory === 'nieuw') {
+  // The homepage should always open with the most recently added pages first.
+  if (activeCategory === 'all' || activeCategory === 'nieuw') {
     filtered.sort((a, b) => b.id - a.id);
   }
 
