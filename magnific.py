@@ -57,13 +57,7 @@ CAT_HINTS = {
     'sprookjes':  'fairy tale magical scene, enchanted fantasy',
     'ruimte':     'outer space scene, stars, planets, rockets',
     'oceaan':     'underwater ocean scene, sea creatures, coral',
-    'letters':    (
-        'a large bold alphabet letter paired with one small, calm nature motif — not necessarily related '
-        'to the sound of the letter, since this site is translated into five languages and that link '
-        'would break in translation. Keep it clean and uncluttered — a single simple illustration, never '
-        'a busy mandala, paisley pattern, or dense wreath of tiny repeating shapes. Plenty of open white '
-        'space left to color.'
-    ),
+    'letters':    'decorative alphabet letter, ornamental design',
     'mandala':    'symmetrical mandala pattern, geometric repeating design',
     'gezichten':  'cute character face, expressive portrait, simple face features',
     'beroepen':   'person doing a job or profession, friendly character, work scene',
@@ -308,6 +302,17 @@ TOPIC_POOL = [
         nl='Zeemeermin Zittend op een Rots bij de Zee', en='Mermaid Sitting on a Rock by the Sea',
         fr='Sirène Assise sur un Rocher au Bord de la Mer', es='Sirena Sentada en una Roca junto al Mar', zh='坐在海边岩石上的美人鱼')),
 
+    # letters — decoratief, portret
+    dict(cat='letters', diff='medium', desc='letter A decorated with apples and ants', landscape=False, titles=dict(
+        nl='Letter A Versierd met Appels en Mieren', en='Letter A Decorated With Apples and Ants',
+        fr='Lettre A Décorée de Pommes et de Fourmis', es='Letra A Decorada con Manzanas y Hormigas', zh='用苹果和蚂蚁装饰的字母A')),
+    dict(cat='letters', diff='medium', desc='letter B decorated with butterflies', landscape=False, titles=dict(
+        nl='Letter B Versierd met Vlinders', en='Letter B Decorated With Butterflies',
+        fr='Lettre B Décorée de Papillons', es='Letra B Decorada con Mariposas', zh='用蝴蝶装饰的字母B')),
+    dict(cat='letters', diff='medium', desc='letter S decorated with stars and a sun', landscape=False, titles=dict(
+        nl='Letter S Versierd met Sterren en een Zon', en='Letter S Decorated With Stars and a Sun',
+        fr="Lettre S Décorée d'Étoiles et d'un Soleil", es='Letra S Decorada con Estrellas y un Sol', zh='用星星和太阳装饰的字母S')),
+
     # mandala — altijd portret, symmetrisch
     dict(cat='mandala', diff='hard', desc='animal themed mandala with birds', landscape=False, titles=dict(
         nl='Dieren Mandala met Vogels', en='Animal Themed Mandala With Birds',
@@ -400,20 +405,6 @@ TOPIC_POOL = [
     dict(cat='voertuigen', diff='easy', desc='dump truck working at a construction site', landscape=True, titles=dict(
         nl='Kiepwagen Werkend op een Bouwplaats', en='Dump Truck Working at a Construction Site',
         fr='Camion-benne Travaillant sur un Chantier', es='Camión Volquete Trabajando en una Obra', zh='在建筑工地工作的自卸卡车')),
-    dict(cat='voertuigen', diff='medium', desc='excavator digging next to a crane at a busy construction site', landscape=True, titles=dict(
-        nl='Graafmachine bij een Bouwplaats met een Kraan', en='Excavator at a Construction Site With a Crane',
-        fr='Excavatrice sur un Chantier avec une Grue', es='Excavadora en una Obra con una Grúa', zh='建筑工地上的挖掘机和起重机')),
-
-    dict(cat='sprookjes', diff='hard', desc='brave knight battling a fierce dragon with a sword and shield', landscape=True, titles=dict(
-        nl='Dappere Ridder Vecht tegen een Draak', en='Brave Knight Battling a Fierce Dragon',
-        fr='Chevalier Courageux Combattant un Dragon Féroce', es='Caballero Valiente Luchando contra un Dragón Feroz', zh='勇敢的骑士大战凶猛的恶龙')),
-
-    dict(cat='kawaii', diff='medium', desc="cozy child's bedroom with a small doll bed next to the real bed, stuffed animals and toys around", landscape=True, style='cozy', titles=dict(
-        nl='Kinderkamer met een Poppenbedje naast het Bed', en="Bedroom With a Doll's Bed Next to the Real Bed",
-        fr='Chambre avec un Petit Lit de Poupée à Côté du Lit', es='Habitación con una Camita de Muñeca junto a la Cama', zh='真床旁边放着小娃娃床的卧室')),
-    dict(cat='kawaii', diff='medium', desc='dollhouse filled with tiny furniture, a staircase and little rooms', landscape=False, titles=dict(
-        nl='Poppenhuis vol Piepklein Meubels', en='Dollhouse Full of Tiny Furniture',
-        fr='Maison de Poupée Pleine de Petits Meubles', es='Casa de Muñecas Llena de Muebles Pequeños', zh='摆满小家具的娃娃屋')),
 
     dict(cat='feestdagen', diff='easy', desc='dinosaur wearing a halloween costume', landscape=False, titles=dict(
         nl='Dinosaurus in een Halloweenkostuum', en='Dinosaur Wearing a Halloween Costume',
@@ -792,10 +783,7 @@ def _build_prompt(description, category, difficulty, style='standard'):
         'Close-up portrait framing is fine here.'
     )
     text_rule = (
-        'The single large letter itself is the main decorative shape, but do not add any other spelled-out '
-        'word, label or caption anywhere in the image (for example do not write out the name of the object) '
-        '— AI-generated text is often misspelled or garbled and this site is multilingual, so a caption in '
-        'one language would be wrong for the rest.'
+        'The letter itself may appear as the main decorative shape.'
         if category == 'letters' else
         'Do not include any text, letters, words, banners, signs or writing anywhere in the image — '
         'AI-generated text is often misspelled or garbled, so avoid it entirely here.'

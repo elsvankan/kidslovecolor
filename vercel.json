@@ -5,188 +5,40 @@
     {
       "source": "/(.*)",
       "headers": [
-        {
-          "key": "X-Content-Type-Options",
-          "value": "nosniff"
-        },
-        {
-          "key": "X-Frame-Options",
-          "value": "DENY"
-        },
-        {
-          "key": "X-XSS-Protection",
-          "value": "1; mode=block"
-        },
-        {
-          "key": "Referrer-Policy",
-          "value": "strict-origin-when-cross-origin"
-        }
+        { "key": "X-Content-Type-Options",     "value": "nosniff" },
+        { "key": "X-Frame-Options",             "value": "DENY" },
+        { "key": "X-XSS-Protection",            "value": "1; mode=block" },
+        { "key": "Referrer-Policy",             "value": "strict-origin-when-cross-origin" }
       ]
     },
     {
       "source": "/svg/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
       "source": "/img/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
-        }
+        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
       ]
     },
     {
       "source": "/css/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=86400"
-        }
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     }
   ],
   "rewrites": [
-    {
-      "source": "/en",
-      "destination": "/en/index.html"
-    },
-    {
-      "source": "/en/",
-      "destination": "/en/index.html"
-    },
-    {
-      "source": "/fr",
-      "destination": "/fr/index.html"
-    },
-    {
-      "source": "/fr/",
-      "destination": "/fr/index.html"
-    },
-    {
-      "source": "/es",
-      "destination": "/es/index.html"
-    },
-    {
-      "source": "/es/",
-      "destination": "/es/index.html"
-    },
-    {
-      "source": "/zh",
-      "destination": "/zh/index.html"
-    },
-    {
-      "source": "/zh/",
-      "destination": "/zh/index.html"
-    },
-    {
-      "source": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden",
-      "destination": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden/index.html"
-    },
-    {
-      "source": "/kleurplaat/monster-truck-jumping-over-cars",
-      "destination": "/kleurplaat/monster-truck-jumping-over-cars/index.html"
-    },
-    {
-      "source": "/kleurplaat/trex-dinosaur-roaring-in-a-prehistoric-jungle",
-      "destination": "/kleurplaat/trex-dinosaur-roaring-in-a-prehistoric-jungle/index.html"
-    },
-    {
-      "source": "/kleurplaat/kawaii-dinosaur-playing-with-balloons",
-      "destination": "/kleurplaat/kawaii-dinosaur-playing-with-balloons/index.html"
-    },
-    {
-      "source": "/kleurplaat/baby-stegosaurus",
-      "destination": "/kleurplaat/baby-stegosaurus/index.html"
-    },
-    {
-      "source": "/kleurplaat/dinosaur-brontosaurus",
-      "destination": "/kleurplaat/dinosaur-brontosaurus/index.html"
-    },
-    {
-      "source": "/kleurplaat/excavator-digging-next-to-a-crane-at-a-busy-construction-site",
-      "destination": "/kleurplaat/excavator-digging-next-to-a-crane-at-a-busy-construction-site/index.html"
-    },
-    {
-      "source": "/kleurplaat/fire-truck-with-ladder-driving-to-a-rescue",
-      "destination": "/kleurplaat/fire-truck-with-ladder-driving-to-a-rescue/index.html"
-    },
-    {
-      "source": "/kleurplaat/train-crossing-a-bridge-over-a-river",
-      "destination": "/kleurplaat/train-crossing-a-bridge-over-a-river/index.html"
-    },
-    {
-      "source": "/kleurplaat/busy-airport-scene-with-airplanes",
-      "destination": "/kleurplaat/busy-airport-scene-with-airplanes/index.html"
-    },
-    {
-      "source": "/kleurplaat/princess-trying-on-a-glass-slipper",
-      "destination": "/kleurplaat/princess-trying-on-a-glass-slipper/index.html"
-    },
-    {
-      "source": "/kleurplaat/princess-sleeping-in-a-castle-tower",
-      "destination": "/kleurplaat/princess-sleeping-in-a-castle-tower/index.html"
-    },
-    {
-      "source": "/kleurplaat/princess-castle-with-towers-and-a-garden",
-      "destination": "/kleurplaat/princess-castle-with-towers-and-a-garden/index.html"
-    },
-    {
-      "source": "/kleurplaat/black-african-princess-wearing-a-colorful-traditional-dress-and-beaded-jewelry",
-      "destination": "/kleurplaat/black-african-princess-wearing-a-colorful-traditional-dress-and-beaded-jewelry/index.html"
-    },
-    {
-      "source": "/kleurplaat/mermaid-underwater",
-      "destination": "/kleurplaat/mermaid-underwater/index.html"
-    },
-    {
-      "source": "/kleurplaat/farm-scene-with-cow-pig-and-chicken",
-      "destination": "/kleurplaat/farm-scene-with-cow-pig-and-chicken/index.html"
-    },
-    {
-      "source": "/kleurplaat/full-body-elephant-walking-in-the-jungle",
-      "destination": "/kleurplaat/full-body-elephant-walking-in-the-jungle/index.html"
-    },
-    {
-      "source": "/kleurplaat/happy-rabbits-garden",
-      "destination": "/kleurplaat/happy-rabbits-garden/index.html"
-    },
-    {
-      "source": "/kleurplaat/cute-whale-underwater",
-      "destination": "/kleurplaat/cute-whale-underwater/index.html"
-    },
-    {
-      "source": "/kleurplaat/dolphins-ocean",
-      "destination": "/kleurplaat/dolphins-ocean/index.html"
-    },
-    {
-      "source": "/kleurplaat/giraffe-eating-leaves-from-a-tall-tree",
-      "destination": "/kleurplaat/giraffe-eating-leaves-from-a-tall-tree/index.html"
-    },
-    {
-      "source": "/kleurplaat/baby-unicorn-playing-in-a-flower-meadow",
-      "destination": "/kleurplaat/baby-unicorn-playing-in-a-flower-meadow/index.html"
-    },
-    {
-      "source": "/kleurplaat/sunflower-field-under-a-smiling-sun",
-      "destination": "/kleurplaat/sunflower-field-under-a-smiling-sun/index.html"
-    },
-    {
-      "source": "/kleurplaat/forest-scene-with-tall-trees-and-a-stream",
-      "destination": "/kleurplaat/forest-scene-with-tall-trees-and-a-stream/index.html"
-    },
-    {
-      "source": "/kleurplaat/summer-beach-crab",
-      "destination": "/kleurplaat/summer-beach-crab/index.html"
-    },
-    {
-      "source": "/kleurplaat/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/en",                    "destination": "/en/index.html" },
+    { "source": "/en/",                   "destination": "/en/index.html" },
+    { "source": "/fr",                    "destination": "/fr/index.html" },
+    { "source": "/fr/",                   "destination": "/fr/index.html" },
+    { "source": "/es",                    "destination": "/es/index.html" },
+    { "source": "/es/",                   "destination": "/es/index.html" },
+    { "source": "/zh",                    "destination": "/zh/index.html" },
+    { "source": "/zh/",                   "destination": "/zh/index.html" },
+    { "source": "/kleurplaat/(.*)",       "destination": "/index.html" }
   ]
 }

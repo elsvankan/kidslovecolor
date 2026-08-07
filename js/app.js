@@ -48,24 +48,6 @@ const BASE_URL = BASE_URL_MAP[currentLang] || 'https://kidslovecolor.com/';
 // -------------------------------------------------------
 const t = (key) => TRANSLATIONS[currentLang]?.[key] || TRANSLATIONS.nl[key] || key;
 
-function coloringAnalyticsParams(item, source, extra = {}) {
-  const ld = item[currentLang] || item.nl;
-  return {
-    coloring_slug: item.slug,
-    coloring_title: ld.title,
-    coloring_category: item.category,
-    coloring_difficulty: item.difficulty,
-    content_language: currentLang,
-    interaction_source: source,
-    ...extra,
-  };
-}
-
-function trackColoringEvent(eventName, item, source, extra = {}) {
-  if (typeof window.gtag !== 'function') return;
-  window.gtag('event', eventName, coloringAnalyticsParams(item, source, extra));
-}
-
 const TRANSLATIONS = {
   nl: {
     all_pages:          'Alle kleurplaten',
@@ -236,7 +218,6 @@ document.addEventListener('DOMContentLoaded', () => {
   setupScrollTop();
   updateLangUI();
   setupMobileSearch();
-  setupRandomEarthGlobe();
   hideEmptyAdBanners();
   injectColoringPageSchema();   // structured data on page load
 
@@ -251,7 +232,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const slugMatch = window.location.pathname.match(/^\/kleurplaat\/([^/]+)$/);
   if (slugMatch) {
     const item = COLORINGS.find(c => c.slug === slugMatch[1]);
-    if (item) openModal(item.id, 'direct_link');
+    if (item) openModal(item.id);
   } else {
     // Fallback: handle ?kleurplaat=SLUG from older static page redirects
     const kpParam = new URLSearchParams(window.location.search).get('kleurplaat');
@@ -259,7 +240,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const item = COLORINGS.find(c => c.slug === kpParam);
       if (item) {
         history.replaceState({}, '', '/kleurplaat/' + kpParam);
-        openModal(item.id, 'legacy_link');
+        openModal(item.id);
       }
     }
   }
@@ -548,12 +529,12 @@ function renderGrid() {
     const id = parseInt(card.dataset.id);
 
     card.addEventListener('click', (e) => {
-      if (!e.target.closest('.overlay-btn')) openModal(id, 'grid');
+      if (!e.target.closest('.overlay-btn')) openModal(id);
     });
     card.addEventListener('keydown', (e) => {
       if ((e.key === 'Enter' || e.key === ' ') && !e.target.closest('.overlay-btn')) {
         e.preventDefault();
-        openModal(id, 'grid');
+        openModal(id);
       }
     });
 
@@ -561,14 +542,14 @@ function renderGrid() {
     if (printBtn) printBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       const item = COLORINGS.find(c => c.id === id);
-      if (item) printColoring(item, 'grid');
+      if (item) printColoring(item);
     });
 
     const dlBtn = card.querySelector('[data-action="download"]');
     if (dlBtn) dlBtn.addEventListener('click', (e) => {
       e.stopPropagation();
       const item = COLORINGS.find(c => c.id === id);
-      if (item) downloadColoring(item, 'grid');
+      if (item) downloadColoring(item);
     });
   });
 }
@@ -687,20 +668,20 @@ function setupModal() {
   });
   document.getElementById('modalClose')?.addEventListener('click', closeModal);
   document.getElementById('modalPrint')?.addEventListener('click', () => {
-    if (currentColoring) printColoring(currentColoring, 'modal');
+    if (currentColoring) printColoring(currentColoring);
   });
   document.getElementById('modalDownload')?.addEventListener('click', () => {
-    if (currentColoring) downloadColoring(currentColoring, 'modal');
+    if (currentColoring) downloadColoring(currentColoring);
   });
   document.getElementById('modalDownloadPdf')?.addEventListener('click', () => {
-    if (currentColoring) downloadPdf(currentColoring, 'modal');
+    if (currentColoring) downloadPdf(currentColoring);
   });
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape' && overlay.classList.contains('open')) closeModal();
   });
 }
 
-function openModal(id, source = 'unknown') {
+function openModal(id) {
   const item = COLORINGS.find(c => c.id === id);
   if (!item) return;
   currentColoring = item;
@@ -745,7 +726,6 @@ function openModal(id, source = 'unknown') {
 
   history.pushState({ modal: item.slug }, '', '/kleurplaat/' + item.slug);
 
-  trackColoringEvent('coloring_open', item, source);
   injectSingleImageSchema(item);
 }
 
@@ -798,7 +778,7 @@ function injectSingleImageSchema(item) {
 // -------------------------------------------------------
 // PRINT
 // -------------------------------------------------------
-function printColoring(item, source = 'unknown') {
+function printColoring(item) {
   const ld      = item[currentLang] || item.nl;
   const imgSrc  = resolveImgPath(item.img) || '';
   const printWin = window.open('', '_blank', 'width=800,height=900');
@@ -841,13 +821,12 @@ function printColoring(item, source = 'unknown') {
 </body>
 </html>`);
   printWin.document.close();
-  trackColoringEvent('coloring_print', item, source);
 }
 
 // -------------------------------------------------------
 // DOWNLOAD
 // -------------------------------------------------------
-function downloadColoring(item, source = 'unknown') {
+function downloadColoring(item) {
   if (!item.img) { alert(t('no_img_alert')); return; }
   const ld   = item[currentLang] || item.nl;
   const link = document.createElement('a');
@@ -857,9 +836,6 @@ function downloadColoring(item, source = 'unknown') {
   document.body.appendChild(link);
   link.click();
   document.body.removeChild(link);
-  trackColoringEvent('coloring_download', item, source, {
-    download_format: item.img.endsWith('.svg') ? 'svg' : 'jpg',
-  });
 }
 
 // -------------------------------------------------------
@@ -876,7 +852,7 @@ function loadJsPdf() {
   });
 }
 
-async function downloadPdf(item, source = 'unknown') {
+async function downloadPdf(item) {
   const ld  = item[currentLang] || item.nl;
   const btn = document.getElementById('modalDownloadPdf');
   if (btn) { btn.disabled = true; btn.textContent = t('pdf_generating'); }
@@ -913,9 +889,6 @@ async function downloadPdf(item, source = 'unknown') {
     const pageH = landscape ? 210 : 297;
     doc.addImage(dataUrl, 'JPEG', 0, 0, pageW, pageH);
     doc.save(item.slug + '.pdf');
-    trackColoringEvent('coloring_download', item, source, {
-      download_format: 'pdf',
-    });
   } catch (e) {
     console.error('PDF download:', e);
     alert(t('pdf_error'));
@@ -961,26 +934,6 @@ function setupMobileSearch() {
       btn.focus();
     }
   });
-}
-
-// -------------------------------------------------------
-// RANDOM EARTH VIEW
-// -------------------------------------------------------
-function setupRandomEarthGlobe() {
-  const globe = document.querySelector('[data-earth-globe]');
-  if (!globe) return;
-
-  const views = [
-    'earth-north-america.webp',
-    'earth-americas.webp',
-    'earth-europe-africa.webp',
-    'earth-africa.webp',
-    'earth-asia.webp',
-  ];
-  const randomIndex = Math.floor(Math.random() * views.length);
-
-  globe.addEventListener('load', () => globe.classList.add('is-ready'), { once: true });
-  globe.src = `/img/vandaag-op-aarde/globes/${views[randomIndex]}`;
 }
 
 // -------------------------------------------------------
