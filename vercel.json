@@ -185,6 +185,26 @@
       "destination": "/kleurplaat/summer-beach-crab/index.html"
     },
     {
+      "source": "/kleurplaat/cheerful-bee-family-in-flower-garden",
+      "destination": "/kleurplaat/cheerful-bee-family-in-flower-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-reading-in-underwater-library",
+      "destination": "/kleurplaat/mermaid-reading-in-underwater-library/index.html"
+    },
+    {
+      "source": "/kleurplaat/children-at-skateboard-park",
+      "destination": "/kleurplaat/children-at-skateboard-park/index.html"
+    },
+    {
+      "source": "/kleurplaat/adventure-treehouse-with-rope-bridge",
+      "destination": "/kleurplaat/adventure-treehouse-with-rope-bridge/index.html"
+    },
+    {
+      "source": "/kleurplaat/japanese-garden-with-koi-pond",
+      "destination": "/kleurplaat/japanese-garden-with-koi-pond/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

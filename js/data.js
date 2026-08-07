@@ -3269,6 +3269,56 @@ const COLORINGS = [
     zh: { title: '小行星妮萨由三个相连部分组成', description: '免费时事涂色页：不规则的三瓣小行星妮萨和它的小卫星。', keywords: '妮萨 小行星 三个部分 小卫星 太空 时事 涂色 儿童', altText: '小行星妮萨由三个大小不一的相连部分和一颗小卫星组成的写实涂色页', newsExplainer: '新的望远镜图像显示，小行星妮萨由三个大小不一、彼此相连的部分组成，还有一颗小卫星围绕它运行。' },
   },
 
+  {
+    id: 351, slug: 'cheerful-bee-family-in-flower-garden', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--cheerful-bee-family-in-flower-garden.jpg',
+    nl: { title: 'Vrolijke Bijenfamilie in een Bloementuin', description: 'Gratis dierenkleurplaat van een vrolijke bijenfamilie tussen grote bloemen. Makkelijk te kleuren voor jonge kinderen.', keywords: 'bijenfamilie bloemen tuin makkelijke dieren kleurplaat gratis printen kinderen', altText: 'Makkelijke kleurplaat van drie vrolijke bijen tussen grote bloemen' },
+    en: { title: 'Cheerful Bee Family in a Flower Garden', description: 'Free animal coloring page of a cheerful bee family among large flowers. Easy to color for young children.', keywords: 'bee family flowers garden easy animal coloring page free printable kids', altText: 'Easy coloring page of three cheerful bees among large flowers' },
+    fr: { title: 'Joyeuse Famille d’Abeilles dans un Jardin Fleuri', description: 'Coloriage d’animaux gratuit d’une joyeuse famille d’abeilles parmi de grandes fleurs. Facile à colorier pour les jeunes enfants.', keywords: 'famille abeilles fleurs jardin coloriage animaux facile gratuit enfants', altText: 'Coloriage facile de trois abeilles joyeuses parmi de grandes fleurs' },
+    es: { title: 'Alegre Familia de Abejas en un Jardín de Flores', description: 'Página de animales para colorear gratis con una alegre familia de abejas entre flores grandes. Fácil para niños pequeños.', keywords: 'familia abejas flores jardín animales colorear fácil gratis niños', altText: 'Página fácil para colorear de tres abejas alegres entre flores grandes' },
+    zh: { title: '花园里的快乐蜜蜂一家', description: '免费动物涂色页：快乐的蜜蜂一家在大花朵间飞舞，适合低龄儿童轻松涂色。', keywords: '蜜蜂 一家 花园 花朵 动物 简单 免费 儿童 涂色页', altText: '三只快乐蜜蜂在大花朵间飞舞的简单涂色页' },
+  },
+
+  {
+    id: 352, slug: 'mermaid-reading-in-underwater-library', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--mermaid-reading-in-underwater-library.jpg',
+    nl: { title: 'Zeemeermin Leest in een Onderwaterbibliotheek', description: 'Gratis sprookjeskleurplaat van een zeemeermin die leest tussen koraalboekenkasten en vissen. Een fantasierijke kleurplaat met middelgrote details.', keywords: 'zeemeermin onderwaterbibliotheek boeken sprookjes kleurplaat gratis printen kinderen', altText: 'Kleurplaat van een zeemeermin die een boek leest in een onderwaterbibliotheek' },
+    en: { title: 'Mermaid Reading in an Underwater Library', description: 'Free fairy-tale coloring page of a mermaid reading among coral bookshelves and fish. An imaginative page with medium-sized details.', keywords: 'mermaid underwater library books fairy tale coloring page free printable kids', altText: 'Coloring page of a mermaid reading a book in an underwater library' },
+    fr: { title: 'Sirène Lisant dans une Bibliothèque Sous-Marine', description: 'Coloriage de conte gratuit d’une sirène lisant parmi des étagères de corail et des poissons. Une scène imaginaire avec des détails moyens.', keywords: 'sirène bibliothèque sous-marine livres conte coloriage gratuit enfants', altText: 'Coloriage d’une sirène lisant un livre dans une bibliothèque sous-marine' },
+    es: { title: 'Sirena Leyendo en una Biblioteca Submarina', description: 'Página de cuento para colorear gratis con una sirena que lee entre estanterías de coral y peces. Una escena imaginativa de dificultad media.', keywords: 'sirena biblioteca submarina libros cuento colorear gratis niños', altText: 'Página para colorear de una sirena leyendo en una biblioteca submarina' },
+    zh: { title: '在海底图书馆阅读的美人鱼', description: '免费童话涂色页：美人鱼在珊瑚书架和小鱼之间读书，细节适中，充满想象力。', keywords: '美人鱼 海底 图书馆 读书 童话 免费 儿童 涂色页', altText: '美人鱼在海底图书馆读书的涂色页' },
+  },
+
+  {
+    id: 353, slug: 'children-at-skateboard-park', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--children-at-skateboard-park.jpg',
+    nl: { title: 'Kinderen op de Skatebaan', description: 'Gratis kleurplaat van twee kinderen met helm en kniebeschermers op een skatebaan. Een sportieve plaat met gemiddelde moeilijkheid.', keywords: 'kinderen skateboard skatebaan helm sport voertuigen kleurplaat gratis printen', altText: 'Kleurplaat van twee kinderen met skateboards en beschermers op een skatebaan' },
+    en: { title: 'Children at the Skateboard Park', description: 'Free coloring page of two helmeted children skateboarding at a park. A sporty scene with medium difficulty.', keywords: 'children skateboard park helmets sport vehicle coloring page free printable', altText: 'Coloring page of two children with skateboards and safety pads at a skate park' },
+    fr: { title: 'Enfants au Skatepark', description: 'Coloriage gratuit de deux enfants casqués faisant du skateboard au skatepark. Une scène sportive de difficulté moyenne.', keywords: 'enfants skateboard skatepark casque sport véhicules coloriage gratuit', altText: 'Coloriage de deux enfants avec skateboards et protections au skatepark' },
+    es: { title: 'Niños en el Parque de Skate', description: 'Página para colorear gratis de dos niños con casco montando en monopatín. Una escena deportiva de dificultad media.', keywords: 'niños monopatín parque skate casco deporte vehículos colorear gratis', altText: 'Página para colorear de dos niños con monopatines y protecciones en un parque de skate' },
+    zh: { title: '滑板公园里的孩子们', description: '免费交通工具涂色页：两名戴头盔和护具的孩子在滑板公园练习，难度中等。', keywords: '孩子 滑板 公园 头盔 运动 交通工具 免费 涂色页', altText: '两名戴头盔和护具的孩子在滑板公园玩滑板的涂色页' },
+  },
+
+  {
+    id: 354, slug: 'adventure-treehouse-with-rope-bridge', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--adventure-treehouse-with-rope-bridge.jpg',
+    nl: { title: 'Avontuurlijke Boomhut met Touwbrug', description: 'Gratis uitdagende natuurkleurplaat van een grote boomhut met touwbrug, ladders, uitkijkplatform en katrol. Vol leuke details voor oudere kinderen.', keywords: 'boomhut touwbrug ladder uitkijkplatform natuur moeilijke kleurplaat gratis oudere kinderen', altText: 'Gedetailleerde kleurplaat van een avontuurlijke boomhut met touwbrug en uitkijkplatform' },
+    en: { title: 'Adventure Treehouse With a Rope Bridge', description: 'Free challenging nature coloring page of a large treehouse with a rope bridge, ladders, lookout platform and pulley. Packed with details for older children.', keywords: 'treehouse rope bridge ladder lookout nature hard coloring page free older kids', altText: 'Detailed coloring page of an adventure treehouse with a rope bridge and lookout platform' },
+    fr: { title: 'Cabane d’Aventure avec Pont de Corde', description: 'Coloriage nature difficile gratuit d’une grande cabane avec pont de corde, échelles, plateforme d’observation et poulie. Riche en détails pour les plus grands.', keywords: 'cabane arbre pont corde échelle plateforme nature coloriage difficile gratuit', altText: 'Coloriage détaillé d’une cabane d’aventure avec pont de corde et plateforme' },
+    es: { title: 'Casa del Árbol de Aventuras con Puente de Cuerda', description: 'Página de naturaleza difícil para colorear gratis con una gran casa del árbol, puente de cuerda, escaleras, mirador y polea. Llena de detalles.', keywords: 'casa árbol puente cuerda escalera mirador naturaleza colorear difícil gratis', altText: 'Página detallada para colorear de una casa del árbol con puente de cuerda y mirador' },
+    zh: { title: '带绳桥的冒险树屋', description: '免费高难度自然涂色页：大树屋配有绳桥、梯子、瞭望台和滑轮，细节丰富，适合大孩子。', keywords: '树屋 绳桥 梯子 瞭望台 自然 困难 免费 儿童 涂色页', altText: '带绳桥和瞭望台的冒险树屋详细涂色页' },
+  },
+
+  {
+    id: 355, slug: 'japanese-garden-with-koi-pond', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--japanese-garden-with-koi-pond.jpg',
+    nl: { title: 'Japanse Tuin met Koivijver', description: 'Gratis uitdagende natuurkleurplaat van een rustige Japanse tuin met koivissen, een houten brug, stenen lantaarn en sierlijke planten.', keywords: 'japanse tuin koivijver brug stenen lantaarn natuur moeilijke kleurplaat gratis', altText: 'Gedetailleerde kleurplaat van een Japanse tuin met vijf koivissen en een gebogen brug' },
+    en: { title: 'Japanese Garden With a Koi Pond', description: 'Free challenging nature coloring page of a peaceful Japanese garden with koi fish, a wooden bridge, stone lantern and elegant plants.', keywords: 'japanese garden koi pond bridge stone lantern nature hard coloring page free', altText: 'Detailed coloring page of a Japanese garden with five koi fish and an arched bridge' },
+    fr: { title: 'Jardin Japonais avec Bassin de Carpes Koï', description: 'Coloriage nature difficile gratuit d’un paisible jardin japonais avec carpes koï, pont en bois, lanterne de pierre et plantes élégantes.', keywords: 'jardin japonais bassin carpes koi pont lanterne pierre coloriage difficile gratuit', altText: 'Coloriage détaillé d’un jardin japonais avec cinq carpes koï et un pont arqué' },
+    es: { title: 'Jardín Japonés con Estanque de Koi', description: 'Página de naturaleza difícil para colorear gratis de un tranquilo jardín japonés con peces koi, puente de madera, farol de piedra y plantas.', keywords: 'jardín japonés estanque koi puente farol piedra naturaleza colorear difícil gratis', altText: 'Página detallada para colorear de un jardín japonés con cinco peces koi y un puente arqueado' },
+    zh: { title: '带锦鲤池的日式庭园', description: '免费高难度自然涂色页：宁静的日式庭园里有锦鲤、木桥、石灯笼和优雅植物。', keywords: '日式 庭园 锦鲤池 木桥 石灯笼 自然 困难 免费 涂色页', altText: '有五条锦鲤和拱形木桥的日式庭园详细涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

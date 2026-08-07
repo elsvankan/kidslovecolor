@@ -161,6 +161,36 @@ const PAGES = [
     pageTitle: 'Zomerse krab op het strand',
     storyTitle: 'Wat heeft de krab op het strand gevonden?',
     scene: 'De krab scharrelt door het warme zand, vlak bij de schelpen en de golven. Geef hem een fel rood, oranje of fantasiekleurig schild en teken een zandkasteel waar hij straks naast kan poseren.'
+  },
+  {
+    slug: 'cheerful-bee-family-in-flower-garden',
+    pageTitle: 'Vrolijke bijenfamilie in een bloementuin',
+    storyTitle: 'Naar welke bloem vliegt de bijenfamilie?',
+    scene: 'Drie vrolijke bijen zoemen tussen de grote bloemen door. Geef iedere bij een eigen strepenpatroon, maak alle bloemblaadjes anders en bedenk welke bloem de lekkerste nectar heeft.'
+  },
+  {
+    slug: 'mermaid-reading-in-underwater-library',
+    pageTitle: 'Zeemeermin leest in een onderwaterbibliotheek',
+    storyTitle: 'Welk verhaal leest de zeemeermin?',
+    scene: 'Tussen de koraalboekenkasten heeft de zeemeermin een spannend verhaal gevonden. Kleur haar staart, de vissen en alle boeken en bedenk welke magische avonturen er op de volgende bladzijde staan.'
+  },
+  {
+    slug: 'children-at-skateboard-park',
+    pageTitle: 'Kinderen op de skatebaan',
+    storyTitle: 'Wie rijdt als eerste van de ramp?',
+    scene: 'Met helmen en beschermers aan oefenen twee kinderen rustig op de skatebaan. Ontwerp hun skateboards, geef de kleding sportieve kleuren en maak van de baan een plek waar iedereen veilig nieuwe bewegingen kan proberen.'
+  },
+  {
+    slug: 'adventure-treehouse-with-rope-bridge',
+    pageTitle: 'Avontuurlijke boomhut met touwbrug',
+    storyTitle: 'Wat zit er in jouw geheime boomhut?',
+    scene: 'Hoog tussen de takken verbinden een touwbrug, ladders en een katrol twee bijzondere uitkijkplekken. Kies kleuren voor het hout en de bladeren en bedenk welke schatten in het mandje naar boven worden gehesen.'
+  },
+  {
+    slug: 'japanese-garden-with-koi-pond',
+    pageTitle: 'Japanse tuin met koivijver',
+    storyTitle: 'Welke kleuren weerspiegelen in de koivijver?',
+    scene: 'Vijf koivissen zwemmen rustig onder de gebogen houten brug. Geef elke vis een uniek patroon, kleur de esdoornbladeren en maak van het water een spiegel voor de planten en de stenen lantaarn.'
   }
 ];
 
