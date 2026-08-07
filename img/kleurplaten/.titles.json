@@ -917,7 +917,7 @@
       "zh": "每年八月底，西班牙布尼奥尔小镇都会有成千上万的人互相投掷成熟的番茄，这就是\"番茄大战\"（La Tomatina）——世界上最欢乐也最\"乱\"的节日之一！"
     }
   },
-  "actualiteiten--hard--sarnath-dhamek-stupa-children-discovering-ancient-heritage.jpg": {
+  "actualiteiten--hard--sarnath-dhamek-stupa-children-discovering-ancient-heritage-v2.jpg": {
     "nl": "Kinderen Ontdekken het Bijzondere Erfgoed van Sarnath",
     "en": "Children Discovering the Special Heritage of Sarnath",
     "fr": "Des Enfants Découvrent le Patrimoine Exceptionnel de Sarnath",
@@ -944,5 +944,200 @@
     "newsQuestion": {
       "nl": "Welke plek bij jou in de buurt zou jij voor later willen bewaren?"
     }
+  },
+  "actualiteiten--hard--indus-river-dolphin-sanctuary-pakistan.jpg": {
+    "nl": "Kinderen Ontdekken de Beschermde Indusrivierdolfijn",
+    "en": "Children Discover the Protected Indus River Dolphin",
+    "fr": "Des Enfants Découvrent le Dauphin de l’Indus Protégé",
+    "es": "Niños Descubren al Delfín Protegido del Río Indo",
+    "zh": "孩子们探索受保护的印度河豚",
+    "country": "pk",
+    "newsExplainer": {
+      "nl": "In Pakistan hebben zeldzame Indusrivierdolfijnen een nieuw beschermd thuis gekregen. Het natuurgebied volgt ongeveer 198 kilometer van de Indus en de plek waar vijf rivieren samenkomen.",
+      "en": "Rare Indus river dolphins in Pakistan have gained a new protected home. The sanctuary follows about 198 kilometres of the Indus and the place where five rivers meet.",
+      "fr": "Au Pakistan, les rares dauphins de l’Indus disposent désormais d’un nouvel habitat protégé. Le sanctuaire couvre environ 198 kilomètres du fleuve et la région où cinq rivières se rejoignent.",
+      "es": "Los raros delfines del río Indo en Pakistán cuentan ahora con un nuevo hogar protegido. El santuario recorre unos 198 kilómetros del Indo y el lugar donde se unen cinco ríos.",
+      "zh": "巴基斯坦珍稀的印度河豚有了新的保护家园。保护区沿印度河延伸约198公里，并涵盖五条河流交汇的地区。"
+    },
+    "newsArticle": {
+      "nl": "De Indusrivierdolfijn leeft niet in zee, maar in het troebele zoete water van de Indus. Hij heeft heel kleine ogen en vindt zijn weg met klikgeluidjes en echo’s. In het nieuwe beschermde gebied krijgen de dieren meer rust en ruimte om te zwemmen, voedsel te zoeken en jongen groot te brengen. Vissers, onderzoekers en natuurbeschermers gaan er samenwerken om de rivier gezond te houden."
+    },
+    "newsFacts": {
+      "nl": [
+        "De Indusrivierdolfijn leeft in zoet water.",
+        "Hij gebruikt geluid en echo om de weg te vinden.",
+        "Het nieuwe beschermde gebied is ongeveer 198 kilometer lang."
+      ]
+    },
+    "newsQuestion": {
+      "nl": "Hoe zou het zijn om vooral met geluid de weg te vinden?"
+    }
+  },
+  "actualiteiten--hard--greater-bilby-recovery-new-south-wales.jpg": {
+    "nl": "Bilbies Krijgen een Veilig Thuis in Australië",
+    "en": "Bilbies Get a Safe Home in Australia",
+    "fr": "Les Bilbies Retrouvent un Habitat Sûr en Australie",
+    "es": "Los Bilbies Consiguen un Hogar Seguro en Australia",
+    "zh": "兔耳袋狸在澳大利亚获得安全家园",
+    "country": "au",
+    "newsExplainer": {
+      "nl": "In New South Wales worden bilbies en andere bedreigde dieren opnieuw uitgezet in grote natuurgebieden zonder vossen en verwilderde katten. De succesvolle herstelprojecten krijgen tien jaar extra tijd.",
+      "en": "In New South Wales, bilbies and other threatened animals are being returned to large wildlife areas without foxes and feral cats. The successful recovery projects have received another ten years of support.",
+      "fr": "En Nouvelle-Galles du Sud, des bilbies et d’autres animaux menacés sont réintroduits dans de vastes espaces protégés des renards et des chats sauvages. Ces projets réussis sont prolongés de dix ans.",
+      "es": "En Nueva Gales del Sur, los bilbies y otros animales amenazados están regresando a grandes espacios naturales sin zorros ni gatos asilvestrados. Estos proyectos recibirán apoyo durante diez años más.",
+      "zh": "在新南威尔士州，兔耳袋狸和其他受威胁动物正被重新引入没有狐狸和野猫的大型自然保护区。这些成功的恢复项目将再获得十年支持。"
+    },
+    "newsArticle": {
+      "nl": "Een bilby is een klein Australisch nachtdier met lange oren, een spitse snuit en sterke graafpoten. Overdag rust hij in een diepe, kronkelende tunnel. Tijdens het graven maakt hij de harde bodem los, zodat regenwater beter kan wegzakken en zaden ruimte krijgen om te groeien. Parkwachters en onderzoekers blijven de dieren volgen en zorgen dat hun beschermde leefgebied veilig blijft."
+    },
+    "newsFacts": {
+      "nl": [
+        "Een bilby is vooral ’s nachts wakker.",
+        "Zijn tunnels kunnen ongeveer twee meter diep zijn.",
+        "Bilbies helpen planten door de bodem los te graven."
+      ]
+    },
+    "newsQuestion": {
+      "nl": "Welk dier zou jij graag helpen met een veilig thuis?"
+    }
+  },
+  "actualiteiten--hard--green-river-million-solar-panels-utah.jpg": {
+    "nl": "Bijna een Miljoen Zonnepanelen in de Woestijn van Utah",
+    "en": "Almost a Million Solar Panels in the Utah Desert",
+    "fr": "Près d’un Million de Panneaux Solaires dans le Désert de l’Utah",
+    "es": "Casi un Millón de Paneles Solares en el Desierto de Utah",
+    "zh": "犹他州沙漠中的近百万块太阳能板",
+    "country": "us",
+    "newsExplainer": {
+      "nl": "In een zonnige vallei bij Green River in Utah staan 993.492 zonnepanelen. Daarnaast bewaren 484 grote batterijen energie voor momenten waarop de zon niet schijnt.",
+      "en": "A sunny valley near Green River, Utah, now holds 993,492 solar panels. Alongside them, 484 large batteries store energy for times when the sun is not shining.",
+      "fr": "Dans une vallée ensoleillée près de Green River, dans l’Utah, se trouvent 993 492 panneaux solaires. À côté, 484 grandes batteries stockent l’énergie lorsque le soleil ne brille pas.",
+      "es": "En un valle soleado cerca de Green River, Utah, hay 993.492 paneles solares. Junto a ellos, 484 grandes baterías guardan energía para cuando no brilla el sol.",
+      "zh": "犹他州格林里弗附近的阳光山谷中铺设了993,492块太阳能板，旁边的484组大型电池可以储存阴天或夜晚使用的电力。"
+    },
+    "newsArticle": {
+      "nl": "Het Green River Energy Center ligt tussen de droge vlaktes en rotsige tafelbergen van Utah. Lange rijen zonnepanelen zetten zonlicht om in elektriciteit. De batterijen bewaren een deel daarvan voor later. De Landsat 8-satelliet fotografeerde het enorme terrein vanuit de ruimte, zodat onderzoekers kunnen volgen hoe het landschap en de energievoorziening veranderen."
+    },
+    "newsFacts": {
+      "nl": [
+        "Het project heeft 993.492 zonnepanelen.",
+        "Er staan 484 grote batterijen om energie te bewaren.",
+        "De ruimtefoto’s zijn gemaakt met de Landsat 8-satelliet."
+      ]
+    },
+    "newsQuestion": {
+      "nl": "Wat zou jij allemaal met één uur zonlicht willen laten werken?"
+    }
+  },
+  "actualiteiten--hard--beta-pictoris-d-hidden-exoplanet.jpg": {
+    "nl": "Kinderen Ontdekken de Verborgen Planeet Beta Pictoris d",
+    "en": "Children Discover the Hidden Planet Beta Pictoris d",
+    "fr": "Des Enfants Découvrent la Planète Cachée Beta Pictoris d",
+    "es": "Niños Descubren el Planeta Oculto Beta Pictoris d",
+    "zh": "孩子们探索隐藏的系外行星绘架座βd",
+    "newsExplainer": {
+      "nl": "Met de James Webb-ruimtetelescoop hebben sterrenkundigen een verborgen planeet ontdekt bij de jonge ster Beta Pictoris. De reuzenplaneet zat verscholen in een heldere schijf van stof en steentjes.",
+      "en": "Astronomers used the James Webb Space Telescope to discover a hidden planet near the young star Beta Pictoris. The giant world was concealed within a bright disk of dust and rocky debris.",
+      "fr": "Grâce au télescope spatial James Webb, des astronomes ont découvert une planète cachée près de la jeune étoile Beta Pictoris. Ce monde géant se dissimulait dans un disque lumineux de poussière et de débris rocheux.",
+      "es": "Con el telescopio espacial James Webb, los astrónomos descubrieron un planeta oculto cerca de la joven estrella Beta Pictoris. El mundo gigante estaba escondido en un brillante disco de polvo y restos rocosos.",
+      "zh": "天文学家利用詹姆斯·韦布空间望远镜，在年轻恒星绘架座β附近发现了一颗隐藏的行星。这颗巨行星藏在明亮的尘埃和碎石盘中。"
+    },
+    "newsArticle": {
+      "nl": "Beta Pictoris d bleef lang verborgen in de heldere stofschijf rond zijn jonge ster. In plaats van alleen naar een lichtpuntje te zoeken, speurden onderzoekers met de James Webb-ruimtetelescoop naar een chemische vingerafdruk in de atmosfeer. Zo konden ze de planeet toch herkennen. De slimme zoekmethode kan later helpen om nog meer planeten in stoffige sterrenstelsels te vinden."
+    },
+    "newsFacts": {
+      "nl": [
+        "Beta Pictoris staat ongeveer 63 lichtjaar van de aarde.",
+        "Het sterrenstelsel is ongeveer 23 miljoen jaar jong.",
+        "De nieuwe planeet is waarschijnlijk minstens twee keer zo zwaar als Jupiter."
+      ]
+    },
+    "newsQuestion": {
+      "nl": "Welke naam zou jij geven aan een planeet die zich lang verstopt?"
+    }
+  },
+  "kawaii--medium--kawaii-fox-playing-in-autumn-leaves.jpg": {
+    "nl": "Kawaii Vosje Spelend in Herfstbladeren",
+    "en": "Kawaii Fox Playing in Autumn Leaves",
+    "fr": "Renard Kawaii Jouant dans les Feuilles d'Automne",
+    "es": "Zorro Kawaii Jugando en Hojas de Otoño",
+    "zh": "在秋叶中玩耍的卡哇伊狐狸"
+  },
+  "kawaii--easy--kawaii-penguin-sliding-on-ice.jpg": {
+    "nl": "Kawaii Pinguïn Glijdend over het IJs",
+    "en": "Kawaii Penguin Sliding on Ice",
+    "fr": "Pingouin Kawaii Glissant sur la Glace",
+    "es": "Pingüino Kawaii Deslizándose sobre el Hielo",
+    "zh": "在冰上滑行的卡哇伊企鹅"
+  },
+  "kawaii--medium--kawaii-dinosaur-playing-with-balloons.jpg": {
+    "nl": "Kawaii Dinosaurus Spelend met Ballonnen",
+    "en": "Kawaii Dinosaur Playing With Balloons",
+    "fr": "Dinosaure Kawaii Jouant Avec des Ballons",
+    "es": "Dinosaurio Kawaii Jugando con Globos",
+    "zh": "和气球玩耍的卡哇伊恐龙"
+  },
+  "natuur--medium--forest-scene-with-tall-trees-and-a-stream.jpg": {
+    "nl": "Bosscène met Hoge Bomen en een Beekje",
+    "en": "Forest Scene With Tall Trees and a Stream",
+    "fr": "Scène de Forêt Avec de Grands Arbres et un Ruisseau",
+    "es": "Escena de Bosque con Árboles Altos y un Arroyo",
+    "zh": "有高大树木和小溪的森林场景"
+  },
+  "natuur--easy--sunflower-field-under-a-smiling-sun.jpg": {
+    "nl": "Zonnebloemenveld onder een Lachende Zon",
+    "en": "Sunflower Field Under a Smiling Sun",
+    "fr": "Champ de Tournesols Sous un Soleil Souriant",
+    "es": "Campo de Girasoles Bajo un Sol Sonriente",
+    "zh": "微笑太阳下的向日葵田"
+  },
+  "voertuigen--medium--monster-truck-jumping-over-cars.jpg": {
+    "nl": "Monstertruck die over Auto's Springt",
+    "en": "Monster Truck Jumping Over Cars",
+    "fr": "Monster Truck Sautant par-dessus des Voitures",
+    "es": "Camión Monstruo Saltando sobre Coches",
+    "zh": "跳跃越过汽车的怪兽卡车"
+  },
+  "voertuigen--medium--excavator-digging-next-to-a-crane-at-a-busy-construction-site.jpg": {
+    "nl": "Graafmachine bij een Bouwplaats met een Kraan",
+    "en": "Excavator at a Construction Site With a Crane",
+    "fr": "Excavatrice sur un Chantier avec une Grue",
+    "es": "Excavadora en una Obra con una Grúa",
+    "zh": "建筑工地上的挖掘机和起重机"
+  },
+  "dieren--medium--trex-dinosaur-roaring-in-a-prehistoric-jungle.jpg": {
+    "nl": "T-Rex Dinosaurus Brullend in een Oerwoud",
+    "en": "T-Rex Dinosaur Roaring in a Prehistoric Jungle",
+    "fr": "Dinosaure T-Rex Rugissant dans une Jungle Préhistorique",
+    "es": "Dinosaurio T-Rex Rugiendo en una Selva Prehistórica",
+    "zh": "在史前丛林中咆哮的霸王龙"
+  },
+  "dieren--easy--baby-unicorn-playing-in-a-flower-meadow.jpg": {
+    "nl": "Baby Eenhoorn Spelend in een Bloemenweide",
+    "en": "Baby Unicorn Playing in a Flower Meadow",
+    "fr": "Bébé Licorne Jouant dans une Prairie Fleurie",
+    "es": "Bebé Unicornio Jugando en un Prado Florido",
+    "zh": "在花草地上玩耍的小独角兽"
+  },
+  "sprookjes--hard--brave-knight-battling-a-fierce-dragon-with-a-sword-and-shield.jpg": {
+    "nl": "Dappere Ridder Vecht tegen een Draak",
+    "en": "Brave Knight Battling a Fierce Dragon",
+    "fr": "Chevalier Courageux Combattant un Dragon Féroce",
+    "es": "Caballero Valiente Luchando contra un Dragón Feroz",
+    "zh": "勇敢的骑士大战凶猛的恶龙"
+  },
+  "kawaii--medium--cozy-childs-bedroom-with-a-small-doll-bed-next-to-the-real-bed-stuffed-animals-and-toys-around.jpg": {
+    "nl": "Kinderkamer met een Poppenbedje naast het Bed",
+    "en": "Bedroom With a Doll's Bed Next to the Real Bed",
+    "fr": "Chambre avec un Petit Lit de Poupée à Côté du Lit",
+    "es": "Habitación con una Camita de Muñeca junto a la Cama",
+    "zh": "真床旁边放着小娃娃床的卧室"
+  },
+  "kawaii--medium--dollhouse-filled-with-tiny-furniture-a-staircase-and-little-rooms.jpg": {
+    "nl": "Poppenhuis vol Piepklein Meubels",
+    "en": "Dollhouse Full of Tiny Furniture",
+    "fr": "Maison de Poupée Pleine de Petits Meubles",
+    "es": "Casa de Muñecas Llena de Muebles Pequeños",
+    "zh": "摆满小家具的娃娃屋"
   }
 }
