@@ -3271,7 +3271,7 @@ const COLORINGS = [
 
   {
     id: 351, slug: 'cheerful-bee-family-in-flower-garden', category: 'dieren', difficulty: 'easy',
-    img: '../img/kleurplaten/dieren--easy--cheerful-bee-family-in-flower-garden.jpg',
+    img: '../img/kleurplaten/dieren--easy--cheerful-bee-family-in-flower-garden-v2.jpg',
     nl: { title: 'Vrolijke Bijenfamilie in een Bloementuin', description: 'Gratis dierenkleurplaat van een vrolijke bijenfamilie tussen grote bloemen. Makkelijk te kleuren voor jonge kinderen.', keywords: 'bijenfamilie bloemen tuin makkelijke dieren kleurplaat gratis printen kinderen', altText: 'Makkelijke kleurplaat van drie vrolijke bijen tussen grote bloemen' },
     en: { title: 'Cheerful Bee Family in a Flower Garden', description: 'Free animal coloring page of a cheerful bee family among large flowers. Easy to color for young children.', keywords: 'bee family flowers garden easy animal coloring page free printable kids', altText: 'Easy coloring page of three cheerful bees among large flowers' },
     fr: { title: 'Joyeuse Famille d’Abeilles dans un Jardin Fleuri', description: 'Coloriage d’animaux gratuit d’une joyeuse famille d’abeilles parmi de grandes fleurs. Facile à colorier pour les jeunes enfants.', keywords: 'famille abeilles fleurs jardin coloriage animaux facile gratuit enfants', altText: 'Coloriage facile de trois abeilles joyeuses parmi de grandes fleurs' },
@@ -3281,7 +3281,7 @@ const COLORINGS = [
 
   {
     id: 352, slug: 'mermaid-reading-in-underwater-library', category: 'sprookjes', difficulty: 'medium',
-    img: '../img/kleurplaten/sprookjes--medium--mermaid-reading-in-underwater-library.jpg',
+    img: '../img/kleurplaten/sprookjes--medium--mermaid-reading-in-underwater-library-v2.jpg',
     nl: { title: 'Zeemeermin Leest in een Onderwaterbibliotheek', description: 'Gratis sprookjeskleurplaat van een zeemeermin die leest tussen koraalboekenkasten en vissen. Een fantasierijke kleurplaat met middelgrote details.', keywords: 'zeemeermin onderwaterbibliotheek boeken sprookjes kleurplaat gratis printen kinderen', altText: 'Kleurplaat van een zeemeermin die een boek leest in een onderwaterbibliotheek' },
     en: { title: 'Mermaid Reading in an Underwater Library', description: 'Free fairy-tale coloring page of a mermaid reading among coral bookshelves and fish. An imaginative page with medium-sized details.', keywords: 'mermaid underwater library books fairy tale coloring page free printable kids', altText: 'Coloring page of a mermaid reading a book in an underwater library' },
     fr: { title: 'Sirène Lisant dans une Bibliothèque Sous-Marine', description: 'Coloriage de conte gratuit d’une sirène lisant parmi des étagères de corail et des poissons. Une scène imaginaire avec des détails moyens.', keywords: 'sirène bibliothèque sous-marine livres conte coloriage gratuit enfants', altText: 'Coloriage d’une sirène lisant un livre dans une bibliothèque sous-marine' },
@@ -3291,7 +3291,7 @@ const COLORINGS = [
 
   {
     id: 353, slug: 'children-at-skateboard-park', category: 'voertuigen', difficulty: 'medium',
-    img: '../img/kleurplaten/voertuigen--medium--children-at-skateboard-park.jpg',
+    img: '../img/kleurplaten/voertuigen--medium--children-at-skateboard-park-v2.jpg',
     nl: { title: 'Kinderen op de Skatebaan', description: 'Gratis kleurplaat van twee kinderen met helm en kniebeschermers op een skatebaan. Een sportieve plaat met gemiddelde moeilijkheid.', keywords: 'kinderen skateboard skatebaan helm sport voertuigen kleurplaat gratis printen', altText: 'Kleurplaat van twee kinderen met skateboards en beschermers op een skatebaan' },
     en: { title: 'Children at the Skateboard Park', description: 'Free coloring page of two helmeted children skateboarding at a park. A sporty scene with medium difficulty.', keywords: 'children skateboard park helmets sport vehicle coloring page free printable', altText: 'Coloring page of two children with skateboards and safety pads at a skate park' },
     fr: { title: 'Enfants au Skatepark', description: 'Coloriage gratuit de deux enfants casqués faisant du skateboard au skatepark. Une scène sportive de difficulté moyenne.', keywords: 'enfants skateboard skatepark casque sport véhicules coloriage gratuit', altText: 'Coloriage de deux enfants avec skateboards et protections au skatepark' },
@@ -3301,7 +3301,7 @@ const COLORINGS = [
 
   {
     id: 354, slug: 'adventure-treehouse-with-rope-bridge', category: 'natuur', difficulty: 'hard',
-    img: '../img/kleurplaten/natuur--hard--adventure-treehouse-with-rope-bridge.jpg',
+    img: '../img/kleurplaten/natuur--hard--adventure-treehouse-with-rope-bridge-v2.jpg',
     nl: { title: 'Avontuurlijke Boomhut met Touwbrug', description: 'Gratis uitdagende natuurkleurplaat van een grote boomhut met touwbrug, ladders, uitkijkplatform en katrol. Vol leuke details voor oudere kinderen.', keywords: 'boomhut touwbrug ladder uitkijkplatform natuur moeilijke kleurplaat gratis oudere kinderen', altText: 'Gedetailleerde kleurplaat van een avontuurlijke boomhut met touwbrug en uitkijkplatform' },
     en: { title: 'Adventure Treehouse With a Rope Bridge', description: 'Free challenging nature coloring page of a large treehouse with a rope bridge, ladders, lookout platform and pulley. Packed with details for older children.', keywords: 'treehouse rope bridge ladder lookout nature hard coloring page free older kids', altText: 'Detailed coloring page of an adventure treehouse with a rope bridge and lookout platform' },
     fr: { title: 'Cabane d’Aventure avec Pont de Corde', description: 'Coloriage nature difficile gratuit d’une grande cabane avec pont de corde, échelles, plateforme d’observation et poulie. Riche en détails pour les plus grands.', keywords: 'cabane arbre pont corde échelle plateforme nature coloriage difficile gratuit', altText: 'Coloriage détaillé d’une cabane d’aventure avec pont de corde et plateforme' },
@@ -3311,7 +3311,7 @@ const COLORINGS = [
 
   {
     id: 355, slug: 'japanese-garden-with-koi-pond', category: 'natuur', difficulty: 'hard',
-    img: '../img/kleurplaten/natuur--hard--japanese-garden-with-koi-pond.jpg',
+    img: '../img/kleurplaten/natuur--hard--japanese-garden-with-koi-pond-v2.jpg',
     nl: { title: 'Japanse Tuin met Koivijver', description: 'Gratis uitdagende natuurkleurplaat van een rustige Japanse tuin met koivissen, een houten brug, stenen lantaarn en sierlijke planten.', keywords: 'japanse tuin koivijver brug stenen lantaarn natuur moeilijke kleurplaat gratis', altText: 'Gedetailleerde kleurplaat van een Japanse tuin met vijf koivissen en een gebogen brug' },
     en: { title: 'Japanese Garden With a Koi Pond', description: 'Free challenging nature coloring page of a peaceful Japanese garden with koi fish, a wooden bridge, stone lantern and elegant plants.', keywords: 'japanese garden koi pond bridge stone lantern nature hard coloring page free', altText: 'Detailed coloring page of a Japanese garden with five koi fish and an arched bridge' },
     fr: { title: 'Jardin Japonais avec Bassin de Carpes Koï', description: 'Coloriage nature difficile gratuit d’un paisible jardin japonais avec carpes koï, pont en bois, lanterne de pierre et plantes élégantes.', keywords: 'jardin japonais bassin carpes koi pont lanterne pierre coloriage difficile gratuit', altText: 'Coloriage détaillé d’un jardin japonais avec cinq carpes koï et un pont arqué' },
