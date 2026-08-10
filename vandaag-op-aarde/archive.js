@@ -24,6 +24,15 @@
   const ui = archiveUi[lang] || archiveUi.nl;
   const colorThemes = ['coral', 'blue', 'lilac', 'yellow', 'mint'];
 
+  const storyCount = WORLD_STORY_EDITIONS.reduce(
+    (total, edition) => total + (Array.isArray(edition.stories) ? edition.stories.length : 0),
+    0,
+  );
+  const storyCountElement = document.querySelector('[data-story-count]');
+  if (storyCountElement) {
+    storyCountElement.textContent = ui.totalStories(storyCount);
+  }
+
   const escapeHtml = (value) => String(value || '')
     .replace(/&/g, '&amp;')
     .replace(/</g, '&lt;')
