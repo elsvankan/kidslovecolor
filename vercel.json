@@ -205,6 +205,26 @@
       "destination": "/kleurplaat/japanese-garden-with-koi-pond/index.html"
     },
     {
+      "source": "/kleurplaat/sleepy-baby-hedgehog-in-a-teacup-with-daisies",
+      "destination": "/kleurplaat/sleepy-baby-hedgehog-in-a-teacup-with-daisies/index.html"
+    },
+    {
+      "source": "/kleurplaat/red-panda-family-on-tree-branches-in-a-bamboo-forest",
+      "destination": "/kleurplaat/red-panda-family-on-tree-branches-in-a-bamboo-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/harbor-tugboat-guiding-a-cargo-ship-between-buoys",
+      "destination": "/kleurplaat/harbor-tugboat-guiding-a-cargo-ship-between-buoys/index.html"
+    },
+    {
+      "source": "/kleurplaat/rainforest-canopy-walkway-with-orchids-and-butterflies",
+      "destination": "/kleurplaat/rainforest-canopy-walkway-with-orchids-and-butterflies/index.html"
+    },
+    {
+      "source": "/kleurplaat/tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage",
+      "destination": "/kleurplaat/tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

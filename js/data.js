@@ -3319,6 +3319,52 @@ const COLORINGS = [
     zh: { title: '带锦鲤池的日式庭园', description: '免费高难度自然涂色页：宁静的日式庭园里有锦鲤、木桥、石灯笼和优雅植物。', keywords: '日式 庭园 锦鲤池 木桥 石灯笼 自然 困难 免费 涂色页', altText: '有五条锦鲤和拱形木桥的日式庭园详细涂色页' },
   },
 
+  {
+    id: 356, slug: 'red-panda-family-on-tree-branches-in-a-bamboo-forest', category: 'dieren', difficulty: 'medium',
+    img: '../img/kleurplaten/dieren--medium--red-panda-family-on-tree-branches-in-a-bamboo-forest.jpg',
+    nl: { title: 'Rode-pandafamilie tussen de Bamboe', description: 'Gratis kleurplaat van rode-pandafamilie tussen de bamboe. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'rode-pandafamilie tussen de bamboe dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat rode-pandafamilie tussen de bamboe – kinderen' },
+    en: { title: 'Red Panda Family Among the Bamboo', description: 'Free coloring page of red panda family among the bamboo. Fun animal coloring page for kids to color and print.', keywords: 'red panda family among the bamboo animal coloring page free kids', altText: 'Free coloring page red panda family among the bamboo – kids' },
+    fr: { title: 'Famille de Pandas Roux parmi les Bambous', description: 'Page à colorier gratuite de famille de pandas roux parmi les bambous. Amusant coloriage d\'animal pour les enfants.', keywords: 'famille de pandas roux parmi les bambous coloriage animal gratuit enfants', altText: 'Page à colorier famille de pandas roux parmi les bambous – enfants' },
+    es: { title: 'Familia de Pandas Rojos entre el Bambú', description: 'Página para colorear gratis de familia de pandas rojos entre el bambú. Divertido colorear de animales para niños.', keywords: 'familia de pandas rojos entre el bambú colorear animales gratis niños', altText: 'Página para colorear familia de pandas rojos entre el bambú – niños' },
+    zh: { title: '竹林里的小熊猫一家', description: '免费竹林里的小熊猫一家涂色页，适合儿童的动物涂色，可打印。', keywords: '竹林里的小熊猫一家 动物涂色 免费儿童', altText: '免费涂色页 竹林里的小熊猫一家 – 儿童' },
+  },
+  {
+    id: 357, slug: 'sleepy-baby-hedgehog-in-a-teacup-with-daisies', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--sleepy-baby-hedgehog-in-a-teacup-with-daisies.jpg',
+    nl: { title: 'Slaperig Baby-egeltje in een Theekopje', description: 'Gratis kawaii kleurplaat van slaperig baby-egeltje in een theekopje. Superschattig kleurplaatje voor kinderen.', keywords: 'slaperig baby-egeltje in een theekopje kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat slaperig baby-egeltje in een theekopje – kinderen' },
+    en: { title: 'Sleepy Baby Hedgehog in a Teacup', description: 'Free kawaii coloring page of sleepy baby hedgehog in a teacup. Super cute coloring page for kids.', keywords: 'sleepy baby hedgehog in a teacup kawaii coloring page free kids', altText: 'Free coloring page sleepy baby hedgehog in a teacup – kids' },
+    fr: { title: 'Bébé Hérisson Endormi dans une Tasse', description: 'Page à colorier kawaii gratuite de bébé hérisson endormi dans une tasse. Coloriage super mignon pour les enfants.', keywords: 'bébé hérisson endormi dans une tasse coloriage kawaii gratuit enfants', altText: 'Page à colorier bébé hérisson endormi dans une tasse – enfants' },
+    es: { title: 'Bebé Erizo Dormido en una Taza', description: 'Página para colorear kawaii gratis de bebé erizo dormido en una taza. Colorear súper lindo para niños.', keywords: 'bebé erizo dormido en una taza colorear kawaii gratis niños', altText: 'Página para colorear bebé erizo dormido en una taza – niños' },
+    zh: { title: '茶杯里的瞌睡刺猬宝宝', description: '免费卡哇伊茶杯里的瞌睡刺猬宝宝涂色页，超可爱儿童涂色。', keywords: '茶杯里的瞌睡刺猬宝宝 卡哇伊涂色 免费儿童', altText: '免费涂色页 茶杯里的瞌睡刺猬宝宝 – 儿童' },
+  },
+  {
+    id: 358, slug: 'rainforest-canopy-walkway-with-orchids-and-butterflies', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--rainforest-canopy-walkway-with-orchids-and-butterflies.jpg',
+    nl: { title: 'Boomkroonpad in het Tropisch Regenwoud', description: 'Gratis natuurkleurplaat van boomkroonpad in het tropisch regenwoud. Prachtig kleurplaatje voor kinderen.', keywords: 'boomkroonpad in het tropisch regenwoud natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat boomkroonpad in het tropisch regenwoud – kinderen' },
+    en: { title: 'Rainforest Canopy Walkway', description: 'Free nature coloring page of rainforest canopy walkway. Beautiful coloring page for kids.', keywords: 'rainforest canopy walkway nature coloring page free kids', altText: 'Free coloring page rainforest canopy walkway – kids' },
+    fr: { title: 'Passerelle dans la Canopée Tropicale', description: 'Page à colorier nature gratuite de passerelle dans la canopée tropicale. Magnifique coloriage pour les enfants.', keywords: 'passerelle dans la canopée tropicale coloriage nature gratuit enfants', altText: 'Page à colorier passerelle dans la canopée tropicale – enfants' },
+    es: { title: 'Pasarela en el Dosel de la Selva Tropical', description: 'Página para colorear naturaleza gratis de pasarela en el dosel de la selva tropical. Hermoso colorear para niños.', keywords: 'pasarela en el dosel de la selva tropical colorear naturaleza gratis niños', altText: 'Página para colorear pasarela en el dosel de la selva tropical – niños' },
+    zh: { title: '热带雨林树冠步道', description: '免费自然热带雨林树冠步道涂色页，适合儿童的自然涂色。', keywords: '热带雨林树冠步道 自然涂色 免费儿童', altText: '免费涂色页 热带雨林树冠步道 – 儿童' },
+  },
+  {
+    id: 359, slug: 'tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage.jpg',
+    nl: { title: 'Kleine Bosdraak Leest een Schatkaart', description: 'Gratis sprookjeskleurplaat van kleine bosdraak leest een schatkaart. Magisch kleurplaatje voor kinderen.', keywords: 'kleine bosdraak leest een schatkaart sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kleine bosdraak leest een schatkaart – kinderen' },
+    en: { title: 'Little Forest Dragon Reading a Treasure Map', description: 'Free fairy tale coloring page of little forest dragon reading a treasure map. Magical coloring page for kids.', keywords: 'little forest dragon reading a treasure map fairy tale coloring page free kids', altText: 'Free coloring page little forest dragon reading a treasure map – kids' },
+    fr: { title: 'Petit Dragon de la Forêt Lisant une Carte au Trésor', description: 'Page à colorier conte de fées gratuite de petit dragon de la forêt lisant une carte au trésor. Coloriage magique pour les enfants.', keywords: 'petit dragon de la forêt lisant une carte au trésor coloriage conte de fées gratuit enfants', altText: 'Page à colorier petit dragon de la forêt lisant une carte au trésor – enfants' },
+    es: { title: 'Pequeño Dragón del Bosque Leyendo un Mapa del Tesoro', description: 'Página para colorear cuento de hadas gratis de pequeño dragón del bosque leyendo un mapa del tesoro. Colorear mágico para niños.', keywords: 'pequeño dragón del bosque leyendo un mapa del tesoro colorear cuentos de hadas gratis niños', altText: 'Página para colorear pequeño dragón del bosque leyendo un mapa del tesoro – niños' },
+    zh: { title: '阅读藏宝图的小森林龙', description: '免费童话阅读藏宝图的小森林龙涂色页，适合儿童的魔法涂色。', keywords: '阅读藏宝图的小森林龙 童话涂色 免费儿童', altText: '免费涂色页 阅读藏宝图的小森林龙 – 儿童' },
+  },
+  {
+    id: 360, slug: 'harbor-tugboat-guiding-a-cargo-ship-between-buoys', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--harbor-tugboat-guiding-a-cargo-ship-between-buoys.jpg',
+    nl: { title: 'Sleepboot Begeleidt een Vrachtschip', description: 'Gratis kleurplaat van sleepboot begeleidt een vrachtschip. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'sleepboot begeleidt een vrachtschip voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat sleepboot begeleidt een vrachtschip – kinderen' },
+    en: { title: 'Tugboat Guiding a Cargo Ship', description: 'Free coloring page of tugboat guiding a cargo ship. Cool vehicle coloring page for kids.', keywords: 'tugboat guiding a cargo ship vehicle coloring page free kids', altText: 'Free coloring page tugboat guiding a cargo ship – kids' },
+    fr: { title: 'Remorqueur Guidant un Cargo', description: 'Page à colorier gratuite de remorqueur guidant un cargo. Coloriage de véhicule pour les enfants.', keywords: 'remorqueur guidant un cargo coloriage véhicule gratuit enfants', altText: 'Page à colorier remorqueur guidant un cargo – enfants' },
+    es: { title: 'Remolcador Guiando un Buque de Carga', description: 'Página para colorear gratis de remolcador guiando un buque de carga. Colorear vehículos para niños.', keywords: 'remolcador guiando un buque de carga colorear vehículos gratis niños', altText: 'Página para colorear remolcador guiando un buque de carga – niños' },
+    zh: { title: '拖船引导货轮', description: '免费拖船引导货轮涂色页，适合儿童的交通工具涂色。', keywords: '拖船引导货轮 交通工具涂色 免费儿童', altText: '免费涂色页 拖船引导货轮 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

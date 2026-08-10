@@ -191,6 +191,36 @@ const PAGES = [
     pageTitle: 'Japanse tuin met koivijver',
     storyTitle: 'Welke kleuren weerspiegelen in de koivijver?',
     scene: 'Vijf koivissen zwemmen rustig onder de gebogen houten brug. Geef elke vis een uniek patroon, kleur de esdoornbladeren en maak van het water een spiegel voor de planten en de stenen lantaarn.'
+  },
+  {
+    slug: 'sleepy-baby-hedgehog-in-a-teacup-with-daisies',
+    pageTitle: 'Slaperig baby-egeltje in een theekopje',
+    storyTitle: 'Waar droomt het kleine egeltje over?',
+    scene: 'Het baby-egeltje heeft tussen de madeliefjes een wel heel knus bed gevonden. Geef het kopje een vrolijk patroon, kleur iedere bloem anders en bedenk welk warm drankje er misschien eerst in het kopje zat.'
+  },
+  {
+    slug: 'red-panda-family-on-tree-branches-in-a-bamboo-forest',
+    pageTitle: 'Rode-pandafamilie tussen de bamboe',
+    storyTitle: 'Welke route kiezen de rode panda’s door het bos?',
+    scene: 'Een volwassen rode panda en haar jong klauteren voorzichtig over stevige takken tussen de bamboe. Geef hun lange ringstaarten een mooi patroon en laat het bladerdak in allerlei groentinten tot leven komen.'
+  },
+  {
+    slug: 'harbor-tugboat-guiding-a-cargo-ship-between-buoys',
+    pageTitle: 'Sleepboot begeleidt een vrachtschip',
+    storyTitle: 'Hoe helpt de kleine sleepboot het grote schip?',
+    scene: 'De sterke sleepboot vaart vlak langs het grote vrachtschip en helpt het veilig tussen de boeien door. Kleur het water, de dekken en de containers en geef ieder schip een eigen opvallende kleur.'
+  },
+  {
+    slug: 'rainforest-canopy-walkway-with-orchids-and-butterflies',
+    pageTitle: 'Boomkroonpad in het tropisch regenwoud',
+    storyTitle: 'Wat ontdek je hoog tussen de boomtoppen?',
+    scene: 'Een stevig hangpad loopt tussen hoge regenwoudbomen, met orchideeën en vlinders vlakbij en een waterval diep beneden. Bouw het groen laag voor laag op en geef iedere bloem en vlinder een eigen kleur.'
+  },
+  {
+    slug: 'tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage',
+    pageTitle: 'Kleine bosdraak leest een schatkaart',
+    storyTitle: 'Waar leidt de kaart van de bosdraak naartoe?',
+    scene: 'Naast zijn paddenstoelenhuisje bekijkt de kleine bosdraak aandachtig een kaart. Geef zijn schubben een fantasiepatroon, kleur het huisje en verzin welke geheime plek hij straks in het betoverde bos gaat zoeken.'
   }
 ];
 
