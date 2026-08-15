@@ -3365,6 +3365,56 @@ const COLORINGS = [
     zh: { title: '拖船引导货轮', description: '免费拖船引导货轮涂色页，适合儿童的交通工具涂色。', keywords: '拖船引导货轮 交通工具涂色 免费儿童', altText: '免费涂色页 拖船引导货轮 – 儿童' },
   },
 
+  {
+    id: 361, slug: 'capybara-parent-and-baby-by-a-lily-pond', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--capybara-parent-and-baby-by-a-lily-pond.jpg',
+    nl: { title: 'Capibara Ouder en Jong bij de Lelievijver', description: 'Gratis makkelijke dierenkleurplaat van een capibara met haar jong bij een vijver met waterlelies en een libel.', keywords: 'capibara jong vijver waterlelies libel dieren makkelijke kleurplaat gratis printen kinderen', altText: 'Makkelijke kleurplaat van een capibara ouder en jong bij een vijver met drie waterlelies' },
+    en: { title: 'Capybara Parent and Baby by a Lily Pond', description: 'Free easy animal coloring page of a capybara parent and baby beside a pond with water lilies and a dragonfly.', keywords: 'capybara parent baby pond water lilies dragonfly easy animal coloring page free printable kids', altText: 'Easy coloring page of a capybara parent and baby beside a pond with three water lilies' },
+    fr: { title: 'Parent Capybara et son Petit au Bord de l’Étang', description: 'Coloriage d’animaux facile et gratuit d’un capybara avec son petit près d’un étang aux nénuphars et d’une libellule.', keywords: 'capybara parent petit étang nénuphars libellule animaux coloriage facile gratuit enfants', altText: 'Coloriage facile d’un capybara et de son petit près d’un étang avec trois nénuphars' },
+    es: { title: 'Capibara Adulto y su Cría junto al Estanque', description: 'Página fácil de animales para colorear gratis con un capibara adulto y su cría junto a un estanque con nenúfares y una libélula.', keywords: 'capibara adulto cría estanque nenúfares libélula animales colorear fácil gratis niños', altText: 'Página fácil para colorear de un capibara adulto y su cría junto a un estanque con tres nenúfares' },
+    zh: { title: '睡莲池边的水豚亲子', description: '免费简单动物涂色页：一只成年水豚和幼崽站在有睡莲和蜻蜓的池塘边。', keywords: '水豚 亲子 池塘 睡莲 蜻蜓 动物 简单 免费 儿童 涂色页', altText: '成年水豚和幼崽在三朵睡莲池边的简单涂色页' },
+  },
+
+  {
+    id: 362, slug: 'montessori-practical-life-breakfast-tray', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--montessori-practical-life-breakfast-tray.jpg',
+    nl: { title: 'Montessori Ontbijtwerkje op een Dienblad', description: 'Gratis makkelijke kleurplaat van een rustig Montessori-ontbijtwerkje met een kannetje, kopje, appelpartjes, doekje en bloem.', keywords: 'montessori ontbijt dienblad kannetje kopje appel eten makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een geordend Montessori-ontbijtdienblad op een lage tafel' },
+    en: { title: 'Montessori Breakfast Tray Activity', description: 'Free easy coloring page of a calm Montessori breakfast activity with a pitcher, cup, apple slices, folded cloth and flower.', keywords: 'montessori breakfast tray pitcher cup apple practical life easy coloring page free kids', altText: 'Easy coloring page of an orderly Montessori breakfast tray on a low table' },
+    fr: { title: 'Activité Montessori du Plateau du Petit-déjeuner', description: 'Coloriage facile et gratuit d’une activité Montessori avec un pichet, une tasse, des quartiers de pomme, un linge plié et une fleur.', keywords: 'montessori petit déjeuner plateau pichet tasse pomme vie pratique coloriage facile gratuit', altText: 'Coloriage facile d’un plateau Montessori bien rangé sur une table basse' },
+    es: { title: 'Actividad Montessori con Bandeja de Desayuno', description: 'Página fácil para colorear gratis de una actividad Montessori con jarrita, taza, trozos de manzana, paño doblado y flor.', keywords: 'montessori desayuno bandeja jarra taza manzana vida práctica colorear fácil gratis', altText: 'Página fácil para colorear de una bandeja Montessori ordenada sobre una mesa baja' },
+    zh: { title: '蒙特梭利早餐托盘练习', description: '免费简单涂色页：整齐的蒙特梭利生活练习托盘上有小水壶、杯子、苹果片、折叠布和一朵花。', keywords: '蒙特梭利 早餐 托盘 水壶 杯子 苹果 生活练习 简单 免费 涂色页', altText: '矮桌上摆放整齐的蒙特梭利早餐托盘简单涂色页' },
+  },
+
+  {
+    id: 363, slug: 'hot-air-balloon-over-patchwork-fields', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--hot-air-balloon-over-patchwork-fields.jpg',
+    nl: { title: 'Luchtballon boven de Lappendekenvelden', description: 'Gratis voertuigenkleurplaat van een lege luchtballon boven akkers, heuvels en een kronkelende rivier met stenen brug.', keywords: 'luchtballon akkers rivier brug platteland voertuigen kleurplaat gratis printen kinderen', altText: 'Kleurplaat van één luchtballon boven lappendekenvelden en een rivier met een stenen brug' },
+    en: { title: 'Hot-Air Balloon over Patchwork Fields', description: 'Free vehicle coloring page of an empty hot-air balloon above fields, hills and a winding river with a stone bridge.', keywords: 'hot air balloon patchwork fields river bridge countryside vehicle coloring page free kids', altText: 'Coloring page of one hot-air balloon above patchwork fields and a river with a stone bridge' },
+    fr: { title: 'Montgolfière au-dessus des Champs en Mosaïque', description: 'Coloriage de véhicule gratuit d’une montgolfière vide au-dessus de champs, de collines et d’une rivière sinueuse avec un pont de pierre.', keywords: 'montgolfière champs rivière pont campagne véhicule coloriage gratuit enfants', altText: 'Coloriage d’une montgolfière au-dessus de champs en mosaïque et d’une rivière avec un pont de pierre' },
+    es: { title: 'Globo Aerostático sobre Campos de Retazos', description: 'Página de vehículos para colorear gratis con un globo aerostático vacío sobre campos, colinas y un río sinuoso con puente de piedra.', keywords: 'globo aerostático campos río puente campo vehículos colorear gratis niños', altText: 'Página para colorear de un globo aerostático sobre campos de retazos y un río con puente de piedra' },
+    zh: { title: '拼布田野上空的热气球', description: '免费交通工具涂色页：一个无人热气球飞过田野、山丘和带石桥的蜿蜒河流。', keywords: '热气球 田野 河流 石桥 乡村 交通工具 免费 儿童 涂色页', altText: '一个热气球飞过拼布田野和石桥河流的涂色页' },
+  },
+
+  {
+    id: 364, slug: 'moon-rabbit-beside-a-hilltop-telescope', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--moon-rabbit-beside-a-hilltop-telescope.jpg',
+    nl: { title: 'Maankonijn bij een Telescoop op de Heuvel', description: 'Gratis sprookjeskleurplaat van een konijn met sjaal naast een telescoop onder de maan, zeven sterren en twee planeten.', keywords: 'maankonijn telescoop maan sterren planeten sprookjes kleurplaat gratis kinderen', altText: 'Kleurplaat van één konijn met sjaal naast een telescoop op een heuvel onder de maan' },
+    en: { title: 'Moon Rabbit beside a Hilltop Telescope', description: 'Free fairy-tale coloring page of a scarf-wearing rabbit beside a telescope under the moon, seven stars and two planets.', keywords: 'moon rabbit telescope stars planets hill fairy tale coloring page free kids', altText: 'Coloring page of one rabbit in a scarf beside a telescope on a hill under the moon' },
+    fr: { title: 'Lapin de Lune près d’un Télescope sur la Colline', description: 'Coloriage de conte gratuit d’un lapin avec une écharpe près d’un télescope, sous la lune, sept étoiles et deux planètes.', keywords: 'lapin lune télescope étoiles planètes colline conte coloriage gratuit enfants', altText: 'Coloriage d’un lapin avec une écharpe près d’un télescope sur une colline sous la lune' },
+    es: { title: 'Conejo Lunar junto a un Telescopio en la Colina', description: 'Página de cuento para colorear gratis con un conejo con bufanda junto a un telescopio bajo la luna, siete estrellas y dos planetas.', keywords: 'conejo lunar telescopio estrellas planetas colina cuento colorear gratis niños', altText: 'Página para colorear de un conejo con bufanda junto a un telescopio en una colina bajo la luna' },
+    zh: { title: '山顶望远镜旁的月兔', description: '免费童话涂色页：戴围巾的兔子坐在望远镜旁，天空中有月亮、七颗星和两颗行星。', keywords: '月兔 望远镜 月亮 星星 行星 山顶 童话 免费 儿童 涂色页', altText: '戴围巾的兔子坐在山顶望远镜旁仰望月亮的涂色页' },
+  },
+
+  {
+    id: 365, slug: 'beaver-lodge-cutaway-by-the-river', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--beaver-lodge-cutaway-by-the-river.jpg',
+    nl: { title: 'Doorsnede van een Beverhut aan de Rivier', description: 'Gratis uitdagende natuurkleurplaat met een realistische doorsnede van een beverhut, een onderwateringang en twee bevers.', keywords: 'beverhut doorsnede onderwateringang rivier bevers natuur moeilijke kleurplaat gratis kinderen', altText: 'Gedetailleerde kleurplaat van een beverhut met droge kamer, onderwatertunnel en twee bevers' },
+    en: { title: 'Beaver Lodge Cutaway by the River', description: 'Free challenging nature coloring page with a realistic beaver lodge cutaway, underwater entrance and two beavers.', keywords: 'beaver lodge cutaway underwater entrance river beavers nature hard coloring page free kids', altText: 'Detailed coloring page of a beaver lodge with a dry chamber, underwater tunnel and two beavers' },
+    fr: { title: 'Coupe d’une Hutte de Castors au Bord de la Rivière', description: 'Coloriage nature difficile gratuit montrant la coupe réaliste d’une hutte, son entrée sous l’eau et deux castors.', keywords: 'hutte castors coupe entrée sous-marine rivière nature coloriage difficile gratuit enfants', altText: 'Coloriage détaillé d’une hutte avec chambre sèche, tunnel sous l’eau et deux castors' },
+    es: { title: 'Corte de una Madriguera de Castores junto al Río', description: 'Página difícil de naturaleza para colorear gratis con el corte realista de una madriguera, entrada submarina y dos castores.', keywords: 'madriguera castores corte entrada submarina río naturaleza colorear difícil gratis niños', altText: 'Página detallada para colorear de una madriguera con cámara seca, túnel submarino y dos castores' },
+    zh: { title: '河边海狸巢穴剖面图', description: '免费高难度自然涂色页：写实展示海狸巢穴的干燥内室、水下入口和两只海狸。', keywords: '海狸 巢穴 剖面 水下入口 河流 自然 困难 免费 儿童 涂色页', altText: '有干燥内室、水下通道和两只海狸的巢穴详细涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

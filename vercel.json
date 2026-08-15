@@ -225,6 +225,26 @@
       "destination": "/kleurplaat/tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage/index.html"
     },
     {
+      "source": "/kleurplaat/capybara-parent-and-baby-by-a-lily-pond",
+      "destination": "/kleurplaat/capybara-parent-and-baby-by-a-lily-pond/index.html"
+    },
+    {
+      "source": "/kleurplaat/montessori-practical-life-breakfast-tray",
+      "destination": "/kleurplaat/montessori-practical-life-breakfast-tray/index.html"
+    },
+    {
+      "source": "/kleurplaat/hot-air-balloon-over-patchwork-fields",
+      "destination": "/kleurplaat/hot-air-balloon-over-patchwork-fields/index.html"
+    },
+    {
+      "source": "/kleurplaat/moon-rabbit-beside-a-hilltop-telescope",
+      "destination": "/kleurplaat/moon-rabbit-beside-a-hilltop-telescope/index.html"
+    },
+    {
+      "source": "/kleurplaat/beaver-lodge-cutaway-by-the-river",
+      "destination": "/kleurplaat/beaver-lodge-cutaway-by-the-river/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

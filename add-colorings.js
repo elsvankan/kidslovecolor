@@ -30,6 +30,7 @@ const IMG_DIR      = path.join(ROOT, 'img/kleurplaten');
 const DATA_JS      = path.join(ROOT, 'js/data.js');
 const SLUG_DIR     = path.join(ROOT, 'kleurplaat');
 const SITEMAP      = path.join(ROOT, 'sitemap.xml');
+const VERCEL_JSON  = path.join(ROOT, 'vercel.json');
 const TITLES_FILE  = path.join(IMG_DIR, '.titles.json');
 const BASE_URL     = 'https://kidslovecolor.com';
 const TODAY        = new Date().toISOString().split('T')[0];
@@ -574,8 +575,8 @@ function buildSeoPage(parsed, nlTitle, nlDesc) {
   <meta property="og:title"       content="${e(nlTitle)} – Gratis Kleurplaat"/>
   <meta property="og:description" content="${e(nlDesc)}"/>
   <meta property="og:image"       content="${imgUrl}"/>
-  <meta property="og:image:width" content="800"/>
-  <meta property="og:image:height" content="800"/>
+  <meta property="og:image:width" content="1055"/>
+  <meta property="og:image:height" content="1491"/>
   <meta property="og:site_name"   content="KidsLoveColor"/>
   <meta property="og:locale"      content="nl_NL"/>
 
@@ -689,6 +690,38 @@ function getExistingSlugs(dataContent) {
   return slugs;
 }
 
+function getExistingImages(dataContent) {
+  const images = new Set();
+  const re = /img:\s*'\.\.\/img\/kleurplaten\/([^']+\.jpg)'/g;
+  let m;
+  while ((m = re.exec(dataContent)) !== null) images.add(m[1]);
+  return images;
+}
+
+function updateVercelRewrites(parsedItems) {
+  if (!fs.existsSync(VERCEL_JSON) || parsedItems.length === 0) return 0;
+
+  const config = JSON.parse(fs.readFileSync(VERCEL_JSON, 'utf8'));
+  config.rewrites = Array.isArray(config.rewrites) ? config.rewrites : [];
+  const existing = new Set(config.rewrites.map(rule => rule.source));
+  let insertAt = config.rewrites.findIndex(rule => rule.source === '/kleurplaat/(.*)');
+  if (insertAt < 0) insertAt = config.rewrites.length;
+
+  const additions = [];
+  for (const { slug } of parsedItems) {
+    const source = `/kleurplaat/${slug}`;
+    if (existing.has(source)) continue;
+    additions.push({ source, destination: `${source}/index.html` });
+    existing.add(source);
+  }
+
+  if (additions.length) {
+    config.rewrites.splice(insertAt, 0, ...additions);
+    fs.writeFileSync(VERCEL_JSON, JSON.stringify(config, null, 2) + '\n', 'utf8');
+  }
+  return additions.length;
+}
+
 function getMaxId(dataContent) {
   const re = /id:\s*(\d+)/g;
   let max = 190, m;
@@ -721,6 +754,7 @@ function main() {
   // Lees data.js
   let dataContent = fs.readFileSync(DATA_JS, 'utf8');
   const existingSlugs = getExistingSlugs(dataContent);
+  const existingImages = getExistingImages(dataContent);
   let nextId = getMaxId(dataContent) + 1;
   const titleOverrides = loadTitleOverrides();
 
@@ -738,6 +772,7 @@ function main() {
   const newFiles = allImages.filter(f => {
     const parsed = parseFilename(f);
     if (!parsed) return false;
+    if (existingImages.has(f)) return false;
     if (existingSlugs.has(parsed.slug)) return false;
     return true;
   });
@@ -808,11 +843,13 @@ function main() {
     // Sitemap regenereren
     const allEntries = getAllEntries(dataContent);
     fs.writeFileSync(SITEMAP, regenerateSitemap(allEntries), 'utf8');
+    const rewriteCount = updateVercelRewrites(addedParsed.map(({ parsed }) => parsed));
 
     console.log(`\n✅ Klaar!`);
     console.log(`   • ${newEntryBlocks.length} entry's toegevoegd aan js/data.js`);
     console.log(`   • ${newEntryBlocks.length} SEO-pagina's aangemaakt in kleurplaat/`);
     console.log(`   • sitemap.xml bijgewerkt (${allEntries.length} kleurplaten)`);
+    console.log(`   • ${rewriteCount} Vercel-route(s) toegevoegd`);
     console.log(`\nVolgende stap: git add -A && git commit -m "Nieuwe kleurplaten toegevoegd" && git push\n`);
   } else {
     console.log(`\n🔍 Dry run klaar — ${newEntryBlocks.length} entry's zouden worden toegevoegd.`);
