@@ -3415,6 +3415,56 @@ const COLORINGS = [
     zh: { title: '河边海狸巢穴剖面图', description: '免费高难度自然涂色页：写实展示海狸巢穴的干燥内室、水下入口和两只海狸。', keywords: '海狸 巢穴 剖面 水下入口 河流 自然 困难 免费 儿童 涂色页', altText: '有干燥内室、水下通道和两只海狸的巢穴详细涂色页' },
   },
 
+  {
+    id: 366, slug: 'sea-turtle-family-over-seagrass', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/oceaan--easy--sea-turtle-family-over-seagrass.jpg',
+    nl: { title: 'Zeeschildpaddenfamilie boven het Zeegras', description: 'Gratis makkelijke oceaankleurplaat van één grote zeeschildpad en twee jonge schildpadden die boven zeegras zwemmen.', keywords: 'zeeschildpad familie jongen zeegras oceaan makkelijke kleurplaat gratis printen kinderen', altText: 'Makkelijke kleurplaat van één volwassen zeeschildpad en twee jonge zeeschildpadden boven zeegras' },
+    en: { title: 'Sea Turtle Family over Seagrass', description: 'Free easy ocean coloring page of one large sea turtle and two young turtles swimming above seagrass.', keywords: 'sea turtle family babies seagrass ocean easy coloring page free printable kids', altText: 'Easy coloring page of one adult sea turtle and two young sea turtles above seagrass' },
+    fr: { title: 'Famille de Tortues Marines au-dessus des Herbiers', description: 'Coloriage océan facile et gratuit d’une grande tortue marine et de deux jeunes tortues nageant au-dessus des herbiers.', keywords: 'tortue marine famille jeunes herbiers océan coloriage facile gratuit enfants', altText: 'Coloriage facile d’une tortue marine adulte et de deux jeunes tortues au-dessus des herbiers' },
+    es: { title: 'Familia de Tortugas Marinas sobre la Pradera Marina', description: 'Página fácil del océano para colorear gratis con una tortuga marina grande y dos tortugas jóvenes nadando sobre la pradera marina.', keywords: 'tortuga marina familia crías pradera marina océano colorear fácil gratis niños', altText: 'Página fácil para colorear de una tortuga marina adulta y dos jóvenes sobre la pradera marina' },
+    zh: { title: '海草上方的海龟一家', description: '免费简单海洋涂色页：一只成年海龟和两只小海龟在海草上方游泳。', keywords: '海龟 家庭 幼龟 海草 海洋 简单 免费 儿童 涂色页', altText: '一只成年海龟和两只小海龟在海草上方游泳的简单涂色页' },
+  },
+
+  {
+    id: 367, slug: 'farmers-market-fruit-and-vegetable-stall', category: 'eten', difficulty: 'medium',
+    img: '../img/kleurplaten/eten--medium--farmers-market-fruit-and-vegetable-stall.jpg',
+    nl: { title: 'Groente- en Fruitkraam op de Boerenmarkt', description: 'Gratis kleurplaat van een houten marktkraam met appels, peren, wortels, aardbeien en bloemen.', keywords: 'boerenmarkt marktkraam appels peren wortels aardbeien eten kleurplaat gratis kinderen', altText: 'Kleurplaat van een houten marktkraam met drie groentekisten, een aardbeienmand en bloemen' },
+    en: { title: 'Farmers’ Market Fruit and Vegetable Stall', description: 'Free coloring page of a wooden market stall with apples, pears, carrots, strawberries and flowers.', keywords: 'farmers market stall apples pears carrots strawberries food coloring page free kids', altText: 'Coloring page of a wooden market stall with three produce crates, a strawberry basket and flowers' },
+    fr: { title: 'Étal de Fruits et Légumes au Marché Fermier', description: 'Coloriage gratuit d’un étal en bois avec des pommes, des poires, des carottes, des fraises et des fleurs.', keywords: 'marché fermier étal pommes poires carottes fraises nourriture coloriage gratuit enfants', altText: 'Coloriage d’un étal en bois avec trois caisses de produits, un panier de fraises et des fleurs' },
+    es: { title: 'Puesto de Frutas y Verduras del Mercado', description: 'Página para colorear gratis de un puesto de madera con manzanas, peras, zanahorias, fresas y flores.', keywords: 'mercado puesto manzanas peras zanahorias fresas comida colorear gratis niños', altText: 'Página para colorear de un puesto de madera con tres cajas, una cesta de fresas y flores' },
+    zh: { title: '农贸市场的果蔬摊', description: '免费涂色页：木制市场摊位上摆着苹果、梨、胡萝卜、草莓和鲜花。', keywords: '农贸市场 摊位 苹果 梨 胡萝卜 草莓 食物 免费 儿童 涂色页', altText: '有三箱果蔬、一篮草莓和鲜花的木制市场摊位涂色页' },
+  },
+
+  {
+    id: 368, slug: 'six-wheel-lunar-rover-exploring-the-moon', category: 'ruimte', difficulty: 'medium',
+    img: '../img/kleurplaten/ruimte--medium--six-wheel-lunar-rover-exploring-the-moon.jpg',
+    nl: { title: 'Zeswielige Maanwagen Verkent de Maan', description: 'Gratis ruimtekleurplaat van een robotwagen met zes wielen, camera en zonnepanelen op de maan.', keywords: 'maanwagen zes wielen robot camera zonnepanelen maan ruimte kleurplaat gratis kinderen', altText: 'Kleurplaat van een zeswielige robotmaanwagen met cameramast en zonnepanelen op de maan' },
+    en: { title: 'Six-Wheel Lunar Rover Exploring the Moon', description: 'Free space coloring page of a robotic rover with six wheels, a camera and solar panels on the Moon.', keywords: 'lunar rover six wheels robot camera solar panels moon space coloring page free kids', altText: 'Coloring page of a six-wheel robotic lunar rover with a camera mast and solar panels' },
+    fr: { title: 'Rover Lunaire à Six Roues sur la Lune', description: 'Coloriage espace gratuit d’un rover robotique à six roues avec caméra et panneaux solaires sur la Lune.', keywords: 'rover lunaire six roues robot caméra panneaux solaires espace coloriage gratuit enfants', altText: 'Coloriage d’un rover lunaire robotique à six roues avec mât caméra et panneaux solaires' },
+    es: { title: 'Vehículo Lunar de Seis Ruedas Explorando la Luna', description: 'Página del espacio para colorear gratis con un vehículo robótico de seis ruedas, cámara y paneles solares en la Luna.', keywords: 'vehículo lunar seis ruedas robot cámara paneles solares espacio colorear gratis niños', altText: 'Página para colorear de un vehículo lunar robótico de seis ruedas con cámara y paneles solares' },
+    zh: { title: '六轮月球车探索月面', description: '免费太空涂色页：一辆装有六个轮子、摄像头和太阳能板的机器人月球车。', keywords: '月球车 六轮 机器人 摄像头 太阳能板 月球 太空 免费 儿童 涂色页', altText: '带摄像桅杆和太阳能板的六轮机器人月球车涂色页' },
+  },
+
+  {
+    id: 369, slug: 'autumn-nature-sorting-tray', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/seizoenen--easy--autumn-nature-sorting-tray.jpg',
+    nl: { title: 'Herfstschatten Sorteren op een Natuurtafel', description: 'Gratis makkelijke herfstkleurplaat van een sorteerdienblad met bladeren, eikels, dennenappels en kastanjes.', keywords: 'herfst natuurtafel sorteren bladeren eikels dennenappels kastanjes makkelijke kleurplaat gratis', altText: 'Makkelijke kleurplaat van een herfstig sorteerdienblad met vier vakken en een vergrootglas' },
+    en: { title: 'Sorting Autumn Treasures on a Nature Table', description: 'Free easy autumn coloring page of a sorting tray with leaves, acorns, pinecones and chestnuts.', keywords: 'autumn nature table sorting leaves acorns pinecones chestnuts easy coloring page free kids', altText: 'Easy coloring page of an autumn sorting tray with four compartments and a magnifying glass' },
+    fr: { title: 'Trier les Trésors d’Automne sur une Table Nature', description: 'Coloriage d’automne facile et gratuit d’un plateau de tri avec des feuilles, des glands, des pommes de pin et des châtaignes.', keywords: 'automne table nature tri feuilles glands pommes de pin châtaignes coloriage facile gratuit', altText: 'Coloriage facile d’un plateau d’automne à quatre compartiments avec une loupe' },
+    es: { title: 'Clasificar Tesoros de Otoño en una Mesa de Naturaleza', description: 'Página fácil de otoño para colorear gratis con una bandeja de hojas, bellotas, piñas y castañas.', keywords: 'otoño mesa naturaleza clasificar hojas bellotas piñas castañas colorear fácil gratis', altText: 'Página fácil para colorear de una bandeja de otoño con cuatro compartimentos y una lupa' },
+    zh: { title: '在自然桌上分类秋日宝物', description: '免费简单秋季涂色页：四格分类盘中放着树叶、橡果、松果和栗子。', keywords: '秋天 自然桌 分类 树叶 橡果 松果 栗子 简单 免费 涂色页', altText: '带四格分类盘和放大镜的秋日自然桌简单涂色页' },
+  },
+
+  {
+    id: 370, slug: 'luna-moth-wildflower-and-fern-mandala', category: 'mandala', difficulty: 'hard',
+    img: '../img/kleurplaten/mandala--hard--luna-moth-wildflower-and-fern-mandala.jpg',
+    nl: { title: 'Maanvlinder, Wilde Bloemen en Varens Mandala', description: 'Gratis uitdagende mandalakleurplaat met een symmetrische maanvlinder, bladeren, bloemen, eikels en varens.', keywords: 'maanvlinder wilde bloemen varens eikels natuur mandala moeilijke kleurplaat gratis kinderen', altText: 'Gedetailleerde ronde mandalakleurplaat met een maanvlinder in het midden en ringen van natuurmotieven' },
+    en: { title: 'Luna Moth, Wildflower and Fern Mandala', description: 'Free challenging mandala coloring page with a symmetrical luna moth, leaves, flowers, acorns and ferns.', keywords: 'luna moth wildflowers ferns acorns nature mandala hard coloring page free kids', altText: 'Detailed circular mandala coloring page with a luna moth at the center and rings of nature motifs' },
+    fr: { title: 'Mandala du Papillon Lune, des Fleurs et des Fougères', description: 'Coloriage mandala difficile et gratuit avec un papillon lune symétrique, des feuilles, des fleurs, des glands et des fougères.', keywords: 'papillon lune fleurs fougères glands nature mandala coloriage difficile gratuit enfants', altText: 'Mandala circulaire détaillé avec un papillon lune au centre et des anneaux de motifs naturels' },
+    es: { title: 'Mandala de Polilla Luna, Flores y Helechos', description: 'Página de mandala difícil para colorear gratis con una polilla luna simétrica, hojas, flores, bellotas y helechos.', keywords: 'polilla luna flores helechos bellotas naturaleza mandala colorear difícil gratis niños', altText: 'Mandala circular detallado con una polilla luna en el centro y anillos de motivos naturales' },
+    zh: { title: '月蛾、野花与蕨叶曼陀罗', description: '免费高难度曼陀罗涂色页：对称的月蛾周围环绕树叶、花朵、橡果和蕨叶。', keywords: '月蛾 野花 蕨叶 橡果 自然 曼陀罗 困难 免费 儿童 涂色页', altText: '以月蛾为中心并环绕多层自然图案的精细圆形曼陀罗涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

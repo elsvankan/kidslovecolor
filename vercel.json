@@ -245,6 +245,26 @@
       "destination": "/kleurplaat/beaver-lodge-cutaway-by-the-river/index.html"
     },
     {
+      "source": "/kleurplaat/sea-turtle-family-over-seagrass",
+      "destination": "/kleurplaat/sea-turtle-family-over-seagrass/index.html"
+    },
+    {
+      "source": "/kleurplaat/farmers-market-fruit-and-vegetable-stall",
+      "destination": "/kleurplaat/farmers-market-fruit-and-vegetable-stall/index.html"
+    },
+    {
+      "source": "/kleurplaat/six-wheel-lunar-rover-exploring-the-moon",
+      "destination": "/kleurplaat/six-wheel-lunar-rover-exploring-the-moon/index.html"
+    },
+    {
+      "source": "/kleurplaat/autumn-nature-sorting-tray",
+      "destination": "/kleurplaat/autumn-nature-sorting-tray/index.html"
+    },
+    {
+      "source": "/kleurplaat/luna-moth-wildflower-and-fern-mandala",
+      "destination": "/kleurplaat/luna-moth-wildflower-and-fern-mandala/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
