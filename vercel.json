@@ -265,6 +265,46 @@
       "destination": "/kleurplaat/luna-moth-wildflower-and-fern-mandala/index.html"
     },
     {
+      "source": "/kleurplaat/malayan-tapir-parent-and-baby-by-rainforest-puddle",
+      "destination": "/kleurplaat/malayan-tapir-parent-and-baby-by-rainforest-puddle/index.html"
+    },
+    {
+      "source": "/kleurplaat/ceramic-artist-shaping-a-clay-bowl-on-pottery-wheel",
+      "destination": "/kleurplaat/ceramic-artist-shaping-a-clay-bowl-on-pottery-wheel/index.html"
+    },
+    {
+      "source": "/kleurplaat/rocky-tide-pool-ecosystem-from-above",
+      "destination": "/kleurplaat/rocky-tide-pool-ecosystem-from-above/index.html"
+    },
+    {
+      "source": "/kleurplaat/modern-city-tram-arriving-at-a-flower-lined-stop",
+      "destination": "/kleurplaat/modern-city-tram-arriving-at-a-flower-lined-stop/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-rainy-day-entryway-with-boots-and-umbrella",
+      "destination": "/kleurplaat/cozy-rainy-day-entryway-with-boots-and-umbrella/index.html"
+    },
+    {
+      "source": "/kleurplaat/total-solar-eclipse-leon-spain",
+      "destination": "/kleurplaat/total-solar-eclipse-leon-spain/index.html"
+    },
+    {
+      "source": "/kleurplaat/four-lion-cubs-first-birthday-denver",
+      "destination": "/kleurplaat/four-lion-cubs-first-birthday-denver/index.html"
+    },
+    {
+      "source": "/kleurplaat/dinosaur-fossils-exposed-museum-chico",
+      "destination": "/kleurplaat/dinosaur-fossils-exposed-museum-chico/index.html"
+    },
+    {
+      "source": "/kleurplaat/hong-kong-solar-energy-education-path",
+      "destination": "/kleurplaat/hong-kong-solar-energy-education-path/index.html"
+    },
+    {
+      "source": "/kleurplaat/asian-elephant-world-elephant-day",
+      "destination": "/kleurplaat/asian-elephant-world-elephant-day/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

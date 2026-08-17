@@ -14,10 +14,14 @@ Logo-positie is afgeleid van de InDesign-sjablonen (IDML):
   Liggend A4  (841.890 × 595.276 pt): logo 43×40 pt, links 23 pt, onder 19 pt
 """
 
-import sys, io, json
+import sys, io, json, subprocess, tempfile
 from pathlib import Path
 from PIL import Image
-import cairosvg
+
+try:
+    import cairosvg
+except ModuleNotFoundError:
+    cairosvg = None
 
 ROOT       = Path(__file__).parent
 LOGO_SVG   = ROOT / 'img' / 'logo.svg'
@@ -50,8 +54,23 @@ def _dims(img_w: int, img_h: int):
 
 
 def _render_logo(w: int, h: int) -> Image.Image:
-    png = cairosvg.svg2png(url=str(LOGO_SVG), output_width=w, output_height=h)
-    return Image.open(io.BytesIO(png)).convert('RGBA')
+    if cairosvg is not None:
+        png = cairosvg.svg2png(url=str(LOGO_SVG), output_width=w, output_height=h)
+        return Image.open(io.BytesIO(png)).convert('RGBA')
+
+    # macOS ships `sips`, which can rasterize SVG without an extra Python
+    # dependency. This keeps the publishing script usable in Codex runtimes
+    # where Pillow is present but CairoSVG is not.
+    with tempfile.TemporaryDirectory() as tmp:
+        raster = Path(tmp) / 'logo.png'
+        subprocess.run(
+            ['sips', '-s', 'format', 'png', str(LOGO_SVG), '--out', str(raster)],
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+        with Image.open(raster) as logo:
+            return logo.convert('RGBA').resize((w, h), Image.LANCZOS)
 
 
 def watermark(img_path: Path, dry: bool = False) -> None:

@@ -6,6 +6,41 @@
  */
 const WORLD_STORY_TRANSLATIONS = {
   en: {
+    'zonverduistering-boven-leon': {
+      title: 'Two minutes of darkness during a total solar eclipse', location: 'Spain', reportedDate: '12 August 2026', theme: 'Space & nature',
+      intro: 'On 12 August, the Moon moved exactly in front of the Sun. Near León in Spain, daylight faded for almost two minutes and the bright solar corona appeared around the Moon.',
+      body: 'A NASA Earth Observatory photographer captured the total eclipse at San Millán de los Caballeros near León. More and more of the Sun disappeared behind the Moon until only the bright, uneven corona surrounded the dark disk. A solar prominence was also visible on the left. Eclipse glasses were necessary before and after the brief total phase; only while the Sun was completely covered was it safe to look without them.',
+      facts: ['The total solar eclipse happened on 12 August 2026.', 'Totality near León lasted about two minutes.', 'The corona is the Sun’s hot outer atmosphere.'],
+      question: 'What change in nature would you watch during two minutes of darkness?',
+    },
+    'vier-leeuwenwelpen-een-jaar': {
+      title: 'Four lion cubs turn one', location: 'United States', reportedDate: '13 August 2026', theme: 'Animals',
+      intro: 'The four lion cubs Alpine, Lily, Guion and Fraser turned one on 13 August. Denver Zoo Conservation Alliance celebrated how much they have grown.',
+      body: 'The cubs were born last year to Neliah and Tobias. Since then they have learned to run, climb, play and eat more independently. Around their birthday, the animal-care team kept the lion family together indoors while Olive recovered from a minor injury. The zoo shared photographs and stories so visitors could see how quickly the four young lions have developed.',
+      facts: ['The cubs are named Alpine, Lily, Guion and Fraser.', 'They were born on 13 August 2025.', 'Young lions learn many skills by playing with one another and adult lions.'],
+      question: 'Which skill would you most like to watch a young lion practise?',
+    },
+    'dinosaurussen-in-het-museum': {
+      title: 'Dinosaur fossils arrive at the museum', location: 'United States', reportedDate: '14 August 2026', theme: 'Science',
+      intro: 'Dinosaurs: Fossils Exposed opened in Chico on 14 August. Visitors can study real fossils and accurate skeletal casts up close.',
+      body: 'Gateway Science Museum shows how paleontologists use bones, teeth and impressions to understand animals from long ago. The exhibition has six complete skeletal casts and thirteen dinosaur skulls. A nearly 1.9-metre Apatosaurus femur is also on display. Digging tools and interactive activities let children practise how fossil research works.',
+      facts: ['The exhibition runs from 14 August 2026 to 2 January 2027.', 'It includes six full skeletal casts and thirteen skulls.', 'The Apatosaurus femur is about 1.85 metres long.'],
+      question: 'Which part of a fossil would you examine first to discover what an animal ate?',
+    },
+    'dak-vol-zonne-energie-hongkong': {
+      title: 'Visitors discover a rooftop full of solar energy', location: 'Hong Kong', reportedDate: '14 August 2026', theme: 'Sustainability',
+      intro: 'Visitors explored Hong Kong’s Education Path on 14 August. On the rooftop they saw a large array of more than two thousand solar panels.',
+      body: 'The Education Path at the Electrical and Mechanical Services Department has three exhibition areas and a rooftop viewing gallery. Visitors learn how buildings can save energy and how sunlight becomes electricity. The photovoltaic array covers more than three thousand square metres. The guided tour showed children why panels are set out in rows and need an open place with little shade.',
+      facts: ['The guided tour took place on 14 August 2026.', 'The rooftop has more than 2,000 solar panels.', 'The panels cover more than 3,000 square metres.'],
+      question: 'Where in your neighbourhood could solar panels catch plenty of sunlight?',
+    },
+    'wereldolifantendag': {
+      title: 'World Elephant Day celebrates elephants', location: 'Worldwide', reportedDate: '12 August 2026', theme: 'Animals & nature',
+      intro: 'World Elephant Day was marked on 12 August. People around the world shared knowledge and ideas for protecting Asian and African elephants.',
+      body: 'World Elephant Day began in 2012 and is held every 12 August. Organisations, researchers and animal lovers highlight safe habitats and ways for people and elephants to live alongside one another. Elephants are the largest land animals and live in close family groups. Protecting their routes and habitats gives herds room to find food and water.',
+      facts: ['World Elephant Day has been held since 2012.', 'There are Asian and African elephants.', 'Elephants often live in family groups led by an experienced female.'],
+      question: 'What would you tell other children to help elephants?',
+    },
     'oude-fabriek-wordt-voetbalpark': {
       title: 'An old factory becomes a football park',
       location: 'China',
@@ -148,6 +183,41 @@ const WORLD_STORY_TRANSLATIONS = {
     },
   },
   fr: {
+    'zonverduistering-boven-leon': {
+      title: 'Deux minutes d’obscurité pendant une éclipse totale', location: 'Espagne', reportedDate: '12 août 2026', theme: 'Espace et nature',
+      intro: 'Le 12 août, la Lune est passée exactement devant le Soleil. Près de León, en Espagne, le jour a pâli pendant presque deux minutes et la couronne solaire est apparue.',
+      body: 'Un photographe de la NASA Earth Observatory a photographié l’éclipse à San Millán de los Caballeros, près de León. Le Soleil a peu à peu disparu derrière la Lune, puis la couronne lumineuse et irrégulière a entouré le disque noir. Une protubérance solaire était aussi visible à gauche. Les lunettes spéciales restaient indispensables avant et après la courte phase totale.',
+      facts: ['L’éclipse solaire totale a eu lieu le 12 août 2026.', 'La totalité a duré environ deux minutes près de León.', 'La couronne est l’atmosphère extérieure très chaude du Soleil.'],
+      question: 'Quel changement dans la nature observerais-tu pendant deux minutes d’obscurité ?',
+    },
+    'vier-leeuwenwelpen-een-jaar': {
+      title: 'Quatre lionceaux ont un an', location: 'États-Unis', reportedDate: '13 août 2026', theme: 'Animaux',
+      intro: 'Les quatre lionceaux Alpine, Lily, Guion et Fraser ont eu un an le 13 août. Le Denver Zoo Conservation Alliance a célébré leur croissance.',
+      body: 'Les lionceaux sont nés l’an dernier de Neliah et Tobias. Ils ont appris à courir, grimper, jouer et manger de manière plus autonome. Autour de leur anniversaire, l’équipe a gardé la famille réunie à l’intérieur pendant qu’Olive se remettait d’une petite blessure. Le zoo a partagé des photos et des histoires pour montrer leur évolution.',
+      facts: ['Les lionceaux s’appellent Alpine, Lily, Guion et Fraser.', 'Ils sont nés le 13 août 2025.', 'Les jeunes lions apprennent beaucoup en jouant ensemble et avec les adultes.'],
+      question: 'Quelle compétence aimerais-tu voir un jeune lion apprendre ?',
+    },
+    'dinosaurussen-in-het-museum': {
+      title: 'Des fossiles de dinosaures arrivent au musée', location: 'États-Unis', reportedDate: '14 août 2026', theme: 'Science',
+      intro: 'L’exposition Dinosaurs: Fossils Exposed a ouvert à Chico le 14 août. Les visiteurs peuvent observer de vrais fossiles et des moulages précis de squelettes.',
+      body: 'Le Gateway Science Museum explique comment les paléontologues étudient os, dents et empreintes. L’exposition réunit six moulages de squelettes complets et treize crânes de dinosaures. On peut aussi voir un fémur d’Apatosaurus long de presque 1,9 mètre. Des outils de fouille et des activités interactives permettent aux enfants de s’entraîner.',
+      facts: ['L’exposition se tient du 14 août 2026 au 2 janvier 2027.', 'Elle comprend six squelettes complets et treize crânes.', 'Le fémur d’Apatosaurus mesure environ 1,85 mètre.'],
+      question: 'Quel détail d’un fossile examinerais-tu d’abord pour savoir ce que mangeait un animal ?',
+    },
+    'dak-vol-zonne-energie-hongkong': {
+      title: 'Des visiteurs découvrent un toit solaire', location: 'Hong Kong', reportedDate: '14 août 2026', theme: 'Développement durable',
+      intro: 'Le 14 août, des visiteurs ont parcouru l’Education Path de Hong Kong. Sur le toit, ils ont vu plus de deux mille panneaux solaires.',
+      body: 'L’Education Path du service des équipements électriques et mécaniques possède trois espaces d’exposition et une galerie panoramique sur le toit. On y apprend comment économiser l’énergie et transformer la lumière en électricité. L’installation photovoltaïque couvre plus de trois mille mètres carrés. La visite a montré pourquoi les panneaux sont alignés et placés loin des ombres.',
+      facts: ['La visite guidée a eu lieu le 14 août 2026.', 'Le toit compte plus de 2 000 panneaux solaires.', 'Les panneaux couvrent plus de 3 000 mètres carrés.'],
+      question: 'Où, dans ton quartier, des panneaux pourraient-ils recevoir beaucoup de soleil ?',
+    },
+    'wereldolifantendag': {
+      title: 'La Journée mondiale met les éléphants à l’honneur', location: 'Partout dans le monde', reportedDate: '12 août 2026', theme: 'Animaux et nature',
+      intro: 'La Journée mondiale de l’éléphant a eu lieu le 12 août. Partout, des personnes ont partagé des idées pour protéger les éléphants d’Asie et d’Afrique.',
+      body: 'Créée en 2012, cette journée revient chaque 12 août. Associations, chercheurs et amis des animaux parlent des habitats sûrs et des moyens de mieux vivre aux côtés des éléphants. Ce sont les plus grands animaux terrestres et ils vivent en groupes familiaux très unis. Protéger leurs chemins et leurs milieux leur donne l’espace nécessaire pour trouver eau et nourriture.',
+      facts: ['La Journée mondiale de l’éléphant existe depuis 2012.', 'Il existe des éléphants d’Asie et d’Afrique.', 'Les éléphants vivent souvent en familles dirigées par une femelle expérimentée.'],
+      question: 'Que dirais-tu aux autres enfants pour aider les éléphants ?',
+    },
     'oude-fabriek-wordt-voetbalpark': {
       title: 'Une ancienne usine devient un parc de football',
       location: 'Chine',
@@ -290,6 +360,41 @@ const WORLD_STORY_TRANSLATIONS = {
     },
   },
   es: {
+    'zonverduistering-boven-leon': {
+      title: 'Dos minutos de oscuridad durante un eclipse total', location: 'España', reportedDate: '12 de agosto de 2026', theme: 'Espacio y naturaleza',
+      intro: 'El 12 de agosto, la Luna pasó exactamente por delante del Sol. Cerca de León, el día se oscureció durante casi dos minutos y apareció la brillante corona solar.',
+      body: 'Un fotógrafo del Observatorio de la Tierra de la NASA captó el eclipse en San Millán de los Caballeros, cerca de León. El Sol desapareció poco a poco tras la Luna y la corona luminosa e irregular rodeó el disco oscuro. A la izquierda también se veía una prominencia solar. Las gafas de eclipse fueron necesarias antes y después de la breve fase total.',
+      facts: ['El eclipse solar total ocurrió el 12 de agosto de 2026.', 'La totalidad cerca de León duró unos dos minutos.', 'La corona es la atmósfera exterior caliente del Sol.'],
+      question: '¿Qué cambio de la naturaleza observarías durante dos minutos de oscuridad?',
+    },
+    'vier-leeuwenwelpen-een-jaar': {
+      title: 'Cuatro cachorros de león cumplen un año', location: 'Estados Unidos', reportedDate: '13 de agosto de 2026', theme: 'Animales',
+      intro: 'Los cuatro cachorros Alpine, Lily, Guion y Fraser cumplieron un año el 13 de agosto. Denver Zoo Conservation Alliance celebró cuánto han crecido.',
+      body: 'Los cachorros nacieron el año pasado de Neliah y Tobias. Han aprendido a correr, trepar, jugar y comer de forma más independiente. Cerca de su cumpleaños, el equipo mantuvo a la familia reunida en el interior mientras Olive se recuperaba de una lesión leve. El zoológico compartió fotos e historias de su crecimiento.',
+      facts: ['Los cachorros se llaman Alpine, Lily, Guion y Fraser.', 'Nacieron el 13 de agosto de 2025.', 'Los leones jóvenes aprenden muchas habilidades jugando juntos y con adultos.'],
+      question: '¿Qué habilidad te gustaría ver practicar a un león joven?',
+    },
+    'dinosaurussen-in-het-museum': {
+      title: 'Fósiles de dinosaurios llegan al museo', location: 'Estados Unidos', reportedDate: '14 de agosto de 2026', theme: 'Ciencia',
+      intro: 'La exposición Dinosaurs: Fossils Exposed abrió en Chico el 14 de agosto. Los visitantes pueden observar fósiles reales y moldes precisos de esqueletos.',
+      body: 'Gateway Science Museum muestra cómo los paleontólogos estudian huesos, dientes y huellas. La exposición reúne seis moldes de esqueletos completos y trece cráneos de dinosaurios. También hay un fémur de Apatosaurus de casi 1,9 metros. Las herramientas de excavación y actividades interactivas permiten a los niños practicar la investigación de fósiles.',
+      facts: ['La exposición está abierta del 14 de agosto de 2026 al 2 de enero de 2027.', 'Incluye seis esqueletos completos y trece cráneos.', 'El fémur de Apatosaurus mide unos 1,85 metros.'],
+      question: '¿Qué detalle de un fósil examinarías primero para saber qué comía un animal?',
+    },
+    'dak-vol-zonne-energie-hongkong': {
+      title: 'Visitantes descubren un tejado lleno de energía solar', location: 'Hong Kong', reportedDate: '14 de agosto de 2026', theme: 'Sostenibilidad',
+      intro: 'El 14 de agosto, visitantes recorrieron el Education Path de Hong Kong. En el tejado vieron más de dos mil paneles solares.',
+      body: 'El Education Path del departamento de servicios eléctricos y mecánicos tiene tres zonas de exposición y una galería en el tejado. Los visitantes aprenden cómo los edificios ahorran energía y cómo la luz se convierte en electricidad. La instalación fotovoltaica ocupa más de tres mil metros cuadrados. La visita mostró por qué los paneles se colocan en filas y lejos de la sombra.',
+      facts: ['La visita guiada tuvo lugar el 14 de agosto de 2026.', 'El tejado tiene más de 2.000 paneles solares.', 'Los paneles ocupan más de 3.000 metros cuadrados.'],
+      question: '¿En qué lugar de tu barrio podrían los paneles recibir mucho sol?',
+    },
+    'wereldolifantendag': {
+      title: 'El Día Mundial celebra a los elefantes', location: 'Todo el mundo', reportedDate: '12 de agosto de 2026', theme: 'Animales y naturaleza',
+      intro: 'El Día Mundial del Elefante se celebró el 12 de agosto. Personas de todo el mundo compartieron ideas para proteger a los elefantes asiáticos y africanos.',
+      body: 'El Día Mundial del Elefante comenzó en 2012 y se celebra cada 12 de agosto. Organizaciones, investigadores y amantes de los animales destacan la importancia de hábitats seguros y de convivir mejor con los elefantes. Son los animales terrestres más grandes y viven en grupos familiares muy unidos. Proteger sus rutas les deja espacio para encontrar agua y alimento.',
+      facts: ['El Día Mundial del Elefante se celebra desde 2012.', 'Existen elefantes asiáticos y africanos.', 'Los elefantes suelen vivir en familias dirigidas por una hembra experimentada.'],
+      question: '¿Qué contarías a otros niños para ayudar a los elefantes?',
+    },
     'oude-fabriek-wordt-voetbalpark': {
       title: 'Una antigua fábrica se convierte en parque de fútbol',
       location: 'China',
@@ -432,6 +537,41 @@ const WORLD_STORY_TRANSLATIONS = {
     },
   },
   zh: {
+    'zonverduistering-boven-leon': {
+      title: '日全食带来两分钟黑暗', location: '西班牙', reportedDate: '2026年8月12日', theme: '太空与自然',
+      intro: '8月12日，月球正好移动到太阳前方。西班牙莱昂附近白昼暗了近两分钟，明亮的日冕显现出来。',
+      body: 'NASA地球观测站的摄影师在莱昂附近的圣米良德洛斯卡瓦列罗斯拍下了日全食。太阳逐渐被月球遮住，最后只剩明亮而不规则的日冕围绕黑色圆盘，左侧还能看到太阳日珥。短暂的全食阶段前后都必须佩戴合格的日食眼镜。',
+      facts: ['日全食发生在2026年8月12日。', '莱昂附近的全食阶段持续约两分钟。', '日冕是太阳炽热的外层大气。'],
+      question: '在两分钟的黑暗中，你最想观察自然界的什么变化？',
+    },
+    'vier-leeuwenwelpen-een-jaar': {
+      title: '四只小狮子满一岁', location: '美国', reportedDate: '2026年8月13日', theme: '动物',
+      intro: 'Alpine、Lily、Guion和Fraser四只小狮子在8月13日满一岁。丹佛动物园保护联盟分享了它们成长的故事。',
+      body: '四只幼狮去年由Neliah和Tobias所生。它们逐渐学会奔跑、攀爬、玩耍和独立进食。生日前后，照护团队让狮群暂时一起待在室内，因为Olive正在从轻伤中恢复。动物园用照片和故事展示了四只幼狮这一年的成长。',
+      facts: ['四只幼狮名叫Alpine、Lily、Guion和Fraser。', '它们出生于2025年8月13日。', '幼狮通过和同伴及成年狮玩耍学习许多本领。'],
+      question: '你最想看小狮子练习哪一种本领？',
+    },
+    'dinosaurussen-in-het-museum': {
+      title: '恐龙化石来到博物馆', location: '美国', reportedDate: '2026年8月14日', theme: '科学',
+      intro: '《恐龙：化石揭秘》展览于8月14日在奇科开幕。参观者可以近距离观察真实化石和精确的骨架模型。',
+      body: 'Gateway科学博物馆展示古生物学家如何通过骨骼、牙齿和印痕了解远古动物。展览有六具完整骨架模型和十三个恐龙头骨，还有一根接近1.9米长的迷惑龙股骨。孩子们可以使用挖掘工具和互动任务体验化石研究。',
+      facts: ['展览时间为2026年8月14日至2027年1月2日。', '展览包含六具完整骨架模型和十三个头骨。', '迷惑龙股骨约1.85米长。'],
+      question: '为了判断动物吃什么，你会先观察化石的哪个细节？',
+    },
+    'dak-vol-zonne-energie-hongkong': {
+      title: '访客探索铺满太阳能板的屋顶', location: '香港', reportedDate: '2026年8月14日', theme: '可持续发展',
+      intro: '8月14日，访客参观了香港机电工程署教育径，并在屋顶看到两千多块太阳能板。',
+      body: '教育径设有三个展览区和屋顶观景廊，介绍建筑如何节能，以及阳光怎样转化为电力。光伏板阵列总面积超过三千平方米。参观活动让孩子们了解为什么太阳能板要成排摆放，也要尽量避开阴影。',
+      facts: ['导赏活动于2026年8月14日举行。', '屋顶有超过2,000块太阳能板。', '太阳能板总面积超过3,000平方米。'],
+      question: '你家附近哪里最适合用太阳能板收集阳光？',
+    },
+    'wereldolifantendag': {
+      title: '世界大象日关注大象保护', location: '全球', reportedDate: '2026年8月12日', theme: '动物与自然',
+      intro: '8月12日是世界大象日。世界各地的人们分享保护亚洲象和非洲象的知识与想法。',
+      body: '世界大象日始于2012年，此后每年8月12日举行。保护组织、研究人员和动物爱好者会介绍安全栖息地，以及人与大象和谐相处的方法。大象是最大的陆地动物，生活在紧密的家庭群体中。保护迁徙路线和栖息地，能让象群有空间寻找食物和水。',
+      facts: ['世界大象日自2012年开始举办。', '世界上有亚洲象和非洲象。', '象群通常由经验丰富的雌象带领。'],
+      question: '为了帮助大象，你最想告诉其他孩子什么？',
+    },
     'oude-fabriek-wordt-voetbalpark': {
       title: '旧工厂变成了足球公园',
       location: '中国',

@@ -23,11 +23,22 @@ const COLORINGS = eval(coloringsMatch[1]);
 
 const BASE_URL = 'https://kidslovecolor.com';
 const outDir = path.join(__dirname, 'kleurplaat');
+const newOnly = process.argv.includes('--new-only');
+const requestedSlugs = new Set(
+  process.argv.filter((arg) => arg.startsWith('--slug=')).map((arg) => arg.slice(7))
+);
+const categoryNames = {
+  dieren: 'Dieren', voertuigen: 'Voertuigen', sprookjes: 'Sprookjes',
+  ruimte: 'Ruimte', oceaan: 'Oceaan', natuur: 'Natuur', eten: 'Eten',
+  beroepen: 'Beroepen', seizoenen: 'Seizoenen', mandala: 'Mandala',
+  actualiteiten: 'Actualiteiten', kawaii: 'Kawaii',
+};
 
 let created = 0;
 
 for (const page of COLORINGS) {
-  const { slug, img } = page;
+  const { slug, img, category } = page;
+  if (requestedSlugs.size && !requestedSlugs.has(slug)) continue;
   const nl = page.nl || {};
   const title = nl.title || slug;
   const desc = nl.description || 'Gratis kleurplaat voor kinderen.';
@@ -36,6 +47,21 @@ for (const page of COLORINGS) {
   const imgFile = img.replace('../img/kleurplaten/', '');
   const imgUrl = `${BASE_URL}/img/kleurplaten/${imgFile}`;
   const pageUrl = `${BASE_URL}/kleurplaat/${slug}`;
+  const dir = path.join(outDir, slug);
+  const outFile = path.join(dir, 'index.html');
+
+  if (newOnly && fs.existsSync(outFile)) continue;
+
+  const categoryName = categoryNames[category] || category;
+  const breadcrumb = JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE_URL}/` },
+      { '@type': 'ListItem', position: 2, name: categoryName, item: `${BASE_URL}/?cat=${category}` },
+      { '@type': 'ListItem', position: 3, name: title, item: pageUrl },
+    ],
+  });
 
   const html = `<!DOCTYPE html>
 <html lang="nl" prefix="og: https://ogp.me/ns#">
@@ -52,8 +78,8 @@ for (const page of COLORINGS) {
   <meta property="og:title"       content="${escapeHtml(title)} – Gratis Kleurplaat"/>
   <meta property="og:description" content="${escapeHtml(desc)}"/>
   <meta property="og:image"       content="${imgUrl}"/>
-  <meta property="og:image:width" content="800"/>
-  <meta property="og:image:height" content="800"/>
+  <meta property="og:image:width" content="1055"/>
+  <meta property="og:image:height" content="1491"/>
   <meta property="og:site_name"   content="KidsLoveColor"/>
   <meta property="og:locale"      content="nl_NL"/>
 
@@ -62,6 +88,9 @@ for (const page of COLORINGS) {
   <meta name="twitter:title"       content="${escapeHtml(title)} – Gratis Kleurplaat"/>
   <meta name="twitter:description" content="${escapeHtml(desc)}"/>
   <meta name="twitter:image"       content="${imgUrl}"/>
+
+  <!-- Breadcrumb structured data -->
+  <script type="application/ld+json">${breadcrumb}</script>
 
   <!-- Redirect to SPA: store path so app.js can open the modal -->
   <meta http-equiv="refresh" content="0; url=/"/>
@@ -75,9 +104,8 @@ for (const page of COLORINGS) {
 </body>
 </html>`;
 
-  const dir = path.join(outDir, slug);
   fs.mkdirSync(dir, { recursive: true });
-  fs.writeFileSync(path.join(dir, 'index.html'), html, 'utf8');
+  fs.writeFileSync(outFile, html, 'utf8');
   created++;
 }
 
