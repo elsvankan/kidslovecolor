@@ -85,22 +85,6 @@
       "destination": "/zh/index.html"
     },
     {
-      "source": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden",
-      "destination": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden/index.html"
-    },
-    {
-      "source": "/kleurplaat/monster-truck-jumping-over-cars",
-      "destination": "/kleurplaat/monster-truck-jumping-over-cars/index.html"
-    },
-    {
-      "source": "/kleurplaat/trex-dinosaur-roaring-in-a-prehistoric-jungle",
-      "destination": "/kleurplaat/trex-dinosaur-roaring-in-a-prehistoric-jungle/index.html"
-    },
-    {
-      "source": "/kleurplaat/kawaii-dinosaur-playing-with-balloons",
-      "destination": "/kleurplaat/kawaii-dinosaur-playing-with-balloons/index.html"
-    },
-    {
       "source": "/kleurplaat/baby-stegosaurus",
       "destination": "/kleurplaat/baby-stegosaurus/index.html"
     },
@@ -109,68 +93,1120 @@
       "destination": "/kleurplaat/dinosaur-brontosaurus/index.html"
     },
     {
-      "source": "/kleurplaat/excavator-digging-next-to-a-crane-at-a-busy-construction-site",
-      "destination": "/kleurplaat/excavator-digging-next-to-a-crane-at-a-busy-construction-site/index.html"
+      "source": "/kleurplaat/cute-puppy",
+      "destination": "/kleurplaat/cute-puppy/index.html"
     },
     {
-      "source": "/kleurplaat/fire-truck-with-ladder-driving-to-a-rescue",
-      "destination": "/kleurplaat/fire-truck-with-ladder-driving-to-a-rescue/index.html"
+      "source": "/kleurplaat/cat-rainbow",
+      "destination": "/kleurplaat/cat-rainbow/index.html"
     },
     {
-      "source": "/kleurplaat/train-crossing-a-bridge-over-a-river",
-      "destination": "/kleurplaat/train-crossing-a-bridge-over-a-river/index.html"
+      "source": "/kleurplaat/bird-family",
+      "destination": "/kleurplaat/bird-family/index.html"
     },
     {
-      "source": "/kleurplaat/busy-airport-scene-with-airplanes",
-      "destination": "/kleurplaat/busy-airport-scene-with-airplanes/index.html"
+      "source": "/kleurplaat/sea-animals",
+      "destination": "/kleurplaat/sea-animals/index.html"
     },
     {
-      "source": "/kleurplaat/princess-trying-on-a-glass-slipper",
-      "destination": "/kleurplaat/princess-trying-on-a-glass-slipper/index.html"
+      "source": "/kleurplaat/koala-tree",
+      "destination": "/kleurplaat/koala-tree/index.html"
     },
     {
-      "source": "/kleurplaat/princess-sleeping-in-a-castle-tower",
-      "destination": "/kleurplaat/princess-sleeping-in-a-castle-tower/index.html"
+      "source": "/kleurplaat/koala-boba",
+      "destination": "/kleurplaat/koala-boba/index.html"
     },
     {
-      "source": "/kleurplaat/princess-castle-with-towers-and-a-garden",
-      "destination": "/kleurplaat/princess-castle-with-towers-and-a-garden/index.html"
+      "source": "/kleurplaat/koala-birthday",
+      "destination": "/kleurplaat/koala-birthday/index.html"
     },
     {
-      "source": "/kleurplaat/black-african-princess-wearing-a-colorful-traditional-dress-and-beaded-jewelry",
-      "destination": "/kleurplaat/black-african-princess-wearing-a-colorful-traditional-dress-and-beaded-jewelry/index.html"
+      "source": "/kleurplaat/koala-flowers",
+      "destination": "/kleurplaat/koala-flowers/index.html"
     },
     {
-      "source": "/kleurplaat/mermaid-underwater",
-      "destination": "/kleurplaat/mermaid-underwater/index.html"
+      "source": "/kleurplaat/bunny-carrots",
+      "destination": "/kleurplaat/bunny-carrots/index.html"
     },
     {
-      "source": "/kleurplaat/farm-scene-with-cow-pig-and-chicken",
-      "destination": "/kleurplaat/farm-scene-with-cow-pig-and-chicken/index.html"
+      "source": "/kleurplaat/kawaii-flowers-cactus",
+      "destination": "/kleurplaat/kawaii-flowers-cactus/index.html"
     },
     {
-      "source": "/kleurplaat/full-body-elephant-walking-in-the-jungle",
-      "destination": "/kleurplaat/full-body-elephant-walking-in-the-jungle/index.html"
+      "source": "/kleurplaat/kawaii-cactus",
+      "destination": "/kleurplaat/kawaii-cactus/index.html"
     },
     {
-      "source": "/kleurplaat/happy-rabbits-garden",
-      "destination": "/kleurplaat/happy-rabbits-garden/index.html"
+      "source": "/kleurplaat/kawaii-cat-dog",
+      "destination": "/kleurplaat/kawaii-cat-dog/index.html"
     },
     {
-      "source": "/kleurplaat/cute-whale-underwater",
-      "destination": "/kleurplaat/cute-whale-underwater/index.html"
+      "source": "/kleurplaat/bunny-cupcake",
+      "destination": "/kleurplaat/bunny-cupcake/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-sweets",
+      "destination": "/kleurplaat/kawaii-sweets/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-fastfood",
+      "destination": "/kleurplaat/kawaii-fastfood/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-bottle-animals",
+      "destination": "/kleurplaat/kawaii-bottle-animals/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-fruit",
+      "destination": "/kleurplaat/kawaii-fruit/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-vegetables",
+      "destination": "/kleurplaat/kawaii-vegetables/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-burgers",
+      "destination": "/kleurplaat/kawaii-burgers/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-ice-cream",
+      "destination": "/kleurplaat/kawaii-ice-cream/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-desserts",
+      "destination": "/kleurplaat/kawaii-desserts/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-cat-ice-cream",
+      "destination": "/kleurplaat/kawaii-cat-ice-cream/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-pizza",
+      "destination": "/kleurplaat/kawaii-pizza/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-plants",
+      "destination": "/kleurplaat/kawaii-plants/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-school",
+      "destination": "/kleurplaat/kawaii-school/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-smoothie",
+      "destination": "/kleurplaat/kawaii-smoothie/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-cake",
+      "destination": "/kleurplaat/kawaii-cake/index.html"
+    },
+    {
+      "source": "/kleurplaat/bunny-teacup",
+      "destination": "/kleurplaat/bunny-teacup/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-flowers-sun",
+      "destination": "/kleurplaat/kawaii-flowers-sun/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-mushrooms",
+      "destination": "/kleurplaat/kawaii-mushrooms/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-mushroom-scene",
+      "destination": "/kleurplaat/kawaii-mushroom-scene/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-space",
+      "destination": "/kleurplaat/kawaii-space/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-hearts",
+      "destination": "/kleurplaat/unicorn-hearts/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-cloud-stars",
+      "destination": "/kleurplaat/unicorn-cloud-stars/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-rainbow-cute",
+      "destination": "/kleurplaat/unicorn-rainbow-cute/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-rainbow",
+      "destination": "/kleurplaat/unicorn-rainbow/index.html"
+    },
+    {
+      "source": "/kleurplaat/bear-mandala-walking",
+      "destination": "/kleurplaat/bear-mandala-walking/index.html"
+    },
+    {
+      "source": "/kleurplaat/desert-camping",
+      "destination": "/kleurplaat/desert-camping/index.html"
     },
     {
       "source": "/kleurplaat/dolphins-ocean",
       "destination": "/kleurplaat/dolphins-ocean/index.html"
     },
     {
+      "source": "/kleurplaat/easter-bunnies-set",
+      "destination": "/kleurplaat/easter-bunnies-set/index.html"
+    },
+    {
+      "source": "/kleurplaat/easter-bunny-basket",
+      "destination": "/kleurplaat/easter-bunny-basket/index.html"
+    },
+    {
+      "source": "/kleurplaat/easter-bunny-eggs",
+      "destination": "/kleurplaat/easter-bunny-eggs/index.html"
+    },
+    {
+      "source": "/kleurplaat/easter-bunny-realistic",
+      "destination": "/kleurplaat/easter-bunny-realistic/index.html"
+    },
+    {
+      "source": "/kleurplaat/elephant-mandala",
+      "destination": "/kleurplaat/elephant-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/enchanted-forest",
+      "destination": "/kleurplaat/enchanted-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/february-lovebirds",
+      "destination": "/kleurplaat/february-lovebirds/index.html"
+    },
+    {
+      "source": "/kleurplaat/firefighter-boy-dog",
+      "destination": "/kleurplaat/firefighter-boy-dog/index.html"
+    },
+    {
+      "source": "/kleurplaat/firefighter-boy-truck",
+      "destination": "/kleurplaat/firefighter-boy-truck/index.html"
+    },
+    {
+      "source": "/kleurplaat/firefighter-hose",
+      "destination": "/kleurplaat/firefighter-hose/index.html"
+    },
+    {
+      "source": "/kleurplaat/firefighters-station",
+      "destination": "/kleurplaat/firefighters-station/index.html"
+    },
+    {
+      "source": "/kleurplaat/floral-heart",
+      "destination": "/kleurplaat/floral-heart/index.html"
+    },
+    {
+      "source": "/kleurplaat/floral-mandala",
+      "destination": "/kleurplaat/floral-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/fox-mandala",
+      "destination": "/kleurplaat/fox-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-hedgehogs",
+      "destination": "/kleurplaat/halloween-hedgehogs/index.html"
+    },
+    {
+      "source": "/kleurplaat/happy-rabbits-garden",
+      "destination": "/kleurplaat/happy-rabbits-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/hello-summer-beach",
+      "destination": "/kleurplaat/hello-summer-beach/index.html"
+    },
+    {
+      "source": "/kleurplaat/horse-mandala-galloping",
+      "destination": "/kleurplaat/horse-mandala-galloping/index.html"
+    },
+    {
+      "source": "/kleurplaat/horse-mandala-running",
+      "destination": "/kleurplaat/horse-mandala-running/index.html"
+    },
+    {
+      "source": "/kleurplaat/ice-cream-popsicles",
+      "destination": "/kleurplaat/ice-cream-popsicles/index.html"
+    },
+    {
+      "source": "/kleurplaat/ice-cream-sundae",
+      "destination": "/kleurplaat/ice-cream-sundae/index.html"
+    },
+    {
+      "source": "/kleurplaat/january-candles",
+      "destination": "/kleurplaat/january-candles/index.html"
+    },
+    {
+      "source": "/kleurplaat/january-cozy",
+      "destination": "/kleurplaat/january-cozy/index.html"
+    },
+    {
+      "source": "/kleurplaat/july-summer-reading",
+      "destination": "/kleurplaat/july-summer-reading/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-donut-juice",
+      "destination": "/kleurplaat/kawaii-donut-juice/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-planets-stars",
+      "destination": "/kleurplaat/kawaii-planets-stars/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-space-cat",
+      "destination": "/kleurplaat/kawaii-space-cat/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-space-planets",
+      "destination": "/kleurplaat/kawaii-space-planets/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-space-ufo",
+      "destination": "/kleurplaat/kawaii-space-ufo/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-unicorn-magic",
+      "destination": "/kleurplaat/kawaii-unicorn-magic/index.html"
+    },
+    {
+      "source": "/kleurplaat/koala-aboriginal-art",
+      "destination": "/kleurplaat/koala-aboriginal-art/index.html"
+    },
+    {
+      "source": "/kleurplaat/koala-mandala-branch",
+      "destination": "/kleurplaat/koala-mandala-branch/index.html"
+    },
+    {
+      "source": "/kleurplaat/koala-mandala-climbing",
+      "destination": "/kleurplaat/koala-mandala-climbing/index.html"
+    },
+    {
+      "source": "/kleurplaat/koala-mandala-sitting",
+      "destination": "/kleurplaat/koala-mandala-sitting/index.html"
+    },
+    {
+      "source": "/kleurplaat/lion-flowers",
+      "destination": "/kleurplaat/lion-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/may-flowers-bees",
+      "destination": "/kleurplaat/may-flowers-bees/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-on-rock",
+      "destination": "/kleurplaat/mermaid-on-rock/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-underwater",
+      "destination": "/kleurplaat/mermaid-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/monkey-mandala",
+      "destination": "/kleurplaat/monkey-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/november-harvest",
+      "destination": "/kleurplaat/november-harvest/index.html"
+    },
+    {
+      "source": "/kleurplaat/otter-flowers",
+      "destination": "/kleurplaat/otter-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/outer-space-planets",
+      "destination": "/kleurplaat/outer-space-planets/index.html"
+    },
+    {
+      "source": "/kleurplaat/panda-mandala",
+      "destination": "/kleurplaat/panda-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/pandas-bamboo",
+      "destination": "/kleurplaat/pandas-bamboo/index.html"
+    },
+    {
+      "source": "/kleurplaat/police-arrest",
+      "destination": "/kleurplaat/police-arrest/index.html"
+    },
+    {
+      "source": "/kleurplaat/police-bulldog",
+      "destination": "/kleurplaat/police-bulldog/index.html"
+    },
+    {
+      "source": "/kleurplaat/police-officer-dog",
+      "destination": "/kleurplaat/police-officer-dog/index.html"
+    },
+    {
+      "source": "/kleurplaat/saturn-rocket",
+      "destination": "/kleurplaat/saturn-rocket/index.html"
+    },
+    {
+      "source": "/kleurplaat/sea-turtle",
+      "destination": "/kleurplaat/sea-turtle/index.html"
+    },
+    {
+      "source": "/kleurplaat/september-classroom",
+      "destination": "/kleurplaat/september-classroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/september-garden",
+      "destination": "/kleurplaat/september-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/sloth-mandala-hanging",
+      "destination": "/kleurplaat/sloth-mandala-hanging/index.html"
+    },
+    {
+      "source": "/kleurplaat/sloth-mandala-tree",
+      "destination": "/kleurplaat/sloth-mandala-tree/index.html"
+    },
+    {
+      "source": "/kleurplaat/snail-mandala",
+      "destination": "/kleurplaat/snail-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/space-planets-rockets",
+      "destination": "/kleurplaat/space-planets-rockets/index.html"
+    },
+    {
+      "source": "/kleurplaat/space-rainbow-planets",
+      "destination": "/kleurplaat/space-rainbow-planets/index.html"
+    },
+    {
+      "source": "/kleurplaat/squirrel-mandala",
+      "destination": "/kleurplaat/squirrel-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/summer-beach-crab",
+      "destination": "/kleurplaat/summer-beach-crab/index.html"
+    },
+    {
+      "source": "/kleurplaat/summer-doodle-pattern",
+      "destination": "/kleurplaat/summer-doodle-pattern/index.html"
+    },
+    {
+      "source": "/kleurplaat/summer-flowers-ice-cream",
+      "destination": "/kleurplaat/summer-flowers-ice-cream/index.html"
+    },
+    {
+      "source": "/kleurplaat/summer-flowers-text",
+      "destination": "/kleurplaat/summer-flowers-text/index.html"
+    },
+    {
+      "source": "/kleurplaat/summer-travel-van",
+      "destination": "/kleurplaat/summer-travel-van/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-garden",
+      "destination": "/kleurplaat/unicorn-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-mandala",
+      "destination": "/kleurplaat/unicorn-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/weekend-wanderers-camper",
+      "destination": "/kleurplaat/weekend-wanderers-camper/index.html"
+    },
+    {
+      "source": "/kleurplaat/dolphin-swimming-underwater",
+      "destination": "/kleurplaat/dolphin-swimming-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/baby-dolphin-underwater",
+      "destination": "/kleurplaat/baby-dolphin-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-castle-treasure-chest",
+      "destination": "/kleurplaat/princess-castle-treasure-chest/index.html"
+    },
+    {
+      "source": "/kleurplaat/terrier-dog",
+      "destination": "/kleurplaat/terrier-dog/index.html"
+    },
+    {
+      "source": "/kleurplaat/bunny-on-cupcake-kawaii",
+      "destination": "/kleurplaat/bunny-on-cupcake-kawaii/index.html"
+    },
+    {
+      "source": "/kleurplaat/bird-family-on-branch",
+      "destination": "/kleurplaat/bird-family-on-branch/index.html"
+    },
+    {
+      "source": "/kleurplaat/abstract-zentangle-waves-1",
+      "destination": "/kleurplaat/abstract-zentangle-waves-1/index.html"
+    },
+    {
+      "source": "/kleurplaat/abstract-zentangle-flowers-1",
+      "destination": "/kleurplaat/abstract-zentangle-flowers-1/index.html"
+    },
+    {
+      "source": "/kleurplaat/abstract-zentangle-flowers-2",
+      "destination": "/kleurplaat/abstract-zentangle-flowers-2/index.html"
+    },
+    {
+      "source": "/kleurplaat/rooster-mandala",
+      "destination": "/kleurplaat/rooster-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/abstract-zentangle-flowers-water",
+      "destination": "/kleurplaat/abstract-zentangle-flowers-water/index.html"
+    },
+    {
+      "source": "/kleurplaat/ocean-animals-scene",
+      "destination": "/kleurplaat/ocean-animals-scene/index.html"
+    },
+    {
+      "source": "/kleurplaat/abstract-zentangle-waves-2",
+      "destination": "/kleurplaat/abstract-zentangle-waves-2/index.html"
+    },
+    {
+      "source": "/kleurplaat/dolphin-coral-reef",
+      "destination": "/kleurplaat/dolphin-coral-reef/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-voodoo-doll-jungle",
+      "destination": "/kleurplaat/kawaii-voodoo-doll-jungle/index.html"
+    },
+    {
+      "source": "/kleurplaat/manta-ray-underwater",
+      "destination": "/kleurplaat/manta-ray-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/cute-whale-underwater",
+      "destination": "/kleurplaat/cute-whale-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/eagle-head-mandala",
+      "destination": "/kleurplaat/eagle-head-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-fruit-characters",
+      "destination": "/kleurplaat/kawaii-fruit-characters/index.html"
+    },
+    {
+      "source": "/kleurplaat/betta-fish-underwater",
+      "destination": "/kleurplaat/betta-fish-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-space-aliens",
+      "destination": "/kleurplaat/kawaii-space-aliens/index.html"
+    },
+    {
+      "source": "/kleurplaat/winter-bears-in-snow",
+      "destination": "/kleurplaat/winter-bears-in-snow/index.html"
+    },
+    {
+      "source": "/kleurplaat/whale-and-jellyfish-1",
+      "destination": "/kleurplaat/whale-and-jellyfish-1/index.html"
+    },
+    {
+      "source": "/kleurplaat/whale-and-jellyfish-2",
+      "destination": "/kleurplaat/whale-and-jellyfish-2/index.html"
+    },
+    {
+      "source": "/kleurplaat/dolphin-jumping-ocean",
+      "destination": "/kleurplaat/dolphin-jumping-ocean/index.html"
+    },
+    {
+      "source": "/kleurplaat/whale-with-dolphins",
+      "destination": "/kleurplaat/whale-with-dolphins/index.html"
+    },
+    {
+      "source": "/kleurplaat/narwhal-with-fish",
+      "destination": "/kleurplaat/narwhal-with-fish/index.html"
+    },
+    {
+      "source": "/kleurplaat/narwhal-underwater",
+      "destination": "/kleurplaat/narwhal-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/whale-with-fish",
+      "destination": "/kleurplaat/whale-with-fish/index.html"
+    },
+    {
+      "source": "/kleurplaat/octopus-underwater-1",
+      "destination": "/kleurplaat/octopus-underwater-1/index.html"
+    },
+    {
+      "source": "/kleurplaat/octopus-sea-creatures",
+      "destination": "/kleurplaat/octopus-sea-creatures/index.html"
+    },
+    {
+      "source": "/kleurplaat/octopus-with-seaweed",
+      "destination": "/kleurplaat/octopus-with-seaweed/index.html"
+    },
+    {
+      "source": "/kleurplaat/jellyfish-group",
+      "destination": "/kleurplaat/jellyfish-group/index.html"
+    },
+    {
+      "source": "/kleurplaat/shark-underwater",
+      "destination": "/kleurplaat/shark-underwater/index.html"
+    },
+    {
+      "source": "/kleurplaat/shark-with-fish",
+      "destination": "/kleurplaat/shark-with-fish/index.html"
+    },
+    {
+      "source": "/kleurplaat/sailboat-night-sky",
+      "destination": "/kleurplaat/sailboat-night-sky/index.html"
+    },
+    {
+      "source": "/kleurplaat/sailboat-nautical",
+      "destination": "/kleurplaat/sailboat-nautical/index.html"
+    },
+    {
+      "source": "/kleurplaat/dolphin-and-sea-turtle",
+      "destination": "/kleurplaat/dolphin-and-sea-turtle/index.html"
+    },
+    {
+      "source": "/kleurplaat/sea-turtle-detailed",
+      "destination": "/kleurplaat/sea-turtle-detailed/index.html"
+    },
+    {
+      "source": "/kleurplaat/decorative-female-face-flowers",
+      "destination": "/kleurplaat/decorative-female-face-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/woman-face-architecture-flowers",
+      "destination": "/kleurplaat/woman-face-architecture-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/girl-face-floral-crown-1",
+      "destination": "/kleurplaat/girl-face-floral-crown-1/index.html"
+    },
+    {
+      "source": "/kleurplaat/deer-head-mandala-floral",
+      "destination": "/kleurplaat/deer-head-mandala-floral/index.html"
+    },
+    {
+      "source": "/kleurplaat/girl-face-floral-crown-2",
+      "destination": "/kleurplaat/girl-face-floral-crown-2/index.html"
+    },
+    {
+      "source": "/kleurplaat/giraffe-head-mandala-leaves",
+      "destination": "/kleurplaat/giraffe-head-mandala-leaves/index.html"
+    },
+    {
+      "source": "/kleurplaat/cute-cat-sitting-with-a-bow",
+      "destination": "/kleurplaat/cute-cat-sitting-with-a-bow/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-with-a-magic-wand-and-stars",
+      "destination": "/kleurplaat/princess-with-a-magic-wand-and-stars/index.html"
+    },
+    {
+      "source": "/kleurplaat/flower-mandala-pattern-with-leaves",
+      "destination": "/kleurplaat/flower-mandala-pattern-with-leaves/index.html"
+    },
+    {
+      "source": "/kleurplaat/christmas-tree-with-ornaments",
+      "destination": "/kleurplaat/christmas-tree-with-ornaments/index.html"
+    },
+    {
+      "source": "/kleurplaat/happy-girl-face-with-pigtails",
+      "destination": "/kleurplaat/happy-girl-face-with-pigtails/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-unicorn-with-stars",
+      "destination": "/kleurplaat/kawaii-unicorn-with-stars/index.html"
+    },
+    {
+      "source": "/kleurplaat/cute-princess-with-magic-wand",
+      "destination": "/kleurplaat/cute-princess-with-magic-wand/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-dress-with-flowers",
+      "destination": "/kleurplaat/princess-dress-with-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/race-cars-competing-on-a-track",
+      "destination": "/kleurplaat/race-cars-competing-on-a-track/index.html"
+    },
+    {
+      "source": "/kleurplaat/full-body-elephant-walking-in-the-jungle",
+      "destination": "/kleurplaat/full-body-elephant-walking-in-the-jungle/index.html"
+    },
+    {
+      "source": "/kleurplaat/farm-scene-with-cow-pig-and-chicken",
+      "destination": "/kleurplaat/farm-scene-with-cow-pig-and-chicken/index.html"
+    },
+    {
+      "source": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden",
+      "destination": "/kleurplaat/puppy-playing-with-a-ball-in-the-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/horse-galloping-through-a-meadow",
+      "destination": "/kleurplaat/horse-galloping-through-a-meadow/index.html"
+    },
+    {
+      "source": "/kleurplaat/zoo-scene-with-many-different-animals",
+      "destination": "/kleurplaat/zoo-scene-with-many-different-animals/index.html"
+    },
+    {
       "source": "/kleurplaat/giraffe-eating-leaves-from-a-tall-tree",
       "destination": "/kleurplaat/giraffe-eating-leaves-from-a-tall-tree/index.html"
     },
     {
-      "source": "/kleurplaat/baby-unicorn-playing-in-a-flower-meadow",
-      "destination": "/kleurplaat/baby-unicorn-playing-in-a-flower-meadow/index.html"
+      "source": "/kleurplaat/lion-family-resting-under-a-tree",
+      "destination": "/kleurplaat/lion-family-resting-under-a-tree/index.html"
+    },
+    {
+      "source": "/kleurplaat/monkey-swinging-from-jungle-vines",
+      "destination": "/kleurplaat/monkey-swinging-from-jungle-vines/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-dancing-in-a-castle-ballroom",
+      "destination": "/kleurplaat/princess-dancing-in-a-castle-ballroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-walking-with-her-pet-swan",
+      "destination": "/kleurplaat/princess-walking-with-her-pet-swan/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-castle-with-towers-and-a-garden",
+      "destination": "/kleurplaat/princess-castle-with-towers-and-a-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-having-a-tea-party-with-friends",
+      "destination": "/kleurplaat/princess-having-a-tea-party-with-friends/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-riding-a-unicorn-through-a-forest",
+      "destination": "/kleurplaat/princess-riding-a-unicorn-through-a-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/autumn-scene-with-falling-leaves-and-a-tree",
+      "destination": "/kleurplaat/autumn-scene-with-falling-leaves-and-a-tree/index.html"
+    },
+    {
+      "source": "/kleurplaat/children-building-a-snowman-in-winter",
+      "destination": "/kleurplaat/children-building-a-snowman-in-winter/index.html"
+    },
+    {
+      "source": "/kleurplaat/fire-truck-with-ladder-driving-to-a-rescue",
+      "destination": "/kleurplaat/fire-truck-with-ladder-driving-to-a-rescue/index.html"
+    },
+    {
+      "source": "/kleurplaat/rocket-ship-launching-into-space",
+      "destination": "/kleurplaat/rocket-ship-launching-into-space/index.html"
+    },
+    {
+      "source": "/kleurplaat/tractor-working-in-a-farm-field",
+      "destination": "/kleurplaat/tractor-working-in-a-farm-field/index.html"
+    },
+    {
+      "source": "/kleurplaat/busy-airport-scene-with-airplanes",
+      "destination": "/kleurplaat/busy-airport-scene-with-airplanes/index.html"
+    },
+    {
+      "source": "/kleurplaat/pirate-ship-sailing-on-ocean-waves",
+      "destination": "/kleurplaat/pirate-ship-sailing-on-ocean-waves/index.html"
+    },
+    {
+      "source": "/kleurplaat/train-crossing-a-bridge-over-a-river",
+      "destination": "/kleurplaat/train-crossing-a-bridge-over-a-river/index.html"
+    },
+    {
+      "source": "/kleurplaat/clever-cat-wearing-boots-and-a-hat",
+      "destination": "/kleurplaat/clever-cat-wearing-boots-and-a-hat/index.html"
+    },
+    {
+      "source": "/kleurplaat/ugly-duckling-swimming-with-swans",
+      "destination": "/kleurplaat/ugly-duckling-swimming-with-swans/index.html"
+    },
+    {
+      "source": "/kleurplaat/girl-having-porridge-with-three-bears",
+      "destination": "/kleurplaat/girl-having-porridge-with-three-bears/index.html"
+    },
+    {
+      "source": "/kleurplaat/three-little-pigs-building-houses",
+      "destination": "/kleurplaat/three-little-pigs-building-houses/index.html"
+    },
+    {
+      "source": "/kleurplaat/nutcracker-soldier-standing-guard-at-christmas",
+      "destination": "/kleurplaat/nutcracker-soldier-standing-guard-at-christmas/index.html"
+    },
+    {
+      "source": "/kleurplaat/tiny-forest-fairy-sitting-on-a-mushroom",
+      "destination": "/kleurplaat/tiny-forest-fairy-sitting-on-a-mushroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-sleeping-in-a-castle-tower",
+      "destination": "/kleurplaat/princess-sleeping-in-a-castle-tower/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-trying-on-a-glass-slipper",
+      "destination": "/kleurplaat/princess-trying-on-a-glass-slipper/index.html"
+    },
+    {
+      "source": "/kleurplaat/princess-letting-down-her-long-hair-from-a-tower",
+      "destination": "/kleurplaat/princess-letting-down-her-long-hair-from-a-tower/index.html"
+    },
+    {
+      "source": "/kleurplaat/cheshire-cat-grinning-in-a-tree",
+      "destination": "/kleurplaat/cheshire-cat-grinning-in-a-tree/index.html"
+    },
+    {
+      "source": "/kleurplaat/little-girl-in-a-red-hooded-cape-walking-through-the-forest",
+      "destination": "/kleurplaat/little-girl-in-a-red-hooded-cape-walking-through-the-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/wooden-puppet-boy-walking-to-school",
+      "destination": "/kleurplaat/wooden-puppet-boy-walking-to-school/index.html"
+    },
+    {
+      "source": "/kleurplaat/alice-falling-down-the-rabbit-hole-into-wonderland",
+      "destination": "/kleurplaat/alice-falling-down-the-rabbit-hole-into-wonderland/index.html"
+    },
+    {
+      "source": "/kleurplaat/alice-having-a-tea-party-with-the-mad-hatter",
+      "destination": "/kleurplaat/alice-having-a-tea-party-with-the-mad-hatter/index.html"
+    },
+    {
+      "source": "/kleurplaat/archer-shooting-an-arrow-in-a-green-forest",
+      "destination": "/kleurplaat/archer-shooting-an-arrow-in-a-green-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/boy-climbing-a-giant-beanstalk-to-the-clouds",
+      "destination": "/kleurplaat/boy-climbing-a-giant-beanstalk-to-the-clouds/index.html"
+    },
+    {
+      "source": "/kleurplaat/brother-and-sister-finding-a-candy-house-in-the-forest",
+      "destination": "/kleurplaat/brother-and-sister-finding-a-candy-house-in-the-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/girl-walking-the-yellow-brick-road-with-a-scarecrow",
+      "destination": "/kleurplaat/girl-walking-the-yellow-brick-road-with-a-scarecrow/index.html"
+    },
+    {
+      "source": "/kleurplaat/tin-man-scarecrow-and-lion-walking-together",
+      "destination": "/kleurplaat/tin-man-scarecrow-and-lion-walking-together/index.html"
+    },
+    {
+      "source": "/kleurplaat/santa-claus-delivering-presents-by-sleigh",
+      "destination": "/kleurplaat/santa-claus-delivering-presents-by-sleigh/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-scene-with-pumpkins-and-a-bat",
+      "destination": "/kleurplaat/halloween-scene-with-pumpkins-and-a-bat/index.html"
+    },
+    {
+      "source": "/kleurplaat/kids-playing-at-the-beach-in-summer",
+      "destination": "/kleurplaat/kids-playing-at-the-beach-in-summer/index.html"
+    },
+    {
+      "source": "/kleurplaat/four-seasons-tree-in-one-picture",
+      "destination": "/kleurplaat/four-seasons-tree-in-one-picture/index.html"
+    },
+    {
+      "source": "/kleurplaat/spring-garden-full-of-blooming-flowers",
+      "destination": "/kleurplaat/spring-garden-full-of-blooming-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/baker-holding-a-fresh-loaf-of-bread-wearing-a-chef-hat",
+      "destination": "/kleurplaat/baker-holding-a-fresh-loaf-of-bread-wearing-a-chef-hat/index.html"
+    },
+    {
+      "source": "/kleurplaat/doctor-with-a-stethoscope-examining-a-teddy-bear",
+      "destination": "/kleurplaat/doctor-with-a-stethoscope-examining-a-teddy-bear/index.html"
+    },
+    {
+      "source": "/kleurplaat/firefighter-standing-next-to-a-fire-truck",
+      "destination": "/kleurplaat/firefighter-standing-next-to-a-fire-truck/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendly-builder-wearing-a-hard-hat-with-a-hammer",
+      "destination": "/kleurplaat/friendly-builder-wearing-a-hard-hat-with-a-hammer/index.html"
+    },
+    {
+      "source": "/kleurplaat/handyman-with-a-toolbox-fixing-a-shelf",
+      "destination": "/kleurplaat/handyman-with-a-toolbox-fixing-a-shelf/index.html"
+    },
+    {
+      "source": "/kleurplaat/veterinarian-gently-examining-a-puppy",
+      "destination": "/kleurplaat/veterinarian-gently-examining-a-puppy/index.html"
+    },
+    {
+      "source": "/kleurplaat/diy-workshop-scene-with-tools-hanging-on-a-wall",
+      "destination": "/kleurplaat/diy-workshop-scene-with-tools-hanging-on-a-wall/index.html"
+    },
+    {
+      "source": "/kleurplaat/little-boy-helping-dad-paint-a-fence",
+      "destination": "/kleurplaat/little-boy-helping-dad-paint-a-fence/index.html"
+    },
+    {
+      "source": "/kleurplaat/festival-scene-with-balloons-a-stage-and-food-stalls",
+      "destination": "/kleurplaat/festival-scene-with-balloons-a-stage-and-food-stalls/index.html"
+    },
+    {
+      "source": "/kleurplaat/kids-at-a-fair-with-a-ferris-wheel-and-carousel",
+      "destination": "/kleurplaat/kids-at-a-fair-with-a-ferris-wheel-and-carousel/index.html"
+    },
+    {
+      "source": "/kleurplaat/black-doctor-listening-to-a-childs-heartbeat-with-a-stethoscope",
+      "destination": "/kleurplaat/black-doctor-listening-to-a-childs-heartbeat-with-a-stethoscope/index.html"
+    },
+    {
+      "source": "/kleurplaat/latina-teacher-reading-a-book-to-a-group-of-children",
+      "destination": "/kleurplaat/latina-teacher-reading-a-book-to-a-group-of-children/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-family-celebrating-mid-autumn-festival-with-lanterns-and-mooncakes",
+      "destination": "/kleurplaat/chinese-family-celebrating-mid-autumn-festival-with-lanterns-and-mooncakes/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-children-performing-a-dragon-dance-for-lunar-new-year",
+      "destination": "/kleurplaat/chinese-children-performing-a-dragon-dance-for-lunar-new-year/index.html"
+    },
+    {
+      "source": "/kleurplaat/happy-asian-boy-face-with-a-big-smile",
+      "destination": "/kleurplaat/happy-asian-boy-face-with-a-big-smile/index.html"
+    },
+    {
+      "source": "/kleurplaat/happy-indian-girl-face-with-braided-hair-and-a-flower",
+      "destination": "/kleurplaat/happy-indian-girl-face-with-braided-hair-and-a-flower/index.html"
+    },
+    {
+      "source": "/kleurplaat/australian-outback-scene-with-kangaroos-koalas-and-gum-trees",
+      "destination": "/kleurplaat/australian-outback-scene-with-kangaroos-koalas-and-gum-trees/index.html"
+    },
+    {
+      "source": "/kleurplaat/nordic-winter-scene-with-a-child-watching-the-northern-lights",
+      "destination": "/kleurplaat/nordic-winter-scene-with-a-child-watching-the-northern-lights/index.html"
+    },
+    {
+      "source": "/kleurplaat/asian-princess-in-an-elegant-silk-dress-with-a-hand-fan",
+      "destination": "/kleurplaat/asian-princess-in-an-elegant-silk-dress-with-a-hand-fan/index.html"
+    },
+    {
+      "source": "/kleurplaat/black-african-princess-wearing-a-colorful-traditional-dress-and-beaded-jewelry",
+      "destination": "/kleurplaat/black-african-princess-wearing-a-colorful-traditional-dress-and-beaded-jewelry/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-cupcake-with-sprinkles-and-a-cherry",
+      "destination": "/kleurplaat/kawaii-cupcake-with-sprinkles-and-a-cherry/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-ice-cream-cone-with-a-happy-face-on-a-beach",
+      "destination": "/kleurplaat/kawaii-ice-cream-cone-with-a-happy-face-on-a-beach/index.html"
+    },
+    {
+      "source": "/kleurplaat/fruit-basket-full-of-different-kawaii-fruits",
+      "destination": "/kleurplaat/fruit-basket-full-of-different-kawaii-fruits/index.html"
+    },
+    {
+      "source": "/kleurplaat/picnic-scene-with-sandwiches-and-juice",
+      "destination": "/kleurplaat/picnic-scene-with-sandwiches-and-juice/index.html"
+    },
+    {
+      "source": "/kleurplaat/birthday-party-table-with-cake-and-balloons",
+      "destination": "/kleurplaat/birthday-party-table-with-cake-and-balloons/index.html"
+    },
+    {
+      "source": "/kleurplaat/fireworks-celebration-at-new-year",
+      "destination": "/kleurplaat/fireworks-celebration-at-new-year/index.html"
+    },
+    {
+      "source": "/kleurplaat/easter-bunny-hiding-eggs-in-a-garden",
+      "destination": "/kleurplaat/easter-bunny-hiding-eggs-in-a-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-bear-having-a-picnic-under-a-tree",
+      "destination": "/kleurplaat/kawaii-bear-having-a-picnic-under-a-tree/index.html"
+    },
+    {
+      "source": "/kleurplaat/five-little-ducks-lined-up-in-a-row",
+      "destination": "/kleurplaat/five-little-ducks-lined-up-in-a-row/index.html"
+    },
+    {
+      "source": "/kleurplaat/koala-wrapped-in-a-warm-scarf-on-a-cool-winter-day",
+      "destination": "/kleurplaat/koala-wrapped-in-a-warm-scarf-on-a-cool-winter-day/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-child-eating-a-popsicle-on-a-hot-summer-day",
+      "destination": "/kleurplaat/chinese-child-eating-a-popsicle-on-a-hot-summer-day/index.html"
+    },
+    {
+      "source": "/kleurplaat/child-packing-a-school-backpack-with-books-and-a-pencil-case-for-the-first-day-of-school",
+      "destination": "/kleurplaat/child-packing-a-school-backpack-with-books-and-a-pencil-case-for-the-first-day-of-school/index.html"
+    },
+    {
+      "source": "/kleurplaat/family-camping-trip-with-a-tent-and-campfire-in-summer",
+      "destination": "/kleurplaat/family-camping-trip-with-a-tent-and-campfire-in-summer/index.html"
+    },
+    {
+      "source": "/kleurplaat/kids-cooling-off-playing-in-a-park-water-fountain-on-a-hot-summer-day",
+      "destination": "/kleurplaat/kids-cooling-off-playing-in-a-park-water-fountain-on-a-hot-summer-day/index.html"
+    },
+    {
+      "source": "/kleurplaat/kids-swimming-and-splashing-in-an-outdoor-pool",
+      "destination": "/kleurplaat/kids-swimming-and-splashing-in-an-outdoor-pool/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-campfire-evening-with-marshmallows-under-a-starry-winter-sky",
+      "destination": "/kleurplaat/cozy-campfire-evening-with-marshmallows-under-a-starry-winter-sky/index.html"
+    },
+    {
+      "source": "/kleurplaat/dutch-kids-cycling-past-a-canal-with-flower-baskets-on-their-bikes-in-summer",
+      "destination": "/kleurplaat/dutch-kids-cycling-past-a-canal-with-flower-baskets-on-their-bikes-in-summer/index.html"
+    },
+    {
+      "source": "/kleurplaat/magpies-forming-a-bridge-across-a-starry-night-sky-for-two-lovers",
+      "destination": "/kleurplaat/magpies-forming-a-bridge-across-a-starry-night-sky-for-two-lovers/index.html"
+    },
+    {
+      "source": "/kleurplaat/ice-cream-truck-with-children-buying-ice-cream-in-summer",
+      "destination": "/kleurplaat/ice-cream-truck-with-children-buying-ice-cream-in-summer/index.html"
+    },
+    {
+      "source": "/kleurplaat/yellow-school-bus-picking-up-children-on-the-first-day-of-school",
+      "destination": "/kleurplaat/yellow-school-bus-picking-up-children-on-the-first-day-of-school/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-astronaut-floating-with-a-star",
+      "destination": "/kleurplaat/chibi-astronaut-floating-with-a-star/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-baby-fox-curled-up-sleeping",
+      "destination": "/kleurplaat/chibi-baby-fox-curled-up-sleeping/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-bunny-hopping-with-a-carrot",
+      "destination": "/kleurplaat/chibi-bunny-hopping-with-a-carrot/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-strawberry-cake-slice-with-a-cute-face",
+      "destination": "/kleurplaat/chibi-strawberry-cake-slice-with-a-cute-face/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-boy-face-wearing-round-glasses",
+      "destination": "/kleurplaat/chibi-boy-face-wearing-round-glasses/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-girl-face-with-big-sparkly-eyes-and-twin-buns",
+      "destination": "/kleurplaat/chibi-girl-face-with-big-sparkly-eyes-and-twin-buns/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-dragon-breathing-tiny-hearts",
+      "destination": "/kleurplaat/chibi-dragon-breathing-tiny-hearts/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-panda-hugging-a-bamboo-stalk",
+      "destination": "/kleurplaat/chibi-panda-hugging-a-bamboo-stalk/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-mermaid-sitting-on-a-shell",
+      "destination": "/kleurplaat/chibi-mermaid-sitting-on-a-shell/index.html"
+    },
+    {
+      "source": "/kleurplaat/chibi-princess-holding-a-wand-with-a-crown",
+      "destination": "/kleurplaat/chibi-princess-holding-a-wand-with-a-crown/index.html"
+    },
+    {
+      "source": "/kleurplaat/family-movie-night-on-the-couch-in-the-living-room-with-blankets-snacks-and-a-cat",
+      "destination": "/kleurplaat/family-movie-night-on-the-couch-in-the-living-room-with-blankets-snacks-and-a-cat/index.html"
+    },
+    {
+      "source": "/kleurplaat/child-playing-with-bath-toys-and-bubbles-at-bath-time-in-the-bathroom",
+      "destination": "/kleurplaat/child-playing-with-bath-toys-and-bubbles-at-bath-time-in-the-bathroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/birthday-party-in-the-living-room-with-balloons-presents-and-a-cake",
+      "destination": "/kleurplaat/birthday-party-in-the-living-room-with-balloons-presents-and-a-cake/index.html"
+    },
+    {
+      "source": "/kleurplaat/child-building-a-blanket-pillow-fort-in-the-bedroom-with-fairy-lights",
+      "destination": "/kleurplaat/child-building-a-blanket-pillow-fort-in-the-bedroom-with-fairy-lights/index.html"
+    },
+    {
+      "source": "/kleurplaat/child-reading-in-bed-surrounded-by-stuffed-animals-and-fairy-lights-in-a-cozy-bedroom",
+      "destination": "/kleurplaat/child-reading-in-bed-surrounded-by-stuffed-animals-and-fairy-lights-in-a-cozy-bedroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/children-playing-in-a-garden-with-a-sandbox-swing-and-a-dog",
+      "destination": "/kleurplaat/children-playing-in-a-garden-with-a-sandbox-swing-and-a-dog/index.html"
+    },
+    {
+      "source": "/kleurplaat/classroom-scene-with-children-at-their-desks-and-a-teacher-by-a-blank-chalkboard",
+      "destination": "/kleurplaat/classroom-scene-with-children-at-their-desks-and-a-teacher-by-a-blank-chalkboard/index.html"
+    },
+    {
+      "source": "/kleurplaat/family-baking-cookies-together-in-a-cozy-kitchen",
+      "destination": "/kleurplaat/family-baking-cookies-together-in-a-cozy-kitchen/index.html"
+    },
+    {
+      "source": "/kleurplaat/family-having-a-backyard-picnic-with-a-blanket-basket-and-balloons",
+      "destination": "/kleurplaat/family-having-a-backyard-picnic-with-a-blanket-basket-and-balloons/index.html"
+    },
+    {
+      "source": "/kleurplaat/family-pushing-a-shopping-cart-through-the-supermarket-aisles",
+      "destination": "/kleurplaat/family-pushing-a-shopping-cart-through-the-supermarket-aisles/index.html"
+    },
+    {
+      "source": "/kleurplaat/astronauts-splashing-down-in-the-ocean-inside-a-realistic-space-capsule-with-parachutes-after-a-space-station-mission-a",
+      "destination": "/kleurplaat/astronauts-splashing-down-in-the-ocean-inside-a-realistic-space-capsule-with-parachutes-after-a-space-station-mission-a/index.html"
+    },
+    {
+      "source": "/kleurplaat/two-children-gently-guiding-baby-sea-turtles-across-the-sand-toward-the-ocean-at-night-under-a-full-moon-using-small",
+      "destination": "/kleurplaat/two-children-gently-guiding-baby-sea-turtles-across-the-sand-toward-the-ocean-at-night-under-a-full-moon-using-small/index.html"
+    },
+    {
+      "source": "/kleurplaat/swimmers-racing-in-the-lanes-of-a-swimming-pool-at-a-european-championship-in-the-background-exactly-about-12",
+      "destination": "/kleurplaat/swimmers-racing-in-the-lanes-of-a-swimming-pool-at-a-european-championship-in-the-background-exactly-about-12/index.html"
+    },
+    {
+      "source": "/kleurplaat/a-large-realistic-carcarrier-cargo-ship-sailing-on-the-open-ocean-no-people-visible-anywhere-on-the-ship-a-cutaway",
+      "destination": "/kleurplaat/a-large-realistic-carcarrier-cargo-ship-sailing-on-the-open-ocean-no-people-visible-anywhere-on-the-ship-a-cutaway/index.html"
+    },
+    {
+      "source": "/kleurplaat/a-soccer-team-of-five-male-players-celebrating-winning-a-world-championship-trophy-together-with-confetti-falling",
+      "destination": "/kleurplaat/a-soccer-team-of-five-male-players-celebrating-winning-a-world-championship-trophy-together-with-confetti-falling/index.html"
+    },
+    {
+      "source": "/kleurplaat/two-children-building-a-leanto-shelter-by-leaning-branches-against-a-fallen-log-and-covering-it-with-leaves-in-a-forest",
+      "destination": "/kleurplaat/two-children-building-a-leanto-shelter-by-leaning-branches-against-a-fallen-log-and-covering-it-with-leaves-in-a-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/a-small-group-of-about-6-people-in-a-spanish-town-square-joyfully-throwing-ripe-red-tomatoes-at-each-other-tomatoes",
+      "destination": "/kleurplaat/a-small-group-of-about-6-people-in-a-spanish-town-square-joyfully-throwing-ripe-red-tomatoes-at-each-other-tomatoes/index.html"
+    },
+    {
+      "source": "/kleurplaat/a-small-group-of-about-8-children-sitting-on-the-grass-watching-a-colorful-puppet-show-and-a-juggler-perform-on-a-small",
+      "destination": "/kleurplaat/a-small-group-of-about-8-children-sitting-on-the-grass-watching-a-colorful-puppet-show-and-a-juggler-perform-on-a-small/index.html"
+    },
+    {
+      "source": "/kleurplaat/sarnath-dhamek-stupa-children-discovering-ancient-heritage",
+      "destination": "/kleurplaat/sarnath-dhamek-stupa-children-discovering-ancient-heritage/index.html"
+    },
+    {
+      "source": "/kleurplaat/beta-pictoris-d-hidden-exoplanet",
+      "destination": "/kleurplaat/beta-pictoris-d-hidden-exoplanet/index.html"
+    },
+    {
+      "source": "/kleurplaat/greater-bilby-recovery-new-south-wales",
+      "destination": "/kleurplaat/greater-bilby-recovery-new-south-wales/index.html"
+    },
+    {
+      "source": "/kleurplaat/green-river-million-solar-panels-utah",
+      "destination": "/kleurplaat/green-river-million-solar-panels-utah/index.html"
+    },
+    {
+      "source": "/kleurplaat/indus-river-dolphin-sanctuary-pakistan",
+      "destination": "/kleurplaat/indus-river-dolphin-sanctuary-pakistan/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-penguin-sliding-on-ice",
+      "destination": "/kleurplaat/kawaii-penguin-sliding-on-ice/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-dinosaur-playing-with-balloons",
+      "destination": "/kleurplaat/kawaii-dinosaur-playing-with-balloons/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-fox-playing-in-autumn-leaves",
+      "destination": "/kleurplaat/kawaii-fox-playing-in-autumn-leaves/index.html"
     },
     {
       "source": "/kleurplaat/sunflower-field-under-a-smiling-sun",
@@ -181,8 +1217,64 @@
       "destination": "/kleurplaat/forest-scene-with-tall-trees-and-a-stream/index.html"
     },
     {
-      "source": "/kleurplaat/summer-beach-crab",
-      "destination": "/kleurplaat/summer-beach-crab/index.html"
+      "source": "/kleurplaat/sarnath-dhamek-stupa-children-discovering-ancient-heritage-v2",
+      "destination": "/kleurplaat/sarnath-dhamek-stupa-children-discovering-ancient-heritage-v2/index.html"
+    },
+    {
+      "source": "/kleurplaat/baby-unicorn-playing-in-a-flower-meadow",
+      "destination": "/kleurplaat/baby-unicorn-playing-in-a-flower-meadow/index.html"
+    },
+    {
+      "source": "/kleurplaat/trex-dinosaur-roaring-in-a-prehistoric-jungle",
+      "destination": "/kleurplaat/trex-dinosaur-roaring-in-a-prehistoric-jungle/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-childs-bedroom-with-a-small-doll-bed-next-to-the-real-bed-stuffed-animals-and-toys-around",
+      "destination": "/kleurplaat/cozy-childs-bedroom-with-a-small-doll-bed-next-to-the-real-bed-stuffed-animals-and-toys-around/index.html"
+    },
+    {
+      "source": "/kleurplaat/dollhouse-filled-with-tiny-furniture-a-staircase-and-little-rooms",
+      "destination": "/kleurplaat/dollhouse-filled-with-tiny-furniture-a-staircase-and-little-rooms/index.html"
+    },
+    {
+      "source": "/kleurplaat/brave-knight-battling-a-fierce-dragon-with-a-sword-and-shield",
+      "destination": "/kleurplaat/brave-knight-battling-a-fierce-dragon-with-a-sword-and-shield/index.html"
+    },
+    {
+      "source": "/kleurplaat/excavator-digging-next-to-a-crane-at-a-busy-construction-site",
+      "destination": "/kleurplaat/excavator-digging-next-to-a-crane-at-a-busy-construction-site/index.html"
+    },
+    {
+      "source": "/kleurplaat/monster-truck-jumping-over-cars",
+      "destination": "/kleurplaat/monster-truck-jumping-over-cars/index.html"
+    },
+    {
+      "source": "/kleurplaat/jungle-scene-with-waterfall-and-plants",
+      "destination": "/kleurplaat/jungle-scene-with-waterfall-and-plants/index.html"
+    },
+    {
+      "source": "/kleurplaat/butterfly-garden-with-many-flowers",
+      "destination": "/kleurplaat/butterfly-garden-with-many-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/old-factory-football-park-china",
+      "destination": "/kleurplaat/old-factory-football-park-china/index.html"
+    },
+    {
+      "source": "/kleurplaat/new-surgical-center-maputo-mozambique",
+      "destination": "/kleurplaat/new-surgical-center-maputo-mozambique/index.html"
+    },
+    {
+      "source": "/kleurplaat/ancient-lydian-statue-sardes-turkiye",
+      "destination": "/kleurplaat/ancient-lydian-statue-sardes-turkiye/index.html"
+    },
+    {
+      "source": "/kleurplaat/adaptive-divers-fish-survey-florida",
+      "destination": "/kleurplaat/adaptive-divers-fish-survey-florida/index.html"
+    },
+    {
+      "source": "/kleurplaat/three-lobed-asteroid-nysa",
+      "destination": "/kleurplaat/three-lobed-asteroid-nysa/index.html"
     },
     {
       "source": "/kleurplaat/cheerful-bee-family-in-flower-garden",
@@ -205,16 +1297,12 @@
       "destination": "/kleurplaat/japanese-garden-with-koi-pond/index.html"
     },
     {
-      "source": "/kleurplaat/sleepy-baby-hedgehog-in-a-teacup-with-daisies",
-      "destination": "/kleurplaat/sleepy-baby-hedgehog-in-a-teacup-with-daisies/index.html"
-    },
-    {
       "source": "/kleurplaat/red-panda-family-on-tree-branches-in-a-bamboo-forest",
       "destination": "/kleurplaat/red-panda-family-on-tree-branches-in-a-bamboo-forest/index.html"
     },
     {
-      "source": "/kleurplaat/harbor-tugboat-guiding-a-cargo-ship-between-buoys",
-      "destination": "/kleurplaat/harbor-tugboat-guiding-a-cargo-ship-between-buoys/index.html"
+      "source": "/kleurplaat/sleepy-baby-hedgehog-in-a-teacup-with-daisies",
+      "destination": "/kleurplaat/sleepy-baby-hedgehog-in-a-teacup-with-daisies/index.html"
     },
     {
       "source": "/kleurplaat/rainforest-canopy-walkway-with-orchids-and-butterflies",
@@ -223,6 +1311,10 @@
     {
       "source": "/kleurplaat/tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage",
       "destination": "/kleurplaat/tiny-forest-dragon-reading-a-treasure-map-by-a-mushroom-cottage/index.html"
+    },
+    {
+      "source": "/kleurplaat/harbor-tugboat-guiding-a-cargo-ship-between-buoys",
+      "destination": "/kleurplaat/harbor-tugboat-guiding-a-cargo-ship-between-buoys/index.html"
     },
     {
       "source": "/kleurplaat/capybara-parent-and-baby-by-a-lily-pond",
@@ -303,6 +1395,26 @@
     {
       "source": "/kleurplaat/asian-elephant-world-elephant-day",
       "destination": "/kleurplaat/asian-elephant-world-elephant-day/index.html"
+    },
+    {
+      "source": "/kleurplaat/capybara-family-by-riverbank",
+      "destination": "/kleurplaat/capybara-family-by-riverbank/index.html"
+    },
+    {
+      "source": "/kleurplaat/garden-harvest-basket",
+      "destination": "/kleurplaat/garden-harvest-basket/index.html"
+    },
+    {
+      "source": "/kleurplaat/florist-arranging-bouquet-in-vase",
+      "destination": "/kleurplaat/florist-arranging-bouquet-in-vase/index.html"
+    },
+    {
+      "source": "/kleurplaat/flower-cargo-tricycle-in-city-park",
+      "destination": "/kleurplaat/flower-cargo-tricycle-in-city-park/index.html"
+    },
+    {
+      "source": "/kleurplaat/woodland-soil-ecosystem-cutaway",
+      "destination": "/kleurplaat/woodland-soil-ecosystem-cutaway/index.html"
     },
     {
       "source": "/kleurplaat/(.*)",

@@ -3565,6 +3565,56 @@ const COLORINGS = [
     zh: { title: '世界大象日关注大象保护', description: '免费时事涂色页：一头写实的亚洲象站在开阔林地中。', keywords: '世界大象日 亚洲象 自然 保护 时事 免费 涂色页', altText: '亚洲象站在草地、灌木和树林间的写实涂色页', newsExplainer: '8月12日是世界大象日。世界各地的人们分享保护亚洲象和非洲象的知识与想法。', newsArticle: '世界大象日始于2012年，此后每年8月12日举行。保护组织、研究人员和动物爱好者会介绍安全栖息地，以及人与大象和谐相处的方法。大象是最大的陆地动物，生活在紧密的家庭群体中。保护迁徙路线和栖息地，能让象群有空间寻找食物和水。', newsFacts: ['世界大象日自2012年开始举办。', '世界上有亚洲象和非洲象。', '象群通常由经验丰富的雌象带领。'], newsQuestion: '为了帮助大象，你最想告诉其他孩子什么？' },
   },
 
+  {
+    id: 381, slug: 'capybara-family-by-riverbank', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--capybara-family-by-riverbank.jpg',
+    nl: { title: 'Capibarafamilie aan de Rivieroever', description: 'Gratis makkelijke dierenkleurplaat van een volwassen capibara met twee jongen tussen riet, stenen en waterlelies.', keywords: 'capibara familie jongen rivieroever riet waterlelie dieren makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een volwassen capibara en twee jongen aan een rustige rivieroever' },
+    en: { title: 'Capybara Family by the Riverbank', description: 'Free easy animal coloring page of an adult capybara and two pups among reeds, stones and water lilies.', keywords: 'capybara family pups riverbank reeds water lily animals easy coloring page free kids', altText: 'Easy coloring page of one adult capybara and two pups beside a calm riverbank' },
+    fr: { title: 'Famille de Capybaras au Bord de la Rivière', description: 'Coloriage d’animaux facile et gratuit d’un capybara adulte et de deux petits parmi les roseaux, les pierres et les nénuphars.', keywords: 'capybara famille petits rivière roseaux nénuphar animaux coloriage facile gratuit enfants', altText: 'Coloriage facile d’un capybara adulte et de deux petits au bord d’une rivière calme' },
+    es: { title: 'Familia de Capibaras junto al Río', description: 'Página fácil de animales para colorear gratis con un capibara adulto y dos crías entre juncos, piedras y nenúfares.', keywords: 'capibara familia crías río juncos nenúfar animales colorear fácil gratis niños', altText: 'Página fácil para colorear de un capibara adulto y dos crías junto a un río tranquilo' },
+    zh: { title: '河岸边的水豚一家', description: '免费简单动物涂色页：一只成年水豚和两只幼崽站在芦苇、石头和睡莲旁。', keywords: '水豚 家庭 幼崽 河岸 芦苇 睡莲 动物 简单 免费 儿童 涂色页', altText: '一只成年水豚和两只幼崽在安静河岸边的简单涂色页' },
+  },
+
+  {
+    id: 382, slug: 'garden-harvest-basket', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--garden-harvest-basket.jpg',
+    nl: { title: 'Oogstmand vol Groenten uit de Tuin', description: 'Gratis makkelijke kleurplaat van een gevlochten oogstmand met pompoen, wortels, peulen en tomaten.', keywords: 'oogstmand groenten pompoen wortels peulen tomaten tuin eten makkelijke kleurplaat gratis', altText: 'Makkelijke kleurplaat van een tuinmand vol herkenbare groenten met een handschepje' },
+    en: { title: 'Garden Harvest Basket', description: 'Free easy coloring page of a woven harvest basket filled with a pumpkin, carrots, pea pods and tomatoes.', keywords: 'garden harvest basket vegetables pumpkin carrots peas tomatoes easy coloring page free kids', altText: 'Easy coloring page of a garden basket filled with vegetables beside a hand trowel' },
+    fr: { title: 'Panier de Récolte du Jardin', description: 'Coloriage facile et gratuit d’un panier tressé rempli d’une citrouille, de carottes, de cosses de pois et de tomates.', keywords: 'jardin panier récolte légumes citrouille carottes pois tomates coloriage facile gratuit', altText: 'Coloriage facile d’un panier de légumes du jardin avec une petite pelle' },
+    es: { title: 'Cesta de Cosecha del Huerto', description: 'Página fácil para colorear gratis de una cesta tejida con calabaza, zanahorias, vainas de guisantes y tomates.', keywords: 'huerto cesta cosecha verduras calabaza zanahorias guisantes tomates colorear fácil gratis', altText: 'Página fácil para colorear de una cesta de verduras del huerto junto a una palita' },
+    zh: { title: '装满蔬菜的花园收获篮', description: '免费简单涂色页：编织篮里装着南瓜、胡萝卜、豌豆荚和番茄。', keywords: '花园 收获篮 蔬菜 南瓜 胡萝卜 豌豆 番茄 简单 免费 涂色页', altText: '装满花园蔬菜并放在小铲子旁的简单涂色页' },
+  },
+
+  {
+    id: 383, slug: 'florist-arranging-bouquet-in-vase', category: 'beroepen', difficulty: 'medium',
+    img: '../img/kleurplaten/beroepen--medium--florist-arranging-bouquet-in-vase.jpg',
+    nl: { title: 'Bloemist Schikt een Boeket in een Vaas', description: 'Gratis beroepenkleurplaat van een bloemist die met twee handen een boeket schikt, met lint en een veilige snoeischaar op tafel.', keywords: 'bloemist boeket vaas bloemen lint snoeischaar beroep kleurplaat gratis kinderen', altText: 'Kleurplaat van één bloemist die een boeket in een vaas schikt achter een werktafel' },
+    en: { title: 'Florist Arranging a Bouquet in a Vase', description: 'Free jobs coloring page of a florist arranging a bouquet with both hands, with ribbon and closed shears on the table.', keywords: 'florist bouquet vase flowers ribbon shears job coloring page free kids', altText: 'Coloring page of one florist arranging a bouquet in a vase behind a worktable' },
+    fr: { title: 'Fleuriste Composant un Bouquet dans un Vase', description: 'Coloriage gratuit des métiers montrant une fleuriste qui compose un bouquet avec ses deux mains, avec du ruban et un sécateur fermé.', keywords: 'fleuriste bouquet vase fleurs ruban sécateur métier coloriage gratuit enfants', altText: 'Coloriage d’une fleuriste composant un bouquet dans un vase derrière sa table de travail' },
+    es: { title: 'Florista Arreglando un Ramo en un Jarrón', description: 'Página de profesiones para colorear gratis de una florista preparando un ramo con ambas manos, cinta y tijeras cerradas.', keywords: 'florista ramo jarrón flores cinta tijeras profesión colorear gratis niños', altText: 'Página para colorear de una florista arreglando un ramo en un jarrón' },
+    zh: { title: '花艺师在花瓶里整理花束', description: '免费职业涂色页：一位花艺师用双手整理花束，桌上有丝带和合拢的花剪。', keywords: '花艺师 花束 花瓶 鲜花 丝带 花剪 职业 免费 儿童 涂色页', altText: '一位花艺师在工作台后整理花瓶花束的涂色页' },
+  },
+
+  {
+    id: 384, slug: 'flower-cargo-tricycle-in-city-park', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--flower-cargo-tricycle-in-city-park.jpg',
+    nl: { title: 'Bloemenbakfiets met Drie Wielen in het Park', description: 'Gratis voertuigenkleurplaat van een lege bakfiets met precies drie wielen en drie bloempotten in de laadbak.', keywords: 'bakfiets driewieler bloemen park laadbak voertuig kleurplaat gratis kinderen', altText: 'Kleurplaat van een mechanisch logische driewielige bakfiets met bloemen in een stadspark' },
+    en: { title: 'Flower Cargo Tricycle in a City Park', description: 'Free vehicle coloring page of an empty cargo tricycle with exactly three wheels and three flowerpots in its box.', keywords: 'cargo tricycle three wheels flowers city park vehicle coloring page free kids', altText: 'Coloring page of a mechanically logical three-wheel cargo cycle carrying flowers in a park' },
+    fr: { title: 'Triporteur Fleuri dans un Parc Urbain', description: 'Coloriage de véhicule gratuit d’un triporteur vide avec exactement trois roues et trois pots de fleurs dans sa caisse.', keywords: 'triporteur trois roues fleurs parc ville véhicule coloriage gratuit enfants', altText: 'Coloriage d’un triporteur mécaniquement cohérent transportant des fleurs dans un parc' },
+    es: { title: 'Triciclo de Carga con Flores en el Parque', description: 'Página de vehículos para colorear gratis con un triciclo de carga vacío, exactamente tres ruedas y tres macetas.', keywords: 'triciclo carga tres ruedas flores parque ciudad vehículo colorear gratis niños', altText: 'Página para colorear de un triciclo de carga lógico con flores en un parque urbano' },
+    zh: { title: '城市公园里的鲜花货运三轮车', description: '免费交通工具涂色页：一辆空的货运三轮车有三个车轮，货箱中放着三盆花。', keywords: '货运三轮车 三个车轮 鲜花 公园 城市 交通工具 免费 儿童 涂色页', altText: '一辆结构合理并装有鲜花的三轮货运自行车涂色页' },
+  },
+
+  {
+    id: 385, slug: 'woodland-soil-ecosystem-cutaway', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--woodland-soil-ecosystem-cutaway.jpg',
+    nl: { title: 'Doorsnede van het Leven onder de Bosgrond', description: 'Gratis uitdagende natuurkleurplaat met boomwortels, een mol, drie regenwormen, een keverlarve en verschillende bodemlagen.', keywords: 'bosgrond doorsnede boomwortels mol regenwormen keverlarve bodem natuur moeilijke kleurplaat gratis', altText: 'Gedetailleerde doorsnedekleurplaat van een eikenboom en het dierenleven in de grond eronder' },
+    en: { title: 'Woodland Soil Ecosystem Cutaway', description: 'Free challenging nature coloring page with tree roots, one mole, three earthworms, a beetle larva and soil layers.', keywords: 'woodland soil cutaway tree roots mole earthworms beetle larva nature hard coloring page free', altText: 'Detailed cutaway coloring page of an oak tree and animal life in the soil below' },
+    fr: { title: 'Coupe de l’Écosystème du Sol Forestier', description: 'Coloriage nature difficile et gratuit avec des racines, une taupe, trois vers de terre, une larve de coléoptère et des couches de sol.', keywords: 'sol forêt coupe racines taupe vers de terre larve nature coloriage difficile gratuit', altText: 'Coloriage détaillé en coupe d’un chêne et de la vie animale dans le sol' },
+    es: { title: 'Corte del Ecosistema del Suelo del Bosque', description: 'Página difícil de naturaleza para colorear gratis con raíces, un topo, tres lombrices, una larva y capas del suelo.', keywords: 'suelo bosque corte raíces topo lombrices larva naturaleza colorear difícil gratis', altText: 'Página detallada para colorear del corte de un roble y la vida animal bajo tierra' },
+    zh: { title: '林地土壤生态剖面', description: '免费高难度自然涂色页：树根下有一只鼹鼠、三条蚯蚓、一只甲虫幼虫和不同土层。', keywords: '林地 土壤 剖面 树根 鼹鼠 蚯蚓 甲虫幼虫 自然 困难 免费 涂色页', altText: '橡树根系及地下动物生活的精细剖面涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
