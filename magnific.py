@@ -975,8 +975,10 @@ def run_add_colorings():
         capture_output=True, text=True, cwd=ROOT
     )
     print(result.stdout)
-    if result.returncode != 0 and result.stderr:
-        print('WAARSCHUWING:', result.stderr[:300])
+    if result.stderr:
+        print(result.stderr)
+    if result.returncode != 0:
+        raise RuntimeError('add-colorings.js is mislukt; stoppen zonder commit/push.')
 
 
 def git_push(message):

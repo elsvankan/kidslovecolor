@@ -810,7 +810,8 @@ function main() {
         execSync(`python3 "${path.join(ROOT, 'watermark.py')}" "${imgPath}"`, { stdio: 'pipe' });
         console.log(`     🖼  Watermark toegevoegd`);
       } catch (e) {
-        console.warn(`     ⚠  Watermark mislukt: ${e.stderr?.toString().trim() || e.message}`);
+        console.error(`     ❌ Watermark mislukt: ${e.stderr?.toString().trim() || e.message}`);
+        process.exit(1);
       }
 
       // SEO-pagina aanmaken

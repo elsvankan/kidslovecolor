@@ -6,15 +6,12 @@ Doel: de grootste gratis kleurplatenwebsite in NL, EN-GB, EN-US, FR, ES en ZH.
 
 ## ⏰ Openstaande check-in
 
-- [ ] **~25-26 augustus 2026**: evalueren hoe de proefmaand met dagelijkse
-      Magnific-generatie (5/dag) is gegaan — kosten, kwaliteit, volume — en
-      beslissen of de cutoff-datum in
-      `.github/workflows/daily-coloring-pages.yml` (regel `CUTOFF="2026-08-26"`)
-      verlengd wordt. Zonder actie stopt de dagelijkse workflow zichzelf
-      automatisch op die datum.
-      Trigger: als je hier na 25 augustus nog geen actie op hebt genomen,
-      breng dit gewoon zelf ter sprake in het volgende gesprek — dit bestand
-      is het geheugensteuntje.
+- [x] **22 augustus 2026**: proefperiode-cutoff verwijderd. De GitHub Action
+      blijft dagelijks 5 kleurplaten genereren en publiceert direct naar de
+      site, zolang `MAGNIFIC_API_KEY` beschikbaar is en de generatiepool niet
+      uitgeput raakt.
+- [ ] **Maandelijks**: kosten, kwaliteit en indexatie van de dagelijkse
+      Magnific-generatie controleren en zo nodig het dagvolume aanpassen.
 
 ---
 
