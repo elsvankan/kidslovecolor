@@ -3615,6 +3615,56 @@ const COLORINGS = [
     zh: { title: '林地土壤生态剖面', description: '免费高难度自然涂色页：树根下有一只鼹鼠、三条蚯蚓、一只甲虫幼虫和不同土层。', keywords: '林地 土壤 剖面 树根 鼹鼠 蚯蚓 甲虫幼虫 自然 困难 免费 涂色页', altText: '橡树根系及地下动物生活的精细剖面涂色页' },
   },
 
+  {
+    id: 386, slug: 'friendly-axolotl-among-water-lilies', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--friendly-axolotl-among-water-lilies.jpg',
+    nl: { title: 'Vriendelijke Axolotl tussen Waterlelies', description: 'Gratis makkelijke dierenkleurplaat van een axolotl met vier pootjes, uitwendige kieuwen en een lange staart tussen waterplanten.', keywords: 'axolotl salamander waterlelies waterplanten dieren makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een vriendelijke axolotl met vier pootjes tussen waterlelies' },
+    en: { title: 'Friendly Axolotl among Water Lilies', description: 'Free easy animal coloring page of an axolotl with four legs, feathery external gills and a long tail among water plants.', keywords: 'axolotl salamander water lilies aquatic plants animals easy coloring page free kids', altText: 'Easy coloring page of a friendly four-legged axolotl among water lilies' },
+    fr: { title: 'Axolotl Amical parmi les Nénuphars', description: 'Coloriage d’animaux facile et gratuit d’un axolotl à quatre pattes, aux branchies externes et à la longue queue parmi les plantes aquatiques.', keywords: 'axolotl salamandre nénuphars plantes aquatiques animaux coloriage facile gratuit enfants', altText: 'Coloriage facile d’un axolotl amical à quatre pattes parmi les nénuphars' },
+    es: { title: 'Ajolote Amistoso entre Nenúfares', description: 'Página fácil de animales para colorear gratis con un ajolote de cuatro patas, branquias externas y cola larga entre plantas acuáticas.', keywords: 'ajolote salamandra nenúfares plantas acuáticas animales colorear fácil gratis niños', altText: 'Página fácil para colorear de un ajolote amistoso de cuatro patas entre nenúfares' },
+    zh: { title: '睡莲间的友好美西螈', description: '免费简单动物涂色页：一只长着四条腿、外鳃和长尾巴的美西螈游在水生植物间。', keywords: '美西螈 墨西哥钝口螈 睡莲 水生植物 动物 简单 免费 儿童 涂色页', altText: '一只四条腿的友好美西螈在睡莲间的简单涂色页' },
+  },
+
+  {
+    id: 387, slug: 'backyard-telescope-under-crescent-moon', category: 'ruimte', difficulty: 'easy',
+    img: '../img/kleurplaten/ruimte--easy--backyard-telescope-under-crescent-moon.jpg',
+    nl: { title: 'Telescoop onder de Halve Maan', description: 'Gratis makkelijke ruimtekleurplaat van een telescoop op een stevig driepootstatief in een tuin met sterren en een halve maan.', keywords: 'telescoop sterren halve maan sterrenkijken ruimte tuin makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een telescoop op drie poten onder een halve maan en sterren' },
+    en: { title: 'Backyard Telescope under a Crescent Moon', description: 'Free easy space coloring page of a telescope on a sturdy three-legged tripod in a garden beneath stars and a crescent moon.', keywords: 'telescope stars crescent moon stargazing space garden easy coloring page free kids', altText: 'Easy coloring page of a telescope on three legs beneath a crescent moon and stars' },
+    fr: { title: 'Télescope sous un Croissant de Lune', description: 'Coloriage de l’espace facile et gratuit d’un télescope sur un trépied solide dans un jardin sous les étoiles et un croissant de lune.', keywords: 'télescope étoiles croissant lune observation espace jardin coloriage facile gratuit enfants', altText: 'Coloriage facile d’un télescope sur trois pieds sous un croissant de lune et des étoiles' },
+    es: { title: 'Telescopio bajo la Luna Creciente', description: 'Página fácil del espacio para colorear gratis con un telescopio sobre un trípode firme en un jardín bajo estrellas y una luna creciente.', keywords: 'telescopio estrellas luna creciente astronomía espacio jardín colorear fácil gratis niños', altText: 'Página fácil para colorear de un telescopio con tres patas bajo la luna y las estrellas' },
+    zh: { title: '新月下的后院望远镜', description: '免费简单太空涂色页：一架望远镜稳稳地架在三脚架上，花园上空有星星和一弯新月。', keywords: '望远镜 星星 新月 观星 太空 花园 简单 免费 儿童 涂色页', altText: '三脚望远镜立在新月和星空下的简单涂色页' },
+  },
+
+  {
+    id: 388, slug: 'bicycle-mechanic-tightening-saddle-clamp', category: 'beroepen', difficulty: 'medium',
+    img: '../img/kleurplaten/beroepen--medium--bicycle-mechanic-tightening-saddle-clamp.jpg',
+    nl: { title: 'Fietsenmaker Stelt het Zadel Af', description: 'Gratis beroepenkleurplaat van een fietsenmaker die met één hand het zadel vasthoudt en met de andere een inbussleutel gebruikt.', keywords: 'fietsenmaker fiets zadel inbussleutel reparatie werkplaats beroep kleurplaat gratis kinderen', altText: 'Kleurplaat van een fietsenmaker met twee handen die het zadel van een fiets afstelt' },
+    en: { title: 'Bicycle Mechanic Tightening a Saddle Clamp', description: 'Free jobs coloring page of a bicycle mechanic holding the saddle with one hand and using a hex key with the other.', keywords: 'bicycle mechanic bike saddle hex key repair workshop job coloring page free kids', altText: 'Coloring page of a two-handed bicycle mechanic adjusting a bicycle saddle' },
+    fr: { title: 'Mécanicien Vélo Réglant la Selle', description: 'Coloriage gratuit des métiers montrant un mécanicien qui tient la selle d’une main et utilise une clé Allen de l’autre.', keywords: 'mécanicien vélo bicyclette selle clé Allen réparation atelier métier coloriage gratuit enfants', altText: 'Coloriage d’un mécanicien vélo à deux mains réglant la selle d’une bicyclette' },
+    es: { title: 'Mecánico de Bicicletas Ajustando el Sillín', description: 'Página de profesiones para colorear gratis con un mecánico que sujeta el sillín con una mano y usa una llave Allen con la otra.', keywords: 'mecánico bicicleta sillín llave Allen reparación taller profesión colorear gratis niños', altText: 'Página para colorear de un mecánico con dos manos ajustando el sillín de una bicicleta' },
+    zh: { title: '自行车技师调节车座', description: '免费职业涂色页：一位自行车技师一手扶住车座，另一手用内六角扳手拧紧座管夹。', keywords: '自行车技师 车座 内六角扳手 维修 工作室 职业 免费 儿童 涂色页', altText: '一位双手动作正确的自行车技师调节车座的涂色页' },
+  },
+
+  {
+    id: 389, slug: 'enchanted-teapot-cottage-beneath-ferns', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--enchanted-teapot-cottage-beneath-ferns.jpg',
+    nl: { title: 'Betoverd Theepothuisje onder de Varens', description: 'Gratis sprookjeskleurplaat van een theepot die is veranderd in een gezellig huisje met een deur, ramen en varenbladeren.', keywords: 'theepot huisje varens sprookje fantasie deur ramen kleurplaat gratis kinderen', altText: 'Kleurplaat van een betoverd theepothuisje met één tuit, één oor en varenbladeren' },
+    en: { title: 'Enchanted Teapot Cottage beneath Ferns', description: 'Free fairy-tale coloring page of a teapot transformed into a cozy cottage with a door, windows and arching fern leaves.', keywords: 'teapot cottage ferns fairy tale fantasy door windows coloring page free kids', altText: 'Coloring page of an enchanted teapot cottage with one spout, one handle and fern leaves' },
+    fr: { title: 'Maison-Théière Enchantée sous les Fougères', description: 'Coloriage de conte gratuit d’une théière transformée en maison douillette avec une porte, des fenêtres et de grandes fougères.', keywords: 'théière maison fougères conte féerie porte fenêtres coloriage gratuit enfants', altText: 'Coloriage d’une maison-théière enchantée avec un bec, une anse et des fougères' },
+    es: { title: 'Casita Tetera Encantada bajo los Helechos', description: 'Página de cuento para colorear gratis con una tetera convertida en una casita acogedora con puerta, ventanas y grandes helechos.', keywords: 'tetera casita helechos cuento fantasía puerta ventanas colorear gratis niños', altText: 'Página para colorear de una casita tetera encantada con un pico, un asa y helechos' },
+    zh: { title: '蕨叶下的魔法茶壶小屋', description: '免费童话涂色页：一把茶壶变成温馨小屋，配有门窗，周围环绕着高高的蕨叶。', keywords: '茶壶 小屋 蕨叶 童话 魔法 门 窗户 免费 儿童 涂色页', altText: '带一个壶嘴、一个壶把并被蕨叶环绕的魔法茶壶小屋涂色页' },
+  },
+
+  {
+    id: 390, slug: 'honeybee-honeycomb-and-wildflower-mandala', category: 'mandala', difficulty: 'hard',
+    img: '../img/kleurplaten/mandala--hard--honeybee-honeycomb-and-wildflower-mandala.jpg',
+    nl: { title: 'Bijen, Honingraat en Wilde Bloemen Mandala', description: 'Gratis moeilijke mandalakleurplaat met zes bijen rond een symmetrische honingraat en ringen van wilde bloemen.', keywords: 'bijen honingraat wilde bloemen mandala symmetrisch moeilijk kleurplaat gratis oudere kinderen', altText: 'Gedetailleerde ronde mandala met zes bijen, honingraatcellen en symmetrische wilde bloemen' },
+    en: { title: 'Honeybee, Honeycomb and Wildflower Mandala', description: 'Free hard mandala coloring page with six honeybees around a symmetrical honeycomb and rings of wildflowers.', keywords: 'honeybees honeycomb wildflowers mandala symmetrical hard coloring page free older kids', altText: 'Detailed circular mandala with six honeybees, honeycomb cells and symmetrical wildflowers' },
+    fr: { title: 'Mandala d’Abeilles, d’Alvéoles et de Fleurs Sauvages', description: 'Coloriage mandala difficile et gratuit avec six abeilles autour d’un rayon symétrique et de couronnes de fleurs sauvages.', keywords: 'abeilles alvéoles fleurs sauvages mandala symétrique difficile coloriage gratuit grands enfants', altText: 'Mandala circulaire détaillé avec six abeilles, des alvéoles et des fleurs sauvages symétriques' },
+    es: { title: 'Mandala de Abejas, Panal y Flores Silvestres', description: 'Página difícil de mandala para colorear gratis con seis abejas alrededor de un panal simétrico y anillos de flores silvestres.', keywords: 'abejas panal flores silvestres mandala simétrico difícil colorear gratis niños mayores', altText: 'Mandala circular detallado con seis abejas, celdas de panal y flores silvestres simétricas' },
+    zh: { title: '蜜蜂、蜂巢与野花曼陀罗', description: '免费高难度曼陀罗涂色页：六只蜜蜂围绕对称蜂巢，外圈由野花组成。', keywords: '蜜蜂 蜂巢 野花 曼陀罗 对称 困难 免费 大孩子 涂色页', altText: '由六只蜜蜂、蜂巢格和对称野花组成的精细圆形曼陀罗涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

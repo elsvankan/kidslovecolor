@@ -1417,6 +1417,26 @@
       "destination": "/kleurplaat/woodland-soil-ecosystem-cutaway/index.html"
     },
     {
+      "source": "/kleurplaat/friendly-axolotl-among-water-lilies",
+      "destination": "/kleurplaat/friendly-axolotl-among-water-lilies/index.html"
+    },
+    {
+      "source": "/kleurplaat/backyard-telescope-under-crescent-moon",
+      "destination": "/kleurplaat/backyard-telescope-under-crescent-moon/index.html"
+    },
+    {
+      "source": "/kleurplaat/bicycle-mechanic-tightening-saddle-clamp",
+      "destination": "/kleurplaat/bicycle-mechanic-tightening-saddle-clamp/index.html"
+    },
+    {
+      "source": "/kleurplaat/enchanted-teapot-cottage-beneath-ferns",
+      "destination": "/kleurplaat/enchanted-teapot-cottage-beneath-ferns/index.html"
+    },
+    {
+      "source": "/kleurplaat/honeybee-honeycomb-and-wildflower-mandala",
+      "destination": "/kleurplaat/honeybee-honeycomb-and-wildflower-mandala/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
