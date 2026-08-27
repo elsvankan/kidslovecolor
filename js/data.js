@@ -3665,6 +3665,56 @@ const COLORINGS = [
     zh: { title: '蜜蜂、蜂巢与野花曼陀罗', description: '免费高难度曼陀罗涂色页：六只蜜蜂围绕对称蜂巢，外圈由野花组成。', keywords: '蜜蜂 蜂巢 野花 曼陀罗 对称 困难 免费 大孩子 涂色页', altText: '由六只蜜蜂、蜂巢格和对称野花组成的精细圆形曼陀罗涂色页' },
   },
 
+  {
+    id: 391, slug: 'sleepy-three-toed-sloth-on-cacao-branch', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--sleepy-three-toed-sloth-on-cacao-branch.jpg',
+    nl: { title: 'Slapende Drievingerluiaard aan een Cacaotak', description: 'Gratis makkelijke dierenkleurplaat van een slaperige luiaard die met vier poten en drie klauwen per poot aan een cacaotak hangt.', keywords: 'luiaard drievingerluiaard cacaotak cacaopeul regenwoud dieren makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een slapende drievingerluiaard met vier poten aan een cacaotak' },
+    en: { title: 'Sleepy Three-Toed Sloth on a Cacao Branch', description: 'Free easy animal coloring page of a sleepy sloth hanging from a cacao branch with four limbs and three claws on each paw.', keywords: 'sloth three-toed sloth cacao branch cacao pod rainforest animals easy coloring page free kids', altText: 'Easy coloring page of a sleepy three-toed sloth hanging from a cacao branch with four limbs' },
+    fr: { title: 'Paresseux à Trois Doigts Endormi sur une Branche de Cacao', description: 'Coloriage d’animaux facile et gratuit d’un paresseux endormi accroché à une branche de cacao avec quatre membres et trois griffes par patte.', keywords: 'paresseux trois doigts branche cacao cabosse forêt tropicale animaux coloriage facile gratuit enfants', altText: 'Coloriage facile d’un paresseux à trois doigts endormi et accroché à une branche de cacao' },
+    es: { title: 'Perezoso de Tres Dedos Dormido en una Rama de Cacao', description: 'Página fácil de animales para colorear gratis con un perezoso dormido que cuelga de una rama de cacao con cuatro extremidades y tres garras en cada pata.', keywords: 'perezoso tres dedos rama cacao mazorca selva animales colorear fácil gratis niños', altText: 'Página fácil para colorear de un perezoso de tres dedos dormido en una rama de cacao' },
+    zh: { title: '睡在可可树枝上的三趾树懒', description: '免费简单动物涂色页：一只三趾树懒用四肢挂在结有可可果的树枝上安静睡觉。', keywords: '三趾树懒 可可树枝 可可果 雨林 动物 简单 免费 儿童 涂色页', altText: '一只三趾树懒用四肢挂在可可树枝上睡觉的简单涂色页' },
+  },
+
+  {
+    id: 392, slug: 'hermit-crab-choosing-a-new-shell', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/oceaan--easy--hermit-crab-choosing-a-new-shell.jpg',
+    nl: { title: 'Heremietkreeft Kiest een Nieuwe Schelp', description: 'Gratis makkelijke oceaankleurplaat van één heremietkreeft die op het strand drie lege schelpen bekijkt voor een nieuw huis.', keywords: 'heremietkreeft schelpen strand getijdenpoel oceaan makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een heremietkreeft die drie lege schelpen op het strand bekijkt' },
+    en: { title: 'Hermit Crab Choosing a New Shell', description: 'Free easy ocean coloring page of one hermit crab examining three empty shells on the shore for a new home.', keywords: 'hermit crab shells beach tide pool ocean easy coloring page free kids', altText: 'Easy coloring page of a hermit crab examining three empty shells on the shore' },
+    fr: { title: 'Bernard-l’Ermite Choisissant une Nouvelle Coquille', description: 'Coloriage de l’océan facile et gratuit d’un bernard-l’ermite qui observe trois coquilles vides sur le rivage pour trouver une nouvelle maison.', keywords: 'bernard-l’ermite coquilles plage maree océan coloriage facile gratuit enfants', altText: 'Coloriage facile d’un bernard-l’ermite observant trois coquilles vides sur la plage' },
+    es: { title: 'Cangrejo Ermitaño Eligiendo una Concha Nueva', description: 'Página fácil del océano para colorear gratis con un cangrejo ermitaño que examina tres conchas vacías en la orilla para encontrar una casa nueva.', keywords: 'cangrejo ermitaño conchas playa poza de marea océano colorear fácil gratis niños', altText: 'Página fácil para colorear de un cangrejo ermitaño mirando tres conchas vacías en la playa' },
+    zh: { title: '寄居蟹挑选新贝壳', description: '免费简单海洋涂色页：一只寄居蟹在海边观察三个空贝壳，准备挑选一个新家。', keywords: '寄居蟹 贝壳 海滩 潮池 海洋 简单 免费 儿童 涂色页', altText: '一只寄居蟹在海边观察三个空贝壳的简单涂色页' },
+  },
+
+  {
+    id: 393, slug: 'small-sailboat-inside-a-canal-lock', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--small-sailboat-inside-a-canal-lock.jpg',
+    nl: { title: 'Zeilboot in een Kanaalsluis', description: 'Gratis gemiddelde voertuigenkleurplaat van één kleine zeilboot in een kanaalsluis met sluisdeuren, kademuren en een peilschaal.', keywords: 'zeilboot kanaalsluis sluisdeuren waterstand peilschaal vervoer gemiddelde kleurplaat gratis kinderen', altText: 'Kleurplaat van een kleine zeilboot tussen de deuren en kademuren van een kanaalsluis' },
+    en: { title: 'Small Sailboat inside a Canal Lock', description: 'Free medium vehicle coloring page of one small sailboat inside a canal lock with lock gates, chamber walls and a water-level gauge.', keywords: 'sailboat canal lock lock gates water level gauge transport medium coloring page free kids', altText: 'Coloring page of a small sailboat between the gates and walls of a canal lock' },
+    fr: { title: 'Petit Voilier dans une Écluse', description: 'Coloriage de véhicules moyen et gratuit d’un petit voilier dans une écluse avec des portes, des murs de sas et une échelle de niveau d’eau.', keywords: 'voilier écluse portes niveau eau transport coloriage moyen gratuit enfants', altText: 'Coloriage d’un petit voilier entre les portes et les murs d’une écluse' },
+    es: { title: 'Pequeño Velero dentro de una Esclusa', description: 'Página de vehículos de dificultad media para colorear gratis con un pequeño velero dentro de una esclusa con compuertas, muros y una escala de nivel de agua.', keywords: 'velero esclusa compuertas nivel agua transporte colorear medio gratis niños', altText: 'Página para colorear de un pequeño velero entre las compuertas y los muros de una esclusa' },
+    zh: { title: '运河船闸里的小帆船', description: '免费中等难度交通涂色页：一艘小帆船停在带有闸门、闸室墙和水位尺的运河船闸中。', keywords: '帆船 运河 船闸 闸门 水位尺 交通 中等 免费 儿童 涂色页', altText: '一艘小帆船位于运河船闸闸门和闸室墙之间的涂色页' },
+  },
+
+  {
+    id: 394, slug: 'bakery-shelf-filled-with-bread-and-pastries', category: 'eten', difficulty: 'medium',
+    img: '../img/kleurplaten/eten--medium--bakery-shelf-filled-with-bread-and-pastries.jpg',
+    nl: { title: 'Bakkerijplank vol Brood en Gebak', description: 'Gratis gemiddelde etenskleurplaat van een gezellige bakkerijplank met broden, broodjes, croissants, taartjes en koekjes.', keywords: 'bakkerij brood croissant gebak koekjes eten gemiddelde kleurplaat gratis kinderen', altText: 'Kleurplaat van een nette bakkerijplank vol verschillende broden, broodjes en gebakjes' },
+    en: { title: 'Bakery Shelf Filled with Bread and Pastries', description: 'Free medium food coloring page of a cozy bakery display filled with loaves, rolls, croissants, small cakes and cookies.', keywords: 'bakery bread croissant pastries cookies food medium coloring page free kids', altText: 'Coloring page of a tidy bakery display filled with different breads, rolls and pastries' },
+    fr: { title: 'Étagère de Boulangerie Remplie de Pains et Pâtisseries', description: 'Coloriage d’aliments moyen et gratuit d’une vitrine de boulangerie remplie de pains, petits pains, croissants, gâteaux et biscuits.', keywords: 'boulangerie pain croissant pâtisseries biscuits aliments coloriage moyen gratuit enfants', altText: 'Coloriage d’une vitrine de boulangerie bien rangée remplie de pains et de pâtisseries' },
+    es: { title: 'Estantería de Panadería con Panes y Pasteles', description: 'Página de comida de dificultad media para colorear gratis con una estantería de panadería llena de panes, panecillos, cruasanes, pasteles y galletas.', keywords: 'panadería pan cruasán pasteles galletas comida colorear medio gratis niños', altText: 'Página para colorear de una estantería ordenada con diferentes panes y pasteles' },
+    zh: { title: '摆满面包和点心的烘焙架', description: '免费中等难度食物涂色页：整齐的烘焙展示架上摆着面包、餐包、羊角面包、小蛋糕和饼干。', keywords: '烘焙店 面包 羊角面包 点心 饼干 食物 中等 免费 儿童 涂色页', altText: '整齐摆满不同面包、餐包和点心的烘焙展示架涂色页' },
+  },
+
+  {
+    id: 395, slug: 'butterfly-life-cycle-around-a-host-plant', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--butterfly-life-cycle-around-a-host-plant.jpg',
+    nl: { title: 'Levenscyclus van een Vlinder rond een Waardplant', description: 'Gratis moeilijke natuurkleurplaat met vier opeenvolgende stadia van een vlinder: één eitje, één rups, één pop en één volwassen vlinder.', keywords: 'vlinder levenscyclus eitje rups pop waardplant natuur moeilijke kleurplaat gratis oudere kinderen', altText: 'Gedetailleerde kleurplaat van de vier stadia van een vlinder rond een waardplant met pijlen' },
+    en: { title: 'Butterfly Life Cycle around a Host Plant', description: 'Free hard nature coloring page with four consecutive butterfly stages: one egg, one caterpillar, one chrysalis and one adult butterfly.', keywords: 'butterfly life cycle egg caterpillar chrysalis host plant nature hard coloring page free older kids', altText: 'Detailed coloring page of four butterfly life-cycle stages around a host plant with arrows' },
+    fr: { title: 'Cycle de Vie du Papillon autour d’une Plante Hôte', description: 'Coloriage nature difficile et gratuit avec quatre étapes successives du papillon : un œuf, une chenille, une chrysalide et un papillon adulte.', keywords: 'papillon cycle vie œuf chenille chrysalide plante hôte nature coloriage difficile gratuit grands enfants', altText: 'Coloriage détaillé des quatre étapes du papillon autour d’une plante hôte avec des flèches' },
+    es: { title: 'Ciclo de Vida de la Mariposa alrededor de una Planta Huésped', description: 'Página difícil de naturaleza para colorear gratis con cuatro etapas consecutivas: un huevo, una oruga, una crisálida y una mariposa adulta.', keywords: 'mariposa ciclo vida huevo oruga crisálida planta huésped naturaleza colorear difícil gratis niños mayores', altText: 'Página detallada para colorear de las cuatro etapas de la mariposa alrededor de una planta huésped con flechas' },
+    zh: { title: '围绕寄主植物的蝴蝶生命周期', description: '免费高难度自然涂色页：按顺序展示蝴蝶的四个阶段——一枚卵、一只毛毛虫、一个蛹和一只成蝶。', keywords: '蝴蝶 生命周期 卵 毛毛虫 蛹 寄主植物 自然 困难 免费 大孩子 涂色页', altText: '用箭头连接寄主植物周围四个蝴蝶生命周期阶段的精细涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

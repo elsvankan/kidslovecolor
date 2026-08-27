@@ -1437,6 +1437,26 @@
       "destination": "/kleurplaat/honeybee-honeycomb-and-wildflower-mandala/index.html"
     },
     {
+      "source": "/kleurplaat/sleepy-three-toed-sloth-on-cacao-branch",
+      "destination": "/kleurplaat/sleepy-three-toed-sloth-on-cacao-branch/index.html"
+    },
+    {
+      "source": "/kleurplaat/hermit-crab-choosing-a-new-shell",
+      "destination": "/kleurplaat/hermit-crab-choosing-a-new-shell/index.html"
+    },
+    {
+      "source": "/kleurplaat/small-sailboat-inside-a-canal-lock",
+      "destination": "/kleurplaat/small-sailboat-inside-a-canal-lock/index.html"
+    },
+    {
+      "source": "/kleurplaat/bakery-shelf-filled-with-bread-and-pastries",
+      "destination": "/kleurplaat/bakery-shelf-filled-with-bread-and-pastries/index.html"
+    },
+    {
+      "source": "/kleurplaat/butterfly-life-cycle-around-a-host-plant",
+      "destination": "/kleurplaat/butterfly-life-cycle-around-a-host-plant/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
