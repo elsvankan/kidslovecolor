@@ -3765,6 +3765,56 @@ const COLORINGS = [
     zh: { title: '南部非洲文化遗产保护培训', description: '免费时事涂色页：文化遗产专业人员正在小心检查、记录和保存陶器与编织物。', keywords: '南部非洲 文化遗产 博物馆 保护 联合国教科文组织 陶器 文化 时事 免费 大孩子 涂色页', altText: '四名文化遗产专业人员检查并记录文化物品的精细涂色页', newsExplainer: '来自九个国家的27名文化遗产专业人员正在学习如何公平归还历史物品，并在归还后妥善保存。', newsArticle: '联合国教科文组织、非盟发展署—非洲发展新伙伴计划和比勒陀利亚大学共同举办两门文化遗产归还与保护课程。参与者来自南部非洲九个国家。他们讨论法律与伦理，并练习小心搬运、记录、储存和口述历史采集。当地知识与国际博物馆方法相结合。', newsFacts: ['课程共有来自九个国家的27名专业人员参加。', '培训时间为2026年8月11日至28日。', '参与者学习法律、储存、记录和保护。'], newsQuestion: '为什么归还一件物品之后，还要妥善保存并讲清它的故事？' },
   },
 
+  {
+    id: 401, slug: 'atlantic-puffin-parent-and-chick-on-sea-cliff', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--atlantic-puffin-parent-and-chick-on-sea-cliff.jpg',
+    nl: { title: 'Papegaaiduiker met Kuiken op de Zeeklif', description: 'Gratis makkelijke dierenkleurplaat van één volwassen papegaaiduiker en één kuiken tussen gras, rotsen en rustige zeegolven.', keywords: 'papegaaiduiker kuiken zeeklif zee gras rotsen dieren makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een volwassen papegaaiduiker en een kuiken op een grasrijke zeeklif' },
+    en: { title: 'Atlantic Puffin Parent and Chick on a Sea Cliff', description: 'Free easy animal coloring page of one adult Atlantic puffin and one chick among grass, rocks and calm sea waves.', keywords: 'Atlantic puffin parent chick sea cliff grass rocks animals easy coloring page free kids', altText: 'Easy coloring page of an adult Atlantic puffin and a chick on a grassy sea cliff' },
+    fr: { title: 'Macareux Moine et son Poussin sur une Falaise', description: 'Coloriage d’animaux facile et gratuit d’un macareux moine adulte et de son poussin parmi l’herbe, les rochers et les vagues calmes.', keywords: 'macareux moine poussin falaise mer herbe rochers animaux coloriage facile gratuit enfants', altText: 'Coloriage facile d’un macareux moine adulte et de son poussin sur une falaise herbeuse' },
+    es: { title: 'Frailecillo Atlántico y su Polluelo en un Acantilado', description: 'Página fácil de animales para colorear gratis con un frailecillo atlántico adulto y su polluelo entre hierba, rocas y olas tranquilas.', keywords: 'frailecillo atlántico polluelo acantilado mar hierba rocas animales colorear fácil gratis niños', altText: 'Página fácil para colorear de un frailecillo atlántico adulto y su polluelo en un acantilado con hierba' },
+    zh: { title: '海崖上的北极海鹦亲子', description: '免费简单动物涂色页：一只成年北极海鹦和一只幼鸟站在有草、岩石和轻柔海浪的海崖上。', keywords: '北极海鹦 幼鸟 海崖 海洋 草地 岩石 动物 简单 免费 儿童 涂色页', altText: '成年北极海鹦和幼鸟站在草地海崖上的简单涂色页' },
+  },
+
+  {
+    id: 402, slug: 'waffle-breakfast-with-fruit-and-yogurt', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--waffle-breakfast-with-fruit-and-yogurt.jpg',
+    nl: { title: 'Wafelontbijt met Fruit en Yoghurt', description: 'Gratis makkelijke etenskleurplaat van een wafel met aardbeien en banaan, een kom yoghurt, een lepel, water en een servet.', keywords: 'wafel ontbijt aardbeien banaan yoghurt eten makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een wafelontbijt met fruit, yoghurt, lepel en glas water' },
+    en: { title: 'Waffle Breakfast with Fruit and Yogurt', description: 'Free easy food coloring page of a waffle with strawberries and banana, a bowl of yogurt, spoon, water and folded napkin.', keywords: 'waffle breakfast strawberries banana yogurt food easy coloring page free kids', altText: 'Easy coloring page of a waffle breakfast with fruit, yogurt, spoon and a glass of water' },
+    fr: { title: 'Petit-déjeuner de Gaufre aux Fruits et au Yaourt', description: 'Coloriage d’aliments facile et gratuit d’une gaufre aux fraises et à la banane avec un bol de yaourt, une cuillère, de l’eau et une serviette.', keywords: 'gaufre petit déjeuner fraises banane yaourt aliments coloriage facile gratuit enfants', altText: 'Coloriage facile d’un petit-déjeuner avec gaufre, fruits, yaourt, cuillère et verre d’eau' },
+    es: { title: 'Desayuno de Gofre con Fruta y Yogur', description: 'Página fácil de comida para colorear gratis con un gofre, fresas, plátano, un cuenco de yogur, cuchara, agua y servilleta.', keywords: 'gofre desayuno fresas plátano yogur comida colorear fácil gratis niños', altText: 'Página fácil para colorear de un desayuno con gofre, fruta, yogur, cuchara y vaso de agua' },
+    zh: { title: '水果酸奶华夫饼早餐', description: '免费简单食物涂色页：华夫饼配草莓和香蕉，旁边有酸奶碗、勺子、一杯水和折叠餐巾。', keywords: '华夫饼 早餐 草莓 香蕉 酸奶 食物 简单 免费 儿童 涂色页', altText: '华夫饼、水果、酸奶、勺子和一杯水组成的简单早餐涂色页' },
+  },
+
+  {
+    id: 403, slug: 'park-ranger-examining-deer-tracks', category: 'beroepen', difficulty: 'medium',
+    img: '../img/kleurplaten/beroepen--medium--park-ranger-examining-deer-tracks.jpg',
+    nl: { title: 'Boswachter Onderzoekt een Hertenspoor', description: 'Gratis gemiddelde beroepenkleurplaat van een boswachter die met een vergrootglas een hertenafdruk bekijkt, met een notitieboek en hert in de buurt.', keywords: 'boswachter hertenspoor vergrootglas notitieboek natuur beroep gemiddelde kleurplaat gratis kinderen', altText: 'Kleurplaat van een knielende boswachter die een hertenafdruk door een vergrootglas onderzoekt' },
+    en: { title: 'Park Ranger Examining Deer Tracks', description: 'Free medium careers coloring page of a park ranger using a magnifying glass to study a deer track, with a notebook and deer nearby.', keywords: 'park ranger deer track magnifying glass notebook nature career medium coloring page free kids', altText: 'Coloring page of a kneeling park ranger examining a deer hoofprint through a magnifying glass' },
+    fr: { title: 'Garde Nature Observant une Trace de Cerf', description: 'Coloriage de métiers moyen et gratuit d’un garde nature observant une empreinte de cerf à la loupe, avec un carnet et un cerf à proximité.', keywords: 'garde nature trace cerf loupe carnet métier coloriage moyen gratuit enfants', altText: 'Coloriage d’un garde nature à genoux examinant une empreinte de cerf à la loupe' },
+    es: { title: 'Guardabosques Examinando Huellas de Ciervo', description: 'Página de profesiones de dificultad media para colorear gratis con un guardabosques estudiando una huella de ciervo con lupa, cuaderno y un ciervo cerca.', keywords: 'guardabosques huella ciervo lupa cuaderno naturaleza profesión colorear medio gratis niños', altText: 'Página para colorear de un guardabosques arrodillado examinando una pezuña de ciervo con una lupa' },
+    zh: { title: '护林员观察鹿的足迹', description: '免费中等难度职业涂色页：一名护林员用放大镜观察鹿蹄印，旁边有笔记本，远处有一只鹿。', keywords: '护林员 鹿 足迹 放大镜 笔记本 自然 职业 中等 免费 儿童 涂色页', altText: '护林员跪着透过放大镜观察鹿蹄印的涂色页' },
+  },
+
+  {
+    id: 404, slug: 'snow-groomer-preparing-mountain-ski-trail', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--snow-groomer-preparing-mountain-ski-trail.jpg',
+    nl: { title: 'Pistenbully Maakt een Bergroute Glad', description: 'Gratis gemiddelde voertuigenkleurplaat van een sneeuwschuiver op rupsbanden die met een voorblad en achterfrees een skipiste verzorgt.', keywords: 'pistenbully sneeuwschuiver rupsbanden skipiste bergen voertuig gemiddelde kleurplaat gratis kinderen', altText: 'Kleurplaat van een sneeuwschuiver met rupsbanden, voorblad en achterfrees op een bergpiste' },
+    en: { title: 'Snow Groomer Preparing a Mountain Ski Trail', description: 'Free medium vehicle coloring page of a tracked snow groomer preparing a ski trail with its front blade and rear tiller.', keywords: 'snow groomer crawler tracks ski trail mountain vehicle medium coloring page free kids', altText: 'Coloring page of a snow groomer with crawler tracks, front blade and rear tiller on a mountain trail' },
+    fr: { title: 'Dameuse Préparant une Piste de Montagne', description: 'Coloriage de véhicules moyen et gratuit d’une dameuse à chenilles préparant une piste de ski avec sa lame avant et sa fraise arrière.', keywords: 'dameuse chenilles piste ski montagne véhicule coloriage moyen gratuit enfants', altText: 'Coloriage d’une dameuse à chenilles avec lame avant et fraise arrière sur une piste de montagne' },
+    es: { title: 'Máquina Pisanieves Preparando una Pista de Montaña', description: 'Página de vehículos de dificultad media para colorear gratis con una máquina pisanieves de orugas, pala delantera y fresadora trasera.', keywords: 'máquina pisanieves orugas pista esquí montaña vehículo colorear medio gratis niños', altText: 'Página para colorear de una máquina pisanieves con orugas, pala delantera y fresadora trasera en la montaña' },
+    zh: { title: '雪道整理车修整山地滑雪道', description: '免费中等难度交通工具涂色页：履带式雪道整理车用前铲和后置压雪装置修整滑雪道。', keywords: '雪道整理车 履带 滑雪道 山地 交通工具 中等 免费 儿童 涂色页', altText: '带履带、前铲和后置压雪装置的雪道整理车山地涂色页' },
+  },
+
+  {
+    id: 405, slug: 'lunar-greenhouse-with-astronaut-gardener', category: 'ruimte', difficulty: 'hard',
+    img: '../img/kleurplaten/ruimte--hard--lunar-greenhouse-with-astronaut-gardener.jpg',
+    nl: { title: 'Maankas met Astronaut-Tuinier', description: 'Gratis moeilijke ruimtekleurplaat van een astronaut die verhoogde plantenbakken water geeft in een maankas met zonnepanelen en de aarde aan de hemel.', keywords: 'maan kas astronaut tuinier planten zonnepanelen aarde ruimte moeilijke kleurplaat gratis oudere kinderen', altText: 'Gedetailleerde kleurplaat van een astronaut die planten water geeft in een kas op de maan' },
+    en: { title: 'Lunar Greenhouse with an Astronaut Gardener', description: 'Free hard space coloring page of an astronaut watering raised plant beds in a lunar greenhouse with solar panels and Earth in the sky.', keywords: 'Moon greenhouse astronaut gardener plants solar panels Earth space hard coloring page free older kids', altText: 'Detailed coloring page of an astronaut watering plants inside a greenhouse on the Moon' },
+    fr: { title: 'Serre Lunaire avec un Astronaute Jardinier', description: 'Coloriage spatial difficile et gratuit d’un astronaute arrosant des bacs de plantes surélevés dans une serre lunaire avec panneaux solaires et la Terre dans le ciel.', keywords: 'Lune serre astronaute jardinier plantes panneaux solaires Terre espace coloriage difficile gratuit grands enfants', altText: 'Coloriage détaillé d’un astronaute arrosant des plantes dans une serre sur la Lune' },
+    es: { title: 'Invernadero Lunar con un Astronauta Jardinero', description: 'Página difícil del espacio para colorear gratis con un astronauta regando bancales elevados en un invernadero lunar con paneles solares y la Tierra en el cielo.', keywords: 'Luna invernadero astronauta jardinero plantas paneles solares Tierra espacio colorear difícil gratis niños mayores', altText: 'Página detallada para colorear de un astronauta regando plantas dentro de un invernadero en la Luna' },
+    zh: { title: '有宇航员园丁的月球温室', description: '免费高难度太空涂色页：一名宇航员在月球温室里给高架种植床浇水，外面有太阳能板，天空中能看到地球。', keywords: '月球 温室 宇航员 园丁 植物 太阳能板 地球 太空 困难 免费 大孩子 涂色页', altText: '宇航员在月球温室内给植物浇水的精细涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

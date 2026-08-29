@@ -1477,6 +1477,26 @@
       "destination": "/kleurplaat/southern-africa-heritage-conservation-training/index.html"
     },
     {
+      "source": "/kleurplaat/atlantic-puffin-parent-and-chick-on-sea-cliff",
+      "destination": "/kleurplaat/atlantic-puffin-parent-and-chick-on-sea-cliff/index.html"
+    },
+    {
+      "source": "/kleurplaat/waffle-breakfast-with-fruit-and-yogurt",
+      "destination": "/kleurplaat/waffle-breakfast-with-fruit-and-yogurt/index.html"
+    },
+    {
+      "source": "/kleurplaat/park-ranger-examining-deer-tracks",
+      "destination": "/kleurplaat/park-ranger-examining-deer-tracks/index.html"
+    },
+    {
+      "source": "/kleurplaat/snow-groomer-preparing-mountain-ski-trail",
+      "destination": "/kleurplaat/snow-groomer-preparing-mountain-ski-trail/index.html"
+    },
+    {
+      "source": "/kleurplaat/lunar-greenhouse-with-astronaut-gardener",
+      "destination": "/kleurplaat/lunar-greenhouse-with-astronaut-gardener/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
