@@ -1457,6 +1457,26 @@
       "destination": "/kleurplaat/butterfly-life-cycle-around-a-host-plant/index.html"
     },
     {
+      "source": "/kleurplaat/kew-gardens-heat-pump-climate-positive",
+      "destination": "/kleurplaat/kew-gardens-heat-pump-climate-positive/index.html"
+    },
+    {
+      "source": "/kleurplaat/china-mountain-eco-art-climate-project",
+      "destination": "/kleurplaat/china-mountain-eco-art-climate-project/index.html"
+    },
+    {
+      "source": "/kleurplaat/australia-biodiversity-month-community-planting",
+      "destination": "/kleurplaat/australia-biodiversity-month-community-planting/index.html"
+    },
+    {
+      "source": "/kleurplaat/roman-space-telescope-transport-kennedy",
+      "destination": "/kleurplaat/roman-space-telescope-transport-kennedy/index.html"
+    },
+    {
+      "source": "/kleurplaat/southern-africa-heritage-conservation-training",
+      "destination": "/kleurplaat/southern-africa-heritage-conservation-training/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

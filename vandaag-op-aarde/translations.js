@@ -6,6 +6,41 @@
  */
 const WORLD_STORY_TRANSLATIONS = {
   en: {
+    'kew-bespaart-fossiele-brandstof': {
+      title: 'Kew cuts fossil-fuel use by 22% in one year', location: 'London, United Kingdom', reportedDate: '26 August 2026', theme: 'Climate & plants',
+      intro: 'Royal Botanic Gardens, Kew used 22% less fossil fuel in one year. Heat pumps, electric equipment and solar panels are helping the famous gardens become more climate-friendly.',
+      body: 'Kew announced that its fossil-fuel use fell by 22% between 2025 and 2026, while core emissions dropped by 17%. The Temperate House, the world’s largest surviving Victorian glasshouse, is now heated without gas by air-source heat pumps. Kew is also replacing vehicles and gardening equipment with electric versions. Solar panels on the Millennium Seed Bank building provide about one fifth of that building’s electricity. In this way, Kew protects plants while reducing its own footprint.',
+      facts: ['Fossil-fuel use fell by 22% in one year.', 'The Temperate House is heated by electric air-source heat pumps.', 'Kew aims to become climate positive by 2030.'],
+      question: 'What change could help your school or neighbourhood use less fossil fuel?',
+    },
+    'kunst-van-afval-op-bergpad': {
+      title: 'Mountain litter becomes art along a trail', location: 'China', reportedDate: '26 August 2026', theme: 'Art & climate',
+      intro: 'A Chinese art project turned litter collected in the mountains into twelve small artworks along a 2.5-kilometre walking trail.',
+      body: 'During UNESCO’s Art for Earth webinar, artist Lan Qixia showed how young people and community volunteers collected, cleaned and reused mountain litter. They combined twigs, cans, bottles and packaging to make small installations among the trees. The artworks invite walkers to think about waste, responsibility and their relationship with nature. The project shows that art can be beautiful and also start a conversation about how people care for a landscape.',
+      facts: ['There are twelve art installations along the trail.', 'The mountain trail is 2.5 kilometres long.', 'Young people and volunteers helped design and make the works.'],
+      question: 'Which safe discarded material would you give a second life in an artwork?',
+    },
+    'biodiversiteitsmaand-in-nieuw-zuid-wales': {
+      title: 'Communities head outdoors for Biodiversity Month', location: 'New South Wales, Australia', reportedDate: '25 August 2026', theme: 'Nature & community',
+      intro: 'The Central Tablelands has planned a full month of tree planting, night walks, frog spotting and citizen science for nature.',
+      body: 'Local Land Services announced a wide programme for Biodiversity Month. Volunteers can plant native trees at Farmers Creek and Glen Davis. At Lake Pillans Wetlands, a nature guide will take visitors out after dark to listen and look for frogs. Other groups will survey habitats along the Coxs River or search for gliders, possums and sometimes koalas. Families will learn which species live nearby while helping to improve their habitat.',
+      facts: ['Biodiversity Month is celebrated in September.', 'There are activities for children and adults.', 'Tree-planting days create new habitat for animals.'],
+      question: 'Which animal or plant would you like to investigate in your neighbourhood?',
+    },
+    'roman-telescoop-naar-lanceerhangar': {
+      title: 'Roman Space Telescope travels to its launch hangar', location: 'Florida, United States', reportedDate: '26 August 2026', theme: 'Space & technology',
+      intro: 'The Nancy Grace Roman Space Telescope travelled safely inside its rocket nose cone to the hangar at launch complex 39A for final preparations.',
+      body: 'On 25 August, a slow-moving convoy carried the Roman telescope across Kennedy Space Center. The telescope was completely hidden inside the payload fairing, the tall pointed cover at the top of a rocket. A special transporter with many wheels kept the load upright while technicians monitored its temperature and other readings. In the hangar, the fairing was due to be attached to a Falcon Heavy rocket. Roman will photograph huge areas of the sky to study dark energy, dark matter and planets beyond our solar system.',
+      facts: ['The telescope travelled to the hangar on 25 August 2026.', 'Roman was completely enclosed in its protective fairing during transport.', 'Roman will have a much wider field of view than Hubble.'],
+      question: 'What question about the universe would you send with Roman?',
+    },
+    'erfgoedexperts-leren-objecten-bewaren': {
+      title: 'Heritage experts learn how objects can return safely', location: 'Pretoria, South Africa', reportedDate: '26 August 2026', theme: 'Culture & heritage',
+      intro: 'Twenty-seven heritage professionals from nine countries are learning how historical objects can be returned fairly and then cared for safely.',
+      body: 'UNESCO, AUDA-NEPAD and the University of Pretoria are holding two courses about the return and conservation of cultural heritage. Participants come from Botswana, Eswatini, Lesotho, Malawi, Mozambique, Namibia, South Africa, Zambia and Zimbabwe. They discuss law and ethics and practise careful handling, documentation, storage and recording oral histories. Local knowledge is combined with international museum methods so a returned object can regain meaning in the community to which it belongs.',
+      facts: ['The courses bring together 27 professionals from nine countries.', 'The training runs from 11 to 28 August 2026.', 'Participants learn about law, storage, documentation and conservation.'],
+      question: 'Why is it important not only to return an object, but also to care for and explain it well?',
+    },
     'zonverduistering-boven-leon': {
       title: 'Two minutes of darkness during a total solar eclipse', location: 'Spain', reportedDate: '12 August 2026', theme: 'Space & nature',
       intro: 'On 12 August, the Moon moved exactly in front of the Sun. Near León in Spain, daylight faded for almost two minutes and the bright solar corona appeared around the Moon.',
@@ -183,6 +218,41 @@ const WORLD_STORY_TRANSLATIONS = {
     },
   },
   fr: {
+    'kew-bespaart-fossiele-brandstof': {
+      title: 'Kew réduit de 22 % sa consommation d’énergies fossiles en un an', location: 'Londres, Royaume-Uni', reportedDate: '26 août 2026', theme: 'Climat et plantes',
+      intro: 'Les Jardins botaniques royaux de Kew ont utilisé 22 % d’énergies fossiles en moins en un an. Pompes à chaleur, appareils électriques et panneaux solaires rendent les célèbres jardins plus respectueux du climat.',
+      body: 'Kew a annoncé une baisse de 22 % de sa consommation d’énergies fossiles entre 2025 et 2026, ainsi qu’une diminution de 17 % de ses émissions principales. La Temperate House, la plus grande serre victorienne encore existante au monde, est désormais chauffée sans gaz grâce à des pompes à chaleur aérothermiques. Kew remplace aussi véhicules et outils de jardinage par des modèles électriques. Les panneaux solaires de la Millennium Seed Bank fournissent environ un cinquième de l’électricité du bâtiment. Kew protège ainsi les plantes tout en réduisant sa propre empreinte.',
+      facts: ['La consommation d’énergies fossiles a baissé de 22 % en un an.', 'La Temperate House est chauffée par des pompes à chaleur électriques.', 'Kew veut devenir positif pour le climat d’ici 2030.'],
+      question: 'Quel changement aiderait ton école ou ton quartier à utiliser moins d’énergies fossiles ?',
+    },
+    'kunst-van-afval-op-bergpad': {
+      title: 'Des déchets deviennent des œuvres d’art sur un sentier', location: 'Chine', reportedDate: '26 août 2026', theme: 'Art et climat',
+      intro: 'Un projet artistique chinois a transformé des déchets ramassés en montagne en douze petites œuvres installées le long d’un sentier de 2,5 kilomètres.',
+      body: 'Pendant le webinaire Art for Earth de l’UNESCO, l’artiste Lan Qixia a montré comment des jeunes et des bénévoles ont ramassé, nettoyé et réutilisé des déchets de montagne. Avec des brindilles, canettes, bouteilles et emballages, ils ont créé de petites installations entre les arbres. Ces œuvres invitent les promeneurs à réfléchir aux déchets, à la responsabilité et à leur lien avec la nature. Le projet prouve que l’art peut être beau tout en lançant une conversation sur la protection d’un paysage.',
+      facts: ['Douze installations artistiques jalonnent le sentier.', 'Le sentier de montagne mesure 2,5 kilomètres.', 'Des jeunes et des bénévoles ont participé à la conception et à la fabrication.'],
+      question: 'À quel matériau jeté et sans danger donnerais-tu une seconde vie dans une œuvre ?',
+    },
+    'biodiversiteitsmaand-in-nieuw-zuid-wales': {
+      title: 'Les habitants sortent explorer la biodiversité', location: 'Nouvelle-Galles du Sud, Australie', reportedDate: '25 août 2026', theme: 'Nature et coopération',
+      intro: 'Dans les Central Tablelands, tout un mois de plantations, promenades nocturnes, observation des grenouilles et sciences participatives est prévu pour la nature.',
+      body: 'Local Land Services a annoncé un vaste programme pour le Mois de la biodiversité. Des bénévoles planteront des arbres locaux à Farmers Creek et Glen Davis. Aux zones humides de Lake Pillans, un guide accompagnera les visiteurs après la tombée de la nuit pour écouter et observer les grenouilles. D’autres groupes étudieront les habitats le long de la Coxs River ou chercheront des phalangers volants, des opossums et parfois des koalas. Les familles découvriront les espèces voisines tout en améliorant leur habitat.',
+      facts: ['Le Mois de la biodiversité est célébré en septembre.', 'Des activités sont prévues pour les enfants et les adultes.', 'Les journées de plantation créent de nouveaux habitats pour les animaux.'],
+      question: 'Quel animal ou quelle plante aimerais-tu étudier dans ton quartier ?',
+    },
+    'roman-telescoop-naar-lanceerhangar': {
+      title: 'Le télescope spatial Roman rejoint son hangar de lancement', location: 'Floride, États-Unis', reportedDate: '26 août 2026', theme: 'Espace et technologie',
+      intro: 'Le télescope spatial Nancy Grace Roman a voyagé en sécurité dans la coiffe de sa fusée jusqu’au hangar du complexe de lancement 39A pour les derniers préparatifs.',
+      body: 'Le 25 août, un convoi roulant lentement a transporté le télescope Roman à travers le Kennedy Space Center. Le télescope était entièrement caché dans la coiffe, la haute protection pointue située au sommet d’une fusée. Un véhicule spécial doté de nombreuses roues a gardé la charge verticale, tandis que les techniciens surveillaient sa température et d’autres mesures. Dans le hangar, la coiffe devait être fixée à une fusée Falcon Heavy. Roman photographiera d’immenses zones du ciel pour étudier l’énergie noire, la matière noire et des planètes lointaines.',
+      facts: ['Le télescope a rejoint le hangar le 25 août 2026.', 'Roman était entièrement enfermé dans sa coiffe protectrice pendant le transport.', 'Roman aura un champ de vision bien plus large que Hubble.'],
+      question: 'Quelle question sur l’Univers enverrais-tu avec Roman ?',
+    },
+    'erfgoedexperts-leren-objecten-bewaren': {
+      title: 'Des spécialistes apprennent à faire revenir les objets en sécurité', location: 'Pretoria, Afrique du Sud', reportedDate: '26 août 2026', theme: 'Culture et patrimoine',
+      intro: 'Vingt-sept professionnels du patrimoine de neuf pays apprennent comment des objets historiques peuvent revenir équitablement puis être conservés en sécurité.',
+      body: 'L’UNESCO, l’AUDA-NEPAD et l’Université de Pretoria organisent deux cours sur le retour et la conservation du patrimoine culturel. Les participants viennent du Botswana, d’Eswatini, du Lesotho, du Malawi, du Mozambique, de Namibie, d’Afrique du Sud, de Zambie et du Zimbabwe. Ils étudient le droit et l’éthique et s’exercent à la manipulation, à la documentation, au stockage et au recueil des récits oraux. Les savoirs locaux sont associés aux méthodes muséales internationales afin qu’un objet rendu retrouve son sens dans sa communauté.',
+      facts: ['Les cours réunissent 27 professionnels de neuf pays.', 'La formation se déroule du 11 au 28 août 2026.', 'Les participants étudient le droit, le stockage, la documentation et la conservation.'],
+      question: 'Pourquoi faut-il non seulement rendre un objet, mais aussi bien le conserver et l’expliquer ?',
+    },
     'zonverduistering-boven-leon': {
       title: 'Deux minutes d’obscurité pendant une éclipse totale', location: 'Espagne', reportedDate: '12 août 2026', theme: 'Espace et nature',
       intro: 'Le 12 août, la Lune est passée exactement devant le Soleil. Près de León, en Espagne, le jour a pâli pendant presque deux minutes et la couronne solaire est apparue.',
@@ -360,6 +430,41 @@ const WORLD_STORY_TRANSLATIONS = {
     },
   },
   es: {
+    'kew-bespaart-fossiele-brandstof': {
+      title: 'Kew reduce un 22 % el uso de combustibles fósiles en un año', location: 'Londres, Reino Unido', reportedDate: '26 de agosto de 2026', theme: 'Clima y plantas',
+      intro: 'El Real Jardín Botánico de Kew utilizó un 22 % menos de combustibles fósiles en un año. Bombas de calor, equipos eléctricos y paneles solares ayudan a que los famosos jardines sean más respetuosos con el clima.',
+      body: 'Kew anunció que el uso de combustibles fósiles bajó un 22 % entre 2025 y 2026 y que sus emisiones principales se redujeron un 17 %. La Temperate House, el mayor invernadero victoriano que se conserva en el mundo, ahora se calienta sin gas mediante bombas de calor aerotérmicas. Kew también sustituye vehículos y herramientas de jardinería por modelos eléctricos. Los paneles solares del edificio Millennium Seed Bank aportan cerca de una quinta parte de su electricidad. Así, Kew protege las plantas y reduce su propia huella.',
+      facts: ['El uso de combustibles fósiles bajó un 22 % en un año.', 'La Temperate House se calienta con bombas de calor eléctricas.', 'Kew quiere ser positivo para el clima en 2030.'],
+      question: '¿Qué cambio ayudaría a tu escuela o barrio a usar menos combustibles fósiles?',
+    },
+    'kunst-van-afval-op-bergpad': {
+      title: 'La basura se convierte en arte en un sendero', location: 'China', reportedDate: '26 de agosto de 2026', theme: 'Arte y clima',
+      intro: 'Un proyecto artístico chino transformó basura recogida en la montaña en doce pequeñas obras a lo largo de un sendero de 2,5 kilómetros.',
+      body: 'Durante el seminario Art for Earth de la UNESCO, la artista Lan Qixia mostró cómo jóvenes y voluntarios recogieron, limpiaron y reutilizaron residuos de la montaña. Con ramas, latas, botellas y envases hicieron pequeñas instalaciones entre los árboles. Las obras invitan a los caminantes a pensar en los residuos, la responsabilidad y su relación con la naturaleza. El proyecto demuestra que el arte puede ser bello y también iniciar una conversación sobre el cuidado de un paisaje.',
+      facts: ['Hay doce instalaciones artísticas a lo largo del sendero.', 'El sendero de montaña mide 2,5 kilómetros.', 'Jóvenes y voluntarios ayudaron a diseñar y crear las obras.'],
+      question: '¿A qué material desechado y seguro le darías una segunda vida en una obra de arte?',
+    },
+    'biodiversiteitsmaand-in-nieuw-zuid-wales': {
+      title: 'Las comunidades salen a explorar la biodiversidad', location: 'Nueva Gales del Sur, Australia', reportedDate: '25 de agosto de 2026', theme: 'Naturaleza y comunidad',
+      intro: 'Las Central Tablelands han preparado un mes completo de plantación de árboles, paseos nocturnos, observación de ranas y ciencia ciudadana.',
+      body: 'Local Land Services anunció un amplio programa para el Mes de la Biodiversidad. Los voluntarios pueden plantar árboles autóctonos en Farmers Creek y Glen Davis. En los humedales de Lake Pillans, un guía llevará a los visitantes al anochecer para escuchar y buscar ranas. Otros grupos estudiarán hábitats a lo largo del río Coxs o buscarán petauros, pósums y, a veces, koalas. Las familias conocerán las especies cercanas mientras ayudan a mejorar su hábitat.',
+      facts: ['El Mes de la Biodiversidad se celebra en septiembre.', 'Hay actividades para niños y adultos.', 'Las jornadas de plantación crean nuevos hábitats para los animales.'],
+      question: '¿Qué animal o planta te gustaría investigar en tu barrio?',
+    },
+    'roman-telescoop-naar-lanceerhangar': {
+      title: 'El telescopio espacial Roman viaja al hangar de lanzamiento', location: 'Florida, Estados Unidos', reportedDate: '26 de agosto de 2026', theme: 'Espacio y tecnología',
+      intro: 'El telescopio espacial Nancy Grace Roman viajó protegido dentro de la cofia de su cohete hasta el hangar del complejo de lanzamiento 39A para los preparativos finales.',
+      body: 'El 25 de agosto, un convoy de movimiento lento transportó el telescopio Roman por el Centro Espacial Kennedy. El telescopio iba completamente oculto dentro de la cofia de carga, la cubierta alta y puntiaguda situada en la parte superior de un cohete. Un vehículo especial con muchas ruedas mantuvo la carga vertical mientras los técnicos vigilaban la temperatura y otros datos. En el hangar, la cofia se prepararía para un cohete Falcon Heavy. Roman fotografiará enormes áreas del cielo para estudiar energía oscura, materia oscura y planetas lejanos.',
+      facts: ['El telescopio llegó al hangar el 25 de agosto de 2026.', 'Roman viajó completamente encerrado en su cofia protectora.', 'Roman tendrá un campo de visión mucho más amplio que Hubble.'],
+      question: '¿Qué pregunta sobre el universo enviarías con Roman?',
+    },
+    'erfgoedexperts-leren-objecten-bewaren': {
+      title: 'Expertos aprenden a traer objetos patrimoniales a casa con seguridad', location: 'Pretoria, Sudáfrica', reportedDate: '26 de agosto de 2026', theme: 'Cultura y patrimonio',
+      intro: 'Veintisiete profesionales del patrimonio de nueve países aprenden cómo devolver objetos históricos de forma justa y conservarlos con seguridad.',
+      body: 'La UNESCO, AUDA-NEPAD y la Universidad de Pretoria organizan dos cursos sobre devolución y conservación del patrimonio cultural. Los participantes proceden de Botsuana, Esuatini, Lesoto, Malawi, Mozambique, Namibia, Sudáfrica, Zambia y Zimbabue. Estudian leyes y ética y practican manipulación cuidadosa, documentación, almacenamiento y recopilación de historias orales. El conocimiento local se combina con métodos museísticos internacionales para que un objeto devuelto recupere su significado en la comunidad a la que pertenece.',
+      facts: ['Los cursos reúnen a 27 profesionales de nueve países.', 'La formación dura del 11 al 28 de agosto de 2026.', 'Los participantes estudian leyes, almacenamiento, documentación y conservación.'],
+      question: '¿Por qué es importante no solo devolver un objeto, sino también conservarlo y explicarlo bien?',
+    },
     'zonverduistering-boven-leon': {
       title: 'Dos minutos de oscuridad durante un eclipse total', location: 'España', reportedDate: '12 de agosto de 2026', theme: 'Espacio y naturaleza',
       intro: 'El 12 de agosto, la Luna pasó exactamente por delante del Sol. Cerca de León, el día se oscureció durante casi dos minutos y apareció la brillante corona solar.',
@@ -537,6 +642,41 @@ const WORLD_STORY_TRANSLATIONS = {
     },
   },
   zh: {
+    'kew-bespaart-fossiele-brandstof': {
+      title: '邱园一年减少22%的化石燃料使用量', location: '英国伦敦', reportedDate: '2026年8月26日', theme: '气候与植物',
+      intro: '英国皇家植物园邱园一年内少用了22%的化石燃料。热泵、电动设备和太阳能板帮助这座著名花园变得更加气候友好。',
+      body: '邱园宣布，2025年至2026年间化石燃料使用量下降22%，核心排放量下降17%。世界上现存最大的维多利亚时代温室Temperate House如今不用燃气，而由空气源热泵供暖。邱园还在用电动车辆和电动园艺工具替代旧设备。千年种子库大楼上的太阳能板可提供该楼约五分之一的用电。这样，邱园在保护植物的同时也缩小了自身的环境足迹。',
+      facts: ['化石燃料使用量一年内下降了22%。', 'Temperate House使用电力空气源热泵供暖。', '邱园计划在2030年前实现气候正效益。'],
+      question: '你的学校或社区可以做出什么改变来减少化石燃料使用？',
+    },
+    'kunst-van-afval-op-bergpad': {
+      title: '山中垃圾变成步道艺术', location: '中国', reportedDate: '2026年8月26日', theme: '艺术与气候',
+      intro: '一个中国艺术项目把山中清理出的垃圾变成十二件小型艺术品，布置在一条2.5公里长的步道上。',
+      body: '在联合国教科文组织的“Art for Earth”网络研讨会上，艺术家兰奇霞介绍了青年和社区志愿者如何一起收集、清洗并重新利用山中的垃圾。他们用树枝、易拉罐、瓶子和包装材料在树林间制作小型装置。这些作品让步行者思考垃圾、责任以及人与自然的关系。项目说明，艺术不仅可以美丽，也能开启关于如何照顾一片风景的讨论。',
+      facts: ['步道沿线共有十二件艺术装置。', '这条山间步道长2.5公里。', '青年和志愿者参与了设计与制作。'],
+      question: '你想让哪一种安全的废弃材料在艺术品中获得第二次生命？',
+    },
+    'biodiversiteitsmaand-in-nieuw-zuid-wales': {
+      title: '社区居民走进自然观察生物多样性', location: '澳大利亚新南威尔士州', reportedDate: '2026年8月25日', theme: '自然与合作',
+      intro: '中央高地区为生物多样性月安排了整整一个月的植树、夜间步行、青蛙观察和公众科学活动。',
+      body: '当地土地服务机构公布了一系列生物多样性月活动。志愿者可以在Farmers Creek和Glen Davis种植本地树木。在Lake Pillans湿地，自然向导会在天黑后带领访客倾听并寻找青蛙。其他小组将调查Coxs River沿岸的栖息地，或寻找滑翔袋貂、负鼠，有时还能看到考拉。家庭在认识附近物种的同时，也能帮助改善它们的家园。',
+      facts: ['生物多样性月在九月举行。', '活动适合儿童和成年人参加。', '植树日能为动物创造新的栖息地。'],
+      question: '你最想在自己的社区调查哪一种动物或植物？',
+    },
+    'roman-telescoop-naar-lanceerhangar': {
+      title: '罗曼空间望远镜前往发射机库', location: '美国佛罗里达州', reportedDate: '2026年8月26日', theme: '太空与技术',
+      intro: '南希·格雷斯·罗曼空间望远镜安全地装在火箭整流罩内，前往39A发射区的机库进行最后准备。',
+      body: '8月25日，一支缓慢行驶的车队把罗曼望远镜运过肯尼迪航天中心。望远镜完全藏在载荷整流罩里，也就是火箭顶部高高的尖形保护外壳。一辆拥有许多车轮的专用运输车让载荷保持直立，技术人员同时监测温度和其他数据。进入机库后，整流罩将安装到猎鹰重型火箭上。罗曼将拍摄大片天空，研究暗能量、暗物质和太阳系外行星。',
+      facts: ['望远镜于2026年8月25日运往机库。', '运输过程中，罗曼完全封闭在保护整流罩内。', '罗曼的视野将比哈勃宽得多。'],
+      question: '你最想让罗曼带着哪一个关于宇宙的问题出发？',
+    },
+    'erfgoedexperts-leren-objecten-bewaren': {
+      title: '文物专家学习让历史物品安全回家', location: '南非比勒陀利亚', reportedDate: '2026年8月26日', theme: '文化与遗产',
+      intro: '来自九个国家的27名文化遗产专业人员正在学习如何公平归还历史物品，并在归还后妥善保存。',
+      body: '联合国教科文组织、非盟发展署—非洲发展新伙伴计划和比勒陀利亚大学共同举办两门文化遗产归还与保护课程。参与者来自博茨瓦纳、斯威士兰、莱索托、马拉维、莫桑比克、纳米比亚、南非、赞比亚和津巴布韦。他们讨论法律与伦理，并练习小心搬运、记录、储存和口述历史采集。当地知识与国际博物馆方法相结合，让归还的物品重新在所属社区中获得意义。',
+      facts: ['课程共有来自九个国家的27名专业人员参加。', '培训时间为2026年8月11日至28日。', '参与者学习法律、储存、记录和保护。'],
+      question: '为什么归还一件物品之后，还要妥善保存并讲清它的故事？',
+    },
     'zonverduistering-boven-leon': {
       title: '日全食带来两分钟黑暗', location: '西班牙', reportedDate: '2026年8月12日', theme: '太空与自然',
       intro: '8月12日，月球正好移动到太阳前方。西班牙莱昂附近白昼暗了近两分钟，明亮的日冕显现出来。',
