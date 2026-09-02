@@ -234,6 +234,8 @@ document.addEventListener('DOMContentLoaded', () => {
   setupSearch();
   setupModal();
   setupScrollTop();
+  setupSupportSticky();
+  setupColoringRequests();
   updateLangUI();
   setupMobileSearch();
   setupRandomEarthGlobe();
@@ -935,6 +937,74 @@ function setupScrollTop() {
     btn.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
   btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+}
+
+// -------------------------------------------------------
+// STICKY SUPPORT LINK
+// -------------------------------------------------------
+function setupSupportSticky() {
+  const link = document.querySelector('[data-support-sticky]');
+  const section = document.getElementById('steun-ons');
+  const requestSection = document.getElementById('kleurplaat-aanvragen');
+  if (!link || !section) return;
+
+  const update = () => {
+    const sectionTop = section.getBoundingClientRect().top;
+    const sectionVisible = sectionTop < window.innerHeight * 0.82;
+    const requestRect = requestSection?.getBoundingClientRect();
+    const requestVisible = requestRect
+      ? requestRect.top < window.innerHeight * 0.92 && requestRect.bottom > window.innerHeight * 0.08
+      : false;
+    link.classList.toggle('is-visible', window.scrollY > 520 && !sectionVisible && !requestVisible);
+  };
+
+  window.addEventListener('scroll', update, { passive: true });
+  window.addEventListener('resize', update);
+  update();
+}
+
+// -------------------------------------------------------
+// COLORING PAGE REQUESTS
+// -------------------------------------------------------
+function setupColoringRequests() {
+  const copy = {
+    nl: { subject: 'Aanvraag kleurplaat', idea: 'Onderwerp', age: 'Leeftijd', difficulty: 'Moeilijkheid', details: 'Extra wensen', source: 'Aangevraagd via', opened: 'Je e-mailprogramma wordt geopend. Controleer het bericht en klik daar op verzenden.' },
+    en: { subject: 'Coloring page request', idea: 'Subject', age: 'Age', difficulty: 'Difficulty', details: 'Extra wishes', source: 'Requested via', opened: 'Your email app will open. Check the message and press send there.' },
+    fr: { subject: 'Demande de coloriage', idea: 'Sujet', age: 'Âge', difficulty: 'Difficulté', details: 'Souhaits supplémentaires', source: 'Demandé via', opened: 'Votre messagerie va s’ouvrir. Vérifiez le message et envoyez-le depuis celle-ci.' },
+    es: { subject: 'Solicitud de página para colorear', idea: 'Tema', age: 'Edad', difficulty: 'Dificultad', details: 'Deseos adicionales', source: 'Solicitado desde', opened: 'Se abrirá tu aplicación de correo. Revisa el mensaje y pulsa enviar allí.' },
+    zh: { subject: '涂色页申请', idea: '主题', age: '年龄', difficulty: '难度', details: '其他要求', source: '申请页面', opened: '系统将打开你的邮件应用。请检查邮件内容并在邮件应用中发送。' },
+  };
+
+  document.querySelectorAll('[data-coloring-request]').forEach((form) => {
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      if (!form.reportValidity()) return;
+
+      const lang = form.dataset.lang || currentLang || 'nl';
+      const labels = copy[lang] || copy.nl;
+      const idea = form.elements.idea.value.trim();
+      const age = form.elements.age.options[form.elements.age.selectedIndex].text;
+      const difficulty = form.elements.difficulty.options[form.elements.difficulty.selectedIndex].text;
+      const details = form.elements.details.value.trim() || '—';
+      const body = [
+        labels.idea + ': ' + idea,
+        labels.age + ': ' + age,
+        labels.difficulty + ': ' + difficulty,
+        labels.details + ': ' + details,
+        '',
+        labels.source + ': ' + window.location.origin + window.location.pathname + '#kleurplaat-aanvragen',
+      ].join('\n');
+      const subject = labels.subject + ': ' + idea;
+      const mailto = 'mailto:elsvankan@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      const status = form.querySelector('[data-request-status]');
+
+      if (status) status.textContent = labels.opened;
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'coloring_request_started', { request_language: lang });
+      }
+      window.location.href = mailto;
+    });
+  });
 }
 
 // -------------------------------------------------------

@@ -494,6 +494,25 @@
   </ol>
 </section>
 
+<section class="request-section" id="kleurplaat-aanvragen" aria-labelledby="requestHeading">
+  <div class="request-inner">
+    <div class="request-copy">
+      <p class="request-kicker">Your idea, our next page</p>
+      <h2 id="requestHeading">Missing something? Request a coloring page.</h2>
+      <p class="request-intro">Tell us what you would love to color. We collect the best child-safe ideas and consider them for upcoming collections.</p>
+    </div>
+    <form class="request-form" data-coloring-request data-lang="en">
+      <div class="request-field request-field-wide"><label for="requestIdea">What would you like to color?</label><input id="requestIdea" name="idea" type="text" placeholder="For example: an otter looking for a shell" required/></div>
+      <div class="request-field"><label for="requestAge">For what age?</label><select id="requestAge" name="age"><option>Ages 3–5</option><option>Ages 6–8</option><option>Ages 9–12</option><option>Different ages</option></select></div>
+      <div class="request-field"><label for="requestDifficulty">How difficult?</label><select id="requestDifficulty" name="difficulty"><option>Easy</option><option>Medium</option><option>Challenging</option><option>Surprise me</option></select></div>
+      <div class="request-field request-field-wide"><label for="requestDetails">Extra wishes (optional)</label><textarea id="requestDetails" name="details" placeholder="Which pose, setting or important features should be included?"></textarea></div>
+      <button class="request-submit" type="submit">Prepare my request <span aria-hidden="true">→</span></button>
+      <p class="request-note">We do not ask for your child’s name or details. The button opens your own email app; you decide there whether to send.</p>
+      <p class="request-status" data-request-status aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 <section class="support-section" id="steun-ons" aria-labelledby="supportHeading">
   <div class="support-story">
     <p class="support-kicker">Our story — started at the kitchen table</p>
@@ -580,6 +599,7 @@
         <h4>Information</h4>
         <ul>
           <li><a href="/en/today-on-earth/">Today on Earth</a></li>
+          <li><a href="#kleurplaat-aanvragen">Request a coloring page</a></li>
           <li><a href="/en/about">About KidsLoveColor</a></li>
           <li><a href="/en/contact">Contact</a></li>
           <li><a href="/en/privacy">Privacy policy</a></li>
@@ -660,6 +680,7 @@
 </div>
 
 <!-- Scroll-to-top button -->
+<a class="support-sticky" href="#steun-ons" data-support-sticky aria-label="Support KidsLoveColor"><span aria-hidden="true">♥</span>Support us</a>
 <button class="scroll-top" id="scrollTop" aria-label="Scroll back to top">↑</button>
 
 <!-- =============================================

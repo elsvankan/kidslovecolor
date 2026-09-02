@@ -420,6 +420,25 @@
   </ol>
 </section>
 
+<section class="request-section" id="kleurplaat-aanvragen" aria-labelledby="requestHeading">
+  <div class="request-inner">
+    <div class="request-copy">
+      <p class="request-kicker">你的创意，我们的下一张涂色页</p>
+      <h2 id="requestHeading">没找到想要的？申请一张涂色页。</h2>
+      <p class="request-intro">告诉我们你想涂什么。我们会收集有趣、适合儿童的创意，并考虑加入之后的系列。</p>
+    </div>
+    <form class="request-form" data-coloring-request data-lang="zh">
+      <div class="request-field request-field-wide"><label for="requestIdea">你想涂什么？</label><input id="requestIdea" name="idea" type="text" placeholder="例如：寻找贝壳的小水獭" required/></div>
+      <div class="request-field"><label for="requestAge">适合什么年龄？</label><select id="requestAge" name="age"><option>3–5岁</option><option>6–8岁</option><option>9–12岁</option><option>多个年龄段</option></select></div>
+      <div class="request-field"><label for="requestDifficulty">难度如何？</label><select id="requestDifficulty" name="difficulty"><option>简单</option><option>中等</option><option>有挑战</option><option>给我惊喜</option></select></div>
+      <div class="request-field request-field-wide"><label for="requestDetails">其他要求（可选）</label><textarea id="requestDetails" name="details" placeholder="希望加入什么姿势、环境或重要特征？"></textarea></div>
+      <button class="request-submit" type="submit">准备申请邮件 <span aria-hidden="true">→</span></button>
+      <p class="request-note">我们不会询问孩子的姓名或资料。按钮会打开你的邮件应用，是否发送由你决定。</p>
+      <p class="request-status" data-request-status aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 <section class="support-section" id="steun-ons" aria-labelledby="supportHeading">
   <div class="support-story">
     <p class="support-kicker">我们的故事——从餐桌边开始</p>
@@ -498,6 +517,7 @@
         <h4>信息</h4>
         <ul>
           <li><a href="/zh/jinri-diqiu/">今日地球</a></li>
+          <li><a href="#kleurplaat-aanvragen">申请涂色页</a></li>
           <li><a href="/zh/about">关于KidsLoveColor</a></li>
           <li><a href="/zh/contact">联系我们</a></li>
           <li><a href="/zh/privacy">隐私政策</a></li>
@@ -557,6 +577,7 @@
   </div>
 </div>
 
+<a class="support-sticky" href="#steun-ons" data-support-sticky aria-label="支持KidsLoveColor"><span aria-hidden="true">♥</span>支持我们</a>
 <button class="scroll-top" id="scrollTop" aria-label="返回顶部">↑</button>
 
 <script src="../js/data.js"></script>

@@ -1497,6 +1497,26 @@
       "destination": "/kleurplaat/lunar-greenhouse-with-astronaut-gardener/index.html"
     },
     {
+      "source": "/kleurplaat/harbor-seal-pup-resting-on-sandbar",
+      "destination": "/kleurplaat/harbor-seal-pup-resting-on-sandbar/index.html"
+    },
+    {
+      "source": "/kleurplaat/autumn-puddle-with-rain-boots-and-paper-boat",
+      "destination": "/kleurplaat/autumn-puddle-with-rain-boots-and-paper-boat/index.html"
+    },
+    {
+      "source": "/kleurplaat/book-conservator-repairing-picture-book",
+      "destination": "/kleurplaat/book-conservator-repairing-picture-book/index.html"
+    },
+    {
+      "source": "/kleurplaat/mountain-funicular-at-passing-loop",
+      "destination": "/kleurplaat/mountain-funicular-at-passing-loop/index.html"
+    },
+    {
+      "source": "/kleurplaat/underground-ant-colony-cutaway",
+      "destination": "/kleurplaat/underground-ant-colony-cutaway/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

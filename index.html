@@ -434,6 +434,25 @@
   </ol>
 </section>
 
+<section class="request-section" id="kleurplaat-aanvragen" aria-labelledby="requestHeading">
+  <div class="request-inner">
+    <div class="request-copy">
+      <p class="request-kicker">Jouw idee, onze volgende plaat</p>
+      <h2 id="requestHeading">Mis je iets? Vraag een kleurplaat aan.</h2>
+      <p class="request-intro">Vertel ons wat je graag wilt kleuren. We verzamelen de leukste, kindveilige ideeën en nemen ze mee in volgende reeksen.</p>
+    </div>
+    <form class="request-form" data-coloring-request data-lang="nl">
+      <div class="request-field request-field-wide"><label for="requestIdea">Wat wil je graag kleuren?</label><input id="requestIdea" name="idea" type="text" placeholder="Bijvoorbeeld: een otter die een schelp zoekt" required/></div>
+      <div class="request-field"><label for="requestAge">Voor welke leeftijd?</label><select id="requestAge" name="age"><option>3–5 jaar</option><option>6–8 jaar</option><option>9–12 jaar</option><option>Voor verschillende leeftijden</option></select></div>
+      <div class="request-field"><label for="requestDifficulty">Hoe moeilijk?</label><select id="requestDifficulty" name="difficulty"><option>Makkelijk</option><option>Gemiddeld</option><option>Uitdagend</option><option>Verras me</option></select></div>
+      <div class="request-field request-field-wide"><label for="requestDetails">Extra wensen (optioneel)</label><textarea id="requestDetails" name="details" placeholder="Welke houding, omgeving of belangrijke kenmerken moeten erop?"></textarea></div>
+      <button class="request-submit" type="submit">Maak mijn aanvraag klaar <span aria-hidden="true">→</span></button>
+      <p class="request-note">We vragen geen naam of gegevens van je kind. De knop opent je eigen e-mailprogramma; pas daar kies je zelf voor verzenden.</p>
+      <p class="request-status" data-request-status aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 <section class="support-section" id="steun-ons" aria-labelledby="supportHeading">
   <div class="support-story">
     <p class="support-kicker">Ons verhaal — begonnen aan de keukentafel</p>
@@ -520,6 +539,7 @@
         <h4>Informatie</h4>
         <ul>
           <li><a href="/vandaag-op-aarde/">Vandaag op Aarde</a></li>
+          <li><a href="#kleurplaat-aanvragen">Kleurplaat aanvragen</a></li>
           <li><a href="/over">Over KidsLoveColor</a></li>
           <li><a href="/contact">Contact</a></li>
           <li><a href="/privacy">Privacybeleid</a></li>
@@ -584,6 +604,7 @@
 </div>
 
 <!-- Scroll-to-top knop -->
+<a class="support-sticky" href="#steun-ons" data-support-sticky aria-label="Steun KidsLoveColor"><span aria-hidden="true">♥</span>Steun ons</a>
 <button class="scroll-top" id="scrollTop" aria-label="Terug naar boven scrollen">↑</button>
 
 <!-- =============================================

@@ -3815,6 +3815,56 @@ const COLORINGS = [
     zh: { title: '有宇航员园丁的月球温室', description: '免费高难度太空涂色页：一名宇航员在月球温室里给高架种植床浇水，外面有太阳能板，天空中能看到地球。', keywords: '月球 温室 宇航员 园丁 植物 太阳能板 地球 太空 困难 免费 大孩子 涂色页', altText: '宇航员在月球温室内给植物浇水的精细涂色页' },
   },
 
+  {
+    id: 406, slug: 'harbor-seal-pup-resting-on-sandbar', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--harbor-seal-pup-resting-on-sandbar.jpg',
+    nl: { title: 'Jonge Zeehond Rust op een Zandbank', description: 'Gratis makkelijke dierenkleurplaat van één jonge gewone zeehond die op een rustige zandbank rust, met drie schelpen en zachte golven.', keywords: 'jonge zeehond zandbank schelpen zee dieren makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van een jonge zeehond op een zandbank met drie schelpen en rustige golven' },
+    en: { title: 'Harbor Seal Pup Resting on a Sandbar', description: 'Free easy animal coloring page of one harbor seal pup resting on a calm sandbar with three shells and gentle sea waves.', keywords: 'harbor seal pup sandbar shells sea animals easy coloring page free kids', altText: 'Easy coloring page of a harbor seal pup on a sandbar with three shells and calm waves' },
+    fr: { title: 'Jeune Phoque se Reposant sur un Banc de Sable', description: 'Coloriage d’animaux facile et gratuit d’un jeune phoque commun se reposant sur un banc de sable avec trois coquillages et de petites vagues.', keywords: 'jeune phoque banc sable coquillages mer animaux coloriage facile gratuit enfants', altText: 'Coloriage facile d’un jeune phoque sur un banc de sable avec trois coquillages et des vagues calmes' },
+    es: { title: 'Cría de Foca Descansando en un Banco de Arena', description: 'Página fácil de animales para colorear gratis con una cría de foca común descansando en un banco de arena, tres conchas y olas suaves.', keywords: 'cría foca banco arena conchas mar animales colorear fácil gratis niños', altText: 'Página fácil para colorear de una cría de foca en un banco de arena con tres conchas y olas tranquilas' },
+    zh: { title: '在沙洲上休息的小海豹', description: '免费简单动物涂色页：一只小斑海豹在安静的沙洲上休息，旁边有三个贝壳和轻柔海浪。', keywords: '小海豹 沙洲 贝壳 海洋 动物 简单 免费 儿童 涂色页', altText: '小海豹在有三个贝壳和轻柔海浪的沙洲上休息的简单涂色页' },
+  },
+
+  {
+    id: 407, slug: 'autumn-puddle-with-rain-boots-and-paper-boat', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/seizoenen--easy--autumn-puddle-with-rain-boots-and-paper-boat.jpg',
+    nl: { title: 'Herfstplas met Regenlaarzen en Papieren Bootje', description: 'Gratis makkelijke herfstkleurplaat met twee regenlaarzen naast een plas, één papieren bootje, een paraplu en vijf herfstbladeren.', keywords: 'herfst plas regenlaarzen papieren bootje paraplu bladeren seizoenen makkelijke kleurplaat gratis kinderen', altText: 'Makkelijke kleurplaat van twee regenlaarzen, een paraplu en een papieren bootje in een herfstplas' },
+    en: { title: 'Autumn Puddle with Rain Boots and a Paper Boat', description: 'Free easy autumn coloring page with two rain boots beside a puddle, one paper boat, an umbrella and five autumn leaves.', keywords: 'autumn puddle rain boots paper boat umbrella leaves seasons easy coloring page free kids', altText: 'Easy coloring page of two rain boots, an umbrella and a paper boat in an autumn puddle' },
+    fr: { title: 'Flaque d’Automne avec Bottes et Bateau en Papier', description: 'Coloriage d’automne facile et gratuit avec deux bottes près d’une flaque, un bateau en papier, un parapluie et cinq feuilles.', keywords: 'automne flaque bottes pluie bateau papier parapluie feuilles saisons coloriage facile gratuit enfants', altText: 'Coloriage facile de deux bottes, un parapluie et un bateau en papier dans une flaque d’automne' },
+    es: { title: 'Charco de Otoño con Botas y Barquito de Papel', description: 'Página fácil de otoño para colorear gratis con dos botas junto a un charco, un barquito de papel, un paraguas y cinco hojas.', keywords: 'otoño charco botas lluvia barco papel paraguas hojas estaciones colorear fácil gratis niños', altText: 'Página fácil para colorear de dos botas, un paraguas y un barquito de papel en un charco de otoño' },
+    zh: { title: '有雨靴和纸船的秋日水洼', description: '免费简单秋季涂色页：水洼旁有两只雨靴，水中有一艘纸船，旁边还有雨伞和五片秋叶。', keywords: '秋天 水洼 雨靴 纸船 雨伞 树叶 季节 简单 免费 儿童 涂色页', altText: '两只雨靴、一把雨伞和秋日水洼中一艘纸船的简单涂色页' },
+  },
+
+  {
+    id: 408, slug: 'book-conservator-repairing-picture-book', category: 'beroepen', difficulty: 'medium',
+    img: '../img/kleurplaten/beroepen--medium--book-conservator-repairing-picture-book.jpg',
+    nl: { title: 'Boekrestaurator Repareert een Prentenboek', description: 'Gratis gemiddelde beroepenkleurplaat van een boekrestaurator die met een zachte kwast een open prentenboek herstelt aan een nette werktafel.', keywords: 'boekrestaurator prentenboek zachte kwast bibliotheek beroep gemiddelde kleurplaat gratis kinderen', altText: 'Kleurplaat van een boekrestaurator met precies twee handen die een open prentenboek zorgvuldig herstelt' },
+    en: { title: 'Book Conservator Repairing a Picture Book', description: 'Free medium careers coloring page of a book conservator carefully repairing an open picture book with a soft brush at a tidy worktable.', keywords: 'book conservator picture book soft brush library career medium coloring page free kids', altText: 'Coloring page of a book conservator with exactly two hands carefully repairing an open picture book' },
+    fr: { title: 'Restauratrice de Livres Réparant un Album Illustré', description: 'Coloriage de métiers moyen et gratuit d’une restauratrice réparant soigneusement un album ouvert avec un pinceau doux sur une table rangée.', keywords: 'restauratrice livres album illustré pinceau bibliothèque métier coloriage moyen gratuit enfants', altText: 'Coloriage d’une restauratrice avec exactement deux mains réparant soigneusement un album ouvert' },
+    es: { title: 'Restauradora de Libros Reparando un Álbum Ilustrado', description: 'Página de profesiones de dificultad media para colorear gratis con una restauradora reparando un álbum abierto con un pincel suave.', keywords: 'restauradora libros álbum ilustrado pincel biblioteca profesión colorear medio gratis niños', altText: 'Página para colorear de una restauradora con exactamente dos manos reparando con cuidado un álbum abierto' },
+    zh: { title: '图书修复师修补绘本', description: '免费中等难度职业涂色页：一名图书修复师在整洁工作台前，用柔软刷子小心修补一本打开的绘本。', keywords: '图书修复师 绘本 软刷 图书馆 职业 中等 免费 儿童 涂色页', altText: '一名只有两只手的图书修复师小心修补打开绘本的涂色页' },
+  },
+
+  {
+    id: 409, slug: 'mountain-funicular-at-passing-loop', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--mountain-funicular-at-passing-loop.jpg',
+    nl: { title: 'Bergkabelbaan bij een Passeerspoor', description: 'Gratis gemiddelde voertuigenkleurplaat van twee kabelbaanwagens die elkaar passeren op een dubbel spoor tussen bergen en dennenbomen.', keywords: 'bergkabelbaan funicular passeerspoor kabel wagens bergen voertuig gemiddelde kleurplaat gratis kinderen', altText: 'Kleurplaat van twee bergkabelbaanwagens die elkaar op een passeerspoor tegemoetkomen' },
+    en: { title: 'Mountain Funicular at a Passing Loop', description: 'Free medium vehicle coloring page of two funicular cars passing one another on a double-track loop between mountains and pine trees.', keywords: 'mountain funicular passing loop cable cars tracks vehicle medium coloring page free kids', altText: 'Coloring page of two mountain funicular cars meeting at a passing loop' },
+    fr: { title: 'Funiculaire de Montagne sur une Voie d’Évitement', description: 'Coloriage de véhicules moyen et gratuit de deux voitures de funiculaire se croisant sur une double voie entre montagnes et sapins.', keywords: 'funiculaire montagne voie évitement câble voitures véhicule coloriage moyen gratuit enfants', altText: 'Coloriage de deux voitures de funiculaire se croisant sur une voie d’évitement en montagne' },
+    es: { title: 'Funicular de Montaña en una Vía de Cruce', description: 'Página de vehículos de dificultad media para colorear gratis con dos vagones de funicular cruzándose en una doble vía entre montañas y pinos.', keywords: 'funicular montaña vía cruce cable vagones vehículo colorear medio gratis niños', altText: 'Página para colorear de dos vagones de funicular encontrándose en una vía de cruce de montaña' },
+    zh: { title: '山地缆车在会车轨道相遇', description: '免费中等难度交通涂色页：两辆山地缆车在群山和松树之间的双轨会车段相互经过。', keywords: '山地缆车 会车轨道 钢缆 车厢 山脉 交通 中等 免费 儿童 涂色页', altText: '两辆山地缆车在山间会车轨道相遇的涂色页' },
+  },
+
+  {
+    id: 410, slug: 'underground-ant-colony-cutaway', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--underground-ant-colony-cutaway.jpg',
+    nl: { title: 'Ondergrondse Mierenkolonie in Doorsnede', description: 'Gratis moeilijke natuurkleurplaat van een mierenkolonie in doorsnede met tunnels, kamers, larven, voedselvoorraad en werkmieren.', keywords: 'mierenkolonie doorsnede tunnels kamers larven werkmieren natuur moeilijke kleurplaat gratis oudere kinderen', altText: 'Gedetailleerde maar rustige kleurplaat van een ondergrondse mierenkolonie met verbonden kamers en tunnels' },
+    en: { title: 'Underground Ant Colony Cutaway', description: 'Free hard nature coloring page of an underground ant colony cutaway with tunnels, chambers, larvae, stored food and worker ants.', keywords: 'ant colony cutaway tunnels chambers larvae worker ants nature hard coloring page free older kids', altText: 'Detailed but calm coloring page of an underground ant colony with connected chambers and tunnels' },
+    fr: { title: 'Fourmilière Souterraine en Coupe', description: 'Coloriage nature difficile et gratuit d’une fourmilière en coupe avec tunnels, chambres, larves, réserves et fourmis ouvrières.', keywords: 'fourmilière coupe tunnels chambres larves ouvrières nature coloriage difficile gratuit grands enfants', altText: 'Coloriage détaillé mais aéré d’une fourmilière souterraine avec chambres et tunnels reliés' },
+    es: { title: 'Hormiguero Subterráneo en Corte', description: 'Página difícil de naturaleza para colorear gratis con un hormiguero en corte, túneles, cámaras, larvas, alimentos y hormigas obreras.', keywords: 'hormiguero corte túneles cámaras larvas hormigas obreras naturaleza colorear difícil gratis niños mayores', altText: 'Página detallada pero tranquila para colorear de un hormiguero subterráneo con cámaras y túneles conectados' },
+    zh: { title: '地下蚁巢剖面图', description: '免费高难度自然涂色页：地下蚁巢剖面中有隧道、巢室、幼虫、储存食物和工蚁。', keywords: '蚁巢 剖面 隧道 巢室 幼虫 工蚁 自然 困难 免费 大孩子 涂色页', altText: '由巢室和隧道连接的地下蚁巢精细而清爽的涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

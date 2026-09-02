@@ -422,6 +422,25 @@
   </ol>
 </section>
 
+<section class="request-section" id="kleurplaat-aanvragen" aria-labelledby="requestHeading">
+  <div class="request-inner">
+    <div class="request-copy">
+      <p class="request-kicker">Ton idée, notre prochain coloriage</p>
+      <h2 id="requestHeading">Il manque quelque chose ? Demande un coloriage.</h2>
+      <p class="request-intro">Dis-nous ce que tu aimerais colorier. Nous rassemblons les meilleures idées adaptées aux enfants pour nos prochaines séries.</p>
+    </div>
+    <form class="request-form" data-coloring-request data-lang="fr">
+      <div class="request-field request-field-wide"><label for="requestIdea">Que voudrais-tu colorier ?</label><input id="requestIdea" name="idea" type="text" placeholder="Par exemple : une loutre cherchant un coquillage" required/></div>
+      <div class="request-field"><label for="requestAge">Pour quel âge ?</label><select id="requestAge" name="age"><option>3–5 ans</option><option>6–8 ans</option><option>9–12 ans</option><option>Plusieurs âges</option></select></div>
+      <div class="request-field"><label for="requestDifficulty">Quelle difficulté ?</label><select id="requestDifficulty" name="difficulty"><option>Facile</option><option>Moyenne</option><option>Difficile</option><option>Surprends-moi</option></select></div>
+      <div class="request-field request-field-wide"><label for="requestDetails">Souhaits supplémentaires (facultatif)</label><textarea id="requestDetails" name="details" placeholder="Quelle pose, quel décor ou quels détails importants faut-il ajouter ?"></textarea></div>
+      <button class="request-submit" type="submit">Préparer ma demande <span aria-hidden="true">→</span></button>
+      <p class="request-note">Nous ne demandons ni le nom ni les données de ton enfant. Le bouton ouvre ta messagerie ; tu choisis ensuite d’envoyer.</p>
+      <p class="request-status" data-request-status aria-live="polite"></p>
+    </form>
+  </div>
+</section>
+
 <section class="support-section" id="steun-ons" aria-labelledby="supportHeading">
   <div class="support-story">
     <p class="support-kicker">Notre histoire — née autour de la table de la cuisine</p>
@@ -504,6 +523,7 @@
         <h4>Informations</h4>
         <ul>
           <li><a href="/fr/aujourdhui-sur-terre/">Aujourd’hui sur Terre</a></li>
+          <li><a href="#kleurplaat-aanvragen">Demander un coloriage</a></li>
           <li><a href="/fr/over">À propos de KidsLoveColor</a></li>
           <li><a href="/fr/contact">Contact</a></li>
           <li><a href="/fr/privacy">Politique de confidentialité</a></li>
@@ -563,6 +583,7 @@
   </div>
 </div>
 
+<a class="support-sticky" href="#steun-ons" data-support-sticky aria-label="Soutenir KidsLoveColor"><span aria-hidden="true">♥</span>Nous soutenir</a>
 <button class="scroll-top" id="scrollTop" aria-label="Retour en haut">↑</button>
 
 <script src="../js/data.js"></script>

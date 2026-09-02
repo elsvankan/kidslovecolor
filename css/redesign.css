@@ -1312,6 +1312,225 @@ h4 {
   }
 }
 
+/* -------------------------------------------------------
+   COLORING REQUESTS
+   ------------------------------------------------------- */
+.request-section {
+  background:
+    radial-gradient(circle at 88% 16%, rgba(232, 224, 242, 0.72), transparent 28%),
+    var(--klc-paper, #fbf8f6);
+  border-top: 1px solid var(--klc-line, #ded4dc);
+  padding: 108px 28px;
+}
+
+.request-inner {
+  align-items: start;
+  display: grid;
+  gap: clamp(52px, 8vw, 110px);
+  grid-template-columns: minmax(0, 0.78fr) minmax(480px, 1.22fr);
+  margin: 0 auto;
+  max-width: 1140px;
+}
+
+.request-copy {
+  padding-top: 8px;
+}
+
+.request-kicker {
+  color: var(--klc-raspberry, #a94f73);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+  margin: 0 0 20px;
+  text-transform: uppercase;
+}
+
+.request-copy h2 {
+  color: var(--klc-ink, #342d38);
+  font-family: var(--klc-display, Georgia, serif);
+  font-size: clamp(48px, 5.7vw, 78px);
+  font-weight: 400;
+  letter-spacing: -0.045em;
+  line-height: 0.96;
+  margin: 0;
+}
+
+.request-intro {
+  color: var(--klc-muted, #746a77);
+  font-size: 17px;
+  line-height: 1.75;
+  margin: 30px 0 0;
+  max-width: 470px;
+}
+
+.request-form {
+  background: var(--klc-white, #fff);
+  border: 1px solid var(--klc-line, #ded4dc);
+  border-radius: 28px;
+  box-shadow: 0 24px 70px rgba(52, 45, 56, 0.08);
+  display: grid;
+  gap: 20px 16px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  padding: clamp(28px, 4vw, 46px);
+}
+
+.request-field {
+  display: grid;
+  gap: 9px;
+}
+
+.request-field-wide,
+.request-submit,
+.request-note,
+.request-status {
+  grid-column: 1 / -1;
+}
+
+.request-field label {
+  color: var(--klc-ink, #342d38);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.request-field input,
+.request-field select,
+.request-field textarea {
+  appearance: none;
+  background: var(--klc-paper, #fbf8f6);
+  border: 1px solid var(--klc-line, #ded4dc);
+  border-radius: 17px;
+  color: var(--klc-ink, #342d38);
+  font: inherit;
+  min-height: 54px;
+  padding: 14px 16px;
+  width: 100%;
+}
+
+.request-field textarea {
+  min-height: 116px;
+  resize: vertical;
+}
+
+.request-field input:focus,
+.request-field select:focus,
+.request-field textarea:focus {
+  border-color: var(--klc-rose, #c96d91);
+  box-shadow: 0 0 0 4px rgba(201, 109, 145, 0.13);
+  outline: 0;
+}
+
+.request-submit {
+  align-items: center;
+  background: var(--klc-raspberry, #a94f73);
+  border: 0;
+  border-radius: 999px;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  font-weight: 800;
+  justify-content: space-between;
+  min-height: 54px;
+  padding: 0 22px;
+}
+
+.request-submit:hover {
+  background: var(--klc-rose, #c96d91);
+}
+
+.request-note,
+.request-status {
+  color: var(--klc-muted, #746a77);
+  font-size: 12px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+.request-status {
+  color: var(--klc-raspberry, #a94f73);
+  font-weight: 700;
+}
+
+/* -------------------------------------------------------
+   STICKY SUPPORT LINK
+   ------------------------------------------------------- */
+.support-sticky {
+  align-items: center;
+  background: var(--klc-raspberry, #a94f73);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: 999px;
+  bottom: 24px;
+  box-shadow: 0 12px 34px rgba(52, 45, 56, 0.2);
+  color: #fff;
+  display: flex;
+  font-size: 13px;
+  font-weight: 800;
+  gap: 9px;
+  left: 24px;
+  opacity: 0;
+  padding: 10px 16px 10px 10px;
+  pointer-events: none;
+  position: fixed;
+  text-decoration: none;
+  transform: translateY(14px);
+  transition: opacity 180ms ease, transform 180ms ease;
+  visibility: hidden;
+  z-index: 90;
+}
+
+.support-sticky span {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 50%;
+  display: inline-flex;
+  height: 30px;
+  justify-content: center;
+  width: 30px;
+}
+
+.support-sticky.is-visible {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+  visibility: visible;
+}
+
+@media (max-width: 840px) {
+  .request-section {
+    padding: 82px 18px;
+  }
+
+  .request-inner {
+    gap: 38px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 520px) {
+  .request-copy h2 {
+    font-size: clamp(48px, 14vw, 62px);
+  }
+
+  .request-form {
+    grid-template-columns: 1fr;
+    padding: 24px;
+  }
+
+  .request-field,
+  .request-field-wide,
+  .request-submit,
+  .request-note,
+  .request-status {
+    grid-column: 1;
+  }
+
+  .support-sticky {
+    bottom: 18px;
+    left: 18px;
+    padding: 8px 14px 8px 8px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
