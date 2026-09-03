@@ -1537,6 +1537,26 @@
       "destination": "/kleurplaat/research-submersible-at-hydrothermal-vents/index.html"
     },
     {
+      "source": "/kleurplaat/fennec-fox-beside-desert-burrow",
+      "destination": "/kleurplaat/fennec-fox-beside-desert-burrow/index.html"
+    },
+    {
+      "source": "/kleurplaat/solar-canal-cleanup-boat",
+      "destination": "/kleurplaat/solar-canal-cleanup-boat/index.html"
+    },
+    {
+      "source": "/kleurplaat/enchanted-library-tree",
+      "destination": "/kleurplaat/enchanted-library-tree/index.html"
+    },
+    {
+      "source": "/kleurplaat/five-origami-cranes-hanging-mobile",
+      "destination": "/kleurplaat/five-origami-cranes-hanging-mobile/index.html"
+    },
+    {
+      "source": "/kleurplaat/alpine-glacier-cutaway-with-meltwater-tunnel",
+      "destination": "/kleurplaat/alpine-glacier-cutaway-with-meltwater-tunnel/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
