@@ -1549,12 +1549,16 @@
       "destination": "/kleurplaat/enchanted-library-tree/index.html"
     },
     {
-      "source": "/kleurplaat/five-origami-cranes-hanging-mobile",
-      "destination": "/kleurplaat/five-origami-cranes-hanging-mobile/index.html"
+      "source": "/kleurplaat/origami-cranes-hanging-mobile",
+      "destination": "/kleurplaat/origami-cranes-hanging-mobile/index.html"
     },
     {
-      "source": "/kleurplaat/alpine-glacier-cutaway-with-meltwater-tunnel",
-      "destination": "/kleurplaat/alpine-glacier-cutaway-with-meltwater-tunnel/index.html"
+      "source": "/kleurplaat/jiangnan-water-town-with-arched-bridge",
+      "destination": "/kleurplaat/jiangnan-water-town-with-arched-bridge/index.html"
+    },
+    {
+      "source": "/kleurplaat/moon-rabbit-with-mooncakes",
+      "destination": "/kleurplaat/moon-rabbit-with-mooncakes/index.html"
     },
     {
       "source": "/kleurplaat/(.*)",
