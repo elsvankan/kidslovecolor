@@ -1517,6 +1517,26 @@
       "destination": "/kleurplaat/underground-ant-colony-cutaway/index.html"
     },
     {
+      "source": "/kleurplaat/red-squirrel-storing-hazelnuts-in-tree-hollow",
+      "destination": "/kleurplaat/red-squirrel-storing-hazelnuts-in-tree-hollow/index.html"
+    },
+    {
+      "source": "/kleurplaat/six-compartment-lunchbox-with-fruit-and-snacks",
+      "destination": "/kleurplaat/six-compartment-lunchbox-with-fruit-and-snacks/index.html"
+    },
+    {
+      "source": "/kleurplaat/botanical-illustrator-drawing-a-potted-fern",
+      "destination": "/kleurplaat/botanical-illustrator-drawing-a-potted-fern/index.html"
+    },
+    {
+      "source": "/kleurplaat/tiny-dragon-lantern-keeper-in-mushroom-village",
+      "destination": "/kleurplaat/tiny-dragon-lantern-keeper-in-mushroom-village/index.html"
+    },
+    {
+      "source": "/kleurplaat/research-submersible-at-hydrothermal-vents",
+      "destination": "/kleurplaat/research-submersible-at-hydrothermal-vents/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
