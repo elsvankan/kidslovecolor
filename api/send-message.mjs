@@ -32,20 +32,6 @@ function isEmail(value) {
   return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(value) && value.length <= MAX_LENGTHS.email;
 }
 
-function escapeHtml(value) {
-  return value.replace(/[&<>"']/g, (character) => ({
-    "&": "&amp;",
-    "<": "&lt;",
-    ">": "&gt;",
-    '"': "&quot;",
-    "'": "&#39;",
-  })[character]);
-}
-
-function row(label, value) {
-  return `<tr><th align="left" valign="top" style="padding:6px 14px 6px 0">${escapeHtml(label)}</th><td style="padding:6px 0;white-space:pre-wrap">${escapeHtml(value || "—")}</td></tr>`;
-}
-
 function buildRequest(payload) {
   const idea = clean(payload.idea, "idea", true);
   const age = clean(payload.age, "age", true);
@@ -59,20 +45,17 @@ function buildRequest(payload) {
   if (notify && !email) throw new Error("missing:email");
 
   return {
-    subject: `Kleurplaataanvraag: ${idea}`,
+    subject: `Kleurplaataanvraag: ${idea.replace(/[\r\n]+/g, " ")}`,
     replyTo: email || null,
-    html: [
-      "<h1>Nieuwe kleurplaataanvraag</h1>",
-      "<table>",
-      row("Idee", idea),
-      row("Leeftijd", age),
-      row("Moeilijkheid", difficulty),
-      row("Extra wensen", details),
-      row("Op de hoogte houden", notify ? "Ja" : "Nee"),
-      row("E-mailadres ouder/leerkracht", email),
-      row("Bronpagina", source),
-      "</table>",
-    ].join(""),
+    fields: {
+      Type: "Kleurplaataanvraag",
+      Idee: idea,
+      Leeftijd: age,
+      Moeilijkheid: difficulty,
+      "Extra wensen": details || "—",
+      "Op de hoogte houden": notify ? "Ja" : "Nee",
+      Bronpagina: source || "—",
+    },
   };
 }
 
@@ -86,18 +69,15 @@ function buildContact(payload) {
   if (!isEmail(email)) throw new Error("invalid:email");
 
   return {
-    subject: `Contact via KidsLoveColor: ${subject}`,
+    subject: `Contact via KidsLoveColor: ${subject.replace(/[\r\n]+/g, " ")}`,
     replyTo: email,
-    html: [
-      "<h1>Nieuw contactbericht</h1>",
-      "<table>",
-      row("Naam", name),
-      row("E-mailadres", email),
-      row("Onderwerp", subject),
-      row("Bericht", message),
-      row("Bronpagina", source),
-      "</table>",
-    ].join(""),
+    fields: {
+      Type: "Contactbericht",
+      Naam: name,
+      Onderwerp: subject,
+      Bericht: message,
+      Bronpagina: source || "—",
+    },
   };
 }
 
@@ -105,11 +85,7 @@ export default {
   async fetch(request) {
     if (request.method === "GET") {
       return json({
-        available: Boolean(
-          process.env.RESEND_API_KEY &&
-          process.env.KLC_CONTACT_RECIPIENT &&
-          process.env.KLC_CONTACT_FROM
-        ),
+        available: Boolean(process.env.WEB3FORMS_ACCESS_KEY),
       });
     }
 
@@ -119,7 +95,7 @@ export default {
 
     const requestUrl = new URL(request.url);
     const origin = request.headers.get("origin");
-    if (origin && origin !== requestUrl.origin) {
+    if (origin !== requestUrl.origin) {
       return json({ error: "Ongeldige herkomst." }, 403);
     }
 
@@ -144,38 +120,38 @@ export default {
       return json({ error: "Controleer de ingevulde velden." }, 400);
     }
 
-    const apiKey = process.env.RESEND_API_KEY;
-    const recipient = process.env.KLC_CONTACT_RECIPIENT;
-    const sender = process.env.KLC_CONTACT_FROM;
-    if (!apiKey || !recipient || !sender) {
-      console.error("De mailinstellingen voor KidsLoveColor ontbreken.");
+    const accessKey = process.env.WEB3FORMS_ACCESS_KEY;
+    if (!accessKey) {
+      console.error("De Web3Forms-sleutel voor KidsLoveColor ontbreekt.");
       return json({ error: "Het formulier is tijdelijk niet beschikbaar." }, 503);
     }
 
-    let mailResponse;
+    let formResponse;
     try {
-      mailResponse = await fetch("https://api.resend.com/emails", {
+      formResponse = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
         headers: {
-          Authorization: `Bearer ${apiKey}`,
           "Content-Type": "application/json",
         },
         body: JSON.stringify({
-          from: sender,
-          to: [recipient],
+          access_key: accessKey,
           subject: email.subject,
-          html: email.html,
-          ...(email.replyTo ? { reply_to: email.replyTo } : {}),
+          from_name: "KidsLoveColor website",
+          ...(email.replyTo ? { email: email.replyTo } : {}),
+          ...email.fields,
         }),
       });
     } catch (error) {
-      console.error("De maildienst is niet bereikbaar.", error);
+      console.error("Web3Forms is niet bereikbaar.", error);
       return json({ error: "Het bericht kon niet worden verzonden." }, 502);
     }
 
-    if (!mailResponse.ok) {
-      const providerError = await mailResponse.text();
-      console.error(`De maildienst gaf status ${mailResponse.status}: ${providerError}`);
+    const providerResult = await formResponse.json().catch(() => null);
+    if (!formResponse.ok || providerResult?.success !== true) {
+      console.error("Web3Forms heeft het bericht geweigerd.", {
+        status: formResponse.status,
+        response: providerResult,
+      });
       return json({ error: "Het bericht kon niet worden verzonden." }, 502);
     }
 
