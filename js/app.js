@@ -968,20 +968,37 @@ function setupSupportSticky() {
 // -------------------------------------------------------
 function setupColoringRequests() {
   const copy = {
-    nl: { sending: 'Even versturen…', success: 'Dank je! Je aanvraag is veilig verstuurd.', error: 'Versturen lukt nu niet. Probeer het later opnieuw.', emailRequired: 'Vul het e-mailadres van een ouder of leerkracht in als je op de hoogte wilt blijven.' },
-    en: { sending: 'Sending…', success: 'Thank you! Your request was sent securely.', error: 'We cannot send your request right now. Please try again later.', emailRequired: 'Enter a parent or teacher email address if you would like an update.' },
-    fr: { sending: 'Envoi…', success: 'Merci ! Votre demande a été envoyée en toute sécurité.', error: 'Impossible d’envoyer votre demande pour le moment. Réessayez plus tard.', emailRequired: 'Indiquez l’adresse e-mail d’un parent ou enseignant pour recevoir des nouvelles.' },
-    es: { sending: 'Enviando…', success: '¡Gracias! Tu solicitud se ha enviado de forma segura.', error: 'No podemos enviar tu solicitud ahora. Inténtalo de nuevo más tarde.', emailRequired: 'Introduce el correo de una persona adulta o docente si quieres recibir novedades.' },
-    zh: { sending: '正在发送…', success: '谢谢！您的申请已安全发送。', error: '暂时无法发送申请，请稍后再试。', emailRequired: '如需接收进度通知，请填写家长或老师的电子邮箱。' },
+    nl: { sending: 'Even versturen…', success: 'Dank je! Je aanvraag is veilig verstuurd.', error: 'Versturen lukt nu niet. Probeer het later opnieuw.', unavailable: 'Kleurplaten aanvragen is heel even gesloten. We openen het formulier snel weer.', emailRequired: 'Vul het e-mailadres van een ouder of leerkracht in als je op de hoogte wilt blijven.' },
+    en: { sending: 'Sending…', success: 'Thank you! Your request was sent securely.', error: 'We cannot send your request right now. Please try again later.', unavailable: 'Coloring page requests are briefly closed. We will reopen the form soon.', emailRequired: 'Enter a parent or teacher email address if you would like an update.' },
+    fr: { sending: 'Envoi…', success: 'Merci ! Votre demande a été envoyée en toute sécurité.', error: 'Impossible d’envoyer votre demande pour le moment. Réessayez plus tard.', unavailable: 'Les demandes de coloriages sont momentanément fermées. Le formulaire rouvrira bientôt.', emailRequired: 'Indiquez l’adresse e-mail d’un parent ou enseignant pour recevoir des nouvelles.' },
+    es: { sending: 'Enviando…', success: '¡Gracias! Tu solicitud se ha enviado de forma segura.', error: 'No podemos enviar tu solicitud ahora. Inténtalo de nuevo más tarde.', unavailable: 'Las solicitudes están cerradas durante un momento. Volveremos a abrir el formulario pronto.', emailRequired: 'Introduce el correo de una persona adulta o docente si quieres recibir novedades.' },
+    zh: { sending: '正在发送…', success: '谢谢！您的申请已安全发送。', error: '暂时无法发送申请，请稍后再试。', unavailable: '涂色页申请暂时关闭，我们会很快重新开放。', emailRequired: '如需接收进度通知，请填写家长或老师的电子邮箱。' },
   };
 
   document.querySelectorAll('[data-coloring-request]').forEach((form) => {
+    const lang = form.dataset.lang || currentLang || 'nl';
+    const labels = copy[lang] || copy.nl;
+    const availabilityStatus = form.querySelector('[data-request-status]');
+    const availabilityButton = form.querySelector('[type="submit"]');
+
+    fetch('/api/send-message', { headers: { Accept: 'application/json' } })
+      .then((response) => response.ok ? response.json() : Promise.reject())
+      .then((data) => {
+        if (!data.available) {
+          if (availabilityButton) availabilityButton.disabled = true;
+          if (availabilityStatus) availabilityStatus.textContent = labels.unavailable;
+        }
+      })
+      .catch(() => {});
+
+    form.addEventListener('input', (event) => {
+      if (event.target === form.elements.email) form.elements.email.setCustomValidity('');
+    });
+
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       if (!form.reportValidity()) return;
 
-      const lang = form.dataset.lang || currentLang || 'nl';
-      const labels = copy[lang] || copy.nl;
       const idea = form.elements.idea.value.trim();
       const email = form.elements.email.value.trim();
       const notify = form.elements.notify.checked;

@@ -103,6 +103,16 @@ function buildContact(payload) {
 
 export default {
   async fetch(request) {
+    if (request.method === "GET") {
+      return json({
+        available: Boolean(
+          process.env.RESEND_API_KEY &&
+          process.env.KLC_CONTACT_RECIPIENT &&
+          process.env.KLC_CONTACT_FROM
+        ),
+      });
+    }
+
     if (request.method !== "POST") {
       return json({ error: "Alleen POST-verzoeken zijn toegestaan." }, 405, { Allow: "POST" });
     }
