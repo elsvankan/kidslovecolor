@@ -434,8 +434,11 @@
       <div class="request-field"><label for="requestAge">¿Para qué edad?</label><select id="requestAge" name="age"><option>3–5 años</option><option>6–8 años</option><option>9–12 años</option><option>Varias edades</option></select></div>
       <div class="request-field"><label for="requestDifficulty">¿Qué dificultad?</label><select id="requestDifficulty" name="difficulty"><option>Fácil</option><option>Media</option><option>Difícil</option><option>Sorpréndeme</option></select></div>
       <div class="request-field request-field-wide"><label for="requestDetails">Deseos adicionales (opcional)</label><textarea id="requestDetails" name="details" placeholder="¿Qué postura, entorno o detalles importantes debe incluir?"></textarea></div>
-      <button class="request-submit" type="submit">Preparar mi solicitud <span aria-hidden="true">→</span></button>
-      <p class="request-note">No pedimos el nombre ni datos de tu hijo. El botón abre tu aplicación de correo; allí decides si quieres enviarlo.</p>
+      <div class="request-field request-field-wide"><label for="requestEmail">Correo de una persona adulta o docente (opcional)</label><input id="requestEmail" name="email" type="email" autocomplete="email" placeholder="Solo si quieres recibir novedades"/></div>
+      <label class="request-consent"><input name="notify" type="checkbox"/> Avísame si este dibujo se publica.</label>
+      <div hidden aria-hidden="true"><label for="requestWebsite">Sitio web</label><input id="requestWebsite" name="website" type="text" tabindex="-1" autocomplete="off"/></div>
+      <button class="request-submit" type="submit">Enviar mi solicitud <span aria-hidden="true">→</span></button>
+      <p class="request-note">Nunca pedimos datos de menores. El correo de una persona adulta o docente solo es necesario para recibir novedades.</p>
       <p class="request-status" data-request-status aria-live="polite"></p>
     </form>
   </div>

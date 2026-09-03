@@ -123,6 +123,8 @@
       transform: translateY(-1px);
       box-shadow: 0 4px 15px rgba(255,107,107,0.3);
     }
+    .btn.btn-primary:disabled { cursor: wait; opacity: 0.65; }
+    .contact-status { color: #A94F73; font-size: 0.9rem; font-weight: 700; min-height: 1.4em; }
     .contact-note {
       margin-top: 1.5rem;
       padding-top: 1rem;
@@ -174,7 +176,7 @@
           有问题、建议或评论？我们很乐意听到您的声音！
           请填写下面的表格，我们会尽快回复。
         </p>
-        <form class="contact-form" action="mailto:elsvankan@gmail.com" method="POST" enctype="text/plain">
+        <form class="contact-form" data-contact-form data-lang="zh">
           <div class="form-group">
             <label for="name">姓名</label>
             <input type="text" id="name" name="name" required placeholder="您的姓名"/>
@@ -191,11 +193,12 @@
             <label for="message">消息</label>
             <textarea id="message" name="message" rows="6" required placeholder="在这里输入您的消息..."></textarea>
           </div>
+          <div hidden aria-hidden="true"><label for="website">网站</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"/></div>
           <button type="submit" class="btn btn-primary">发送消息</button>
+          <p class="contact-status" data-contact-status aria-live="polite"></p>
         </form>
         <p class="contact-note">
-          您也可以直接通过电子邮件联系我们：
-          <a href="mailto:elsvankan@gmail.com">elsvankan@gmail.com</a>
+          您的消息会安全地直接发送给 KidsLoveColor，我们的个人邮箱地址不会公开。
         </p>
 </main>
 
@@ -203,5 +206,6 @@
   <p>© 2025 KidsLoveColor.com — 免费涂色页供个人使用</p>
 </footer>
 
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>

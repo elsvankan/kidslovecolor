@@ -1380,6 +1380,7 @@ h4 {
 }
 
 .request-field-wide,
+.request-consent,
 .request-submit,
 .request-note,
 .request-status {
@@ -1411,6 +1412,25 @@ h4 {
   resize: vertical;
 }
 
+.request-consent {
+  align-items: flex-start;
+  color: var(--klc-ink, #342d38);
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  font-weight: 700;
+  gap: 10px;
+  line-height: 1.45;
+}
+
+.request-consent input {
+  accent-color: var(--klc-raspberry, #a94f73);
+  flex: 0 0 auto;
+  height: 18px;
+  margin: 1px 0 0;
+  width: 18px;
+}
+
 .request-field input:focus,
 .request-field select:focus,
 .request-field textarea:focus {
@@ -1436,6 +1456,11 @@ h4 {
 
 .request-submit:hover {
   background: var(--klc-rose, #c96d91);
+}
+
+.request-submit:disabled {
+  cursor: wait;
+  opacity: 0.68;
 }
 
 .request-note,

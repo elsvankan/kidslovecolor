@@ -968,41 +968,71 @@ function setupSupportSticky() {
 // -------------------------------------------------------
 function setupColoringRequests() {
   const copy = {
-    nl: { subject: 'Aanvraag kleurplaat', idea: 'Onderwerp', age: 'Leeftijd', difficulty: 'Moeilijkheid', details: 'Extra wensen', source: 'Aangevraagd via', opened: 'Je e-mailprogramma wordt geopend. Controleer het bericht en klik daar op verzenden.' },
-    en: { subject: 'Coloring page request', idea: 'Subject', age: 'Age', difficulty: 'Difficulty', details: 'Extra wishes', source: 'Requested via', opened: 'Your email app will open. Check the message and press send there.' },
-    fr: { subject: 'Demande de coloriage', idea: 'Sujet', age: 'Âge', difficulty: 'Difficulté', details: 'Souhaits supplémentaires', source: 'Demandé via', opened: 'Votre messagerie va s’ouvrir. Vérifiez le message et envoyez-le depuis celle-ci.' },
-    es: { subject: 'Solicitud de página para colorear', idea: 'Tema', age: 'Edad', difficulty: 'Dificultad', details: 'Deseos adicionales', source: 'Solicitado desde', opened: 'Se abrirá tu aplicación de correo. Revisa el mensaje y pulsa enviar allí.' },
-    zh: { subject: '涂色页申请', idea: '主题', age: '年龄', difficulty: '难度', details: '其他要求', source: '申请页面', opened: '系统将打开你的邮件应用。请检查邮件内容并在邮件应用中发送。' },
+    nl: { sending: 'Even versturen…', success: 'Dank je! Je aanvraag is veilig verstuurd.', error: 'Versturen lukt nu niet. Probeer het later opnieuw.', emailRequired: 'Vul het e-mailadres van een ouder of leerkracht in als je op de hoogte wilt blijven.' },
+    en: { sending: 'Sending…', success: 'Thank you! Your request was sent securely.', error: 'We cannot send your request right now. Please try again later.', emailRequired: 'Enter a parent or teacher email address if you would like an update.' },
+    fr: { sending: 'Envoi…', success: 'Merci ! Votre demande a été envoyée en toute sécurité.', error: 'Impossible d’envoyer votre demande pour le moment. Réessayez plus tard.', emailRequired: 'Indiquez l’adresse e-mail d’un parent ou enseignant pour recevoir des nouvelles.' },
+    es: { sending: 'Enviando…', success: '¡Gracias! Tu solicitud se ha enviado de forma segura.', error: 'No podemos enviar tu solicitud ahora. Inténtalo de nuevo más tarde.', emailRequired: 'Introduce el correo de una persona adulta o docente si quieres recibir novedades.' },
+    zh: { sending: '正在发送…', success: '谢谢！您的申请已安全发送。', error: '暂时无法发送申请，请稍后再试。', emailRequired: '如需接收进度通知，请填写家长或老师的电子邮箱。' },
   };
 
   document.querySelectorAll('[data-coloring-request]').forEach((form) => {
-    form.addEventListener('submit', (event) => {
+    form.addEventListener('submit', async (event) => {
       event.preventDefault();
       if (!form.reportValidity()) return;
 
       const lang = form.dataset.lang || currentLang || 'nl';
       const labels = copy[lang] || copy.nl;
       const idea = form.elements.idea.value.trim();
-      const age = form.elements.age.options[form.elements.age.selectedIndex].text;
-      const difficulty = form.elements.difficulty.options[form.elements.difficulty.selectedIndex].text;
-      const details = form.elements.details.value.trim() || '—';
-      const body = [
-        labels.idea + ': ' + idea,
-        labels.age + ': ' + age,
-        labels.difficulty + ': ' + difficulty,
-        labels.details + ': ' + details,
-        '',
-        labels.source + ': ' + window.location.origin + window.location.pathname + '#kleurplaat-aanvragen',
-      ].join('\n');
-      const subject = labels.subject + ': ' + idea;
-      const mailto = 'mailto:elsvankan@gmail.com?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+      const email = form.elements.email.value.trim();
+      const notify = form.elements.notify.checked;
       const status = form.querySelector('[data-request-status]');
+      const button = form.querySelector('[type="submit"]');
+      const originalButtonHtml = button?.innerHTML;
 
-      if (status) status.textContent = labels.opened;
-      if (typeof window.gtag === 'function') {
-        window.gtag('event', 'coloring_request_started', { request_language: lang });
+      if (notify && !email) {
+        form.elements.email.setCustomValidity(labels.emailRequired);
+        form.elements.email.reportValidity();
+        return;
       }
-      window.location.href = mailto;
+      form.elements.email.setCustomValidity('');
+
+      if (button) {
+        button.disabled = true;
+        button.textContent = labels.sending;
+      }
+      if (status) status.textContent = labels.sending;
+
+      try {
+        const response = await fetch('/api/send-message', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            type: 'coloring-request',
+            idea,
+            age: form.elements.age.value,
+            difficulty: form.elements.difficulty.value,
+            details: form.elements.details.value.trim(),
+            email: notify ? email : '',
+            notify,
+            website: form.elements.website?.value || '',
+            source: window.location.origin + window.location.pathname + '#kleurplaat-aanvragen',
+          }),
+        });
+        if (!response.ok) throw new Error('send failed');
+
+        form.reset();
+        if (status) status.textContent = labels.success;
+        if (typeof window.gtag === 'function') {
+          window.gtag('event', 'coloring_request_sent', { request_language: lang });
+        }
+      } catch {
+        if (status) status.textContent = labels.error;
+      } finally {
+        if (button) {
+          button.disabled = false;
+          button.innerHTML = originalButtonHtml;
+        }
+      }
     });
   });
 }

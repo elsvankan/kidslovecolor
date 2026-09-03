@@ -123,6 +123,8 @@
       transform: translateY(-1px);
       box-shadow: 0 4px 15px rgba(255,107,107,0.3);
     }
+    .btn.btn-primary:disabled { cursor: wait; opacity: 0.65; }
+    .contact-status { color: #A94F73; font-size: 0.9rem; font-weight: 700; min-height: 1.4em; }
     .contact-note {
       margin-top: 1.5rem;
       padding-top: 1rem;
@@ -174,7 +176,7 @@
           Vous avez une question, une suggestion ou un commentaire ? Nous aimerions avoir de vos nouvelles !
           Remplissez le formulaire ci-dessous et nous essaierons de répondre dans les plus brefs délais.
         </p>
-        <form class="contact-form" action="mailto:elsvankan@gmail.com" method="POST" enctype="text/plain">
+        <form class="contact-form" data-contact-form data-lang="fr">
           <div class="form-group">
             <label for="name">Nom</label>
             <input type="text" id="name" name="name" required placeholder="Votre nom"/>
@@ -191,11 +193,12 @@
             <label for="message">Message</label>
             <textarea id="message" name="message" rows="6" required placeholder="Tapez votre message ici..."></textarea>
           </div>
+          <div hidden aria-hidden="true"><label for="website">Site web</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"/></div>
           <button type="submit" class="btn btn-primary">Envoyer</button>
+          <p class="contact-status" data-contact-status aria-live="polite"></p>
         </form>
         <p class="contact-note">
-          Vous pouvez également nous contacter directement par e-mail :
-          <a href="mailto:elsvankan@gmail.com">elsvankan@gmail.com</a>
+          Votre message est envoyé directement et en toute sécurité à KidsLoveColor. Notre adresse e-mail personnelle reste privée.
         </p>
 </main>
 
@@ -203,5 +206,6 @@
   <p>© 2025 KidsLoveColor.com — Coloriages gratuits pour usage personnel</p>
 </footer>
 
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>

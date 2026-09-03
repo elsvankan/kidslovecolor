@@ -432,8 +432,11 @@
       <div class="request-field"><label for="requestAge">适合什么年龄？</label><select id="requestAge" name="age"><option>3–5岁</option><option>6–8岁</option><option>9–12岁</option><option>多个年龄段</option></select></div>
       <div class="request-field"><label for="requestDifficulty">难度如何？</label><select id="requestDifficulty" name="difficulty"><option>简单</option><option>中等</option><option>有挑战</option><option>给我惊喜</option></select></div>
       <div class="request-field request-field-wide"><label for="requestDetails">其他要求（可选）</label><textarea id="requestDetails" name="details" placeholder="希望加入什么姿势、环境或重要特征？"></textarea></div>
-      <button class="request-submit" type="submit">准备申请邮件 <span aria-hidden="true">→</span></button>
-      <p class="request-note">我们不会询问孩子的姓名或资料。按钮会打开你的邮件应用，是否发送由你决定。</p>
+      <div class="request-field request-field-wide"><label for="requestEmail">家长或老师的电子邮箱（可选）</label><input id="requestEmail" name="email" type="email" autocomplete="email" placeholder="仅在需要进度通知时填写"/></div>
+      <label class="request-consent"><input name="notify" type="checkbox"/> 如果这张涂色页上线，请通知我。</label>
+      <div hidden aria-hidden="true"><label for="requestWebsite">网站</label><input id="requestWebsite" name="website" type="text" tabindex="-1" autocomplete="off"/></div>
+      <button class="request-submit" type="submit">发送我的申请 <span aria-hidden="true">→</span></button>
+      <p class="request-note">我们绝不会索取孩子的个人信息。只有在需要进度通知时，才需填写家长或老师的电子邮箱。</p>
       <p class="request-status" data-request-status aria-live="polite"></p>
     </form>
   </div>

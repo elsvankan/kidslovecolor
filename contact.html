@@ -123,6 +123,8 @@
       transform: translateY(-1px);
       box-shadow: 0 4px 15px rgba(255,107,107,0.3);
     }
+    .btn.btn-primary:disabled { cursor: wait; opacity: 0.65; }
+    .contact-status { color: #A94F73; font-size: 0.9rem; font-weight: 700; min-height: 1.4em; }
     .contact-note {
       margin-top: 1.5rem;
       padding-top: 1rem;
@@ -174,7 +176,7 @@
           Heb je een vraag, suggestie of opmerking? We horen graag van je!
           Vul het onderstaande formulier in en we proberen zo snel mogelijk te reageren.
         </p>
-        <form class="contact-form" action="mailto:elsvankan@gmail.com" method="POST" enctype="text/plain">
+        <form class="contact-form" data-contact-form data-lang="nl">
           <div class="form-group">
             <label for="name">Naam</label>
             <input type="text" id="name" name="name" required placeholder="Je naam"/>
@@ -191,11 +193,12 @@
             <label for="message">Bericht</label>
             <textarea id="message" name="message" rows="6" required placeholder="Typ je bericht hier..."></textarea>
           </div>
+          <div hidden aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"/></div>
           <button type="submit" class="btn btn-primary">Versturen</button>
+          <p class="contact-status" data-contact-status aria-live="polite"></p>
         </form>
         <p class="contact-note">
-          Je kunt ons ook direct bereiken via e-mail:
-          <a href="mailto:elsvankan@gmail.com">elsvankan@gmail.com</a>
+          Je bericht wordt rechtstreeks en veilig naar KidsLoveColor verstuurd. Ons persoonlijke e-mailadres blijft privé.
         </p>
 </main>
 
@@ -203,5 +206,6 @@
   <p>© 2025 KidsLoveColor.com — Gratis kleurplaten voor persoonlijk gebruik</p>
 </footer>
 
+<script src="/js/contact-form.js" defer></script>
 </body>
 </html>

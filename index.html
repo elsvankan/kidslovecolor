@@ -446,8 +446,11 @@
       <div class="request-field"><label for="requestAge">Voor welke leeftijd?</label><select id="requestAge" name="age"><option>3–5 jaar</option><option>6–8 jaar</option><option>9–12 jaar</option><option>Voor verschillende leeftijden</option></select></div>
       <div class="request-field"><label for="requestDifficulty">Hoe moeilijk?</label><select id="requestDifficulty" name="difficulty"><option>Makkelijk</option><option>Gemiddeld</option><option>Uitdagend</option><option>Verras me</option></select></div>
       <div class="request-field request-field-wide"><label for="requestDetails">Extra wensen (optioneel)</label><textarea id="requestDetails" name="details" placeholder="Welke houding, omgeving of belangrijke kenmerken moeten erop?"></textarea></div>
-      <button class="request-submit" type="submit">Maak mijn aanvraag klaar <span aria-hidden="true">→</span></button>
-      <p class="request-note">We vragen geen naam of gegevens van je kind. De knop opent je eigen e-mailprogramma; pas daar kies je zelf voor verzenden.</p>
+      <div class="request-field request-field-wide"><label for="requestEmail">E-mailadres van ouder of leerkracht (optioneel)</label><input id="requestEmail" name="email" type="email" autocomplete="email" placeholder="Alleen als je bericht wilt krijgen"/></div>
+      <label class="request-consent"><input name="notify" type="checkbox"/> Laat het weten als deze kleurplaat online komt.</label>
+      <div hidden aria-hidden="true"><label for="requestWebsite">Website</label><input id="requestWebsite" name="website" type="text" tabindex="-1" autocomplete="off"/></div>
+      <button class="request-submit" type="submit">Verstuur mijn aanvraag <span aria-hidden="true">→</span></button>
+      <p class="request-note">We vragen nooit gegevens van je kind. Een e-mailadres van een ouder of leerkracht is alleen nodig als je op de hoogte wilt blijven.</p>
       <p class="request-status" data-request-status aria-live="polite"></p>
     </form>
   </div>
