@@ -4131,7 +4131,7 @@ const COLORINGS = [
   },
   {
     id: 439, slug: 'young-fashion-designer-in-flower-studio', category: 'beroepen', difficulty: 'medium',
-    img: '../img/kleurplaten/beroepen--medium--young-fashion-designer-in-flower-studio.jpg',
+    img: '../img/kleurplaten/beroepen--medium--young-fashion-designer-in-flower-studio-corrected.jpg',
     nl: { title: 'Jonge Modeontwerper in een Bloemenatelier', description: 'Gratis beroepenkleurplaat van jonge modeontwerper in een bloemenatelier. Leerzaam kleurplaatje voor kinderen.', keywords: 'jonge modeontwerper in een bloemenatelier beroepen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat jonge modeontwerper in een bloemenatelier – kinderen' },
     en: { title: 'Young Fashion Designer in a Flower Studio', description: 'Free profession coloring page of young fashion designer in a flower studio. Educational coloring page for kids.', keywords: 'young fashion designer in a flower studio profession coloring page free kids', altText: 'Free coloring page young fashion designer in a flower studio – kids' },
     fr: { title: 'Jeune Styliste dans un Atelier Fleuri', description: 'Page à colorier métier gratuite de jeune styliste dans un atelier fleuri. Coloriage éducatif pour les enfants.', keywords: 'jeune styliste dans un atelier fleuri coloriage métier gratuit enfants', altText: 'Page à colorier jeune styliste dans un atelier fleuri – enfants' },
