@@ -1581,6 +1581,46 @@
       "destination": "/kleurplaat/crew-space-capsule-after-ocean-splashdown/index.html"
     },
     {
+      "source": "/kleurplaat/spectacled-bear-cub-in-andean-cloud-forest",
+      "destination": "/kleurplaat/spectacled-bear-cub-in-andean-cloud-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/totora-reed-boat-on-lake-titicaca",
+      "destination": "/kleurplaat/totora-reed-boat-on-lake-titicaca/index.html"
+    },
+    {
+      "source": "/kleurplaat/ring-tailed-lemur-family-by-baobab",
+      "destination": "/kleurplaat/ring-tailed-lemur-family-by-baobab/index.html"
+    },
+    {
+      "source": "/kleurplaat/indian-floral-rangoli-with-four-diyas",
+      "destination": "/kleurplaat/indian-floral-rangoli-with-four-diyas/index.html"
+    },
+    {
+      "source": "/kleurplaat/lisbon-hillside-tram",
+      "destination": "/kleurplaat/lisbon-hillside-tram/index.html"
+    },
+    {
+      "source": "/kleurplaat/kea-parrot-in-new-zealand-alps",
+      "destination": "/kleurplaat/kea-parrot-in-new-zealand-alps/index.html"
+    },
+    {
+      "source": "/kleurplaat/leafcutter-ant-trail-in-rainforest",
+      "destination": "/kleurplaat/leafcutter-ant-trail-in-rainforest/index.html"
+    },
+    {
+      "source": "/kleurplaat/traditional-turkish-breakfast-tray",
+      "destination": "/kleurplaat/traditional-turkish-breakfast-tray/index.html"
+    },
+    {
+      "source": "/kleurplaat/three-mice-in-cloud-bakery",
+      "destination": "/kleurplaat/three-mice-in-cloud-bakery/index.html"
+    },
+    {
+      "source": "/kleurplaat/radio-telescope-array-under-stars",
+      "destination": "/kleurplaat/radio-telescope-array-under-stars/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
