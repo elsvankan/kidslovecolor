@@ -1621,6 +1621,126 @@
       "destination": "/kleurplaat/radio-telescope-array-under-stars/index.html"
     },
     {
+      "source": "/kleurplaat/andean-weaving-workshop",
+      "destination": "/kleurplaat/andean-weaving-workshop/index.html"
+    },
+    {
+      "source": "/kleurplaat/indian-inspired-festive-fashion-atelier",
+      "destination": "/kleurplaat/indian-inspired-festive-fashion-atelier/index.html"
+    },
+    {
+      "source": "/kleurplaat/young-fashion-designer-in-flower-studio",
+      "destination": "/kleurplaat/young-fashion-designer-in-flower-studio/index.html"
+    },
+    {
+      "source": "/kleurplaat/cute-japanese-bento-lunch",
+      "destination": "/kleurplaat/cute-japanese-bento-lunch/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-donut-boutique-display",
+      "destination": "/kleurplaat/kawaii-donut-boutique-display/index.html"
+    },
+    {
+      "source": "/kleurplaat/garden-tea-party-with-macaron-tower",
+      "destination": "/kleurplaat/garden-tea-party-with-macaron-tower/index.html"
+    },
+    {
+      "source": "/kleurplaat/bubble-tea-cafe-counter",
+      "destination": "/kleurplaat/bubble-tea-cafe-counter/index.html"
+    },
+    {
+      "source": "/kleurplaat/donut-decorating-party-table",
+      "destination": "/kleurplaat/donut-decorating-party-table/index.html"
+    },
+    {
+      "source": "/kleurplaat/mexican-folk-flower-courtyard",
+      "destination": "/kleurplaat/mexican-folk-flower-courtyard/index.html"
+    },
+    {
+      "source": "/kleurplaat/floral-high-top-sneakers",
+      "destination": "/kleurplaat/floral-high-top-sneakers/index.html"
+    },
+    {
+      "source": "/kleurplaat/dollhouse-style-bedroom-to-design",
+      "destination": "/kleurplaat/dollhouse-style-bedroom-to-design/index.html"
+    },
+    {
+      "source": "/kleurplaat/moroccan-riad-inspired-bedroom",
+      "destination": "/kleurplaat/moroccan-riad-inspired-bedroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-canopy-bedroom-to-decorate",
+      "destination": "/kleurplaat/cozy-canopy-bedroom-to-decorate/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-window-reading-nook-with-cat",
+      "destination": "/kleurplaat/cozy-window-reading-nook-with-cat/index.html"
+    },
+    {
+      "source": "/kleurplaat/cupcake-carousel",
+      "destination": "/kleurplaat/cupcake-carousel/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendship-bracelet-craft-station",
+      "destination": "/kleurplaat/friendship-bracelet-craft-station/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-stationery-desk",
+      "destination": "/kleurplaat/kawaii-stationery-desk/index.html"
+    },
+    {
+      "source": "/kleurplaat/korean-hanok-inspired-reading-room",
+      "destination": "/kleurplaat/korean-hanok-inspired-reading-room/index.html"
+    },
+    {
+      "source": "/kleurplaat/paris-attic-bedroom",
+      "destination": "/kleurplaat/paris-attic-bedroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/scandinavian-craft-bedroom",
+      "destination": "/kleurplaat/scandinavian-craft-bedroom/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-moon-gate-garden",
+      "destination": "/kleurplaat/chinese-moon-gate-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/brazilian-hummingbirds-and-orchids",
+      "destination": "/kleurplaat/brazilian-hummingbirds-and-orchids/index.html"
+    },
+    {
+      "source": "/kleurplaat/flower-crown-workshop-table",
+      "destination": "/kleurplaat/flower-crown-workshop-table/index.html"
+    },
+    {
+      "source": "/kleurplaat/ballet-slippers-with-peonies",
+      "destination": "/kleurplaat/ballet-slippers-with-peonies/index.html"
+    },
+    {
+      "source": "/kleurplaat/moon-princess-reading-under-the-stars",
+      "destination": "/kleurplaat/moon-princess-reading-under-the-stars/index.html"
+    },
+    {
+      "source": "/kleurplaat/jewelry-treasure-box-and-vanity",
+      "destination": "/kleurplaat/jewelry-treasure-box-and-vanity/index.html"
+    },
+    {
+      "source": "/kleurplaat/enchanted-storybook-castle-with-rose-garden",
+      "destination": "/kleurplaat/enchanted-storybook-castle-with-rose-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/magical-walk-in-wardrobe",
+      "destination": "/kleurplaat/magical-walk-in-wardrobe/index.html"
+    },
+    {
+      "source": "/kleurplaat/fairy-bakery-inside-a-teapot",
+      "destination": "/kleurplaat/fairy-bakery-inside-a-teapot/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-shell-bedroom",
+      "destination": "/kleurplaat/mermaid-shell-bedroom/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
