@@ -228,6 +228,7 @@ const TRANSLATIONS = {
 // INIT
 // -------------------------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
+  renderLatestHeroColorings();
   renderCategories();
   renderCountryFilter();
   renderGrid();
@@ -266,6 +267,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 });
+
+// -------------------------------------------------------
+// LATEST COLORINGS IN THE HOMEPAGE HERO
+// -------------------------------------------------------
+function renderLatestHeroColorings() {
+  const heroImages = Array.from(document.querySelectorAll('.hero-art .hero-paper img'));
+  if (heroImages.length !== 3 || !Array.isArray(COLORINGS)) return;
+
+  const latest = [...COLORINGS]
+    .filter(item => item.category !== 'actualiteiten')
+    .sort((a, b) => b.id - a.id)
+    .slice(0, 3);
+
+  if (latest.length < 3) return;
+
+  // Keep the newest page in the prominent centre card.
+  const heroOrder = [latest[1], latest[0], latest[2]];
+
+  heroImages.forEach((image, index) => {
+    const item = heroOrder[index];
+    const localized = item[currentLang] || item.nl;
+    const fullImage = resolveImgPath(item.img);
+    const thumbnail = resolveThumbPath(item.img);
+
+    image.src = thumbnail;
+    image.srcset = `${thumbnail} 400w, ${fullImage} 1055w`;
+    image.sizes = index === 1 ? '288px' : '235px';
+    image.alt = localized.altText;
+    image.title = localized.title;
+  });
+}
 
 // -------------------------------------------------------
 // DYNAMIC SEO — update meta tags when category/search changes
