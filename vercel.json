@@ -1561,6 +1561,26 @@
       "destination": "/kleurplaat/moon-rabbit-with-mooncakes/index.html"
     },
     {
+      "source": "/kleurplaat/traditional-chinese-kite-maker-building-a-swallow-kite",
+      "destination": "/kleurplaat/traditional-chinese-kite-maker-building-a-swallow-kite/index.html"
+    },
+    {
+      "source": "/kleurplaat/capital-letter-p-with-panda-and-bamboo",
+      "destination": "/kleurplaat/capital-letter-p-with-panda-and-bamboo/index.html"
+    },
+    {
+      "source": "/kleurplaat/peony-and-magpie-garden-mandala",
+      "destination": "/kleurplaat/peony-and-magpie-garden-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/seahorse-parent-and-three-babies-among-seagrass",
+      "destination": "/kleurplaat/seahorse-parent-and-three-babies-among-seagrass/index.html"
+    },
+    {
+      "source": "/kleurplaat/crew-space-capsule-after-ocean-splashdown",
+      "destination": "/kleurplaat/crew-space-capsule-after-ocean-splashdown/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
