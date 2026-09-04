@@ -237,6 +237,15 @@ h4 {
   position: absolute;
 }
 
+.hero-paper[role="button"] {
+  cursor: pointer;
+}
+
+.hero-paper[role="button"]:focus-visible {
+  box-shadow: 0 0 0 4px var(--klc-white), 0 0 0 8px var(--klc-raspberry), 0 18px 44px rgba(52, 45, 56, 0.14);
+  outline: 0;
+}
+
 .hero-paper img {
   border-radius: 7px;
   height: 100%;
@@ -747,6 +756,61 @@ h4 {
   color: var(--klc-raspberry);
 }
 
+.gallery-actions {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px;
+  justify-content: center;
+  margin: 58px auto 8px;
+}
+
+.gallery-actions[hidden],
+.gallery-actions button[hidden] {
+  display: none;
+}
+
+.gallery-more-button,
+.gallery-category-button {
+  border-radius: 999px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  min-height: 52px;
+  padding: 0 24px;
+}
+
+.gallery-more-button {
+  background: var(--klc-raspberry);
+  border: 1px solid var(--klc-raspberry);
+  color: var(--klc-white);
+}
+
+.gallery-category-button {
+  background: var(--klc-white);
+  border: 1px solid var(--klc-line);
+  color: var(--klc-ink);
+}
+
+.gallery-more-button:hover,
+.gallery-more-button:focus-visible {
+  background: var(--klc-rose);
+  border-color: var(--klc-rose);
+}
+
+.gallery-category-button:hover,
+.gallery-category-button:focus-visible {
+  background: var(--klc-soft-pink);
+  border-color: var(--klc-rose);
+}
+
+.gallery-more-button:focus-visible,
+.gallery-category-button:focus-visible {
+  outline: 3px solid rgba(169, 79, 115, 0.2);
+  outline-offset: 3px;
+}
+
 .seo-text-block {
   background: var(--klc-white);
   border: 1px solid var(--klc-line);
@@ -759,6 +823,12 @@ h4 {
 .seo-text-block h2,
 .seo-text-block h3 {
   color: var(--klc-ink);
+}
+
+.seo-text-block.homepage-seo-footer {
+  margin: 0 auto;
+  max-width: 1280px;
+  width: calc(100% - 48px);
 }
 
 .how-section {
@@ -1194,6 +1264,21 @@ h4 {
 }
 
 @media (max-width: 520px) {
+  .gallery-actions {
+    align-items: stretch;
+    display: grid;
+    margin-top: 44px;
+  }
+
+  .gallery-more-button,
+  .gallery-category-button {
+    width: 100%;
+  }
+
+  .seo-text-block.homepage-seo-footer {
+    width: calc(100% - 36px);
+  }
+
   .header-search {
     display: none;
   }
@@ -1224,7 +1309,20 @@ h4 {
     margin-top: 14px;
   }
 
-  .coloring-grid,
+  .coloring-grid {
+    gap: 28px 12px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .coloring-grid .card-meta {
+    gap: 4px;
+  }
+
+  .coloring-grid .card-difficulty {
+    font-size: 0.62rem;
+    padding-inline: 0.45rem;
+  }
+
   .support-menu {
     grid-template-columns: 1fr;
   }

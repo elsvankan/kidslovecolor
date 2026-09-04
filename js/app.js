@@ -32,6 +32,9 @@ let activeCategory  = 'all';
 let searchQuery     = '';
 let currentColoring = null;
 let selectedCountry = 'all';
+let visibleColoringCount = 0;
+let gridHasExpanded = false;
+let lastGridFilterKey = '';
 
 // Base URL map for canonical / schema
 const BASE_URL_MAP = {
@@ -97,6 +100,10 @@ const TRANSLATIONS = {
     free_cat_label:     'Gratis {label} kleurplaten',
     all_countries_label:      'Alle landen',
     filter_by_country_label:  'Filter op land:',
+    newly_added_heading:      'Nieuw toegevoegd',
+    load_more_new:            'Meer nieuwe kleurplaten bekijken',
+    load_more_results:        'Meer resultaten bekijken',
+    choose_category:          'Kies een categorie',
   },
   en: {
     all_pages:          'All coloring pages',
@@ -128,6 +135,10 @@ const TRANSLATIONS = {
     free_cat_label:     'Free {label} coloring pages',
     all_countries_label:      'All countries',
     filter_by_country_label:  'Filter by country:',
+    newly_added_heading:      'Newly added',
+    load_more_new:            'View more new coloring pages',
+    load_more_results:        'View more results',
+    choose_category:          'Choose a category',
   },
   fr: {
     all_pages:          'Toutes les pages à colorier',
@@ -159,6 +170,10 @@ const TRANSLATIONS = {
     free_cat_label:     'Pages à colorier {label} gratuites',
     all_countries_label:      'Tous les pays',
     filter_by_country_label:  'Filtrer par pays :',
+    newly_added_heading:      'Nouveautés',
+    load_more_new:            'Voir plus de nouveaux coloriages',
+    load_more_results:        'Voir plus de résultats',
+    choose_category:          'Choisir une catégorie',
   },
   es: {
     all_pages:          'Todas las páginas para colorear',
@@ -190,6 +205,10 @@ const TRANSLATIONS = {
     free_cat_label:     'Páginas para colorear de {label} gratis',
     all_countries_label:      'Todos los países',
     filter_by_country_label:  'Filtrar por país:',
+    newly_added_heading:      'Recién añadidos',
+    load_more_new:            'Ver más dibujos nuevos',
+    load_more_results:        'Ver más resultados',
+    choose_category:          'Elegir una categoría',
   },
   zh: {
     all_pages:          '所有涂色页',
@@ -221,6 +240,10 @@ const TRANSLATIONS = {
     free_cat_label:     '免费{label}涂色页',
     all_countries_label:      '所有国家',
     filter_by_country_label:  '按国家筛选：',
+    newly_added_heading:      '最新添加',
+    load_more_new:            '查看更多新涂色页',
+    load_more_results:        '查看更多结果',
+    choose_category:          '选择类别',
   },
 };
 
@@ -228,11 +251,13 @@ const TRANSLATIONS = {
 // INIT
 // -------------------------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
+  arrangeHomepageSections();
   renderLatestHeroColorings();
   renderCategories();
   renderCountryFilter();
-  renderGrid();
   setupSearch();
+  setupGalleryControls();
+  renderGrid();
   setupModal();
   setupScrollTop();
   setupSupportSticky();
@@ -296,6 +321,87 @@ function renderLatestHeroColorings() {
     image.sizes = index === 1 ? '288px' : '235px';
     image.alt = localized.altText;
     image.title = localized.title;
+
+    const paper = image.closest('.hero-paper');
+    if (!paper) return;
+    paper.dataset.coloringId = item.id;
+    paper.setAttribute('role', 'button');
+    paper.setAttribute('tabindex', '0');
+    paper.setAttribute('aria-label', t('free_coloring_page') + ': ' + localized.title);
+    paper.addEventListener('click', () => openModal(item.id, 'hero'));
+    paper.addEventListener('keydown', (event) => {
+      if (event.key === 'Enter' || event.key === ' ') {
+        event.preventDefault();
+        openModal(item.id, 'hero');
+      }
+    });
+  });
+}
+
+// -------------------------------------------------------
+// HOMEPAGE FLOW
+// -------------------------------------------------------
+function arrangeHomepageSections() {
+  const howSection = document.querySelector('.how-section');
+  const supportSection = document.querySelector('.support-section');
+  const seoBlock = document.querySelector('.seo-text-block');
+  if (!supportSection || !seoBlock) return;
+
+  // Requests and the story should follow the compact gallery directly.
+  // Keep the how-to and SEO content, but place them afterwards.
+  if (howSection) supportSection.insertAdjacentElement('afterend', howSection);
+  (howSection || supportSection).insertAdjacentElement('afterend', seoBlock);
+  seoBlock.classList.add('homepage-seo-footer');
+}
+
+function getGridPageSize() {
+  return window.matchMedia('(max-width: 700px)').matches ? 6 : 9;
+}
+
+function resetGridPagination() {
+  visibleColoringCount = getGridPageSize();
+  gridHasExpanded = false;
+}
+
+function setupGalleryControls() {
+  const grid = document.getElementById('coloringGrid');
+  if (!grid || document.getElementById('galleryActions')) return;
+
+  const actions = document.createElement('div');
+  actions.className = 'gallery-actions';
+  actions.id = 'galleryActions';
+  actions.innerHTML = [
+    '<button class="gallery-more-button" id="loadMoreColorings" type="button"></button>',
+    '<button class="gallery-category-button" id="chooseCategory" type="button">' + t('choose_category') + ' <span aria-hidden="true">↑</span></button>'
+  ].join('');
+  grid.insertAdjacentElement('afterend', actions);
+
+  document.getElementById('loadMoreColorings')?.addEventListener('click', () => {
+    const previouslyVisible = visibleColoringCount;
+    visibleColoringCount += getGridPageSize();
+    gridHasExpanded = true;
+    renderGrid();
+    grid.querySelectorAll('.coloring-card')[previouslyVisible]?.focus({ preventScroll: true });
+  });
+
+  document.getElementById('chooseCategory')?.addEventListener('click', () => {
+    const categoryNav = document.querySelector('.category-nav');
+    categoryNav?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    window.setTimeout(() => categoryNav?.querySelector('.cat-btn')?.focus(), 450);
+  });
+
+  let mobileLayout = getGridPageSize() === 6;
+  let resizeTimer;
+  window.addEventListener('resize', () => {
+    window.clearTimeout(resizeTimer);
+    resizeTimer = window.setTimeout(() => {
+      const nextMobileLayout = getGridPageSize() === 6;
+      if (!gridHasExpanded && nextMobileLayout !== mobileLayout) {
+        mobileLayout = nextMobileLayout;
+        resetGridPagination();
+        renderGrid();
+      }
+    }, 160);
   });
 }
 
@@ -474,8 +580,8 @@ function renderCategories() {
         b.setAttribute('aria-pressed', b.dataset.cat === activeCategory);
       });
       renderCountryFilter();
-      renderGrid();
       updateSEO(activeCategory);
+      renderGrid();
       const newUrl = activeCategory === 'all'
         ? window.location.pathname
         : window.location.pathname + '?cat=' + encodeURIComponent(activeCategory);
@@ -522,6 +628,7 @@ function renderCountryFilter() {
 
   document.getElementById('countryFilterSelect').addEventListener('change', (e) => {
     selectedCountry = e.target.value;
+    resetGridPagination();
     renderGrid();
   });
 }
@@ -558,12 +665,27 @@ function renderGrid() {
     filtered.sort((a, b) => b.id - a.id);
   }
 
+  const filterKey = activeCategory + '|' + selectedCountry + '|' + searchQuery.toLowerCase();
+  if (filterKey !== lastGridFilterKey) {
+    lastGridFilterKey = filterKey;
+    resetGridPagination();
+  }
+
+  const isDefaultHomepage = activeCategory === 'all' && !searchQuery && selectedCountry === 'all';
+  const gridItems = isDefaultHomepage ? filtered.slice(3) : filtered;
+  const visibleItems = gridItems.slice(0, visibleColoringCount);
+  const heading = document.getElementById('sectionHeading');
+  if (heading && isDefaultHomepage) heading.textContent = t('newly_added_heading');
+  else if (heading && activeCategory === 'all') heading.textContent = t('section_heading');
+
   if (counter) {
     counter.textContent = t('result_count').replace('{n}', filtered.length);
   }
 
   if (filtered.length === 0) {
     grid.innerHTML = '';
+    const actions = document.getElementById('galleryActions');
+    if (actions) actions.hidden = true;
     if (noRes) {
       noRes.innerHTML = `
         <div class="no-results-icon" aria-hidden="true">🎨</div>
@@ -576,7 +698,15 @@ function renderGrid() {
 
   if (noRes) noRes.classList.remove('visible');
 
-  grid.innerHTML = filtered.map(item => renderCard(item)).join('');
+  grid.innerHTML = visibleItems.map(item => renderCard(item)).join('');
+
+  const actions = document.getElementById('galleryActions');
+  const moreButton = document.getElementById('loadMoreColorings');
+  if (actions) actions.hidden = false;
+  if (moreButton) {
+    moreButton.textContent = t(isDefaultHomepage ? 'load_more_new' : 'load_more_results');
+    moreButton.hidden = visibleItems.length >= gridItems.length;
+  }
 
   // Attach card events
   grid.querySelectorAll('.coloring-card').forEach(card => {
@@ -689,6 +819,7 @@ function setupSearch() {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {
       searchQuery = e.target.value.trim();
+      resetGridPagination();
       renderGrid();
       if (searchQuery) {
         history.replaceState({ q: searchQuery }, '', window.location.pathname + '?q=' + encodeURIComponent(searchQuery));
@@ -701,6 +832,7 @@ function setupSearch() {
     if (e.key === 'Escape') {
       input.value = '';
       searchQuery = '';
+      resetGridPagination();
       renderGrid();
       history.replaceState({}, '', window.location.pathname);
     }
