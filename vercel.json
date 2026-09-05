@@ -1761,6 +1761,126 @@
       "destination": "/kleurplaat/giant-sequoia-forest-boardwalk/index.html"
     },
     {
+      "source": "/kleurplaat/unicorn-on-moonlit-cloud",
+      "destination": "/kleurplaat/unicorn-on-moonlit-cloud/index.html"
+    },
+    {
+      "source": "/kleurplaat/baby-trex-hatching-from-egg",
+      "destination": "/kleurplaat/baby-trex-hatching-from-egg/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendly-baby-dragon-crystal-cave",
+      "destination": "/kleurplaat/friendly-baby-dragon-crystal-cave/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-dolphin-coral-arch",
+      "destination": "/kleurplaat/mermaid-dolphin-coral-arch/index.html"
+    },
+    {
+      "source": "/kleurplaat/floating-fairytale-castle-in-clouds",
+      "destination": "/kleurplaat/floating-fairytale-castle-in-clouds/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-breakfast-friends",
+      "destination": "/kleurplaat/kawaii-breakfast-friends/index.html"
+    },
+    {
+      "source": "/kleurplaat/donut-delivery-scooter-bakery",
+      "destination": "/kleurplaat/donut-delivery-scooter-bakery/index.html"
+    },
+    {
+      "source": "/kleurplaat/boba-picnic-cat-and-bear",
+      "destination": "/kleurplaat/boba-picnic-cat-and-bear/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-rainy-cat-reading-nook",
+      "destination": "/kleurplaat/cozy-rainy-cat-reading-nook/index.html"
+    },
+    {
+      "source": "/kleurplaat/creative-craft-desk-to-decorate",
+      "destination": "/kleurplaat/creative-craft-desk-to-decorate/index.html"
+    },
+    {
+      "source": "/kleurplaat/puppy-kitten-under-umbrella",
+      "destination": "/kleurplaat/puppy-kitten-under-umbrella/index.html"
+    },
+    {
+      "source": "/kleurplaat/capybara-family-natural-hot-spring",
+      "destination": "/kleurplaat/capybara-family-natural-hot-spring/index.html"
+    },
+    {
+      "source": "/kleurplaat/axolotl-treasure-grotto",
+      "destination": "/kleurplaat/axolotl-treasure-grotto/index.html"
+    },
+    {
+      "source": "/kleurplaat/baby-safari-animals-waterhole",
+      "destination": "/kleurplaat/baby-safari-animals-waterhole/index.html"
+    },
+    {
+      "source": "/kleurplaat/whale-shark-over-coral-reef",
+      "destination": "/kleurplaat/whale-shark-over-coral-reef/index.html"
+    },
+    {
+      "source": "/kleurplaat/monster-truck-on-dirt-ramp",
+      "destination": "/kleurplaat/monster-truck-on-dirt-ramp/index.html"
+    },
+    {
+      "source": "/kleurplaat/excavator-loading-dump-truck",
+      "destination": "/kleurplaat/excavator-loading-dump-truck/index.html"
+    },
+    {
+      "source": "/kleurplaat/race-car-at-starting-line",
+      "destination": "/kleurplaat/race-car-at-starting-line/index.html"
+    },
+    {
+      "source": "/kleurplaat/astronaut-lunar-rover-rock-sample",
+      "destination": "/kleurplaat/astronaut-lunar-rover-rock-sample/index.html"
+    },
+    {
+      "source": "/kleurplaat/rocket-among-fantasy-planets",
+      "destination": "/kleurplaat/rocket-among-fantasy-planets/index.html"
+    },
+    {
+      "source": "/kleurplaat/capital-letter-a-with-astronaut",
+      "destination": "/kleurplaat/capital-letter-a-with-astronaut/index.html"
+    },
+    {
+      "source": "/kleurplaat/numbers-one-to-ten-ocean-counting",
+      "destination": "/kleurplaat/numbers-one-to-ten-ocean-counting/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-back-to-school-supplies",
+      "destination": "/kleurplaat/kawaii-back-to-school-supplies/index.html"
+    },
+    {
+      "source": "/kleurplaat/ballerina-tying-ballet-slipper",
+      "destination": "/kleurplaat/ballerina-tying-ballet-slipper/index.html"
+    },
+    {
+      "source": "/kleurplaat/rhythmic-gymnast-ribbon-circle",
+      "destination": "/kleurplaat/rhythmic-gymnast-ribbon-circle/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendly-halloween-cat-pumpkin-patch",
+      "destination": "/kleurplaat/friendly-halloween-cat-pumpkin-patch/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-gingerbread-house-in-snow",
+      "destination": "/kleurplaat/cozy-gingerbread-house-in-snow/index.html"
+    },
+    {
+      "source": "/kleurplaat/diwali-lotus-rangoli-doorstep",
+      "destination": "/kleurplaat/diwali-lotus-rangoli-doorstep/index.html"
+    },
+    {
+      "source": "/kleurplaat/andean-llama-terraced-mountains",
+      "destination": "/kleurplaat/andean-llama-terraced-mountains/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-moon-gate-peony-garden",
+      "destination": "/kleurplaat/chinese-moon-gate-peony-garden/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
