@@ -137,7 +137,7 @@ for (const page of COLORINGS) {
     .coloring-card img { display:block; width:100%; height:auto; border-radius:12px; }
     .eyebrow { color:var(--raspberry); font-weight:800; letter-spacing:.08em; text-transform:uppercase; font-size:.76rem; }
     h1,h2,h3 { font-family:Georgia,"Times New Roman",serif; line-height:1.12; }
-    h1 { margin:.45rem 0 1rem; font-size:clamp(2rem,5vw,3.55rem); font-weight:500; }
+    h1 { margin:.45rem 0 1rem; font-size:clamp(2rem,5vw,3.55rem); font-weight:500; overflow-wrap:anywhere; hyphens:auto; }
     h2 { margin-top:2rem; font-size:1.45rem; }
     .lead { color:var(--muted); font-size:1.08rem; }
     .badges { display:flex; flex-wrap:wrap; gap:8px; margin:18px 0; }
