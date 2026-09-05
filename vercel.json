@@ -1741,6 +1741,26 @@
       "destination": "/kleurplaat/mermaid-shell-bedroom/index.html"
     },
     {
+      "source": "/kleurplaat/armadillo-mother-and-baby-by-burrow",
+      "destination": "/kleurplaat/armadillo-mother-and-baby-by-burrow/index.html"
+    },
+    {
+      "source": "/kleurplaat/capital-letter-q-with-quetzal",
+      "destination": "/kleurplaat/capital-letter-q-with-quetzal/index.html"
+    },
+    {
+      "source": "/kleurplaat/thai-long-tail-boat-by-stilt-houses",
+      "destination": "/kleurplaat/thai-long-tail-boat-by-stilt-houses/index.html"
+    },
+    {
+      "source": "/kleurplaat/moroccan-mint-tea-and-dates",
+      "destination": "/kleurplaat/moroccan-mint-tea-and-dates/index.html"
+    },
+    {
+      "source": "/kleurplaat/giant-sequoia-forest-boardwalk",
+      "destination": "/kleurplaat/giant-sequoia-forest-boardwalk/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
