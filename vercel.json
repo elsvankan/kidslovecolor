@@ -1881,6 +1881,26 @@
       "destination": "/kleurplaat/chinese-moon-gate-peony-garden/index.html"
     },
     {
+      "source": "/kleurplaat/quokka-mother-and-baby-in-australian-wildflowers",
+      "destination": "/kleurplaat/quokka-mother-and-baby-in-australian-wildflowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/mid-autumn-rabbit-mooncake-tea-party",
+      "destination": "/kleurplaat/mid-autumn-rabbit-mooncake-tea-party/index.html"
+    },
+    {
+      "source": "/kleurplaat/mexican-hummingbird-marigold-courtyard",
+      "destination": "/kleurplaat/mexican-hummingbird-marigold-courtyard/index.html"
+    },
+    {
+      "source": "/kleurplaat/sea-turtle-coral-reef-fish-and-ray",
+      "destination": "/kleurplaat/sea-turtle-coral-reef-fish-and-ray/index.html"
+    },
+    {
+      "source": "/kleurplaat/venetian-gondola-under-flower-bridge",
+      "destination": "/kleurplaat/venetian-gondola-under-flower-bridge/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

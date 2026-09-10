@@ -4698,6 +4698,52 @@ const COLORINGS = [
     zh: { title: '牡丹园中的中式月洞门', description: '免费的高难度涂色页：圆形中式月洞门通向有牡丹、岩石、松树和灯笼的花园。', keywords: '月洞门 牡丹 园林 中国 灯笼 自然 文化 免费 高难度 儿童 涂色页', altText: '牡丹园中中式月洞门的免费涂色页' },
   },
 
+  {
+    id: 502, slug: 'quokka-mother-and-baby-in-australian-wildflowers', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--quokka-mother-and-baby-in-australian-wildflowers.jpg',
+    nl: { title: 'Quokkamama met Baby tussen Australische Bloemen', description: 'Gratis kleurplaat van quokkamama met baby tussen australische bloemen. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'quokkamama met baby tussen australische bloemen dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat quokkamama met baby tussen australische bloemen – kinderen' },
+    en: { title: 'Quokka Mother and Baby among Australian Wildflowers', description: 'Free coloring page of quokka mother and baby among australian wildflowers. Fun animal coloring page for kids to color and print.', keywords: 'quokka mother and baby among australian wildflowers animal coloring page free kids', altText: 'Free coloring page quokka mother and baby among australian wildflowers – kids' },
+    fr: { title: 'Maman Quokka et son Petit parmi les Fleurs Australiennes', description: 'Page à colorier gratuite de maman quokka et son petit parmi les fleurs australiennes. Amusant coloriage d\'animal pour les enfants.', keywords: 'maman quokka et son petit parmi les fleurs australiennes coloriage animal gratuit enfants', altText: 'Page à colorier maman quokka et son petit parmi les fleurs australiennes – enfants' },
+    es: { title: 'Mamá Quokka y su Cría entre Flores Australianas', description: 'Página para colorear gratis de mamá quokka y su cría entre flores australianas. Divertido colorear de animales para niños.', keywords: 'mamá quokka y su cría entre flores australianas colorear animales gratis niños', altText: 'Página para colorear mamá quokka y su cría entre flores australianas – niños' },
+    zh: { title: '澳大利亚野花丛中的短尾矮袋鼠母子', description: '免费澳大利亚野花丛中的短尾矮袋鼠母子涂色页，适合儿童的动物涂色，可打印。', keywords: '澳大利亚野花丛中的短尾矮袋鼠母子 动物涂色 免费儿童', altText: '免费涂色页 澳大利亚野花丛中的短尾矮袋鼠母子 – 儿童' },
+  },
+  {
+    id: 503, slug: 'mid-autumn-rabbit-mooncake-tea-party', category: 'kawaii', difficulty: 'medium',
+    img: '../img/kleurplaten/kawaii--medium--mid-autumn-rabbit-mooncake-tea-party.jpg',
+    nl: { title: 'Konijntjes met Maancake en Thee', description: 'Gratis kawaii kleurplaat van konijntjes met maancake en thee. Superschattig kleurplaatje voor kinderen.', keywords: 'konijntjes met maancake en thee kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat konijntjes met maancake en thee – kinderen' },
+    en: { title: 'Mid-Autumn Rabbits with Mooncakes and Tea', description: 'Free kawaii coloring page of mid-autumn rabbits with mooncakes and tea. Super cute coloring page for kids.', keywords: 'mid-autumn rabbits with mooncakes and tea kawaii coloring page free kids', altText: 'Free coloring page mid-autumn rabbits with mooncakes and tea – kids' },
+    fr: { title: 'Lapins de la Mi-Automne avec Gâteaux de Lune et Thé', description: 'Page à colorier kawaii gratuite de lapins de la mi-automne avec gâteaux de lune et thé. Coloriage super mignon pour les enfants.', keywords: 'lapins de la mi-automne avec gâteaux de lune et thé coloriage kawaii gratuit enfants', altText: 'Page à colorier lapins de la mi-automne avec gâteaux de lune et thé – enfants' },
+    es: { title: 'Conejitos del Medio Otoño con Pasteles de Luna y Té', description: 'Página para colorear kawaii gratis de conejitos del medio otoño con pasteles de luna y té. Colorear súper lindo para niños.', keywords: 'conejitos del medio otoño con pasteles de luna y té colorear kawaii gratis niños', altText: 'Página para colorear conejitos del medio otoño con pasteles de luna y té – niños' },
+    zh: { title: '中秋兔子月饼茶会', description: '免费卡哇伊中秋兔子月饼茶会涂色页，超可爱儿童涂色。', keywords: '中秋兔子月饼茶会 卡哇伊涂色 免费儿童', altText: '免费涂色页 中秋兔子月饼茶会 – 儿童' },
+  },
+  {
+    id: 504, slug: 'mexican-hummingbird-marigold-courtyard', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--mexican-hummingbird-marigold-courtyard.jpg',
+    nl: { title: 'Mexicaanse Kolibrie in een Goudsbloemenhof', description: 'Gratis natuurkleurplaat van mexicaanse kolibrie in een goudsbloemenhof. Prachtig kleurplaatje voor kinderen.', keywords: 'mexicaanse kolibrie in een goudsbloemenhof natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat mexicaanse kolibrie in een goudsbloemenhof – kinderen' },
+    en: { title: 'Mexican Hummingbird in a Marigold Courtyard', description: 'Free nature coloring page of mexican hummingbird in a marigold courtyard. Beautiful coloring page for kids.', keywords: 'mexican hummingbird in a marigold courtyard nature coloring page free kids', altText: 'Free coloring page mexican hummingbird in a marigold courtyard – kids' },
+    fr: { title: 'Colibri Mexicain dans une Cour aux Soucis', description: 'Page à colorier nature gratuite de colibri mexicain dans une cour aux soucis. Magnifique coloriage pour les enfants.', keywords: 'colibri mexicain dans une cour aux soucis coloriage nature gratuit enfants', altText: 'Page à colorier colibri mexicain dans une cour aux soucis – enfants' },
+    es: { title: 'Colibrí Mexicano en un Patio de Cempasúchiles', description: 'Página para colorear naturaleza gratis de colibrí mexicano en un patio de cempasúchiles. Hermoso colorear para niños.', keywords: 'colibrí mexicano en un patio de cempasúchiles colorear naturaleza gratis niños', altText: 'Página para colorear colibrí mexicano en un patio de cempasúchiles – niños' },
+    zh: { title: '万寿菊庭院中的墨西哥蜂鸟', description: '免费自然万寿菊庭院中的墨西哥蜂鸟涂色页，适合儿童的自然涂色。', keywords: '万寿菊庭院中的墨西哥蜂鸟 自然涂色 免费儿童', altText: '免费涂色页 万寿菊庭院中的墨西哥蜂鸟 – 儿童' },
+  },
+  {
+    id: 505, slug: 'sea-turtle-coral-reef-fish-and-ray', category: 'oceaan', difficulty: 'hard',
+    img: '../img/kleurplaten/oceaan--hard--sea-turtle-coral-reef-fish-and-ray.jpg',
+    nl: { title: 'Zeeschildpad boven een Koraalrif met Vissen en Rog', description: 'Gratis oceaankleurplaat van zeeschildpad boven een koraalrif met vissen en rog. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'zeeschildpad boven een koraalrif met vissen en rog oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zeeschildpad boven een koraalrif met vissen en rog – kinderen' },
+    en: { title: 'Sea Turtle above a Coral Reef with Fish and Ray', description: 'Free ocean coloring page of sea turtle above a coral reef with fish and ray. Colorful underwater coloring page for kids.', keywords: 'sea turtle above a coral reef with fish and ray ocean coloring page free kids', altText: 'Free coloring page sea turtle above a coral reef with fish and ray – kids' },
+    fr: { title: 'Tortue Marine au-dessus d\'un Récif avec Poissons et Raie', description: 'Page à colorier océan gratuite de tortue marine au-dessus d\'un récif avec poissons et raie. Coloriage sous-marin coloré pour les enfants.', keywords: 'tortue marine au-dessus d\'un récif avec poissons et raie coloriage océan gratuit enfants', altText: 'Page à colorier tortue marine au-dessus d\'un récif avec poissons et raie – enfants' },
+    es: { title: 'Tortuga Marina sobre un Arrecife con Peces y Raya', description: 'Página para colorear océano gratis de tortuga marina sobre un arrecife con peces y raya. Colorear submarino para niños.', keywords: 'tortuga marina sobre un arrecife con peces y raya colorear océano gratis niños', altText: 'Página para colorear tortuga marina sobre un arrecife con peces y raya – niños' },
+    zh: { title: '珊瑚礁上方的海龟、热带鱼和鳐鱼', description: '免费海洋珊瑚礁上方的海龟、热带鱼和鳐鱼涂色页，适合儿童的水下涂色。', keywords: '珊瑚礁上方的海龟、热带鱼和鳐鱼 海洋涂色 免费儿童', altText: '免费涂色页 珊瑚礁上方的海龟、热带鱼和鳐鱼 – 儿童' },
+  },
+  {
+    id: 506, slug: 'venetian-gondola-under-flower-bridge', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--venetian-gondola-under-flower-bridge.jpg',
+    nl: { title: 'Venetiaanse Gondel onder een Bloemenbrug', description: 'Gratis kleurplaat van venetiaanse gondel onder een bloemenbrug. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'venetiaanse gondel onder een bloemenbrug voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat venetiaanse gondel onder een bloemenbrug – kinderen' },
+    en: { title: 'Venetian Gondola under a Flower Bridge', description: 'Free coloring page of venetian gondola under a flower bridge. Cool vehicle coloring page for kids.', keywords: 'venetian gondola under a flower bridge vehicle coloring page free kids', altText: 'Free coloring page venetian gondola under a flower bridge – kids' },
+    fr: { title: 'Gondole Vénitienne sous un Pont Fleuri', description: 'Page à colorier gratuite de gondole vénitienne sous un pont fleuri. Coloriage de véhicule pour les enfants.', keywords: 'gondole vénitienne sous un pont fleuri coloriage véhicule gratuit enfants', altText: 'Page à colorier gondole vénitienne sous un pont fleuri – enfants' },
+    es: { title: 'Góndola Veneciana bajo un Puente con Flores', description: 'Página para colorear gratis de góndola veneciana bajo un puente con flores. Colorear vehículos para niños.', keywords: 'góndola veneciana bajo un puente con flores colorear vehículos gratis niños', altText: 'Página para colorear góndola veneciana bajo un puente con flores – niños' },
+    zh: { title: '花桥下的威尼斯贡多拉', description: '免费花桥下的威尼斯贡多拉涂色页，适合儿童的交通工具涂色。', keywords: '花桥下的威尼斯贡多拉 交通工具涂色 免费儿童', altText: '免费涂色页 花桥下的威尼斯贡多拉 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
