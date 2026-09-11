@@ -4744,6 +4744,52 @@ const COLORINGS = [
     zh: { title: '花桥下的威尼斯贡多拉', description: '免费花桥下的威尼斯贡多拉涂色页，适合儿童的交通工具涂色。', keywords: '花桥下的威尼斯贡多拉 交通工具涂色 免费儿童', altText: '免费涂色页 花桥下的威尼斯贡多拉 – 儿童' },
   },
 
+  {
+    id: 507, slug: 'pangolin-mother-and-baby-by-termite-mound', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--pangolin-mother-and-baby-by-termite-mound.jpg',
+    nl: { title: 'Schubdierenmoeder met Jong bij een Termietenheuvel', description: 'Gratis eenvoudige kleurplaat van een schubdierenmoeder met haar jong bij een termietenheuvel in de Afrikaanse savanne.', keywords: 'schubdier pangolin moeder jong termietenheuvel savanne dieren kleurplaat gratis makkelijk kinderen', altText: 'Gratis kleurplaat van een schubdierenmoeder met haar jong bij een termietenheuvel' },
+    en: { title: 'Pangolin Mother and Baby by a Termite Mound', description: 'Free easy coloring page of a pangolin mother and her baby beside a termite mound in the African savanna.', keywords: 'pangolin mother baby termite mound savanna animal coloring page free easy kids', altText: 'Free coloring page of a pangolin mother and baby beside a termite mound' },
+    fr: { title: 'Maman Pangolin et son Petit près d\'une Termitière', description: 'Coloriage gratuit et facile d\'une maman pangolin avec son petit près d\'une termitière dans la savane africaine.', keywords: 'pangolin maman petit termitière savane animal coloriage gratuit facile enfants', altText: 'Coloriage gratuit d\'une maman pangolin et son petit près d\'une termitière' },
+    es: { title: 'Mamá Pangolín y su Cría junto a un Termitero', description: 'Página fácil y gratuita para colorear de una mamá pangolín con su cría junto a un termitero en la sabana africana.', keywords: 'pangolín mamá cría termitero sabana animales colorear gratis fácil niños', altText: 'Página gratuita para colorear de una mamá pangolín y su cría junto a un termitero' },
+    zh: { title: '白蚁丘旁的穿山甲母子', description: '免费简单涂色页：穿山甲妈妈和幼崽站在非洲草原的白蚁丘旁，适合儿童打印涂色。', keywords: '穿山甲 母子 幼崽 白蚁丘 非洲草原 动物 免费 简单 儿童 涂色页', altText: '白蚁丘旁穿山甲妈妈和幼崽的免费涂色页' },
+  },
+  {
+    id: 508, slug: 'mate-and-four-kawaii-alfajores-picnic', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--mate-and-four-kawaii-alfajores-picnic.jpg',
+    nl: { title: 'Maté en Vier Kawaii Alfajores op Picknick', description: 'Gratis eenvoudige kawaii kleurplaat met een matébeker, thermosfles en precies vier vrolijke alfajores op een picknickkleed.', keywords: 'maté alfajores Zuid-Amerika picknick kawaii eten kleurplaat gratis makkelijk kinderen', altText: 'Gratis kawaii kleurplaat met maté en vier vrolijke alfajores op een picknickkleed' },
+    en: { title: 'Mate and Four Kawaii Alfajores Picnic', description: 'Free easy kawaii coloring page with a mate gourd, thermos and exactly four cheerful alfajores on a picnic blanket.', keywords: 'mate alfajores South America picnic kawaii food coloring page free easy kids', altText: 'Free kawaii coloring page with mate and four cheerful alfajores on a picnic blanket' },
+    fr: { title: 'Maté et Quatre Alfajores Kawaii en Pique-nique', description: 'Coloriage kawaii gratuit et facile avec une calebasse de maté, un thermos et exactement quatre alfajores joyeux sur une nappe.', keywords: 'maté alfajores Amérique du Sud pique-nique kawaii nourriture coloriage gratuit facile enfants', altText: 'Coloriage kawaii gratuit avec du maté et quatre alfajores joyeux en pique-nique' },
+    es: { title: 'Mate y Cuatro Alfajores Kawaii de Picnic', description: 'Página kawaii fácil y gratuita para colorear con mate, termo y exactamente cuatro alfajores alegres sobre una manta de picnic.', keywords: 'mate alfajores Sudamérica picnic kawaii comida colorear gratis fácil niños', altText: 'Página kawaii gratuita para colorear con mate y cuatro alfajores alegres de picnic' },
+    zh: { title: '马黛茶与四个可爱夹心饼野餐', description: '免费简单的可爱涂色页：野餐垫上有一个马黛茶杯、一个保温壶和四个笑脸夹心饼。', keywords: '马黛茶 夹心饼 南美洲 野餐 可爱 食物 免费 简单 儿童 涂色页', altText: '马黛茶和四个可爱夹心饼野餐的免费涂色页' },
+  },
+  {
+    id: 509, slug: 'patagonian-lighthouse-with-two-penguins', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--patagonian-lighthouse-with-two-penguins.jpg',
+    nl: { title: 'Vuurtoren in Patagonië met Twee Pinguïns', description: 'Gratis uitdagende natuurkleurplaat van een vuurtoren aan de Patagonische kust met precies twee Magelhaenpinguïns en rustige golven.', keywords: 'Patagonië vuurtoren Magelhaenpinguïns kust golven natuur kleurplaat gratis uitdagend kinderen', altText: 'Gratis kleurplaat van een Patagonische vuurtoren met twee Magelhaenpinguïns' },
+    en: { title: 'Patagonian Lighthouse with Two Penguins', description: 'Free challenging nature coloring page of a Patagonian coastal lighthouse with exactly two Magellanic penguins and calm waves.', keywords: 'Patagonia lighthouse Magellanic penguins coast waves nature coloring page free hard kids', altText: 'Free coloring page of a Patagonian lighthouse with two Magellanic penguins' },
+    fr: { title: 'Phare de Patagonie avec Deux Manchots', description: 'Coloriage nature gratuit et stimulant d\'un phare sur la côte de Patagonie avec exactement deux manchots de Magellan.', keywords: 'Patagonie phare manchots de Magellan côte vagues nature coloriage gratuit difficile enfants', altText: 'Coloriage gratuit d\'un phare de Patagonie avec deux manchots de Magellan' },
+    es: { title: 'Faro de la Patagonia con Dos Pingüinos', description: 'Página de naturaleza gratuita y desafiante para colorear con un faro patagónico y exactamente dos pingüinos de Magallanes.', keywords: 'Patagonia faro pingüinos de Magallanes costa olas naturaleza colorear gratis difícil niños', altText: 'Página gratuita para colorear de un faro patagónico con dos pingüinos de Magallanes' },
+    zh: { title: '巴塔哥尼亚灯塔与两只企鹅', description: '免费高难度自然涂色页：巴塔哥尼亚海岸的灯塔旁有两只麦哲伦企鹅和舒缓海浪。', keywords: '巴塔哥尼亚 灯塔 麦哲伦企鹅 海岸 海浪 自然 免费 高难度 儿童 涂色页', altText: '巴塔哥尼亚灯塔和两只麦哲伦企鹅的免费涂色页' },
+  },
+  {
+    id: 510, slug: 'moon-garden-princess-with-watering-can', category: 'prinsessen', difficulty: 'medium',
+    img: '../img/kleurplaten/prinsessen--medium--moon-garden-princess-with-watering-can.jpg',
+    nl: { title: 'Prinses Geeft de Maantuin Water', description: 'Gratis kleurplaat van een originele prinses die op een paleisterras met een gieter haar maanvormige bloementuin verzorgt.', keywords: 'prinses maantuin gieter bloemen paleis sprookje kleurplaat gratis gemiddeld kinderen', altText: 'Gratis kleurplaat van een prinses die haar maanvormige bloementuin water geeft' },
+    en: { title: 'Princess Watering the Moon Garden', description: 'Free coloring page of an original princess watering her crescent-shaped flower garden on a palace rooftop terrace.', keywords: 'princess moon garden watering can flowers palace fairytale coloring page free medium kids', altText: 'Free coloring page of a princess watering her crescent-shaped moon garden' },
+    fr: { title: 'Princesse Arrosant le Jardin de Lune', description: 'Coloriage gratuit d\'une princesse originale arrosant son jardin fleuri en forme de croissant sur une terrasse du palais.', keywords: 'princesse jardin lune arrosoir fleurs palais conte coloriage gratuit moyen enfants', altText: 'Coloriage gratuit d\'une princesse arrosant son jardin fleuri en forme de lune' },
+    es: { title: 'Princesa Regando el Jardín Lunar', description: 'Página gratuita para colorear de una princesa original regando su jardín de flores en forma de luna en la terraza de un palacio.', keywords: 'princesa jardín lunar regadera flores palacio cuento colorear gratis medio niños', altText: 'Página gratuita para colorear de una princesa regando su jardín de flores lunar' },
+    zh: { title: '为月亮花园浇水的公主', description: '免费涂色页：一位原创公主在宫殿露台上用水壶为新月形花园浇水。', keywords: '公主 月亮花园 水壶 花朵 宫殿 童话 免费 中等 儿童 涂色页', altText: '公主为新月形花园浇水的免费涂色页' },
+  },
+  {
+    id: 511, slug: 'thai-tuk-tuk-at-flower-market', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--thai-tuk-tuk-at-flower-market.jpg',
+    nl: { title: 'Thaise Tuktuk bij een Bloemenmarkt', description: 'Gratis kleurplaat van een herkenbare driewielige Thaise tuktuk naast een bloemenkraam met lotus en orchideeën.', keywords: 'Thailand tuktuk driewieler bloemenmarkt lotus orchidee voertuig kleurplaat gratis gemiddeld kinderen', altText: 'Gratis kleurplaat van een Thaise tuktuk bij een bloemenmarkt' },
+    en: { title: 'Thai Tuk-Tuk at a Flower Market', description: 'Free coloring page of a recognizable three-wheeled Thai tuk-tuk beside a flower stall with lotus flowers and orchids.', keywords: 'Thailand tuk-tuk three wheeler flower market lotus orchid vehicle coloring page free medium kids', altText: 'Free coloring page of a Thai tuk-tuk beside a flower market stall' },
+    fr: { title: 'Tuk-tuk Thaïlandais au Marché aux Fleurs', description: 'Coloriage gratuit d\'un tuk-tuk thaïlandais à trois roues près d\'un étal de lotus et d\'orchidées.', keywords: 'Thaïlande tuk-tuk trois roues marché fleurs lotus orchidée véhicule coloriage gratuit moyen enfants', altText: 'Coloriage gratuit d\'un tuk-tuk thaïlandais au marché aux fleurs' },
+    es: { title: 'Tuk-tuk Tailandés en un Mercado de Flores', description: 'Página gratuita para colorear de un tuk-tuk tailandés de tres ruedas junto a un puesto de lotos y orquídeas.', keywords: 'Tailandia tuk-tuk tres ruedas mercado flores loto orquídea vehículo colorear gratis medio niños', altText: 'Página gratuita para colorear de un tuk-tuk tailandés en un mercado de flores' },
+    zh: { title: '花市旁的泰国嘟嘟车', description: '免费涂色页：一辆结构清晰的泰国三轮嘟嘟车停在摆有莲花和兰花的花摊旁。', keywords: '泰国 嘟嘟车 三轮车 花市 莲花 兰花 交通工具 免费 中等 儿童 涂色页', altText: '泰国嘟嘟车停在花市摊位旁的免费涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

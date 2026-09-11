@@ -1901,6 +1901,26 @@
       "destination": "/kleurplaat/venetian-gondola-under-flower-bridge/index.html"
     },
     {
+      "source": "/kleurplaat/pangolin-mother-and-baby-by-termite-mound",
+      "destination": "/kleurplaat/pangolin-mother-and-baby-by-termite-mound/index.html"
+    },
+    {
+      "source": "/kleurplaat/mate-and-four-kawaii-alfajores-picnic",
+      "destination": "/kleurplaat/mate-and-four-kawaii-alfajores-picnic/index.html"
+    },
+    {
+      "source": "/kleurplaat/patagonian-lighthouse-with-two-penguins",
+      "destination": "/kleurplaat/patagonian-lighthouse-with-two-penguins/index.html"
+    },
+    {
+      "source": "/kleurplaat/moon-garden-princess-with-watering-can",
+      "destination": "/kleurplaat/moon-garden-princess-with-watering-can/index.html"
+    },
+    {
+      "source": "/kleurplaat/thai-tuk-tuk-at-flower-market",
+      "destination": "/kleurplaat/thai-tuk-tuk-at-flower-market/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
