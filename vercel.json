@@ -1921,6 +1921,26 @@
       "destination": "/kleurplaat/thai-tuk-tuk-at-flower-market/index.html"
     },
     {
+      "source": "/kleurplaat/young-potter-shaping-clay-bowl",
+      "destination": "/kleurplaat/young-potter-shaping-clay-bowl/index.html"
+    },
+    {
+      "source": "/kleurplaat/red-panda-cub-on-mossy-branch",
+      "destination": "/kleurplaat/red-panda-cub-on-mossy-branch/index.html"
+    },
+    {
+      "source": "/kleurplaat/three-kawaii-taiyaki-strawberry-picnic",
+      "destination": "/kleurplaat/three-kawaii-taiyaki-strawberry-picnic/index.html"
+    },
+    {
+      "source": "/kleurplaat/fairy-tale-dress-shop-window",
+      "destination": "/kleurplaat/fairy-tale-dress-shop-window/index.html"
+    },
+    {
+      "source": "/kleurplaat/atacama-observatory-under-eight-stars",
+      "destination": "/kleurplaat/atacama-observatory-under-eight-stars/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

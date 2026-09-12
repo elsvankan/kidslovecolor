@@ -4790,6 +4790,52 @@ const COLORINGS = [
     zh: { title: '花市旁的泰国嘟嘟车', description: '免费涂色页：一辆结构清晰的泰国三轮嘟嘟车停在摆有莲花和兰花的花摊旁。', keywords: '泰国 嘟嘟车 三轮车 花市 莲花 兰花 交通工具 免费 中等 儿童 涂色页', altText: '泰国嘟嘟车停在花市摊位旁的免费涂色页' },
   },
 
+  {
+    id: 512, slug: 'young-potter-shaping-clay-bowl', category: 'beroepen', difficulty: 'medium',
+    img: '../img/kleurplaten/beroepen--medium--young-potter-shaping-clay-bowl.jpg',
+    nl: { title: 'Jonge Pottenbakker Maakt een Kom van Klei', description: 'Gratis kleurplaat van een jonge pottenbakker die met beide handen een kom vormt op een draaischijf, met drie versierde kommen op de plank.', keywords: 'pottenbakker klei kom draaischijf atelier beroep kleurplaat gratis gemiddeld kinderen', altText: 'Gratis kleurplaat van een jonge pottenbakker die een kom van klei vormt' },
+    en: { title: 'Young Potter Shaping a Clay Bowl', description: 'Free coloring page of a young potter shaping a clay bowl with both hands at a pottery wheel, with three decorated bowls on the shelf.', keywords: 'young potter clay bowl pottery wheel studio profession coloring page free medium kids', altText: 'Free coloring page of a young potter shaping a clay bowl at a wheel' },
+    fr: { title: 'Jeune Potière Façonnant un Bol en Argile', description: 'Coloriage gratuit d\'une jeune potière qui façonne un bol avec ses deux mains sur un tour, avec trois bols décorés sur l\'étagère.', keywords: 'jeune potière argile bol tour atelier métier coloriage gratuit moyen enfants', altText: 'Coloriage gratuit d\'une jeune potière façonnant un bol en argile' },
+    es: { title: 'Joven Alfarera Moldeando un Cuenco de Arcilla', description: 'Página gratuita para colorear de una joven alfarera que moldea un cuenco con ambas manos en el torno, con tres cuencos decorados en la repisa.', keywords: 'joven alfarera arcilla cuenco torno taller profesión colorear gratis medio niños', altText: 'Página gratuita para colorear de una joven alfarera moldeando un cuenco' },
+    zh: { title: '年轻陶艺师制作陶碗', description: '免费涂色页：年轻陶艺师在拉坯机上用双手塑造陶碗，架子上放着三个带花纹的碗。', keywords: '陶艺师 陶土 陶碗 拉坯机 职业 免费 中等 儿童 涂色页', altText: '年轻陶艺师在拉坯机上制作陶碗的免费涂色页' },
+  },
+  {
+    id: 513, slug: 'red-panda-cub-on-mossy-branch', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--red-panda-cub-on-mossy-branch.jpg',
+    nl: { title: 'Rode Pandawelp op een Bemoste Tak', description: 'Gratis eenvoudige dierenkleurplaat van een jonge rode panda op een bemoste tak, met bamboebladeren en een vlinder in het bergbos.', keywords: 'rode panda welp bamboe vlinder bergbos dieren kleurplaat gratis makkelijk kinderen', altText: 'Gratis kleurplaat van een rode pandawelp op een bemoste tak met een vlinder' },
+    en: { title: 'Red Panda Cub on a Mossy Branch', description: 'Free easy animal coloring page of a red panda cub on a mossy branch, with bamboo leaves and a butterfly in a mountain forest.', keywords: 'red panda cub bamboo butterfly mountain forest animal coloring page free easy kids', altText: 'Free coloring page of a red panda cub on a mossy branch with a butterfly' },
+    fr: { title: 'Petit Panda Roux sur une Branche Moussue', description: 'Coloriage animalier gratuit et facile d\'un petit panda roux sur une branche moussue, avec du bambou et un papillon dans la forêt.', keywords: 'petit panda roux bambou papillon forêt montagne coloriage animal gratuit facile enfants', altText: 'Coloriage gratuit d\'un petit panda roux sur une branche moussue avec un papillon' },
+    es: { title: 'Cría de Panda Rojo en una Rama con Musgo', description: 'Página fácil y gratuita para colorear de una cría de panda rojo en una rama con musgo, bambú y una mariposa.', keywords: 'panda rojo cría bambú mariposa bosque montaña animales colorear gratis fácil niños', altText: 'Página gratuita para colorear de una cría de panda rojo con una mariposa' },
+    zh: { title: '苔藓树枝上的小熊猫', description: '免费简单动物涂色页：小熊猫坐在苔藓树枝上，旁边有竹叶和一只蝴蝶。', keywords: '小熊猫 竹子 蝴蝶 山林 动物 免费 简单 儿童 涂色页', altText: '苔藓树枝上的小熊猫和蝴蝶免费涂色页' },
+  },
+  {
+    id: 514, slug: 'three-kawaii-taiyaki-strawberry-picnic', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--three-kawaii-taiyaki-strawberry-picnic.jpg',
+    nl: { title: 'Drie Kawaii Taiyaki bij een Aardbeienpicknick', description: 'Gratis eenvoudige kawaii kleurplaat met precies drie Japanse taiyaki, vijf aardbeien en een kopje thee op een picknickkleed.', keywords: 'taiyaki Japan aardbeien picknick kawaii eten kleurplaat gratis makkelijk kinderen', altText: 'Gratis kawaii kleurplaat met drie taiyaki, vijf aardbeien en thee' },
+    en: { title: 'Three Kawaii Taiyaki at a Strawberry Picnic', description: 'Free easy kawaii coloring page with exactly three Japanese taiyaki, five strawberries and a teacup on a picnic blanket.', keywords: 'taiyaki Japan strawberries picnic kawaii food coloring page free easy kids', altText: 'Free kawaii coloring page with three taiyaki, five strawberries and tea' },
+    fr: { title: 'Trois Taiyaki Kawaii au Pique-nique aux Fraises', description: 'Coloriage kawaii gratuit et facile avec exactement trois taiyaki japonais, cinq fraises et une tasse de thé sur une nappe.', keywords: 'taiyaki Japon fraises pique-nique kawaii nourriture coloriage gratuit facile enfants', altText: 'Coloriage kawaii gratuit avec trois taiyaki, cinq fraises et du thé' },
+    es: { title: 'Tres Taiyaki Kawaii en un Picnic de Fresas', description: 'Página kawaii fácil y gratuita para colorear con tres taiyaki japoneses, cinco fresas y una taza de té sobre una manta.', keywords: 'taiyaki Japón fresas picnic kawaii comida colorear gratis fácil niños', altText: 'Página kawaii gratuita para colorear con tres taiyaki, cinco fresas y té' },
+    zh: { title: '三个可爱鲷鱼烧的草莓野餐', description: '免费简单可爱涂色页：野餐垫上有三个日本鲷鱼烧、五颗草莓和一杯茶。', keywords: '鲷鱼烧 日本 草莓 野餐 可爱 食物 免费 简单 儿童 涂色页', altText: '三个鲷鱼烧、五颗草莓和茶的免费涂色页' },
+  },
+  {
+    id: 515, slug: 'fairy-tale-dress-shop-window', category: 'prinsessen', difficulty: 'medium',
+    img: '../img/kleurplaten/prinsessen--medium--fairy-tale-dress-shop-window.jpg',
+    nl: { title: 'Sprookjesachtige Etalage met Feestjurken', description: 'Gratis kleurplaat van een sprookjesachtige mode-etalage met twee feestjurken, strikken, schoenen, tasjes en bloemen om zelf te versieren.', keywords: 'feestjurken mode etalage strikken schoenen tasjes sprookje prinsessen kleurplaat gratis gemiddeld kinderen', altText: 'Gratis kleurplaat van een sprookjesachtige etalage met twee feestjurken en accessoires' },
+    en: { title: 'Fairy-Tale Dress Shop Window', description: 'Free coloring page of a fairy-tale fashion window with two party dresses, bows, shoes, handbags and flowers to decorate.', keywords: 'party dresses fashion shop window bows shoes handbags fairytale princess coloring page free medium kids', altText: 'Free coloring page of a fairy-tale shop window with two dresses and accessories' },
+    fr: { title: 'Vitrine de Robes de Conte de Fées', description: 'Coloriage gratuit d\'une vitrine féerique avec deux robes de fête, des nœuds, des chaussures, des sacs et des fleurs à décorer.', keywords: 'robes de fête mode vitrine nœuds chaussures sacs conte princesse coloriage gratuit moyen enfants', altText: 'Coloriage gratuit d\'une vitrine féerique avec deux robes et des accessoires' },
+    es: { title: 'Escaparate de Vestidos de Cuento de Hadas', description: 'Página gratuita para colorear de un escaparate de cuento con dos vestidos de fiesta, lazos, zapatos, bolsos y flores.', keywords: 'vestidos de fiesta moda escaparate lazos zapatos bolsos cuento princesas colorear gratis medio niños', altText: 'Página gratuita para colorear de un escaparate con dos vestidos y accesorios' },
+    zh: { title: '童话礼服店橱窗', description: '免费涂色页：童话橱窗里有两条礼服、蝴蝶结、鞋子、手袋和鲜花，可自由装饰。', keywords: '礼服 橱窗 蝴蝶结 鞋子 手袋 童话 公主 免费 中等 儿童 涂色页', altText: '两条礼服和配饰的童话橱窗免费涂色页' },
+  },
+  {
+    id: 516, slug: 'atacama-observatory-under-eight-stars', category: 'ruimte', difficulty: 'hard',
+    img: '../img/kleurplaten/ruimte--hard--atacama-observatory-under-eight-stars.jpg',
+    nl: { title: 'Atacama-sterrenwacht onder Acht Sterren', description: 'Gratis uitdagende ruimtekleurplaat van twee telescoopkoepels en een radioschotel in de Chileense Atacamawoestijn, onder acht sterren en een maan.', keywords: 'Atacama Chili sterrenwacht telescoop radioschotel Andes sterren ruimte kleurplaat gratis uitdagend kinderen', altText: 'Gratis kleurplaat van de Atacama-sterrenwacht met twee koepels, een radioschotel en acht sterren' },
+    en: { title: 'Atacama Observatory under Eight Stars', description: 'Free challenging space coloring page of two telescope domes and a radio dish in Chile\'s Atacama Desert, beneath eight stars and a moon.', keywords: 'Atacama Chile observatory telescope radio dish Andes stars space coloring page free hard kids', altText: 'Free coloring page of an Atacama observatory with two domes, one radio dish and eight stars' },
+    fr: { title: 'Observatoire d\'Atacama sous Huit Étoiles', description: 'Coloriage espace gratuit et stimulant avec deux dômes de télescope et une antenne radio dans le désert chilien d\'Atacama.', keywords: 'Atacama Chili observatoire télescope antenne radio Andes étoiles espace coloriage gratuit difficile enfants', altText: 'Coloriage gratuit d\'un observatoire d\'Atacama avec deux dômes, une antenne et huit étoiles' },
+    es: { title: 'Observatorio de Atacama bajo Ocho Estrellas', description: 'Página de espacio gratuita y desafiante con dos cúpulas de telescopio y una antena de radio en el desierto chileno de Atacama.', keywords: 'Atacama Chile observatorio telescopio antena radio Andes estrellas espacio colorear gratis difícil niños', altText: 'Página gratuita para colorear de un observatorio de Atacama con dos cúpulas, una antena y ocho estrellas' },
+    zh: { title: '八颗星星下的阿塔卡马天文台', description: '免费高难度太空涂色页：智利阿塔卡马沙漠中有两个望远镜圆顶和一面射电天线，天空有八颗星和月亮。', keywords: '阿塔卡马 智利 天文台 望远镜 射电天线 安第斯山 太空 免费 高难度 儿童 涂色页', altText: '两个圆顶、一面射电天线和八颗星的阿塔卡马天文台免费涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
