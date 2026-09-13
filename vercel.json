@@ -1941,6 +1941,26 @@
       "destination": "/kleurplaat/atacama-observatory-under-eight-stars/index.html"
     },
     {
+      "source": "/kleurplaat/montessori-flower-arranging-activity",
+      "destination": "/kleurplaat/montessori-flower-arranging-activity/index.html"
+    },
+    {
+      "source": "/kleurplaat/baby-okapi-among-tropical-leaves",
+      "destination": "/kleurplaat/baby-okapi-among-tropical-leaves/index.html"
+    },
+    {
+      "source": "/kleurplaat/thai-mango-sticky-rice-with-jasmine",
+      "destination": "/kleurplaat/thai-mango-sticky-rice-with-jasmine/index.html"
+    },
+    {
+      "source": "/kleurplaat/amazon-river-dolphin-and-giant-lily-pads",
+      "destination": "/kleurplaat/amazon-river-dolphin-and-giant-lily-pads/index.html"
+    },
+    {
+      "source": "/kleurplaat/colombian-chiva-bus-on-mountain-road",
+      "destination": "/kleurplaat/colombian-chiva-bus-on-mountain-road/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

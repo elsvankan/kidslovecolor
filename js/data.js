@@ -4836,6 +4836,52 @@ const COLORINGS = [
     zh: { title: '八颗星星下的阿塔卡马天文台', description: '免费高难度太空涂色页：智利阿塔卡马沙漠中有两个望远镜圆顶和一面射电天线，天空有八颗星和月亮。', keywords: '阿塔卡马 智利 天文台 望远镜 射电天线 安第斯山 太空 免费 高难度 儿童 涂色页', altText: '两个圆顶、一面射电天线和八颗星的阿塔卡马天文台免费涂色页' },
   },
 
+  {
+    id: 517, slug: 'montessori-flower-arranging-activity', category: 'beroepen', difficulty: 'medium',
+    img: '../img/kleurplaten/beroepen--medium--montessori-flower-arranging-activity.jpg',
+    nl: { title: 'Montessori Bloemschikken', description: 'Gratis Montessori-kleurplaat van een kind dat vijf bloemen in een vaas schikt, met een kannetje, doek en kinderschaar op een dienblad.', keywords: 'Montessori bloemschikken bloemen vaas praktische activiteit kind kleurplaat gratis gemiddeld printen', altText: 'Gratis kleurplaat van een kind dat vijf bloemen schikt bij een Montessori-werktafel' },
+    en: { title: 'Montessori Flower Arranging', description: 'Free Montessori coloring page of a child arranging five flowers in a vase, with a small pitcher, cloth and child-safe scissors on a tray.', keywords: 'Montessori flower arranging flowers vase practical life child coloring page free medium printable', altText: 'Free coloring page of a child arranging five flowers at a Montessori work table' },
+    fr: { title: 'Composition Florale Montessori', description: 'Coloriage Montessori gratuit d’un enfant disposant cinq fleurs dans un vase, avec un petit pichet, un linge et des ciseaux adaptés sur un plateau.', keywords: 'Montessori composition florale fleurs vase vie pratique enfant coloriage gratuit moyen imprimer', altText: 'Coloriage gratuit d’un enfant qui dispose cinq fleurs sur une table Montessori' },
+    es: { title: 'Arreglo Floral Montessori', description: 'Página Montessori gratuita para colorear de una niña que coloca cinco flores en un jarrón, con una jarrita, un paño y tijeras infantiles en una bandeja.', keywords: 'Montessori arreglo floral flores jarrón vida práctica niña colorear gratis medio imprimir', altText: 'Página gratuita para colorear de una niña que coloca cinco flores en una mesa Montessori' },
+    zh: { title: '蒙台梭利插花活动', description: '免费蒙台梭利涂色页：孩子把五朵花插进花瓶，托盘上放着小水壶、折叠布和儿童安全剪刀。', keywords: '蒙台梭利 插花 五朵花 花瓶 日常生活 儿童 免费 中等 可打印 涂色页', altText: '孩子在蒙台梭利工作桌旁插五朵花的免费涂色页' },
+  },
+  {
+    id: 518, slug: 'baby-okapi-among-tropical-leaves', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--baby-okapi-among-tropical-leaves.jpg',
+    nl: { title: 'Baby-okapi tussen Tropische Bladeren', description: 'Gratis makkelijke dierenkleurplaat van een baby-okapi met herkenbare strepen tussen grote tropische bladeren en twee bloemen.', keywords: 'baby okapi tropische bladeren strepen regenwoud Congo dieren kleurplaat gratis makkelijk kinderen printen', altText: 'Makkelijke kleurplaat van een baby-okapi tussen tropische bladeren en twee bloemen' },
+    en: { title: 'Baby Okapi among Tropical Leaves', description: 'Free easy animal coloring page of a baby okapi with its distinctive stripes among large tropical leaves and two flowers.', keywords: 'baby okapi tropical leaves stripes Congo rainforest animal coloring page free easy kids printable', altText: 'Easy coloring page of a baby okapi among tropical leaves and two flowers' },
+    fr: { title: 'Bébé Okapi parmi les Feuilles Tropicales', description: 'Coloriage animalier gratuit et facile d’un bébé okapi aux rayures caractéristiques parmi de grandes feuilles tropicales et deux fleurs.', keywords: 'bébé okapi feuilles tropicales rayures forêt Congo animaux coloriage gratuit facile enfants imprimer', altText: 'Coloriage facile d’un bébé okapi parmi des feuilles tropicales et deux fleurs' },
+    es: { title: 'Cría de Okapi entre Hojas Tropicales', description: 'Página fácil y gratuita para colorear de una cría de okapi con sus rayas características entre grandes hojas tropicales y dos flores.', keywords: 'cría okapi hojas tropicales rayas selva Congo animales colorear gratis fácil niños imprimir', altText: 'Página fácil para colorear de una cría de okapi entre hojas tropicales y dos flores' },
+    zh: { title: '热带叶丛中的小㺢㹢狓', description: '免费简单动物涂色页：一只带有典型条纹的小㺢㹢狓站在大片热带叶子和两朵花之间。', keywords: '小㺢㹢狓 热带叶子 条纹 刚果 雨林 动物 免费 简单 儿童 可打印 涂色页', altText: '小㺢㹢狓站在热带叶子和两朵花之间的简单涂色页' },
+  },
+  {
+    id: 519, slug: 'thai-mango-sticky-rice-with-jasmine', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--thai-mango-sticky-rice-with-jasmine.jpg',
+    nl: { title: 'Thaise Kleefrijst met Mango en Jasmijn', description: 'Gratis makkelijke etenkleurplaat van Thaise mango sticky rice met zes mangopartjes, een lepel en twee jasmijnbloemen.', keywords: 'Thailand mango sticky rice kleefrijst zes mangopartjes jasmijn eten kleurplaat gratis makkelijk printen', altText: 'Makkelijke kleurplaat van Thaise kleefrijst met zes mangopartjes en twee jasmijnbloemen' },
+    en: { title: 'Thai Mango Sticky Rice with Jasmine', description: 'Free easy food coloring page of Thai mango sticky rice with six mango slices, one spoon and two jasmine flowers.', keywords: 'Thai mango sticky rice six mango slices jasmine food coloring page free easy kids printable', altText: 'Easy coloring page of Thai sticky rice with six mango slices and two jasmine flowers' },
+    fr: { title: 'Riz Gluant Thaï à la Mangue et au Jasmin', description: 'Coloriage de nourriture gratuit et facile avec du riz gluant thaï, six tranches de mangue, une cuillère et deux fleurs de jasmin.', keywords: 'Thaïlande riz gluant mangue six tranches jasmin nourriture coloriage gratuit facile imprimer', altText: 'Coloriage facile de riz gluant thaï avec six tranches de mangue et deux fleurs de jasmin' },
+    es: { title: 'Arroz Pegajoso Tailandés con Mango y Jazmín', description: 'Página fácil y gratuita para colorear de arroz pegajoso tailandés con seis rodajas de mango, una cuchara y dos flores de jazmín.', keywords: 'Tailandia arroz pegajoso mango seis rodajas jazmín comida colorear gratis fácil imprimir', altText: 'Página fácil para colorear de arroz pegajoso tailandés con seis rodajas de mango y dos flores de jazmín' },
+    zh: { title: '茉莉花旁的泰式芒果糯米饭', description: '免费简单食物涂色页：一盘泰式芒果糯米饭配六片芒果、一把勺子和两朵茉莉花。', keywords: '泰国 芒果糯米饭 六片芒果 茉莉花 食物 免费 简单 儿童 可打印 涂色页', altText: '泰式糯米饭、六片芒果和两朵茉莉花的简单涂色页' },
+  },
+  {
+    id: 520, slug: 'amazon-river-dolphin-and-giant-lily-pads', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--amazon-river-dolphin-and-giant-lily-pads.jpg',
+    nl: { title: 'Amazone-rivierdolfijn bij Reuzenwaterlelies', description: 'Gratis uitdagende natuurkleurplaat van een Amazone-rivierdolfijn tussen drie reuzenwaterlelies, twee bloemen en een libel.', keywords: 'Amazone Brazilië rivierdolfijn roze dolfijn reuzenwaterlelie Victoria amazonica natuur kleurplaat gratis uitdagend', altText: 'Uitdagende kleurplaat van een Amazone-rivierdolfijn tussen drie reuzenwaterlelies' },
+    en: { title: 'Amazon River Dolphin and Giant Lily Pads', description: 'Free challenging nature coloring page of an Amazon river dolphin among three giant lily pads, two flowers and one dragonfly.', keywords: 'Amazon Brazil river dolphin pink dolphin Victoria amazonica giant lily pads nature coloring page free hard', altText: 'Challenging coloring page of an Amazon river dolphin among three giant lily pads' },
+    fr: { title: 'Dauphin de l’Amazone et Nénuphars Géants', description: 'Coloriage nature gratuit et détaillé d’un dauphin de l’Amazone parmi trois nénuphars géants, deux fleurs et une libellule.', keywords: 'Amazone Brésil dauphin rose Victoria amazonica nénuphars géants nature coloriage gratuit difficile', altText: 'Coloriage détaillé d’un dauphin de l’Amazone parmi trois nénuphars géants' },
+    es: { title: 'Delfín del Amazonas y Nenúfares Gigantes', description: 'Página de naturaleza gratuita y detallada para colorear de un delfín del Amazonas entre tres nenúfares gigantes, dos flores y una libélula.', keywords: 'Amazonas Brasil delfín rosado Victoria amazonica nenúfares gigantes naturaleza colorear gratis difícil', altText: 'Página detallada para colorear de un delfín del Amazonas entre tres nenúfares gigantes' },
+    zh: { title: '亚马孙河豚与巨型睡莲', description: '免费高难度自然涂色页：一只亚马孙河豚游在三片巨型睡莲叶、两朵花和一只蜻蜓之间。', keywords: '亚马孙 巴西 河豚 粉红海豚 亚马孙王莲 自然 免费 高难度 儿童 涂色页', altText: '亚马孙河豚游在三片巨型睡莲叶之间的高难度涂色页' },
+  },
+  {
+    id: 521, slug: 'colombian-chiva-bus-on-mountain-road', category: 'voertuigen', difficulty: 'medium',
+    img: '../img/kleurplaten/voertuigen--medium--colombian-chiva-bus-on-mountain-road.jpg',
+    nl: { title: 'Colombiaanse Chiva-bus op een Bergweg', description: 'Gratis voertuigenkleurplaat van een traditionele Colombiaanse chiva-bus met drie zakken op het dak, op een bergweg langs dorpjes en waspalmen.', keywords: 'Colombia chiva bus bergweg dorp waspalm voertuig kleurplaat gratis gemiddeld kinderen printen', altText: 'Kleurplaat van een Colombiaanse chiva-bus met drie dakzakken op een bergweg' },
+    en: { title: 'Colombian Chiva Bus on a Mountain Road', description: 'Free vehicle coloring page of a traditional Colombian chiva bus carrying three tied sacks on a mountain road past villages and wax palms.', keywords: 'Colombia chiva bus mountain road village wax palm vehicle coloring page free medium kids printable', altText: 'Coloring page of a Colombian chiva bus with three roof sacks on a mountain road' },
+    fr: { title: 'Bus Chiva Colombien sur une Route de Montagne', description: 'Coloriage de véhicule gratuit d’un bus chiva colombien traditionnel transportant trois sacs sur une route de montagne bordée de villages et de palmiers à cire.', keywords: 'Colombie bus chiva route montagne village palmier à cire véhicule coloriage gratuit moyen enfants', altText: 'Coloriage d’un bus chiva colombien avec trois sacs sur une route de montagne' },
+    es: { title: 'Chiva Colombiana en una Carretera de Montaña', description: 'Página gratuita para colorear de una chiva colombiana tradicional con tres sacos en el techo, en una carretera de montaña entre casas y palmas de cera.', keywords: 'Colombia chiva bus carretera montaña casas palma de cera vehículo colorear gratis medio niños', altText: 'Página para colorear de una chiva colombiana con tres sacos en una carretera de montaña' },
+    zh: { title: '山路上的哥伦比亚彩绘巴士', description: '免费交通工具涂色页：一辆传统哥伦比亚彩绘巴士载着三个捆好的袋子，行驶在村庄和蜡棕榈旁的山路上。', keywords: '哥伦比亚 彩绘巴士 山路 村庄 蜡棕榈 交通工具 免费 中等 儿童 涂色页', altText: '车顶装有三个袋子的哥伦比亚彩绘巴士山路涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
