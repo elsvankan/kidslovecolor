@@ -862,7 +862,7 @@ const COLORINGS = [
     zh: { title: '海洋里的海豚', description: '免费儿童涂色页，画的是在海浪中嬉戏的快乐海豚。', keywords: '海豚 海洋 涂色 免费 儿童', altText: '免费涂色页 海洋里的海豚 – 儿童' },
   },
   {
-    id: 58, slug: 'easter-bunnies-set', category: 'feestdagen', difficulty: 'easy',
+    id: 58, slug: 'easter-bunnies-set', category: 'feestdagen', difficulty: 'easy', hidden: true,
     img: '../img/kleurplaten/easter-bunnies-set.jpg',
     nl: { title: 'Paashazen Set', description: 'Gratis kleurplaat met een schattige set paashazen met eieren en bloemen. Leuk voor Pasen!', keywords: 'paashazen set kleurplaat eieren bloemen Pasen gratis', altText: 'Gratis kleurplaat paashazen set – kinderen' },
     en: { title: 'Easter Bunnies Set', description: 'Free coloring page with a cute set of Easter bunnies with eggs and flowers. Fun for Easter!', keywords: 'easter bunnies set coloring page eggs flowers free kids', altText: 'Free coloring page easter bunnies set – kids' },

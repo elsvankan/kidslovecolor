@@ -630,7 +630,7 @@
   // Zet totaaltelling na laden data
   document.addEventListener('DOMContentLoaded', function() {
     var el = document.getElementById('totalCount');
-    if (el && window.COLORINGS) el.textContent = window.COLORINGS.length + '+';
+    if (el && window.COLORINGS) el.textContent = window.COLORINGS.filter(function(item) { return !item.hidden; }).length + '+';
 
     var supportButtons = document.querySelectorAll('[data-support]');
     var supportNote = document.getElementById('supportNote');

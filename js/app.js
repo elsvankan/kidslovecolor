@@ -301,7 +301,7 @@ function renderLatestHeroColorings() {
   if (heroImages.length !== 3 || !Array.isArray(COLORINGS)) return;
 
   const latest = [...COLORINGS]
-    .filter(item => item.category !== 'actualiteiten')
+    .filter(item => item.category !== 'actualiteiten' && !item.hidden)
     .sort((a, b) => b.id - a.id)
     .slice(0, 3);
 
@@ -493,6 +493,7 @@ function injectColoringPageSchema(cat) {
 
   const items = COLORINGS.filter(item =>
     item.category !== 'actualiteiten'
+    && !item.hidden
     && (!cat || cat === 'all' || item.category === cat)
   );
 
@@ -642,7 +643,7 @@ function renderGrid() {
   const counter = document.getElementById('resultCount');
   if (!grid) return;
 
-  const publicColorings = COLORINGS.filter(item => item.category !== 'actualiteiten');
+  const publicColorings = COLORINGS.filter(item => item.category !== 'actualiteiten' && !item.hidden);
   const NEW_COUNT = 24;
   const newestIds = activeCategory === 'nieuw'
     ? new Set([...publicColorings].sort((a, b) => b.id - a.id).slice(0, NEW_COUNT).map(c => c.id))
