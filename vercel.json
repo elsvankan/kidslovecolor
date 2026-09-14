@@ -1981,6 +1981,26 @@
       "destination": "/kleurplaat/heritage-steam-train-mountain-bridge/index.html"
     },
     {
+      "source": "/kleurplaat/hong-kong-macao-tiangong-space-class",
+      "destination": "/kleurplaat/hong-kong-macao-tiangong-space-class/index.html"
+    },
+    {
+      "source": "/kleurplaat/cusco-clean-heritage-festival",
+      "destination": "/kleurplaat/cusco-clean-heritage-festival/index.html"
+    },
+    {
+      "source": "/kleurplaat/southern-right-whale-mother-calf-new-zealand",
+      "destination": "/kleurplaat/southern-right-whale-mother-calf-new-zealand/index.html"
+    },
+    {
+      "source": "/kleurplaat/white-tailed-eagle-chicks-loch-sunart",
+      "destination": "/kleurplaat/white-tailed-eagle-chicks-loch-sunart/index.html"
+    },
+    {
+      "source": "/kleurplaat/ishasha-tree-climbing-lion-rangers",
+      "destination": "/kleurplaat/ishasha-tree-climbing-lion-rangers/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

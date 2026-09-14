@@ -23,6 +23,32 @@
   if (!archiveUi) return;
   const ui = archiveUi[lang] || archiveUi.nl;
   const colorThemes = ['coral', 'blue', 'lilac', 'yellow', 'mint'];
+  const storyMetaTranslations = {
+    en: {
+      'cusco-clean-heritage-festival': ['Cusco, Peru', '7 September 2026', 'Culture & sustainability'],
+      'southern-right-whale-mother-calf-new-zealand': ['Northland, New Zealand', '10 September 2026', 'Ocean & animals'],
+      'white-tailed-eagle-chicks-loch-sunart': ['Loch Sunart, Scotland', '9 September 2026', 'Nature & conservation'],
+      'ishasha-tree-climbing-lion-rangers': ['Ishasha, Uganda', '8 September 2026', 'Animals & cooperation'],
+    },
+    fr: {
+      'cusco-clean-heritage-festival': ['Cusco, Pérou', '7 septembre 2026', 'Culture et durabilité'],
+      'southern-right-whale-mother-calf-new-zealand': ['Northland, Nouvelle-Zélande', '10 septembre 2026', 'Océan et animaux'],
+      'white-tailed-eagle-chicks-loch-sunart': ['Loch Sunart, Écosse', '9 septembre 2026', 'Nature et protection'],
+      'ishasha-tree-climbing-lion-rangers': ['Ishasha, Ouganda', '8 septembre 2026', 'Animaux et coopération'],
+    },
+    es: {
+      'cusco-clean-heritage-festival': ['Cusco, Perú', '7 de septiembre de 2026', 'Cultura y sostenibilidad'],
+      'southern-right-whale-mother-calf-new-zealand': ['Northland, Nueva Zelanda', '10 de septiembre de 2026', 'Océano y animales'],
+      'white-tailed-eagle-chicks-loch-sunart': ['Loch Sunart, Escocia', '9 de septiembre de 2026', 'Naturaleza y protección'],
+      'ishasha-tree-climbing-lion-rangers': ['Ishasha, Uganda', '8 de septiembre de 2026', 'Animales y cooperación'],
+    },
+    zh: {
+      'cusco-clean-heritage-festival': ['秘鲁库斯科', '2026年9月7日', '文化与可持续发展'],
+      'southern-right-whale-mother-calf-new-zealand': ['新西兰北地', '2026年9月10日', '海洋与动物'],
+      'white-tailed-eagle-chicks-loch-sunart': ['苏格兰苏纳特湖', '2026年9月9日', '自然与保护'],
+      'ishasha-tree-climbing-lion-rangers': ['乌干达伊沙沙', '2026年9月8日', '动物与合作'],
+    },
+  };
 
   const storyCount = WORLD_STORY_EDITIONS.reduce(
     (total, edition) => total + (Array.isArray(edition.stories) ? edition.stories.length : 0),
@@ -51,10 +77,28 @@
   };
 
   const localizeStory = (story) => {
-    if (lang === 'nl' || typeof WORLD_STORY_TRANSLATIONS === 'undefined') return story;
+    if (lang === 'nl') return story;
+    const storedTranslation = typeof WORLD_STORY_TRANSLATIONS === 'undefined'
+      ? null
+      : WORLD_STORY_TRANSLATIONS[lang]?.[story.slug];
+    if (storedTranslation) return { ...story, ...storedTranslation };
+
+    const coloring = typeof COLORINGS === 'undefined'
+      ? null
+      : COLORINGS.find((item) => item.slug === story.coloringSlug);
+    const coloringText = coloring?.[lang];
+    if (!coloringText) return story;
+    const translatedMeta = storyMetaTranslations[lang]?.[story.coloringSlug] || [];
     return {
       ...story,
-      ...(WORLD_STORY_TRANSLATIONS[lang]?.[story.slug] || {}),
+      title: coloringText.title || story.title,
+      location: coloringText.newsLocation || translatedMeta[0] || story.location,
+      reportedDate: coloringText.newsReportedDate || translatedMeta[1] || story.reportedDate,
+      theme: coloringText.newsTheme || translatedMeta[2] || story.theme,
+      intro: coloringText.newsExplainer || story.intro,
+      body: coloringText.newsArticle || story.body,
+      facts: coloringText.newsFacts || story.facts,
+      question: coloringText.newsQuestion || story.question,
     };
   };
 
