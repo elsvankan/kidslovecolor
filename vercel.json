@@ -1961,6 +1961,26 @@
       "destination": "/kleurplaat/colombian-chiva-bus-on-mountain-road/index.html"
     },
     {
+      "source": "/kleurplaat/kawaii-cloud-tea-party",
+      "destination": "/kleurplaat/kawaii-cloud-tea-party/index.html"
+    },
+    {
+      "source": "/kleurplaat/young-botanist-examines-sunflower",
+      "destination": "/kleurplaat/young-botanist-examines-sunflower/index.html"
+    },
+    {
+      "source": "/kleurplaat/moroccan-riad-courtyard-fountain",
+      "destination": "/kleurplaat/moroccan-riad-courtyard-fountain/index.html"
+    },
+    {
+      "source": "/kleurplaat/baby-wombat-with-eucalyptus-leaf",
+      "destination": "/kleurplaat/baby-wombat-with-eucalyptus-leaf/index.html"
+    },
+    {
+      "source": "/kleurplaat/heritage-steam-train-mountain-bridge",
+      "destination": "/kleurplaat/heritage-steam-train-mountain-bridge/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
