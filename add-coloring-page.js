@@ -62,6 +62,7 @@ const categoryLabels = {
   voertuigen:  { nl: 'Voertuigen',en: 'Vehicles', fr: 'Véhicules', es: 'Vehículos',zh: '车辆' },
   sprookjes:   { nl: 'Sprookjes',en: 'Fairy Tales',fr: 'Contes de fées',es: 'Cuentos de hadas',zh: '童话' },
   sport:       { nl: 'Sport',    en: 'Sports',    fr: 'Sport',     es: 'Deportes', zh: '运动' },
+  manga:       { nl: 'Manga',    en: 'Manga',     fr: 'Manga',     es: 'Manga',    zh: '漫画' },
 };
 
 // --- Generate multilingual titles ---

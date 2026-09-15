@@ -56,7 +56,7 @@ function loadTitleOverrides() {
 const VALID_CATS = new Set([
   'dieren','voertuigen','prinsessen','seizoenen','feestdagen',
   'eten','kawaii','natuur','sprookjes','ruimte','oceaan',
-  'letters','mandala','gezichten','beroepen','actualiteiten',
+  'letters','mandala','gezichten','beroepen','manga','actualiteiten',
 ]);
 const VALID_DIFF = new Set(['easy','medium','hard']);
 
@@ -309,7 +309,7 @@ const CAT_LABELS_NL = {
   seizoenen: 'Seizoenen & Natuur', feestdagen: 'Feestdagen', eten: 'Eten & Drinken',
   kawaii: 'Kawaii', natuur: 'Natuur', sprookjes: 'Sprookjes', ruimte: 'Ruimte',
   oceaan: 'Oceaan', letters: 'Letters', mandala: 'Mandala', gezichten: 'Gezichten',
-  beroepen: 'Beroepen', actualiteiten: 'In het Nieuws',
+  beroepen: 'Beroepen', manga: 'Manga', actualiteiten: 'In het Nieuws',
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -391,6 +391,11 @@ const CAT_DESC = {
                 fr: t => `Page à colorier métier gratuite de ${t}. Coloriage éducatif pour les enfants.`,
                 es: t => `Página para colorear profesión gratis de ${t}. Colorear educativo para niños.`,
                 zh: t => `免费职业${t}涂色页，适合儿童的教育涂色。` },
+  manga:      { nl: t => `Gratis manga-kleurplaat: ${t}. Heldere lijnkunst met een rustige achtergrond, leuk voor oudere kinderen en tieners.`,
+                en: t => `Free manga coloring page: ${t}. Clean line art with a calm background, fun for older children and teens.`,
+                fr: t => `Coloriage manga gratuit : ${t}. Traits clairs et décor calme, idéal pour les enfants plus âgés et les ados.`,
+                es: t => `Página manga gratis para colorear: ${t}. Líneas limpias y fondo tranquilo, ideal para niños mayores y jóvenes.`,
+                zh: t => `免费漫画涂色页：${t}。线条清晰、背景简洁，适合年龄较大的儿童和青少年。` },
   actualiteiten: { nl: t => `Gratis actualiteitenkleurplaat: ${t}. Leuk en actueel kleurplaatje voor kinderen.`,
                 en: t => `Free current-events coloring page: ${t}. Fun and topical coloring page for kids.`,
                 fr: t => `Page à colorier actualité gratuite : ${t}. Coloriage amusant et actuel pour les enfants.`,
@@ -424,31 +429,31 @@ const CAT_KEYWORDS = {
         kawaii:'kawaii kleurplaat', natuur:'natuur kleurplaat', sprookjes:'sprookjes kleurplaat',
         ruimte:'ruimte kleurplaat', oceaan:'oceaan kleurplaat', letters:'letters kleurplaat',
         mandala:'mandala kleurplaat', gezichten:'gezichten kleurplaat', beroepen:'beroepen kleurplaat',
-        actualiteiten:'actualiteiten kleurplaat' },
+        manga:'manga kleurplaat', actualiteiten:'actualiteiten kleurplaat' },
   en: { dieren:'animal coloring page', voertuigen:'vehicle coloring page', prinsessen:'princess coloring page',
         seizoenen:'seasonal coloring page', feestdagen:'holiday coloring page', eten:'food coloring page',
         kawaii:'kawaii coloring page', natuur:'nature coloring page', sprookjes:'fairy tale coloring page',
         ruimte:'space coloring page', oceaan:'ocean coloring page', letters:'letter coloring page',
         mandala:'mandala coloring page', gezichten:'face coloring page', beroepen:'profession coloring page',
-        actualiteiten:'current events coloring page' },
+        manga:'manga coloring page', actualiteiten:'current events coloring page' },
   fr: { dieren:'coloriage animal', voertuigen:'coloriage véhicule', prinsessen:'coloriage princesse',
         seizoenen:'coloriage saisons', feestdagen:'coloriage fête', eten:'coloriage nourriture',
         kawaii:'coloriage kawaii', natuur:'coloriage nature', sprookjes:'coloriage conte de fées',
         ruimte:'coloriage espace', oceaan:'coloriage océan', letters:'coloriage lettre',
         mandala:'coloriage mandala', gezichten:'coloriage visage', beroepen:'coloriage métier',
-        actualiteiten:'coloriage actualité' },
+        manga:'coloriage manga', actualiteiten:'coloriage actualité' },
   es: { dieren:'colorear animales', voertuigen:'colorear vehículos', prinsessen:'colorear princesas',
         seizoenen:'colorear estaciones', feestdagen:'colorear fiestas', eten:'colorear comida',
         kawaii:'colorear kawaii', natuur:'colorear naturaleza', sprookjes:'colorear cuentos de hadas',
         ruimte:'colorear espacio', oceaan:'colorear océano', letters:'colorear letras',
         mandala:'colorear mandala', gezichten:'colorear caras', beroepen:'colorear profesiones',
-        actualiteiten:'colorear actualidad' },
+        manga:'colorear manga', actualiteiten:'colorear actualidad' },
   zh: { dieren:'动物涂色', voertuigen:'交通工具涂色', prinsessen:'公主涂色',
         seizoenen:'季节涂色', feestdagen:'节日涂色', eten:'食物涂色',
         kawaii:'卡哇伊涂色', natuur:'自然涂色', sprookjes:'童话涂色',
         ruimte:'太空涂色', oceaan:'海洋涂色', letters:'字母涂色',
         mandala:'曼陀罗涂色', gezichten:'面孔涂色', beroepen:'职业涂色',
-        actualiteiten:'时事涂色' },
+        manga:'漫画涂色', actualiteiten:'时事涂色' },
 };
 const KEYWORD_SUFFIX = { nl:'gratis kinderen', en:'free kids', fr:'gratuit enfants', es:'gratis niños', zh:'免费儿童' };
 

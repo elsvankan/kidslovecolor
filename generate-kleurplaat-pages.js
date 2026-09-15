@@ -32,7 +32,7 @@ const categoryNames = {
   ruimte: 'Ruimte', oceaan: 'Oceaan', natuur: 'Natuur', eten: 'Eten',
   beroepen: 'Beroepen', seizoenen: 'Seizoenen', mandala: 'Mandala',
   actualiteiten: 'Actualiteiten', kawaii: 'Kawaii', prinsessen: 'Prinsessen',
-  feestdagen: 'Feestdagen', letters: 'Letters', gezichten: 'Gezichten',
+  feestdagen: 'Feestdagen', letters: 'Letters', gezichten: 'Gezichten', manga: 'Manga',
 };
 const difficultyNames = { easy: 'Makkelijk', medium: 'Gemiddeld', hard: 'Uitdagend' };
 

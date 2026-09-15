@@ -2001,6 +2001,86 @@
       "destination": "/kleurplaat/ishasha-tree-climbing-lion-rangers/index.html"
     },
     {
+      "source": "/kleurplaat/manga-boy-cuddling-cat",
+      "destination": "/kleurplaat/manga-boy-cuddling-cat/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-boy-playing-handheld-game",
+      "destination": "/kleurplaat/manga-boy-playing-handheld-game/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-boy-playing-soccer",
+      "destination": "/kleurplaat/manga-boy-playing-soccer/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-friends-high-five",
+      "destination": "/kleurplaat/manga-friends-high-five/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-drawing-in-sketchbook",
+      "destination": "/kleurplaat/manga-girl-drawing-in-sketchbook/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-reading-under-cherry-blossoms",
+      "destination": "/kleurplaat/manga-girl-reading-under-cherry-blossoms/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-with-bubble-tea",
+      "destination": "/kleurplaat/manga-girl-with-bubble-tea/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-boy-with-bicycle",
+      "destination": "/kleurplaat/manga-boy-with-bicycle/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-playing-violin",
+      "destination": "/kleurplaat/manga-girl-playing-violin/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-mermaid-with-seashell",
+      "destination": "/kleurplaat/manga-mermaid-with-seashell/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-astronaut-floating-in-space",
+      "destination": "/kleurplaat/manga-astronaut-floating-in-space/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-boy-decorating-pancakes",
+      "destination": "/kleurplaat/manga-boy-decorating-pancakes/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-boy-martial-arts-stance",
+      "destination": "/kleurplaat/manga-boy-martial-arts-stance/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-boy-playing-acoustic-guitar",
+      "destination": "/kleurplaat/manga-boy-playing-acoustic-guitar/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-detective-finds-footprint",
+      "destination": "/kleurplaat/manga-detective-finds-footprint/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-fashion-designer-with-dress-form",
+      "destination": "/kleurplaat/manga-fashion-designer-with-dress-form/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-arranging-flowers",
+      "destination": "/kleurplaat/manga-girl-arranging-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-photographer",
+      "destination": "/kleurplaat/manga-girl-photographer/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-girl-skateboarding",
+      "destination": "/kleurplaat/manga-girl-skateboarding/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-moon-mage-with-staff",
+      "destination": "/kleurplaat/manga-moon-mage-with-staff/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
