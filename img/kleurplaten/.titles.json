@@ -1748,5 +1748,65 @@
     "fr": "Rover Martien à Six Roues Ramasse une Roche",
     "es": "Róver Marciano de Seis Ruedas Recoge una Roca",
     "zh": "六轮火星车采集岩石"
+  },
+  "natuur--hard--dinosaur-fossil-excavation.jpg": {
+    "nl": "Dinosaurusfossiel bij de Opgraving", "en": "Dinosaur Fossil Excavation", "fr": "Fouilles d’un Fossile de Dinosaure", "es": "Excavación de un Fósil de Dinosaurio", "zh": "恐龙化石发掘现场"
+  },
+  "ruimte--hard--mars-research-base-and-rover.jpg": {
+    "nl": "Onderzoeksbasis en Rover op Mars", "en": "Mars Research Base and Rover", "fr": "Base de Recherche et Rover sur Mars", "es": "Base de Investigación y Róver en Marte", "zh": "火星科研基地与探测车"
+  },
+  "natuur--hard--giant-forest-treehouse-adventure.jpg": {
+    "nl": "Avontuur in de Grote Boomhut", "en": "Giant Forest Treehouse Adventure", "fr": "Aventure dans la Grande Cabane", "es": "Aventura en la Gran Casa del Árbol", "zh": "巨型森林树屋探险"
+  },
+  "oceaan--hard--submarine-ocean-expedition.jpg": {
+    "nl": "Onderzeeboot op Oceaanexpeditie", "en": "Submarine Ocean Expedition", "fr": "Expédition Océanique en Sous-marin", "es": "Expedición Oceánica en Submarino", "zh": "潜水艇海洋探险"
+  },
+  "voertuigen--hard--monster-truck-obstacle-course.jpg": {
+    "nl": "Monstertruck op het Hindernisparcours", "en": "Monster Truck Obstacle Course", "fr": "Monster Truck sur le Parcours d’Obstacles", "es": "Camión Monstruo en la Pista de Obstáculos", "zh": "障碍赛道上的大脚车"
+  },
+  "beroepen--hard--samurai-temple-garden.jpg": {
+    "nl": "Samoerai in de Tempeltuin", "en": "Samurai in the Temple Garden", "fr": "Samouraï dans le Jardin du Temple", "es": "Samurái en el Jardín del Templo", "zh": "寺院花园里的武士"
+  },
+  "ruimte--hard--robot-metropolis.jpg": {
+    "nl": "Robot in de Futuristische Stad", "en": "Robot Metropolis", "fr": "Robot dans la Métropole du Futur", "es": "Robot en la Metrópolis del Futuro", "zh": "未来机器人都市"
+  },
+  "natuur--hard--jungle-expedition-with-jeep.jpg": {
+    "nl": "Jungle-expeditie met Terreinwagen", "en": "Jungle Expedition with a Jeep", "fr": "Expédition dans la Jungle en Tout-terrain", "es": "Expedición por la Selva en Todoterreno", "zh": "驾驶越野车探索丛林"
+  },
+  "voertuigen--hard--viking-harbor-and-longship.jpg": {
+    "nl": "Vikinghaven met Langschip", "en": "Viking Harbor and Longship", "fr": "Port Viking et Drakkar", "es": "Puerto Vikingo y Barco Largo", "zh": "维京港口与长船"
+  },
+  "voertuigen--hard--futuristic-race-car-city.jpg": {
+    "nl": "Racewagen in de Stad van de Toekomst", "en": "Futuristic Race Car City", "fr": "Voiture de Course dans la Ville du Futur", "es": "Coche de Carreras en la Ciudad del Futuro", "zh": "未来城市赛车"
+  },
+  "beroepen--hard--fire-station-cutaway.jpg": {
+    "nl": "Binnenkijken in de Brandweerkazerne", "en": "Inside the Fire Station", "fr": "À l’Intérieur de la Caserne de Pompiers", "es": "Dentro del Parque de Bomberos", "zh": "消防站内部探秘"
+  },
+  "natuur--hard--girl-botanist-magical-greenhouse.jpg": {
+    "nl": "Botaniste in de Bijzondere Kas", "en": "Botanist in a Remarkable Greenhouse", "fr": "Botaniste dans une Serre Remarquable", "es": "Botánica en un Invernadero Extraordinario", "zh": "特别温室里的植物学家"
+  },
+  "dieren--hard--girl-grooming-horse-in-stable.jpg": {
+    "nl": "Paardenverzorgster in de Stal", "en": "Girl Grooming a Horse in the Stable", "fr": "Jeune Cavalière Soignant son Cheval", "es": "Joven Amazona Cuidando a su Caballo", "zh": "马厩里照顾马儿的女孩"
+  },
+  "beroepen--hard--fashion-designer-atelier.jpg": {
+    "nl": "Modeontwerpster in haar Atelier", "en": "Fashion Designer in Her Atelier", "fr": "Créatrice de Mode dans son Atelier", "es": "Diseñadora de Moda en su Taller", "zh": "时装工作室里的设计师"
+  },
+  "kawaii--hard--dream-bedroom-art-studio.jpg": {
+    "nl": "Droomslaapkamer met Kunstatelier", "en": "Dream Bedroom and Art Studio", "fr": "Chambre de Rêve avec Atelier d’Art", "es": "Dormitorio de Ensueño con Estudio de Arte", "zh": "梦想卧室与艺术工作室"
+  },
+  "beroepen--hard--bicycle-repair-workshop.jpg": {
+    "nl": "Fietsenmaker in de Werkplaats", "en": "Bicycle Repair Workshop", "fr": "Atelier de Réparation de Vélos", "es": "Taller de Reparación de Bicicletas", "zh": "自行车维修工坊"
+  },
+  "beroepen--hard--community-library-construction-site.jpg": {
+    "nl": "Bouwplaats van de Nieuwe Bibliotheek", "en": "Community Library Construction Site", "fr": "Chantier de la Nouvelle Bibliothèque", "es": "Obra de la Nueva Biblioteca", "zh": "社区图书馆施工现场"
+  },
+  "ruimte--hard--hilltop-astronomy-observatory.jpg": {
+    "nl": "Sterrenwacht op de Berg", "en": "Hilltop Astronomy Observatory", "fr": "Observatoire Astronomique sur la Colline", "es": "Observatorio Astronómico en la Montaña", "zh": "山顶天文台"
+  },
+  "voertuigen--hard--railway-maintenance-depot.jpg": {
+    "nl": "Trein in de Onderhoudswerkplaats", "en": "Railway Maintenance Depot", "fr": "Dépôt de Maintenance Ferroviaire", "es": "Taller de Mantenimiento Ferroviario", "zh": "铁路列车检修库"
+  },
+  "voertuigen--hard--coastal-shipyard.jpg": {
+    "nl": "Scheepswerf aan de Kust", "en": "Coastal Shipyard", "fr": "Chantier Naval Côtier", "es": "Astillero en la Costa", "zh": "海岸造船厂"
   }
 }

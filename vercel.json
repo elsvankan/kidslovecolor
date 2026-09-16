@@ -2101,6 +2101,86 @@
       "destination": "/kleurplaat/six-wheeled-mars-rover-collects-rock/index.html"
     },
     {
+      "source": "/kleurplaat/bicycle-repair-workshop",
+      "destination": "/kleurplaat/bicycle-repair-workshop/index.html"
+    },
+    {
+      "source": "/kleurplaat/community-library-construction-site",
+      "destination": "/kleurplaat/community-library-construction-site/index.html"
+    },
+    {
+      "source": "/kleurplaat/fashion-designer-atelier",
+      "destination": "/kleurplaat/fashion-designer-atelier/index.html"
+    },
+    {
+      "source": "/kleurplaat/fire-station-cutaway",
+      "destination": "/kleurplaat/fire-station-cutaway/index.html"
+    },
+    {
+      "source": "/kleurplaat/samurai-temple-garden",
+      "destination": "/kleurplaat/samurai-temple-garden/index.html"
+    },
+    {
+      "source": "/kleurplaat/girl-grooming-horse-in-stable",
+      "destination": "/kleurplaat/girl-grooming-horse-in-stable/index.html"
+    },
+    {
+      "source": "/kleurplaat/dream-bedroom-art-studio",
+      "destination": "/kleurplaat/dream-bedroom-art-studio/index.html"
+    },
+    {
+      "source": "/kleurplaat/dinosaur-fossil-excavation",
+      "destination": "/kleurplaat/dinosaur-fossil-excavation/index.html"
+    },
+    {
+      "source": "/kleurplaat/giant-forest-treehouse-adventure",
+      "destination": "/kleurplaat/giant-forest-treehouse-adventure/index.html"
+    },
+    {
+      "source": "/kleurplaat/girl-botanist-magical-greenhouse",
+      "destination": "/kleurplaat/girl-botanist-magical-greenhouse/index.html"
+    },
+    {
+      "source": "/kleurplaat/jungle-expedition-with-jeep",
+      "destination": "/kleurplaat/jungle-expedition-with-jeep/index.html"
+    },
+    {
+      "source": "/kleurplaat/submarine-ocean-expedition",
+      "destination": "/kleurplaat/submarine-ocean-expedition/index.html"
+    },
+    {
+      "source": "/kleurplaat/hilltop-astronomy-observatory",
+      "destination": "/kleurplaat/hilltop-astronomy-observatory/index.html"
+    },
+    {
+      "source": "/kleurplaat/mars-research-base-and-rover",
+      "destination": "/kleurplaat/mars-research-base-and-rover/index.html"
+    },
+    {
+      "source": "/kleurplaat/robot-metropolis",
+      "destination": "/kleurplaat/robot-metropolis/index.html"
+    },
+    {
+      "source": "/kleurplaat/coastal-shipyard",
+      "destination": "/kleurplaat/coastal-shipyard/index.html"
+    },
+    {
+      "source": "/kleurplaat/futuristic-race-car-city",
+      "destination": "/kleurplaat/futuristic-race-car-city/index.html"
+    },
+    {
+      "source": "/kleurplaat/monster-truck-obstacle-course",
+      "destination": "/kleurplaat/monster-truck-obstacle-course/index.html"
+    },
+    {
+      "source": "/kleurplaat/railway-maintenance-depot",
+      "destination": "/kleurplaat/railway-maintenance-depot/index.html"
+    },
+    {
+      "source": "/kleurplaat/viking-harbor-and-longship",
+      "destination": "/kleurplaat/viking-harbor-and-longship/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
