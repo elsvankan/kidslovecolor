@@ -2081,6 +2081,26 @@
       "destination": "/kleurplaat/manga-moon-mage-with-staff/index.html"
     },
     {
+      "source": "/kleurplaat/grandparent-and-child-make-dragon-kite",
+      "destination": "/kleurplaat/grandparent-and-child-make-dragon-kite/index.html"
+    },
+    {
+      "source": "/kleurplaat/capybara-family-by-rainforest-pond",
+      "destination": "/kleurplaat/capybara-family-by-rainforest-pond/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-donut-picnic",
+      "destination": "/kleurplaat/kawaii-donut-picnic/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-bedroom-to-decorate",
+      "destination": "/kleurplaat/cozy-bedroom-to-decorate/index.html"
+    },
+    {
+      "source": "/kleurplaat/six-wheeled-mars-rover-collects-rock",
+      "destination": "/kleurplaat/six-wheeled-mars-rover-collects-rock/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

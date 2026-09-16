@@ -5164,6 +5164,52 @@ const COLORINGS = [
     zh: { title: '手持法杖的漫画月亮法师', description: '免费漫画涂色页：手持法杖的漫画月亮法师。线条清晰、背景简洁，适合年龄较大的儿童和青少年。', keywords: '手持法杖的漫画月亮法师 漫画涂色 免费儿童', altText: '免费涂色页 手持法杖的漫画月亮法师 – 儿童' },
   },
 
+  {
+    id: 552, slug: 'grandparent-and-child-make-dragon-kite', category: 'beroepen', difficulty: 'hard',
+    img: '../img/kleurplaten/beroepen--hard--grandparent-and-child-make-dragon-kite.jpg',
+    nl: { title: 'Grootouder en Kind Maken een Drakenvlieger', description: 'Gratis kleurplaat van een grootouder en kind die samen een traditionele drakenvlieger maken en beschilderen. Een rustige, leerzame plaat vol open kleurvlakken.', keywords: 'grootouder en kind maken drakenvlieger Chinese vlieger kleurplaat gratis kinderen', altText: 'Gratis kleurplaat van een grootouder en kind die een drakenvlieger maken – kinderen' },
+    en: { title: 'Grandparent and Child Make a Dragon Kite', description: 'Free coloring page of a grandparent and child building and painting a traditional dragon kite together. A calm cultural craft scene with roomy shapes to color.', keywords: 'grandparent child make dragon kite Chinese kite coloring page free kids', altText: 'Free coloring page of a grandparent and child making a dragon kite – kids' },
+    fr: { title: 'Grand-parent et Enfant Fabriquent un Cerf-volant Dragon', description: 'Coloriage gratuit d’un grand-parent et d’un enfant qui fabriquent et peignent ensemble un cerf-volant dragon traditionnel. Une scène calme aux grands espaces à colorier.', keywords: 'grand-parent enfant cerf-volant dragon chinois coloriage gratuit enfants', altText: 'Coloriage d’un grand-parent et d’un enfant fabriquant un cerf-volant dragon – enfants' },
+    es: { title: 'Abuelo y Niño Hacen una Cometa de Dragón', description: 'Página gratuita para colorear de un abuelo y un niño que construyen y pintan juntos una cometa tradicional con forma de dragón. Una escena tranquila con amplias zonas para colorear.', keywords: 'abuelo niño cometa dragón china colorear gratis niños', altText: 'Página para colorear de un abuelo y un niño haciendo una cometa de dragón – niños' },
+    zh: { title: '祖孙一起制作龙形风筝', description: '免费涂色页：祖孙一起制作并彩绘传统龙形风筝。画面温馨，留有宽敞的涂色区域。', keywords: '祖孙 龙形风筝 中国风筝 免费儿童涂色页', altText: '祖孙一起制作龙形风筝的免费儿童涂色页' },
+  },
+  {
+    id: 553, slug: 'capybara-family-by-rainforest-pond', category: 'dieren', difficulty: 'medium',
+    img: '../img/kleurplaten/dieren--medium--capybara-family-by-rainforest-pond.jpg',
+    nl: { title: 'Capibarafamilie bij een Regenwoudvijver', description: 'Gratis kleurplaat van een capibarafamilie bij een vijver in het Zuid-Amerikaanse regenwoud. Kleur drie rustige dieren, waterlelies en tropische bladeren.', keywords: 'capibarafamilie regenwoud vijver Zuid-Amerika dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat van drie capibara’s bij een regenwoudvijver – kinderen' },
+    en: { title: 'Capybara Family by a Rainforest Pond', description: 'Free coloring page of a capybara family beside a pond in the South American rainforest. Color three calm animals, water lilies and tropical leaves.', keywords: 'capybara family rainforest pond South America animal coloring page free kids', altText: 'Free coloring page of three capybaras beside a rainforest pond – kids' },
+    fr: { title: 'Famille de Capybaras près d’un Étang Tropical', description: 'Coloriage gratuit d’une famille de capybaras près d’un étang dans la forêt tropicale d’Amérique du Sud. Trois animaux paisibles, des nénuphars et des feuilles à colorier.', keywords: 'famille capybaras étang forêt tropicale Amérique du Sud coloriage gratuit enfants', altText: 'Coloriage de trois capybaras près d’un étang tropical – enfants' },
+    es: { title: 'Familia de Capibaras junto a un Estanque Tropical', description: 'Página gratuita para colorear de una familia de capibaras junto a un estanque en la selva sudamericana. Colorea tres animales tranquilos, nenúfares y hojas tropicales.', keywords: 'familia capibaras estanque selva Sudamérica colorear gratis niños', altText: 'Página para colorear de tres capibaras junto a un estanque tropical – niños' },
+    zh: { title: '雨林池塘边的水豚一家', description: '免费涂色页：三只水豚在南美雨林池塘边休息，周围有睡莲和热带植物。', keywords: '水豚一家 南美雨林 池塘 动物 免费儿童涂色页', altText: '雨林池塘边三只水豚的免费儿童涂色页' },
+  },
+  {
+    id: 554, slug: 'kawaii-donut-picnic', category: 'eten', difficulty: 'easy',
+    img: '../img/kleurplaten/eten--easy--kawaii-donut-picnic.jpg',
+    nl: { title: 'Kawaii Donutpicknick', description: 'Gratis makkelijke kawaii-kleurplaat met drie vrolijke donuts op een picknickkleed, aardbeien, een drinkpakje en een mandje.', keywords: 'kawaii donutpicknick donuts eten makkelijke kleurplaat gratis kinderen', altText: 'Gratis makkelijke kleurplaat van drie kawaii donuts op een picknickkleed – kinderen' },
+    en: { title: 'Kawaii Donut Picnic', description: 'Free easy kawaii coloring page with three cheerful donuts on a picnic blanket, strawberries, a drink carton and a basket.', keywords: 'kawaii donut picnic donuts food easy coloring page free kids', altText: 'Free easy coloring page of three kawaii donuts on a picnic blanket – kids' },
+    fr: { title: 'Pique-nique de Donuts Kawaii', description: 'Coloriage kawaii facile et gratuit avec trois donuts joyeux sur une couverture de pique-nique, des fraises, une boisson et un panier.', keywords: 'pique-nique donuts kawaii nourriture coloriage facile gratuit enfants', altText: 'Coloriage facile de trois donuts kawaii sur une couverture de pique-nique – enfants' },
+    es: { title: 'Pícnic de Donas Kawaii', description: 'Página kawaii fácil y gratuita para colorear con tres donas alegres sobre una manta de pícnic, fresas, una bebida y una cesta.', keywords: 'pícnic donas kawaii comida colorear fácil gratis niños', altText: 'Página fácil para colorear de tres donas kawaii sobre una manta de pícnic – niños' },
+    zh: { title: '可爱甜甜圈野餐', description: '免费简单涂色页：三只可爱甜甜圈在野餐垫上，旁边有草莓、饮料盒和野餐篮。', keywords: '可爱甜甜圈 野餐 食物 简单 免费儿童涂色页', altText: '野餐垫上三只可爱甜甜圈的免费简单涂色页' },
+  },
+  {
+    id: 555, slug: 'cozy-bedroom-to-decorate', category: 'kawaii', difficulty: 'medium',
+    img: '../img/kleurplaten/kawaii--medium--cozy-bedroom-to-decorate.jpg',
+    nl: { title: 'Knusse Slaapkamer om te Versieren', description: 'Gratis kleurplaat van een knusse slaapkamer met hemelbed, kaptafel, bureau, planten en een open raam. Kies zelf kleuren voor ieder meubel en detail.', keywords: 'knusse slaapkamer versieren hemelbed kamer interieur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat van een knusse slaapkamer met hemelbed om te versieren – kinderen' },
+    en: { title: 'Cozy Bedroom to Decorate', description: 'Free coloring page of a cozy bedroom with a canopy bed, vanity, desk, plants and an open window. Choose your own colors for every piece of furniture.', keywords: 'cozy bedroom decorate canopy bed room interior coloring page free kids', altText: 'Free coloring page of a cozy bedroom with a canopy bed to decorate – kids' },
+    fr: { title: 'Chambre Douillette à Décorer', description: 'Coloriage gratuit d’une chambre douillette avec lit à baldaquin, coiffeuse, bureau, plantes et fenêtre ouverte. Choisis les couleurs de chaque meuble.', keywords: 'chambre douillette décorer lit baldaquin intérieur coloriage gratuit enfants', altText: 'Coloriage d’une chambre douillette avec lit à baldaquin à décorer – enfants' },
+    es: { title: 'Dormitorio Acogedor para Decorar', description: 'Página gratuita para colorear de un dormitorio acogedor con cama con dosel, tocador, escritorio, plantas y ventana abierta. Elige los colores de cada mueble.', keywords: 'dormitorio acogedor decorar cama dosel interior colorear gratis niños', altText: 'Página para colorear de un dormitorio acogedor con cama con dosel – niños' },
+    zh: { title: '可装饰的温馨卧室', description: '免费涂色页：温馨卧室里有带帷幔的床、梳妆台、书桌、植物和打开的窗户，可以自由设计家具颜色。', keywords: '温馨卧室 帷幔床 房间装饰 免费儿童涂色页', altText: '带帷幔床的温馨卧室免费儿童涂色页' },
+  },
+  {
+    id: 556, slug: 'six-wheeled-mars-rover-collects-rock', category: 'ruimte', difficulty: 'hard',
+    img: '../img/kleurplaten/ruimte--hard--six-wheeled-mars-rover-collects-rock.jpg',
+    nl: { title: 'Marsrover met Zes Wielen Verzamelt een Steen', description: 'Gratis uitdagende ruimtekleurplaat van een technisch kloppende Marsrover met zes zichtbare wielen, een cameramast en een robotarm die een steen onderzoekt.', keywords: 'Marsrover zes wielen robotarm ruimte moeilijke kleurplaat gratis kinderen', altText: 'Gratis kleurplaat van een Marsrover met zes wielen die een steen verzamelt – kinderen' },
+    en: { title: 'Six-Wheeled Mars Rover Collects a Rock', description: 'Free challenging space coloring page of a plausible Mars rover with six visible wheels, a camera mast and a robotic arm examining a rock.', keywords: 'Mars rover six wheels robotic arm space hard coloring page free kids', altText: 'Free coloring page of a six-wheeled Mars rover collecting a rock – kids' },
+    fr: { title: 'Rover Martien à Six Roues Ramasse une Roche', description: 'Coloriage spatial difficile et gratuit d’un rover martien réaliste avec six roues visibles, un mât caméra et un bras robotique qui examine une roche.', keywords: 'rover martien six roues bras robotique espace coloriage difficile gratuit enfants', altText: 'Coloriage d’un rover martien à six roues ramassant une roche – enfants' },
+    es: { title: 'Róver Marciano de Seis Ruedas Recoge una Roca', description: 'Página espacial difícil y gratuita para colorear de un róver marciano realista con seis ruedas visibles, mástil de cámara y brazo robótico que examina una roca.', keywords: 'róver marciano seis ruedas brazo robótico espacio colorear difícil gratis niños', altText: 'Página para colorear de un róver marciano de seis ruedas recogiendo una roca – niños' },
+    zh: { title: '六轮火星车采集岩石', description: '免费高难度太空涂色页：一辆结构合理的火星车有六个清晰可见的车轮、相机桅杆和正在研究岩石的机械臂。', keywords: '火星车 六个车轮 机械臂 太空 高难度 免费儿童涂色页', altText: '六轮火星车用机械臂采集岩石的免费儿童涂色页' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
