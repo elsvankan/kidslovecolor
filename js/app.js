@@ -393,6 +393,16 @@ function updateGridUrl() {
   );
 }
 
+function itemMatchesCategory(item, category) {
+  if (!category || category === 'all') return true;
+  if (category === 'nieuw') return false;
+  const categoryData = CATEGORIES[category];
+  if (categoryData?.collection) {
+    return Array.isArray(item.collections) && item.collections.includes(category);
+  }
+  return item.category === category;
+}
+
 function setupGalleryControls() {
   const grid = document.getElementById('coloringGrid');
   if (!grid || document.getElementById('galleryActions')) return;
@@ -523,7 +533,7 @@ function injectColoringPageSchema(cat) {
   const items = COLORINGS.filter(item =>
     item.category !== 'actualiteiten'
     && !item.hidden
-    && (!cat || cat === 'all' || item.category === cat)
+    && itemMatchesCategory(item, cat)
   );
 
   const langData = (item) => item[currentLang] || item.nl;
@@ -583,8 +593,15 @@ function renderCategories() {
   const nav = document.getElementById('categoryNav');
   if (!nav) return;
 
-  nav.innerHTML = Object.entries(CATEGORIES)
-    .filter(([key]) => key !== 'actualiteiten')
+  const categoryEntries = Object.entries(CATEGORIES)
+    .filter(([key]) => key !== 'actualiteiten');
+  const detailWorldIndex = categoryEntries.findIndex(([key]) => key === 'stoere_detailwerelden');
+  if (detailWorldIndex > -1) {
+    const [detailWorldCategory] = categoryEntries.splice(detailWorldIndex, 1);
+    categoryEntries.splice(2, 0, detailWorldCategory);
+  }
+
+  nav.innerHTML = categoryEntries
     .map(([key, cat]) => {
       const label = cat[currentLang]?.label || cat.nl.label;
       const titleAttr = key === 'all'
@@ -679,7 +696,7 @@ function renderGrid() {
   const filtered = publicColorings.filter(item => {
     const matchCat     = activeCategory === 'all' ? true
                         : activeCategory === 'nieuw' ? newestIds.has(item.id)
-                        : item.category === activeCategory;
+                        : itemMatchesCategory(item, activeCategory);
     const matchCountry = activeCategory !== 'actualiteiten' || selectedCountry === 'all'
                         || item.country === selectedCountry;
     const ld          = item[currentLang] || item.nl;

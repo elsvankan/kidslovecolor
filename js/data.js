@@ -428,6 +428,47 @@ const CATEGORIES = {
     slug_en: 'mandala',
   },
 
+  stoere_detailwerelden: {
+    nl: {
+      label: 'Stoere detailwerelden',
+      pageTitle: 'Stoere Detailwerelden – Moeilijke Kleurplaten | KidsLoveColor.com',
+      metaDesc: 'Gratis moeilijke kleurplaten vol avonturen, achtergronden en patronen. Stoere detailwerelden om uren aan te kleuren, voor kinderen die van uitdaging houden.',
+      h2: 'Stoere Detailwerelden',
+      intro: 'Avonturen om uren aan te kleuren! Deze moeilijke kleurplaten hebben een groot hoofdonderwerp, een geloofwaardige wereld eromheen en veel rustige patronen en kleurvlakken om te ontdekken.',
+    },
+    en: {
+      label: 'Epic detail worlds',
+      pageTitle: 'Epic Detail Worlds – Hard Coloring Pages | KidsLoveColor.com',
+      metaDesc: 'Free hard coloring pages packed with adventures, backgrounds and patterns. Detailed worlds to color for hours, made for kids who enjoy a challenge.',
+      h2: 'Epic Detail Worlds',
+      intro: 'Adventures to color for hours! These challenging pages combine one strong main subject with a believable world, calm patterns and lots of spaces to explore.',
+    },
+    fr: {
+      label: 'Mondes d’aventure détaillés',
+      pageTitle: 'Mondes d’Aventure Détaillés – Coloriages Difficiles | KidsLoveColor.com',
+      metaDesc: 'Coloriages difficiles gratuits remplis d’aventures, de décors et de motifs. Des mondes détaillés à colorier pendant des heures.',
+      h2: 'Mondes d’Aventure Détaillés',
+      intro: 'Des aventures à colorier pendant des heures ! Ces coloriages difficiles associent un sujet principal fort à un monde crédible, des motifs calmes et de nombreux espaces à découvrir.',
+    },
+    es: {
+      label: 'Mundos de aventura detallados',
+      pageTitle: 'Mundos de Aventura Detallados – Dibujos Difíciles | KidsLoveColor.com',
+      metaDesc: 'Dibujos difíciles gratis para colorear llenos de aventuras, fondos y patrones. Mundos detallados para disfrutar durante horas.',
+      h2: 'Mundos de Aventura Detallados',
+      intro: '¡Aventuras para colorear durante horas! Estas páginas difíciles combinan un gran tema principal con un mundo creíble, patrones tranquilos y muchos espacios por descubrir.',
+    },
+    zh: {
+      label: '精彩细节世界',
+      pageTitle: '精彩细节世界 – 高难度免费涂色页 | KidsLoveColor.com',
+      metaDesc: '充满冒险、背景与图案的免费高难度涂色页，适合喜欢挑战、想长时间涂色的孩子。',
+      h2: '精彩细节世界',
+      intro: '可以涂上好几个小时的冒险世界！这些高难度涂色页以清晰的主体搭配可信的场景、舒缓的图案和许多可探索的涂色区域。',
+    },
+    icon: '🧭',
+    slug_en: 'epic-detail-worlds',
+    collection: true,
+  },
+
   gezichten: {
     nl: { label: 'Gezichten', pageTitle: 'Gezichten Kleurplaten – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare gezichten kleurplaten met bloemen kronen en patronen. Decoratieve portretten voor kinderen en volwassenen.', h2: 'Gezichten Kleurplaten – Gratis Printbaar', intro: 'Onze collectie gezichten kleurplaten bevat prachtige decoratieve portretten versierd met bloemen, kronen en ingewikkelde patronen. Perfect voor alle leeftijden om te genieten van het kleuren van mooie en creatieve gezichten!' },
     en: { label: 'Faces', pageTitle: 'Face Coloring Pages – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable face coloring pages with floral crowns and patterns. Decorative portraits for kids and adults.', h2: 'Face Coloring Pages – Free Printable', intro: 'Our collection of face coloring pages features beautiful decorative portraits adorned with flowers, crowns, and intricate patterns. Perfect for all ages to enjoy coloring beautiful and creative faces!' },
@@ -5211,7 +5252,7 @@ const COLORINGS = [
   },
 
   {
-    id: 557, slug: 'bicycle-repair-workshop', category: 'beroepen', difficulty: 'hard',
+    id: 557, slug: 'bicycle-repair-workshop', category: 'beroepen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/beroepen--hard--bicycle-repair-workshop.jpg',
     nl: { title: 'Fietsenmaker in de Werkplaats', description: 'Gratis beroepenkleurplaat van fietsenmaker in de werkplaats. Leerzaam kleurplaatje voor kinderen.', keywords: 'fietsenmaker in de werkplaats beroepen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat fietsenmaker in de werkplaats – kinderen' },
     en: { title: 'Bicycle Repair Workshop', description: 'Free profession coloring page of bicycle repair workshop. Educational coloring page for kids.', keywords: 'bicycle repair workshop profession coloring page free kids', altText: 'Free coloring page bicycle repair workshop – kids' },
@@ -5220,7 +5261,7 @@ const COLORINGS = [
     zh: { title: '自行车维修工坊', description: '免费职业自行车维修工坊涂色页，适合儿童的教育涂色。', keywords: '自行车维修工坊 职业涂色 免费儿童', altText: '免费涂色页 自行车维修工坊 – 儿童' },
   },
   {
-    id: 558, slug: 'community-library-construction-site', category: 'beroepen', difficulty: 'hard',
+    id: 558, slug: 'community-library-construction-site', category: 'beroepen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/beroepen--hard--community-library-construction-site.jpg',
     nl: { title: 'Bouwplaats van de Nieuwe Bibliotheek', description: 'Gratis beroepenkleurplaat van bouwplaats van de nieuwe bibliotheek. Leerzaam kleurplaatje voor kinderen.', keywords: 'bouwplaats van de nieuwe bibliotheek beroepen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat bouwplaats van de nieuwe bibliotheek – kinderen' },
     en: { title: 'Community Library Construction Site', description: 'Free profession coloring page of community library construction site. Educational coloring page for kids.', keywords: 'community library construction site profession coloring page free kids', altText: 'Free coloring page community library construction site – kids' },
@@ -5229,7 +5270,7 @@ const COLORINGS = [
     zh: { title: '社区图书馆施工现场', description: '免费职业社区图书馆施工现场涂色页，适合儿童的教育涂色。', keywords: '社区图书馆施工现场 职业涂色 免费儿童', altText: '免费涂色页 社区图书馆施工现场 – 儿童' },
   },
   {
-    id: 559, slug: 'fashion-designer-atelier', category: 'beroepen', difficulty: 'hard',
+    id: 559, slug: 'fashion-designer-atelier', category: 'beroepen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/beroepen--hard--fashion-designer-atelier.jpg',
     nl: { title: 'Modeontwerpster in haar Atelier', description: 'Gratis beroepenkleurplaat van modeontwerpster in haar atelier. Leerzaam kleurplaatje voor kinderen.', keywords: 'modeontwerpster in haar atelier beroepen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat modeontwerpster in haar atelier – kinderen' },
     en: { title: 'Fashion Designer in Her Atelier', description: 'Free profession coloring page of fashion designer in her atelier. Educational coloring page for kids.', keywords: 'fashion designer in her atelier profession coloring page free kids', altText: 'Free coloring page fashion designer in her atelier – kids' },
@@ -5238,7 +5279,7 @@ const COLORINGS = [
     zh: { title: '时装工作室里的设计师', description: '免费职业时装工作室里的设计师涂色页，适合儿童的教育涂色。', keywords: '时装工作室里的设计师 职业涂色 免费儿童', altText: '免费涂色页 时装工作室里的设计师 – 儿童' },
   },
   {
-    id: 560, slug: 'fire-station-cutaway', category: 'beroepen', difficulty: 'hard',
+    id: 560, slug: 'fire-station-cutaway', category: 'beroepen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/beroepen--hard--fire-station-cutaway.jpg',
     nl: { title: 'Binnenkijken in de Brandweerkazerne', description: 'Gratis beroepenkleurplaat van binnenkijken in de brandweerkazerne. Leerzaam kleurplaatje voor kinderen.', keywords: 'binnenkijken in de brandweerkazerne beroepen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat binnenkijken in de brandweerkazerne – kinderen' },
     en: { title: 'Inside the Fire Station', description: 'Free profession coloring page of inside the fire station. Educational coloring page for kids.', keywords: 'inside the fire station profession coloring page free kids', altText: 'Free coloring page inside the fire station – kids' },
@@ -5247,7 +5288,7 @@ const COLORINGS = [
     zh: { title: '消防站内部探秘', description: '免费职业消防站内部探秘涂色页，适合儿童的教育涂色。', keywords: '消防站内部探秘 职业涂色 免费儿童', altText: '免费涂色页 消防站内部探秘 – 儿童' },
   },
   {
-    id: 561, slug: 'samurai-temple-garden', category: 'beroepen', difficulty: 'hard',
+    id: 561, slug: 'samurai-temple-garden', category: 'beroepen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/beroepen--hard--samurai-temple-garden.jpg',
     nl: { title: 'Samoerai in de Tempeltuin', description: 'Gratis beroepenkleurplaat van samoerai in de tempeltuin. Leerzaam kleurplaatje voor kinderen.', keywords: 'samoerai in de tempeltuin beroepen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat samoerai in de tempeltuin – kinderen' },
     en: { title: 'Samurai in the Temple Garden', description: 'Free profession coloring page of samurai in the temple garden. Educational coloring page for kids.', keywords: 'samurai in the temple garden profession coloring page free kids', altText: 'Free coloring page samurai in the temple garden – kids' },
@@ -5256,7 +5297,7 @@ const COLORINGS = [
     zh: { title: '寺院花园里的武士', description: '免费职业寺院花园里的武士涂色页，适合儿童的教育涂色。', keywords: '寺院花园里的武士 职业涂色 免费儿童', altText: '免费涂色页 寺院花园里的武士 – 儿童' },
   },
   {
-    id: 562, slug: 'girl-grooming-horse-in-stable', category: 'dieren', difficulty: 'hard',
+    id: 562, slug: 'girl-grooming-horse-in-stable', category: 'dieren', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/dieren--hard--girl-grooming-horse-in-stable.jpg',
     nl: { title: 'Paardenverzorgster in de Stal', description: 'Gratis kleurplaat van paardenverzorgster in de stal. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'paardenverzorgster in de stal dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat paardenverzorgster in de stal – kinderen' },
     en: { title: 'Girl Grooming a Horse in the Stable', description: 'Free coloring page of girl grooming a horse in the stable. Fun animal coloring page for kids to color and print.', keywords: 'girl grooming a horse in the stable animal coloring page free kids', altText: 'Free coloring page girl grooming a horse in the stable – kids' },
@@ -5265,7 +5306,7 @@ const COLORINGS = [
     zh: { title: '马厩里照顾马儿的女孩', description: '免费马厩里照顾马儿的女孩涂色页，适合儿童的动物涂色，可打印。', keywords: '马厩里照顾马儿的女孩 动物涂色 免费儿童', altText: '免费涂色页 马厩里照顾马儿的女孩 – 儿童' },
   },
   {
-    id: 563, slug: 'dream-bedroom-art-studio', category: 'kawaii', difficulty: 'hard',
+    id: 563, slug: 'dream-bedroom-art-studio', category: 'kawaii', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/kawaii--hard--dream-bedroom-art-studio.jpg',
     nl: { title: 'Droomslaapkamer met Kunstatelier', description: 'Gratis kawaii kleurplaat van droomslaapkamer met kunstatelier. Superschattig kleurplaatje voor kinderen.', keywords: 'droomslaapkamer met kunstatelier kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat droomslaapkamer met kunstatelier – kinderen' },
     en: { title: 'Dream Bedroom and Art Studio', description: 'Free kawaii coloring page of dream bedroom and art studio. Super cute coloring page for kids.', keywords: 'dream bedroom and art studio kawaii coloring page free kids', altText: 'Free coloring page dream bedroom and art studio – kids' },
@@ -5274,7 +5315,7 @@ const COLORINGS = [
     zh: { title: '梦想卧室与艺术工作室', description: '免费卡哇伊梦想卧室与艺术工作室涂色页，超可爱儿童涂色。', keywords: '梦想卧室与艺术工作室 卡哇伊涂色 免费儿童', altText: '免费涂色页 梦想卧室与艺术工作室 – 儿童' },
   },
   {
-    id: 564, slug: 'dinosaur-fossil-excavation', category: 'natuur', difficulty: 'hard',
+    id: 564, slug: 'dinosaur-fossil-excavation', category: 'natuur', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/natuur--hard--dinosaur-fossil-excavation.jpg',
     nl: { title: 'Dinosaurusfossiel bij de Opgraving', description: 'Gratis natuurkleurplaat van dinosaurusfossiel bij de opgraving. Prachtig kleurplaatje voor kinderen.', keywords: 'dinosaurusfossiel bij de opgraving natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dinosaurusfossiel bij de opgraving – kinderen' },
     en: { title: 'Dinosaur Fossil Excavation', description: 'Free nature coloring page of dinosaur fossil excavation. Beautiful coloring page for kids.', keywords: 'dinosaur fossil excavation nature coloring page free kids', altText: 'Free coloring page dinosaur fossil excavation – kids' },
@@ -5283,7 +5324,7 @@ const COLORINGS = [
     zh: { title: '恐龙化石发掘现场', description: '免费自然恐龙化石发掘现场涂色页，适合儿童的自然涂色。', keywords: '恐龙化石发掘现场 自然涂色 免费儿童', altText: '免费涂色页 恐龙化石发掘现场 – 儿童' },
   },
   {
-    id: 565, slug: 'giant-forest-treehouse-adventure', category: 'natuur', difficulty: 'hard',
+    id: 565, slug: 'giant-forest-treehouse-adventure', category: 'natuur', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/natuur--hard--giant-forest-treehouse-adventure.jpg',
     nl: { title: 'Avontuur in de Grote Boomhut', description: 'Gratis natuurkleurplaat van avontuur in de grote boomhut. Prachtig kleurplaatje voor kinderen.', keywords: 'avontuur in de grote boomhut natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat avontuur in de grote boomhut – kinderen' },
     en: { title: 'Giant Forest Treehouse Adventure', description: 'Free nature coloring page of giant forest treehouse adventure. Beautiful coloring page for kids.', keywords: 'giant forest treehouse adventure nature coloring page free kids', altText: 'Free coloring page giant forest treehouse adventure – kids' },
@@ -5292,7 +5333,7 @@ const COLORINGS = [
     zh: { title: '巨型森林树屋探险', description: '免费自然巨型森林树屋探险涂色页，适合儿童的自然涂色。', keywords: '巨型森林树屋探险 自然涂色 免费儿童', altText: '免费涂色页 巨型森林树屋探险 – 儿童' },
   },
   {
-    id: 566, slug: 'girl-botanist-magical-greenhouse', category: 'natuur', difficulty: 'hard',
+    id: 566, slug: 'girl-botanist-magical-greenhouse', category: 'natuur', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/natuur--hard--girl-botanist-magical-greenhouse.jpg',
     nl: { title: 'Botaniste in de Bijzondere Kas', description: 'Gratis uitdagende kleurplaat van een botaniste in een glazen kas vol bijzondere planten, vlinders, potten en tegelpatronen.', keywords: 'botaniste bijzondere kas planten vlinders moeilijke kleurplaat gratis kinderen', altText: 'Gratis kleurplaat van een botaniste in een bijzondere glazen kas – kinderen' },
     en: { title: 'Botanist in a Remarkable Greenhouse', description: 'Free challenging coloring page of a botanist in a glass greenhouse filled with remarkable plants, butterflies, pots and tile patterns.', keywords: 'botanist remarkable greenhouse plants butterflies hard coloring page free kids', altText: 'Free coloring page of a botanist in a remarkable glass greenhouse – kids' },
@@ -5301,7 +5342,7 @@ const COLORINGS = [
     zh: { title: '特别温室里的植物学家', description: '免费高难度涂色页：植物学家在玻璃温室中观察奇特植物、蝴蝶、花盆和地砖图案。', keywords: '植物学家 特别温室 植物 蝴蝶 高难度 免费儿童涂色页', altText: '特别玻璃温室里的植物学家免费儿童涂色页' },
   },
   {
-    id: 567, slug: 'jungle-expedition-with-jeep', category: 'natuur', difficulty: 'hard',
+    id: 567, slug: 'jungle-expedition-with-jeep', category: 'natuur', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/natuur--hard--jungle-expedition-with-jeep.jpg',
     nl: { title: 'Jungle-expeditie met Terreinwagen', description: 'Gratis natuurkleurplaat van jungle-expeditie met terreinwagen. Prachtig kleurplaatje voor kinderen.', keywords: 'jungle-expeditie met terreinwagen natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat jungle-expeditie met terreinwagen – kinderen' },
     en: { title: 'Jungle Expedition with a Jeep', description: 'Free nature coloring page of jungle expedition with a jeep. Beautiful coloring page for kids.', keywords: 'jungle expedition with a jeep nature coloring page free kids', altText: 'Free coloring page jungle expedition with a jeep – kids' },
@@ -5310,7 +5351,7 @@ const COLORINGS = [
     zh: { title: '驾驶越野车探索丛林', description: '免费自然驾驶越野车探索丛林涂色页，适合儿童的自然涂色。', keywords: '驾驶越野车探索丛林 自然涂色 免费儿童', altText: '免费涂色页 驾驶越野车探索丛林 – 儿童' },
   },
   {
-    id: 568, slug: 'submarine-ocean-expedition', category: 'oceaan', difficulty: 'hard',
+    id: 568, slug: 'submarine-ocean-expedition', category: 'oceaan', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/oceaan--hard--submarine-ocean-expedition.jpg',
     nl: { title: 'Onderzeeboot op Oceaanexpeditie', description: 'Gratis oceaankleurplaat van onderzeeboot op oceaanexpeditie. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'onderzeeboot op oceaanexpeditie oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat onderzeeboot op oceaanexpeditie – kinderen' },
     en: { title: 'Submarine Ocean Expedition', description: 'Free ocean coloring page of submarine ocean expedition. Colorful underwater coloring page for kids.', keywords: 'submarine ocean expedition ocean coloring page free kids', altText: 'Free coloring page submarine ocean expedition – kids' },
@@ -5319,7 +5360,7 @@ const COLORINGS = [
     zh: { title: '潜水艇海洋探险', description: '免费海洋潜水艇海洋探险涂色页，适合儿童的水下涂色。', keywords: '潜水艇海洋探险 海洋涂色 免费儿童', altText: '免费涂色页 潜水艇海洋探险 – 儿童' },
   },
   {
-    id: 569, slug: 'hilltop-astronomy-observatory', category: 'ruimte', difficulty: 'hard',
+    id: 569, slug: 'hilltop-astronomy-observatory', category: 'ruimte', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/ruimte--hard--hilltop-astronomy-observatory.jpg',
     nl: { title: 'Sterrenwacht op de Berg', description: 'Gratis ruimtekleurplaat van sterrenwacht op de berg. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'sterrenwacht op de berg ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat sterrenwacht op de berg – kinderen' },
     en: { title: 'Hilltop Astronomy Observatory', description: 'Free space coloring page of hilltop astronomy observatory. Adventurous coloring page for kids.', keywords: 'hilltop astronomy observatory space coloring page free kids', altText: 'Free coloring page hilltop astronomy observatory – kids' },
@@ -5328,7 +5369,7 @@ const COLORINGS = [
     zh: { title: '山顶天文台', description: '免费太空山顶天文台涂色页，适合儿童的宇宙涂色。', keywords: '山顶天文台 太空涂色 免费儿童', altText: '免费涂色页 山顶天文台 – 儿童' },
   },
   {
-    id: 570, slug: 'mars-research-base-and-rover', category: 'ruimte', difficulty: 'hard',
+    id: 570, slug: 'mars-research-base-and-rover', category: 'ruimte', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/ruimte--hard--mars-research-base-and-rover.jpg',
     nl: { title: 'Onderzoeksbasis en Rover op Mars', description: 'Gratis ruimtekleurplaat van onderzoeksbasis en rover op mars. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'onderzoeksbasis en rover op mars ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat onderzoeksbasis en rover op mars – kinderen' },
     en: { title: 'Mars Research Base and Rover', description: 'Free space coloring page of mars research base and rover. Adventurous coloring page for kids.', keywords: 'mars research base and rover space coloring page free kids', altText: 'Free coloring page mars research base and rover – kids' },
@@ -5337,7 +5378,7 @@ const COLORINGS = [
     zh: { title: '火星科研基地与探测车', description: '免费太空火星科研基地与探测车涂色页，适合儿童的宇宙涂色。', keywords: '火星科研基地与探测车 太空涂色 免费儿童', altText: '免费涂色页 火星科研基地与探测车 – 儿童' },
   },
   {
-    id: 571, slug: 'robot-metropolis', category: 'ruimte', difficulty: 'hard',
+    id: 571, slug: 'robot-metropolis', category: 'ruimte', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/ruimte--hard--robot-metropolis.jpg',
     nl: { title: 'Robot in de Futuristische Stad', description: 'Gratis ruimtekleurplaat van robot in de futuristische stad. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'robot in de futuristische stad ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat robot in de futuristische stad – kinderen' },
     en: { title: 'Robot Metropolis', description: 'Free space coloring page of robot metropolis. Adventurous coloring page for kids.', keywords: 'robot metropolis space coloring page free kids', altText: 'Free coloring page robot metropolis – kids' },
@@ -5346,7 +5387,7 @@ const COLORINGS = [
     zh: { title: '未来机器人都市', description: '免费太空未来机器人都市涂色页，适合儿童的宇宙涂色。', keywords: '未来机器人都市 太空涂色 免费儿童', altText: '免费涂色页 未来机器人都市 – 儿童' },
   },
   {
-    id: 572, slug: 'coastal-shipyard', category: 'voertuigen', difficulty: 'hard',
+    id: 572, slug: 'coastal-shipyard', category: 'voertuigen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/voertuigen--hard--coastal-shipyard.jpg',
     nl: { title: 'Scheepswerf aan de Kust', description: 'Gratis kleurplaat van scheepswerf aan de kust. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'scheepswerf aan de kust voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat scheepswerf aan de kust – kinderen' },
     en: { title: 'Coastal Shipyard', description: 'Free coloring page of coastal shipyard. Cool vehicle coloring page for kids.', keywords: 'coastal shipyard vehicle coloring page free kids', altText: 'Free coloring page coastal shipyard – kids' },
@@ -5355,7 +5396,7 @@ const COLORINGS = [
     zh: { title: '海岸造船厂', description: '免费海岸造船厂涂色页，适合儿童的交通工具涂色。', keywords: '海岸造船厂 交通工具涂色 免费儿童', altText: '免费涂色页 海岸造船厂 – 儿童' },
   },
   {
-    id: 573, slug: 'futuristic-race-car-city', category: 'voertuigen', difficulty: 'hard',
+    id: 573, slug: 'futuristic-race-car-city', category: 'voertuigen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/voertuigen--hard--futuristic-race-car-city.jpg',
     nl: { title: 'Racewagen in de Stad van de Toekomst', description: 'Gratis kleurplaat van racewagen in de stad van de toekomst. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'racewagen in de stad van de toekomst voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat racewagen in de stad van de toekomst – kinderen' },
     en: { title: 'Futuristic Race Car City', description: 'Free coloring page of futuristic race car city. Cool vehicle coloring page for kids.', keywords: 'futuristic race car city vehicle coloring page free kids', altText: 'Free coloring page futuristic race car city – kids' },
@@ -5364,7 +5405,7 @@ const COLORINGS = [
     zh: { title: '未来城市赛车', description: '免费未来城市赛车涂色页，适合儿童的交通工具涂色。', keywords: '未来城市赛车 交通工具涂色 免费儿童', altText: '免费涂色页 未来城市赛车 – 儿童' },
   },
   {
-    id: 574, slug: 'monster-truck-obstacle-course', category: 'voertuigen', difficulty: 'hard',
+    id: 574, slug: 'monster-truck-obstacle-course', category: 'voertuigen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/voertuigen--hard--monster-truck-obstacle-course.jpg',
     nl: { title: 'Monstertruck op het Hindernisparcours', description: 'Gratis kleurplaat van monstertruck op het hindernisparcours. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'monstertruck op het hindernisparcours voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat monstertruck op het hindernisparcours – kinderen' },
     en: { title: 'Monster Truck Obstacle Course', description: 'Free coloring page of monster truck obstacle course. Cool vehicle coloring page for kids.', keywords: 'monster truck obstacle course vehicle coloring page free kids', altText: 'Free coloring page monster truck obstacle course – kids' },
@@ -5373,7 +5414,7 @@ const COLORINGS = [
     zh: { title: '障碍赛道上的大脚车', description: '免费障碍赛道上的大脚车涂色页，适合儿童的交通工具涂色。', keywords: '障碍赛道上的大脚车 交通工具涂色 免费儿童', altText: '免费涂色页 障碍赛道上的大脚车 – 儿童' },
   },
   {
-    id: 575, slug: 'railway-maintenance-depot', category: 'voertuigen', difficulty: 'hard',
+    id: 575, slug: 'railway-maintenance-depot', category: 'voertuigen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/voertuigen--hard--railway-maintenance-depot.jpg',
     nl: { title: 'Trein in de Onderhoudswerkplaats', description: 'Gratis kleurplaat van trein in de onderhoudswerkplaats. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'trein in de onderhoudswerkplaats voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat trein in de onderhoudswerkplaats – kinderen' },
     en: { title: 'Railway Maintenance Depot', description: 'Free coloring page of railway maintenance depot. Cool vehicle coloring page for kids.', keywords: 'railway maintenance depot vehicle coloring page free kids', altText: 'Free coloring page railway maintenance depot – kids' },
@@ -5382,7 +5423,7 @@ const COLORINGS = [
     zh: { title: '铁路列车检修库', description: '免费铁路列车检修库涂色页，适合儿童的交通工具涂色。', keywords: '铁路列车检修库 交通工具涂色 免费儿童', altText: '免费涂色页 铁路列车检修库 – 儿童' },
   },
   {
-    id: 576, slug: 'viking-harbor-and-longship', category: 'voertuigen', difficulty: 'hard',
+    id: 576, slug: 'viking-harbor-and-longship', category: 'voertuigen', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/voertuigen--hard--viking-harbor-and-longship.jpg',
     nl: { title: 'Vikinghaven met Langschip', description: 'Gratis kleurplaat van vikinghaven met langschip. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'vikinghaven met langschip voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vikinghaven met langschip – kinderen' },
     en: { title: 'Viking Harbor and Longship', description: 'Free coloring page of viking harbor and longship. Cool vehicle coloring page for kids.', keywords: 'viking harbor and longship vehicle coloring page free kids', altText: 'Free coloring page viking harbor and longship – kids' },
@@ -5392,7 +5433,7 @@ const COLORINGS = [
   },
 
   {
-    id: 577, slug: 'fantasy-ship-and-sea-serpent', category: 'oceaan', difficulty: 'hard',
+    id: 577, slug: 'fantasy-ship-and-sea-serpent', category: 'oceaan', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/oceaan--hard--fantasy-ship-and-sea-serpent.jpg',
     nl: { title: 'Fantasieschip met Zeedraak', description: 'Gratis oceaankleurplaat van fantasieschip met zeedraak. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'fantasieschip met zeedraak oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat fantasieschip met zeedraak – kinderen' },
     en: { title: 'Fantasy Ship and Sea Serpent', description: 'Free ocean coloring page of fantasy ship and sea serpent. Colorful underwater coloring page for kids.', keywords: 'fantasy ship and sea serpent ocean coloring page free kids', altText: 'Free coloring page fantasy ship and sea serpent – kids' },
@@ -5401,7 +5442,7 @@ const COLORINGS = [
     zh: { title: '奇幻帆船与海蛇', description: '免费海洋奇幻帆船与海蛇涂色页，适合儿童的水下涂色。', keywords: '奇幻帆船与海蛇 海洋涂色 免费儿童', altText: '免费涂色页 奇幻帆船与海蛇 – 儿童' },
   },
   {
-    id: 578, slug: 'mermaid-underwater-city', category: 'oceaan', difficulty: 'hard',
+    id: 578, slug: 'mermaid-underwater-city', category: 'oceaan', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/oceaan--hard--mermaid-underwater-city.jpg',
     nl: { title: 'Zeemeermin in de Onderwaterstad', description: 'Gratis oceaankleurplaat van zeemeermin in de onderwaterstad. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'zeemeermin in de onderwaterstad oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zeemeermin in de onderwaterstad – kinderen' },
     en: { title: 'Mermaid in the Underwater City', description: 'Free ocean coloring page of mermaid in the underwater city. Colorful underwater coloring page for kids.', keywords: 'mermaid in the underwater city ocean coloring page free kids', altText: 'Free coloring page mermaid in the underwater city – kids' },
@@ -5410,7 +5451,7 @@ const COLORINGS = [
     zh: { title: '海底城市里的美人鱼', description: '免费海洋海底城市里的美人鱼涂色页，适合儿童的水下涂色。', keywords: '海底城市里的美人鱼 海洋涂色 免费儿童', altText: '免费涂色页 海底城市里的美人鱼 – 儿童' },
   },
   {
-    id: 579, slug: 'dragon-academy-training-ground', category: 'sprookjes', difficulty: 'hard',
+    id: 579, slug: 'dragon-academy-training-ground', category: 'sprookjes', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/sprookjes--hard--dragon-academy-training-ground.jpg',
     nl: { title: 'Drakenacademie op het Oefenterrein', description: 'Gratis sprookjeskleurplaat van drakenacademie op het oefenterrein. Magisch kleurplaatje voor kinderen.', keywords: 'drakenacademie op het oefenterrein sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat drakenacademie op het oefenterrein – kinderen' },
     en: { title: 'Dragon Academy Training Ground', description: 'Free fairy tale coloring page of dragon academy training ground. Magical coloring page for kids.', keywords: 'dragon academy training ground fairy tale coloring page free kids', altText: 'Free coloring page dragon academy training ground – kids' },
@@ -5419,7 +5460,7 @@ const COLORINGS = [
     zh: { title: '龙学院训练场', description: '免费童话龙学院训练场涂色页，适合儿童的魔法涂色。', keywords: '龙学院训练场 童话涂色 免费儿童', altText: '免费涂色页 龙学院训练场 – 儿童' },
   },
   {
-    id: 580, slug: 'dragon-over-medieval-castle-city', category: 'sprookjes', difficulty: 'hard',
+    id: 580, slug: 'dragon-over-medieval-castle-city', category: 'sprookjes', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/sprookjes--hard--dragon-over-medieval-castle-city.jpg',
     nl: { title: 'Draak boven de Middeleeuwse Kasteelstad', description: 'Gratis sprookjeskleurplaat van draak boven de middeleeuwse kasteelstad. Magisch kleurplaatje voor kinderen.', keywords: 'draak boven de middeleeuwse kasteelstad sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat draak boven de middeleeuwse kasteelstad – kinderen' },
     en: { title: 'Dragon over the Medieval Castle City', description: 'Free fairy tale coloring page of dragon over the medieval castle city. Magical coloring page for kids.', keywords: 'dragon over the medieval castle city fairy tale coloring page free kids', altText: 'Free coloring page dragon over the medieval castle city – kids' },
@@ -5428,7 +5469,7 @@ const COLORINGS = [
     zh: { title: '飞越中世纪城堡城的巨龙', description: '免费童话飞越中世纪城堡城的巨龙涂色页，适合儿童的魔法涂色。', keywords: '飞越中世纪城堡城的巨龙 童话涂色 免费儿童', altText: '免费涂色页 飞越中世纪城堡城的巨龙 – 儿童' },
   },
   {
-    id: 581, slug: 'knight-in-castle-armory', category: 'sprookjes', difficulty: 'hard',
+    id: 581, slug: 'knight-in-castle-armory', category: 'sprookjes', difficulty: 'hard', collections: ['stoere_detailwerelden'],
     img: '../img/kleurplaten/sprookjes--hard--knight-in-castle-armory.jpg',
     nl: { title: 'Ridder in de Kasteelwapenkamer', description: 'Gratis sprookjeskleurplaat van ridder in de kasteelwapenkamer. Magisch kleurplaatje voor kinderen.', keywords: 'ridder in de kasteelwapenkamer sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat ridder in de kasteelwapenkamer – kinderen' },
     en: { title: 'Knight in the Castle Armory', description: 'Free fairy tale coloring page of knight in the castle armory. Magical coloring page for kids.', keywords: 'knight in the castle armory fairy tale coloring page free kids', altText: 'Free coloring page knight in the castle armory – kids' },
