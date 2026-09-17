@@ -5391,6 +5391,52 @@ const COLORINGS = [
     zh: { title: '维京港口与长船', description: '免费维京港口与长船涂色页，适合儿童的交通工具涂色。', keywords: '维京港口与长船 交通工具涂色 免费儿童', altText: '免费涂色页 维京港口与长船 – 儿童' },
   },
 
+  {
+    id: 577, slug: 'fantasy-ship-and-sea-serpent', category: 'oceaan', difficulty: 'hard',
+    img: '../img/kleurplaten/oceaan--hard--fantasy-ship-and-sea-serpent.jpg',
+    nl: { title: 'Fantasieschip met Zeedraak', description: 'Gratis oceaankleurplaat van fantasieschip met zeedraak. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'fantasieschip met zeedraak oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat fantasieschip met zeedraak – kinderen' },
+    en: { title: 'Fantasy Ship and Sea Serpent', description: 'Free ocean coloring page of fantasy ship and sea serpent. Colorful underwater coloring page for kids.', keywords: 'fantasy ship and sea serpent ocean coloring page free kids', altText: 'Free coloring page fantasy ship and sea serpent – kids' },
+    fr: { title: 'Navire Fantastique et Serpent de Mer', description: 'Page à colorier océan gratuite de navire fantastique et serpent de mer. Coloriage sous-marin coloré pour les enfants.', keywords: 'navire fantastique et serpent de mer coloriage océan gratuit enfants', altText: 'Page à colorier navire fantastique et serpent de mer – enfants' },
+    es: { title: 'Barco Fantástico y Serpiente Marina', description: 'Página para colorear océano gratis de barco fantástico y serpiente marina. Colorear submarino para niños.', keywords: 'barco fantástico y serpiente marina colorear océano gratis niños', altText: 'Página para colorear barco fantástico y serpiente marina – niños' },
+    zh: { title: '奇幻帆船与海蛇', description: '免费海洋奇幻帆船与海蛇涂色页，适合儿童的水下涂色。', keywords: '奇幻帆船与海蛇 海洋涂色 免费儿童', altText: '免费涂色页 奇幻帆船与海蛇 – 儿童' },
+  },
+  {
+    id: 578, slug: 'mermaid-underwater-city', category: 'oceaan', difficulty: 'hard',
+    img: '../img/kleurplaten/oceaan--hard--mermaid-underwater-city.jpg',
+    nl: { title: 'Zeemeermin in de Onderwaterstad', description: 'Gratis oceaankleurplaat van zeemeermin in de onderwaterstad. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'zeemeermin in de onderwaterstad oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zeemeermin in de onderwaterstad – kinderen' },
+    en: { title: 'Mermaid in the Underwater City', description: 'Free ocean coloring page of mermaid in the underwater city. Colorful underwater coloring page for kids.', keywords: 'mermaid in the underwater city ocean coloring page free kids', altText: 'Free coloring page mermaid in the underwater city – kids' },
+    fr: { title: 'Sirène dans la Cité Sous-marine', description: 'Page à colorier océan gratuite de sirène dans la cité sous-marine. Coloriage sous-marin coloré pour les enfants.', keywords: 'sirène dans la cité sous-marine coloriage océan gratuit enfants', altText: 'Page à colorier sirène dans la cité sous-marine – enfants' },
+    es: { title: 'Sirena en la Ciudad Submarina', description: 'Página para colorear océano gratis de sirena en la ciudad submarina. Colorear submarino para niños.', keywords: 'sirena en la ciudad submarina colorear océano gratis niños', altText: 'Página para colorear sirena en la ciudad submarina – niños' },
+    zh: { title: '海底城市里的美人鱼', description: '免费海洋海底城市里的美人鱼涂色页，适合儿童的水下涂色。', keywords: '海底城市里的美人鱼 海洋涂色 免费儿童', altText: '免费涂色页 海底城市里的美人鱼 – 儿童' },
+  },
+  {
+    id: 579, slug: 'dragon-academy-training-ground', category: 'sprookjes', difficulty: 'hard',
+    img: '../img/kleurplaten/sprookjes--hard--dragon-academy-training-ground.jpg',
+    nl: { title: 'Drakenacademie op het Oefenterrein', description: 'Gratis sprookjeskleurplaat van drakenacademie op het oefenterrein. Magisch kleurplaatje voor kinderen.', keywords: 'drakenacademie op het oefenterrein sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat drakenacademie op het oefenterrein – kinderen' },
+    en: { title: 'Dragon Academy Training Ground', description: 'Free fairy tale coloring page of dragon academy training ground. Magical coloring page for kids.', keywords: 'dragon academy training ground fairy tale coloring page free kids', altText: 'Free coloring page dragon academy training ground – kids' },
+    fr: { title: 'Terrain d’Entraînement de l’Académie des Dragons', description: 'Page à colorier conte de fées gratuite de terrain d’entraînement de l’académie des dragons. Coloriage magique pour les enfants.', keywords: 'terrain d’entraînement de l’académie des dragons coloriage conte de fées gratuit enfants', altText: 'Page à colorier terrain d’entraînement de l’académie des dragons – enfants' },
+    es: { title: 'Campo de Entrenamiento de la Academia de Dragones', description: 'Página para colorear cuento de hadas gratis de campo de entrenamiento de la academia de dragones. Colorear mágico para niños.', keywords: 'campo de entrenamiento de la academia de dragones colorear cuentos de hadas gratis niños', altText: 'Página para colorear campo de entrenamiento de la academia de dragones – niños' },
+    zh: { title: '龙学院训练场', description: '免费童话龙学院训练场涂色页，适合儿童的魔法涂色。', keywords: '龙学院训练场 童话涂色 免费儿童', altText: '免费涂色页 龙学院训练场 – 儿童' },
+  },
+  {
+    id: 580, slug: 'dragon-over-medieval-castle-city', category: 'sprookjes', difficulty: 'hard',
+    img: '../img/kleurplaten/sprookjes--hard--dragon-over-medieval-castle-city.jpg',
+    nl: { title: 'Draak boven de Middeleeuwse Kasteelstad', description: 'Gratis sprookjeskleurplaat van draak boven de middeleeuwse kasteelstad. Magisch kleurplaatje voor kinderen.', keywords: 'draak boven de middeleeuwse kasteelstad sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat draak boven de middeleeuwse kasteelstad – kinderen' },
+    en: { title: 'Dragon over the Medieval Castle City', description: 'Free fairy tale coloring page of dragon over the medieval castle city. Magical coloring page for kids.', keywords: 'dragon over the medieval castle city fairy tale coloring page free kids', altText: 'Free coloring page dragon over the medieval castle city – kids' },
+    fr: { title: 'Dragon au-dessus de la Cité Médiévale', description: 'Page à colorier conte de fées gratuite de dragon au-dessus de la cité médiévale. Coloriage magique pour les enfants.', keywords: 'dragon au-dessus de la cité médiévale coloriage conte de fées gratuit enfants', altText: 'Page à colorier dragon au-dessus de la cité médiévale – enfants' },
+    es: { title: 'Dragón sobre la Ciudad Medieval', description: 'Página para colorear cuento de hadas gratis de dragón sobre la ciudad medieval. Colorear mágico para niños.', keywords: 'dragón sobre la ciudad medieval colorear cuentos de hadas gratis niños', altText: 'Página para colorear dragón sobre la ciudad medieval – niños' },
+    zh: { title: '飞越中世纪城堡城的巨龙', description: '免费童话飞越中世纪城堡城的巨龙涂色页，适合儿童的魔法涂色。', keywords: '飞越中世纪城堡城的巨龙 童话涂色 免费儿童', altText: '免费涂色页 飞越中世纪城堡城的巨龙 – 儿童' },
+  },
+  {
+    id: 581, slug: 'knight-in-castle-armory', category: 'sprookjes', difficulty: 'hard',
+    img: '../img/kleurplaten/sprookjes--hard--knight-in-castle-armory.jpg',
+    nl: { title: 'Ridder in de Kasteelwapenkamer', description: 'Gratis sprookjeskleurplaat van ridder in de kasteelwapenkamer. Magisch kleurplaatje voor kinderen.', keywords: 'ridder in de kasteelwapenkamer sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat ridder in de kasteelwapenkamer – kinderen' },
+    en: { title: 'Knight in the Castle Armory', description: 'Free fairy tale coloring page of knight in the castle armory. Magical coloring page for kids.', keywords: 'knight in the castle armory fairy tale coloring page free kids', altText: 'Free coloring page knight in the castle armory – kids' },
+    fr: { title: 'Chevalier dans l’Armurerie du Château', description: 'Page à colorier conte de fées gratuite de chevalier dans l’armurerie du château. Coloriage magique pour les enfants.', keywords: 'chevalier dans l’armurerie du château coloriage conte de fées gratuit enfants', altText: 'Page à colorier chevalier dans l’armurerie du château – enfants' },
+    es: { title: 'Caballero en la Armería del Castillo', description: 'Página para colorear cuento de hadas gratis de caballero en la armería del castillo. Colorear mágico para niños.', keywords: 'caballero en la armería del castillo colorear cuentos de hadas gratis niños', altText: 'Página para colorear caballero en la armería del castillo – niños' },
+    zh: { title: '城堡武器库里的骑士', description: '免费童话城堡武器库里的骑士涂色页，适合儿童的魔法涂色。', keywords: '城堡武器库里的骑士 童话涂色 免费儿童', altText: '免费涂色页 城堡武器库里的骑士 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

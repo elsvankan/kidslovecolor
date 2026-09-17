@@ -1808,5 +1808,20 @@
   },
   "voertuigen--hard--coastal-shipyard.jpg": {
     "nl": "Scheepswerf aan de Kust", "en": "Coastal Shipyard", "fr": "Chantier Naval Côtier", "es": "Astillero en la Costa", "zh": "海岸造船厂"
+  },
+  "sprookjes--hard--dragon-over-medieval-castle-city.jpg": {
+    "nl": "Draak boven de Middeleeuwse Kasteelstad", "en": "Dragon over the Medieval Castle City", "fr": "Dragon au-dessus de la Cité Médiévale", "es": "Dragón sobre la Ciudad Medieval", "zh": "飞越中世纪城堡城的巨龙"
+  },
+  "oceaan--hard--fantasy-ship-and-sea-serpent.jpg": {
+    "nl": "Fantasieschip met Zeedraak", "en": "Fantasy Ship and Sea Serpent", "fr": "Navire Fantastique et Serpent de Mer", "es": "Barco Fantástico y Serpiente Marina", "zh": "奇幻帆船与海蛇"
+  },
+  "sprookjes--hard--knight-in-castle-armory.jpg": {
+    "nl": "Ridder in de Kasteelwapenkamer", "en": "Knight in the Castle Armory", "fr": "Chevalier dans l’Armurerie du Château", "es": "Caballero en la Armería del Castillo", "zh": "城堡武器库里的骑士"
+  },
+  "oceaan--hard--mermaid-underwater-city.jpg": {
+    "nl": "Zeemeermin in de Onderwaterstad", "en": "Mermaid in the Underwater City", "fr": "Sirène dans la Cité Sous-marine", "es": "Sirena en la Ciudad Submarina", "zh": "海底城市里的美人鱼"
+  },
+  "sprookjes--hard--dragon-academy-training-ground.jpg": {
+    "nl": "Drakenacademie op het Oefenterrein", "en": "Dragon Academy Training Ground", "fr": "Terrain d’Entraînement de l’Académie des Dragons", "es": "Campo de Entrenamiento de la Academia de Dragones", "zh": "龙学院训练场"
   }
 }

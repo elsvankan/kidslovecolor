@@ -2181,6 +2181,26 @@
       "destination": "/kleurplaat/viking-harbor-and-longship/index.html"
     },
     {
+      "source": "/kleurplaat/fantasy-ship-and-sea-serpent",
+      "destination": "/kleurplaat/fantasy-ship-and-sea-serpent/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-underwater-city",
+      "destination": "/kleurplaat/mermaid-underwater-city/index.html"
+    },
+    {
+      "source": "/kleurplaat/dragon-academy-training-ground",
+      "destination": "/kleurplaat/dragon-academy-training-ground/index.html"
+    },
+    {
+      "source": "/kleurplaat/dragon-over-medieval-castle-city",
+      "destination": "/kleurplaat/dragon-over-medieval-castle-city/index.html"
+    },
+    {
+      "source": "/kleurplaat/knight-in-castle-armory",
+      "destination": "/kleurplaat/knight-in-castle-armory/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

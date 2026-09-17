@@ -32,9 +32,7 @@ let activeCategory  = 'all';
 let searchQuery     = '';
 let currentColoring = null;
 let selectedCountry = 'all';
-let visibleColoringCount = 0;
 let gridHasExpanded = false;
-let lastGridFilterKey = '';
 
 // Base URL map for canonical / schema
 const BASE_URL_MAP = {
@@ -252,6 +250,7 @@ const TRANSLATIONS = {
 // -------------------------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
   arrangeHomepageSections();
+  initializeGridViewFromUrl();
   renderLatestHeroColorings();
   renderCategories();
   renderCountryFilter();
@@ -358,9 +357,40 @@ function getGridPageSize() {
   return window.matchMedia('(max-width: 700px)').matches ? 6 : 9;
 }
 
-function resetGridPagination() {
-  visibleColoringCount = getGridPageSize();
-  gridHasExpanded = false;
+function initializeGridViewFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const category = params.get('cat');
+  const query = params.get('q');
+
+  if (category && CATEGORIES[category] && category !== 'actualiteiten') {
+    activeCategory = category;
+  }
+  if (query) searchQuery = query.trim();
+
+  // A direct browse/category/search URL is an overview, not the compact home preview.
+  gridHasExpanded = params.get('view') === 'all'
+    || activeCategory !== 'all'
+    || Boolean(searchQuery);
+}
+
+function isHomepagePreview() {
+  return activeCategory === 'all'
+    && !searchQuery
+    && selectedCountry === 'all'
+    && !gridHasExpanded;
+}
+
+function updateGridUrl() {
+  const params = new URLSearchParams();
+  if (activeCategory !== 'all') params.set('cat', activeCategory);
+  if (searchQuery) params.set('q', searchQuery);
+  if (activeCategory === 'all' && !searchQuery && gridHasExpanded) params.set('view', 'all');
+  const query = params.toString();
+  history.replaceState(
+    { cat: activeCategory, q: searchQuery, view: gridHasExpanded ? 'all' : '' },
+    '',
+    window.location.pathname + (query ? '?' + query : '')
+  );
 }
 
 function setupGalleryControls() {
@@ -377,11 +407,11 @@ function setupGalleryControls() {
   grid.insertAdjacentElement('afterend', actions);
 
   document.getElementById('loadMoreColorings')?.addEventListener('click', () => {
-    const previouslyVisible = visibleColoringCount;
-    visibleColoringCount += getGridPageSize();
+    const firstNewIndex = getGridPageSize() + 3;
     gridHasExpanded = true;
+    updateGridUrl();
     renderGrid();
-    grid.querySelectorAll('.coloring-card')[previouslyVisible]?.focus({ preventScroll: true });
+    grid.querySelectorAll('.coloring-card')[firstNewIndex]?.focus({ preventScroll: true });
   });
 
   document.getElementById('chooseCategory')?.addEventListener('click', () => {
@@ -396,9 +426,8 @@ function setupGalleryControls() {
     window.clearTimeout(resizeTimer);
     resizeTimer = window.setTimeout(() => {
       const nextMobileLayout = getGridPageSize() === 6;
-      if (!gridHasExpanded && nextMobileLayout !== mobileLayout) {
+      if (isHomepagePreview() && nextMobileLayout !== mobileLayout) {
         mobileLayout = nextMobileLayout;
-        resetGridPagination();
         renderGrid();
       }
     }, 160);
@@ -576,17 +605,15 @@ function renderCategories() {
     btn.addEventListener('click', () => {
       activeCategory = btn.dataset.cat;
       selectedCountry = 'all';
+      gridHasExpanded = true;
       nav.querySelectorAll('.cat-btn').forEach(b => {
         b.classList.toggle('active', b.dataset.cat === activeCategory);
         b.setAttribute('aria-pressed', b.dataset.cat === activeCategory);
       });
       renderCountryFilter();
       updateSEO(activeCategory);
+      updateGridUrl();
       renderGrid();
-      const newUrl = activeCategory === 'all'
-        ? window.location.pathname
-        : window.location.pathname + '?cat=' + encodeURIComponent(activeCategory);
-      history.replaceState({ cat: activeCategory }, '', newUrl);
     });
   });
 }
@@ -629,7 +656,7 @@ function renderCountryFilter() {
 
   document.getElementById('countryFilterSelect').addEventListener('change', (e) => {
     selectedCountry = e.target.value;
-    resetGridPagination();
+    gridHasExpanded = true;
     renderGrid();
   });
 }
@@ -666,15 +693,9 @@ function renderGrid() {
     filtered.sort((a, b) => b.id - a.id);
   }
 
-  const filterKey = activeCategory + '|' + selectedCountry + '|' + searchQuery.toLowerCase();
-  if (filterKey !== lastGridFilterKey) {
-    lastGridFilterKey = filterKey;
-    resetGridPagination();
-  }
-
-  const isDefaultHomepage = activeCategory === 'all' && !searchQuery && selectedCountry === 'all';
+  const isDefaultHomepage = isHomepagePreview();
   const gridItems = isDefaultHomepage ? filtered.slice(3) : filtered;
-  const visibleItems = gridItems.slice(0, visibleColoringCount);
+  const visibleItems = isDefaultHomepage ? gridItems.slice(0, getGridPageSize()) : gridItems;
   const heading = document.getElementById('sectionHeading');
   if (heading && isDefaultHomepage) heading.textContent = t('newly_added_heading');
   else if (heading && activeCategory === 'all') heading.textContent = t('section_heading');
@@ -705,8 +726,8 @@ function renderGrid() {
   const moreButton = document.getElementById('loadMoreColorings');
   if (actions) actions.hidden = false;
   if (moreButton) {
-    moreButton.textContent = t(isDefaultHomepage ? 'load_more_new' : 'load_more_results');
-    moreButton.hidden = visibleItems.length >= gridItems.length;
+    moreButton.textContent = t('load_more_new');
+    moreButton.hidden = !isDefaultHomepage || visibleItems.length >= gridItems.length;
   }
 
   // Attach card events
@@ -815,32 +836,26 @@ function setupSearch() {
   const input = document.getElementById('searchInput');
   if (!input) return;
   input.placeholder = t('search_placeholder');
+  input.value = searchQuery;
   let debounceTimer;
   input.addEventListener('input', (e) => {
     clearTimeout(debounceTimer);
     debounceTimer = setTimeout(() => {
       searchQuery = e.target.value.trim();
-      resetGridPagination();
+      gridHasExpanded = activeCategory !== 'all' || Boolean(searchQuery);
+      updateGridUrl();
       renderGrid();
-      if (searchQuery) {
-        history.replaceState({ q: searchQuery }, '', window.location.pathname + '?q=' + encodeURIComponent(searchQuery));
-      } else {
-        history.replaceState({}, '', window.location.pathname);
-      }
     }, 220);
   });
   input.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') {
       input.value = '';
       searchQuery = '';
-      resetGridPagination();
+      gridHasExpanded = activeCategory !== 'all';
+      updateGridUrl();
       renderGrid();
-      history.replaceState({}, '', window.location.pathname);
     }
   });
-  const params = new URLSearchParams(window.location.search);
-  const q = params.get('q');
-  if (q) { input.value = q; searchQuery = q; }
 }
 
 // -------------------------------------------------------
