@@ -5,7 +5,7 @@ const SUPPORT_OPTIONS = Object.freeze({
   },
   bubble: {
     value: "5.00",
-    description: "Bubble tea voor Kids Love Color",
+    description: "Steun KidsLoveColor — een ijsje",
   },
 });
 
@@ -46,7 +46,7 @@ export default {
 
     const option = SUPPORT_OPTIONS[payload?.support];
     if (!option) {
-      return json({ error: "Kies koffie of bubble tea." }, 400);
+      return json({ error: "Kies koffie of een ijsje." }, 400);
     }
 
     const apiKey = process.env.MOLLIE_API_KEY;
@@ -117,4 +117,3 @@ export default {
     return json({ checkoutUrl });
   },
 };
-
