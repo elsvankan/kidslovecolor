@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -28,7 +28,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -42,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -56,7 +56,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -70,7 +70,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-05</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -6974,6 +6974,71 @@
       <image:loc>https://kidslovecolor.com/img/kleurplaten/sprookjes--hard--knight-in-castle-armory.jpg</image:loc>
       <image:title>Ridder in de Kasteelwapenkamer – Gratis Kleurplaat</image:title>
       <image:caption>Een ridder staat tussen harnassen, schilden en wapens in de kasteelwapenkamer.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/toucan-with-papaya-and-tropical-leaves</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/dieren--easy--toucan-with-papaya-and-tropical-leaves.jpg</image:loc>
+      <image:title>Toekan tussen papaja's en bladeren – Gratis Kleurplaat</image:title>
+      <image:caption>Toekan op een tak met papaja's, brede bladeren en bloemen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/kawaii-sewing-basket-with-buttons</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/kawaii--medium--kawaii-sewing-basket-with-buttons.jpg</image:loc>
+      <image:title>Kawaii naaimand met vrolijke knopen – Gratis Kleurplaat</image:title>
+      <image:caption>Naaimand met garenklosjes, bloemendoek, lint, knopen en een aardbeienkussentje.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/italian-pasta-making-table</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/eten--medium--italian-pasta-making-table.jpg</image:loc>
+      <image:title>Zelf pasta maken aan de keukentafel – Gratis Kleurplaat</image:title>
+      <image:caption>Keukentafel met deegroller, pastadeeg, ravioli, strikjespasta, tomaten en basilicum.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/dutch-windmill-and-tulip-fields</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/natuur--medium--dutch-windmill-and-tulip-fields.jpg</image:loc>
+      <image:title>Hollandse molen tussen de tulpen – Gratis Kleurplaat</image:title>
+      <image:caption>Molen met vier wieken naast een vaart, een bruggetje en rijen tulpen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/cozy-ceramics-workshop-with-garden-view</loc>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/beroepen--hard--cozy-ceramics-workshop-with-garden-view.jpg</image:loc>
+      <image:title>Keramiekatelier met uitzicht op de tuin – Gratis Kleurplaat</image:title>
+      <image:caption>Keramiekatelier met draaischijf, werkbank, vazen, serviesplanken en een raam met tuinzicht.</image:caption>
       <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
     </image:image>
   </url>

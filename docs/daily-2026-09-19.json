@@ -1,0 +1,116 @@
+{
+  "date": "2026-09-19",
+  "imageTool": "built-in imagegen",
+  "pages": [
+    {
+      "id": 582,
+      "slug": "toucan-with-papaya-and-tropical-leaves",
+      "image": "img/kleurplaten/dieren--easy--toucan-with-papaya-and-tropical-leaves.jpg",
+      "thumbnail": "img/kleurplaten/thumbs/dieren--easy--toucan-with-papaya-and-tropical-leaves.jpg"
+    },
+    {
+      "id": 583,
+      "slug": "kawaii-sewing-basket-with-buttons",
+      "image": "img/kleurplaten/kawaii--medium--kawaii-sewing-basket-with-buttons.jpg",
+      "thumbnail": "img/kleurplaten/thumbs/kawaii--medium--kawaii-sewing-basket-with-buttons.jpg"
+    },
+    {
+      "id": 584,
+      "slug": "italian-pasta-making-table",
+      "image": "img/kleurplaten/eten--medium--italian-pasta-making-table.jpg",
+      "thumbnail": "img/kleurplaten/thumbs/eten--medium--italian-pasta-making-table.jpg"
+    },
+    {
+      "id": 585,
+      "slug": "dutch-windmill-and-tulip-fields",
+      "image": "img/kleurplaten/natuur--medium--dutch-windmill-and-tulip-fields.jpg",
+      "thumbnail": "img/kleurplaten/thumbs/natuur--medium--dutch-windmill-and-tulip-fields.jpg"
+    },
+    {
+      "id": 586,
+      "slug": "cozy-ceramics-workshop-with-garden-view",
+      "image": "img/kleurplaten/beroepen--hard--cozy-ceramics-workshop-with-garden-view.jpg",
+      "thumbnail": "img/kleurplaten/thumbs/beroepen--hard--cozy-ceramics-workshop-with-garden-view.jpg"
+    }
+  ],
+  "prompts": [
+    {
+      "slug": "toucan-with-papaya-and-tropical-leaves",
+      "scene": "Simple easy coloring page for young children: one friendly toucan perched naturally on a thick gently curving branch beside two papaya fruits and several broad tropical leaves. Full bird body, exactly one large curved toucan bill, one eye visible in side view, folded wings, tail pointing down, two anatomically plausible feet gripping the branch. Keep feather markings as a few large outlined regions, NOT black filled feathers. Two large hibiscus blossoms below, a little cloud above. Large inviting central composition with generous open spaces, no dense jungle.",
+      "prompt": "Use case: illustration-story. Asset: a complete single printable children's coloring book page, portrait A4 aspect ratio 1055 x 1491 pixels. Pure black clean continuous outlines on pure white paper, elegant friendly style, uncolored open shapes. About 30% fewer textures than a highly detailed illustration: NO crosshatching, shading, gray washes, stippling, wood grain or dense repetitive texture. Natural believable forms, enough broad closed areas for coloring. Maintain a white safe print margin of 55 pixels all around. Do not reserve a white rectangle, cutout, or artificial blank logo space. The official logo will be overlaid later on natural empty space or line art, never on text. No text, letters, numbers, signature, watermark, logo, border or third-party characters. Simple easy coloring page for young children: one friendly toucan perched naturally on a thick gently curving branch beside two papaya fruits and several broad tropical leaves. Full bird body, exactly one large curved toucan bill, one eye visible in side view, folded wings, tail pointing down, two anatomically plausible feet gripping the branch. Keep feather markings as a few large outlined regions, NOT black filled feathers. Two large hibiscus blossoms below, a little cloud above. Large inviting central composition with generous open spaces, no dense jungle."
+    },
+    {
+      "slug": "kawaii-sewing-basket-with-buttons",
+      "scene": "Playful easy-to-medium kawaii coloring page: a wicker sewing basket shown in three-quarter view containing three large thread spools and a folded cloth with big daisy motifs; a pincushion shaped like a strawberry beside it and six large decorative buttons in front. Cute simple smiles only on two spools, no human figures. Keep wicker as a small number of large broad interwoven bands, no tiny fibers. A loose broad ribbon curls around the basket, large outlines, no sewing needles or sharp scissors, no legs or arms on objects.",
+      "prompt": "Use case: illustration-story. Asset: a complete single printable children's coloring book page, portrait A4 aspect ratio 1055 x 1491 pixels. Pure black clean continuous outlines on pure white paper, elegant friendly style, uncolored open shapes. About 30% fewer textures than a highly detailed illustration: NO crosshatching, shading, gray washes, stippling, wood grain or dense repetitive texture. Natural believable forms, enough broad closed areas for coloring. Maintain a white safe print margin of 55 pixels all around. Do not reserve a white rectangle, cutout, or artificial blank logo space. The official logo will be overlaid later on natural empty space or line art, never on text. No text, letters, numbers, signature, watermark, logo, border or third-party characters. Playful easy-to-medium kawaii coloring page: a wicker sewing basket shown in three-quarter view containing three large thread spools and a folded cloth with big daisy motifs; a pincushion shaped like a strawberry beside it and six large decorative buttons in front. Cute simple smiles only on two spools, no human figures. Keep wicker as a small number of large broad interwoven bands, no tiny fibers. A loose broad ribbon curls around the basket, large outlines, no sewing needles or sharp scissors, no legs or arms on objects."
+    },
+    {
+      "slug": "italian-pasta-making-table",
+      "scene": "Medium-level coloring page: welcoming Italian pasta-making tabletop viewed at a gentle overhead angle. A wooden rolling pin behind a wide flat sheet of pasta dough, one neat row of six square ravioli with scalloped edges, a small mound of farfalle bow-tie pasta, a plain bowl of tomatoes, a basil plant in a simple pot, and a folded gingham cloth with a few large squares. Objects separated and visually coherent, no hands or people, no logos or writing, no messy flour shading. Broad closed shapes and clean smooth material surfaces.",
+      "prompt": "Use case: illustration-story. Asset: a complete single printable children's coloring book page, portrait A4 aspect ratio 1055 x 1491 pixels. Pure black clean continuous outlines on pure white paper, elegant friendly style, uncolored open shapes. About 30% fewer textures than a highly detailed illustration: NO crosshatching, shading, gray washes, stippling, wood grain or dense repetitive texture. Natural believable forms, enough broad closed areas for coloring. Maintain a white safe print margin of 55 pixels all around. Do not reserve a white rectangle, cutout, or artificial blank logo space. The official logo will be overlaid later on natural empty space or line art, never on text. No text, letters, numbers, signature, watermark, logo, border or third-party characters. Medium-level coloring page: welcoming Italian pasta-making tabletop viewed at a gentle overhead angle. A wooden rolling pin behind a wide flat sheet of pasta dough, one neat row of six square ravioli with scalloped edges, a small mound of farfalle bow-tie pasta, a plain bowl of tomatoes, a basil plant in a simple pot, and a folded gingham cloth with a few large squares. Objects separated and visually coherent, no hands or people, no logos or writing, no messy flour shading. Broad closed shapes and clean smooth material surfaces."
+    },
+    {
+      "slug": "dutch-windmill-and-tulip-fields",
+      "scene": "Medium coloring page of a traditional Dutch windmill beside a narrow canal and curved garden path. Exactly four evenly spaced windmill sails connected to a single hub, correct logical perspective and supports, simple large lattice sections. Tulips in foreground in several gentle rows, a small arched footbridge crossing canal, two distant clouds, a few reeds. Entire windmill including sail tips inside print margin. Natural peaceful countryside, no people, no text, no dense brick lines, no shading or tiny grass texture.",
+      "prompt": "Use case: illustration-story. Asset: a complete single printable children's coloring book page, portrait A4 aspect ratio 1055 x 1491 pixels. Pure black clean continuous outlines on pure white paper, elegant friendly style, uncolored open shapes. About 30% fewer textures than a highly detailed illustration: NO crosshatching, shading, gray washes, stippling, wood grain or dense repetitive texture. Natural believable forms, enough broad closed areas for coloring. Maintain a white safe print margin of 55 pixels all around. Do not reserve a white rectangle, cutout, or artificial blank logo space. The official logo will be overlaid later on natural empty space or line art, never on text. No text, letters, numbers, signature, watermark, logo, border or third-party characters. Medium coloring page of a traditional Dutch windmill beside a narrow canal and curved garden path. Exactly four evenly spaced windmill sails connected to a single hub, correct logical perspective and supports, simple large lattice sections. Tulips in foreground in several gentle rows, a small arched footbridge crossing canal, two distant clouds, a few reeds. Entire windmill including sail tips inside print margin. Natural peaceful countryside, no people, no text, no dense brick lines, no shading or tiny grass texture."
+    },
+    {
+      "slug": "cozy-ceramics-workshop-with-garden-view",
+      "scene": "Challenging but calm coloring page for older children: an inviting believable pottery studio interior with full background. A pottery wheel with one centered unfinished bowl in foreground; a sturdy worktable with two tools lying flat and three simple decorated vases; two wall shelves safely holding mugs and bowls; a large open window looking into a garden with leaves and flowers; a simple stool and two clay bags on the floor. No people. Variety of generous coloring regions, vase decorations made of broad stripes and simple leaf motifs. Clear plausible room perspective, no floating objects, no wood grain, no gritty clay texture, no tiny hatching. Detailed through number of objects and scene, not texture.",
+      "prompt": "Use case: illustration-story. Asset: a complete single printable children's coloring book page, portrait A4 aspect ratio 1055 x 1491 pixels. Pure black clean continuous outlines on pure white paper, elegant friendly style, uncolored open shapes. About 30% fewer textures than a highly detailed illustration: NO crosshatching, shading, gray washes, stippling, wood grain or dense repetitive texture. Natural believable forms, enough broad closed areas for coloring. Maintain a white safe print margin of 55 pixels all around. Do not reserve a white rectangle, cutout, or artificial blank logo space. The official logo will be overlaid later on natural empty space or line art, never on text. No text, letters, numbers, signature, watermark, logo, border or third-party characters. Challenging but calm coloring page for older children: an inviting believable pottery studio interior with full background. A pottery wheel with one centered unfinished bowl in foreground; a sturdy worktable with two tools lying flat and three simple decorated vases; two wall shelves safely holding mugs and bowls; a large open window looking into a garden with leaves and flowers; a simple stool and two clay bags on the floor. No people. Variety of generous coloring regions, vase decorations made of broad stripes and simple leaf motifs. Clear plausible room perspective, no floating objects, no wood grain, no gritty clay texture, no tiny hatching. Detailed through number of objects and scene, not texture."
+    }
+  ],
+  "logoPolicy": "Use naturally empty space if available; otherwise overlay line art. No artificial white rectangles or cutouts; never cover text.",
+  "promptNote": "Prompts below describe the final intended brief. Initial generations preceded the updated logo-placement preference; the toucan and sewing basket were edited to remove empty logo rectangles, and the windmill was edited to continue its tulip bed through the artificial blank area. Original generated sources are retained locally.",
+  "edits": [
+    {
+      "slug": "toucan-with-papaya-and-tropical-leaves",
+      "prompt": "Remove ONLY the thin outlined empty rectangle at the bottom-left completely, including all four border lines. Replace that small rectangle with seamless plain white paper, naturally empty space. Do not add any other box or reserve marker. Preserve the toucan, papayas, flowers, leaves and entire composition exactly. Keep pure black outlines on white; no additional shading, text or logo."
+    },
+    {
+      "slug": "kawaii-sewing-basket-with-buttons",
+      "prompt": "Remove ONLY the thin outlined empty rectangle at the bottom-left completely, including all four border lines. Leave natural plain white paper in that small area, without a box, outline, label or reserved area marker. Preserve the sewing basket, thread spools, cloth, buttons, ribbon and strawberry unchanged. Keep pure black outlines on white; no additional shading, text or logo."
+    },
+    {
+      "slug": "dutch-windmill-and-tulip-fields",
+      "prompt": "Correct the artificial empty white cutout in the bottom-left foreground. Continue the tulip stems and leaves naturally into that blank lower-left region so the flower bed is continuous, with closed outlines and enough larger white shapes to color. Do NOT reserve a logo area, DO NOT add any white rectangle or empty cutout. Keep only a normal narrow uniform white print margin around all four edges. Preserve the same windmill with exactly four sails, bridge, canal, path and rest of the tulips. Keep black coloring-book outlines; no shading, no new textures, text or logo."
+    }
+  ],
+  "qa": {
+    "fullSize": [
+      1055,
+      1491
+    ],
+    "thumbnailSize": [
+      400,
+      565
+    ],
+    "officialLogo": "Rendered from img/logo.svg, original watermark.py geometry; no white backdrop",
+    "languages": [
+      "nl",
+      "en",
+      "fr",
+      "es",
+      "zh"
+    ],
+    "syntax": true,
+    "uniqueIdsAndSlugs": true,
+    "staticPagesAndSitemap": true,
+    "desktopHomepage": {
+      "width": 1440,
+      "cards": 9,
+      "overflow": false
+    },
+    "mobileHomepage": {
+      "width": 390,
+      "cards": 6,
+      "overflow": false
+    },
+    "newestHeroOrder": [
+      585,
+      586,
+      584
+    ],
+    "visualCheck": "All five original/final drawings, thumbnails and logo placement reviewed."
+  }
+}

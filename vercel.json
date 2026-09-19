@@ -2201,6 +2201,26 @@
       "destination": "/kleurplaat/knight-in-castle-armory/index.html"
     },
     {
+      "source": "/kleurplaat/toucan-with-papaya-and-tropical-leaves",
+      "destination": "/kleurplaat/toucan-with-papaya-and-tropical-leaves/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-sewing-basket-with-buttons",
+      "destination": "/kleurplaat/kawaii-sewing-basket-with-buttons/index.html"
+    },
+    {
+      "source": "/kleurplaat/italian-pasta-making-table",
+      "destination": "/kleurplaat/italian-pasta-making-table/index.html"
+    },
+    {
+      "source": "/kleurplaat/dutch-windmill-and-tulip-fields",
+      "destination": "/kleurplaat/dutch-windmill-and-tulip-fields/index.html"
+    },
+    {
+      "source": "/kleurplaat/cozy-ceramics-workshop-with-garden-view",
+      "destination": "/kleurplaat/cozy-ceramics-workshop-with-garden-view/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

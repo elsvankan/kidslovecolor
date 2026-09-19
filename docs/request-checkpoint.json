@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-09-19T10:14:34Z",
+  "searchedSince": "2026-09-07",
+  "lastSuccessfulMailboxCheck": "2026-09-19T10:14:34Z",
+  "reportedRequestIds": [],
+  "newRequestCount": 0,
+  "liveAvailability": true,
+  "deliveryTest": "Not submitted during this run; live availability checked. Local mocked success and validation checks passed without sending email."
+}

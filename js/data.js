@@ -5478,6 +5478,194 @@ const COLORINGS = [
     zh: { title: '城堡武器库里的骑士', description: '免费童话城堡武器库里的骑士涂色页，适合儿童的魔法涂色。', keywords: '城堡武器库里的骑士 童话涂色 免费儿童', altText: '免费涂色页 城堡武器库里的骑士 – 儿童' },
   },
 
+  {
+    "id": 582,
+    "slug": "toucan-with-papaya-and-tropical-leaves",
+    "category": "dieren",
+    "difficulty": "easy",
+    "img": "../img/kleurplaten/dieren--easy--toucan-with-papaya-and-tropical-leaves.jpg",
+    "nl": {
+      "title": "Toekan tussen papaja's en bladeren",
+      "description": "Een toekan met een grote snavel zit tussen papaja's, bloemen en tropische bladeren. Een makkelijke kleurplaat met ruime vlakken om zelf kleur te geven.",
+      "keywords": "toekan papaja tropische vogel makkelijke kleurplaat gratis printen",
+      "altText": "Toekan op een tak met papaja's, brede bladeren en bloemen."
+    },
+    "en": {
+      "title": "Toucan with Papayas and Tropical Leaves",
+      "description": "A big-beaked toucan perches among papayas, flowers and tropical leaves. An easy printable coloring page with plenty of room for your favorite colors.",
+      "keywords": "toucan papaya tropical bird easy coloring page free printable",
+      "altText": "Toucan on a branch with papayas, broad leaves and flowers."
+    },
+    "fr": {
+      "title": "Toucan, papayes et feuilles tropicales",
+      "description": "Un toucan au grand bec se pose parmi les papayes, les fleurs et les feuilles tropicales. Un coloriage facile à imprimer, avec de grandes surfaces à colorier.",
+      "keywords": "toucan papaye oiseau tropical coloriage facile gratuit imprimer",
+      "altText": "Toucan sur une branche entourée de papayes, de grandes feuilles et de fleurs."
+    },
+    "es": {
+      "title": "Tucán con papayas y hojas tropicales",
+      "description": "Un tucán de gran pico descansa entre papayas, flores y hojas tropicales. Un dibujo fácil para imprimir, con espacios amplios para tus colores favoritos.",
+      "keywords": "tucán papaya ave tropical dibujo colorear fácil gratis imprimir",
+      "altText": "Tucán en una rama con papayas, hojas grandes y flores."
+    },
+    "zh": {
+      "title": "木瓜和热带树叶间的巨嘴鸟",
+      "description": "一只大嘴巴的巨嘴鸟停在树枝上，周围有木瓜、花朵和热带树叶。这张简单的涂色页有宽大的留白，适合自由搭配颜色。",
+      "keywords": "巨嘴鸟 木瓜 热带鸟类 简单涂色 免费打印",
+      "altText": "一只巨嘴鸟停在树枝上，身旁有木瓜、宽大的树叶和花朵。"
+    }
+  },
+  {
+    "id": 583,
+    "slug": "kawaii-sewing-basket-with-buttons",
+    "category": "kawaii",
+    "difficulty": "medium",
+    "img": "../img/kleurplaten/kawaii--medium--kawaii-sewing-basket-with-buttons.jpg",
+    "nl": {
+      "title": "Kawaii naaimand met vrolijke knopen",
+      "description": "Een naaimand vol garen, een doek met bloemen en een aardbeienkussentje. Kies kleuren voor de linten en knopen op deze vrolijke kawaii-kleurplaat.",
+      "keywords": "kawaii naaimand knopen garen handwerken kleurplaat gratis",
+      "altText": "Naaimand met garenklosjes, bloemendoek, lint, knopen en een aardbeienkussentje."
+    },
+    "en": {
+      "title": "Kawaii Sewing Basket with Buttons",
+      "description": "A sewing basket holds thread spools and a floral cloth, with a strawberry pincushion beside it. Pick your own colors for the ribbons and cheerful buttons.",
+      "keywords": "kawaii sewing basket buttons thread crafts coloring page free printable",
+      "altText": "Sewing basket with thread spools, floral cloth, ribbon, buttons and a strawberry pincushion."
+    },
+    "fr": {
+      "title": "Panier de couture kawaii et boutons",
+      "description": "Un panier de couture contient des bobines et un tissu fleuri, avec une pelote à épingles en forme de fraise à côté. À toi de colorier les rubans et les boutons.",
+      "keywords": "panier couture kawaii boutons bobines coloriage gratuit imprimer",
+      "altText": "Panier de couture avec bobines, tissu fleuri, ruban, boutons et pelote en forme de fraise."
+    },
+    "es": {
+      "title": "Cesta de costura kawaii con botones",
+      "description": "Una cesta de costura reúne carretes y una tela de flores, junto a un alfiletero con forma de fresa. Elige colores para los lazos y los botones de este dibujo kawaii.",
+      "keywords": "cesta costura kawaii botones hilo dibujo colorear gratis",
+      "altText": "Cesta con carretes, tela de flores, cinta, botones y un alfiletero con forma de fresa."
+    },
+    "zh": {
+      "title": "可爱缝纫篮与纽扣",
+      "description": "缝纫篮里装着线轴和花朵布料，旁边放着草莓形针插。给丝带、纽扣和可爱的小表情搭配你喜欢的颜色吧。",
+      "keywords": "可爱 缝纫篮 纽扣 线轴 手工 涂色 免费打印",
+      "altText": "缝纫篮里有线轴和花布，旁边摆着丝带、纽扣和草莓形针插。"
+    }
+  },
+  {
+    "id": 584,
+    "slug": "italian-pasta-making-table",
+    "category": "eten",
+    "difficulty": "medium",
+    "img": "../img/kleurplaten/eten--medium--italian-pasta-making-table.jpg",
+    "nl": {
+      "title": "Zelf pasta maken aan de keukentafel",
+      "description": "Ravioli, strikjespasta, tomaten en basilicum liggen klaar op tafel. Geef deze Italiaanse pastakeuken je eigen kleuren; het geruite doek mag ook een vrolijk patroon krijgen.",
+      "keywords": "pasta ravioli Italiaanse keuken koken kleurplaat gratis",
+      "altText": "Keukentafel met deegroller, pastadeeg, ravioli, strikjespasta, tomaten en basilicum."
+    },
+    "en": {
+      "title": "Italian Pasta-Making Table",
+      "description": "Ravioli, bow-tie pasta, tomatoes and basil are ready on the table. Add your own colors to this Italian kitchen scene, including the checked cloth.",
+      "keywords": "Italian pasta ravioli kitchen food coloring page free printable",
+      "altText": "Table with a rolling pin, pasta dough, ravioli, bow-tie pasta, tomatoes and basil."
+    },
+    "fr": {
+      "title": "Une table pour préparer des pâtes",
+      "description": "Raviolis, pâtes papillon, tomates et basilic attendent sur la table. Donne tes couleurs à cette scène de cuisine italienne, sans oublier le torchon à carreaux.",
+      "keywords": "pâtes raviolis cuisine italienne coloriage gratuit imprimer",
+      "altText": "Table avec rouleau à pâtisserie, pâte, raviolis, farfalles, tomates et basilic."
+    },
+    "es": {
+      "title": "Mesa para preparar pasta italiana",
+      "description": "Raviolis, pasta de lazo, tomates y albahaca esperan en la mesa. Colorea esta escena de cocina italiana a tu gusto, incluido el paño de cuadros.",
+      "keywords": "pasta italiana raviolis cocina comida dibujo colorear gratis",
+      "altText": "Mesa con rodillo, masa de pasta, raviolis, pasta de lazo, tomates y albahaca."
+    },
+    "zh": {
+      "title": "意大利面制作台",
+      "description": "桌上摆好了意式饺子、蝴蝶面、番茄和罗勒。为这张意大利厨房涂色页配色吧，格纹餐布也可以变得很漂亮。",
+      "keywords": "意大利面 意式饺子 蝴蝶面 厨房 食物 涂色 免费打印",
+      "altText": "桌上有擀面杖、面皮、意式饺子、蝴蝶面、番茄和罗勒。"
+    }
+  },
+  {
+    "id": 585,
+    "slug": "dutch-windmill-and-tulip-fields",
+    "category": "natuur",
+    "difficulty": "medium",
+    "img": "../img/kleurplaten/natuur--medium--dutch-windmill-and-tulip-fields.jpg",
+    "nl": {
+      "title": "Hollandse molen tussen de tulpen",
+      "description": "Een molen staat aan het water, met tulpen op de voorgrond en een bruggetje over de vaart. Welke kleuren geef jij de bloemen in dit rustige Hollandse landschap?",
+      "keywords": "Hollandse molen tulpen Nederland landschap kleurplaat gratis",
+      "altText": "Molen met vier wieken naast een vaart, een bruggetje en rijen tulpen."
+    },
+    "en": {
+      "title": "Dutch Windmill and Tulip Fields",
+      "description": "A windmill stands beside a canal, with tulips in front and a little bridge across the water. Choose your own flower colors for this peaceful Dutch landscape.",
+      "keywords": "Dutch windmill tulips Netherlands landscape coloring page free printable",
+      "altText": "Four-sailed windmill beside a canal, a small bridge and rows of tulips."
+    },
+    "fr": {
+      "title": "Moulin hollandais et champs de tulipes",
+      "description": "Un moulin se dresse au bord d'un canal, devant des tulipes et un petit pont. Quelles couleurs choisiras-tu pour les fleurs de ce paysage hollandais ?",
+      "keywords": "moulin hollandais tulipes Pays-Bas paysage coloriage gratuit",
+      "altText": "Moulin à quatre ailes près d'un canal, d'un petit pont et de rangées de tulipes."
+    },
+    "es": {
+      "title": "Molino holandés y campos de tulipanes",
+      "description": "Un molino está junto al canal, con tulipanes delante y un pequeño puente sobre el agua. ¿Qué colores elegirás para las flores de este paisaje holandés?",
+      "keywords": "molino holandés tulipanes Países Bajos paisaje dibujo colorear",
+      "altText": "Molino de cuatro aspas junto a un canal, un pequeño puente y filas de tulipanes."
+    },
+    "zh": {
+      "title": "荷兰风车与郁金香田",
+      "description": "一座风车立在运河边，前方是郁金香，河上还有一座小桥。你想给这片宁静的荷兰风景搭配什么颜色呢？",
+      "keywords": "荷兰 风车 郁金香 运河 风景 涂色 免费打印",
+      "altText": "四片叶翼的风车立在运河旁，附近有小桥和成行的郁金香。"
+    }
+  },
+  {
+    "id": 586,
+    "slug": "cozy-ceramics-workshop-with-garden-view",
+    "category": "beroepen",
+    "difficulty": "hard",
+    "collections": [
+      "stoere_detailwerelden"
+    ],
+    "img": "../img/kleurplaten/beroepen--hard--cozy-ceramics-workshop-with-garden-view.jpg",
+    "nl": {
+      "title": "Keramiekatelier met uitzicht op de tuin",
+      "description": "In dit keramiekatelier valt van alles te kleuren: schalen op de planken, vazen op de werkbank en bloemen buiten het raam. Een uitgebreide kleurplaat met rustige patronen en veel achtergrond.",
+      "keywords": "keramiekatelier pottenbakken werkplaats moeilijke kleurplaat detailwerelden",
+      "altText": "Keramiekatelier met draaischijf, werkbank, vazen, serviesplanken en een raam met tuinzicht."
+    },
+    "en": {
+      "title": "Cozy Pottery Studio with a Garden View",
+      "description": "There is plenty to color in this pottery studio: bowls on shelves, vases on the workbench and flowers outside the window. A detailed scene with calm patterns and a full background.",
+      "keywords": "pottery studio ceramics workshop detailed coloring page free printable",
+      "altText": "Pottery studio with a wheel, workbench, vases, shelves of dishes and a garden window."
+    },
+    "fr": {
+      "title": "Atelier de poterie avec vue sur le jardin",
+      "description": "Cet atelier offre beaucoup à colorier : des bols sur les étagères, des vases sur l'établi et des fleurs à la fenêtre. Une scène détaillée avec des motifs simples et un décor complet.",
+      "keywords": "atelier poterie céramique coloriage détaillé gratuit imprimer",
+      "altText": "Atelier avec tour de potier, établi, vases, étagères de vaisselle et fenêtre sur le jardin."
+    },
+    "es": {
+      "title": "Taller de cerámica con vistas al jardín",
+      "description": "Hay mucho que colorear en este taller: cuencos en los estantes, jarrones en la mesa y flores al otro lado de la ventana. Una escena detallada con patrones sencillos y un fondo completo.",
+      "keywords": "taller cerámica alfarería dibujo detallado colorear gratis",
+      "altText": "Taller con torno, mesa de trabajo, jarrones, estantes con vajilla y ventana al jardín."
+    },
+    "zh": {
+      "title": "窗外有花园的陶艺工作室",
+      "description": "这间陶艺工作室里有许多可以涂色的细节：架子上的碗、工作台上的花瓶，还有窗外的花朵。画面内容丰富，纹样清晰，不需要涂密密麻麻的纹理。",
+      "keywords": "陶艺 工作室 陶瓷 困难涂色 细节场景 免费打印",
+      "altText": "陶艺工作室里有拉坯机、工作台、花瓶和餐具架，窗外是一座花园。"
+    }
+  },
 ];
 
 // Expose on window so inline scripts can access the count
