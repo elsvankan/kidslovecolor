@@ -2221,6 +2221,46 @@
       "destination": "/kleurplaat/cozy-ceramics-workshop-with-garden-view/index.html"
     },
     {
+      "source": "/kleurplaat/harbor-seal-parent-and-pup-on-rocks",
+      "destination": "/kleurplaat/harbor-seal-parent-and-pup-on-rocks/index.html"
+    },
+    {
+      "source": "/kleurplaat/smiling-rain-cloud-watering-sunflowers",
+      "destination": "/kleurplaat/smiling-rain-cloud-watering-sunflowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/picnic-in-a-lemon-grove",
+      "destination": "/kleurplaat/picnic-in-a-lemon-grove/index.html"
+    },
+    {
+      "source": "/kleurplaat/mountain-cable-car-above-village",
+      "destination": "/kleurplaat/mountain-cable-car-above-village/index.html"
+    },
+    {
+      "source": "/kleurplaat/terrarium-workshop-with-garden-window",
+      "destination": "/kleurplaat/terrarium-workshop-with-garden-window/index.html"
+    },
+    {
+      "source": "/kleurplaat/nelson-kakariki-karaka-survey",
+      "destination": "/kleurplaat/nelson-kakariki-karaka-survey/index.html"
+    },
+    {
+      "source": "/kleurplaat/oaxaca-heritage-guardians",
+      "destination": "/kleurplaat/oaxaca-heritage-guardians/index.html"
+    },
+    {
+      "source": "/kleurplaat/africa-engineering-week-dar-es-salaam",
+      "destination": "/kleurplaat/africa-engineering-week-dar-es-salaam/index.html"
+    },
+    {
+      "source": "/kleurplaat/queshan-violin-maker",
+      "destination": "/kleurplaat/queshan-violin-maker/index.html"
+    },
+    {
+      "source": "/kleurplaat/vega-c-flex-sentinel-launch",
+      "destination": "/kleurplaat/vega-c-flex-sentinel-launch/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

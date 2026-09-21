@@ -20,6 +20,7 @@
 
 const fs              = require('fs');
 const path            = require('path');
+const vm              = require('vm');
 const { execSync }    = require('child_process');
 
 // ─────────────────────────────────────────────────────────────
@@ -688,19 +689,11 @@ ${coloringUrls}
 // BESTAANDE SLUGS UIT DATA.JS LEZEN
 // ─────────────────────────────────────────────────────────────
 function getExistingSlugs(dataContent) {
-  const slugs = new Set();
-  const re = /slug:\s*'([^']+)'/g;
-  let m;
-  while ((m = re.exec(dataContent)) !== null) slugs.add(m[1]);
-  return slugs;
+  return new Set(getAllEntries(dataContent).map((entry) => entry.slug));
 }
 
 function getExistingImages(dataContent) {
-  const images = new Set();
-  const re = /img:\s*'\.\.\/img\/kleurplaten\/([^']+\.jpg)'/g;
-  let m;
-  while ((m = re.exec(dataContent)) !== null) images.add(m[1]);
-  return images;
+  return new Set(getAllEntries(dataContent).map((entry) => entry.img));
 }
 
 function updateVercelRewrites(parsedItems) {
@@ -736,18 +729,19 @@ function getMaxId(dataContent) {
 
 // Alle entries lezen voor de sitemap
 function getAllEntries(dataContent) {
-  const re = /slug:\s*'([^']+)'.*?img:\s*'[^']*?([^/']+\.jpg)'.*?nl:\s*\{[^}]*?title:\s*'((?:[^'\\]|\\.)*)'[^}]*?description:\s*'((?:[^'\\]|\\.)*?)'/gs;
-  const entries = [];
-  let m;
-  while ((m = re.exec(dataContent)) !== null) {
-    entries.push({
-      slug:    m[1],
-      img:     m[2],
-      nlTitle: m[3].replace(/\\'/g, "'"),
-      nlDesc:  m[4].replace(/\\'/g, "'"),
-    });
+  // Parse the actual data rather than relying on JS source formatting: entries may
+  // use either quoted JSON-style keys or unquoted JavaScript object keys.
+  const context = { window: {} };
+  vm.runInNewContext(dataContent, context, { filename: DATA_JS, timeout: 5000 });
+  if (!Array.isArray(context.window.COLORINGS)) {
+    throw new Error('COLORINGS array not found in js/data.js');
   }
-  return entries;
+  return context.window.COLORINGS.map(({ slug, img, nl }) => ({
+    slug,
+    img: path.basename(img),
+    nlTitle: nl.title,
+    nlDesc: nl.description,
+  }));
 }
 
 // ─────────────────────────────────────────────────────────────

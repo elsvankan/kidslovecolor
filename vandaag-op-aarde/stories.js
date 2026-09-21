@@ -6,6 +6,66 @@
  */
 const WORLD_STORY_EDITIONS = [
   {
+    published: '2026-09-21',
+    stories: [
+      {
+        slug: 'kakariki-karaka-geteld-in-nelson',
+        title: 'Bijna 300 zeldzame parkieten geteld in Nelson',
+        location: 'Nelson, Nieuw-Zeeland', reportedDate: '17 september 2026', theme: 'Natuur & bescherming', icon: '♧',
+        intro: 'Natuurwachters en vrijwilligers telden in het Brook Waimārama Sanctuary meer kākāriki karaka dan vorig jaar.',
+        body: 'De kākāriki karaka, ook oranjevoorhoofdparkiet genoemd, is een van de zeldzaamste vogels van Nieuw-Zeeland. Tijdens de jaarlijkse telling zagen teams op één dag meer dan 285 vogels; op de tweede dag telden ze er 229. Dat is ongeveer honderd meer dan bij de telling vorig jaar. Het bosreservaat in Nelson biedt de vogels een veilige plek. Bescherming van hun leefgebied, zorgvuldig onderzoek en samenwerking met fokcentra blijven nodig om de soort ook buiten reservaten te laten groeien.',
+        facts: ['Op één teldag zagen de teams meer dan 285 vogels.', 'De soort heeft een kleine oranje vlek op het voorhoofd.', 'Brook Waimārama herbergt nu de grootste populatie van deze soort.'],
+        question: 'Hoe zou jij een zeldzame vogel tellen zonder hem te storen?',
+        sourceLabel: 'New Zealand Department of Conservation', sourceUrl: 'https://www.doc.govt.nz/news/media-releases/2026-media-releases/new-zealands-rarest-parakeet-numbers-soar-in-nelson/',
+        referenceUrl: '/img/vandaag-op-aarde/references/2026-09-21/nelson-kakariki-chicks.jpg', coloringSlug: 'nelson-kakariki-karaka-survey',
+      },
+      {
+        slug: 'kinderen-verkennen-erfgoed-van-oaxaca',
+        title: 'Kinderen ontdekken het erfgoed van Oaxaca',
+        location: 'Oaxaca de Juárez, Mexico', reportedDate: '18 september 2026', theme: 'Cultuur & leren', icon: '✦',
+        intro: 'Met een gids, spelletjes en een boekje leren kinderen hun historische stad beter kennen.',
+        body: 'Het project Guardianes del Patrimonio laat kinderen door het historische centrum van Oaxaca wandelen, kijken en vragen stellen. Ze leren over gebouwen én over de verhalen, kennis en gewoonten van hun gemeenschap. De gratis activiteiten begonnen met rondleidingen in de zomer en worden nu uitgebreid naar meer dan 300 leerlingen van vijf basisscholen. Speciaal opgeleide gidsen gebruiken onder meer een activiteitenboekje, loterijspel en andere spelvormen. Zo wordt zorg voor het erfgoed iets wat kinderen zelf kunnen begrijpen en doorgeven.',
+        facts: ['Meer dan 300 kinderen van vijf basisscholen kunnen meedoen.', 'De kinderen verkennen het historische centrum van Oaxaca.', 'UNESCO ondersteunt het project samen met de gemeente.'],
+        question: 'Welk bijzonder gebouw of verhaal in jouw buurt zou jij aan een ander laten zien?',
+        sourceLabel: 'UNESCO', sourceUrl: 'https://www.unesco.org/en/articles/oaxaca-municipality-leads-activities-unesco-nurture-childrens-connection-their-heritage?hub=180364',
+        referenceUrl: '/img/vandaag-op-aarde/references/2026-09-21/oaxaca-heritage-children.webp', coloringSlug: 'oaxaca-heritage-guardians',
+      },
+      {
+        slug: 'ingenieurs-uit-28-landen-in-dar-es-salaam',
+        title: 'Ingenieurs uit 28 landen ontmoeten elkaar',
+        location: 'Dar es Salaam, Tanzania', reportedDate: '18 september 2026', theme: 'Techniek & samenwerking', icon: '⌁',
+        intro: 'Tijdens Africa Engineering Week wisselden ingenieurs ideeën uit over duurzaam bouwen, leren en nieuwe technieken.',
+        body: 'Van 13 tot en met 17 september kwamen in Dar es Salaam meer dan 300 deelnemers uit 28 landen bijeen voor de Africa Engineering Week en een technische conferentie. Zij spraken over onderwijs, digitale technologie, duurzame infrastructuur, het klimaat en kansen voor jongeren en vrouwen in de techniek. UNESCO werkte samen met Tanzaniaanse en Afrikaanse ingenieursorganisaties. Op de openingsfoto staan deelnemers samen op het podium. Techniek begint vaak met een vraag: hoe maken we iets dat mensen echt helpt?',
+        facts: ['Er deden meer dan 300 mensen uit 28 landen mee.', 'De bijeenkomst duurde van 13 tot en met 17 september.', 'Jongeren en vrouwen in de techniek waren belangrijke onderwerpen.'],
+        question: 'Wat zou jij als ingenieur willen maken voor jouw buurt?',
+        sourceLabel: 'UNESCO', sourceUrl: 'https://www.unesco.org/en/articles/unesco-partners-government-officiate-12th-unesco-aew-and-10th-aec',
+        referenceUrl: '/img/vandaag-op-aarde/references/2026-09-21/dar-es-salaam-engineering-week.webp', coloringSlug: 'africa-engineering-week-dar-es-salaam',
+      },
+      {
+        slug: 'vioolbouwers-in-queshan',
+        title: 'Vioolbouwers maken muziek mogelijk in Queshan',
+        location: 'Queshan, China', reportedDate: '18 september 2026', theme: 'Muziek & vakmanschap', icon: '♫',
+        intro: 'In een dorp in de Chinese provincie Henan bouwen vakmensen met veel geduld violen met de hand.',
+        body: 'In werkplaatsen in Queshan buigen vioolbouwers dunne stroken hout voor de zijkant van een viool. Anderen lijmen zorgvuldig een smalle sierlijn in de rand. Het Chinese nieuwsagentschap Xinhua bezocht de makers en beschreef hoe hun vaardigheden door jaren oefening groeien. Meer dan 2.600 mensen in de streek werken in deze bedrijfstak. Sommige bouwers leerden het vak eerst in Beijing en keerden later terug om in hun geboortestreek een werkplaats te beginnen. Een mooie viool vraagt om nauwkeurige handen, goede materialen en een oor voor de klank.',
+        facts: ['Meer dan 2.600 mensen werken lokaal in de vioolindustrie.', 'De dunne, gebogen zijkanten van een viool worden met de hand gemaakt.', 'Sommige makers keerden na hun opleiding elders naar Queshan terug.'],
+        question: 'Welk instrument zou jij willen leren maken of bespelen?',
+        sourceLabel: 'Xinhua', sourceUrl: 'https://english.news.cn/20260918/8ad6eb9b8d4c47d88b155fce10da745b/c.html',
+        referenceUrl: '/img/vandaag-op-aarde/references/2026-09-21/queshan-violin-maker.jpg', coloringSlug: 'queshan-violin-maker',
+      },
+      {
+        slug: 'twee-satellieten-vanaf-frans-guyana',
+        title: 'Twee satellieten samen de ruimte in',
+        location: 'Kourou, Frans-Guyana', reportedDate: '15 september 2026', theme: 'Ruimte & aarde', icon: '✧',
+        intro: 'Een Vega-C-raket bracht de satellieten FLEX en Sentinel-3C tegelijk in een baan om de aarde.',
+        body: 'Vanaf de Europese ruimtehaven in Frans-Guyana vertrok op 15 september een Vega-C-raket met twee aardobservatiesatellieten. Sentinel-3C werd als eerste losgelaten, FLEX ongeveer een uur later. Beide stuurden daarna een eerste signaal naar het vluchtleidingsteam in Duitsland. FLEX gaat de zwakke lichtgloed meten die planten tijdens fotosynthese uitzenden; die kan onderzoekers iets vertellen over hun gezondheid. Sentinel-3C verzamelt gegevens over oceanen, land, ijs en de atmosfeer. Zo helpen ruimte-instrumenten om beter naar onze eigen planeet te kijken.',
+        facts: ['De twee satellieten reisden samen in één raket.', 'Sentinel-3C kwam als eerste los, FLEX ongeveer een uur later.', 'FLEX gaat de nauwelijks zichtbare gloed van planten meten.'],
+        question: 'Wat zou jij vanuit de ruimte over de aarde willen onderzoeken?',
+        sourceLabel: 'European Space Agency', sourceUrl: 'https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched',
+        referenceUrl: '/img/vandaag-op-aarde/references/2026-09-21/vega-c-launch.jpg', coloringSlug: 'vega-c-flex-sentinel-launch',
+      },
+    ],
+  },
+  {
     published: '2026-09-14',
     stories: [
       {

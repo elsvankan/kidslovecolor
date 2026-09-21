@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-21",
+  "imageTool": "built-in imagegen",
+  "ordinarySlugs": [
+    "harbor-seal-parent-and-pup-on-rocks",
+    "smiling-rain-cloud-watering-sunflowers",
+    "picnic-in-a-lemon-grove",
+    "mountain-cable-car-above-village",
+    "terrarium-workshop-with-garden-window"
+  ],
+  "news": [
+    {
+      "slug": "nelson-kakariki-karaka-survey",
+      "source": "https://www.doc.govt.nz/news/media-releases/2026-media-releases/new-zealands-rarest-parakeet-numbers-soar-in-nelson/",
+      "referencePhoto": "img/vandaag-op-aarde/references/2026-09-21/nelson-kakariki-chicks.jpg"
+    },
+    {
+      "slug": "oaxaca-heritage-guardians",
+      "source": "https://www.unesco.org/en/articles/oaxaca-municipality-leads-activities-unesco-nurture-childrens-connection-their-heritage?hub=180364",
+      "referencePhoto": "img/vandaag-op-aarde/references/2026-09-21/oaxaca-heritage-children.webp"
+    },
+    {
+      "slug": "africa-engineering-week-dar-es-salaam",
+      "source": "https://www.unesco.org/en/articles/unesco-partners-government-officiate-12th-unesco-aew-and-10th-aec",
+      "referencePhoto": "img/vandaag-op-aarde/references/2026-09-21/dar-es-salaam-engineering-week.webp"
+    },
+    {
+      "slug": "queshan-violin-maker",
+      "source": "https://english.news.cn/20260918/8ad6eb9b8d4c47d88b155fce10da745b/c.html",
+      "referencePhoto": "img/vandaag-op-aarde/references/2026-09-21/queshan-violin-maker.jpg"
+    },
+    {
+      "slug": "vega-c-flex-sentinel-launch",
+      "source": "https://www.esa.int/Applications/Observing_the_Earth/FLEX_and_Sentinel-3C_launched",
+      "referencePhoto": "img/vandaag-op-aarde/references/2026-09-21/vega-c-launch.jpg"
+    }
+  ],
+  "artDirection": "Complete A4 black line art on white; broad colorable shapes with about 30% less material texture; realistic news-relevant objects and no invented physical traits; official logo bottom left after visual review with no artificial blank rectangle.",
+  "qa": {
+    "fullSize": [1055, 1491],
+    "thumbnailSize": [400, 565],
+    "languages": ["nl", "en", "fr", "es", "zh"],
+    "newStaticPages": 10,
+    "newSitemapUrls": 10,
+    "desktopViewport": 1440,
+    "mobileViewport": 390,
+    "formStatus": "Live GET endpoint reports available; incoming requests cannot be read without access to the Web3Forms receiving inbox, so checkpoint was not advanced."
+  }
+}
