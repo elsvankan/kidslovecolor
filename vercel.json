@@ -2301,6 +2301,26 @@
       "destination": "/kleurplaat/september-apple-harvest-hedgehog/index.html"
     },
     {
+      "source": "/kleurplaat/dutch-october-canal-puddle",
+      "destination": "/kleurplaat/dutch-october-canal-puddle/index.html"
+    },
+    {
+      "source": "/kleurplaat/english-november-park-dog",
+      "destination": "/kleurplaat/english-november-park-dog/index.html"
+    },
+    {
+      "source": "/kleurplaat/french-september-chestnut-park",
+      "destination": "/kleurplaat/french-september-chestnut-park/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-october-ginkgo-kite",
+      "destination": "/kleurplaat/chinese-october-ginkgo-kite/index.html"
+    },
+    {
+      "source": "/kleurplaat/spanish-november-madrid-leaves",
+      "destination": "/kleurplaat/spanish-november-madrid-leaves/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

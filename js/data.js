@@ -5856,6 +5856,57 @@ const COLORINGS = [
     zh: { title: '九月苹果丰收与刺猬', description: '免费九月涂色页：刺猬、苹果和果园。线条清晰，可直接打印涂色。', keywords: '九月苹果丰收与刺猬 季节涂色 免费儿童', altText: '免费涂色页 九月苹果丰收与刺猬 – 儿童' },
   },
 
+  {
+    id: 607, slug: 'dutch-october-canal-puddle', category: 'seizoenen', difficulty: 'medium',
+    country: 'nl',
+    img: '../img/kleurplaten/seizoenen--medium--dutch-october-canal-puddle.jpg',
+    nl: { title: 'Oktober aan de gracht in Utrecht', description: 'Gratis kleurplaat met OKTOBER in grote letters. Een kind springt in een plas bij de Utrechtse gracht, tussen fietsen en herfstbladeren.', keywords: 'oktober aan de gracht in utrecht seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat oktober aan de gracht in utrecht – kinderen' },
+    en: { title: 'October by a Utrecht Canal', description: 'Free coloring page with the Dutch month name OKTOBER. A child splashes in a puddle beside a Utrecht canal, bicycle and autumn leaves.', keywords: 'october by a utrecht canal seasonal coloring page free kids', altText: 'Free coloring page october by a utrecht canal – kids' },
+    fr: { title: 'Octobre au bord d’un canal à Utrecht', description: 'Coloriage gratuit avec le mois néerlandais OKTOBER. Un enfant saute dans une flaque près d’un canal d’Utrecht et de feuilles d’automne.', keywords: 'octobre au bord d’un canal à utrecht coloriage saisons gratuit enfants', altText: 'Page à colorier octobre au bord d’un canal à utrecht – enfants' },
+    es: { title: 'Octubre junto a un canal de Utrecht', description: 'Lámina gratis con el mes neerlandés OKTOBER. Un niño salta en un charco junto a un canal de Utrecht y hojas de otoño.', keywords: 'octubre junto a un canal de utrecht colorear estaciones gratis niños', altText: 'Página para colorear octubre junto a un canal de utrecht – niños' },
+    zh: { title: '乌得勒支运河边的十月', description: '荷兰语月份“OKTOBER”免费涂色页：孩子在乌得勒支运河旁踩水坑，周围有自行车和秋叶。', keywords: '乌得勒支运河边的十月 季节涂色 免费儿童', altText: '免费涂色页 乌得勒支运河边的十月 – 儿童' },
+  },
+  {
+    id: 608, slug: 'english-november-park-dog', category: 'seizoenen', difficulty: 'medium',
+    country: 'gb',
+    img: '../img/kleurplaten/seizoenen--medium--english-november-park-dog.jpg',
+    nl: { title: 'November: wandelen met de hond in Londen', description: 'Gratis kleurplaat met NOVEMBER in grote letters. Een kind wandelt met een hond door een Londens park vol herfstbladeren.', keywords: 'november: wandelen met de hond in londen seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat november: wandelen met de hond in londen – kinderen' },
+    en: { title: 'November Dog Walk in London', description: 'Free coloring page with NOVEMBER in large letters. A child walks a dog through a London park filled with autumn leaves.', keywords: 'november dog walk in london seasonal coloring page free kids', altText: 'Free coloring page november dog walk in london – kids' },
+    fr: { title: 'Promenade de novembre avec un chien à Londres', description: 'Coloriage gratuit avec NOVEMBER en grandes lettres. Un enfant promène son chien dans un parc londonien couvert de feuilles.', keywords: 'promenade de novembre avec un chien à londres coloriage saisons gratuit enfants', altText: 'Page à colorier promenade de novembre avec un chien à londres – enfants' },
+    es: { title: 'Paseo de noviembre con perro en Londres', description: 'Lámina gratis con NOVEMBER en letras grandes. Un niño pasea a su perro por un parque de Londres lleno de hojas.', keywords: 'paseo de noviembre con perro en londres colorear estaciones gratis niños', altText: 'Página para colorear paseo de noviembre con perro en londres – niños' },
+    zh: { title: '伦敦十一月与小狗散步', description: '免费“NOVEMBER”涂色页：孩子牵着小狗走过伦敦公园，地上铺满秋叶，可直接打印。', keywords: '伦敦十一月与小狗散步 季节涂色 免费儿童', altText: '免费涂色页 伦敦十一月与小狗散步 – 儿童' },
+  },
+  {
+    id: 609, slug: 'french-september-chestnut-park', category: 'seizoenen', difficulty: 'medium',
+    country: 'fr',
+    img: '../img/kleurplaten/seizoenen--medium--french-september-chestnut-park.jpg',
+    nl: { title: 'Septembre: kastanjes zoeken in Frankrijk', description: 'Gratis kleurplaat met het Franse maandwoord SEPTEMBRE. Een kind zoekt kastanjes in een Frans herfstpark terwijl een egel toekijkt. Direct te printen.', keywords: 'septembre: kastanjes zoeken in frankrijk seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat septembre: kastanjes zoeken in frankrijk – kinderen' },
+    en: { title: 'Septembre: Chestnut Hunt in France', description: 'Free coloring page with the French month name SEPTEMBRE. A child gathers chestnuts in a French autumn park with a hedgehog nearby.', keywords: 'septembre: chestnut hunt in france seasonal coloring page free kids', altText: 'Free coloring page septembre: chestnut hunt in france – kids' },
+    fr: { title: 'Septembre : ramasser des châtaignes en France', description: 'Coloriage gratuit avec SEPTEMBRE en grandes lettres. Un enfant ramasse des châtaignes dans un parc français près d’un hérisson.', keywords: 'septembre : ramasser des châtaignes en france coloriage saisons gratuit enfants', altText: 'Page à colorier septembre : ramasser des châtaignes en france – enfants' },
+    es: { title: 'Septembre: castañas en un parque francés', description: 'Lámina gratis con el mes francés SEPTEMBRE. Un niño recoge castañas en un parque de Francia junto a un erizo.', keywords: 'septembre: castañas en un parque francés colorear estaciones gratis niños', altText: 'Página para colorear septembre: castañas en un parque francés – niños' },
+    zh: { title: '法语九月：法国公园捡栗子', description: '法语月份“SEPTEMBRE”涂色页：孩子在法国秋日公园捡栗子，旁边有一只刺猬。可直接打印。', keywords: '法语九月：法国公园捡栗子 季节涂色 免费儿童', altText: '免费涂色页 法语九月：法国公园捡栗子 – 儿童' },
+  },
+  {
+    id: 610, slug: 'chinese-october-ginkgo-kite', category: 'seizoenen', difficulty: 'medium',
+    country: 'cn',
+    img: '../img/kleurplaten/seizoenen--medium--chinese-october-ginkgo-kite.jpg',
+    nl: { title: '十月: vliegeren tussen ginkgobomen in Beijing', description: 'Gratis kleurplaat met het Chinese maandwoord 十月. Een kind laat een vlieger op in een park in Beijing tussen waaiervormige ginkgobladeren.', keywords: '十月: vliegeren tussen ginkgobomen in beijing seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat 十月: vliegeren tussen ginkgobomen in beijing – kinderen' },
+    en: { title: 'October Kite Flying in Beijing', description: 'Free coloring page with the Chinese month name 十月. A child flies a kite in a Beijing park among fan-shaped ginkgo leaves.', keywords: 'october kite flying in beijing seasonal coloring page free kids', altText: 'Free coloring page october kite flying in beijing – kids' },
+    fr: { title: 'Cerf-volant d’octobre à Pékin', description: 'Coloriage gratuit avec le mois chinois 十月. Un enfant fait voler un cerf-volant dans un parc de Pékin parmi les feuilles de ginkgo.', keywords: 'cerf-volant d’octobre à pékin coloriage saisons gratuit enfants', altText: 'Page à colorier cerf-volant d’octobre à pékin – enfants' },
+    es: { title: 'Cometa de octubre en Pekín', description: 'Lámina gratis con el mes chino 十月. Un niño vuela una cometa entre los árboles de ginkgo de un parque de Pekín.', keywords: 'cometa de octubre en pekín colorear estaciones gratis niños', altText: 'Página para colorear cometa de octubre en pekín – niños' },
+    zh: { title: '北京十月银杏林里放风筝', description: '免费十月涂色页，画面写有“十月”：孩子在北京公园放风筝，银杏树的扇形叶子飘落。', keywords: '北京十月银杏林里放风筝 季节涂色 免费儿童', altText: '免费涂色页 北京十月银杏林里放风筝 – 儿童' },
+  },
+  {
+    id: 611, slug: 'spanish-november-madrid-leaves', category: 'seizoenen', difficulty: 'medium',
+    country: 'es',
+    img: '../img/kleurplaten/seizoenen--medium--spanish-november-madrid-leaves.jpg',
+    nl: { title: 'Noviembre: bladeren zoeken in Madrid', description: 'Gratis kleurplaat met het Spaanse maandwoord NOVIEMBRE. Een kind verzamelt herfstbladeren in een park in Madrid, met een eekhoorn in de boom.', keywords: 'noviembre: bladeren zoeken in madrid seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat noviembre: bladeren zoeken in madrid – kinderen' },
+    en: { title: 'Noviembre Leaf Collection in Madrid', description: 'Free coloring page with the Spanish month name NOVIEMBRE. A child collects autumn leaves in a Madrid park while a squirrel watches.', keywords: 'noviembre leaf collection in madrid seasonal coloring page free kids', altText: 'Free coloring page noviembre leaf collection in madrid – kids' },
+    fr: { title: 'Noviembre : feuilles d’automne à Madrid', description: 'Coloriage gratuit avec le mois espagnol NOVIEMBRE. Un enfant ramasse des feuilles dans un parc de Madrid près d’un écureuil.', keywords: 'noviembre : feuilles d’automne à madrid coloriage saisons gratuit enfants', altText: 'Page à colorier noviembre : feuilles d’automne à madrid – enfants' },
+    es: { title: 'Noviembre: recogiendo hojas en Madrid', description: 'Lámina gratis con NOVIEMBRE en letras grandes. Una niña recoge hojas de otoño en un parque de Madrid junto a una ardilla.', keywords: 'noviembre: recogiendo hojas en madrid colorear estaciones gratis niños', altText: 'Página para colorear noviembre: recogiendo hojas en madrid – niños' },
+    zh: { title: '马德里十一月收集落叶', description: '免费西班牙语月份“NOVIEMBRE”涂色页：孩子在马德里的公园收集秋叶，树上有松鼠。', keywords: '马德里十一月收集落叶 季节涂色 免费儿童', altText: '免费涂色页 马德里十一月收集落叶 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
