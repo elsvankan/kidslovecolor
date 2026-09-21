@@ -2261,6 +2261,46 @@
       "destination": "/kleurplaat/vega-c-flex-sentinel-launch/index.html"
     },
     {
+      "source": "/kleurplaat/october-halloween-cat-pumpkin",
+      "destination": "/kleurplaat/october-halloween-cat-pumpkin/index.html"
+    },
+    {
+      "source": "/kleurplaat/indian-navratri-garba-dancers",
+      "destination": "/kleurplaat/indian-navratri-garba-dancers/index.html"
+    },
+    {
+      "source": "/kleurplaat/mexican-october-marigold-market",
+      "destination": "/kleurplaat/mexican-october-marigold-market/index.html"
+    },
+    {
+      "source": "/kleurplaat/japanese-october-rice-terraces",
+      "destination": "/kleurplaat/japanese-october-rice-terraces/index.html"
+    },
+    {
+      "source": "/kleurplaat/australian-october-wildflowers-kangaroo",
+      "destination": "/kleurplaat/australian-october-wildflowers-kangaroo/index.html"
+    },
+    {
+      "source": "/kleurplaat/munich-autumn-fair-carousel",
+      "destination": "/kleurplaat/munich-autumn-fair-carousel/index.html"
+    },
+    {
+      "source": "/kleurplaat/chinese-mid-autumn-mooncakes",
+      "destination": "/kleurplaat/chinese-mid-autumn-mooncakes/index.html"
+    },
+    {
+      "source": "/kleurplaat/korean-chuseok-songpyeon",
+      "destination": "/kleurplaat/korean-chuseok-songpyeon/index.html"
+    },
+    {
+      "source": "/kleurplaat/chile-atacama-spring-flowers",
+      "destination": "/kleurplaat/chile-atacama-spring-flowers/index.html"
+    },
+    {
+      "source": "/kleurplaat/september-apple-harvest-hedgehog",
+      "destination": "/kleurplaat/september-apple-harvest-hedgehog/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

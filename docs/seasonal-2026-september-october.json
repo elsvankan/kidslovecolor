@@ -1,0 +1,86 @@
+{
+  "edition": "September en oktober 2026",
+  "publishedAs": "original seasonal coloring pages, not news illustrations",
+  "visualPolicy": "A4 1055x1491, black line art on white with safe margins; logo added only after visual review; no licensed characters; open skin for coloring; restrained texture",
+  "september": [
+    {
+      "slug": "september-apple-harvest-hedgehog",
+      "region": "Netherlands / temperate Northern Hemisphere",
+      "note": "General autumn orchard scene; not a report of a specific event."
+    },
+    {
+      "slug": "korean-chuseok-songpyeon",
+      "region": "South Korea",
+      "note": "Chuseok public holidays are 24–26 September 2026; songpyeon are traditional half-moon rice cakes.",
+      "sources": [
+        "https://english.visitkorea.or.kr/svc/contents/infoHtmlView.do?vcontsId=140038",
+        "https://english.visitkorea.or.kr/svc/contents/contentsView.do?menuSn=219&vcontsId=1593350"
+      ]
+    },
+    {
+      "slug": "chinese-mid-autumn-mooncakes",
+      "region": "China",
+      "note": "Mid-Autumn Festival holiday in 2026 is 25–27 September; the scene uses mooncakes, lanterns and full moon.",
+      "sources": [
+        "https://big5.www.gov.cn/gate/big5/www.gov.cn/gongbao/2025/issue_12406/202511/content_7048922.html"
+      ]
+    },
+    {
+      "slug": "chile-atacama-spring-flowers",
+      "region": "Chile / Southern Hemisphere",
+      "note": "The flowering desert can appear during spring after rain; illustration is generic and does not claim a precise 2026 bloom site.",
+      "sources": [
+        "https://chile.travel/en/blog/flowering-desert-the-driest-in-the-world-fills-with-flowers-in-spring/"
+      ]
+    },
+    {
+      "slug": "munich-autumn-fair-carousel",
+      "region": "Germany",
+      "note": "Child-friendly fairground scene inspired by Munich in late September. No alcohol, official marks or branded signage.",
+      "sources": [
+        "https://www.oktoberfest.de/en"
+      ]
+    }
+  ],
+  "october": [
+    {
+      "slug": "october-halloween-cat-pumpkin",
+      "region": "International",
+      "note": "Friendly Halloween subject with large spaces for young children."
+    },
+    {
+      "slug": "japanese-october-rice-terraces",
+      "region": "Japan",
+      "note": "Generic October rice-harvest landscape, not a named farm or dated news event.",
+      "sources": [
+        "https://www.japan.travel/en/guide/october/"
+      ]
+    },
+    {
+      "slug": "mexican-october-marigold-market",
+      "region": "Mexico",
+      "note": "Late-October preparations with cempasúchil flowers. Día de Muertos itself is 1–2 November; page copy makes that distinction.",
+      "sources": [
+        "https://www.gob.mx/semarnat/articulos/cempasuchil-luz-en-el-camposanto",
+        "https://www.gob.mx/agricultura/cdmx/es/articulos/cempasuchil-cultivo-tradicion-y-amor-en-la-ciudad-de-mexico-411280"
+      ]
+    },
+    {
+      "slug": "indian-navratri-garba-dancers",
+      "region": "India",
+      "note": "Garba dance inspired by Gujarat's Navratri celebrations, observed in October 2026.",
+      "sources": [
+        "https://www.incredibleindia.gov.in/en/festivals-and-events/navratri"
+      ]
+    },
+    {
+      "slug": "australian-october-wildflowers-kangaroo",
+      "region": "Western Australia",
+      "note": "Australian spring wildflower scene with kangaroo paw flowers and kangaroo. October is spring in the Southern Hemisphere.",
+      "sources": [
+        "https://www.australia.com/en-gb/facts-and-planning/about-australia/australias-plants.html",
+        "https://www.australia.com/en/trips-and-itineraries/perth-and-surrounds/10-day-trip-of-colourful-attractions.html"
+      ]
+    }
+  ]
+}

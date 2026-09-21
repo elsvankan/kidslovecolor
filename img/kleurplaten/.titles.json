@@ -1823,5 +1823,105 @@
   },
   "sprookjes--hard--dragon-academy-training-ground.jpg": {
     "nl": "Drakenacademie op het Oefenterrein", "en": "Dragon Academy Training Ground", "fr": "Terrain d’Entraînement de l’Académie des Dragons", "es": "Campo de Entrenamiento de la Academia de Dragones", "zh": "龙学院训练场"
+  },
+  "seizoenen--easy--september-apple-harvest-hedgehog.jpg": {
+    "nl": "September Appeloogst met Egel", "en": "September Apple Harvest with Hedgehog", "fr": "Récolte des Pommes de Septembre avec un Hérisson", "es": "Cosecha de Manzanas en Septiembre con Erizo", "zh": "九月苹果丰收与刺猬", "country": "nl", "releaseOrder": 1,
+    "descriptions": {
+      "nl": "Gratis septemberkleurplaat met een egel, appels en een boomgaard. Rustige herfstlijnen om zelf te kleuren en direct te printen.",
+      "en": "Free September coloring page with a hedgehog, apples and an orchard. Easy autumn line art to color and print.",
+      "fr": "Coloriage gratuit de septembre avec un hérisson, des pommes et un verger. À imprimer et à colorier.",
+      "es": "Lámina gratis de septiembre con un erizo, manzanas y un huerto. Lista para colorear e imprimir.",
+      "zh": "免费九月涂色页：刺猬、苹果和果园。线条清晰，可直接打印涂色。"
+    }
+  },
+  "feestdagen--medium--korean-chuseok-songpyeon.jpg": {
+    "nl": "Chuseok in Korea: Songpyeon met Familie", "en": "Korean Chuseok: Songpyeon with Family", "fr": "Chuseok en Corée : Songpyeon en Famille", "es": "Chuseok en Corea: Songpyeon en Familia", "zh": "韩国秋夕：家人和松饼", "country": "kr", "releaseOrder": 1,
+    "descriptions": {
+      "nl": "Gratis kleurplaat over Chuseok in Korea: familie aan tafel met halvemaanvormige songpyeon. Ontdek een septembertraditie en print de plaat.",
+      "en": "Free Chuseok coloring page showing a Korean family sharing half-moon songpyeon rice cakes. Print this September scene.",
+      "fr": "Coloriage gratuit du Chuseok coréen : une famille partage des songpyeon en forme de demi-lune. À imprimer.",
+      "es": "Lámina gratis del Chuseok coreano: una familia comparte pasteles de arroz songpyeon. Imprime y colorea.",
+      "zh": "免费韩国秋夕涂色页：一家人分享半月形松饼。适合打印和涂色。"
+    }
+  },
+  "feestdagen--medium--chinese-mid-autumn-mooncakes.jpg": {
+    "nl": "Chinees Midherfstfeest met Maancakes", "en": "Chinese Mid-Autumn Festival Mooncakes", "fr": "Gâteaux de Lune de la Fête de la Mi-Automne", "es": "Pasteles de Luna del Festival de Medio Otoño", "zh": "中秋节的月饼与灯笼", "country": "cn", "releaseOrder": 1,
+    "descriptions": {
+      "nl": "Gratis kleurplaat voor het Chinese Midherfstfeest met maancakes, lampionnen en de volle maan. Print en kleur deze septemberplaat.",
+      "en": "Free Mid-Autumn Festival coloring page with mooncakes, lanterns and a full moon. Print and color this September scene.",
+      "fr": "Coloriage gratuit de la fête de la Mi-Automne avec gâteaux de lune, lanternes et pleine lune. À imprimer.",
+      "es": "Lámina gratis del Festival de Medio Otoño con pasteles de luna, faroles y luna llena. Para imprimir.",
+      "zh": "免费中秋节涂色页：月饼、灯笼和满月。可打印后自行上色。"
+    }
+  },
+  "natuur--medium--chile-atacama-spring-flowers.jpg": {
+    "nl": "Bloeiende Atacamawoestijn in Chili", "en": "Flowering Atacama Desert in Chile", "fr": "Désert d’Atacama en Fleurs au Chili", "es": "Desierto Florido de Atacama en Chile", "zh": "智利阿塔卡马沙漠花开", "country": "cl", "releaseOrder": 1,
+    "descriptions": {
+      "nl": "Gratis kleurplaat van bloemen in de Atacamawoestijn in Chili. In september begint daar de lente: kleur de droge heuvels en bloemen.",
+      "en": "Free coloring page of wildflowers in Chile's Atacama Desert. September brings spring to the Southern Hemisphere.",
+      "fr": "Coloriage gratuit de fleurs dans le désert d’Atacama au Chili. En septembre, le printemps arrive au sud.",
+      "es": "Lámina gratis del desierto florido de Atacama, Chile. En septiembre llega la primavera al hemisferio sur.",
+      "zh": "免费智利阿塔卡马沙漠花海涂色页。南半球的九月正值春天，可打印上色。"
+    }
+  },
+  "feestdagen--hard--munich-autumn-fair-carousel.jpg": {
+    "nl": "Herfstkermis in München met Draaimolen", "en": "Munich Autumn Fair Carousel", "fr": "Manège de la Fête d’Automne à Munich", "es": "Carrusel de la Feria de Otoño en Múnich", "zh": "慕尼黑秋季游乐场旋转木马", "country": "de", "releaseOrder": 1,
+    "descriptions": {
+      "nl": "Gratis septemberkleurplaat van een kindvriendelijke herfstkermis in München met draaimolen en pretzels, zonder alcohol. Om te printen.",
+      "en": "Free September coloring page of a family-friendly Munich autumn fair with carousel horses and pretzels. No alcohol imagery.",
+      "fr": "Coloriage gratuit d’une fête d’automne à Munich avec manège et bretzels, sans alcool. À imprimer.",
+      "es": "Lámina gratis de una feria otoñal en Múnich con carrusel y pretzels, sin alcohol. Lista para imprimir.",
+      "zh": "免费慕尼黑秋季游乐场涂色页，有旋转木马和椒盐卷饼，不含酒精元素。"
+    }
+  },
+  "feestdagen--easy--october-halloween-cat-pumpkin.jpg": {
+    "nl": "Halloween Kat met Pompoen", "en": "Halloween Cat and Pumpkin", "fr": "Chat d’Halloween avec Citrouille", "es": "Gato de Halloween con Calabaza", "zh": "万圣节小猫和南瓜",
+    "descriptions": {
+      "nl": "Gratis makkelijke oktoberkleurplaat met een vriendelijke Halloweenkat en lachende pompoen. Grote vlakken voor jonge kinderen.",
+      "en": "Free easy October coloring page with a friendly Halloween cat and smiling pumpkin. Large spaces for younger kids.",
+      "fr": "Coloriage facile et gratuit d’octobre avec un chat d’Halloween et une citrouille souriante. Grands espaces à colorier.",
+      "es": "Lámina fácil y gratis de octubre con un gato de Halloween y una calabaza sonriente. Amplias zonas para colorear.",
+      "zh": "免费简单十月涂色页：友好的万圣节小猫和微笑南瓜，适合低龄儿童。"
+    }
+  },
+  "natuur--hard--japanese-october-rice-terraces.jpg": {
+    "nl": "Rijstoogst in Japan in Oktober", "en": "October Rice Harvest in Japan", "fr": "Récolte du Riz au Japon en Octobre", "es": "Cosecha de Arroz en Japón en Octubre", "zh": "日本十月梯田稻收", "country": "jp",
+    "descriptions": {
+      "nl": "Gratis gedetailleerde oktoberkleurplaat van rijstterrassen en rijpe rijsthalmen in Japan. Veel rustige vlakken om zelf in te kleuren.",
+      "en": "Free detailed October coloring page of Japanese rice terraces and ripe rice stalks. Print this calm harvest scene.",
+      "fr": "Coloriage détaillé gratuit des rizières en terrasses et de la récolte d’octobre au Japon. À imprimer.",
+      "es": "Lámina detallada y gratis de terrazas de arroz y cosecha de octubre en Japón. Para imprimir y colorear.",
+      "zh": "免费日本十月梯田稻收涂色页，包含梯田和成熟稻穗，可打印上色。"
+    }
+  },
+  "feestdagen--medium--mexican-october-marigold-market.jpg": {
+    "nl": "Mexicaanse Goudsbloemenmarkt in Oktober", "en": "Mexican October Marigold Market", "fr": "Marché Mexicain de Soucis en Octobre", "es": "Mercado Mexicano de Cempasúchil en Octubre", "zh": "墨西哥十月万寿菊花市", "country": "mx",
+    "descriptions": {
+      "nl": "Gratis oktoberkleurplaat van een Mexicaanse markt met cempasúchilbloemen, als voorbereiding op Día de Muertos op 1 en 2 november.",
+      "en": "Free October coloring page of a Mexican cempasúchil flower market, preparing for Día de Muertos on November 1 and 2.",
+      "fr": "Coloriage gratuit d’un marché mexicain de fleurs cempasúchil en octobre, avant la fête des Morts des 1er et 2 novembre.",
+      "es": "Lámina gratis de un mercado de cempasúchil en octubre, preparándose para el Día de Muertos del 1 y 2 de noviembre.",
+      "zh": "免费墨西哥十月万寿菊花市涂色页，为11月1日至2日的亡灵节做准备。"
+    }
+  },
+  "feestdagen--hard--indian-navratri-garba-dancers.jpg": {
+    "nl": "Garbadans tijdens Navratri in India", "en": "Garba Dance at Navratri in India", "fr": "Danse Garba pendant Navratri en Inde", "es": "Baile Garba en Navratri en la India", "zh": "印度九夜节的嘉宝舞", "country": "in",
+    "descriptions": {
+      "nl": "Gratis oktoberkleurplaat van twee Garbadansers tijdens Navratri in India. Kleur hun kleding, lichtjes en het patroon op de vloer.",
+      "en": "Free October coloring page with two Garba dancers celebrating Navratri in India. Color their clothes, lights and floor pattern.",
+      "fr": "Coloriage gratuit d’octobre avec deux danseurs garba pendant Navratri en Inde. À imprimer et à colorier.",
+      "es": "Lámina gratis de octubre con dos bailarines de garba durante Navratri en la India. Para imprimir y colorear.",
+      "zh": "免费十月涂色页：印度九夜节上跳嘉宝舞的两位舞者，可打印涂色。"
+    }
+  },
+  "natuur--medium--australian-october-wildflowers-kangaroo.jpg": {
+    "nl": "Lentebloemen en Kangoeroe in Australië", "en": "Australian Spring Wildflowers and Kangaroo", "fr": "Fleurs Printanières et Kangourou d’Australie", "es": "Flores de Primavera y Canguro de Australia", "zh": "澳大利亚春季野花和袋鼠", "country": "au",
+    "descriptions": {
+      "nl": "Gratis oktoberkleurplaat met een kangoeroe en wilde lentebloemen in West-Australië. Daar is het in oktober lente.",
+      "en": "Free October coloring page of a kangaroo and spring wildflowers in Western Australia, where October is springtime.",
+      "fr": "Coloriage gratuit d’octobre avec un kangourou et des fleurs sauvages du printemps en Australie-Occidentale.",
+      "es": "Lámina gratis de octubre con un canguro y flores silvestres de primavera en Australia Occidental.",
+      "zh": "免费十月涂色页：西澳大利亚春季的袋鼠与野花，适合打印上色。"
+    }
   }
 }

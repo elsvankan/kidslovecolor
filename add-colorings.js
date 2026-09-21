@@ -36,6 +36,7 @@ const TITLES_FILE  = path.join(IMG_DIR, '.titles.json');
 const BASE_URL     = 'https://kidslovecolor.com';
 const TODAY        = new Date().toISOString().split('T')[0];
 const DRY_RUN      = process.argv.includes('--dry');
+const PREWATERMARKED = process.argv.includes('--prewatermarked');
 
 // ─────────────────────────────────────────────────────────────
 // TITEL-OVERRIDES (optioneel bestand img/kleurplaten/.titles.json)
@@ -510,13 +511,13 @@ function buildEntry(id, parsed, overrides) {
     const titleLower = title.toLowerCase();
     langData[lang] = {
       title,
-      description: desc[lang](titleLower),
-      keywords:    override ? keywordsFromTitle(title, lang, category) : buildKeywords(words, lang, category),
-      altText:     lang === 'nl' ? `Gratis kleurplaat ${titleLower} – kinderen`
+      description: override?.descriptions?.[lang] || desc[lang](titleLower),
+      keywords:    override?.keywords?.[lang] || (override ? keywordsFromTitle(title, lang, category) : buildKeywords(words, lang, category)),
+      altText:     override?.altTexts?.[lang] || (lang === 'nl' ? `Gratis kleurplaat ${titleLower} – kinderen`
                  : lang === 'en' ? `Free coloring page ${titleLower} – kids`
                  : lang === 'fr' ? `Page à colorier ${titleLower} – enfants`
                  : lang === 'es' ? `Página para colorear ${titleLower} – niños`
-                 :                 `免费涂色页 ${title} – 儿童`,
+                 :                 `免费涂色页 ${title} – 儿童`),
       newsExplainer: override && override.newsExplainer ? override.newsExplainer[lang] : null,
       newsArticle:   override && override.newsArticle   ? override.newsArticle[lang]   : null,
       newsFacts:     override && override.newsFacts      ? override.newsFacts[lang]      : null,
@@ -594,16 +595,51 @@ function buildSeoPage(parsed, nlTitle, nlDesc) {
 
   <!-- Breadcrumb structured data -->
   <script type="application/ld+json">${JSON.stringify(breadcrumbSchema)}</script>
-
-  <!-- Redirect naar SPA -->
-  <meta http-equiv="refresh" content="0; url=/"/>
-  <script>
-    sessionStorage.setItem('spa_path', '/kleurplaat/${slug}');
-    window.location.replace('/');
-  </script>
+  <meta name="robots" content="index,follow,max-image-preview:large"/>
+  <style>
+    :root { color-scheme: light; --ink:#342d38; --rose:#a94f73; --paper:#fbf8f6; --line:#ded4dc; }
+    * { box-sizing:border-box; }
+    body { margin:0; background:var(--paper); color:var(--ink); font-family:"Avenir Next","Trebuchet MS",Arial,sans-serif; }
+    header { background:#fff; border-bottom:1px solid var(--line); }
+    .shell { width:min(100% - 2rem,1120px); margin:auto; }
+    header .shell { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding:1rem 0; }
+    .brand { display:flex; align-items:center; gap:.65rem; color:var(--ink); text-decoration:none; font-weight:800; }
+    .brand img { width:42px; height:42px; object-fit:contain; }
+    .back { color:var(--rose); text-decoration:none; font-weight:700; }
+    main { padding:2rem 0 4rem; }
+    nav { font-size:.85rem; color:#746a77; margin-bottom:1.5rem; }
+    nav a { color:inherit; }
+    .layout { display:grid; grid-template-columns:minmax(0,1fr) minmax(0,1.25fr); gap:clamp(1.5rem,5vw,4rem); align-items:start; }
+    .intro { position:sticky; top:2rem; }
+    .eyebrow { color:var(--rose); font-size:.76rem; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+    h1 { font:normal clamp(2rem,4.6vw,3.6rem)/1.1 Georgia,"Times New Roman",serif; margin:.6rem 0 1rem; }
+    p { line-height:1.7; color:#5d5361; }
+    .actions { display:flex; flex-wrap:wrap; gap:.7rem; margin:1.5rem 0; }
+    .button { border:1px solid var(--rose); border-radius:999px; background:var(--rose); color:#fff; padding:.85rem 1.25rem; text-decoration:none; font-family:inherit; font-size:.95rem; font-weight:700; cursor:pointer; }
+    .button.secondary { color:var(--rose); background:#fff; }
+    figure { margin:0; background:#fff; padding:1rem; border:1px solid var(--line); border-radius:18px; box-shadow:0 14px 34px #342d3812; }
+    figure img { display:block; width:100%; height:auto; }
+    figcaption { font-size:.8rem; color:#746a77; text-align:center; margin-top:.8rem; }
+    @media (max-width:700px) { .layout { grid-template-columns:1fr; } .intro { position:static; } main { padding-top:1.3rem; } }
+    @media print { @page { size:A4 portrait; margin:0; } body { background:#fff; } header,nav,.intro,figcaption { display:none!important; } main,.shell,.layout,figure { width:100%; max-width:none; margin:0; padding:0; display:block; border:0; box-shadow:none; } figure img { width:100%; height:100vh; object-fit:contain; } }
+  </style>
 </head>
 <body>
-  <p>Laden… <a href="/">Klik hier als je niet automatisch doorgestuurd wordt.</a></p>
+  <header><div class="shell"><a class="brand" href="/"><img src="/img/logo.svg" alt=""/> KidsLoveColor</a><a class="back" href="/">Alle kleurplaten →</a></div></header>
+  <main class="shell">
+    <nav><a href="/">Home</a> / <a href="/?cat=${encodeURIComponent(category)}">${e(catLabel)}</a> / ${e(nlTitle)}</nav>
+    <div class="layout">
+      <div class="intro">
+        <div class="eyebrow">Gratis kleurplaat · ${e(catLabel)}</div>
+        <h1>${e(nlTitle)}</h1>
+        <p>${e(nlDesc)}</p>
+        <div class="actions"><a class="button" href="/img/kleurplaten/${filename}" download="${slug}.jpg">Download kleurplaat</a><button class="button secondary" type="button" onclick="window.print()">Print kleurplaat</button></div>
+        <p>Gratis en reclamevrij. Kies zelf je kleuren en print de plaat zo vaak je wilt.</p>
+        <a class="back" href="/?cat=${encodeURIComponent(category)}">Bekijk meer ${e(catLabel.toLowerCase())} →</a>
+      </div>
+      <figure><img src="/img/kleurplaten/${filename}" alt="${e(nlTitle)} kleurplaat" width="1055" height="1491"/><figcaption>Gratis te printen A4-kleurplaat van KidsLoveColor.</figcaption></figure>
+    </div>
+  </main>
 </body>
 </html>`;
 }
@@ -612,6 +648,18 @@ function buildSeoPage(parsed, nlTitle, nlDesc) {
 // SITEMAP REGENEREREN
 // ─────────────────────────────────────────────────────────────
 function regenerateSitemap(allEntries) {
+  // Behoud de werkelijke wijzigingsdatum van bestaande pagina's. Een nieuwe
+  // batch kleurplaten mag oude URLs niet ten onrechte als vandaag gewijzigd
+  // markeren; alleen nieuwe (of expliciet gewijzigde) pagina's krijgen TODAY.
+  const oldSitemap = fs.existsSync(SITEMAP) ? fs.readFileSync(SITEMAP, 'utf8') : '';
+  const oldLastmod = new Map();
+  const oldUrlBlocks = new Map();
+  for (const match of oldSitemap.matchAll(/<url>([\s\S]*?)<\/url>/g)) {
+    const loc = match[1].match(/<loc>([^<]+)<\/loc>/)?.[1];
+    const date = match[1].match(/<lastmod>([^<]+)<\/lastmod>/)?.[1];
+    if (loc && date) oldLastmod.set(loc, date);
+    if (loc) oldUrlBlocks.set(loc, `  ${match[0]}`);
+  }
   const hreflang = [
     `    <xhtml:link rel="alternate" hreflang="nl-NL"    href="${BASE_URL}/"/>`,
     `    <xhtml:link rel="alternate" hreflang="en-GB"    href="${BASE_URL}/en/"/>`,
@@ -648,16 +696,18 @@ function regenerateSitemap(allEntries) {
   ].map((loc) => `  <url>
     <loc>${BASE_URL}${loc}</loc>
 ${editorialHreflang}
-    <lastmod>${TODAY}</lastmod>
+    <lastmod>${oldLastmod.get(BASE_URL + loc) || TODAY}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>`).join('\n\n');
 
   const coloringUrls = allEntries.map(({ slug, img, nlTitle, nlDesc }) => {
+    const existing = oldUrlBlocks.get(`${BASE_URL}/kleurplaat/${slug}`);
+    if (existing) return existing;
     const imgFile = img.replace('../img/kleurplaten/', '');
     return `  <url>
     <loc>${BASE_URL}/kleurplaat/${slug}</loc>
-    <lastmod>${TODAY}</lastmod>
+    <lastmod>${oldLastmod.get(`${BASE_URL}/kleurplaat/${slug}`) || TODAY}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
     <image:image>
@@ -775,6 +825,10 @@ function main() {
     if (existingSlugs.has(parsed.slug)) return false;
     return true;
   });
+  // Laat vooraf aangemaakte seizoensreeksen in redactionele volgorde verschijnen.
+  newFiles.sort((a, b) =>
+    ((titleOverrides[a]?.releaseOrder || 0) - (titleOverrides[b]?.releaseOrder || 0)) || a.localeCompare(b)
+  );
 
   if (newFiles.length === 0) {
     console.log('✅ Geen nieuwe kleurplaten gevonden. Alles is al verwerkt.\n');
@@ -798,19 +852,28 @@ function main() {
     // NL titel en beschrijving voor SEO-pagina
     const override = titleOverrides[filename];
     const nlTitle = override ? override.nl : buildTitle(parsed.words, 'nl');
-    const nlDesc  = CAT_DESC[parsed.category].nl(nlTitle.toLowerCase());
+    const nlDesc  = override?.descriptions?.nl || CAT_DESC[parsed.category].nl(nlTitle.toLowerCase());
 
     console.log(`  ✚ [${id}] ${parsed.slug} (${parsed.category}, ${parsed.difficulty})`);
 
     if (!DRY_RUN) {
-      // Watermark toevoegen
+      // Watermark toevoegen, of een vooraf visueel goedgekeurd bestand gebruiken.
       const imgPath = path.join(IMG_DIR, filename);
-      try {
-        execSync(`python3 "${path.join(ROOT, 'watermark.py')}" "${imgPath}"`, { stdio: 'pipe' });
-        console.log(`     🖼  Watermark toegevoegd`);
-      } catch (e) {
-        console.error(`     ❌ Watermark mislukt: ${e.stderr?.toString().trim() || e.message}`);
-        process.exit(1);
+      if (PREWATERMARKED) {
+        const thumbPath = path.join(IMG_DIR, 'thumbs', filename);
+        if (!fs.existsSync(thumbPath)) {
+          console.error(`     ❌ Vooraf bewerkte kleurplaat mist thumbnail: ${filename}`);
+          process.exit(1);
+        }
+        console.log(`     🖼  Vooraf gecontroleerd logo en thumbnail gebruikt`);
+      } else {
+        try {
+          execSync(`python3 "${path.join(ROOT, 'watermark.py')}" "${imgPath}"`, { stdio: 'pipe' });
+          console.log(`     🖼  Watermark toegevoegd`);
+        } catch (e) {
+          console.error(`     ❌ Watermark mislukt: ${e.stderr?.toString().trim() || e.message}`);
+          process.exit(1);
+        }
       }
 
       // SEO-pagina aanmaken
