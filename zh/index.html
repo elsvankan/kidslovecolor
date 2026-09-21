@@ -600,57 +600,10 @@
     var el = document.getElementById('totalCount');
     if (el && window.COLORINGS) el.textContent = window.COLORINGS.length + '+';
 
-    var supportButtons = document.querySelectorAll('[data-support]');
-    var supportNote = document.getElementById('supportNote');
-    var donationState = new URLSearchParams(window.location.search).get('donation');
-
-    if (supportNote && donationState === 'thanks') {
-      supportNote.classList.add('is-visible');
-      supportNote.textContent = '♥ 欢迎回来——感谢你的支持！Mollie正在处理你的付款。';
-    } else if (supportNote && donationState === 'cancelled') {
-      supportNote.classList.add('is-visible');
-      supportNote.textContent = '付款已取消。没关系——你随时可以再试一次。';
-    }
-
-    supportButtons.forEach(function(button) {
-      button.addEventListener('click', async function() {
-        supportButtons.forEach(function(item) {
-          item.disabled = true;
-          item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
-        });
-
-        if (supportNote) {
-          supportNote.classList.add('is-visible');
-          supportNote.textContent = '正在打开安全的Mollie支付页面…';
-        }
-
-        try {
-          var response = await fetch('/api/create-payment', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ support: button.dataset.support })
-          });
-          var result = await response.json();
-
-          if (!response.ok || !result.checkoutUrl) {
-            throw new Error(result.error || '无法启动付款。');
-          }
-
-          window.location.assign(result.checkoutUrl);
-        } catch (error) {
-          supportButtons.forEach(function(item) {
-            item.disabled = false;
-            item.setAttribute('aria-pressed', 'false');
-          });
-          if (supportNote) {
-            supportNote.textContent = error.message || '目前无法完成支付，请稍后再试。';
-          }
-        }
-      });
-    });
   });
 })();
 </script>
 
+<script src="/js/support-payments.js?v=20260921" defer></script>
 </body>
 </html>

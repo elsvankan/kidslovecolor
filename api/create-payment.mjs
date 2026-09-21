@@ -1,119 +1,104 @@
-const SUPPORT_OPTIONS = Object.freeze({
-  coffee: {
-    value: "3.00",
-    description: "Kop koffie voor Kids Love Color",
-  },
-  bubble: {
-    value: "5.00",
-    description: "Steun KidsLoveColor — een ijsje",
-  },
-});
+import { randomUUID } from "node:crypto";
+import {
+  SUPPORT_COPY, homePath, json, mollieSecret, stripeSecret, supportLanguage,
+  supportOption, stripePaymentMethods, validCheckoutUrl,
+} from "../lib/support-payments.mjs";
 
-function json(data, status = 200, extraHeaders = {}) {
-  return new Response(JSON.stringify(data), {
-    status,
-    headers: {
-      "Content-Type": "application/json; charset=utf-8",
-      "Cache-Control": "no-store",
-      ...extraHeaders,
-    },
-  });
-}
+const unavailable = (status = 503) => json({ error: "payment_unavailable" }, status);
 
 export default {
   async fetch(request) {
-    if (request.method !== "POST") {
-      return json(
-        { error: "Alleen POST-verzoeken zijn toegestaan." },
-        405,
-        { Allow: "POST" },
-      );
-    }
-
+    if (request.method !== "POST") return json({ error: "method_not_allowed" }, 405, { Allow: "POST" });
     const requestUrl = new URL(request.url);
     const origin = request.headers.get("origin");
-
-    if (origin && origin !== requestUrl.origin) {
-      return json({ error: "Ongeldige herkomst." }, 403);
+    if ((origin && origin !== requestUrl.origin) || request.headers.get("sec-fetch-site") === "cross-site") {
+      return json({ error: "invalid_origin" }, 403);
     }
-
+    if (!request.headers.get("content-type")?.toLowerCase().startsWith("application/json")) {
+      return json({ error: "invalid_content_type" }, 415);
+    }
     let payload;
     try {
-      payload = await request.json();
+      if (Number(request.headers.get("content-length")) > 4096) return json({ error: "request_too_large" }, 413);
+      const body = await request.text();
+      if (body.length > 4096) return json({ error: "request_too_large" }, 413);
+      payload = JSON.parse(body);
     } catch {
-      return json({ error: "Ongeldig verzoek." }, 400);
+      return json({ error: "invalid_request" }, 400);
     }
-
-    const option = SUPPORT_OPTIONS[payload?.support];
-    if (!option) {
-      return json({ error: "Kies koffie of een ijsje." }, 400);
+    const option = supportOption(payload?.support);
+    if (!option) return json({ error: "invalid_support" }, 400);
+    if (payload.requestId !== undefined && (typeof payload.requestId !== "string" || !/^[a-f0-9-]{36}$/i.test(payload.requestId))) {
+      return json({ error: "invalid_request_id" }, 400);
     }
+    const lang = supportLanguage(payload.lang);
+    const provider = (process.env.SUPPORT_PAYMENT_PROVIDER || "mollie").trim();
+    if (!["stripe", "mollie"].includes(provider)) return unavailable();
+    const apiKey = provider === "stripe" ? stripeSecret() : mollieSecret();
+    if (!apiKey) return unavailable();
 
-    const apiKey = process.env.MOLLIE_API_KEY;
-    if (!apiKey) {
-      console.error("MOLLIE_API_KEY is niet ingesteld.");
-      return json(
-        { error: "Betalen is tijdelijk niet beschikbaar. Probeer het later opnieuw." },
-        503,
-      );
-    }
+    const returnBase = process.env.VERCEL_ENV === "production" ? "https://www.kidslovecolor.com" : requestUrl.origin;
+    const home = returnBase + homePath(lang);
+    const cancelUrl = home + "?donation=cancelled#steun-ons";
+    const headers = { Authorization: "Bearer " + apiKey };
+    let endpoint;
+    let body;
 
-    const returnBase = requestUrl.origin;
-    const paymentRequest = {
-      amount: {
-        currency: "EUR",
-        value: option.value,
-      },
-      description: option.description,
-      redirectUrl: `${returnBase}/?donation=thanks&support=${encodeURIComponent(
-        payload.support,
-      )}#steun-ons`,
-      cancelUrl: `${returnBase}/?donation=cancelled#steun-ons`,
-      webhookUrl: `${returnBase}/api/mollie-webhook`,
-      metadata: {
-        project: "kids-love-color",
-        support: payload.support,
-      },
-    };
-
-    let mollieResponse;
-    try {
-      mollieResponse = await fetch("https://api.mollie.com/v2/payments", {
-        method: "POST",
-        headers: {
-          Authorization: `Bearer ${apiKey}`,
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(paymentRequest),
+    if (provider === "stripe") {
+      endpoint = "https://api.stripe.com/v1/checkout/sessions";
+      headers["Content-Type"] = "application/x-www-form-urlencoded";
+      headers["Idempotency-Key"] = "klc-support-v1-" + payload.support + "-" + lang + "-" + (payload.requestId || randomUUID());
+      const copy = SUPPORT_COPY[lang];
+      body = new URLSearchParams({
+        mode: "payment",
+        locale: lang,
+        "line_items[0][price_data][currency]": "eur",
+        "line_items[0][price_data][unit_amount]": String(option.cents),
+        "line_items[0][price_data][product_data][name]": copy[payload.support],
+        "line_items[0][price_data][product_data][description]": copy.description,
+        "line_items[0][quantity]": "1",
+        "metadata[project]": "kids-love-color",
+        "metadata[support]": payload.support,
+        "metadata[lang]": lang,
+        "payment_intent_data[metadata][project]": "kids-love-color",
+        "payment_intent_data[metadata][support]": payload.support,
+        "payment_intent_data[description]": copy[payload.support],
+        success_url: returnBase + "/support-return?provider=stripe&lang=" + lang + "&session_id={CHECKOUT_SESSION_ID}",
+        cancel_url: cancelUrl,
       });
-    } catch (error) {
-      console.error("Mollie is niet bereikbaar.", error);
-      return json(
-        { error: "Betalen is tijdelijk niet beschikbaar. Probeer het later opnieuw." },
-        502,
-      );
+      stripePaymentMethods().forEach((method, index) => {
+        body.set(`payment_method_types[${index}]`, method);
+      });
+      body = body.toString();
+    } else {
+      endpoint = "https://api.mollie.com/v2/payments";
+      headers["Content-Type"] = "application/json";
+      body = JSON.stringify({
+        amount: { currency: "EUR", value: (option.cents / 100).toFixed(2) },
+        description: option.mollieDescription,
+        redirectUrl: home + "?donation=thanks&support=" + payload.support + "#steun-ons",
+        cancelUrl,
+        webhookUrl: returnBase + "/api/mollie-webhook",
+        metadata: { project: "kids-love-color", support: payload.support },
+      });
     }
 
-    if (!mollieResponse.ok) {
-      const mollieError = await mollieResponse.text();
-      console.error(`Mollie gaf status ${mollieResponse.status}: ${mollieError}`);
-      return json(
-        { error: "De betaling kon niet worden gestart. Probeer het later opnieuw." },
-        502,
-      );
+    try {
+      const response = await fetch(endpoint, {
+        method: "POST", headers, body, signal: AbortSignal.timeout(12000),
+      });
+      if (!response.ok) {
+        // Never log provider response bodies: they can include personal data.
+        console.error(provider + " checkout returned HTTP " + response.status);
+        return unavailable(502);
+      }
+      const payment = await response.json();
+      const checkoutUrl = provider === "stripe" ? payment.url : payment?._links?.checkout?.href;
+      if (!validCheckoutUrl(checkoutUrl, provider)) return unavailable(502);
+      return json({ checkoutUrl, provider });
+    } catch {
+      console.error(provider + " checkout could not be started");
+      return unavailable(502);
     }
-
-    const payment = await mollieResponse.json();
-    const checkoutUrl = payment?._links?.checkout?.href;
-
-    if (!checkoutUrl) {
-      console.error("Mollie-respons bevat geen checkout-URL.");
-      return json(
-        { error: "De betaling kon niet worden gestart. Probeer het later opnieuw." },
-        502,
-      );
-    }
-
-    return json({ checkoutUrl });
   },
 };

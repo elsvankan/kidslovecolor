@@ -707,57 +707,10 @@
     var el = document.getElementById('totalCount');
     if (el && window.COLORINGS) el.textContent = window.COLORINGS.length + '+';
 
-    var supportButtons = document.querySelectorAll('[data-support]');
-    var supportNote = document.getElementById('supportNote');
-    var donationState = new URLSearchParams(window.location.search).get('donation');
-
-    if (supportNote && donationState === 'thanks') {
-      supportNote.classList.add('is-visible');
-      supportNote.textContent = '♥ Welcome back — thank you for your support! Mollie is processing your payment.';
-    } else if (supportNote && donationState === 'cancelled') {
-      supportNote.classList.add('is-visible');
-      supportNote.textContent = 'The payment was cancelled. No worries — you can always try again later.';
-    }
-
-    supportButtons.forEach(function(button) {
-      button.addEventListener('click', async function() {
-        supportButtons.forEach(function(item) {
-          item.disabled = true;
-          item.setAttribute('aria-pressed', item === button ? 'true' : 'false');
-        });
-
-        if (supportNote) {
-          supportNote.classList.add('is-visible');
-          supportNote.textContent = 'Opening secure Mollie checkout…';
-        }
-
-        try {
-          var response = await fetch('/api/create-payment', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ support: button.dataset.support })
-          });
-          var result = await response.json();
-
-          if (!response.ok || !result.checkoutUrl) {
-            throw new Error(result.error || 'Could not start the payment.');
-          }
-
-          window.location.assign(result.checkoutUrl);
-        } catch (error) {
-          supportButtons.forEach(function(item) {
-            item.disabled = false;
-            item.setAttribute('aria-pressed', 'false');
-          });
-          if (supportNote) {
-            supportNote.textContent = error.message || 'Payment isn\'t working right now. Please try again later.';
-          }
-        }
-      });
-    });
   });
 })();
 </script>
 
+<script src="/js/support-payments.js?v=20260921" defer></script>
 </body>
 </html>

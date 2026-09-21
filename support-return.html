@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="referrer" content="no-referrer">
+  <title>Je betaling | KidsLoveColor</title>
+  <link rel="icon" href="/img/logo.svg" type="image/svg+xml">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; min-height: 100vh; padding: 32px 20px; display: grid; place-items: center;
+      color: #342d38; background: #fbf8f6; font: 17px/1.65 "Avenir Next", "Trebuchet MS", Arial, sans-serif; }
+    main { width: 100%; max-width: 620px; padding: clamp(28px, 6vw, 56px); background: #fff;
+      border: 1px solid #ded4dc; border-radius: 24px; box-shadow: 0 12px 42px #342d3808; }
+    .logo { display: block; width: 80px; height: 80px; margin-bottom: 28px; }
+    h1 { margin: 0 0 16px; font: 400 clamp(28px, 6vw, 40px)/1.15 Georgia, serif; text-wrap: balance; }
+    p { margin: 0 0 28px; color: #746a77; }
+    .actions { display: flex; flex-wrap: wrap; gap: 12px; }
+    a, button { font: inherit; font-weight: 600; border-radius: 14px; padding: 12px 20px; text-decoration: none;
+      border: 1px solid #a94f73; background: #a94f73; color: #fff; cursor: pointer; }
+    button { color: #a94f73; background: #faedf2; }
+    [hidden] { display: none !important; }
+    a:focus-visible, button:focus-visible { outline: 3px solid #b6a1d7; outline-offset: 4px; }
+  </style>
+  <!-- Intentionally no analytics or third-party assets: the return URL contains a session ID. -->
+  <script src="/js/support-payments.js?v=20260918" defer></script>
+</head>
+<body>
+  <main>
+    <img class="logo" src="/img/logo.svg" alt="KidsLoveColor" width="80" height="80">
+    <h1 id="paymentTitle">Even je betaling controleren</h1>
+    <p id="paymentStatus" role="status" aria-live="polite">We kijken of je bijdrage is ontvangen.</p>
+    <noscript><p>JavaScript is nodig om je betaalstatus te controleren. Controleer je betaaloverzicht voordat je opnieuw betaalt.</p></noscript>
+    <div class="actions">
+      <a id="paymentBack" href="/#steun-ons">Terug naar de kleurplaten</a>
+      <button id="paymentRetry" type="button" hidden>Status opnieuw controleren</button>
+    </div>
+  </main>
+</body>
+</html>
