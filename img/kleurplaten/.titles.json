@@ -2003,5 +2003,115 @@
       "es": "Lámina gratis con NOVIEMBRE en letras grandes. Una niña recoge hojas de otoño en un parque de Madrid junto a una ardilla.",
       "zh": "免费西班牙语月份“NOVIEMBRE”涂色页：孩子在马德里的公园收集秋叶，树上有松鼠。"
     }
+  },
+  "dieren--easy--sleepy-fennec-fox-by-desert-burrow.jpg": {
+    "nl": "Fennek bij zijn woestijnhol",
+    "en": "Fennec Fox Resting by a Desert Burrow",
+    "fr": "Fennec près de son terrier dans le désert",
+    "es": "Fénec junto a su madriguera en el desierto",
+    "zh": "沙漠洞穴旁休息的耳廓狐",
+    "releaseOrder": 1,
+    "descriptions": {
+      "nl": "Deze fennek ligt bij zijn hol onder een maan en sterren. Kleur zijn grote oren, pluimstaart en de rustige duinen.",
+      "en": "A fennec fox rests by its burrow under the moon and stars. Color its big ears, bushy tail and gentle dunes.",
+      "fr": "Un fennec se repose près de son terrier sous la lune et les étoiles. Colorie ses grandes oreilles et les dunes.",
+      "es": "Un fénec descansa junto a su madriguera bajo la luna y las estrellas. Colorea sus grandes orejas y las dunas.",
+      "zh": "耳廓狐在月亮和星星下靠着洞穴休息。给大耳朵、蓬松尾巴和沙丘涂上喜欢的颜色。"
+    },
+    "altTexts": {
+      "nl": "Eenvoudige kleurplaat van een fennek met grote oren voor een woestijnhol onder de maan",
+      "en": "Easy coloring page of a large-eared fennec fox by its desert burrow under the moon",
+      "fr": "Coloriage facile d’un fennec aux grandes oreilles devant son terrier sous la lune",
+      "es": "Lámina fácil de un fénec de orejas grandes junto a su madriguera bajo la luna",
+      "zh": "耳廓狐在月光下的沙漠洞穴旁休息，适合儿童的简易涂色页"
+    }
+  },
+  "eten--easy--fruit-skewers-on-picnic-cloth.jpg": {
+    "nl": "Fruitspiesjes op het picknickkleed",
+    "en": "Fruit Skewers on a Picnic Cloth",
+    "fr": "Brochettes de fruits sur la nappe de pique-nique",
+    "es": "Brochetas de fruta sobre el mantel de pícnic",
+    "zh": "野餐布上的水果串",
+    "releaseOrder": 2,
+    "descriptions": {
+      "nl": "Drie fruitspiesjes liggen klaar op een bord, met aardbeien, meloen en een picknickmand erbij. Een makkelijke plaat met grote kleurvlakken.",
+      "en": "Three fruit skewers sit on a plate beside strawberries, melon slices and a picnic basket. Big shapes make this an easy page.",
+      "fr": "Trois brochettes de fruits attendent sur une assiette avec des fraises, du melon et un panier de pique-nique. Grandes zones à colorier.",
+      "es": "Tres brochetas de fruta están en un plato junto a fresas, melón y una cesta de pícnic. Grandes espacios para colorear.",
+      "zh": "野餐布上摆着三串水果，旁边有草莓、甜瓜和野餐篮。大块留白，轻松涂色。"
+    },
+    "altTexts": {
+      "nl": "Drie fruitspiesjes op een bord, met aardbeien, meloen en een picknickmand",
+      "en": "Three fruit skewers on a plate with strawberries, melon and a picnic basket",
+      "fr": "Trois brochettes de fruits sur une assiette avec fraises, melon et panier",
+      "es": "Tres brochetas de fruta en un plato con fresas, melón y cesta de pícnic",
+      "zh": "三串水果、草莓、甜瓜和野餐篮的涂色页"
+    }
+  },
+  "voertuigen--medium--mobile-library-cargo-bike-in-park.jpg": {
+    "nl": "Fietsbibliotheek in het park",
+    "en": "Mobile Library Cargo Bike in the Park",
+    "fr": "Bibliothèque à vélo dans le parc",
+    "es": "Biblioteca en bicicleta de carga en el parque",
+    "zh": "公园里的流动自行车图书馆",
+    "releaseOrder": 3,
+    "descriptions": {
+      "nl": "Een kind kiest een boek uit de kast van een geparkeerde bakfiets. Kleur de fiets, de boeken en het park op deze middelgrote uitdaging.",
+      "en": "A child picks a book from a parked cargo-bike library. Color the bike, the books and the park in this medium-level scene.",
+      "fr": "Un enfant choisit un livre dans la bibliothèque installée sur un vélo cargo. Colorie le vélo, les livres et le parc.",
+      "es": "Una niña elige un libro de la biblioteca montada en una bicicleta de carga. Colorea la bici, los libros y el parque.",
+      "zh": "孩子从停在公园里的载货自行车书架上挑选一本书。给自行车、书本和公园涂色。"
+    },
+    "altTexts": {
+      "nl": "Kind kiest een boek uit een fietsbibliotheek met twee wielen in een park",
+      "en": "Child choosing a book from a two-wheeled cargo bike library in a park",
+      "fr": "Enfant qui choisit un livre dans une bibliothèque à vélo cargo dans un parc",
+      "es": "Niña que elige un libro de una bicicleta biblioteca en un parque",
+      "zh": "孩子在公园里的流动自行车图书馆挑书的涂色页"
+    }
+  },
+  "natuur--hard--mangrove-boardwalk-with-heron-and-crabs.jpg": {
+    "nl": "Vlonderpad door het mangrovebos",
+    "en": "Mangrove Boardwalk with Heron and Crabs",
+    "fr": "Passerelle dans la mangrove avec héron et crabes",
+    "es": "Pasarela entre manglares con garza y cangrejos",
+    "zh": "红树林栈道、苍鹭和螃蟹",
+    "releaseOrder": 4,
+    "descriptions": {
+      "nl": "Loop met je kleurpotloden over een vlonderpad tussen mangrovewortels. Een reiger en twee krabben wachten in dit rijkgevulde natuurtafereel.",
+      "en": "Follow a boardwalk between mangrove roots. A heron and two crabs wait in this detailed nature coloring scene.",
+      "fr": "Suis une passerelle entre les racines de la mangrove. Un héron et deux crabes t’attendent dans ce décor détaillé.",
+      "es": "Sigue una pasarela entre raíces de manglar. Una garza y dos cangrejos aparecen en este paisaje detallado.",
+      "zh": "沿着木栈道走进红树林，寻找一只苍鹭和两只螃蟹。适合喜欢丰富场景的孩子。"
+    },
+    "altTexts": {
+      "nl": "Gedetailleerde kleurplaat van een mangrovebos met vlonderpad, reiger en twee krabben",
+      "en": "Detailed coloring page of a mangrove boardwalk with a heron and two crabs",
+      "fr": "Coloriage détaillé d’une passerelle dans la mangrove avec un héron et deux crabes",
+      "es": "Lámina detallada de un manglar con pasarela, garza y dos cangrejos",
+      "zh": "红树林木栈道、苍鹭和两只螃蟹的复杂涂色页"
+    }
+  },
+  "kawaii--medium--cat-curled-in-bookshop-window.jpg": {
+    "nl": "Slapende kat in het boekenraam",
+    "en": "Cat Curled up in a Bookshop Window",
+    "fr": "Chat endormi à la fenêtre d’une librairie",
+    "es": "Gato dormido junto a la ventana de una librería",
+    "zh": "书店窗边蜷睡的小猫",
+    "releaseOrder": 5,
+    "descriptions": {
+      "nl": "Een kat ligt opgerold op de vensterbank tussen boeken, planten en kussens. Kleur het gezellige hoekje zoals jij het mooi vindt.",
+      "en": "A cat curls up on a window seat among books, plants and cushions. Color this cozy bookshop corner your own way.",
+      "fr": "Un chat dort en boule près de la fenêtre, entouré de livres, de plantes et de coussins. Colorie ce coin douillet.",
+      "es": "Un gato duerme acurrucado junto a la ventana, entre libros, plantas y cojines. Colorea este rincón acogedor.",
+      "zh": "一只小猫蜷在窗边，周围有书本、植物和靠垫。给这个温馨的书店角落涂色。"
+    },
+    "altTexts": {
+      "nl": "Slapende kat op de vensterbank van een boekwinkel met boeken en planten",
+      "en": "Sleeping cat on a bookshop window seat among books and plants",
+      "fr": "Chat endormi à la fenêtre d’une librairie parmi des livres et des plantes",
+      "es": "Gato dormido en la ventana de una librería entre libros y plantas",
+      "zh": "小猫在书店窗边的书本和植物之间蜷睡的涂色页"
+    }
   }
 }

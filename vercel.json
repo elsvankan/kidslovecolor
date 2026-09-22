@@ -2321,6 +2321,26 @@
       "destination": "/kleurplaat/spanish-november-madrid-leaves/index.html"
     },
     {
+      "source": "/kleurplaat/sleepy-fennec-fox-by-desert-burrow",
+      "destination": "/kleurplaat/sleepy-fennec-fox-by-desert-burrow/index.html"
+    },
+    {
+      "source": "/kleurplaat/fruit-skewers-on-picnic-cloth",
+      "destination": "/kleurplaat/fruit-skewers-on-picnic-cloth/index.html"
+    },
+    {
+      "source": "/kleurplaat/mobile-library-cargo-bike-in-park",
+      "destination": "/kleurplaat/mobile-library-cargo-bike-in-park/index.html"
+    },
+    {
+      "source": "/kleurplaat/mangrove-boardwalk-with-heron-and-crabs",
+      "destination": "/kleurplaat/mangrove-boardwalk-with-heron-and-crabs/index.html"
+    },
+    {
+      "source": "/kleurplaat/cat-curled-in-bookshop-window",
+      "destination": "/kleurplaat/cat-curled-in-bookshop-window/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
