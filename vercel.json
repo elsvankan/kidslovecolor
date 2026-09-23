@@ -2341,6 +2341,26 @@
       "destination": "/kleurplaat/cat-curled-in-bookshop-window/index.html"
     },
     {
+      "source": "/kleurplaat/astronaut-floating-among-planets-and-stars",
+      "destination": "/kleurplaat/astronaut-floating-among-planets-and-stars/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendly-wizard-casting-a-magic-spell",
+      "destination": "/kleurplaat/friendly-wizard-casting-a-magic-spell/index.html"
+    },
+    {
+      "source": "/kleurplaat/enchanted-forest-with-fairies-and-mushrooms",
+      "destination": "/kleurplaat/enchanted-forest-with-fairies-and-mushrooms/index.html"
+    },
+    {
+      "source": "/kleurplaat/dragon-guarding-a-treasure-in-a-cave",
+      "destination": "/kleurplaat/dragon-guarding-a-treasure-in-a-cave/index.html"
+    },
+    {
+      "source": "/kleurplaat/knight-riding-a-horse-to-a-castle",
+      "destination": "/kleurplaat/knight-riding-a-horse-to-a-castle/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

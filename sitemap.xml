@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -28,7 +28,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -42,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -56,7 +56,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -70,7 +70,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-22</lastmod>
+    <lastmod>2026-09-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -7433,6 +7433,71 @@
       <image:loc>https://kidslovecolor.com/img/kleurplaten/kawaii--medium--cat-curled-in-bookshop-window.jpg</image:loc>
       <image:title>Slapende kat in het boekenraam – Gratis Kleurplaat</image:title>
       <image:caption>Een kat ligt opgerold op de vensterbank tussen boeken, planten en kussens. Kleur het gezellige hoekje zoals jij het mooi vindt.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/astronaut-floating-among-planets-and-stars</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/ruimte--medium--astronaut-floating-among-planets-and-stars.jpg</image:loc>
+      <image:title>Astronaut Zwevend Tussen Planeten en Sterren – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis ruimtekleurplaat van astronaut zwevend tussen planeten en sterren. Avontuurlijk kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/friendly-wizard-casting-a-magic-spell</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/sprookjes--easy--friendly-wizard-casting-a-magic-spell.jpg</image:loc>
+      <image:title>Vriendelijke Tovenaar die een Toverspreuk Uitspreekt – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis sprookjeskleurplaat van vriendelijke tovenaar die een toverspreuk uitspreekt. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/enchanted-forest-with-fairies-and-mushrooms</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/sprookjes--hard--enchanted-forest-with-fairies-and-mushrooms.jpg</image:loc>
+      <image:title>Betoverd Bos met Feeën en Paddenstoelen – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis sprookjeskleurplaat van betoverd bos met feeën en paddenstoelen. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/dragon-guarding-a-treasure-in-a-cave</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/sprookjes--medium--dragon-guarding-a-treasure-in-a-cave.jpg</image:loc>
+      <image:title>Draak die een Schat Bewaakt in een Grot – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis sprookjeskleurplaat van draak die een schat bewaakt in een grot. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/knight-riding-a-horse-to-a-castle</loc>
+    <lastmod>2026-09-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/sprookjes--medium--knight-riding-a-horse-to-a-castle.jpg</image:loc>
+      <image:title>Ridder Rijdend op een Paard naar een Kasteel – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis sprookjeskleurplaat van ridder rijdend op een paard naar een kasteel. Magisch kleurplaatje voor kinderen.</image:caption>
       <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
     </image:image>
   </url>

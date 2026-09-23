@@ -5953,6 +5953,52 @@ const COLORINGS = [
     zh: { title: '书店窗边蜷睡的小猫', description: '一只小猫蜷在窗边，周围有书本、植物和靠垫。给这个温馨的书店角落涂色。', keywords: '书店窗边蜷睡的小猫 卡哇伊涂色 免费儿童', altText: '小猫在书店窗边的书本和植物之间蜷睡的涂色页' },
   },
 
+  {
+    id: 617, slug: 'astronaut-floating-among-planets-and-stars', category: 'ruimte', difficulty: 'medium',
+    img: '../img/kleurplaten/ruimte--medium--astronaut-floating-among-planets-and-stars.jpg',
+    nl: { title: 'Astronaut Zwevend Tussen Planeten en Sterren', description: 'Gratis ruimtekleurplaat van astronaut zwevend tussen planeten en sterren. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'astronaut zwevend tussen planeten en sterren ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat astronaut zwevend tussen planeten en sterren – kinderen' },
+    en: { title: 'Astronaut Floating Among Planets and Stars', description: 'Free space coloring page of astronaut floating among planets and stars. Adventurous coloring page for kids.', keywords: 'astronaut floating among planets and stars space coloring page free kids', altText: 'Free coloring page astronaut floating among planets and stars – kids' },
+    fr: { title: 'Astronaute Flottant Parmi les Planètes et les Étoiles', description: 'Page à colorier espace gratuite de astronaute flottant parmi les planètes et les étoiles. Coloriage aventureux pour les enfants.', keywords: 'astronaute flottant parmi les planètes et les étoiles coloriage espace gratuit enfants', altText: 'Page à colorier astronaute flottant parmi les planètes et les étoiles – enfants' },
+    es: { title: 'Astronauta Flotando Entre Planetas y Estrellas', description: 'Página para colorear espacio gratis de astronauta flotando entre planetas y estrellas. Colorear aventurero para niños.', keywords: 'astronauta flotando entre planetas y estrellas colorear espacio gratis niños', altText: 'Página para colorear astronauta flotando entre planetas y estrellas – niños' },
+    zh: { title: '漂浮在行星和星星之间的宇航员', description: '免费太空漂浮在行星和星星之间的宇航员涂色页，适合儿童的宇宙涂色。', keywords: '漂浮在行星和星星之间的宇航员 太空涂色 免费儿童', altText: '免费涂色页 漂浮在行星和星星之间的宇航员 – 儿童' },
+  },
+  {
+    id: 618, slug: 'friendly-wizard-casting-a-magic-spell', category: 'sprookjes', difficulty: 'easy',
+    img: '../img/kleurplaten/sprookjes--easy--friendly-wizard-casting-a-magic-spell.jpg',
+    nl: { title: 'Vriendelijke Tovenaar die een Toverspreuk Uitspreekt', description: 'Gratis sprookjeskleurplaat van vriendelijke tovenaar die een toverspreuk uitspreekt. Magisch kleurplaatje voor kinderen.', keywords: 'vriendelijke tovenaar die een toverspreuk uitspreekt sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vriendelijke tovenaar die een toverspreuk uitspreekt – kinderen' },
+    en: { title: 'Friendly Wizard Casting a Magic Spell', description: 'Free fairy tale coloring page of friendly wizard casting a magic spell. Magical coloring page for kids.', keywords: 'friendly wizard casting a magic spell fairy tale coloring page free kids', altText: 'Free coloring page friendly wizard casting a magic spell – kids' },
+    fr: { title: 'Magicien Sympathique Lançant un Sort Magique', description: 'Page à colorier conte de fées gratuite de magicien sympathique lançant un sort magique. Coloriage magique pour les enfants.', keywords: 'magicien sympathique lançant un sort magique coloriage conte de fées gratuit enfants', altText: 'Page à colorier magicien sympathique lançant un sort magique – enfants' },
+    es: { title: 'Mago Amistoso Lanzando un Hechizo Mágico', description: 'Página para colorear cuento de hadas gratis de mago amistoso lanzando un hechizo mágico. Colorear mágico para niños.', keywords: 'mago amistoso lanzando un hechizo mágico colorear cuentos de hadas gratis niños', altText: 'Página para colorear mago amistoso lanzando un hechizo mágico – niños' },
+    zh: { title: '施展魔法咒语的友好巫师', description: '免费童话施展魔法咒语的友好巫师涂色页，适合儿童的魔法涂色。', keywords: '施展魔法咒语的友好巫师 童话涂色 免费儿童', altText: '免费涂色页 施展魔法咒语的友好巫师 – 儿童' },
+  },
+  {
+    id: 619, slug: 'enchanted-forest-with-fairies-and-mushrooms', category: 'sprookjes', difficulty: 'hard',
+    img: '../img/kleurplaten/sprookjes--hard--enchanted-forest-with-fairies-and-mushrooms.jpg',
+    nl: { title: 'Betoverd Bos met Feeën en Paddenstoelen', description: 'Gratis sprookjeskleurplaat van betoverd bos met feeën en paddenstoelen. Magisch kleurplaatje voor kinderen.', keywords: 'betoverd bos met feeën en paddenstoelen sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat betoverd bos met feeën en paddenstoelen – kinderen' },
+    en: { title: 'Enchanted Forest With Fairies and Mushrooms', description: 'Free fairy tale coloring page of enchanted forest with fairies and mushrooms. Magical coloring page for kids.', keywords: 'enchanted forest with fairies and mushrooms fairy tale coloring page free kids', altText: 'Free coloring page enchanted forest with fairies and mushrooms – kids' },
+    fr: { title: 'Forêt Enchantée Avec des Fées et des Champignons', description: 'Page à colorier conte de fées gratuite de forêt enchantée avec des fées et des champignons. Coloriage magique pour les enfants.', keywords: 'forêt enchantée avec des fées et des champignons coloriage conte de fées gratuit enfants', altText: 'Page à colorier forêt enchantée avec des fées et des champignons – enfants' },
+    es: { title: 'Bosque Encantado con Hadas y Setas', description: 'Página para colorear cuento de hadas gratis de bosque encantado con hadas y setas. Colorear mágico para niños.', keywords: 'bosque encantado con hadas y setas colorear cuentos de hadas gratis niños', altText: 'Página para colorear bosque encantado con hadas y setas – niños' },
+    zh: { title: '有仙女和蘑菇的魔法森林', description: '免费童话有仙女和蘑菇的魔法森林涂色页，适合儿童的魔法涂色。', keywords: '有仙女和蘑菇的魔法森林 童话涂色 免费儿童', altText: '免费涂色页 有仙女和蘑菇的魔法森林 – 儿童' },
+  },
+  {
+    id: 620, slug: 'dragon-guarding-a-treasure-in-a-cave', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--dragon-guarding-a-treasure-in-a-cave.jpg',
+    nl: { title: 'Draak die een Schat Bewaakt in een Grot', description: 'Gratis sprookjeskleurplaat van draak die een schat bewaakt in een grot. Magisch kleurplaatje voor kinderen.', keywords: 'draak die een schat bewaakt in een grot sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat draak die een schat bewaakt in een grot – kinderen' },
+    en: { title: 'Dragon Guarding a Treasure in a Cave', description: 'Free fairy tale coloring page of dragon guarding a treasure in a cave. Magical coloring page for kids.', keywords: 'dragon guarding a treasure in a cave fairy tale coloring page free kids', altText: 'Free coloring page dragon guarding a treasure in a cave – kids' },
+    fr: { title: 'Dragon Gardant un Trésor dans une Grotte', description: 'Page à colorier conte de fées gratuite de dragon gardant un trésor dans une grotte. Coloriage magique pour les enfants.', keywords: 'dragon gardant un trésor dans une grotte coloriage conte de fées gratuit enfants', altText: 'Page à colorier dragon gardant un trésor dans une grotte – enfants' },
+    es: { title: 'Dragón Custodiando un Tesoro en una Cueva', description: 'Página para colorear cuento de hadas gratis de dragón custodiando un tesoro en una cueva. Colorear mágico para niños.', keywords: 'dragón custodiando un tesoro en una cueva colorear cuentos de hadas gratis niños', altText: 'Página para colorear dragón custodiando un tesoro en una cueva – niños' },
+    zh: { title: '在洞穴里守护宝藏的龙', description: '免费童话在洞穴里守护宝藏的龙涂色页，适合儿童的魔法涂色。', keywords: '在洞穴里守护宝藏的龙 童话涂色 免费儿童', altText: '免费涂色页 在洞穴里守护宝藏的龙 – 儿童' },
+  },
+  {
+    id: 621, slug: 'knight-riding-a-horse-to-a-castle', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--knight-riding-a-horse-to-a-castle.jpg',
+    nl: { title: 'Ridder Rijdend op een Paard naar een Kasteel', description: 'Gratis sprookjeskleurplaat van ridder rijdend op een paard naar een kasteel. Magisch kleurplaatje voor kinderen.', keywords: 'ridder rijdend op een paard naar een kasteel sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat ridder rijdend op een paard naar een kasteel – kinderen' },
+    en: { title: 'Knight Riding a Horse to a Castle', description: 'Free fairy tale coloring page of knight riding a horse to a castle. Magical coloring page for kids.', keywords: 'knight riding a horse to a castle fairy tale coloring page free kids', altText: 'Free coloring page knight riding a horse to a castle – kids' },
+    fr: { title: 'Chevalier Chevauchant Vers un Château', description: 'Page à colorier conte de fées gratuite de chevalier chevauchant vers un château. Coloriage magique pour les enfants.', keywords: 'chevalier chevauchant vers un château coloriage conte de fées gratuit enfants', altText: 'Page à colorier chevalier chevauchant vers un château – enfants' },
+    es: { title: 'Caballero Cabalgando Hacia un Castillo', description: 'Página para colorear cuento de hadas gratis de caballero cabalgando hacia un castillo. Colorear mágico para niños.', keywords: 'caballero cabalgando hacia un castillo colorear cuentos de hadas gratis niños', altText: 'Página para colorear caballero cabalgando hacia un castillo – niños' },
+    zh: { title: '骑马前往城堡的骑士', description: '免费童话骑马前往城堡的骑士涂色页，适合儿童的魔法涂色。', keywords: '骑马前往城堡的骑士 童话涂色 免费儿童', altText: '免费涂色页 骑马前往城堡的骑士 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
