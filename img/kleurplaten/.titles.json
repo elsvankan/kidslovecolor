@@ -2302,5 +2302,40 @@
     "fr": "Astronaute Flottant Parmi les Planètes et les Étoiles",
     "es": "Astronauta Flotando Entre Planetas y Estrellas",
     "zh": "漂浮在行星和星星之间的宇航员"
+  },
+  "ruimte--easy--friendly-alien-waving-next-to-a-ufo.jpg": {
+    "nl": "Vriendelijke Alien Zwaaiend naast een UFO",
+    "en": "Friendly Alien Waving Next to a UFO",
+    "fr": "Extraterrestre Sympathique Saluant à Côté d'un OVNI",
+    "es": "Extraterrestre Amistoso Saludando Junto a un OVNI",
+    "zh": "在飞碟旁招手的友好外星人"
+  },
+  "ruimte--hard--solar-system-with-all-planets-and-the-sun.jpg": {
+    "nl": "Zonnestelsel met Alle Planeten en de Zon",
+    "en": "Solar System With All Planets and the Sun",
+    "fr": "Système Solaire Avec Toutes les Planètes et le Soleil",
+    "es": "Sistema Solar con Todos los Planetas y el Sol",
+    "zh": "包含所有行星和太阳的太阳系"
+  },
+  "oceaan--medium--dolphin-family-jumping-over-ocean-waves.jpg": {
+    "nl": "Dolfijnenfamilie Springend over Oceaangolven",
+    "en": "Dolphin Family Jumping Over Ocean Waves",
+    "fr": "Famille de Dauphins Sautant par-dessus les Vagues",
+    "es": "Familia de Delfines Saltando sobre las Olas del Océano",
+    "zh": "跃过海浪的海豚一家"
+  },
+  "oceaan--easy--happy-octopus-playing-with-a-beach-ball.jpg": {
+    "nl": "Blije Octopus Spelend met een Strandbal",
+    "en": "Happy Octopus Playing With a Beach Ball",
+    "fr": "Poulpe Joyeux Jouant Avec un Ballon de Plage",
+    "es": "Pulpo Feliz Jugando con una Pelota de Playa",
+    "zh": "和沙滩球玩耍的快乐章鱼"
+  },
+  "oceaan--hard--coral-reef-scene-with-fish-and-a-turtle.jpg": {
+    "nl": "Koraalrifscène met Vissen en een Schildpad",
+    "en": "Coral Reef Scene With Fish and a Turtle",
+    "fr": "Scène de Récif Corallien Avec des Poissons et une Tortue",
+    "es": "Escena de Arrecife de Coral con Peces y una Tortuga",
+    "zh": "有鱼和海龟的珊瑚礁场景"
   }
 }

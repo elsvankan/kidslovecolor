@@ -2361,6 +2361,26 @@
       "destination": "/kleurplaat/knight-riding-a-horse-to-a-castle/index.html"
     },
     {
+      "source": "/kleurplaat/happy-octopus-playing-with-a-beach-ball",
+      "destination": "/kleurplaat/happy-octopus-playing-with-a-beach-ball/index.html"
+    },
+    {
+      "source": "/kleurplaat/coral-reef-scene-with-fish-and-a-turtle",
+      "destination": "/kleurplaat/coral-reef-scene-with-fish-and-a-turtle/index.html"
+    },
+    {
+      "source": "/kleurplaat/dolphin-family-jumping-over-ocean-waves",
+      "destination": "/kleurplaat/dolphin-family-jumping-over-ocean-waves/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendly-alien-waving-next-to-a-ufo",
+      "destination": "/kleurplaat/friendly-alien-waving-next-to-a-ufo/index.html"
+    },
+    {
+      "source": "/kleurplaat/solar-system-with-all-planets-and-the-sun",
+      "destination": "/kleurplaat/solar-system-with-all-planets-and-the-sun/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

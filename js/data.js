@@ -5999,6 +5999,52 @@ const COLORINGS = [
     zh: { title: '骑马前往城堡的骑士', description: '免费童话骑马前往城堡的骑士涂色页，适合儿童的魔法涂色。', keywords: '骑马前往城堡的骑士 童话涂色 免费儿童', altText: '免费涂色页 骑马前往城堡的骑士 – 儿童' },
   },
 
+  {
+    id: 622, slug: 'happy-octopus-playing-with-a-beach-ball', category: 'oceaan', difficulty: 'easy',
+    img: '../img/kleurplaten/oceaan--easy--happy-octopus-playing-with-a-beach-ball.jpg',
+    nl: { title: 'Blije Octopus Spelend met een Strandbal', description: 'Gratis oceaankleurplaat van blije octopus spelend met een strandbal. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'blije octopus spelend met een strandbal oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat blije octopus spelend met een strandbal – kinderen' },
+    en: { title: 'Happy Octopus Playing With a Beach Ball', description: 'Free ocean coloring page of happy octopus playing with a beach ball. Colorful underwater coloring page for kids.', keywords: 'happy octopus playing with a beach ball ocean coloring page free kids', altText: 'Free coloring page happy octopus playing with a beach ball – kids' },
+    fr: { title: 'Poulpe Joyeux Jouant Avec un Ballon de Plage', description: 'Page à colorier océan gratuite de poulpe joyeux jouant avec un ballon de plage. Coloriage sous-marin coloré pour les enfants.', keywords: 'poulpe joyeux jouant avec un ballon de plage coloriage océan gratuit enfants', altText: 'Page à colorier poulpe joyeux jouant avec un ballon de plage – enfants' },
+    es: { title: 'Pulpo Feliz Jugando con una Pelota de Playa', description: 'Página para colorear océano gratis de pulpo feliz jugando con una pelota de playa. Colorear submarino para niños.', keywords: 'pulpo feliz jugando con una pelota de playa colorear océano gratis niños', altText: 'Página para colorear pulpo feliz jugando con una pelota de playa – niños' },
+    zh: { title: '和沙滩球玩耍的快乐章鱼', description: '免费海洋和沙滩球玩耍的快乐章鱼涂色页，适合儿童的水下涂色。', keywords: '和沙滩球玩耍的快乐章鱼 海洋涂色 免费儿童', altText: '免费涂色页 和沙滩球玩耍的快乐章鱼 – 儿童' },
+  },
+  {
+    id: 623, slug: 'coral-reef-scene-with-fish-and-a-turtle', category: 'oceaan', difficulty: 'hard',
+    img: '../img/kleurplaten/oceaan--hard--coral-reef-scene-with-fish-and-a-turtle.jpg',
+    nl: { title: 'Koraalrifscène met Vissen en een Schildpad', description: 'Gratis oceaankleurplaat van koraalrifscène met vissen en een schildpad. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'koraalrifscène met vissen en een schildpad oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat koraalrifscène met vissen en een schildpad – kinderen' },
+    en: { title: 'Coral Reef Scene With Fish and a Turtle', description: 'Free ocean coloring page of coral reef scene with fish and a turtle. Colorful underwater coloring page for kids.', keywords: 'coral reef scene with fish and a turtle ocean coloring page free kids', altText: 'Free coloring page coral reef scene with fish and a turtle – kids' },
+    fr: { title: 'Scène de Récif Corallien Avec des Poissons et une Tortue', description: 'Page à colorier océan gratuite de scène de récif corallien avec des poissons et une tortue. Coloriage sous-marin coloré pour les enfants.', keywords: 'scène de récif corallien avec des poissons et une tortue coloriage océan gratuit enfants', altText: 'Page à colorier scène de récif corallien avec des poissons et une tortue – enfants' },
+    es: { title: 'Escena de Arrecife de Coral con Peces y una Tortuga', description: 'Página para colorear océano gratis de escena de arrecife de coral con peces y una tortuga. Colorear submarino para niños.', keywords: 'escena de arrecife de coral con peces y una tortuga colorear océano gratis niños', altText: 'Página para colorear escena de arrecife de coral con peces y una tortuga – niños' },
+    zh: { title: '有鱼和海龟的珊瑚礁场景', description: '免费海洋有鱼和海龟的珊瑚礁场景涂色页，适合儿童的水下涂色。', keywords: '有鱼和海龟的珊瑚礁场景 海洋涂色 免费儿童', altText: '免费涂色页 有鱼和海龟的珊瑚礁场景 – 儿童' },
+  },
+  {
+    id: 624, slug: 'dolphin-family-jumping-over-ocean-waves', category: 'oceaan', difficulty: 'medium',
+    img: '../img/kleurplaten/oceaan--medium--dolphin-family-jumping-over-ocean-waves.jpg',
+    nl: { title: 'Dolfijnenfamilie Springend over Oceaangolven', description: 'Gratis oceaankleurplaat van dolfijnenfamilie springend over oceaangolven. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'dolfijnenfamilie springend over oceaangolven oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dolfijnenfamilie springend over oceaangolven – kinderen' },
+    en: { title: 'Dolphin Family Jumping Over Ocean Waves', description: 'Free ocean coloring page of dolphin family jumping over ocean waves. Colorful underwater coloring page for kids.', keywords: 'dolphin family jumping over ocean waves ocean coloring page free kids', altText: 'Free coloring page dolphin family jumping over ocean waves – kids' },
+    fr: { title: 'Famille de Dauphins Sautant par-dessus les Vagues', description: 'Page à colorier océan gratuite de famille de dauphins sautant par-dessus les vagues. Coloriage sous-marin coloré pour les enfants.', keywords: 'famille de dauphins sautant par-dessus les vagues coloriage océan gratuit enfants', altText: 'Page à colorier famille de dauphins sautant par-dessus les vagues – enfants' },
+    es: { title: 'Familia de Delfines Saltando sobre las Olas del Océano', description: 'Página para colorear océano gratis de familia de delfines saltando sobre las olas del océano. Colorear submarino para niños.', keywords: 'familia de delfines saltando sobre las olas del océano colorear océano gratis niños', altText: 'Página para colorear familia de delfines saltando sobre las olas del océano – niños' },
+    zh: { title: '跃过海浪的海豚一家', description: '免费海洋跃过海浪的海豚一家涂色页，适合儿童的水下涂色。', keywords: '跃过海浪的海豚一家 海洋涂色 免费儿童', altText: '免费涂色页 跃过海浪的海豚一家 – 儿童' },
+  },
+  {
+    id: 625, slug: 'friendly-alien-waving-next-to-a-ufo', category: 'ruimte', difficulty: 'easy',
+    img: '../img/kleurplaten/ruimte--easy--friendly-alien-waving-next-to-a-ufo.jpg',
+    nl: { title: 'Vriendelijke Alien Zwaaiend naast een UFO', description: 'Gratis ruimtekleurplaat van vriendelijke alien zwaaiend naast een ufo. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'vriendelijke alien zwaaiend naast een ufo ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vriendelijke alien zwaaiend naast een ufo – kinderen' },
+    en: { title: 'Friendly Alien Waving Next to a UFO', description: 'Free space coloring page of friendly alien waving next to a ufo. Adventurous coloring page for kids.', keywords: 'friendly alien waving next to a ufo space coloring page free kids', altText: 'Free coloring page friendly alien waving next to a ufo – kids' },
+    fr: { title: 'Extraterrestre Sympathique Saluant à Côté d\'un OVNI', description: 'Page à colorier espace gratuite de extraterrestre sympathique saluant à côté d\'un ovni. Coloriage aventureux pour les enfants.', keywords: 'extraterrestre sympathique saluant à côté d\'un ovni coloriage espace gratuit enfants', altText: 'Page à colorier extraterrestre sympathique saluant à côté d\'un ovni – enfants' },
+    es: { title: 'Extraterrestre Amistoso Saludando Junto a un OVNI', description: 'Página para colorear espacio gratis de extraterrestre amistoso saludando junto a un ovni. Colorear aventurero para niños.', keywords: 'extraterrestre amistoso saludando junto a un ovni colorear espacio gratis niños', altText: 'Página para colorear extraterrestre amistoso saludando junto a un ovni – niños' },
+    zh: { title: '在飞碟旁招手的友好外星人', description: '免费太空在飞碟旁招手的友好外星人涂色页，适合儿童的宇宙涂色。', keywords: '在飞碟旁招手的友好外星人 太空涂色 免费儿童', altText: '免费涂色页 在飞碟旁招手的友好外星人 – 儿童' },
+  },
+  {
+    id: 626, slug: 'solar-system-with-all-planets-and-the-sun', category: 'ruimte', difficulty: 'hard',
+    img: '../img/kleurplaten/ruimte--hard--solar-system-with-all-planets-and-the-sun.jpg',
+    nl: { title: 'Zonnestelsel met Alle Planeten en de Zon', description: 'Gratis ruimtekleurplaat van zonnestelsel met alle planeten en de zon. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'zonnestelsel met alle planeten en de zon ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zonnestelsel met alle planeten en de zon – kinderen' },
+    en: { title: 'Solar System With All Planets and the Sun', description: 'Free space coloring page of solar system with all planets and the sun. Adventurous coloring page for kids.', keywords: 'solar system with all planets and the sun space coloring page free kids', altText: 'Free coloring page solar system with all planets and the sun – kids' },
+    fr: { title: 'Système Solaire Avec Toutes les Planètes et le Soleil', description: 'Page à colorier espace gratuite de système solaire avec toutes les planètes et le soleil. Coloriage aventureux pour les enfants.', keywords: 'système solaire avec toutes les planètes et le soleil coloriage espace gratuit enfants', altText: 'Page à colorier système solaire avec toutes les planètes et le soleil – enfants' },
+    es: { title: 'Sistema Solar con Todos los Planetas y el Sol', description: 'Página para colorear espacio gratis de sistema solar con todos los planetas y el sol. Colorear aventurero para niños.', keywords: 'sistema solar con todos los planetas y el sol colorear espacio gratis niños', altText: 'Página para colorear sistema solar con todos los planetas y el sol – niños' },
+    zh: { title: '包含所有行星和太阳的太阳系', description: '免费太空包含所有行星和太阳的太阳系涂色页，适合儿童的宇宙涂色。', keywords: '包含所有行星和太阳的太阳系 太空涂色 免费儿童', altText: '免费涂色页 包含所有行星和太阳的太阳系 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

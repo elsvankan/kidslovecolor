@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -28,7 +28,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -42,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -56,7 +56,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -70,7 +70,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-23</lastmod>
+    <lastmod>2026-09-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -7498,6 +7498,71 @@
       <image:loc>https://kidslovecolor.com/img/kleurplaten/sprookjes--medium--knight-riding-a-horse-to-a-castle.jpg</image:loc>
       <image:title>Ridder Rijdend op een Paard naar een Kasteel – Gratis Kleurplaat</image:title>
       <image:caption>Gratis sprookjeskleurplaat van ridder rijdend op een paard naar een kasteel. Magisch kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/happy-octopus-playing-with-a-beach-ball</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/oceaan--easy--happy-octopus-playing-with-a-beach-ball.jpg</image:loc>
+      <image:title>Blije Octopus Spelend met een Strandbal – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis oceaankleurplaat van blije octopus spelend met een strandbal. Kleurrijke onderwaterkleurplaat voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/coral-reef-scene-with-fish-and-a-turtle</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/oceaan--hard--coral-reef-scene-with-fish-and-a-turtle.jpg</image:loc>
+      <image:title>Koraalrifscène met Vissen en een Schildpad – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis oceaankleurplaat van koraalrifscène met vissen en een schildpad. Kleurrijke onderwaterkleurplaat voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/dolphin-family-jumping-over-ocean-waves</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/oceaan--medium--dolphin-family-jumping-over-ocean-waves.jpg</image:loc>
+      <image:title>Dolfijnenfamilie Springend over Oceaangolven – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis oceaankleurplaat van dolfijnenfamilie springend over oceaangolven. Kleurrijke onderwaterkleurplaat voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/friendly-alien-waving-next-to-a-ufo</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/ruimte--easy--friendly-alien-waving-next-to-a-ufo.jpg</image:loc>
+      <image:title>Vriendelijke Alien Zwaaiend naast een UFO – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis ruimtekleurplaat van vriendelijke alien zwaaiend naast een ufo. Avontuurlijk kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/solar-system-with-all-planets-and-the-sun</loc>
+    <lastmod>2026-09-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/ruimte--hard--solar-system-with-all-planets-and-the-sun.jpg</image:loc>
+      <image:title>Zonnestelsel met Alle Planeten en de Zon – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis ruimtekleurplaat van zonnestelsel met alle planeten en de zon. Avontuurlijk kleurplaatje voor kinderen.</image:caption>
       <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
     </image:image>
   </url>
