@@ -6045,6 +6045,52 @@ const COLORINGS = [
     zh: { title: '包含所有行星和太阳的太阳系', description: '免费太空包含所有行星和太阳的太阳系涂色页，适合儿童的宇宙涂色。', keywords: '包含所有行星和太阳的太阳系 太空涂色 免费儿童', altText: '免费涂色页 包含所有行星和太阳的太阳系 – 儿童' },
   },
 
+  {
+    id: 627, slug: 'happy-boy-face-with-a-big-smile', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/gezichten--easy--happy-boy-face-with-a-big-smile.jpg',
+    nl: { title: 'Vrolijk Jongensgezicht met een Grote Glimlach', description: 'Gratis gezichtenkleurplaat van vrolijk jongensgezicht met een grote glimlach. Mooi kleurplaatje voor kinderen.', keywords: 'vrolijk jongensgezicht met een grote glimlach gezichten kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vrolijk jongensgezicht met een grote glimlach – kinderen' },
+    en: { title: 'Happy Boy Face With a Big Smile', description: 'Free face coloring page of happy boy face with a big smile. Beautiful coloring page for kids.', keywords: 'happy boy face with a big smile face coloring page free kids', altText: 'Free coloring page happy boy face with a big smile – kids' },
+    fr: { title: 'Visage de Garçon Joyeux avec un Grand Sourire', description: 'Page à colorier visage gratuite de visage de garçon joyeux avec un grand sourire. Magnifique coloriage pour les enfants.', keywords: 'visage de garçon joyeux avec un grand sourire coloriage visage gratuit enfants', altText: 'Page à colorier visage de garçon joyeux avec un grand sourire – enfants' },
+    es: { title: 'Cara de Niño Feliz con una Gran Sonrisa', description: 'Página para colorear cara gratis de cara de niño feliz con una gran sonrisa. Hermoso colorear para niños.', keywords: 'cara de niño feliz con una gran sonrisa colorear caras gratis niños', altText: 'Página para colorear cara de niño feliz con una gran sonrisa – niños' },
+    zh: { title: '带着灿烂笑容的男孩笑脸', description: '免费面孔带着灿烂笑容的男孩笑脸涂色页，适合儿童的涂色。', keywords: '带着灿烂笑容的男孩笑脸 面孔涂色 免费儿童', altText: '免费涂色页 带着灿烂笑容的男孩笑脸 – 儿童' },
+  },
+  {
+    id: 628, slug: 'animal-themed-mandala-with-birds', category: 'mandala', difficulty: 'hard',
+    img: '../img/kleurplaten/mandala--hard--animal-themed-mandala-with-birds.jpg',
+    nl: { title: 'Dieren Mandala met Vogels', description: 'Gratis mandalakleurplaat: dieren mandala met vogels. Ontspannend kleurplaatje met mooie patronen.', keywords: 'dieren mandala met vogels mandala kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dieren mandala met vogels – kinderen' },
+    en: { title: 'Animal Themed Mandala With Birds', description: 'Free mandala coloring page: animal themed mandala with birds. Relaxing coloring page with beautiful patterns.', keywords: 'animal themed mandala with birds mandala coloring page free kids', altText: 'Free coloring page animal themed mandala with birds – kids' },
+    fr: { title: 'Mandala à Thème Animal Avec des Oiseaux', description: 'Page à colorier mandala gratuite: mandala à thème animal avec des oiseaux. Coloriage relaxant avec de beaux motifs.', keywords: 'mandala à thème animal avec des oiseaux coloriage mandala gratuit enfants', altText: 'Page à colorier mandala à thème animal avec des oiseaux – enfants' },
+    es: { title: 'Mandala Temático de Animales con Pájaros', description: 'Página para colorear mandala gratis: mandala temático de animales con pájaros. Colorear relajante con hermosos patrones.', keywords: 'mandala temático de animales con pájaros colorear mandala gratis niños', altText: 'Página para colorear mandala temático de animales con pájaros – niños' },
+    zh: { title: '以动物为主题的鸟类曼陀罗', description: '免费曼陀罗以动物为主题的鸟类曼陀罗涂色页，放松身心的美丽图案涂色。', keywords: '以动物为主题的鸟类曼陀罗 曼陀罗涂色 免费儿童', altText: '免费涂色页 以动物为主题的鸟类曼陀罗 – 儿童' },
+  },
+  {
+    id: 629, slug: 'ocean-themed-mandala-with-shells-and-waves', category: 'mandala', difficulty: 'hard',
+    img: '../img/kleurplaten/mandala--hard--ocean-themed-mandala-with-shells-and-waves.jpg',
+    nl: { title: 'Oceaan Mandala met Schelpen en Golven', description: 'Gratis mandalakleurplaat: oceaan mandala met schelpen en golven. Ontspannend kleurplaatje met mooie patronen.', keywords: 'oceaan mandala met schelpen en golven mandala kleurplaat gratis kinderen', altText: 'Gratis kleurplaat oceaan mandala met schelpen en golven – kinderen' },
+    en: { title: 'Ocean Themed Mandala With Shells and Waves', description: 'Free mandala coloring page: ocean themed mandala with shells and waves. Relaxing coloring page with beautiful patterns.', keywords: 'ocean themed mandala with shells and waves mandala coloring page free kids', altText: 'Free coloring page ocean themed mandala with shells and waves – kids' },
+    fr: { title: 'Mandala à Thème Océan Avec des Coquillages et des Vagues', description: 'Page à colorier mandala gratuite: mandala à thème océan avec des coquillages et des vagues. Coloriage relaxant avec de beaux motifs.', keywords: 'mandala à thème océan avec des coquillages et des vagues coloriage mandala gratuit enfants', altText: 'Page à colorier mandala à thème océan avec des coquillages et des vagues – enfants' },
+    es: { title: 'Mandala Temático del Océano con Conchas y Olas', description: 'Página para colorear mandala gratis: mandala temático del océano con conchas y olas. Colorear relajante con hermosos patrones.', keywords: 'mandala temático del océano con conchas y olas colorear mandala gratis niños', altText: 'Página para colorear mandala temático del océano con conchas y olas – niños' },
+    zh: { title: '以海洋为主题的贝壳与波浪曼陀罗', description: '免费曼陀罗以海洋为主题的贝壳与波浪曼陀罗涂色页，放松身心的美丽图案涂色。', keywords: '以海洋为主题的贝壳与波浪曼陀罗 曼陀罗涂色 免费儿童', altText: '免费涂色页 以海洋为主题的贝壳与波浪曼陀罗 – 儿童' },
+  },
+  {
+    id: 630, slug: 'simple-flower-mandala-for-beginners', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/mandala--medium--simple-flower-mandala-for-beginners.jpg',
+    nl: { title: 'Eenvoudige Bloemenmandala voor Beginners', description: 'Gratis mandalakleurplaat: eenvoudige bloemenmandala voor beginners. Ontspannend kleurplaatje met mooie patronen.', keywords: 'eenvoudige bloemenmandala voor beginners mandala kleurplaat gratis kinderen', altText: 'Gratis kleurplaat eenvoudige bloemenmandala voor beginners – kinderen' },
+    en: { title: 'Simple Flower Mandala for Beginners', description: 'Free mandala coloring page: simple flower mandala for beginners. Relaxing coloring page with beautiful patterns.', keywords: 'simple flower mandala for beginners mandala coloring page free kids', altText: 'Free coloring page simple flower mandala for beginners – kids' },
+    fr: { title: 'Mandala Floral Simple pour Débutants', description: 'Page à colorier mandala gratuite: mandala floral simple pour débutants. Coloriage relaxant avec de beaux motifs.', keywords: 'mandala floral simple pour débutants coloriage mandala gratuit enfants', altText: 'Page à colorier mandala floral simple pour débutants – enfants' },
+    es: { title: 'Mandala Floral Sencillo para Principiantes', description: 'Página para colorear mandala gratis: mandala floral sencillo para principiantes. Colorear relajante con hermosos patrones.', keywords: 'mandala floral sencillo para principiantes colorear mandala gratis niños', altText: 'Página para colorear mandala floral sencillo para principiantes – niños' },
+    zh: { title: '适合初学者的简单花卉曼陀罗', description: '免费曼陀罗适合初学者的简单花卉曼陀罗涂色页，放松身心的美丽图案涂色。', keywords: '适合初学者的简单花卉曼陀罗 曼陀罗涂色 免费儿童', altText: '免费涂色页 适合初学者的简单花卉曼陀罗 – 儿童' },
+  },
+  {
+    id: 631, slug: 'mermaid-sitting-on-a-rock-by-the-sea', category: 'oceaan', difficulty: 'medium',
+    img: '../img/kleurplaten/oceaan--medium--mermaid-sitting-on-a-rock-by-the-sea.jpg',
+    nl: { title: 'Zeemeermin Zittend op een Rots bij de Zee', description: 'Gratis oceaankleurplaat van zeemeermin zittend op een rots bij de zee. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'zeemeermin zittend op een rots bij de zee oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zeemeermin zittend op een rots bij de zee – kinderen' },
+    en: { title: 'Mermaid Sitting on a Rock by the Sea', description: 'Free ocean coloring page of mermaid sitting on a rock by the sea. Colorful underwater coloring page for kids.', keywords: 'mermaid sitting on a rock by the sea ocean coloring page free kids', altText: 'Free coloring page mermaid sitting on a rock by the sea – kids' },
+    fr: { title: 'Sirène Assise sur un Rocher au Bord de la Mer', description: 'Page à colorier océan gratuite de sirène assise sur un rocher au bord de la mer. Coloriage sous-marin coloré pour les enfants.', keywords: 'sirène assise sur un rocher au bord de la mer coloriage océan gratuit enfants', altText: 'Page à colorier sirène assise sur un rocher au bord de la mer – enfants' },
+    es: { title: 'Sirena Sentada en una Roca junto al Mar', description: 'Página para colorear océano gratis de sirena sentada en una roca junto al mar. Colorear submarino para niños.', keywords: 'sirena sentada en una roca junto al mar colorear océano gratis niños', altText: 'Página para colorear sirena sentada en una roca junto al mar – niños' },
+    zh: { title: '坐在海边岩石上的美人鱼', description: '免费海洋坐在海边岩石上的美人鱼涂色页，适合儿童的水下涂色。', keywords: '坐在海边岩石上的美人鱼 海洋涂色 免费儿童', altText: '免费涂色页 坐在海边岩石上的美人鱼 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

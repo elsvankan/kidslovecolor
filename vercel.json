@@ -2381,6 +2381,26 @@
       "destination": "/kleurplaat/solar-system-with-all-planets-and-the-sun/index.html"
     },
     {
+      "source": "/kleurplaat/happy-boy-face-with-a-big-smile",
+      "destination": "/kleurplaat/happy-boy-face-with-a-big-smile/index.html"
+    },
+    {
+      "source": "/kleurplaat/animal-themed-mandala-with-birds",
+      "destination": "/kleurplaat/animal-themed-mandala-with-birds/index.html"
+    },
+    {
+      "source": "/kleurplaat/ocean-themed-mandala-with-shells-and-waves",
+      "destination": "/kleurplaat/ocean-themed-mandala-with-shells-and-waves/index.html"
+    },
+    {
+      "source": "/kleurplaat/simple-flower-mandala-for-beginners",
+      "destination": "/kleurplaat/simple-flower-mandala-for-beginners/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-sitting-on-a-rock-by-the-sea",
+      "destination": "/kleurplaat/mermaid-sitting-on-a-rock-by-the-sea/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
