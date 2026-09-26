@@ -2401,6 +2401,26 @@
       "destination": "/kleurplaat/mermaid-sitting-on-a-rock-by-the-sea/index.html"
     },
     {
+      "source": "/kleurplaat/cute-baby-dinosaur-hatching-from-an-egg",
+      "destination": "/kleurplaat/cute-baby-dinosaur-hatching-from-an-egg/index.html"
+    },
+    {
+      "source": "/kleurplaat/triceratops-dinosaur-grazing-near-volcanoes",
+      "destination": "/kleurplaat/triceratops-dinosaur-grazing-near-volcanoes/index.html"
+    },
+    {
+      "source": "/kleurplaat/cute-puppy-face-with-floppy-ears",
+      "destination": "/kleurplaat/cute-puppy-face-with-floppy-ears/index.html"
+    },
+    {
+      "source": "/kleurplaat/smiling-sun-face-with-rays",
+      "destination": "/kleurplaat/smiling-sun-face-with-rays/index.html"
+    },
+    {
+      "source": "/kleurplaat/lion-face-with-a-fluffy-mane",
+      "destination": "/kleurplaat/lion-face-with-a-fluffy-mane/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

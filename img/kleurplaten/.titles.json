@@ -2372,5 +2372,40 @@
     "fr": "Visage de Garçon Joyeux avec un Grand Sourire",
     "es": "Cara de Niño Feliz con una Gran Sonrisa",
     "zh": "带着灿烂笑容的男孩笑脸"
+  },
+  "gezichten--easy--cute-puppy-face-with-floppy-ears.jpg": {
+    "nl": "Schattig Puppygezicht met Hangoren",
+    "en": "Cute Puppy Face With Floppy Ears",
+    "fr": "Visage de Chiot Mignon avec des Oreilles Tombantes",
+    "es": "Cara de Cachorro Tierno con Orejas Caídas",
+    "zh": "长着垂耳的可爱小狗脸"
+  },
+  "gezichten--medium--lion-face-with-a-fluffy-mane.jpg": {
+    "nl": "Leeuwengezicht met een Pluizige Manen",
+    "en": "Lion Face With a Fluffy Mane",
+    "fr": "Visage de Lion avec une Crinière Pelucheuse",
+    "es": "Cara de León con una Melena Esponjosa",
+    "zh": "有蓬松鬃毛的狮子脸"
+  },
+  "gezichten--easy--smiling-sun-face-with-rays.jpg": {
+    "nl": "Lachend Zonnegezicht met Stralen",
+    "en": "Smiling Sun Face With Rays",
+    "fr": "Visage de Soleil Souriant avec des Rayons",
+    "es": "Cara de Sol Sonriente con Rayos",
+    "zh": "带着光芒的微笑太阳脸"
+  },
+  "dieren--medium--triceratops-dinosaur-grazing-near-volcanoes.jpg": {
+    "nl": "Triceratops Dinosaurus Grazend bij Vulkanen",
+    "en": "Triceratops Dinosaur Grazing Near Volcanoes",
+    "fr": "Dinosaure Tricératops Broutant près de Volcans",
+    "es": "Dinosaurio Triceratops Pastando cerca de Volcanes",
+    "zh": "在火山附近吃草的三角龙"
+  },
+  "dieren--easy--cute-baby-dinosaur-hatching-from-an-egg.jpg": {
+    "nl": "Schattige Baby Dinosaurus die uit een Ei Kruipt",
+    "en": "Cute Baby Dinosaur Hatching From an Egg",
+    "fr": "Mignon Bébé Dinosaure Sortant d'un Œuf",
+    "es": "Lindo Bebé Dinosaurio Saliendo de un Huevo",
+    "zh": "从蛋里孵化的可爱恐龙宝宝"
   }
 }

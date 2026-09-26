@@ -6091,6 +6091,52 @@ const COLORINGS = [
     zh: { title: '坐在海边岩石上的美人鱼', description: '免费海洋坐在海边岩石上的美人鱼涂色页，适合儿童的水下涂色。', keywords: '坐在海边岩石上的美人鱼 海洋涂色 免费儿童', altText: '免费涂色页 坐在海边岩石上的美人鱼 – 儿童' },
   },
 
+  {
+    id: 632, slug: 'cute-baby-dinosaur-hatching-from-an-egg', category: 'dieren', difficulty: 'easy',
+    img: '../img/kleurplaten/dieren--easy--cute-baby-dinosaur-hatching-from-an-egg.jpg',
+    nl: { title: 'Schattige Baby Dinosaurus die uit een Ei Kruipt', description: 'Gratis kleurplaat van schattige baby dinosaurus die uit een ei kruipt. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'schattige baby dinosaurus die uit een ei kruipt dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat schattige baby dinosaurus die uit een ei kruipt – kinderen' },
+    en: { title: 'Cute Baby Dinosaur Hatching From an Egg', description: 'Free coloring page of cute baby dinosaur hatching from an egg. Fun animal coloring page for kids to color and print.', keywords: 'cute baby dinosaur hatching from an egg animal coloring page free kids', altText: 'Free coloring page cute baby dinosaur hatching from an egg – kids' },
+    fr: { title: 'Mignon Bébé Dinosaure Sortant d\'un Œuf', description: 'Page à colorier gratuite de mignon bébé dinosaure sortant d\'un œuf. Amusant coloriage d\'animal pour les enfants.', keywords: 'mignon bébé dinosaure sortant d\'un œuf coloriage animal gratuit enfants', altText: 'Page à colorier mignon bébé dinosaure sortant d\'un œuf – enfants' },
+    es: { title: 'Lindo Bebé Dinosaurio Saliendo de un Huevo', description: 'Página para colorear gratis de lindo bebé dinosaurio saliendo de un huevo. Divertido colorear de animales para niños.', keywords: 'lindo bebé dinosaurio saliendo de un huevo colorear animales gratis niños', altText: 'Página para colorear lindo bebé dinosaurio saliendo de un huevo – niños' },
+    zh: { title: '从蛋里孵化的可爱恐龙宝宝', description: '免费从蛋里孵化的可爱恐龙宝宝涂色页，适合儿童的动物涂色，可打印。', keywords: '从蛋里孵化的可爱恐龙宝宝 动物涂色 免费儿童', altText: '免费涂色页 从蛋里孵化的可爱恐龙宝宝 – 儿童' },
+  },
+  {
+    id: 633, slug: 'triceratops-dinosaur-grazing-near-volcanoes', category: 'dieren', difficulty: 'medium',
+    img: '../img/kleurplaten/dieren--medium--triceratops-dinosaur-grazing-near-volcanoes.jpg',
+    nl: { title: 'Triceratops Dinosaurus Grazend bij Vulkanen', description: 'Gratis kleurplaat van triceratops dinosaurus grazend bij vulkanen. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'triceratops dinosaurus grazend bij vulkanen dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat triceratops dinosaurus grazend bij vulkanen – kinderen' },
+    en: { title: 'Triceratops Dinosaur Grazing Near Volcanoes', description: 'Free coloring page of triceratops dinosaur grazing near volcanoes. Fun animal coloring page for kids to color and print.', keywords: 'triceratops dinosaur grazing near volcanoes animal coloring page free kids', altText: 'Free coloring page triceratops dinosaur grazing near volcanoes – kids' },
+    fr: { title: 'Dinosaure Tricératops Broutant près de Volcans', description: 'Page à colorier gratuite de dinosaure tricératops broutant près de volcans. Amusant coloriage d\'animal pour les enfants.', keywords: 'dinosaure tricératops broutant près de volcans coloriage animal gratuit enfants', altText: 'Page à colorier dinosaure tricératops broutant près de volcans – enfants' },
+    es: { title: 'Dinosaurio Triceratops Pastando cerca de Volcanes', description: 'Página para colorear gratis de dinosaurio triceratops pastando cerca de volcanes. Divertido colorear de animales para niños.', keywords: 'dinosaurio triceratops pastando cerca de volcanes colorear animales gratis niños', altText: 'Página para colorear dinosaurio triceratops pastando cerca de volcanes – niños' },
+    zh: { title: '在火山附近吃草的三角龙', description: '免费在火山附近吃草的三角龙涂色页，适合儿童的动物涂色，可打印。', keywords: '在火山附近吃草的三角龙 动物涂色 免费儿童', altText: '免费涂色页 在火山附近吃草的三角龙 – 儿童' },
+  },
+  {
+    id: 634, slug: 'cute-puppy-face-with-floppy-ears', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/gezichten--easy--cute-puppy-face-with-floppy-ears.jpg',
+    nl: { title: 'Schattig Puppygezicht met Hangoren', description: 'Gratis gezichtenkleurplaat van schattig puppygezicht met hangoren. Mooi kleurplaatje voor kinderen.', keywords: 'schattig puppygezicht met hangoren gezichten kleurplaat gratis kinderen', altText: 'Gratis kleurplaat schattig puppygezicht met hangoren – kinderen' },
+    en: { title: 'Cute Puppy Face With Floppy Ears', description: 'Free face coloring page of cute puppy face with floppy ears. Beautiful coloring page for kids.', keywords: 'cute puppy face with floppy ears face coloring page free kids', altText: 'Free coloring page cute puppy face with floppy ears – kids' },
+    fr: { title: 'Visage de Chiot Mignon avec des Oreilles Tombantes', description: 'Page à colorier visage gratuite de visage de chiot mignon avec des oreilles tombantes. Magnifique coloriage pour les enfants.', keywords: 'visage de chiot mignon avec des oreilles tombantes coloriage visage gratuit enfants', altText: 'Page à colorier visage de chiot mignon avec des oreilles tombantes – enfants' },
+    es: { title: 'Cara de Cachorro Tierno con Orejas Caídas', description: 'Página para colorear cara gratis de cara de cachorro tierno con orejas caídas. Hermoso colorear para niños.', keywords: 'cara de cachorro tierno con orejas caídas colorear caras gratis niños', altText: 'Página para colorear cara de cachorro tierno con orejas caídas – niños' },
+    zh: { title: '长着垂耳的可爱小狗脸', description: '免费面孔长着垂耳的可爱小狗脸涂色页，适合儿童的涂色。', keywords: '长着垂耳的可爱小狗脸 面孔涂色 免费儿童', altText: '免费涂色页 长着垂耳的可爱小狗脸 – 儿童' },
+  },
+  {
+    id: 635, slug: 'smiling-sun-face-with-rays', category: 'gezichten', difficulty: 'easy',
+    img: '../img/kleurplaten/gezichten--easy--smiling-sun-face-with-rays.jpg',
+    nl: { title: 'Lachend Zonnegezicht met Stralen', description: 'Gratis gezichtenkleurplaat van lachend zonnegezicht met stralen. Mooi kleurplaatje voor kinderen.', keywords: 'lachend zonnegezicht met stralen gezichten kleurplaat gratis kinderen', altText: 'Gratis kleurplaat lachend zonnegezicht met stralen – kinderen' },
+    en: { title: 'Smiling Sun Face With Rays', description: 'Free face coloring page of smiling sun face with rays. Beautiful coloring page for kids.', keywords: 'smiling sun face with rays face coloring page free kids', altText: 'Free coloring page smiling sun face with rays – kids' },
+    fr: { title: 'Visage de Soleil Souriant avec des Rayons', description: 'Page à colorier visage gratuite de visage de soleil souriant avec des rayons. Magnifique coloriage pour les enfants.', keywords: 'visage de soleil souriant avec des rayons coloriage visage gratuit enfants', altText: 'Page à colorier visage de soleil souriant avec des rayons – enfants' },
+    es: { title: 'Cara de Sol Sonriente con Rayos', description: 'Página para colorear cara gratis de cara de sol sonriente con rayos. Hermoso colorear para niños.', keywords: 'cara de sol sonriente con rayos colorear caras gratis niños', altText: 'Página para colorear cara de sol sonriente con rayos – niños' },
+    zh: { title: '带着光芒的微笑太阳脸', description: '免费面孔带着光芒的微笑太阳脸涂色页，适合儿童的涂色。', keywords: '带着光芒的微笑太阳脸 面孔涂色 免费儿童', altText: '免费涂色页 带着光芒的微笑太阳脸 – 儿童' },
+  },
+  {
+    id: 636, slug: 'lion-face-with-a-fluffy-mane', category: 'gezichten', difficulty: 'medium',
+    img: '../img/kleurplaten/gezichten--medium--lion-face-with-a-fluffy-mane.jpg',
+    nl: { title: 'Leeuwengezicht met een Pluizige Manen', description: 'Gratis gezichtenkleurplaat van leeuwengezicht met een pluizige manen. Mooi kleurplaatje voor kinderen.', keywords: 'leeuwengezicht met een pluizige manen gezichten kleurplaat gratis kinderen', altText: 'Gratis kleurplaat leeuwengezicht met een pluizige manen – kinderen' },
+    en: { title: 'Lion Face With a Fluffy Mane', description: 'Free face coloring page of lion face with a fluffy mane. Beautiful coloring page for kids.', keywords: 'lion face with a fluffy mane face coloring page free kids', altText: 'Free coloring page lion face with a fluffy mane – kids' },
+    fr: { title: 'Visage de Lion avec une Crinière Pelucheuse', description: 'Page à colorier visage gratuite de visage de lion avec une crinière pelucheuse. Magnifique coloriage pour les enfants.', keywords: 'visage de lion avec une crinière pelucheuse coloriage visage gratuit enfants', altText: 'Page à colorier visage de lion avec une crinière pelucheuse – enfants' },
+    es: { title: 'Cara de León con una Melena Esponjosa', description: 'Página para colorear cara gratis de cara de león con una melena esponjosa. Hermoso colorear para niños.', keywords: 'cara de león con una melena esponjosa colorear caras gratis niños', altText: 'Página para colorear cara de león con una melena esponjosa – niños' },
+    zh: { title: '有蓬松鬃毛的狮子脸', description: '免费面孔有蓬松鬃毛的狮子脸涂色页，适合儿童的涂色。', keywords: '有蓬松鬃毛的狮子脸 面孔涂色 免费儿童', altText: '免费涂色页 有蓬松鬃毛的狮子脸 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

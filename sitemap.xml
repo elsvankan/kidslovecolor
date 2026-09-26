@@ -14,7 +14,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
@@ -28,7 +28,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -42,7 +42,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -56,7 +56,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -70,7 +70,7 @@
     <xhtml:link rel="alternate" hreflang="es-ES"    href="https://kidslovecolor.com/es/"/>
     <xhtml:link rel="alternate" hreflang="zh-Hans"  href="https://kidslovecolor.com/zh/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://kidslovecolor.com/"/>
-    <lastmod>2026-09-25</lastmod>
+    <lastmod>2026-09-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
@@ -7628,6 +7628,71 @@
       <image:loc>https://kidslovecolor.com/img/kleurplaten/oceaan--medium--mermaid-sitting-on-a-rock-by-the-sea.jpg</image:loc>
       <image:title>Zeemeermin Zittend op een Rots bij de Zee – Gratis Kleurplaat</image:title>
       <image:caption>Gratis oceaankleurplaat van zeemeermin zittend op een rots bij de zee. Kleurrijke onderwaterkleurplaat voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/cute-baby-dinosaur-hatching-from-an-egg</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/dieren--easy--cute-baby-dinosaur-hatching-from-an-egg.jpg</image:loc>
+      <image:title>Schattige Baby Dinosaurus die uit een Ei Kruipt – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kleurplaat van schattige baby dinosaurus die uit een ei kruipt. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/triceratops-dinosaur-grazing-near-volcanoes</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/dieren--medium--triceratops-dinosaur-grazing-near-volcanoes.jpg</image:loc>
+      <image:title>Triceratops Dinosaurus Grazend bij Vulkanen – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis kleurplaat van triceratops dinosaurus grazend bij vulkanen. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/cute-puppy-face-with-floppy-ears</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/gezichten--easy--cute-puppy-face-with-floppy-ears.jpg</image:loc>
+      <image:title>Schattig Puppygezicht met Hangoren – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis gezichtenkleurplaat van schattig puppygezicht met hangoren. Mooi kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/smiling-sun-face-with-rays</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/gezichten--easy--smiling-sun-face-with-rays.jpg</image:loc>
+      <image:title>Lachend Zonnegezicht met Stralen – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis gezichtenkleurplaat van lachend zonnegezicht met stralen. Mooi kleurplaatje voor kinderen.</image:caption>
+      <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://kidslovecolor.com/kleurplaat/lion-face-with-a-fluffy-mane</loc>
+    <lastmod>2026-09-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://kidslovecolor.com/img/kleurplaten/gezichten--medium--lion-face-with-a-fluffy-mane.jpg</image:loc>
+      <image:title>Leeuwengezicht met een Pluizige Manen – Gratis Kleurplaat</image:title>
+      <image:caption>Gratis gezichtenkleurplaat van leeuwengezicht met een pluizige manen. Mooi kleurplaatje voor kinderen.</image:caption>
       <image:license>https://creativecommons.org/licenses/by-nc/4.0/</image:license>
     </image:image>
   </url>
