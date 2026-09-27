@@ -2421,6 +2421,26 @@
       "destination": "/kleurplaat/lion-face-with-a-fluffy-mane/index.html"
     },
     {
+      "source": "/kleurplaat/safari-animals-gathered-at-a-watering-hole",
+      "destination": "/kleurplaat/safari-animals-gathered-at-a-watering-hole/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-baby-dragon-breathing-tiny-sparkles",
+      "destination": "/kleurplaat/kawaii-baby-dragon-breathing-tiny-sparkles/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-mermaid-swimming-with-fish",
+      "destination": "/kleurplaat/kawaii-mermaid-swimming-with-fish/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-sloth-hanging-from-a-branch",
+      "destination": "/kleurplaat/kawaii-sloth-hanging-from-a-branch/index.html"
+    },
+    {
+      "source": "/kleurplaat/mermaid-princess-in-an-underwater-palace",
+      "destination": "/kleurplaat/mermaid-princess-in-an-underwater-palace/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

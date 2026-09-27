@@ -6137,6 +6137,52 @@ const COLORINGS = [
     zh: { title: '有蓬松鬃毛的狮子脸', description: '免费面孔有蓬松鬃毛的狮子脸涂色页，适合儿童的涂色。', keywords: '有蓬松鬃毛的狮子脸 面孔涂色 免费儿童', altText: '免费涂色页 有蓬松鬃毛的狮子脸 – 儿童' },
   },
 
+  {
+    id: 637, slug: 'safari-animals-gathered-at-a-watering-hole', category: 'dieren', difficulty: 'hard',
+    img: '../img/kleurplaten/dieren--hard--safari-animals-gathered-at-a-watering-hole.jpg',
+    nl: { title: 'Safaridieren Verzameld bij een Waterplas', description: 'Gratis kleurplaat van safaridieren verzameld bij een waterplas. Leuk dierenkleurplaatje voor kinderen om in te kleuren en af te drukken.', keywords: 'safaridieren verzameld bij een waterplas dieren kleurplaat gratis kinderen', altText: 'Gratis kleurplaat safaridieren verzameld bij een waterplas – kinderen' },
+    en: { title: 'Safari Animals Gathered at a Watering Hole', description: 'Free coloring page of safari animals gathered at a watering hole. Fun animal coloring page for kids to color and print.', keywords: 'safari animals gathered at a watering hole animal coloring page free kids', altText: 'Free coloring page safari animals gathered at a watering hole – kids' },
+    fr: { title: 'Animaux du Safari Rassemblés autour d\'un Point d\'Eau', description: 'Page à colorier gratuite de animaux du safari rassemblés autour d\'un point d\'eau. Amusant coloriage d\'animal pour les enfants.', keywords: 'animaux du safari rassemblés autour d\'un point d\'eau coloriage animal gratuit enfants', altText: 'Page à colorier animaux du safari rassemblés autour d\'un point d\'eau – enfants' },
+    es: { title: 'Animales de Safari Reunidos en un Abrevadero', description: 'Página para colorear gratis de animales de safari reunidos en un abrevadero. Divertido colorear de animales para niños.', keywords: 'animales de safari reunidos en un abrevadero colorear animales gratis niños', altText: 'Página para colorear animales de safari reunidos en un abrevadero – niños' },
+    zh: { title: '聚集在水坑边的野生动物', description: '免费聚集在水坑边的野生动物涂色页，适合儿童的动物涂色，可打印。', keywords: '聚集在水坑边的野生动物 动物涂色 免费儿童', altText: '免费涂色页 聚集在水坑边的野生动物 – 儿童' },
+  },
+  {
+    id: 638, slug: 'kawaii-baby-dragon-breathing-tiny-sparkles', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-baby-dragon-breathing-tiny-sparkles.jpg',
+    nl: { title: 'Kawaii Babydraakje dat Kleine Sterretjes Blaast', description: 'Gratis kawaii kleurplaat van kawaii babydraakje dat kleine sterretjes blaast. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii babydraakje dat kleine sterretjes blaast kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii babydraakje dat kleine sterretjes blaast – kinderen' },
+    en: { title: 'Kawaii Baby Dragon Breathing Tiny Sparkles', description: 'Free kawaii coloring page of kawaii baby dragon breathing tiny sparkles. Super cute coloring page for kids.', keywords: 'kawaii baby dragon breathing tiny sparkles kawaii coloring page free kids', altText: 'Free coloring page kawaii baby dragon breathing tiny sparkles – kids' },
+    fr: { title: 'Bébé Dragon Kawaii Soufflant de Petites Étincelles', description: 'Page à colorier kawaii gratuite de bébé dragon kawaii soufflant de petites étincelles. Coloriage super mignon pour les enfants.', keywords: 'bébé dragon kawaii soufflant de petites étincelles coloriage kawaii gratuit enfants', altText: 'Page à colorier bébé dragon kawaii soufflant de petites étincelles – enfants' },
+    es: { title: 'Bebé Dragón Kawaii Soplando Pequeñas Chispas', description: 'Página para colorear kawaii gratis de bebé dragón kawaii soplando pequeñas chispas. Colorear súper lindo para niños.', keywords: 'bebé dragón kawaii soplando pequeñas chispas colorear kawaii gratis niños', altText: 'Página para colorear bebé dragón kawaii soplando pequeñas chispas – niños' },
+    zh: { title: '喷出小星光的卡哇伊小龙', description: '免费卡哇伊喷出小星光的卡哇伊小龙涂色页，超可爱儿童涂色。', keywords: '喷出小星光的卡哇伊小龙 卡哇伊涂色 免费儿童', altText: '免费涂色页 喷出小星光的卡哇伊小龙 – 儿童' },
+  },
+  {
+    id: 639, slug: 'kawaii-mermaid-swimming-with-fish', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-mermaid-swimming-with-fish.jpg',
+    nl: { title: 'Kawaii Zeemeermin Zwemmend met Visjes', description: 'Gratis kawaii kleurplaat van kawaii zeemeermin zwemmend met visjes. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii zeemeermin zwemmend met visjes kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii zeemeermin zwemmend met visjes – kinderen' },
+    en: { title: 'Kawaii Mermaid Swimming With Fish', description: 'Free kawaii coloring page of kawaii mermaid swimming with fish. Super cute coloring page for kids.', keywords: 'kawaii mermaid swimming with fish kawaii coloring page free kids', altText: 'Free coloring page kawaii mermaid swimming with fish – kids' },
+    fr: { title: 'Sirène Kawaii Nageant avec des Poissons', description: 'Page à colorier kawaii gratuite de sirène kawaii nageant avec des poissons. Coloriage super mignon pour les enfants.', keywords: 'sirène kawaii nageant avec des poissons coloriage kawaii gratuit enfants', altText: 'Page à colorier sirène kawaii nageant avec des poissons – enfants' },
+    es: { title: 'Sirena Kawaii Nadando con Peces', description: 'Página para colorear kawaii gratis de sirena kawaii nadando con peces. Colorear súper lindo para niños.', keywords: 'sirena kawaii nadando con peces colorear kawaii gratis niños', altText: 'Página para colorear sirena kawaii nadando con peces – niños' },
+    zh: { title: '和小鱼一起游泳的卡哇伊美人鱼', description: '免费卡哇伊和小鱼一起游泳的卡哇伊美人鱼涂色页，超可爱儿童涂色。', keywords: '和小鱼一起游泳的卡哇伊美人鱼 卡哇伊涂色 免费儿童', altText: '免费涂色页 和小鱼一起游泳的卡哇伊美人鱼 – 儿童' },
+  },
+  {
+    id: 640, slug: 'kawaii-sloth-hanging-from-a-branch', category: 'kawaii', difficulty: 'easy',
+    img: '../img/kleurplaten/kawaii--easy--kawaii-sloth-hanging-from-a-branch.jpg',
+    nl: { title: 'Kawaii Luiaard Hangend aan een Tak', description: 'Gratis kawaii kleurplaat van kawaii luiaard hangend aan een tak. Superschattig kleurplaatje voor kinderen.', keywords: 'kawaii luiaard hangend aan een tak kawaii kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kawaii luiaard hangend aan een tak – kinderen' },
+    en: { title: 'Kawaii Sloth Hanging From a Branch', description: 'Free kawaii coloring page of kawaii sloth hanging from a branch. Super cute coloring page for kids.', keywords: 'kawaii sloth hanging from a branch kawaii coloring page free kids', altText: 'Free coloring page kawaii sloth hanging from a branch – kids' },
+    fr: { title: 'Paresseux Kawaii Suspendu à une Branche', description: 'Page à colorier kawaii gratuite de paresseux kawaii suspendu à une branche. Coloriage super mignon pour les enfants.', keywords: 'paresseux kawaii suspendu à une branche coloriage kawaii gratuit enfants', altText: 'Page à colorier paresseux kawaii suspendu à une branche – enfants' },
+    es: { title: 'Perezoso Kawaii Colgado de una Rama', description: 'Página para colorear kawaii gratis de perezoso kawaii colgado de una rama. Colorear súper lindo para niños.', keywords: 'perezoso kawaii colgado de una rama colorear kawaii gratis niños', altText: 'Página para colorear perezoso kawaii colgado de una rama – niños' },
+    zh: { title: '挂在树枝上的卡哇伊树懒', description: '免费卡哇伊挂在树枝上的卡哇伊树懒涂色页，超可爱儿童涂色。', keywords: '挂在树枝上的卡哇伊树懒 卡哇伊涂色 免费儿童', altText: '免费涂色页 挂在树枝上的卡哇伊树懒 – 儿童' },
+  },
+  {
+    id: 641, slug: 'mermaid-princess-in-an-underwater-palace', category: 'oceaan', difficulty: 'medium',
+    img: '../img/kleurplaten/oceaan--medium--mermaid-princess-in-an-underwater-palace.jpg',
+    nl: { title: 'Zeemeerminprinses in een Onderwaterpaleis', description: 'Gratis oceaankleurplaat van zeemeerminprinses in een onderwaterpaleis. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'zeemeerminprinses in een onderwaterpaleis oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat zeemeerminprinses in een onderwaterpaleis – kinderen' },
+    en: { title: 'Mermaid Princess in an Underwater Palace', description: 'Free ocean coloring page of mermaid princess in an underwater palace. Colorful underwater coloring page for kids.', keywords: 'mermaid princess in an underwater palace ocean coloring page free kids', altText: 'Free coloring page mermaid princess in an underwater palace – kids' },
+    fr: { title: 'Princesse Sirène dans un Palais Sous-marin', description: 'Page à colorier océan gratuite de princesse sirène dans un palais sous-marin. Coloriage sous-marin coloré pour les enfants.', keywords: 'princesse sirène dans un palais sous-marin coloriage océan gratuit enfants', altText: 'Page à colorier princesse sirène dans un palais sous-marin – enfants' },
+    es: { title: 'Princesa Sirena en un Palacio Submarino', description: 'Página para colorear océano gratis de princesa sirena en un palacio submarino. Colorear submarino para niños.', keywords: 'princesa sirena en un palacio submarino colorear océano gratis niños', altText: 'Página para colorear princesa sirena en un palacio submarino – niños' },
+    zh: { title: '在海底宫殿里的美人鱼公主', description: '免费海洋在海底宫殿里的美人鱼公主涂色页，适合儿童的水下涂色。', keywords: '在海底宫殿里的美人鱼公主 海洋涂色 免费儿童', altText: '免费涂色页 在海底宫殿里的美人鱼公主 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
