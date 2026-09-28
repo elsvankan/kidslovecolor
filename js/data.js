@@ -6183,6 +6183,52 @@ const COLORINGS = [
     zh: { title: '在海底宫殿里的美人鱼公主', description: '免费海洋在海底宫殿里的美人鱼公主涂色页，适合儿童的水下涂色。', keywords: '在海底宫殿里的美人鱼公主 海洋涂色 免费儿童', altText: '免费涂色页 在海底宫殿里的美人鱼公主 – 儿童' },
   },
 
+  {
+    id: 642, slug: 'tropical-rainforest-scene-with-toucan-and-monkey', category: 'natuur', difficulty: 'hard',
+    img: '../img/kleurplaten/natuur--hard--tropical-rainforest-scene-with-toucan-and-monkey.jpg',
+    nl: { title: 'Tropisch Regenwoud met Toekan en Aap', description: 'Gratis natuurkleurplaat van tropisch regenwoud met toekan en aap. Prachtig kleurplaatje voor kinderen.', keywords: 'tropisch regenwoud met toekan en aap natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat tropisch regenwoud met toekan en aap – kinderen' },
+    en: { title: 'Tropical Rainforest Scene With Toucan and Monkey', description: 'Free nature coloring page of tropical rainforest scene with toucan and monkey. Beautiful coloring page for kids.', keywords: 'tropical rainforest scene with toucan and monkey nature coloring page free kids', altText: 'Free coloring page tropical rainforest scene with toucan and monkey – kids' },
+    fr: { title: 'Scène de Forêt Tropicale avec un Toucan et un Singe', description: 'Page à colorier nature gratuite de scène de forêt tropicale avec un toucan et un singe. Magnifique coloriage pour les enfants.', keywords: 'scène de forêt tropicale avec un toucan et un singe coloriage nature gratuit enfants', altText: 'Page à colorier scène de forêt tropicale avec un toucan et un singe – enfants' },
+    es: { title: 'Escena de Selva Tropical con Tucán y Mono', description: 'Página para colorear naturaleza gratis de escena de selva tropical con tucán y mono. Hermoso colorear para niños.', keywords: 'escena de selva tropical con tucán y mono colorear naturaleza gratis niños', altText: 'Página para colorear escena de selva tropical con tucán y mono – niños' },
+    zh: { title: '有巨嘴鸟和猴子的热带雨林场景', description: '免费自然有巨嘴鸟和猴子的热带雨林场景涂色页，适合儿童的自然涂色。', keywords: '有巨嘴鸟和猴子的热带雨林场景 自然涂色 免费儿童', altText: '免费涂色页 有巨嘴鸟和猴子的热带雨林场景 – 儿童' },
+  },
+  {
+    id: 643, slug: 'wildlife-scene-with-deer-and-rabbits-in-a-forest', category: 'natuur', difficulty: 'medium',
+    img: '../img/kleurplaten/natuur--medium--wildlife-scene-with-deer-and-rabbits-in-a-forest.jpg',
+    nl: { title: 'Wildlifescène met Herten en Konijnen in een Bos', description: 'Gratis natuurkleurplaat van wildlifescène met herten en konijnen in een bos. Prachtig kleurplaatje voor kinderen.', keywords: 'wildlifescène met herten en konijnen in een bos natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat wildlifescène met herten en konijnen in een bos – kinderen' },
+    en: { title: 'Wildlife Scene With Deer and Rabbits in a Forest', description: 'Free nature coloring page of wildlife scene with deer and rabbits in a forest. Beautiful coloring page for kids.', keywords: 'wildlife scene with deer and rabbits in a forest nature coloring page free kids', altText: 'Free coloring page wildlife scene with deer and rabbits in a forest – kids' },
+    fr: { title: 'Scène de Faune avec des Cerfs et des Lapins dans une Forêt', description: 'Page à colorier nature gratuite de scène de faune avec des cerfs et des lapins dans une forêt. Magnifique coloriage pour les enfants.', keywords: 'scène de faune avec des cerfs et des lapins dans une forêt coloriage nature gratuit enfants', altText: 'Page à colorier scène de faune avec des cerfs et des lapins dans une forêt – enfants' },
+    es: { title: 'Escena de Fauna con Ciervos y Conejos en un Bosque', description: 'Página para colorear naturaleza gratis de escena de fauna con ciervos y conejos en un bosque. Hermoso colorear para niños.', keywords: 'escena de fauna con ciervos y conejos en un bosque colorear naturaleza gratis niños', altText: 'Página para colorear escena de fauna con ciervos y conejos en un bosque – niños' },
+    zh: { title: '森林中有鹿和兔子的野生动物场景', description: '免费自然森林中有鹿和兔子的野生动物场景涂色页，适合儿童的自然涂色。', keywords: '森林中有鹿和兔子的野生动物场景 自然涂色 免费儿童', altText: '免费涂色页 森林中有鹿和兔子的野生动物场景 – 儿童' },
+  },
+  {
+    id: 644, slug: 'whale-swimming-with-her-calf-in-the-ocean', category: 'oceaan', difficulty: 'medium',
+    img: '../img/kleurplaten/oceaan--medium--whale-swimming-with-her-calf-in-the-ocean.jpg',
+    nl: { title: 'Walvis Zwemmend met haar Kalfje in de Oceaan', description: 'Gratis oceaankleurplaat van walvis zwemmend met haar kalfje in de oceaan. Kleurrijke onderwaterkleurplaat voor kinderen.', keywords: 'walvis zwemmend met haar kalfje in de oceaan oceaan kleurplaat gratis kinderen', altText: 'Gratis kleurplaat walvis zwemmend met haar kalfje in de oceaan – kinderen' },
+    en: { title: 'Whale Swimming With Her Calf in the Ocean', description: 'Free ocean coloring page of whale swimming with her calf in the ocean. Colorful underwater coloring page for kids.', keywords: 'whale swimming with her calf in the ocean ocean coloring page free kids', altText: 'Free coloring page whale swimming with her calf in the ocean – kids' },
+    fr: { title: 'Baleine Nageant avec son Petit dans l\'Océan', description: 'Page à colorier océan gratuite de baleine nageant avec son petit dans l\'océan. Coloriage sous-marin coloré pour les enfants.', keywords: 'baleine nageant avec son petit dans l\'océan coloriage océan gratuit enfants', altText: 'Page à colorier baleine nageant avec son petit dans l\'océan – enfants' },
+    es: { title: 'Ballena Nadando con su Cría en el Océano', description: 'Página para colorear océano gratis de ballena nadando con su cría en el océano. Colorear submarino para niños.', keywords: 'ballena nadando con su cría en el océano colorear océano gratis niños', altText: 'Página para colorear ballena nadando con su cría en el océano – niños' },
+    zh: { title: '在海洋中与幼鲸一起游泳的鲸鱼', description: '免费海洋在海洋中与幼鲸一起游泳的鲸鱼涂色页，适合儿童的水下涂色。', keywords: '在海洋中与幼鲸一起游泳的鲸鱼 海洋涂色 免费儿童', altText: '免费涂色页 在海洋中与幼鲸一起游泳的鲸鱼 – 儿童' },
+  },
+  {
+    id: 645, slug: 'astronaut-planting-a-flag-on-the-moon', category: 'ruimte', difficulty: 'easy',
+    img: '../img/kleurplaten/ruimte--easy--astronaut-planting-a-flag-on-the-moon.jpg',
+    nl: { title: 'Astronaut die een Vlag Plant op de Maan', description: 'Gratis ruimtekleurplaat van astronaut die een vlag plant op de maan. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'astronaut die een vlag plant op de maan ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat astronaut die een vlag plant op de maan – kinderen' },
+    en: { title: 'Astronaut Planting a Flag on the Moon', description: 'Free space coloring page of astronaut planting a flag on the moon. Adventurous coloring page for kids.', keywords: 'astronaut planting a flag on the moon space coloring page free kids', altText: 'Free coloring page astronaut planting a flag on the moon – kids' },
+    fr: { title: 'Astronaute Plantant un Drapeau sur la Lune', description: 'Page à colorier espace gratuite de astronaute plantant un drapeau sur la lune. Coloriage aventureux pour les enfants.', keywords: 'astronaute plantant un drapeau sur la lune coloriage espace gratuit enfants', altText: 'Page à colorier astronaute plantant un drapeau sur la lune – enfants' },
+    es: { title: 'Astronauta Plantando una Bandera en la Luna', description: 'Página para colorear espacio gratis de astronauta plantando una bandera en la luna. Colorear aventurero para niños.', keywords: 'astronauta plantando una bandera en la luna colorear espacio gratis niños', altText: 'Página para colorear astronauta plantando una bandera en la luna – niños' },
+    zh: { title: '在月球上插旗的宇航员', description: '免费太空在月球上插旗的宇航员涂色页，适合儿童的宇宙涂色。', keywords: '在月球上插旗的宇航员 太空涂色 免费儿童', altText: '免费涂色页 在月球上插旗的宇航员 – 儿童' },
+  },
+  {
+    id: 646, slug: 'friendly-dragon-flying-over-mountains', category: 'sprookjes', difficulty: 'medium',
+    img: '../img/kleurplaten/sprookjes--medium--friendly-dragon-flying-over-mountains.jpg',
+    nl: { title: 'Vriendelijke Draak Vliegend over Bergen', description: 'Gratis sprookjeskleurplaat van vriendelijke draak vliegend over bergen. Magisch kleurplaatje voor kinderen.', keywords: 'vriendelijke draak vliegend over bergen sprookjes kleurplaat gratis kinderen', altText: 'Gratis kleurplaat vriendelijke draak vliegend over bergen – kinderen' },
+    en: { title: 'Friendly Dragon Flying Over Mountains', description: 'Free fairy tale coloring page of friendly dragon flying over mountains. Magical coloring page for kids.', keywords: 'friendly dragon flying over mountains fairy tale coloring page free kids', altText: 'Free coloring page friendly dragon flying over mountains – kids' },
+    fr: { title: 'Dragon Amical Volant au-dessus des Montagnes', description: 'Page à colorier conte de fées gratuite de dragon amical volant au-dessus des montagnes. Coloriage magique pour les enfants.', keywords: 'dragon amical volant au-dessus des montagnes coloriage conte de fées gratuit enfants', altText: 'Page à colorier dragon amical volant au-dessus des montagnes – enfants' },
+    es: { title: 'Dragón Amigable Volando sobre las Montañas', description: 'Página para colorear cuento de hadas gratis de dragón amigable volando sobre las montañas. Colorear mágico para niños.', keywords: 'dragón amigable volando sobre las montañas colorear cuentos de hadas gratis niños', altText: 'Página para colorear dragón amigable volando sobre las montañas – niños' },
+    zh: { title: '飞越群山的友好巨龙', description: '免费童话飞越群山的友好巨龙涂色页，适合儿童的魔法涂色。', keywords: '飞越群山的友好巨龙 童话涂色 免费儿童', altText: '免费涂色页 飞越群山的友好巨龙 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

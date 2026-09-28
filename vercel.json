@@ -2441,6 +2441,26 @@
       "destination": "/kleurplaat/mermaid-princess-in-an-underwater-palace/index.html"
     },
     {
+      "source": "/kleurplaat/tropical-rainforest-scene-with-toucan-and-monkey",
+      "destination": "/kleurplaat/tropical-rainforest-scene-with-toucan-and-monkey/index.html"
+    },
+    {
+      "source": "/kleurplaat/wildlife-scene-with-deer-and-rabbits-in-a-forest",
+      "destination": "/kleurplaat/wildlife-scene-with-deer-and-rabbits-in-a-forest/index.html"
+    },
+    {
+      "source": "/kleurplaat/whale-swimming-with-her-calf-in-the-ocean",
+      "destination": "/kleurplaat/whale-swimming-with-her-calf-in-the-ocean/index.html"
+    },
+    {
+      "source": "/kleurplaat/astronaut-planting-a-flag-on-the-moon",
+      "destination": "/kleurplaat/astronaut-planting-a-flag-on-the-moon/index.html"
+    },
+    {
+      "source": "/kleurplaat/friendly-dragon-flying-over-mountains",
+      "destination": "/kleurplaat/friendly-dragon-flying-over-mountains/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
