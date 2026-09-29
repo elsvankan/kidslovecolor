@@ -6229,6 +6229,52 @@ const COLORINGS = [
     zh: { title: '飞越群山的友好巨龙', description: '免费童话飞越群山的友好巨龙涂色页，适合儿童的魔法涂色。', keywords: '飞越群山的友好巨龙 童话涂色 免费儿童', altText: '免费涂色页 飞越群山的友好巨龙 – 儿童' },
   },
 
+  {
+    id: 647, slug: 'dinosaur-wearing-a-halloween-costume', category: 'feestdagen', difficulty: 'easy',
+    img: '../img/kleurplaten/feestdagen--easy--dinosaur-wearing-a-halloween-costume.jpg',
+    nl: { title: 'Dinosaurus in een Halloweenkostuum', description: 'Gratis feestdagenkleurplaat: dinosaurus in een halloweenkostuum. Feestelijk kleurplaatje voor kinderen.', keywords: 'dinosaurus in een halloweenkostuum feestdagen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dinosaurus in een halloweenkostuum – kinderen' },
+    en: { title: 'Dinosaur Wearing a Halloween Costume', description: 'Free holiday coloring page: dinosaur wearing a halloween costume. Festive coloring page for kids.', keywords: 'dinosaur wearing a halloween costume holiday coloring page free kids', altText: 'Free coloring page dinosaur wearing a halloween costume – kids' },
+    fr: { title: 'Dinosaure en Costume d\'Halloween', description: 'Page à colorier fête gratuite: dinosaure en costume d\'halloween. Coloriage festif pour les enfants.', keywords: 'dinosaure en costume d\'halloween coloriage fête gratuit enfants', altText: 'Page à colorier dinosaure en costume d\'halloween – enfants' },
+    es: { title: 'Dinosaurio con Disfraz de Halloween', description: 'Página para colorear fiesta gratis: dinosaurio con disfraz de halloween. Colorear festivo para niños.', keywords: 'dinosaurio con disfraz de halloween colorear fiestas gratis niños', altText: 'Página para colorear dinosaurio con disfraz de halloween – niños' },
+    zh: { title: '穿着万圣节服装的恐龙', description: '免费节日穿着万圣节服装的恐龙涂色页，适合儿童的节日涂色。', keywords: '穿着万圣节服装的恐龙 节日涂色 免费儿童', altText: '免费涂色页 穿着万圣节服装的恐龙 – 儿童' },
+  },
+  {
+    id: 648, slug: 'unicorn-themed-mandala', category: 'mandala', difficulty: 'hard',
+    img: '../img/kleurplaten/mandala--hard--unicorn-themed-mandala.jpg',
+    nl: { title: 'Eenhoorn Mandala', description: 'Gratis mandalakleurplaat: eenhoorn mandala. Ontspannend kleurplaatje met mooie patronen.', keywords: 'eenhoorn mandala mandala kleurplaat gratis kinderen', altText: 'Gratis kleurplaat eenhoorn mandala – kinderen' },
+    en: { title: 'Unicorn Themed Mandala', description: 'Free mandala coloring page: unicorn themed mandala. Relaxing coloring page with beautiful patterns.', keywords: 'unicorn themed mandala mandala coloring page free kids', altText: 'Free coloring page unicorn themed mandala – kids' },
+    fr: { title: 'Mandala à Thème Licorne', description: 'Page à colorier mandala gratuite: mandala à thème licorne. Coloriage relaxant avec de beaux motifs.', keywords: 'mandala à thème licorne coloriage mandala gratuit enfants', altText: 'Page à colorier mandala à thème licorne – enfants' },
+    es: { title: 'Mandala Temático de Unicornios', description: 'Página para colorear mandala gratis: mandala temático de unicornios. Colorear relajante con hermosos patrones.', keywords: 'mandala temático de unicornios colorear mandala gratis niños', altText: 'Página para colorear mandala temático de unicornios – niños' },
+    zh: { title: '独角兽主题曼陀罗', description: '免费曼陀罗独角兽主题曼陀罗涂色页，放松身心的美丽图案涂色。', keywords: '独角兽主题曼陀罗 曼陀罗涂色 免费儿童', altText: '免费涂色页 独角兽主题曼陀罗 – 儿童' },
+  },
+  {
+    id: 649, slug: 'dinosaur-themed-mandala', category: 'mandala', difficulty: 'medium',
+    img: '../img/kleurplaten/mandala--medium--dinosaur-themed-mandala.jpg',
+    nl: { title: 'Dinosaurus Mandala', description: 'Gratis mandalakleurplaat: dinosaurus mandala. Ontspannend kleurplaatje met mooie patronen.', keywords: 'dinosaurus mandala mandala kleurplaat gratis kinderen', altText: 'Gratis kleurplaat dinosaurus mandala – kinderen' },
+    en: { title: 'Dinosaur Themed Mandala', description: 'Free mandala coloring page: dinosaur themed mandala. Relaxing coloring page with beautiful patterns.', keywords: 'dinosaur themed mandala mandala coloring page free kids', altText: 'Free coloring page dinosaur themed mandala – kids' },
+    fr: { title: 'Mandala à Thème Dinosaure', description: 'Page à colorier mandala gratuite: mandala à thème dinosaure. Coloriage relaxant avec de beaux motifs.', keywords: 'mandala à thème dinosaure coloriage mandala gratuit enfants', altText: 'Page à colorier mandala à thème dinosaure – enfants' },
+    es: { title: 'Mandala Temático de Dinosaurios', description: 'Página para colorear mandala gratis: mandala temático de dinosaurios. Colorear relajante con hermosos patrones.', keywords: 'mandala temático de dinosaurios colorear mandala gratis niños', altText: 'Página para colorear mandala temático de dinosaurios – niños' },
+    zh: { title: '恐龙主题曼陀罗', description: '免费曼陀罗恐龙主题曼陀罗涂色页，放松身心的美丽图案涂色。', keywords: '恐龙主题曼陀罗 曼陀罗涂色 免费儿童', altText: '免费涂色页 恐龙主题曼陀罗 – 儿童' },
+  },
+  {
+    id: 650, slug: 'rocket-flying-past-saturns-rings', category: 'ruimte', difficulty: 'medium',
+    img: '../img/kleurplaten/ruimte--medium--rocket-flying-past-saturns-rings.jpg',
+    nl: { title: 'Raket die langs de Ringen van Saturnus Vliegt', description: 'Gratis ruimtekleurplaat van raket die langs de ringen van saturnus vliegt. Avontuurlijk kleurplaatje voor kinderen.', keywords: 'raket die langs de ringen van saturnus vliegt ruimte kleurplaat gratis kinderen', altText: 'Gratis kleurplaat raket die langs de ringen van saturnus vliegt – kinderen' },
+    en: { title: 'Rocket Flying Past Saturn\'s Rings', description: 'Free space coloring page of rocket flying past saturn\'s rings. Adventurous coloring page for kids.', keywords: 'rocket flying past saturn\'s rings space coloring page free kids', altText: 'Free coloring page rocket flying past saturn\'s rings – kids' },
+    fr: { title: 'Fusée Volant devant les Anneaux de Saturne', description: 'Page à colorier espace gratuite de fusée volant devant les anneaux de saturne. Coloriage aventureux pour les enfants.', keywords: 'fusée volant devant les anneaux de saturne coloriage espace gratuit enfants', altText: 'Page à colorier fusée volant devant les anneaux de saturne – enfants' },
+    es: { title: 'Cohete Volando junto a los Anillos de Saturno', description: 'Página para colorear espacio gratis de cohete volando junto a los anillos de saturno. Colorear aventurero para niños.', keywords: 'cohete volando junto a los anillos de saturno colorear espacio gratis niños', altText: 'Página para colorear cohete volando junto a los anillos de saturno – niños' },
+    zh: { title: '飞过土星光环的火箭', description: '免费太空飞过土星光环的火箭涂色页，适合儿童的宇宙涂色。', keywords: '飞过土星光环的火箭 太空涂色 免费儿童', altText: '免费涂色页 飞过土星光环的火箭 – 儿童' },
+  },
+  {
+    id: 651, slug: 'dump-truck-working-at-a-construction-site', category: 'voertuigen', difficulty: 'easy',
+    img: '../img/kleurplaten/voertuigen--easy--dump-truck-working-at-a-construction-site.jpg',
+    nl: { title: 'Kiepwagen Werkend op een Bouwplaats', description: 'Gratis kleurplaat van kiepwagen werkend op een bouwplaats. Stoer voertuigenkleurplaatje voor kinderen.', keywords: 'kiepwagen werkend op een bouwplaats voertuigen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kiepwagen werkend op een bouwplaats – kinderen' },
+    en: { title: 'Dump Truck Working at a Construction Site', description: 'Free coloring page of dump truck working at a construction site. Cool vehicle coloring page for kids.', keywords: 'dump truck working at a construction site vehicle coloring page free kids', altText: 'Free coloring page dump truck working at a construction site – kids' },
+    fr: { title: 'Camion-benne Travaillant sur un Chantier', description: 'Page à colorier gratuite de camion-benne travaillant sur un chantier. Coloriage de véhicule pour les enfants.', keywords: 'camion-benne travaillant sur un chantier coloriage véhicule gratuit enfants', altText: 'Page à colorier camion-benne travaillant sur un chantier – enfants' },
+    es: { title: 'Camión Volquete Trabajando en una Obra', description: 'Página para colorear gratis de camión volquete trabajando en una obra. Colorear vehículos para niños.', keywords: 'camión volquete trabajando en una obra colorear vehículos gratis niños', altText: 'Página para colorear camión volquete trabajando en una obra – niños' },
+    zh: { title: '在建筑工地工作的自卸卡车', description: '免费在建筑工地工作的自卸卡车涂色页，适合儿童的交通工具涂色。', keywords: '在建筑工地工作的自卸卡车 交通工具涂色 免费儿童', altText: '免费涂色页 在建筑工地工作的自卸卡车 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count

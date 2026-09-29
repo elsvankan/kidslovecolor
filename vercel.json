@@ -2461,6 +2461,26 @@
       "destination": "/kleurplaat/friendly-dragon-flying-over-mountains/index.html"
     },
     {
+      "source": "/kleurplaat/dinosaur-wearing-a-halloween-costume",
+      "destination": "/kleurplaat/dinosaur-wearing-a-halloween-costume/index.html"
+    },
+    {
+      "source": "/kleurplaat/unicorn-themed-mandala",
+      "destination": "/kleurplaat/unicorn-themed-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/dinosaur-themed-mandala",
+      "destination": "/kleurplaat/dinosaur-themed-mandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/rocket-flying-past-saturns-rings",
+      "destination": "/kleurplaat/rocket-flying-past-saturns-rings/index.html"
+    },
+    {
+      "source": "/kleurplaat/dump-truck-working-at-a-construction-site",
+      "destination": "/kleurplaat/dump-truck-working-at-a-construction-site/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
