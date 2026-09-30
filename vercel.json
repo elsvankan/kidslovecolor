@@ -2481,6 +2481,22 @@
       "destination": "/kleurplaat/dump-truck-working-at-a-construction-site/index.html"
     },
     {
+      "source": "/kleurplaat/family-relaxing-in-hammocks-on-a-tropical-island",
+      "destination": "/kleurplaat/family-relaxing-in-hammocks-on-a-tropical-island/index.html"
+    },
+    {
+      "source": "/kleurplaat/austrian-alpine-village-with-snowy-mountains-and-wooden-chalets",
+      "destination": "/kleurplaat/austrian-alpine-village-with-snowy-mountains-and-wooden-chalets/index.html"
+    },
+    {
+      "source": "/kleurplaat/caribbean-island-beach-with-palm-trees-and-colorful-houses",
+      "destination": "/kleurplaat/caribbean-island-beach-with-palm-trees-and-colorful-houses/index.html"
+    },
+    {
+      "source": "/kleurplaat/child-skiing-down-a-mountain-slope-in-the-alps",
+      "destination": "/kleurplaat/child-skiing-down-a-mountain-slope-in-the-alps/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }

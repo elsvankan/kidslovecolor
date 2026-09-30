@@ -6275,6 +6275,43 @@ const COLORINGS = [
     zh: { title: '在建筑工地工作的自卸卡车', description: '免费在建筑工地工作的自卸卡车涂色页，适合儿童的交通工具涂色。', keywords: '在建筑工地工作的自卸卡车 交通工具涂色 免费儿童', altText: '免费涂色页 在建筑工地工作的自卸卡车 – 儿童' },
   },
 
+  {
+    id: 652, slug: 'family-relaxing-in-hammocks-on-a-tropical-island', category: 'natuur', difficulty: 'easy',
+    img: '../img/kleurplaten/natuur--easy--family-relaxing-in-hammocks-on-a-tropical-island.jpg',
+    nl: { title: 'Gezin dat Ontspant in Hangmatten op een Tropisch Eiland', description: 'Gratis natuurkleurplaat van gezin dat ontspant in hangmatten op een tropisch eiland. Prachtig kleurplaatje voor kinderen.', keywords: 'gezin dat ontspant in hangmatten op een tropisch eiland natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat gezin dat ontspant in hangmatten op een tropisch eiland – kinderen' },
+    en: { title: 'Family Relaxing in Hammocks on a Tropical Island', description: 'Free nature coloring page of family relaxing in hammocks on a tropical island. Beautiful coloring page for kids.', keywords: 'family relaxing in hammocks on a tropical island nature coloring page free kids', altText: 'Free coloring page family relaxing in hammocks on a tropical island – kids' },
+    fr: { title: 'Famille se Détendant dans des Hamacs sur une Île Tropicale', description: 'Page à colorier nature gratuite de famille se détendant dans des hamacs sur une île tropicale. Magnifique coloriage pour les enfants.', keywords: 'famille se détendant dans des hamacs sur une île tropicale coloriage nature gratuit enfants', altText: 'Page à colorier famille se détendant dans des hamacs sur une île tropicale – enfants' },
+    es: { title: 'Familia Relajándose en Hamacas en una Isla Tropical', description: 'Página para colorear naturaleza gratis de familia relajándose en hamacas en una isla tropical. Hermoso colorear para niños.', keywords: 'familia relajándose en hamacas en una isla tropical colorear naturaleza gratis niños', altText: 'Página para colorear familia relajándose en hamacas en una isla tropical – niños' },
+    zh: { title: '在热带岛屿吊床上放松的一家人', description: '免费自然在热带岛屿吊床上放松的一家人涂色页，适合儿童的自然涂色。', keywords: '在热带岛屿吊床上放松的一家人 自然涂色 免费儿童', altText: '免费涂色页 在热带岛屿吊床上放松的一家人 – 儿童' },
+  },
+  {
+    id: 653, slug: 'austrian-alpine-village-with-snowy-mountains-and-wooden-chalets', category: 'natuur', difficulty: 'medium',
+    img: '../img/kleurplaten/natuur--medium--austrian-alpine-village-with-snowy-mountains-and-wooden-chalets.jpg',
+    nl: { title: 'Oostenrijks Alpendorp met Besneeuwde Bergen en Houten Chalets', description: 'Gratis natuurkleurplaat van oostenrijks alpendorp met besneeuwde bergen en houten chalets. Prachtig kleurplaatje voor kinderen.', keywords: 'oostenrijks alpendorp met besneeuwde bergen en houten chalets natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat oostenrijks alpendorp met besneeuwde bergen en houten chalets – kinderen' },
+    en: { title: 'Austrian Alpine Village With Snowy Mountains and Wooden Chalets', description: 'Free nature coloring page of austrian alpine village with snowy mountains and wooden chalets. Beautiful coloring page for kids.', keywords: 'austrian alpine village with snowy mountains and wooden chalets nature coloring page free kids', altText: 'Free coloring page austrian alpine village with snowy mountains and wooden chalets – kids' },
+    fr: { title: 'Village Alpin Autrichien avec des Montagnes Enneigées et des Chalets en Bois', description: 'Page à colorier nature gratuite de village alpin autrichien avec des montagnes enneigées et des chalets en bois. Magnifique coloriage pour les enfants.', keywords: 'village alpin autrichien avec des montagnes enneigées et des chalets en bois coloriage nature gratuit enfants', altText: 'Page à colorier village alpin autrichien avec des montagnes enneigées et des chalets en bois – enfants' },
+    es: { title: 'Pueblo Alpino Austriaco con Montañas Nevadas y Cabañas de Madera', description: 'Página para colorear naturaleza gratis de pueblo alpino austriaco con montañas nevadas y cabañas de madera. Hermoso colorear para niños.', keywords: 'pueblo alpino austriaco con montañas nevadas y cabañas de madera colorear naturaleza gratis niños', altText: 'Página para colorear pueblo alpino austriaco con montañas nevadas y cabañas de madera – niños' },
+    zh: { title: '有雪山和木屋的奥地利阿尔卑斯村庄', description: '免费自然有雪山和木屋的奥地利阿尔卑斯村庄涂色页，适合儿童的自然涂色。', keywords: '有雪山和木屋的奥地利阿尔卑斯村庄 自然涂色 免费儿童', altText: '免费涂色页 有雪山和木屋的奥地利阿尔卑斯村庄 – 儿童' },
+  },
+  {
+    id: 654, slug: 'caribbean-island-beach-with-palm-trees-and-colorful-houses', category: 'natuur', difficulty: 'medium',
+    img: '../img/kleurplaten/natuur--medium--caribbean-island-beach-with-palm-trees-and-colorful-houses.jpg',
+    nl: { title: 'Caribisch Eilandstrand met Palmbomen en Kleurrijke Huisjes', description: 'Gratis natuurkleurplaat van caribisch eilandstrand met palmbomen en kleurrijke huisjes. Prachtig kleurplaatje voor kinderen.', keywords: 'caribisch eilandstrand met palmbomen en kleurrijke huisjes natuur kleurplaat gratis kinderen', altText: 'Gratis kleurplaat caribisch eilandstrand met palmbomen en kleurrijke huisjes – kinderen' },
+    en: { title: 'Caribbean Island Beach With Palm Trees and Colorful Houses', description: 'Free nature coloring page of caribbean island beach with palm trees and colorful houses. Beautiful coloring page for kids.', keywords: 'caribbean island beach with palm trees and colorful houses nature coloring page free kids', altText: 'Free coloring page caribbean island beach with palm trees and colorful houses – kids' },
+    fr: { title: 'Plage d\'une Île des Caraïbes avec des Palmiers et des Maisons Colorées', description: 'Page à colorier nature gratuite de plage d\'une île des caraïbes avec des palmiers et des maisons colorées. Magnifique coloriage pour les enfants.', keywords: 'plage d\'une île des caraïbes avec des palmiers et des maisons colorées coloriage nature gratuit enfants', altText: 'Page à colorier plage d\'une île des caraïbes avec des palmiers et des maisons colorées – enfants' },
+    es: { title: 'Playa de una Isla Caribeña con Palmeras y Casas Coloridas', description: 'Página para colorear naturaleza gratis de playa de una isla caribeña con palmeras y casas coloridas. Hermoso colorear para niños.', keywords: 'playa de una isla caribeña con palmeras y casas coloridas colorear naturaleza gratis niños', altText: 'Página para colorear playa de una isla caribeña con palmeras y casas coloridas – niños' },
+    zh: { title: '有棕榈树和彩色房屋的加勒比海岛海滩', description: '免费自然有棕榈树和彩色房屋的加勒比海岛海滩涂色页，适合儿童的自然涂色。', keywords: '有棕榈树和彩色房屋的加勒比海岛海滩 自然涂色 免费儿童', altText: '免费涂色页 有棕榈树和彩色房屋的加勒比海岛海滩 – 儿童' },
+  },
+  {
+    id: 655, slug: 'child-skiing-down-a-mountain-slope-in-the-alps', category: 'seizoenen', difficulty: 'easy',
+    img: '../img/kleurplaten/seizoenen--easy--child-skiing-down-a-mountain-slope-in-the-alps.jpg',
+    nl: { title: 'Kind dat een Berghelling Afskiet in de Alpen', description: 'Gratis seizoenskleurplaat van kind dat een berghelling afskiet in de alpen. Kleurrijke kleurplaat voor kinderen.', keywords: 'kind dat een berghelling afskiet in de alpen seizoenen kleurplaat gratis kinderen', altText: 'Gratis kleurplaat kind dat een berghelling afskiet in de alpen – kinderen' },
+    en: { title: 'Child Skiing Down a Mountain Slope in the Alps', description: 'Free seasonal coloring page of child skiing down a mountain slope in the alps. Colorful coloring page for kids.', keywords: 'child skiing down a mountain slope in the alps seasonal coloring page free kids', altText: 'Free coloring page child skiing down a mountain slope in the alps – kids' },
+    fr: { title: 'Enfant Skiant sur une Pente de Montagne dans les Alpes', description: 'Page à colorier saisons gratuite de enfant skiant sur une pente de montagne dans les alpes. Coloriage coloré pour les enfants.', keywords: 'enfant skiant sur une pente de montagne dans les alpes coloriage saisons gratuit enfants', altText: 'Page à colorier enfant skiant sur une pente de montagne dans les alpes – enfants' },
+    es: { title: 'Niño Esquiando por una Pendiente de Montaña en los Alpes', description: 'Página para colorear estaciones gratis de niño esquiando por una pendiente de montaña en los alpes. Colorear colorido para niños.', keywords: 'niño esquiando por una pendiente de montaña en los alpes colorear estaciones gratis niños', altText: 'Página para colorear niño esquiando por una pendiente de montaña en los alpes – niños' },
+    zh: { title: '在阿尔卑斯山滑雪下坡的孩子', description: '免费季节在阿尔卑斯山滑雪下坡的孩子涂色页，适合儿童的彩色涂色。', keywords: '在阿尔卑斯山滑雪下坡的孩子 季节涂色 免费儿童', altText: '免费涂色页 在阿尔卑斯山滑雪下坡的孩子 – 儿童' },
+  },
+
 ];
 
 // Expose on window so inline scripts can access the count
