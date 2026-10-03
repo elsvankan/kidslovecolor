@@ -53,6 +53,10 @@
   ],
   "rewrites": [
     {
+      "source": "/img/kleurplaten/:path*",
+      "destination": "https://media.kidslovecolor.com/img/kleurplaten/:path*"
+    },
+    {
       "source": "/en",
       "destination": "/en/index.html"
     },
@@ -2497,8 +2501,210 @@
       "destination": "/kleurplaat/child-skiing-down-a-mountain-slope-in-the-alps/index.html"
     },
     {
+      "source": "/kleurplaat/oktober-vos",
+      "destination": "/kleurplaat/oktober-vos/index.html"
+    },
+    {
+      "source": "/kleurplaat/capibara-theepicknick",
+      "destination": "/kleurplaat/capibara-theepicknick/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-axolotl-ruimtereis",
+      "destination": "/kleurplaat/kawaii-axolotl-ruimtereis/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-vleermuis-bakkerij",
+      "destination": "/kleurplaat/halloween-vleermuis-bakkerij/index.html"
+    },
+    {
+      "source": "/kleurplaat/november-lampionnen",
+      "destination": "/kleurplaat/november-lampionnen/index.html"
+    },
+    {
+      "source": "/kleurplaat/kpop-dansvriendinnen",
+      "destination": "/kleurplaat/kpop-dansvriendinnen/index.html"
+    },
+    {
+      "source": "/kleurplaat/novembre-parijs",
+      "destination": "/kleurplaat/novembre-parijs/index.html"
+    },
+    {
+      "source": "/kleurplaat/noviembre-chili",
+      "destination": "/kleurplaat/noviembre-chili/index.html"
+    },
+    {
+      "source": "/kleurplaat/november-nieuwzeeland",
+      "destination": "/kleurplaat/november-nieuwzeeland/index.html"
+    },
+    {
+      "source": "/kleurplaat/elf-maand-shanghai",
+      "destination": "/kleurplaat/elf-maand-shanghai/index.html"
+    },
+    {
+      "source": "/kleurplaat/octobre-canada",
+      "destination": "/kleurplaat/octobre-canada/index.html"
+    },
+    {
+      "source": "/kleurplaat/octubre-argentinie",
+      "destination": "/kleurplaat/octubre-argentinie/index.html"
+    },
+    {
+      "source": "/kleurplaat/october-egel",
+      "destination": "/kleurplaat/october-egel/index.html"
+    },
+    {
+      "source": "/kleurplaat/tien-maand-taiwan",
+      "destination": "/kleurplaat/tien-maand-taiwan/index.html"
+    },
+    {
+      "source": "/kleurplaat/sint-maarten-pompoenlampion",
+      "destination": "/kleurplaat/sint-maarten-pompoenlampion/index.html"
+    },
+    {
+      "source": "/kleurplaat/diwali-rangoli",
+      "destination": "/kleurplaat/diwali-rangoli/index.html"
+    },
+    {
+      "source": "/kleurplaat/dia-muertos-bloemen",
+      "destination": "/kleurplaat/dia-muertos-bloemen/index.html"
+    },
+    {
+      "source": "/kleurplaat/sinterklaas-stoomboot",
+      "destination": "/kleurplaat/sinterklaas-stoomboot/index.html"
+    },
+    {
+      "source": "/kleurplaat/sinterklaas-schoentje",
+      "destination": "/kleurplaat/sinterklaas-schoentje/index.html"
+    },
+    {
+      "source": "/kleurplaat/pepernoten-bakken",
+      "destination": "/kleurplaat/pepernoten-bakken/index.html"
+    },
+    {
+      "source": "/kleurplaat/kerst-rode-panda",
+      "destination": "/kleurplaat/kerst-rode-panda/index.html"
+    },
+    {
+      "source": "/kleurplaat/kerst-konijnen-post",
+      "destination": "/kleurplaat/kerst-konijnen-post/index.html"
+    },
+    {
+      "source": "/kleurplaat/kerst-pinguin-schaatsen",
+      "destination": "/kleurplaat/kerst-pinguin-schaatsen/index.html"
+    },
+    {
+      "source": "/kleurplaat/kerst-koala-zomer",
+      "destination": "/kleurplaat/kerst-koala-zomer/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-spook-kampvuur",
+      "destination": "/kleurplaat/halloween-spook-kampvuur/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-pompoen-trein",
+      "destination": "/kleurplaat/halloween-pompoen-trein/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-uil-bibliotheek",
+      "destination": "/kleurplaat/halloween-uil-bibliotheek/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-konijn-kostuum",
+      "destination": "/kleurplaat/halloween-konijn-kostuum/index.html"
+    },
+    {
+      "source": "/kleurplaat/halloween-spinnen-thee",
+      "destination": "/kleurplaat/halloween-spinnen-thee/index.html"
+    },
+    {
+      "source": "/kleurplaat/herfst-eekhoorn-boomhut",
+      "destination": "/kleurplaat/herfst-eekhoorn-boomhut/index.html"
+    },
+    {
+      "source": "/kleurplaat/herfst-otter-regenlaarzen",
+      "destination": "/kleurplaat/herfst-otter-regenlaarzen/index.html"
+    },
+    {
+      "source": "/kleurplaat/herfst-das-soep",
+      "destination": "/kleurplaat/herfst-das-soep/index.html"
+    },
+    {
+      "source": "/kleurplaat/herfst-bosmandala",
+      "destination": "/kleurplaat/herfst-bosmandala/index.html"
+    },
+    {
+      "source": "/kleurplaat/capibara-kapsalon",
+      "destination": "/kleurplaat/capibara-kapsalon/index.html"
+    },
+    {
+      "source": "/kleurplaat/axolotl-bubbletea",
+      "destination": "/kleurplaat/axolotl-bubbletea/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-kikker-dagboek",
+      "destination": "/kleurplaat/kawaii-kikker-dagboek/index.html"
+    },
+    {
+      "source": "/kleurplaat/kawaii-robot-tuin",
+      "destination": "/kleurplaat/kawaii-robot-tuin/index.html"
+    },
+    {
+      "source": "/kleurplaat/manga-sterrenmeisje",
+      "destination": "/kleurplaat/manga-sterrenmeisje/index.html"
+    },
+    {
+      "source": "/kleurplaat/kpop-jongens-band",
+      "destination": "/kleurplaat/kpop-jongens-band/index.html"
+    },
+    {
+      "source": "/kleurplaat/fantasie-paddenstoelenhuis",
+      "destination": "/kleurplaat/fantasie-paddenstoelenhuis/index.html"
+    },
+    {
+      "source": "/kleurplaat/fantasie-eenhoorn-bibliotheek",
+      "destination": "/kleurplaat/fantasie-eenhoorn-bibliotheek/index.html"
+    },
+    {
+      "source": "/kleurplaat/blokwereld-boerderij",
+      "destination": "/kleurplaat/blokwereld-boerderij/index.html"
+    },
+    {
+      "source": "/kleurplaat/blokwereld-boomhut",
+      "destination": "/kleurplaat/blokwereld-boomhut/index.html"
+    },
+    {
+      "source": "/kleurplaat/voetbal-keeper",
+      "destination": "/kleurplaat/voetbal-keeper/index.html"
+    },
+    {
+      "source": "/kleurplaat/meisjes-skatepark",
+      "destination": "/kleurplaat/meisjes-skatepark/index.html"
+    },
+    {
+      "source": "/kleurplaat/dino-fossielenclub",
+      "destination": "/kleurplaat/dino-fossielenclub/index.html"
+    },
+    {
+      "source": "/kleurplaat/ruimte-maantuin",
+      "destination": "/kleurplaat/ruimte-maantuin/index.html"
+    },
+    {
+      "source": "/kleurplaat/oceaan-zeepaardjes",
+      "destination": "/kleurplaat/oceaan-zeepaardjes/index.html"
+    },
+    {
+      "source": "/kleurplaat/retro-speelgoedfeest",
+      "destination": "/kleurplaat/retro-speelgoedfeest/index.html"
+    },
+    {
+      "source": "/kleurplaat/dieren-circus-bellen",
+      "destination": "/kleurplaat/dieren-circus-bellen/index.html"
+    },
+    {
       "source": "/kleurplaat/(.*)",
       "destination": "/index.html"
     }
-  ]
+  ],
+  "buildCommand": "node scripts/build-static.cjs",
+  "outputDirectory": "dist"
 }
