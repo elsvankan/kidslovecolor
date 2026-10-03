@@ -15,6 +15,10 @@ The site stays on Vercel. Coloring originals and matching thumbnails live in the
 
 Do not enable the old Daily Coloring Pages Magnific workflow. Image generation is handled separately by the approved Codex automation. Never put credentials in source or output logs.
 
+## Mandala quality rule
+
+Every mandala must fit completely on one flat white A4 page, including every outer petal, point and decoration. Keep at least 6% of page width as pure white safety margin on both sides, plus suitable top and bottom printer margins. Never crop the pattern or allow stray elements to run off the page. No simulated scan, paper edge, second page, fold, curl, shadow, texture, perspective, table, hands or scan marks. Use crisp black outlines on uniform white. Inspect the complete artwork at full size before publication; margin measurements alone are not sufficient. Repair or regenerate incomplete artwork before placing it on a print canvas. Preserve originals and use versioned asset filenames when replacing published artwork.
+
 ## Verified first publication
 
 On 3 October 2026, 50 reviewed new coloring pages and the corrected safari artwork were published. R2 synchronization verified 179 uploaded files and 1,142 unchanged files. The compact static build was about 18 MB. The deployment and all 50 new detail pages, originals and thumbnails were checked successfully.
