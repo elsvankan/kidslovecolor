@@ -21,7 +21,7 @@ const coloringsMatch = dataRaw.match(/const COLORINGS\s*=\s*(\[[\s\S]*?\n\];)/);
 if (!coloringsMatch) { console.error('COLORINGS not found'); process.exit(1); }
 const COLORINGS = eval(coloringsMatch[1]);
 
-const BASE_URL = 'https://kidslovecolor.com';
+const BASE_URL = 'https://www.kidslovecolor.com';
 const outDir = path.join(__dirname, 'kleurplaat');
 const newOnly = process.argv.includes('--new-only');
 const requestedSlugs = new Set(
@@ -57,6 +57,7 @@ for (const page of COLORINGS) {
 
   const categoryName = categoryNames[category] || category;
   const difficultyName = difficultyNames[page.difficulty] || page.difficulty;
+  const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: nl.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${slug}-kidslovecolor.pdf` }).replace(/</g, '\\u003c');
   const breadcrumb = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -183,10 +184,12 @@ for (const page of COLORINGS) {
         <p class="lead">${escapeHtml(desc)}</p>
         <div class="badges"><span class="badge">${categoryName}</span><span class="badge">${difficultyName}</span><span class="badge">A4 · 1055 × 1491 px</span></div>
         <div class="actions">
-          <button class="button button-primary" type="button" onclick="window.print()">Print deze kleurplaat</button>
-          <a class="button button-secondary" href="${imgPath}" download>Download als JPG</a>
+          <button class="button button-primary" id="detailPrint" type="button">Print deze kleurplaat</button>
+          <button class="button button-secondary" id="detailPdf" type="button">Download PDF</button>
+          <a class="button button-secondary" id="detailDownload" href="${imgPath}" download>Download als JPG</a>
           <a class="button button-secondary" href="/?kleurplaat=${slug}">Open in de kleurplatengalerij</a>
         </div>
+        <p id="actionStatus" role="status" aria-live="polite"></p>
         <aside class="trust-note">
           <strong>Zelf kiezen en meteen printen</strong>
           <p>KidsLoveColor is intuïtief en reclamevrij. Kinderen kunnen zelf een kleurplaat uitzoeken en veilig printen.</p>
@@ -196,6 +199,8 @@ for (const page of COLORINGS) {
     </article>
   </main>
   <footer>© KidsLoveColor · Gratis kleurplaten voor thuis en op school</footer>
+  <script type="application/json" id="coloringPageData">${actionData}</script>
+  <script src="/js/coloring-detail.js" defer></script>
 </body>
 </html>`;
 

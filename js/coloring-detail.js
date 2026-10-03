@@ -61,7 +61,7 @@
       '<title>' + escapeAttribute(PAGE.title) + ' – KidsLoveColor</title>' +
       '<style>@page{size:' + pageSize + ';margin:0}*{box-sizing:border-box;margin:0;padding:0}' +
       'html,body{background:#fff;height:' + paperHeight + ';overflow:hidden;width:' + paperWidth + '}' +
-      'img{display:block;height:' + paperHeight + ';object-fit:contain;width:' + paperWidth + '}</style></head>' +
+      'body{padding:8mm}img{display:block;height:100%;object-fit:contain;width:100%}</style></head>' +
       '<body><img src="' + escapeAttribute(absoluteImageUrl()) + '" alt="' + escapeAttribute(PAGE.alt) + '"/>' +
       '<script>var i=document.querySelector("img");function p(){window.print();window.onafterprint=function(){window.close()}}' +
       'if(i.complete){p()}else{i.onload=p}<\/script></body></html>'
@@ -103,7 +103,13 @@
       });
       var isLandscape = PAGE.orientation === 'landscape';
       var doc = new jspdf.jsPDF({orientation: isLandscape ? 'landscape' : 'portrait', unit: 'mm', format: 'a4'});
-      doc.addImage(dataUrl, 'JPEG', 0, 0, isLandscape ? 297 : 210, isLandscape ? 210 : 297);
+      var imageSize = doc.getImageProperties(dataUrl);
+      var pageWidth = isLandscape ? 297 : 210;
+      var pageHeight = isLandscape ? 210 : 297;
+      var scale = Math.min((pageWidth - 16) / imageSize.width, (pageHeight - 16) / imageSize.height);
+      var imageWidth = imageSize.width * scale;
+      var imageHeight = imageSize.height * scale;
+      doc.addImage(dataUrl, 'JPEG', (pageWidth - imageWidth) / 2, (pageHeight - imageHeight) / 2, imageWidth, imageHeight);
       doc.save(PAGE.pdfFilename || (PAGE.slug + '-kidslovecolor.pdf'));
       track('coloring_download', {download_format: 'pdf'});
       setStatus('Je PDF is gedownload. Veel kleurplezier!');
