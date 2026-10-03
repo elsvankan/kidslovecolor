@@ -489,6 +489,16 @@ const CATEGORIES = {
     slug_en: 'professions',
   },
 
+  sport: {
+    nl: { label: 'Sport', pageTitle: 'Sport Kleurplaten – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis sportkleurplaten met voetbal en skateboarden.', h2: 'Sport Kleurplaten', intro: 'Kleur sportieve avonturen met voetbal en skateboarden.' },
+    en: { label: 'Sports', pageTitle: 'Sports Coloring Pages – Free Printable | KidsLoveColor.com', metaDesc: 'Free sports coloring pages with soccer and skateboarding.', h2: 'Sports Coloring Pages', intro: 'Color sporting adventures with soccer and skateboarding.' },
+    fr: { label: 'Sport', pageTitle: 'Coloriages Sport – Gratuits à Imprimer | KidsLoveColor.com', metaDesc: 'Coloriages gratuits de football et de skateboard.', h2: 'Coloriages Sport', intro: 'Coloriez des aventures sportives avec le football et le skateboard.' },
+    es: { label: 'Deportes', pageTitle: 'Dibujos de Deportes para Colorear – Gratis | KidsLoveColor.com', metaDesc: 'Dibujos gratuitos de fútbol y skateboard para colorear.', h2: 'Dibujos de Deportes', intro: 'Colorea aventuras deportivas de fútbol y skateboard.' },
+    zh: { label: '运动', pageTitle: '运动涂色页——免费打印 | KidsLoveColor.com', metaDesc: '免费足球和滑板运动涂色页。', h2: '运动涂色页', intro: '为足球和滑板运动冒险涂色。' },
+    icon: '⚽',
+    slug_en: 'sports',
+  },
+
   manga: {
     nl: { label: 'Manga', pageTitle: 'Manga Kleurplaten voor Kinderen en Tieners – Gratis Printbaar | KidsLoveColor.com', metaDesc: 'Gratis printbare manga kleurplaten met expressieve personages, hobby\'s, sport, muziek en fantasie. Rustige lijnkunst om direct te printen.', h2: 'Manga Kleurplaten – Gratis Printbaar', intro: 'Ontdek manga-kleurplaten met expressieve personages, leuke hobby’s en een vleugje fantasie. Heldere lijnkunst, rustige achtergronden en volop ruimte om zelf kleuren te kiezen.' },
     en: { label: 'Manga', pageTitle: 'Manga Coloring Pages for Kids and Teens – Free Printable | KidsLoveColor.com', metaDesc: 'Free printable manga coloring pages with expressive characters, hobbies, sports, music and fantasy. Clean line art ready to print.', h2: 'Manga Coloring Pages – Free Printable', intro: 'Discover manga coloring pages with expressive characters, fun hobbies and a touch of fantasy. Clean line art, calm backgrounds and plenty of room to choose your own colors.' },

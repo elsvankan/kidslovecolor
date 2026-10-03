@@ -31,7 +31,7 @@ const categoryNames = {
   dieren: 'Dieren', voertuigen: 'Voertuigen', sprookjes: 'Sprookjes',
   ruimte: 'Ruimte', oceaan: 'Oceaan', natuur: 'Natuur', eten: 'Eten',
   beroepen: 'Beroepen', seizoenen: 'Seizoenen', mandala: 'Mandala',
-  actualiteiten: 'Actualiteiten', kawaii: 'Kawaii', prinsessen: 'Prinsessen',
+  actualiteiten: 'Actualiteiten', kawaii: 'Kawaii', prinsessen: 'Prinsessen', sport: 'Sport',
   feestdagen: 'Feestdagen', letters: 'Letters', gezichten: 'Gezichten', manga: 'Manga',
 };
 const difficultyNames = { easy: 'Makkelijk', medium: 'Gemiddeld', hard: 'Uitdagend' };
