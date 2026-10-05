@@ -176,9 +176,10 @@
             <div class="earth-links">
               ${coloring ? `<a class="earth-color-button" href="${pageUrl}">${escapeHtml(ui.openColoring)} <span aria-hidden="true">→</span></a>` : ''}
               ${coloring ? `<a href="${escapeHtml(image)}" download>${escapeHtml(ui.downloadColoring)} ↓</a>` : ''}
-              <a href="${escapeHtml(story.sourceUrl)}" target="_blank" rel="noopener">${escapeHtml(ui.source)}: ${escapeHtml(story.sourceLabel)} ↗</a>
+              ${(story.sources || [{ label: story.sourceLabel, url: story.sourceUrl }]).map((source) => `<a href="${escapeHtml(source.url)}" target="_blank" rel="noopener">${escapeHtml(ui.source)}: ${escapeHtml(source.label)} ↗</a>`).join('')}
               <a href="${escapeHtml(story.referenceUrl)}" target="_blank" rel="noopener">${escapeHtml(ui.reference)} ↗</a>
             </div>
+            ${story.referenceCredit ? `<p class="earth-meta">${escapeHtml(story.referenceCredit)}</p>` : ''}
           </div>
         </article>
       `;

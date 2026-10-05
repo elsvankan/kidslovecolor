@@ -6,6 +6,166 @@
  */
 const WORLD_STORY_EDITIONS = [
   {
+    "published": "2026-10-05",
+    "stories": [
+      {
+        "slug": "paghman-groentetuin-leren",
+        "title": "In deze tuin groeit ook kennis",
+        "location": "Paghman, Afghanistan",
+        "reportedDate": "3 oktober 2026",
+        "theme": "Natuur & leren",
+        "icon": "♧",
+        "intro": "In een dorp bij Kabul leren volwassenen lezen en schrijven én hoe zij groenten kunnen verbouwen.",
+        "body": "Leren kan op allerlei plekken, ook tussen de planten! UNESCO vertelt over een groep volwassenen in Doda Mast, in het district Paghman. Hun begeleider heeft veel ervaring met groenten verbouwen. Die kennis deelt hij tijdens lessen waarin praktische vaardigheden en lezen en schrijven samengaan. Eén deelnemer had een klein stukje grond, maar wist nog niet goed hoe hij het kon gebruiken. Dankzij de lessen groeien er nu groenten. De oogst moet nog komen: het verhaal zegt niet dat alles al geplukt is. Zo kunnen nieuwe vaardigheden stap voor stap bruikbaar worden in het dagelijks leven. De tuin is geen schoolklas voor kinderen; dit bericht gaat juist over volwassenen die blijven leren. Misschien ken jij ook iemand die iets nieuws oefent. Een zaadje verzorgen en een nieuwe vaardigheid leren hebben iets gemeen: ze vragen aandacht, geduld en oefening.",
+        "facts": [
+          "Doda Mast ligt in het district Paghman.",
+          "De lessen verbinden taalvaardigheden met groenten verbouwen.",
+          "De beschreven deelnemer wacht nog op zijn oogst."
+        ],
+        "question": "Wat zou jij graag van iemand met veel ervaring leren?",
+        "sources": [
+          {
+            "label": "UNESCO — bericht uit Paghman",
+            "url": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity"
+          },
+          {
+            "label": "UNESCO — achtergrond: leraren en leren",
+            "url": "https://www.unesco.org/en/days/teachers"
+          }
+        ],
+        "referenceUrl": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity",
+        "referenceCredit": "Tuinfoto: UNESCO Afghanistan / © UNESCO. Geen hergebruiklicentie vermeld; alleen visuele referentie.",
+        "coloringSlug": "paghman-groentetuin-leren",
+        "sourceUrl": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity",
+        "sourceLabel": "UNESCO — bericht uit Paghman"
+      },
+      {
+        "slug": "moquegua-leraren-samen-leren",
+        "title": "Ook toekomstige leraren blijven leren",
+        "location": "Moquegua, Peru",
+        "reportedDate": "1 oktober 2026; bijgewerkt 2 oktober",
+        "theme": "Onderwijs & samenwerking",
+        "icon": "✦",
+        "intro": "Toekomstige leraren uit verschillende delen van Peru kwamen samen om beter te leren onderzoeken.",
+        "body": "Een goede vraag kan het begin zijn van iets nieuws. In september ontmoetten toekomstige leraren en hun opleiders elkaar in Moquegua. UNESCO berichtte er op 1 oktober over. De deelnemers kwamen uit Arequipa, Tacna, Puno, Cusco en Moquegua. Zij oefenden met onderzoek voor het onderwijs: hoe stel je duidelijke vragen en hoe verzamel je bruikbare informatie? Ook deelden zij ervaringen. Onderzoeken betekent niet zomaar raden wat goed werkt, maar zorgvuldig kijken en luisteren. Stel dat je wilt weten welke uitleg een klas helpt. Dan moet je eerst bedenken wat je precies wilt ontdekken. Het bericht beschrijft een leerbijeenkomst, niet dat alle lessen daarna al beter zijn geworden. Op 5 oktober is het Wereldlerarendag. Dat is een mooi moment om ook stil te staan bij het leren van leraren zelf. Want nieuwsgierig blijven is niet alleen iets voor kinderen!",
+        "facts": [
+          "De bijeenkomst vond in september plaats in Moquegua.",
+          "Deelnemers kwamen uit vijf genoemde Peruaanse regio’s.",
+          "Wereldlerarendag is op 5 oktober."
+        ],
+        "question": "Welke vraag zou jij stellen om jouw klas beter te begrijpen?",
+        "sources": [
+          {
+            "label": "UNESCO — bijeenkomst in Moquegua",
+            "url": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua"
+          },
+          {
+            "label": "UNESCO — Wereldlerarendag",
+            "url": "https://www.unesco.org/en/days/teachers"
+          }
+        ],
+        "referenceUrl": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua",
+        "referenceCredit": "Klasfoto: © UNESCO Perú. Geen hergebruiklicentie vermeld; alleen visuele referentie, niet als bewijs van de exacte evenementdatum.",
+        "coloringSlug": "moquegua-leraren-samen-leren",
+        "sourceUrl": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua",
+        "sourceLabel": "UNESCO — bijeenkomst in Moquegua"
+      },
+      {
+        "slug": "macquarie-koningspinguins-zwemmen",
+        "title": "Zwemmende pinguïns schitteren op een foto",
+        "location": "Macquarie-eiland, Australië",
+        "reportedDate": "1 oktober 2026",
+        "theme": "Dieren & fotografie",
+        "icon": "♧",
+        "intro": "Een foto van koningspinguïns onder water won de hoofdprijs van de BirdLife Australia Photography Awards.",
+        "body": "Op land zien pinguïns er heel anders uit dan onder water. Fotograaf Lachlan Hall legde koningspinguïns vast bij Macquarie-eiland. Dat eiland ligt tussen Tasmanië en Antarctica. Zijn foto heet Kings Down Under. Op 1 oktober maakte BirdLife Australia bekend dat dit beeld de hoofdprijs van de jaarlijkse fotowedstrijd won. Er waren meer dan vijfduizend inzendingen. De foto won ook in de categorie vogels in hun landschap. Bij het bekijken kun je letten op de vormen van de vogels en op hun omgeving. Een natuurfoto laat één moment zien; hij vertelt niet vanzelf alles over een dier. Daarom is goed kijken zo leuk. Welke houding zie je, en waar bevindt het dier zich? Onze kleurplaat is een nieuwe illustratie bij het onderwerp, geen kopie van de winnende foto. Je kunt de pinguïns en hun koude zee helemaal zelf kleuren.",
+        "facts": [
+          "De fotograaf van Kings Down Under is Lachlan Hall.",
+          "Macquarie-eiland ligt tussen Tasmanië en Antarctica.",
+          "De wedstrijd ontving meer dan vijfduizend inzendingen."
+        ],
+        "question": "Welk klein detail zou jij zoeken als je een dier fotografeert?",
+        "sources": [
+          {
+            "label": "BirdLife Australia — uitslag",
+            "url": "https://birdlife.org.au/news/announcing-the-winners-of-the-2026-birdlife-australia-photography-awards/"
+          },
+          {
+            "label": "BirdLife — officiële winnaarsgalerij",
+            "url": "https://www.birdlifephotoaward.org.au/gallery-winners-2026"
+          }
+        ],
+        "referenceUrl": "https://www.birdlifephotoaward.org.au/gallery-winners-2026",
+        "referenceCredit": "Kings Down Under: Lachlan Hall, BirdLife Australia Photography Awards. Geen vrije licentie vermeld; alleen visuele referentie, niet kopiëren.",
+        "coloringSlug": "macquarie-koningspinguins-zwemmen",
+        "sourceUrl": "https://birdlife.org.au/news/announcing-the-winners-of-the-2026-birdlife-australia-photography-awards/",
+        "sourceLabel": "BirdLife Australia — uitslag"
+      },
+      {
+        "slug": "saturnus-ringen-ontdekken",
+        "title": "Saturnus staat deze maand mooi aan de hemel",
+        "location": "Wereldwijd; zichtbaarheid verschilt per plek",
+        "reportedDate": "1 oktober 2026",
+        "theme": "Ruimte & ontdekken",
+        "icon": "✧",
+        "intro": "NASA wijst in de oktobertips op Saturnus, de verre planeet met de opvallende ringen.",
+        "body": "Wie naar de avondhemel kijkt, kan meer zien dan sterren. Ook planeten weerkaatsen zonlicht. NASA vertelt dat Saturnus op 4 oktober tegenover de zon aan onze hemel stond. De aarde bevond zich toen tussen de zon en Saturnus. Astronomen noemen dat oppositie. Rond die datum is Saturnus een groot deel van de nacht te bekijken, als het weer en jouw uitzicht meewerken. Niet iedere plek heeft dezelfde omstandigheden. Met alleen je ogen zie je geen grote ring zoals op een tekening; daarvoor is een telescoop nodig. Vraag een volwassene om hulp en kijk met een telescoop nooit naar de zon. Saturnus is de zesde planeet vanaf de zon en bestaat vooral uit gas. De beroemde ringen maken hem gemakkelijk herkenbaar op afbeeldingen. Onze kleurplaat vergroot de planeet zodat je de ringen goed kunt inkleuren. De afstanden zijn niet op schaal.",
+        "facts": [
+          "Saturnus stond op 4 oktober 2026 in oppositie.",
+          "Saturnus is de zesde planeet vanaf de zon.",
+          "Voor het bekijken van de ringen is een telescoop nodig."
+        ],
+        "question": "Wat zou jij willen onderzoeken als je Saturnus van dichtbij kon bekijken?",
+        "sources": [
+          {
+            "label": "NASA JPL — hemel in oktober 2026",
+            "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/"
+          },
+          {
+            "label": "NASA Science — Saturnus",
+            "url": "https://science.nasa.gov/saturn/"
+          }
+        ],
+        "referenceUrl": "https://science.nasa.gov/saturn/",
+        "referenceCredit": "Cassini-foto: NASA / JPL / Space Science Institute. Licentie niet afzonderlijk vermeld op deze pagina; alleen visuele referentie.",
+        "coloringSlug": "saturnus-ringen-ontdekken",
+        "sourceUrl": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+        "sourceLabel": "NASA JPL — hemel in oktober 2026"
+      },
+      {
+        "slug": "windtunnel-vleugel-onderzoek",
+        "title": "Bijzondere verf helpt een vleugel onderzoeken",
+        "location": "Hampton, Virginia, Verenigde Staten",
+        "reportedDate": "2 oktober 2026",
+        "theme": "Techniek & uitvinden",
+        "icon": "⌁",
+        "intro": "NASA-onderzoekers gebruiken speciale verf en camera’s om lucht rond een modelvleugel beter te begrijpen.",
+        "body": "Lucht kun je meestal niet zien. Toch duwt lucht tegen een vliegtuigvleugel. Hoe onderzoek je dat? In een windtunnel bij NASA in Virginia is een modelvleugel getest met bijzondere verf. Een windtunnel is een onderzoeksruimte waar lucht langs een model stroomt. Onder speciale verlichting verandert de helderheid van de verf als de luchtdruk verandert. Snelle camera’s leggen die veranderingen vast. Onderzoekers kunnen zo veel plekken op de vleugel tegelijk bekijken. NASA berichtte op 2 oktober over de proeven. De informatie helpt bij het controleren van computermodellen: kloppen de berekeningen met wat er echt gebeurt? Dat is onderzoek, niet de aankondiging van een nieuw vliegtuig dat al vliegt. Later willen de onderzoekers ook buigzame modellen testen. De kleurplaat laat een vereenvoudigde proefopstelling zien. De echte verf licht op, maar onze tekening blijft helemaal zwart-wit, zodat jij zelf kunt kleuren.",
+        "facts": [
+          "De proeven gebeurden in een windtunnel in Virginia.",
+          "De verf reageert op veranderingen in luchtdruk.",
+          "Snelle camera’s registreren veranderingen in helderheid."
+        ],
+        "question": "Hoe zou jij iets onderzoeken dat je niet met je ogen kunt zien?",
+        "sources": [
+          {
+            "label": "NASA — nieuwe modelvleugelproeven",
+            "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/"
+          },
+          {
+            "label": "NASA — hoe drukgevoelige verf werkt",
+            "url": "https://www.nasa.gov/aeronautics/pressure-sensitive-paint-2025/"
+          }
+        ],
+        "referenceUrl": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "referenceCredit": "Proeffoto’s: links NASA / Sarah Peak; rechts NASA. Geen afzonderlijke licentie vermeld; alleen visuele referentie.",
+        "coloringSlug": "windtunnel-vleugel-onderzoek",
+        "sourceUrl": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "sourceLabel": "NASA — nieuwe modelvleugelproeven"
+      }
+    ]
+  },
+  {
     published: '2026-09-21',
     stories: [
       {

@@ -957,3 +957,518 @@ const WORLD_ARCHIVE_UI = {
     reference: '参考照片',
   },
 };
+Object.assign(WORLD_STORY_TRANSLATIONS.en, {
+  "paghman-groentetuin-leren": {
+    "title": "Knowledge grows in this garden",
+    "location": "Paghman, Afghanistan",
+    "reportedDate": "3 October 2026",
+    "theme": "Nature & learning",
+    "intro": "Adults near Kabul are learning literacy skills and how to grow vegetables.",
+    "body": "UNESCO describes lessons in Doda Mast, Paghman, combining reading and writing with practical gardening. An experienced facilitator shares his knowledge. One learner previously did not know how to use his small plot; vegetables are now growing there. The harvest is still ahead, not already completed. This story concerns adults, not a children's class. Learning a skill, like caring for a seedling, takes attention, patience and practice. It is one local example, not a claim that everyone has equal access to education.",
+    "facts": [
+      "Doda Mast is in Paghman district.",
+      "The lessons combine literacy and vegetable growing.",
+      "The featured learner is still waiting for his harvest."
+    ],
+    "question": "What would you like to learn from someone with experience?",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "Background / official details"
+      }
+    ],
+    "referenceCredit": "Photo credits and usage limitations are recorded in the edition. Visual reference only; do not copy."
+  },
+  "moquegua-leraren-samen-leren": {
+    "title": "Future teachers keep learning too",
+    "location": "Moquegua, Peru",
+    "reportedDate": "1 October 2026; updated 2 October",
+    "theme": "Education & cooperation",
+    "intro": "Future teachers from several parts of Peru met to improve their research skills.",
+    "body": "The meeting took place in September; UNESCO reported it on 1 October. Participants came from Arequipa, Tacna, Puno, Cusco and Moquegua. They practised designing research tools and shared experiences. Research starts with clear questions and careful observation, rather than guessing what helps a class. The report describes a learning meeting, not proof that every lesson has already improved. World Teachers' Day on 5 October is a chance to remember that teachers keep learning too.",
+    "facts": [
+      "The meeting took place in Moquegua in September.",
+      "Participants came from five named Peruvian regions.",
+      "World Teachers' Day is on 5 October."
+    ],
+    "question": "What question would help you understand your classroom better?",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "Background / official details"
+      }
+    ],
+    "referenceCredit": "Photo credits and usage limitations are recorded in the edition. Visual reference only; do not copy."
+  },
+  "macquarie-koningspinguins-zwemmen": {
+    "title": "Swimming penguins shine in a photograph",
+    "location": "Macquarie Island, Australia",
+    "reportedDate": "1 October 2026",
+    "theme": "Animals & photography",
+    "intro": "An underwater photograph of king penguins won BirdLife Australia's top photography award.",
+    "body": "Lachlan Hall photographed king penguins near Macquarie Island, between Tasmania and Antarctica. His picture, Kings Down Under, won the top award announced on 1 October and the Birds in the Landscape category. There were more than five thousand entries. A photograph captures one moment, not everything about an animal. Look closely at the birds' shapes and surroundings. Our coloring page is a new illustration inspired by the topic, not a copy of the winning photograph.",
+    "facts": [
+      "Lachlan Hall took Kings Down Under.",
+      "Macquarie Island lies between Tasmania and Antarctica.",
+      "The competition received more than five thousand entries."
+    ],
+    "question": "What small detail would you look for when photographing an animal?",
+    "sources": [
+      {
+        "url": "https://birdlife.org.au/news/announcing-the-winners-of-the-2026-birdlife-australia-photography-awards/",
+        "label": "BirdLife Australia"
+      },
+      {
+        "url": "https://www.birdlifephotoaward.org.au/gallery-winners-2026",
+        "label": "Background / official details"
+      }
+    ],
+    "referenceCredit": "Photo credits and usage limitations are recorded in the edition. Visual reference only; do not copy."
+  },
+  "saturnus-ringen-ontdekken": {
+    "title": "A good month to look for Saturn",
+    "location": "Worldwide; visibility varies by location",
+    "reportedDate": "1 October 2026",
+    "theme": "Space & discovery",
+    "intro": "NASA's October sky guide highlights Saturn, the distant planet with striking rings.",
+    "body": "Saturn reached opposition on 4 October: Earth was between the Sun and Saturn. Around that date the planet can be seen for much of the night, depending on weather and your view. Its rings need a telescope; they do not look huge to the unaided eye. Ask an adult for help and never point a telescope at the Sun. Saturn is the sixth planet from the Sun and is mostly gas. Our illustration enlarges the planet for coloring; distances are not to scale.",
+    "facts": [
+      "Saturn reached opposition on 4 October 2026.",
+      "Saturn is the sixth planet from the Sun.",
+      "A telescope is needed to see the rings."
+    ],
+    "question": "What would you investigate if you could look closely at Saturn?",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+        "label": "NASA JPL"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/",
+        "label": "Background / official details"
+      }
+    ],
+    "referenceCredit": "Photo credits and usage limitations are recorded in the edition. Visual reference only; do not copy."
+  },
+  "windtunnel-vleugel-onderzoek": {
+    "title": "Special paint helps scientists study a wing",
+    "location": "Hampton, Virginia, United States",
+    "reportedDate": "2 October 2026",
+    "theme": "Technology & invention",
+    "intro": "NASA researchers use special paint and cameras to study air around a model wing.",
+    "body": "In a wind tunnel, air flows past a model. Under special light, pressure-sensitive paint changes brightness as air pressure changes. Fast cameras record this at many points on the wing. NASA reported the tests on 2 October. The measurements help check computer models, not announce an aircraft already flying. Flexible models are planned for later tests. Our coloring page shows a simplified experiment: the real paint glows, but the illustration stays black and white for you to color.",
+    "facts": [
+      "The tests took place in a Virginia wind tunnel.",
+      "The paint responds to changes in air pressure.",
+      "Fast cameras record changes in brightness."
+    ],
+    "question": "How would you investigate something your eyes cannot see?",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "label": "NASA"
+      },
+      {
+        "url": "https://www.nasa.gov/aeronautics/pressure-sensitive-paint-2025/",
+        "label": "Background / official details"
+      }
+    ],
+    "referenceCredit": "Photo credits and usage limitations are recorded in the edition. Visual reference only; do not copy."
+  }
+});
+
+Object.assign(WORLD_STORY_TRANSLATIONS.fr, {
+  "paghman-groentetuin-leren": {
+    "title": "Le savoir pousse aussi au potager",
+    "location": "Paghman, Afghanistan",
+    "reportedDate": "3 octobre 2026",
+    "theme": "Nature et apprentissage",
+    "intro": "Près de Kaboul, des adultes apprennent à lire, à écrire et à cultiver des légumes.",
+    "body": "À Doda Mast, dans le district de Paghman, un formateur expérimenté partage ses connaissances du jardinage. Les cours associent compétences pratiques, lecture et écriture. Un participant ne savait pas utiliser sa petite parcelle ; des légumes y poussent maintenant. La récolte reste à venir. Il s'agit d'adultes, pas d'une classe d'enfants. Apprendre demande attention, patience et pratique. Ce récit local ne signifie pas que tout le monde a le même accès à l'éducation.",
+    "facts": [
+      "Doda Mast se trouve dans le district de Paghman.",
+      "Les cours associent lecture, écriture et jardinage.",
+      "Le participant attend encore sa récolte."
+    ],
+    "question": "Que voudrais-tu apprendre auprès d'une personne expérimentée ?",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "Contexte / détails officiels"
+      }
+    ],
+    "referenceCredit": "Crédits et limites d’utilisation consignés dans l’édition. Référence visuelle uniquement ; ne pas copier."
+  },
+  "moquegua-leraren-samen-leren": {
+    "title": "Les futurs enseignants apprennent aussi",
+    "location": "Moquegua, Pérou",
+    "reportedDate": "1er octobre 2026 ; actualisé le 2 octobre",
+    "theme": "Éducation et coopération",
+    "intro": "De futurs enseignants de plusieurs régions du Pérou ont travaillé leurs compétences de recherche.",
+    "body": "La rencontre a eu lieu en septembre ; l'UNESCO en a parlé le 1er octobre. Les participants venaient d'Arequipa, Tacna, Puno, Cusco et Moquegua. Ils ont appris à préparer des outils de recherche et partagé leurs expériences. Il faut poser des questions claires et observer soigneusement, plutôt que deviner. Le reportage ne prouve pas que toutes les leçons se sont déjà améliorées. La Journée mondiale des enseignants, le 5 octobre, rappelle que les enseignants continuent eux aussi à apprendre.",
+    "facts": [
+      "La rencontre a eu lieu à Moquegua en septembre.",
+      "Cinq régions péruviennes sont citées.",
+      "La Journée mondiale des enseignants est le 5 octobre."
+    ],
+    "question": "Quelle question t'aiderait à mieux comprendre ta classe ?",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "Contexte / détails officiels"
+      }
+    ],
+    "referenceCredit": "Crédits et limites d’utilisation consignés dans l’édition. Référence visuelle uniquement ; ne pas copier."
+  },
+  "macquarie-koningspinguins-zwemmen": {
+    "title": "Des manchots nageurs brillent sur une photo",
+    "location": "Île Macquarie, Australie",
+    "reportedDate": "1er octobre 2026",
+    "theme": "Animaux et photographie",
+    "intro": "Une photo sous-marine de manchots royaux a remporté le grand prix de BirdLife Australia.",
+    "body": "Lachlan Hall a photographié ces oiseaux près de l'île Macquarie, entre la Tasmanie et l'Antarctique. Son image Kings Down Under a remporté le grand prix annoncé le 1er octobre et la catégorie oiseaux dans leur paysage. Plus de cinq mille images avaient été proposées. Une photo montre un instant, pas toute la vie d'un animal. Observe les formes et l'environnement. Notre coloriage est une illustration originale du sujet, pas une copie de la photo gagnante.",
+    "facts": [
+      "Kings Down Under est une photo de Lachlan Hall.",
+      "Macquarie se trouve entre la Tasmanie et l'Antarctique.",
+      "Le concours a reçu plus de cinq mille images."
+    ],
+    "question": "Quel petit détail chercherais-tu en photographiant un animal ?",
+    "sources": [
+      {
+        "url": "https://birdlife.org.au/news/announcing-the-winners-of-the-2026-birdlife-australia-photography-awards/",
+        "label": "BirdLife Australia"
+      },
+      {
+        "url": "https://www.birdlifephotoaward.org.au/gallery-winners-2026",
+        "label": "Contexte / détails officiels"
+      }
+    ],
+    "referenceCredit": "Crédits et limites d’utilisation consignés dans l’édition. Référence visuelle uniquement ; ne pas copier."
+  },
+  "saturnus-ringen-ontdekken": {
+    "title": "Un beau mois pour observer Saturne",
+    "location": "Monde entier ; visibilité selon le lieu",
+    "reportedDate": "1er octobre 2026",
+    "theme": "Espace et découverte",
+    "intro": "Le guide du ciel d'octobre de la NASA met Saturne et ses anneaux à l'honneur.",
+    "body": "Saturne était en opposition le 4 octobre : la Terre se trouvait entre le Soleil et Saturne. Autour de cette date, on peut l'observer pendant une grande partie de la nuit si la météo et l'horizon le permettent. Il faut un télescope pour voir les anneaux. Demande l'aide d'un adulte et ne dirige jamais un télescope vers le Soleil. Saturne est la sixième planète depuis le Soleil, composée surtout de gaz. Notre dessin agrandit la planète ; les distances ne sont pas à l'échelle.",
+    "facts": [
+      "L'opposition de Saturne a eu lieu le 4 octobre 2026.",
+      "Saturne est la sixième planète depuis le Soleil.",
+      "Un télescope permet de voir les anneaux."
+    ],
+    "question": "Que voudrais-tu étudier en regardant Saturne de près ?",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+        "label": "NASA JPL"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/",
+        "label": "Contexte / détails officiels"
+      }
+    ],
+    "referenceCredit": "Crédits et limites d’utilisation consignés dans l’édition. Référence visuelle uniquement ; ne pas copier."
+  },
+  "windtunnel-vleugel-onderzoek": {
+    "title": "Une peinture spéciale aide à étudier une aile",
+    "location": "Hampton, Virginie, États-Unis",
+    "reportedDate": "2 octobre 2026",
+    "theme": "Technique et invention",
+    "intro": "La NASA utilise une peinture spéciale et des caméras pour observer l'air autour d'une aile miniature.",
+    "body": "Dans une soufflerie, l'air passe devant un modèle. Sous un éclairage spécial, la luminosité de la peinture change avec la pression de l'air. Des caméras rapides enregistrent ces variations. La NASA a présenté ces essais le 2 octobre. Les mesures servent à vérifier des modèles informatiques : ce n'est pas un nouvel avion déjà en vol. Des modèles souples sont prévus pour plus tard. Notre dessin simplifie l'expérience et reste noir et blanc, même si la vraie peinture brille.",
+    "facts": [
+      "Les essais se déroulent dans une soufflerie en Virginie.",
+      "La peinture réagit à la pression de l'air.",
+      "Des caméras rapides enregistrent sa luminosité."
+    ],
+    "question": "Comment étudierais-tu quelque chose que tes yeux ne voient pas ?",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "label": "NASA"
+      },
+      {
+        "url": "https://www.nasa.gov/aeronautics/pressure-sensitive-paint-2025/",
+        "label": "Contexte / détails officiels"
+      }
+    ],
+    "referenceCredit": "Crédits et limites d’utilisation consignés dans l’édition. Référence visuelle uniquement ; ne pas copier."
+  }
+});
+
+Object.assign(WORLD_STORY_TRANSLATIONS.es, {
+  "paghman-groentetuin-leren": {
+    "title": "En este huerto también crece el conocimiento",
+    "location": "Paghman, Afganistán",
+    "reportedDate": "3 de octubre de 2026",
+    "theme": "Naturaleza y aprendizaje",
+    "intro": "Cerca de Kabul, adultos aprenden a leer, escribir y cultivar verduras.",
+    "body": "En Doda Mast, Paghman, un facilitador con experiencia comparte sus conocimientos de horticultura. Las clases combinan lectura y escritura con habilidades prácticas. Un participante no sabía cómo aprovechar su pequeña parcela; ahora crecen verduras allí. La cosecha todavía está por llegar. Este relato trata de adultos, no de una clase infantil. Aprender requiere atención, paciencia y práctica. Es un ejemplo local, no una afirmación de que todas las personas tengan el mismo acceso a la educación.",
+    "facts": [
+      "Doda Mast está en el distrito de Paghman.",
+      "Las clases combinan alfabetización y cultivo de verduras.",
+      "El participante todavía espera su cosecha."
+    ],
+    "question": "¿Qué te gustaría aprender de alguien con experiencia?",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "Contexto / detalles oficiales"
+      }
+    ],
+    "referenceCredit": "Créditos y límites de uso registrados en la edición. Solo referencia visual; no copiar."
+  },
+  "moquegua-leraren-samen-leren": {
+    "title": "Los futuros docentes también siguen aprendiendo",
+    "location": "Moquegua, Perú",
+    "reportedDate": "1 de octubre de 2026; actualizado el 2",
+    "theme": "Educación y colaboración",
+    "intro": "Futuros docentes de varias regiones peruanas se reunieron para aprender a investigar mejor.",
+    "body": "La reunión ocurrió en septiembre; la UNESCO publicó el relato el 1 de octubre. Participaron personas de Arequipa, Tacna, Puno, Cusco y Moquegua. Practicaron cómo diseñar herramientas de investigación y compartieron experiencias. Investigar exige preguntas claras y observación cuidadosa, no adivinar. El artículo describe una reunión de aprendizaje, sin demostrar que todas las clases ya mejoraron. El Día Mundial de los Docentes, el 5 de octubre, recuerda que quienes enseñan también siguen aprendiendo.",
+    "facts": [
+      "La reunión ocurrió en Moquegua en septiembre.",
+      "Se mencionan cinco regiones peruanas.",
+      "El Día Mundial de los Docentes es el 5 de octubre."
+    ],
+    "question": "¿Qué pregunta te ayudaría a comprender mejor tu clase?",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "Contexto / detalles oficiales"
+      }
+    ],
+    "referenceCredit": "Créditos y límites de uso registrados en la edición. Solo referencia visual; no copiar."
+  },
+  "macquarie-koningspinguins-zwemmen": {
+    "title": "Pingüinos nadadores destacan en una fotografía",
+    "location": "Isla Macquarie, Australia",
+    "reportedDate": "1 de octubre de 2026",
+    "theme": "Animales y fotografía",
+    "intro": "Una fotografía submarina de pingüinos rey ganó el premio principal de BirdLife Australia.",
+    "body": "Lachlan Hall fotografió los pingüinos cerca de Macquarie, entre Tasmania y la Antártida. Su imagen Kings Down Under ganó el premio principal anunciado el 1 de octubre y la categoría aves en el paisaje. Hubo más de cinco mil fotografías participantes. Una foto muestra un instante, no toda la vida de un animal. Observa las formas de las aves y su entorno. Nuestro dibujo es una ilustración original del tema, no una copia de la fotografía ganadora.",
+    "facts": [
+      "Lachlan Hall tomó Kings Down Under.",
+      "Macquarie está entre Tasmania y la Antártida.",
+      "Participaron más de cinco mil fotografías."
+    ],
+    "question": "¿Qué pequeño detalle buscarías al fotografiar un animal?",
+    "sources": [
+      {
+        "url": "https://birdlife.org.au/news/announcing-the-winners-of-the-2026-birdlife-australia-photography-awards/",
+        "label": "BirdLife Australia"
+      },
+      {
+        "url": "https://www.birdlifephotoaward.org.au/gallery-winners-2026",
+        "label": "Contexto / detalles oficiales"
+      }
+    ],
+    "referenceCredit": "Créditos y límites de uso registrados en la edición. Solo referencia visual; no copiar."
+  },
+  "saturnus-ringen-ontdekken": {
+    "title": "Un buen mes para mirar Saturno",
+    "location": "Todo el mundo; visibilidad según el lugar",
+    "reportedDate": "1 de octubre de 2026",
+    "theme": "Espacio y descubrimiento",
+    "intro": "La guía del cielo de octubre de la NASA destaca Saturno y sus anillos.",
+    "body": "Saturno estuvo en oposición el 4 de octubre: la Tierra estaba entre el Sol y Saturno. Cerca de esa fecha puede observarse durante gran parte de la noche, según el tiempo y el horizonte. Para ver los anillos hace falta un telescopio. Pide ayuda a un adulto y nunca apuntes un telescopio al Sol. Saturno es el sexto planeta desde el Sol y está compuesto principalmente de gas. Nuestra ilustración agranda el planeta para colorearlo; las distancias no están a escala.",
+    "facts": [
+      "Saturno estuvo en oposición el 4 de octubre de 2026.",
+      "Es el sexto planeta desde el Sol.",
+      "Se necesita un telescopio para ver los anillos."
+    ],
+    "question": "¿Qué investigarías si pudieras observar Saturno de cerca?",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+        "label": "NASA JPL"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/",
+        "label": "Contexto / detalles oficiales"
+      }
+    ],
+    "referenceCredit": "Créditos y límites de uso registrados en la edición. Solo referencia visual; no copiar."
+  },
+  "windtunnel-vleugel-onderzoek": {
+    "title": "Una pintura especial ayuda a investigar un ala",
+    "location": "Hampton, Virginia, Estados Unidos",
+    "reportedDate": "2 de octubre de 2026",
+    "theme": "Tecnología e invención",
+    "intro": "La NASA usa pintura especial y cámaras para estudiar el aire alrededor de un ala a escala.",
+    "body": "En un túnel de viento, el aire pasa junto a un modelo. Bajo iluminación especial, el brillo de la pintura cambia con la presión del aire. Cámaras rápidas registran esas variaciones. La NASA informó de las pruebas el 2 de octubre. Los datos ayudan a comprobar modelos informáticos, no anuncian un avión nuevo que ya esté volando. Para más adelante se planean modelos flexibles. Nuestro dibujo simplifica el experimento y sigue siendo blanco y negro, aunque la pintura real brille.",
+    "facts": [
+      "Las pruebas ocurrieron en un túnel de viento en Virginia.",
+      "La pintura responde a la presión del aire.",
+      "Cámaras rápidas registran cambios de brillo."
+    ],
+    "question": "¿Cómo investigarías algo que no puedes ver con tus ojos?",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "label": "NASA"
+      },
+      {
+        "url": "https://www.nasa.gov/aeronautics/pressure-sensitive-paint-2025/",
+        "label": "Contexto / detalles oficiales"
+      }
+    ],
+    "referenceCredit": "Créditos y límites de uso registrados en la edición. Solo referencia visual; no copiar."
+  }
+});
+
+Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
+  "paghman-groentetuin-leren": {
+    "title": "菜园里也能增长知识",
+    "location": "阿富汗帕格曼",
+    "reportedDate": "2026年10月3日",
+    "theme": "自然与学习",
+    "intro": "喀布尔附近的一些成年人一边学习读写，一边学习种菜。",
+    "body": "联合国教科文组织介绍了帕格曼地区多达马斯特村的课程。一位有种菜经验的指导者分享知识，把读写与实用技能结合起来。一位学员原来不知道怎样利用自己的小块土地，现在地里已经长出了蔬菜。不过，他还在等待收获，并不是已经收完了。这是成年人学习的故事，不是儿童课堂。学习和照顾幼苗一样，都需要耐心、关注和练习。这个地方性的例子不代表所有人都拥有相同的教育机会。",
+    "facts": [
+      "多达马斯特村位于帕格曼地区。",
+      "课程把读写和种菜结合起来。",
+      "报道中的学员仍在等待收获。"
+    ],
+    "question": "你想向有经验的人学习什么？",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/planting-knowledge-growing-opportunity",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "背景与官方资料"
+      }
+    ],
+    "referenceCredit": "照片署名与使用限制已记录在本期档案中。仅作视觉参考，请勿复制。"
+  },
+  "moquegua-leraren-samen-leren": {
+    "title": "未来的老师也在继续学习",
+    "location": "秘鲁莫克瓜",
+    "reportedDate": "2026年10月1日；10月2日更新",
+    "theme": "教育与合作",
+    "intro": "来自秘鲁不同地区的未来教师聚在一起，练习怎样做好教育研究。",
+    "body": "活动在九月举行，联合国教科文组织于十月一日报道。参与者来自阿雷基帕、塔克纳、普诺、库斯科和莫克瓜。他们练习设计研究工具，并交流经验。研究要先提出清楚的问题，再认真观察，而不是猜测什么方法有效。报道介绍的是学习活动，并没有证明所有课堂都已经变好了。十月五日是世界教师日，也提醒我们：教别人学习的人，自己同样会继续学习。",
+    "facts": [
+      "活动于九月在莫克瓜举行。",
+      "参与者来自报道列出的五个秘鲁地区。",
+      "世界教师日是十月五日。"
+    ],
+    "question": "你会提出什么问题来更好地了解自己的班级？",
+    "sources": [
+      {
+        "url": "https://www.unesco.org/en/articles/future-teachers-strengthen-their-educational-research-skills-moquegua",
+        "label": "UNESCO"
+      },
+      {
+        "url": "https://www.unesco.org/en/days/teachers",
+        "label": "背景与官方资料"
+      }
+    ],
+    "referenceCredit": "照片署名与使用限制已记录在本期档案中。仅作视觉参考，请勿复制。"
+  },
+  "macquarie-koningspinguins-zwemmen": {
+    "title": "游泳的企鹅成为摄影主角",
+    "location": "澳大利亚麦夸里岛",
+    "reportedDate": "2026年10月1日",
+    "theme": "动物与摄影",
+    "intro": "一张王企鹅在水下游泳的照片获得了澳大利亚鸟类保护组织摄影奖的最高奖项。",
+    "body": "摄影师拉克兰·霍尔在麦夸里岛附近拍摄了王企鹅。那里位于塔斯马尼亚和南极洲之间。他的照片《Kings Down Under》在十月一日公布的评选中获得最高奖项，还赢得了鸟类与景观类别奖。比赛收到了五千多张作品。一张照片只记录一个瞬间，不能讲出动物的全部生活。仔细观察鸟的姿势和周围环境会很有趣。我们的涂色页是这个主题的原创插图，不是获奖照片的复制品。",
+    "facts": [
+      "获奖照片由拉克兰·霍尔拍摄。",
+      "麦夸里岛位于塔斯马尼亚和南极洲之间。",
+      "比赛收到了五千多张作品。"
+    ],
+    "question": "拍摄动物时，你会寻找什么小细节？",
+    "sources": [
+      {
+        "url": "https://birdlife.org.au/news/announcing-the-winners-of-the-2026-birdlife-australia-photography-awards/",
+        "label": "BirdLife Australia"
+      },
+      {
+        "url": "https://www.birdlifephotoaward.org.au/gallery-winners-2026",
+        "label": "背景与官方资料"
+      }
+    ],
+    "referenceCredit": "照片署名与使用限制已记录在本期档案中。仅作视觉参考，请勿复制。"
+  },
+  "saturnus-ringen-ontdekken": {
+    "title": "这个月可以寻找土星",
+    "location": "全球；能否看见取决于地点",
+    "reportedDate": "2026年10月1日",
+    "theme": "太空与探索",
+    "intro": "美国航天局的十月观星指南介绍了拥有光环的土星。",
+    "body": "十月四日，土星到达冲的位置，也就是地球位于太阳和土星之间。在这段时间，如果天气和视野合适，夜间有很长一段时间可以观察它。不过，肉眼看不到图画中那样的大光环，需要望远镜。请大人帮忙，千万不要用望远镜看太阳。土星是从太阳往外数的第六颗行星，主要由气体组成。我们的插图把土星放大，方便涂色；图中的距离并没有按真实比例绘制。",
+    "facts": [
+      "土星于2026年10月4日到达冲的位置。",
+      "土星是从太阳往外数的第六颗行星。",
+      "观察光环需要望远镜。"
+    ],
+    "question": "如果能近距离观察土星，你想研究什么？",
+    "sources": [
+      {
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-october-2026-skywatching-tips-from-nasa/",
+        "label": "NASA JPL"
+      },
+      {
+        "url": "https://science.nasa.gov/saturn/",
+        "label": "背景与官方资料"
+      }
+    ],
+    "referenceCredit": "照片署名与使用限制已记录在本期档案中。仅作视觉参考，请勿复制。"
+  },
+  "windtunnel-vleugel-onderzoek": {
+    "title": "特殊涂料帮助研究机翼",
+    "location": "美国弗吉尼亚州汉普顿",
+    "reportedDate": "2026年10月2日",
+    "theme": "技术与发明",
+    "intro": "美国航天局的研究人员用特殊涂料和相机观察模型机翼周围的空气。",
+    "body": "风洞是一种让空气流过模型的研究设备。在特殊灯光下，机翼上的涂料会随着空气压力变化而改变亮度。高速相机记录这些变化，让研究人员同时观察许多位置。美国航天局于十月二日介绍了试验。数据用来检查计算机模型是否准确，不是宣布一架已经飞行的新飞机。以后还计划试验能弯曲的模型。涂色页展示简化的装置；真实涂料会发光，但插图仍然保持黑白，留给你涂色。",
+    "facts": [
+      "试验在弗吉尼亚州的风洞进行。",
+      "涂料会对空气压力变化作出反应。",
+      "高速相机记录亮度变化。"
+    ],
+    "question": "你会怎样研究眼睛看不见的东西？",
+    "sources": [
+      {
+        "url": "https://www.nasa.gov/centers-and-facilities/langley/nasa-model-wing-lights-up-during-first-pressure-sensitive-paint-tests/",
+        "label": "NASA"
+      },
+      {
+        "url": "https://www.nasa.gov/aeronautics/pressure-sensitive-paint-2025/",
+        "label": "背景与官方资料"
+      }
+    ],
+    "referenceCredit": "照片署名与使用限制已记录在本期档案中。仅作视觉参考，请勿复制。"
+  }
+});
+for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. No reuse license shown; visual reference only, do not copy."},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. No reuse license shown; visual reference only, do not copy."},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. No reuse license shown; visual reference only, do not copy."},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. No reuse license shown; visual reference only, do not copy."},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). No reuse license shown; visual reference only, do not copy."}})) Object.assign(WORLD_STORY_TRANSLATIONS.en[slug], fields);
+for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."}})) Object.assign(WORLD_STORY_TRANSLATIONS.fr[slug], fields);
+for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. No se indica licencia de reutilización; solo referencia visual, no copiar."},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. No se indica licencia de reutilización; solo referencia visual, no copiar."},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. No se indica licencia de reutilización; solo referencia visual, no copiar."},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. No se indica licencia de reutilización; solo referencia visual, no copiar."},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). No se indica licencia de reutilización; solo referencia visual, no copiar."}})) Object.assign(WORLD_STORY_TRANSLATIONS.es[slug], fields);
+for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). 来源页未标明再使用许可；仅作视觉参考，请勿复制。"}})) Object.assign(WORLD_STORY_TRANSLATIONS.zh[slug], fields);
