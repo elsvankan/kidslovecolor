@@ -15,6 +15,10 @@ The site stays on Vercel. Coloring originals and matching thumbnails live in the
 
 Do not enable the old Daily Coloring Pages Magnific workflow. Image generation is handled separately by the approved Codex automation. Never put credentials in source or output logs.
 
+## Page-filling print composition
+
+Artwork should make generous use of the printable A4 page rather than sitting as a tiny central picture with large empty bands. Keep the whole subject and safe printer margins. Where the subject leaves excessive blank space, add suitable inkleurbare outline scenery such as clouds, sky elements, plants or ground; never fill the sky with color or grey. Larger compositions must not cut off tails, feet, leaves, rocks or other scene elements. Replacing published artwork requires versioned filenames and matching thumbnails so old links and cached images remain valid. Keep existing IDs, slugs, translations and detail URLs.
+
 ## Theme landing pages
 
 The named dinosaur collection is available at `/dinosaurussen`, `/en/dinosaurs`, `/fr/dinosaures`, `/es/dinosaurios` and `/zh/dinosaurs`. It uses the existing collection model: records retain their primary category and add `collections: ['dinosaurussen']`. Do not create duplicate records or rename old image paths to add them to a theme.
