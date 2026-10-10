@@ -14,8 +14,12 @@ function escapeHtml(value) {
 function renderTheme(key, theme, language, colorings) {
   const copy = theme.copy[language];
   const home = language === 'nl' ? '/' : `/${language}/`;
+  const gallery = theme.galleryPaths?.[language] || home;
   const url = baseUrl + theme.paths[language];
-  const pages = colorings.filter(item => !item.hidden && item.category !== 'actualiteiten' && item.collections?.includes(key));
+  const pages = colorings.filter(item => {
+    const matchesTheme = theme.category ? item.category === theme.category : item.collections?.includes(key);
+    return !item.hidden && item.category !== 'actualiteiten' && matchesTheme && (!theme.coloringSlugs || theme.coloringSlugs.includes(item.slug));
+  });
   if (!pages.length) throw new Error(`Theme ${key} has no published coloring records`);
   const heroImage = pages[0].img.replace(/^\.\.\//, '/');
   const alternates = Object.entries(theme.paths).map(([code, route]) => `<link rel="alternate" hreflang="${code === 'zh' ? 'zh-Hans' : code}" href="${baseUrl}${route}"/>`).join('\n');
@@ -68,7 +72,7 @@ function renderTheme(key, theme, language, colorings) {
   <main id="main">
     <nav class="theme-breadcrumbs" aria-label="Breadcrumb"><a href="${home}">KidsLoveColor</a><span aria-hidden="true"> / </span>${escapeHtml(copy.label)}</nav>
     <section class="theme-hero" aria-labelledby="theme-heading">
-      <div><p class="theme-eyebrow">${escapeHtml(copy.eyebrow)}</p><h1 id="theme-heading">${escapeHtml(copy.heading)}</h1><p class="theme-hero-line">${escapeHtml(copy.hero)}</p><p>${escapeHtml(copy.intro)}</p><div class="theme-actions"><a class="theme-button" href="#colorings">${escapeHtml(copy.choose)}</a><a href="${home}">${escapeHtml(copy.all)} →</a></div><ul class="theme-promises">${copy.promise.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></div>
+      <div><p class="theme-eyebrow">${escapeHtml(copy.eyebrow)}</p><h1 id="theme-heading">${escapeHtml(copy.heading)}</h1><p class="theme-hero-line">${escapeHtml(copy.hero)}</p><p>${escapeHtml(copy.intro)}</p><div class="theme-actions"><a class="theme-button" href="#colorings">${escapeHtml(copy.choose)}</a><a href="${gallery}">${escapeHtml(copy.all)} →</a></div><ul class="theme-promises">${copy.promise.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></div>
       <figure class="theme-hero-paper"><img src="${escapeHtml(heroImage)}" alt="${escapeHtml((pages[0][language] || pages[0].nl).altText)}" width="1055" height="1491" fetchpriority="high"/></figure>
     </section>
     <section id="colorings" aria-labelledby="gallery-heading"><p class="theme-eyebrow">${pages.length} · ${escapeHtml(copy.label)}</p><h2 id="gallery-heading">${escapeHtml(copy.gallery)}</h2><div class="theme-grid">${cards}</div></section>
@@ -76,7 +80,7 @@ function renderTheme(key, theme, language, colorings) {
     <section class="theme-faq" aria-labelledby="faq-heading"><h2 id="faq-heading">${escapeHtml(copy.questions)}</h2>${copy.faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join('')}</section>
     <nav class="theme-related" aria-label="${escapeHtml(copy.related)}"><h2>${escapeHtml(copy.related)}</h2><a href="${home}?cat=dieren">${escapeHtml(copy.animals)}</a><a href="${home}?cat=natuur">${escapeHtml(copy.nature)}</a><a href="${home}?cat=ruimte">${escapeHtml(copy.space)}</a><a href="/vandaag-op-aarde/">${escapeHtml(copy.story)}</a></nav>
   </main>
-  <footer class="theme-footer"><p>${escapeHtml(copy.footer)}</p><a href="${home}">${escapeHtml(copy.all)}</a></footer>
+  <footer class="theme-footer"><p>${escapeHtml(copy.footer)}</p><a href="${gallery}">${escapeHtml(copy.all)}</a></footer>
 </body>
 </html>
 `;

@@ -72,7 +72,7 @@ test('Compact build regenerates all theme pages and never copies coloring assets
     fs.copyFileSync(new URL('js/data.js', root), path.join(temporary, 'js/data.js'));
     fs.mkdirSync(path.join(temporary, 'img/kleurplaten'), { recursive: true });
     fs.writeFileSync(path.join(temporary, 'img/kleurplaten/not-for-deployment.jpg'), 'asset');
-    assert.equal(writeThemePages(temporary).length, 5);
+    assert.equal(writeThemePages(temporary).length, Object.values(THEMES).reduce((count, entry) => count + Object.keys(entry.paths).length, 0));
     const output = build(temporary);
     for (const route of Object.values(theme.paths)) {
       const html = fs.readFileSync(path.join(output, route.slice(1), 'index.html'), 'utf8');
