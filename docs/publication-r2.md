@@ -6,14 +6,22 @@ The site stays on Vercel. Coloring originals and matching thumbnails live in the
 
 ## Publishing a new reviewed batch
 
-1. Generate original black-on-white printable artwork, with no color or shading. Only explicitly requested month lettering belongs inside the artwork. Inspect anatomy, lettering, accidental fills and duplicates before publication.
+1. Generate original black-on-white printable artwork, with no color or shading. Only explicitly requested theme lettering, such as month names or checked educational species names, belongs inside the artwork. Inspect anatomy, lettering, accidental fills and duplicates before publication.
 2. Prepare original JPGs and matching JPG thumbnails in `img/kleurplaten/` and `img/kleurplaten/thumbs/`. Keep five-language metadata in `.titles.json`.
 3. Publish those assets to GitHub without adding them to the live page index yet.
 4. Manually run `sync-r2-images.yml`. It uses existing GitHub secrets, never generates pictures, never calls Magnific and never deletes remote objects. Wait for success and verify public HTTPS images before proceeding.
-5. Add unique IDs and slugs to `js/data.js` with complete Dutch, English, French, Spanish and Chinese metadata. Use a category defined in `CATEGORIES`. Add sitemap entries and run `node generate-kleurplaat-pages.js --new-only`.
+5. Add unique IDs and slugs to `js/data.js` with complete Dutch, English, French, Spanish and Chinese metadata. Use a category defined in `CATEGORIES`. Add sitemap entries and run `node generate-kleurplaat-pages.js --new-only`. Preserve the existing `vercel.json` unless an intentional routing change is being reviewed: the detail generator also rewrites that file.
 6. Build and test locally, publish metadata and detail pages, verify Vercel success, then check live pages, originals and thumbnails. Record the actual published links.
 
 Do not enable the old Daily Coloring Pages Magnific workflow. Image generation is handled separately by the approved Codex automation. Never put credentials in source or output logs.
+
+## Theme landing pages
+
+The named dinosaur collection is available at `/dinosaurussen`, `/en/dinosaurs`, `/fr/dinosaures`, `/es/dinosaurios` and `/zh/dinosaurs`. It uses the existing collection model: records retain their primary category and add `collections: ['dinosaurussen']`. Do not create duplicate records or rename old image paths to add them to a theme.
+
+Reusable theme copy and routes live in `lib/theme-pages.cjs`. `node scripts/generate-theme-pages.cjs` generates static HTML with visible card links, species notes, canonical URLs, reciprocal hreflang links and CollectionPage/ItemList metadata. The compact build regenerates and includes these pages automatically, but still excludes the image collection. Include any new theme routes in the sitemap when adding a theme; adding pictures to an existing theme does not require new landing URLs.
+
+The first dinosaur series has checked scientific names in hollow lettering on the pictures. For new educational records, provide `scientificName`, a trusted museum `referenceUrl` and a short `learningFact` in all five languages. The illustrations are simplified original artwork, not exact scientific reconstructions. Never assign a scientific species name to an unverified older fantasy dinosaur. Keep other themes and the separate news rubric in rotation.
 
 ## Mandala quality rule
 

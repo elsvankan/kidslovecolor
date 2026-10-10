@@ -473,7 +473,9 @@ function updateSEO(cat) {
   // Canonical URL
   const canonicalUrl = cat === 'all'
     ? BASE_URL
-    : BASE_URL + '?cat=' + encodeURIComponent(cat);
+    : CATEGORIES[cat]?.landingPaths?.[currentLang]
+      ? 'https://www.kidslovecolor.com' + CATEGORIES[cat].landingPaths[currentLang]
+      : BASE_URL + '?cat=' + encodeURIComponent(cat);
   const canonicalEl = document.getElementById('canonical');
   if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
   const canonicalLink = document.querySelector('link[rel="canonical"]');
@@ -607,6 +609,9 @@ function renderCategories() {
       const titleAttr = key === 'all'
         ? t('all_free_label')
         : t('free_cat_label').replace('{label}', label.toLowerCase());
+      if (cat.landingPaths?.[currentLang]) {
+        return `<a class="cat-btn" href="${cat.landingPaths[currentLang]}" title="${titleAttr}">${cat.icon ? `<span class="cat-icon" aria-hidden="true">${cat.icon}</span>` : ''}${label}</a>`;
+      }
       return `<button
         class="cat-btn ${key === activeCategory ? 'active' : ''}"
         data-cat="${key}"
@@ -618,7 +623,7 @@ function renderCategories() {
       </button>`;
     }).join('');
 
-  nav.querySelectorAll('.cat-btn').forEach(btn => {
+  nav.querySelectorAll('button.cat-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       activeCategory = btn.dataset.cat;
       selectedCountry = 'all';

@@ -12,6 +12,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { THEMES } = require('./lib/theme-pages.cjs');
 
 // Load data.js by extracting the arrays
 const dataRaw = fs.readFileSync(path.join(__dirname, 'js/data.js'), 'utf8');
@@ -55,7 +56,9 @@ for (const page of COLORINGS) {
 
   if (newOnly && fs.existsSync(outFile)) continue;
 
-  const categoryName = categoryNames[category] || category;
+  const themeKey = page.collections?.find(key => THEMES[key]);
+  const categoryName = themeKey ? THEMES[themeKey].copy.nl.label : categoryNames[category] || category;
+  const categoryHref = themeKey ? THEMES[themeKey].paths.nl : `/?cat=${category}`;
   const difficultyName = difficultyNames[page.difficulty] || page.difficulty;
   const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: nl.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${slug}-kidslovecolor.pdf` }).replace(/</g, '\\u003c');
   const breadcrumb = JSON.stringify({
@@ -63,7 +66,7 @@ for (const page of COLORINGS) {
     '@type': 'BreadcrumbList',
     itemListElement: [
       { '@type': 'ListItem', position: 1, name: 'Home', item: `${BASE_URL}/` },
-      { '@type': 'ListItem', position: 2, name: categoryName, item: `${BASE_URL}/?cat=${category}` },
+      { '@type': 'ListItem', position: 2, name: categoryName, item: BASE_URL + categoryHref },
       { '@type': 'ListItem', position: 3, name: title, item: pageUrl },
     ],
   });
@@ -167,12 +170,12 @@ for (const page of COLORINGS) {
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="/" aria-label="KidsLoveColor home"><img src="/img/logo.svg" alt="KidsLoveColor"/></a>
-      <a class="back-link" href="/?cat=${category}">Bekijk meer ${categoryName.toLowerCase()} kleurplaten</a>
+      <a class="back-link" href="${categoryHref}">Bekijk meer ${categoryName.toLowerCase()} kleurplaten</a>
     </div>
   </header>
   <main>
     <nav class="breadcrumbs" aria-label="Broodkruimel">
-      <a href="/">Home</a> · <a href="/?cat=${category}">${categoryName}</a> · ${escapeHtml(title)}
+      <a href="/">Home</a> · <a href="${categoryHref}">${categoryName}</a> · ${escapeHtml(title)}
     </nav>
     <article class="page-grid">
       <figure class="coloring-card">
