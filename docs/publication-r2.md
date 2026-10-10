@@ -9,9 +9,9 @@ The site stays on Vercel. Coloring originals and matching thumbnails live in the
 1. Generate original black-on-white printable artwork, with no color or shading. Only explicitly requested theme lettering, such as month names or checked educational species names, belongs inside the artwork. Inspect anatomy, lettering, accidental fills and duplicates before publication.
 2. Prepare original JPGs and matching JPG thumbnails in `img/kleurplaten/` and `img/kleurplaten/thumbs/`. Keep five-language metadata in `.titles.json`.
 3. Publish those assets to GitHub without adding them to the live page index yet.
-4. Manually run `sync-r2-images.yml`. It uses existing GitHub secrets, never generates pictures, never calls Magnific and never deletes remote objects. Wait for success and verify public HTTPS images before proceeding.
+4. Manually run `sync-r2-images.yml`. It uses existing GitHub secrets, never generates pictures, never calls Magnific and never deletes remote objects. Wait for success and verify public HTTPS images before proceeding. Also wait for the asset commit's Vercel deployment to finish before publishing the metadata commit. Otherwise an older asset deployment can finish later and replace the newer production pages.
 5. Add unique IDs and slugs to `js/data.js` with complete Dutch, English, French, Spanish and Chinese metadata. Use a category defined in `CATEGORIES`. Add sitemap entries and run `node generate-kleurplaat-pages.js --new-only`. Preserve the existing `vercel.json` unless an intentional routing change is being reviewed: the detail generator also rewrites that file.
-6. Build and test locally, publish metadata and detail pages, verify Vercel success, then check live pages, originals and thumbnails. Record the actual published links.
+6. Build and test locally, publish metadata and detail pages, verify Vercel success, then check live pages, originals and thumbnails. Verify the production domain's content against the published files, not only a deployment preview or GitHub success status. If an older deployment replaced production, restore the reviewed metadata deployment before marking the batch published. Record the actual published links.
 
 Do not enable the old Daily Coloring Pages Magnific workflow. Image generation is handled separately by the approved Codex automation. Never put credentials in source or output logs.
 
