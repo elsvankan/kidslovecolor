@@ -18,7 +18,7 @@ test('Princess pilot is a static curated landing with all existing gallery recor
   const list = schema['@graph'].find(entry => entry['@type'] === 'ItemList');
   assert.equal(list.numberOfItems, 4);
   assert.equal(colorings.filter(entry => entry.category === 'prinsessen').length, 22);
-  assert.equal(colorings.length, 696);
+  assert.ok(colorings.length >= 696, 'The pilot must allow the coloring catalog to grow');
   assert.ok(html.includes('href="/?cat=prinsessen"'));
   assert.ok(html.includes('href="https://www.kidslovecolor.com/prinsessen"'));
   assert.ok(html.includes(theme.copy.nl.heading));
