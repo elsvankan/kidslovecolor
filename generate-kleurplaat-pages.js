@@ -14,20 +14,7 @@ const fs = require('fs');
 const path = require('path');
 const { THEMES } = require('./lib/theme-pages.cjs');
 
-// Load data.js by extracting the arrays
-const dataRaw = fs.readFileSync(path.join(__dirname, 'js/data.js'), 'utf8');
-
-// Extract COLORINGS array
-const coloringsMatch = dataRaw.match(/const COLORINGS\s*=\s*(\[[\s\S]*?\n\];)/);
-if (!coloringsMatch) { console.error('COLORINGS not found'); process.exit(1); }
-const COLORINGS = eval(coloringsMatch[1]);
-
 const BASE_URL = 'https://www.kidslovecolor.com';
-const outDir = path.join(__dirname, 'kleurplaat');
-const newOnly = process.argv.includes('--new-only');
-const requestedSlugs = new Set(
-  process.argv.filter((arg) => arg.startsWith('--slug=')).map((arg) => arg.slice(7))
-);
 const categoryNames = {
   dieren: 'Dieren', voertuigen: 'Voertuigen', sprookjes: 'Sprookjes',
   ruimte: 'Ruimte', oceaan: 'Oceaan', natuur: 'Natuur', eten: 'Eten',
@@ -37,11 +24,8 @@ const categoryNames = {
 };
 const difficultyNames = { easy: 'Makkelijk', medium: 'Gemiddeld', hard: 'Uitdagend' };
 
-let created = 0;
-
-for (const page of COLORINGS) {
+function renderDetail(page) {
   const { slug, img, category } = page;
-  if (requestedSlugs.size && !requestedSlugs.has(slug)) continue;
   const nl = page.nl || {};
   const title = nl.title || slug;
   const desc = nl.description || 'Gratis kleurplaat voor kinderen.';
@@ -51,11 +35,6 @@ for (const page of COLORINGS) {
   const imgPath = `/img/kleurplaten/${imgFile}`;
   const imgUrl = `${BASE_URL}/img/kleurplaten/${imgFile}`;
   const pageUrl = `${BASE_URL}/kleurplaat/${slug}`;
-  const dir = path.join(outDir, slug);
-  const outFile = path.join(dir, 'index.html');
-
-  if (newOnly && fs.existsSync(outFile)) continue;
-
   const themeKey = page.collections?.find(key => THEMES[key]) || Object.keys(THEMES).find(key => THEMES[key].category === category && THEMES[key].coloringSlugs?.includes(slug));
   const categoryName = themeKey ? THEMES[themeKey].copy.nl.label : categoryNames[category] || category;
   const categoryHref = themeKey ? THEMES[themeKey].paths.nl : `/?cat=${category}`;
@@ -207,23 +186,38 @@ for (const page of COLORINGS) {
 </body>
 </html>`;
 
-  fs.mkdirSync(dir, { recursive: true });
-  const cleanHtml = `${html.replace(/[ \t]+$/gm, '').trimEnd()}\n`;
-  fs.writeFileSync(outFile, cleanHtml, 'utf8');
-  created++;
+  return `${html.replace(/[ \t]+$/gm, '').trimEnd()}\n`;
 }
 
-syncVercelRewrites();
+function main() {
+  const dataRaw = fs.readFileSync(path.join(__dirname, 'js/data.js'), 'utf8');
+  const coloringsMatch = dataRaw.match(/const COLORINGS\s*=\s*(\[[\s\S]*?\n\];)/);
+  if (!coloringsMatch) throw new Error('COLORINGS not found');
+  const colorings = eval(coloringsMatch[1]);
+  const newOnly = process.argv.includes('--new-only');
+  const requestedSlugs = new Set(process.argv.filter(argument => argument.startsWith('--slug=')).map(argument => argument.slice(7)));
+  for (const slug of requestedSlugs) {
+    if (!colorings.some(page => page.slug === slug)) throw new Error(`Unknown coloring slug: ${slug}`);
+  }
+  let created = 0;
+  for (const page of colorings) {
+    if (requestedSlugs.size && !requestedSlugs.has(page.slug)) continue;
+    const directory = path.join(__dirname, 'kleurplaat', page.slug);
+    const filename = path.join(directory, 'index.html');
+    if (newOnly && fs.existsSync(filename)) continue;
+    fs.mkdirSync(directory, {recursive: true});
+    fs.writeFileSync(filename, renderDetail(page), 'utf8');
+    created++;
+  }
+  if (process.argv.includes('--sync-routes')) syncVercelRewrites(colorings);
+  console.log(`Generated ${created} kleurplaat pages; ${process.argv.includes('--sync-routes') ? 'route synchronization explicitly requested' : 'Vercel routes unchanged'}.`);
+}
 
-console.log(`✅ Generated ${created} kleurplaat pages in /kleurplaat/`);
-console.log(`\nNu pushen:`);
-console.log(`  git add kleurplaat/ && git commit -m "Generate kleurplaat static pages for Pinterest" && git push`);
-
-function syncVercelRewrites() {
+function syncVercelRewrites(colorings) {
   const vercelPath = path.join(__dirname, 'vercel.json');
   const config = JSON.parse(fs.readFileSync(vercelPath, 'utf8'));
   const unrelated = (config.rewrites || []).filter((rule) => !rule.source.startsWith('/kleurplaat/'));
-  const coloringRules = COLORINGS.map(({ slug }) => ({
+  const coloringRules = colorings.map(({ slug }) => ({
     source: `/kleurplaat/${slug}`,
     destination: `/kleurplaat/${slug}/index.html`,
   }));
@@ -242,3 +236,6 @@ function escapeHtml(str) {
     .replace(/</g, '&lt;')
     .replace(/>/g, '&gt;');
 }
+
+module.exports = { renderDetail };
+if (require.main === module) main();
