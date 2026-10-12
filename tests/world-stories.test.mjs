@@ -28,7 +28,8 @@ for (const language of ['nl', 'en', 'fr', 'es', 'zh']) {
       const translated = language === 'nl' ? story : vm.runInContext(`WORLD_STORY_TRANSLATIONS.${language}[${JSON.stringify(story.slug)}]`, context);
       assert.equal(translated.facts.length, 3);
       for (const field of ['title', 'location', 'reportedDate', 'theme', 'intro', 'body', 'question']) assert.ok(translated[field]);
-      assert.ok(archive.innerHTML.includes(translated.title));
+      const escapedTitle = translated.title.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#039;');
+      assert.ok(archive.innerHTML.includes(escapedTitle));
     }
     assert.ok(archive.innerHTML.includes(editions.at(-1).published));
   });

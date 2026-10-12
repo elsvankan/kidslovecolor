@@ -6,6 +6,170 @@
  */
 const WORLD_STORY_EDITIONS = [
   {
+    "published": "2026-10-12",
+    "stories": [
+      {
+        "slug": "curiosity-ochtendfoto-marskliffen",
+        "title": "Een ochtendfoto onthult bijzondere Marsrotsen",
+        "location": "Mars; onderzoek vanuit de Verenigde Staten",
+        "reportedDate": "6 oktober 2026; foto gemaakt op 11 augustus",
+        "theme": "Ruimte & fotografie",
+        "icon": "✧",
+        "intro": "Een nieuw gepubliceerde foto van Mars laat rotsen zien die door de wind bijzondere vormen kregen.",
+        "body": "Op Mars rijdt een robot rond die goed kan kijken: Curiosity. Op 6 oktober deelde NASA een bijzondere ochtendfoto die deze rover eerder had gemaakt. De opname is dus niet van deze week: de camera fotografeerde het landschap op 11 augustus. Zes foto's zijn samengevoegd tot één breed uitzicht. In de verte zie je rotsige kliffen met opvallende vormen. Onderzoekers noemen zulke door wind gevormde rotsen yardangs. Ze willen beter begrijpen hoe deze laag bij de berg Mount Sharp ontstond. Een foto is daarbij een begin, geen antwoord op alle vragen. Door vormen en lagen te vergelijken, zoeken onderzoekers naar aanwijzingen. De rover kan dichterbij rijden en later ook met zijn instrumenten meten. Stel je voor dat jij een landschap alleen via een robotcamera zou kunnen bekijken. Waar zou je als eerste op letten? Onze kleurplaat is een eenvoudige, nieuwe voorstelling van een Marsrover tussen rotsen, geen kopie van de foto.",
+        "facts": [
+          "Het nieuwsbericht verscheen op 6 oktober 2026.",
+          "De panorama-opname bestaat uit zes foto's.",
+          "Curiosity onderzoekt het landschap bij Mount Sharp."
+        ],
+        "question": "Welke rotsvorm zou jij met een robotcamera beter bekijken?",
+        "sources": [
+          {
+            "label": "NASA JPL — nieuwe ochtendfoto",
+            "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/"
+          },
+          {
+            "label": "NASA Science — Curiosity-missie",
+            "url": "https://science.nasa.gov/mission/msl-curiosity/"
+          }
+        ],
+        "referenceUrl": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+        "referenceCredit": "Echte Marsfoto's: NASA / JPL-Caltech / MSSS. Geen aparte hergebruiklicentie vermeld bij het beeld; uitsluitend visuele referentie, niet kopiëren.",
+        "coloringSlug": "curiosity-ochtendfoto-marskliffen",
+        "sourceUrl": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/",
+        "sourceLabel": "NASA JPL — nieuwe ochtendfoto"
+      },
+      {
+        "slug": "letland-korstmos-op-houten-muur",
+        "title": "Een klein korstmos krijgt grote aandacht",
+        "location": "Kalna Kaibēni, Letland",
+        "reportedDate": "6 oktober 2026",
+        "theme": "Natuur & speuren",
+        "icon": "♧",
+        "intro": "Op de houten muur van een museum is een korstmos gevonden dat nog niet eerder in Letland was geregistreerd.",
+        "body": "Een ontdekking hoeft niet groot te zijn. In Letland keek een natuurliefhebber aandachtig naar de muur van een oud houten gebouw bij het museum Kalna Kaibēni. Daar vond hij een korstmos met de naam Pseudothelomma ocellatum. De Letse vereniging van paddenstoelen- en korstmossenonderzoekers berichtte er op 6 oktober over. Het is de eerste geregistreerde vondst van deze soort in Letland, niet een soort die nu pas op de hele wereld bestaat. Het korstmos vormt een dunne korst op droog, zonnig hout. Van dichtbij zie je kleine plekjes en patronen die je op afstand gemakkelijk mist. Wetenschappers vergelijken zulke kenmerken om een soort te herkennen. Zo laat de vondst zien dat natuur ook op een door mensen gemaakte plek aanwezig kan zijn. Je hoeft daarvoor niets los te peuteren of mee te nemen: rustig kijken is al interessant. Onze tekening vergroot een eenvoudig korstmosvoorbeeld, zodat je de kleine vormen goed kunt inkleuren.",
+        "facts": [
+          "De vondst komt van een oude houten museummuur.",
+          "Dit is de eerste geregistreerde vondst van deze soort in Letland.",
+          "De soort groeit op droog, zonnig hout."
+        ],
+        "question": "Welk klein natuurdetail zou jij met een vergrootglas onderzoeken?",
+        "sources": [
+          {
+            "label": "Letse Mycologische Vereniging — oorspronkelijke vondst",
+            "url": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum"
+          },
+          {
+            "label": "Wetenschappelijke beschrijving — Fungal Diversity",
+            "url": "https://link.springer.com/article/10.1007/s13225-016-0372-y"
+          },
+          {
+            "label": "RTÉ / Letse publieke media — nieuwscontrole",
+            "url": "https://www.rte.ie/news/a-european-perspective/2026/1009/1594750-latvia-lichen/"
+          }
+        ],
+        "referenceUrl": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum",
+        "referenceCredit": "Tekst en foto's: Raivo Ivulāns / Latvijas Mikologu biedrība. Geen vrije hergebruiklicentie vermeld; uitsluitend visuele referentie, niet kopiëren.",
+        "coloringSlug": "letland-korstmos-op-houten-muur",
+        "sourceUrl": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum",
+        "sourceLabel": "Letse Mycologische Vereniging — oorspronkelijke vondst"
+      },
+      {
+        "slug": "puebla-samen-lezen-in-de-buurt",
+        "title": "In de buurt samen leren lezen",
+        "location": "Puebla, Mexico",
+        "reportedDate": "5 oktober 2026; bijgewerkt 6 oktober",
+        "theme": "Onderwijs & samenwerken",
+        "icon": "✦",
+        "intro": "Studenten in Mexico helpen mensen leren lezen en schrijven, dicht bij hun eigen buurt.",
+        "body": "Een les hoeft niet altijd in een gewone school te gebeuren. UNESCO vertelde op 5 oktober over verschillende manieren om leren in Mexico dichter bij mensen te brengen. Een van de voorbeelden komt uit Puebla. Daar helpen studenten van de universiteit als vrijwilliger bij lessen in de gemeenschap. In de buurt Barranca Honda is een centrum gemaakt waar kinderen, jongeren en volwassenen kunnen leren. Het programma heet Aprender enseñando: leren door les te geven. De mensen die helpen, oefenen dus ook zelf: goed luisteren, geduldig uitleggen en samen naar een antwoord zoeken. Niet iedereen heeft dezelfde kansen gehad om te leren lezen. Daarom is het belangrijk dat lessen bereikbaar zijn en aansluiten bij wat iemand nodig heeft. Het bericht gaat over werk dat al langer bestaat; het centrum is niet deze week geopend. Onze kleurplaat laat een verzonnen, vriendelijke leersituatie met volwassenen zien. De personen zijn geen portretten van de deelnemers.",
+        "facts": [
+          "Het voorbeeld speelt in Puebla, Mexico.",
+          "Universiteitsstudenten helpen vrijwillig met lessen.",
+          "Het buurtcentrum biedt leren aan verschillende leeftijden."
+        ],
+        "question": "Wat zou jij geduldig aan iemand anders kunnen uitleggen?",
+        "sources": [
+          {
+            "label": "UNESCO — leren in Mexicaanse buurten",
+            "url": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner"
+          },
+          {
+            "label": "UNESCO — achtergrond: leren lezen en schrijven",
+            "url": "https://www.unesco.org/en/days/literacy"
+          }
+        ],
+        "referenceUrl": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner",
+        "referenceCredit": "Volwassen begeleider Mirta Isabel Figueroa: © UNESCO / Prometeo Lucero. Geen vrije hergebruiklicentie vermeld; alleen visuele referentie voor houding en lescontext, geen portret overnemen.",
+        "coloringSlug": "puebla-samen-lezen-in-de-buurt",
+        "sourceUrl": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner",
+        "sourceLabel": "UNESCO — leren in Mexicaanse buurten"
+      },
+      {
+        "slug": "singapore-zeilrobot-op-het-water",
+        "title": "Deze robot laat de wind helpen",
+        "location": "Singapore",
+        "reportedDate": "1 oktober 2026 — aanvulling uit de afgelopen maand",
+        "theme": "Techniek & wateronderzoek",
+        "icon": "⌁",
+        "intro": "Onderzoekers maakten een proefrobot die door de lucht kan dalen en daarna op het water kan zeilen.",
+        "body": "Soms geeft de natuur een slim idee voor een uitvinding. Onderzoekers in Singapore maakten een proefrobot die een beetje op een draaiend esdoornzaadje geïnspireerd is. De robot heet ALBATROSS. Hij kan vanuit de lucht naar het water dalen, zichzelf rechtop zetten en daarna de wind gebruiken om te zeilen. Dezelfde stevige vleugels helpen bij het dalen en worden op het water zeilen. In een proef voer een grotere versie ongeveer drie uur zelfstandig en verzamelde metingen uit zijn omgeving. Dat betekent niet dat hij al overal wekenlang zelfstandig rondvaart. Dat is een idee voor toekomstige toepassingen, geen bewezen resultaat van deze proef. Zo'n kleine onderzoeksboot kan helpen bij het verzamelen van informatie op lastig bereikbare plekken. De oorspronkelijke onderzoeksupdate is van 1 oktober, iets ouder dan deze week. Onze kleurplaat toont een eenvoudig nieuw ontwerp bij het idee: een kleine zeilrobot op rustig water. Het is geen exacte bouwtekening.",
+        "facts": [
+          "Het onderzoek komt van een universiteit in Singapore.",
+          "Dezelfde vleugels kunnen ook als zeilen werken.",
+          "Een grotere proefversie verzamelde ongeveer drie uur zelfstandig gegevens."
+        ],
+        "question": "Welk idee uit de natuur zou jij voor een uitvinding gebruiken?",
+        "sources": [
+          {
+            "label": "Onderzoeker — ALBATROSS en proefresultaten",
+            "url": "https://shanekhw.github.io/projects/albatross/"
+          },
+          {
+            "label": "Onderzoeker — oorspronkelijke publicatie-update",
+            "url": "https://shanekhw.github.io/"
+          }
+        ],
+        "referenceUrl": "https://shanekhw.github.io/projects/albatross/",
+        "referenceCredit": "Proeffoto ALBATROSS op het reservoir: SUTD, gepubliceerd door onderzoeker Shane Kyi Hla Win. Geen vrije licentie vermeld; alleen visuele referentie, niet kopiëren.",
+        "coloringSlug": "singapore-zeilrobot-op-het-water",
+        "sourceUrl": "https://shanekhw.github.io/projects/albatross/",
+        "sourceLabel": "Onderzoeker — ALBATROSS en proefresultaten"
+      },
+      {
+        "slug": "murchison-bloemen-bij-radiotelescopen",
+        "title": "Tussen de telescopen bloeien wilde bloemen",
+        "location": "Murchison, West-Australië",
+        "reportedDate": "16 september 2026 — terugblik uit de afgelopen maand",
+        "theme": "Planten & landschap",
+        "icon": "♧",
+        "intro": "Een Australisch sterrenkundeterrein werd dit jaar ook een bijzonder bloemenlandschap.",
+        "body": "Bij een sterrenkundeterrein denk je misschien vooral aan grote schotels die naar de hemel wijzen. In West-Australië was dit jaar ook op de grond veel te ontdekken. De Australische onderzoeksorganisatie CSIRO vertelde op 16 september over wilde bloemen bij het observatorium in Murchison. Na vroege regen kwamen veel zaden in de bodem tot leven. Verschillende planten bloeiden tegelijk, vlak bij de radiotelescopen. Dat zijn instrumenten die radiogolven uit de ruimte opvangen. De medewerkers kijken dus niet alleen naar het heelal: zij helpen ook planten op het terrein in kaart te brengen. De plek ligt op het land van de Wajarri Yamaji. Het bloemenbericht is een terugblik van september; we zeggen niet dat hetzelfde bloementapijt vandaag nog overal aanwezig is. Het laat wel zien hoeveel je ontdekt als je ook dichtbij goed kijkt. Onze tekening combineert enkele volledige bloemvormen met een telescoopschotel, als nieuwe illustratie en niet als kopie van een foto.",
+        "facts": [
+          "Het terrein ligt in Murchison, West-Australië.",
+          "De bloemen groeiden ook vlak bij de radiotelescopen.",
+          "Radiotelescopen vangen radiogolven uit de ruimte op."
+        ],
+        "question": "Wat zou jij rondom een onderzoeksgebouw willen ontdekken?",
+        "sources": [
+          {
+            "label": "CSIRO — bloemenbericht van 16 september",
+            "url": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes"
+          },
+          {
+            "label": "CSIRO — ASKAP en het observatorium",
+            "url": "https://www.csiro.au/en/about/facilities-collections/ATNF/ASKAP-radio-telescope"
+          }
+        ],
+        "referenceUrl": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes",
+        "referenceCredit": "Foto van Calandrinia mirabilis: Craig Pope / CSIRO. Geen vrije hergebruiklicentie vermeld bij het beeld; uitsluitend visuele referentie, niet kopiëren.",
+        "coloringSlug": "murchison-bloemen-bij-radiotelescopen",
+        "sourceUrl": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes",
+        "sourceLabel": "CSIRO — bloemenbericht van 16 september"
+      }
+    ]
+  },
+  {
     "published": "2026-10-05",
     "stories": [
       {

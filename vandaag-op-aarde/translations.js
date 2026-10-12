@@ -1472,3 +1472,528 @@ for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"refer
 for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). Aucune licence de réutilisation indiquée ; référence visuelle uniquement, ne pas copier."}})) Object.assign(WORLD_STORY_TRANSLATIONS.fr[slug], fields);
 for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. No se indica licencia de reutilización; solo referencia visual, no copiar."},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. No se indica licencia de reutilización; solo referencia visual, no copiar."},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. No se indica licencia de reutilización; solo referencia visual, no copiar."},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. No se indica licencia de reutilización; solo referencia visual, no copiar."},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). No se indica licencia de reutilización; solo referencia visual, no copiar."}})) Object.assign(WORLD_STORY_TRANSLATIONS.es[slug], fields);
 for (const [slug, fields] of Object.entries({"paghman-groentetuin-leren":{"referenceCredit":"UNESCO Afghanistan / © UNESCO. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"moquegua-leraren-samen-leren":{"referenceCredit":"© UNESCO Perú. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"macquarie-koningspinguins-zwemmen":{"referenceCredit":"Lachlan Hall / BirdLife Australia Photography Awards. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"saturnus-ringen-ontdekken":{"referenceCredit":"NASA / JPL / Space Science Institute. 来源页未标明再使用许可；仅作视觉参考，请勿复制。"},"windtunnel-vleugel-onderzoek":{"referenceCredit":"NASA / Sarah Peak (left); NASA (right). 来源页未标明再使用许可；仅作视觉参考，请勿复制。"}})) Object.assign(WORLD_STORY_TRANSLATIONS.zh[slug], fields);
+
+Object.assign(WORLD_STORY_TRANSLATIONS.en, {
+  "curiosity-ochtendfoto-marskliffen": {
+    "title": "A morning photo reveals unusual Martian rocks",
+    "location": "Mars; research based in the United States",
+    "reportedDate": "6 October 2026; photograph taken on 11 August",
+    "theme": "Space & photography",
+    "intro": "A newly released photograph shows Martian rocks shaped into unusual forms by wind.",
+    "body": "A robot called Curiosity is exploring Mars. On 6 October, NASA shared a special morning view taken by this rover. The photograph was not taken this week: its camera recorded the landscape on 11 August. Six photographs were joined into one wide panorama. In the distance are rocky cliffs with unusual shapes. Researchers call these wind-shaped formations yardangs. They want to understand how this layer near Mount Sharp formed. A photograph is a starting point, not an answer to every question. Comparing shapes and layers helps them look for clues. The rover can drive closer and later take measurements with its instruments. Imagine exploring a landscape through a robot's camera. What would you notice first? Our coloring page is a new, simplified picture of a Mars rover among rocks, not a copy of the photograph.",
+    "facts": [
+      "The news release appeared on 6 October 2026.",
+      "Six photographs make up the panorama.",
+      "Curiosity explores the landscape near Mount Sharp."
+    ],
+    "question": "Which rock shape would you examine with a robot camera?",
+    "referenceCredit": "Real Mars photographs: NASA / JPL-Caltech / MSSS. No separate reuse licence shown with the image; visual reference only, not for copying.",
+    "sources": [
+      {
+        "label": "NASA JPL",
+        "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/"
+      },
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/mission/msl-curiosity/"
+      }
+    ]
+  },
+  "letland-korstmos-op-houten-muur": {
+    "title": "A tiny lichen attracts attention",
+    "location": "Kalna Kaibēni, Latvia",
+    "reportedDate": "6 October 2026",
+    "theme": "Nature & observation",
+    "intro": "A lichen never previously recorded in Latvia was found on a museum's wooden wall.",
+    "body": "A discovery does not have to be big. In Latvia, a nature observer looked closely at an old wooden building at the Kalna Kaibēni museum. On its wall was a lichen called Pseudothelomma ocellatum. Latvia's mycological society reported the find on 6 October. This is the species' first recorded discovery in Latvia, not a newly discovered species for the whole world. It forms a thin crust on dry, sunny wood. Up close, tiny patches and patterns become visible. Researchers compare these features to identify a species. The discovery reminds us that nature can also be found on things people have built. You do not need to scrape anything off or take it home: looking carefully is interesting enough. Our picture enlarges a simplified lichen example so its small shapes are easy to color.",
+    "facts": [
+      "The lichen was found on an old wooden museum wall.",
+      "This is the species' first recorded discovery in Latvia.",
+      "The species grows on dry, sun-exposed wood."
+    ],
+    "question": "Which small natural detail would you examine with a magnifying glass?",
+    "referenceCredit": "Text and photographs: Raivo Ivulāns / Latvijas Mikologu biedrība. No free reuse licence stated; visual reference only, not for copying.",
+    "sources": [
+      {
+        "label": "Letse Mycologische Vereniging",
+        "url": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum"
+      },
+      {
+        "label": "Wetenschappelijke beschrijving",
+        "url": "https://link.springer.com/article/10.1007/s13225-016-0372-y"
+      },
+      {
+        "label": "RTÉ / Letse publieke media",
+        "url": "https://www.rte.ie/news/a-european-perspective/2026/1009/1594750-latvia-lichen/"
+      }
+    ]
+  },
+  "puebla-samen-lezen-in-de-buurt": {
+    "title": "Learning to read together nearby",
+    "location": "Puebla, Mexico",
+    "reportedDate": "5 October 2026; updated 6 October",
+    "theme": "Education & cooperation",
+    "intro": "University students help people practise reading and writing close to their own community.",
+    "body": "A lesson does not always happen in a regular school. On 5 October, UNESCO described ways to bring learning closer to people in Mexico. One example comes from Puebla, where university students volunteer to help with community lessons. A centre in the Barranca Honda neighbourhood offers learning for children, young people and adults. The programme is called Aprender enseñando: learning by teaching. Helpers also practise important skills, such as listening carefully, explaining patiently and looking for answers together. Not everyone has had the same opportunities to learn to read. That is why accessible lessons, suited to people's needs, matter. The news describes work that has been going on for some time; the centre did not open this week. Our coloring page shows an imaginary, welcoming lesson with adults. They are not portraits of the real participants.",
+    "facts": [
+      "This example comes from Puebla, Mexico.",
+      "University students volunteer to help with lessons.",
+      "The community centre welcomes learners of different ages."
+    ],
+    "question": "What could you explain patiently to someone else?",
+    "referenceCredit": "Adult educator Mirta Isabel Figueroa: © UNESCO / Prometeo Lucero. No free reuse licence stated; reference for teaching context only, not a portrait to copy.",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/days/literacy"
+      }
+    ]
+  },
+  "singapore-zeilrobot-op-het-water": {
+    "title": "This robot lets the wind help",
+    "location": "Singapore",
+    "reportedDate": "1 October 2026 — additional story from the past month",
+    "theme": "Technology & water research",
+    "intro": "Researchers made an experimental robot that can descend through the air and then sail on water.",
+    "body": "Nature can offer clever ideas for inventions. Researchers in Singapore developed a robot partly inspired by a spinning maple seed. It is called ALBATROSS. It can descend towards water, turn itself upright and then use the wind to sail. The same firm wings help it descend and become sails on the water. During one trial, a larger version travelled independently for about three hours and collected measurements from its surroundings. This does not mean it already sails everywhere alone for weeks. Longer journeys are an idea for future uses, not a proven result of that trial. A small research boat like this could help gather information in places that are hard to reach. The original research update is dated 1 October, slightly older than this week. Our coloring page is a new, simplified sailing robot, not an exact construction drawing.",
+    "facts": [
+      "The research comes from a university in Singapore.",
+      "The same wings can also serve as sails.",
+      "A larger trial version collected data independently for about three hours."
+    ],
+    "question": "Which idea from nature would you use in an invention?",
+    "referenceCredit": "ALBATROSS reservoir trial photograph: SUTD, published by researcher Shane Kyi Hla Win. No free licence stated; visual reference only, not for copying.",
+    "sources": [
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/projects/albatross/"
+      },
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/"
+      }
+    ]
+  },
+  "murchison-bloemen-bij-radiotelescopen": {
+    "title": "Wildflowers bloom among the telescopes",
+    "location": "Murchison, Western Australia",
+    "reportedDate": "16 September 2026 — looking back within the past month",
+    "theme": "Plants & landscapes",
+    "intro": "An Australian astronomy site also became a remarkable flower landscape this year.",
+    "body": "At an astronomy site, you might expect large dishes pointing towards the sky. This year, there was also plenty to discover on the ground in Western Australia. On 16 September, the Australian research organisation CSIRO described wildflowers at the Murchison observatory. Following early rain, many seeds in the soil began to grow. Different plants flowered together near the radio telescopes, instruments that collect radio waves from space. Staff do not only study the universe: they also help record the plants around them. The site is on Wajarri Yamaji Country. This flower story is a September look-back; we are not saying the same carpet of flowers is still everywhere today. It shows what careful observation nearby can reveal. Our picture combines complete flower shapes and a telescope dish in an original illustration, not a copy of a photograph.",
+    "facts": [
+      "The site is in Murchison, Western Australia.",
+      "Flowers grew close to the radio telescopes.",
+      "Radio telescopes collect radio waves from space."
+    ],
+    "question": "What would you like to discover around a research building?",
+    "referenceCredit": "Calandrinia mirabilis photograph: Craig Pope / CSIRO. No free reuse licence shown with the image; visual reference only, not for copying.",
+    "sources": [
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes"
+      },
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/about/facilities-collections/ATNF/ASKAP-radio-telescope"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.fr, {
+  "curiosity-ochtendfoto-marskliffen": {
+    "title": "Une photo matinale révèle des rochers martiens",
+    "location": "Mars ; recherches menées depuis les États-Unis",
+    "reportedDate": "6 octobre 2026 ; photo prise le 11 août",
+    "theme": "Espace et photographie",
+    "intro": "Une photo récemment publiée montre des rochers de Mars sculptés par le vent.",
+    "body": "Sur Mars, le robot Curiosity explore le paysage. Le 6 octobre, la NASA a partagé une vue matinale photographiée par ce rover. L'image n'a donc pas été prise cette semaine : la caméra l'a enregistrée le 11 août. Six photos ont été réunies pour créer un large panorama. Au loin, des falaises présentent des formes étonnantes. Les chercheurs appellent ces formations sculptées par le vent des yardangs. Ils cherchent à comprendre comment cette couche, près du mont Sharp, s'est formée. Une photographie donne des indices, mais ne répond pas à toutes les questions. Comparer les formes et les couches aide à poursuivre l'enquête. Le rover peut s'approcher puis effectuer des mesures. Imagine observer un paysage grâce à la caméra d'un robot ! Notre coloriage représente un rover parmi des rochers : c'est une illustration originale et simplifiée, pas une copie de la photo.",
+    "facts": [
+      "Le communiqué a été publié le 6 octobre 2026.",
+      "Le panorama réunit six photos.",
+      "Curiosity explore les environs du mont Sharp."
+    ],
+    "question": "Quelle forme de rocher observerais-tu avec une caméra robotisée ?",
+    "referenceCredit": "Vraies photos de Mars : NASA / JPL-Caltech / MSSS. Aucune licence de réutilisation distincte indiquée ; référence visuelle uniquement, sans copie.",
+    "sources": [
+      {
+        "label": "NASA JPL",
+        "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/"
+      },
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/mission/msl-curiosity/"
+      }
+    ]
+  },
+  "letland-korstmos-op-houten-muur": {
+    "title": "Un tout petit lichen attire l'attention",
+    "location": "Kalna Kaibēni, Lettonie",
+    "reportedDate": "6 octobre 2026",
+    "theme": "Nature et observation",
+    "intro": "Un lichen jamais encore signalé en Lettonie a été trouvé sur le mur en bois d'un musée.",
+    "body": "Une découverte peut être minuscule. En Lettonie, un observateur a examiné le mur d'un vieux bâtiment en bois du musée Kalna Kaibēni. Il y a trouvé un lichen nommé Pseudothelomma ocellatum. La société mycologique lettone a annoncé cette observation le 6 octobre. C'est le premier signalement de cette espèce en Lettonie, pas une espèce nouvellement découverte dans le monde. Ce lichen forme une mince croûte sur du bois sec exposé au soleil. De près, on aperçoit de petits motifs et des taches faciles à manquer de loin. Les scientifiques comparent ces détails pour reconnaître une espèce. La nature existe aussi sur les constructions humaines ! Inutile de gratter ou d'emporter quelque chose : regarder tranquillement suffit. Notre dessin agrandit un exemple simplifié de lichen pour rendre ses petites formes faciles à colorier.",
+    "facts": [
+      "Le lichen a été trouvé sur un vieux mur de musée en bois.",
+      "C'est le premier signalement de cette espèce en Lettonie.",
+      "L'espèce pousse sur du bois sec exposé au soleil."
+    ],
+    "question": "Quel petit détail naturel examinerais-tu avec une loupe ?",
+    "referenceCredit": "Texte et photos : Raivo Ivulāns / Latvijas Mikologu biedrība. Aucune licence libre indiquée ; référence visuelle uniquement, sans copie.",
+    "sources": [
+      {
+        "label": "Letse Mycologische Vereniging",
+        "url": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum"
+      },
+      {
+        "label": "Wetenschappelijke beschrijving",
+        "url": "https://link.springer.com/article/10.1007/s13225-016-0372-y"
+      },
+      {
+        "label": "RTÉ / Letse publieke media",
+        "url": "https://www.rte.ie/news/a-european-perspective/2026/1009/1594750-latvia-lichen/"
+      }
+    ]
+  },
+  "puebla-samen-lezen-in-de-buurt": {
+    "title": "Apprendre à lire ensemble dans son quartier",
+    "location": "Puebla, Mexique",
+    "reportedDate": "5 octobre 2026 ; mis à jour le 6 octobre",
+    "theme": "Éducation et coopération",
+    "intro": "Des étudiants aident des habitants à apprendre à lire et à écrire près de chez eux.",
+    "body": "Une leçon ne se déroule pas toujours dans une école habituelle. Le 5 octobre, l'UNESCO a présenté plusieurs façons de rapprocher l'apprentissage des habitants au Mexique. À Puebla, des étudiants donnent bénévolement un coup de main à des cours dans les quartiers. Un centre de Barranca Honda accueille enfants, jeunes et adultes. Le programme s'appelle Aprender enseñando : apprendre en enseignant. Les bénévoles s'exercent aussi à écouter, expliquer patiemment et chercher des réponses ensemble. Tout le monde n'a pas eu les mêmes possibilités d'apprendre à lire. Des cours accessibles, adaptés aux besoins de chacun, sont donc importants. L'article décrit un travail déjà ancien : le centre n'a pas ouvert cette semaine. Notre coloriage représente une situation d'apprentissage imaginaire avec des adultes. Ce ne sont pas des portraits des véritables participants.",
+    "facts": [
+      "Cet exemple se déroule à Puebla, au Mexique.",
+      "Des étudiants aident bénévolement aux cours.",
+      "Le centre accueille des personnes de plusieurs âges."
+    ],
+    "question": "Que pourrais-tu expliquer avec patience à quelqu'un ?",
+    "referenceCredit": "L'éducatrice adulte Mirta Isabel Figueroa : © UNESCO / Prometeo Lucero. Aucune licence libre indiquée ; référence du contexte pédagogique, sans copier le portrait.",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/days/literacy"
+      }
+    ]
+  },
+  "singapore-zeilrobot-op-het-water": {
+    "title": "Ce robot profite du vent",
+    "location": "Singapour",
+    "reportedDate": "1er octobre 2026 — complément du mois écoulé",
+    "theme": "Technique et recherche sur l'eau",
+    "intro": "Un robot expérimental peut descendre dans l'air puis naviguer sur l'eau à la voile.",
+    "body": "La nature peut inspirer de bonnes idées. À Singapour, des chercheurs ont conçu un robot en s'inspirant notamment d'une graine d'érable qui tourne en tombant. Il s'appelle ALBATROSS. Il peut descendre vers l'eau, se redresser puis utiliser le vent pour naviguer. Ses ailes rigides l'aident pendant la descente et deviennent des voiles sur l'eau. Lors d'un essai, une version plus grande a navigué seule environ trois heures en recueillant des mesures. Cela ne veut pas dire qu'elle navigue déjà partout pendant des semaines. Les longs voyages sont une possibilité future, pas un résultat démontré par cet essai. Un petit bateau scientifique pourrait aider à explorer des lieux difficiles d'accès. L'annonce originale date du 1er octobre, un peu avant cette semaine. Notre coloriage est une illustration nouvelle et simplifiée, pas un plan de construction exact.",
+    "facts": [
+      "La recherche vient d'une université de Singapour.",
+      "Les mêmes ailes peuvent servir de voiles.",
+      "Une version plus grande a mesuré seule pendant environ trois heures."
+    ],
+    "question": "Quelle idée de la nature utiliserais-tu pour inventer quelque chose ?",
+    "referenceCredit": "Photo d'essai d'ALBATROSS sur un réservoir : SUTD, publiée par Shane Kyi Hla Win. Aucune licence libre indiquée ; référence visuelle uniquement, sans copie.",
+    "sources": [
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/projects/albatross/"
+      },
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/"
+      }
+    ]
+  },
+  "murchison-bloemen-bij-radiotelescopen": {
+    "title": "Des fleurs sauvages parmi les télescopes",
+    "location": "Murchison, Australie-Occidentale",
+    "reportedDate": "16 septembre 2026 — retour sur le mois écoulé",
+    "theme": "Plantes et paysages",
+    "intro": "Un site astronomique australien est aussi devenu un paysage fleuri cette année.",
+    "body": "Sur un site astronomique, on imagine de grandes antennes tournées vers le ciel. Cette année, le sol réservait aussi des surprises en Australie-Occidentale. Le 16 septembre, l'organisme scientifique CSIRO a décrit les fleurs sauvages de l'observatoire de Murchison. Après des pluies précoces, de nombreuses graines ont commencé à pousser. Plusieurs plantes ont fleuri près des radiotélescopes, des instruments qui recueillent les ondes radio de l'espace. Les équipes ne regardent pas seulement l'univers : elles recensent aussi les plantes du terrain. Le site se trouve sur le territoire des Wajarri Yamaji. Ce récit revient sur septembre ; nous ne disons pas que le même tapis de fleurs est encore présent partout aujourd'hui. Observer attentivement près de soi permet de belles découvertes. Notre dessin associe des fleurs entières et un télescope dans une illustration originale, sans copier une photo.",
+    "facts": [
+      "Le site se trouve à Murchison, en Australie-Occidentale.",
+      "Des fleurs poussaient près des radiotélescopes.",
+      "Ces télescopes recueillent les ondes radio de l'espace."
+    ],
+    "question": "Qu'aimerais-tu découvrir autour d'un bâtiment scientifique ?",
+    "referenceCredit": "Photo de Calandrinia mirabilis : Craig Pope / CSIRO. Aucune licence libre indiquée avec l'image ; référence visuelle uniquement, sans copie.",
+    "sources": [
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes"
+      },
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/about/facilities-collections/ATNF/ASKAP-radio-telescope"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.es, {
+  "curiosity-ochtendfoto-marskliffen": {
+    "title": "Una foto matinal revela rocas de Marte",
+    "location": "Marte; investigación desde Estados Unidos",
+    "reportedDate": "6 de octubre de 2026; foto del 11 de agosto",
+    "theme": "Espacio y fotografía",
+    "intro": "Una foto recién publicada muestra rocas de Marte con formas modeladas por el viento.",
+    "body": "El robot Curiosity recorre Marte y observa su paisaje. El 6 de octubre, la NASA compartió una vista especial de la mañana tomada por este róver. La imagen no se hizo esta semana: la cámara fotografió el lugar el 11 de agosto. Seis fotos se unieron para formar un panorama amplio. A lo lejos aparecen acantilados con formas curiosas. Los investigadores llaman yardangs a estas formaciones modeladas por el viento. Quieren comprender cómo se formó esta capa cerca del monte Sharp. Una foto ofrece pistas, pero no resuelve todas las preguntas. Comparar formas y capas ayuda a investigar. El róver puede acercarse y después tomar medidas con sus instrumentos. Imagina mirar un paisaje a través de una cámara robótica. ¿Qué observarías primero? Nuestro dibujo es una ilustración nueva y sencilla de un róver entre rocas, no una copia de la fotografía.",
+    "facts": [
+      "La noticia se publicó el 6 de octubre de 2026.",
+      "El panorama reúne seis fotografías.",
+      "Curiosity explora el paisaje cerca del monte Sharp."
+    ],
+    "question": "¿Qué forma de roca examinarías con una cámara robótica?",
+    "referenceCredit": "Fotos reales de Marte: NASA / JPL-Caltech / MSSS. No se indica una licencia aparte de reutilización; solo referencia visual, sin copiar.",
+    "sources": [
+      {
+        "label": "NASA JPL",
+        "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/"
+      },
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/mission/msl-curiosity/"
+      }
+    ]
+  },
+  "letland-korstmos-op-houten-muur": {
+    "title": "Un pequeño liquen despierta gran interés",
+    "location": "Kalna Kaibēni, Letonia",
+    "reportedDate": "6 de octubre de 2026",
+    "theme": "Naturaleza y observación",
+    "intro": "En la pared de madera de un museo encontraron un liquen nunca antes registrado en Letonia.",
+    "body": "Un descubrimiento no necesita ser grande. En Letonia, un observador de la naturaleza examinó la pared de un antiguo edificio de madera del museo Kalna Kaibēni. Allí encontró un liquen llamado Pseudothelomma ocellatum. La sociedad micológica letona informó del hallazgo el 6 de octubre. Es el primer registro de esta especie en Letonia, no una especie recién descubierta en todo el mundo. Forma una fina costra sobre madera seca y soleada. De cerca se ven pequeñas manchas y dibujos que pasan desapercibidos desde lejos. Los científicos comparan estos detalles para reconocer especies. La naturaleza también vive sobre construcciones humanas. No hace falta raspar nada ni llevárselo a casa: observar con calma ya resulta interesante. Nuestro dibujo amplía un ejemplo simplificado de liquen para que sus pequeñas formas se puedan colorear fácilmente.",
+    "facts": [
+      "El liquen apareció en una antigua pared de madera de un museo.",
+      "Es el primer registro de esta especie en Letonia.",
+      "La especie crece sobre madera seca y soleada."
+    ],
+    "question": "¿Qué pequeño detalle natural investigarías con una lupa?",
+    "referenceCredit": "Texto y fotos: Raivo Ivulāns / Latvijas Mikologu biedrība. No se indica una licencia libre; solo referencia visual, sin copiar.",
+    "sources": [
+      {
+        "label": "Letse Mycologische Vereniging",
+        "url": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum"
+      },
+      {
+        "label": "Wetenschappelijke beschrijving",
+        "url": "https://link.springer.com/article/10.1007/s13225-016-0372-y"
+      },
+      {
+        "label": "RTÉ / Letse publieke media",
+        "url": "https://www.rte.ie/news/a-european-perspective/2026/1009/1594750-latvia-lichen/"
+      }
+    ]
+  },
+  "puebla-samen-lezen-in-de-buurt": {
+    "title": "Aprender a leer juntos en el barrio",
+    "location": "Puebla, México",
+    "reportedDate": "5 de octubre de 2026; actualizado el 6 de octubre",
+    "theme": "Educación y colaboración",
+    "intro": "Estudiantes universitarios ayudan a aprender a leer y escribir cerca de la comunidad.",
+    "body": "Una clase no siempre tiene que ocurrir en una escuela habitual. El 5 de octubre, la UNESCO presentó distintas formas de acercar el aprendizaje a las personas en México. Un ejemplo procede de Puebla, donde universitarios colaboran como voluntarios en clases comunitarias. En Barranca Honda hay un centro donde aprenden niños, jóvenes y adultos. El programa se llama Aprender enseñando. Quienes ayudan también practican: escuchan con atención, explican con paciencia y buscan respuestas junto a otras personas. No todo el mundo ha tenido las mismas oportunidades de aprender a leer. Por eso importan las clases accesibles y adaptadas a lo que cada persona necesita. La noticia habla de un trabajo que ya existía; el centro no abrió esta semana. Nuestro dibujo muestra una escena de aprendizaje imaginaria con adultos, no retratos de participantes reales.",
+    "facts": [
+      "El ejemplo se desarrolla en Puebla, México.",
+      "Universitarios colaboran voluntariamente en las clases.",
+      "El centro comunitario recibe estudiantes de distintas edades."
+    ],
+    "question": "¿Qué podrías explicar con paciencia a otra persona?",
+    "referenceCredit": "La educadora adulta Mirta Isabel Figueroa: © UNESCO / Prometeo Lucero. No se indica una licencia libre; referencia del contexto educativo, sin copiar el retrato.",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/days/literacy"
+      }
+    ]
+  },
+  "singapore-zeilrobot-op-het-water": {
+    "title": "Este robot deja que ayude el viento",
+    "location": "Singapur",
+    "reportedDate": "1 de octubre de 2026 — noticia adicional del último mes",
+    "theme": "Tecnología e investigación del agua",
+    "intro": "Un robot experimental puede descender por el aire y después navegar a vela sobre el agua.",
+    "body": "La naturaleza puede inspirar inventos ingeniosos. En Singapur, investigadores desarrollaron un robot inspirado en parte en una semilla de arce que gira al caer. Se llama ALBATROSS. Puede descender hacia el agua, ponerse derecho y utilizar el viento para navegar. Sus alas rígidas ayudan durante el descenso y luego funcionan como velas. En una prueba, una versión más grande navegó de forma autónoma durante unas tres horas y recogió medidas de su entorno. Eso no significa que ya navegue por todas partes durante semanas. Los viajes largos son una posible aplicación futura, no un resultado demostrado en esa prueba. Un pequeño barco científico podría ayudar a recoger información en lugares difíciles de alcanzar. La actualización original es del 1 de octubre, algo anterior a esta semana. Nuestro dibujo presenta una idea nueva y simplificada, no un plano exacto de construcción.",
+    "facts": [
+      "La investigación procede de una universidad de Singapur.",
+      "Las mismas alas pueden funcionar como velas.",
+      "Una versión mayor recogió datos sola durante unas tres horas."
+    ],
+    "question": "¿Qué idea de la naturaleza usarías para inventar algo?",
+    "referenceCredit": "Foto de una prueba de ALBATROSS en un embalse: SUTD, publicada por Shane Kyi Hla Win. No se indica una licencia libre; solo referencia visual, sin copiar.",
+    "sources": [
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/projects/albatross/"
+      },
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/"
+      }
+    ]
+  },
+  "murchison-bloemen-bij-radiotelescopen": {
+    "title": "Flores silvestres entre los telescopios",
+    "location": "Murchison, Australia Occidental",
+    "reportedDate": "16 de septiembre de 2026 — mirada al último mes",
+    "theme": "Plantas y paisajes",
+    "intro": "Un recinto astronómico australiano también se convirtió este año en un paisaje lleno de flores.",
+    "body": "En un recinto astronómico imaginas grandes antenas apuntando al cielo. Este año también había mucho que descubrir en el suelo de Australia Occidental. El 16 de septiembre, la organización científica CSIRO describió flores silvestres en el observatorio de Murchison. Después de lluvias tempranas, muchas semillas empezaron a crecer. Varias plantas florecieron juntas cerca de los radiotelescopios, instrumentos que reciben ondas de radio del espacio. El personal no solo estudia el universo: también ayuda a registrar las plantas del terreno. El lugar está en territorio Wajarri Yamaji. Esta noticia recuerda septiembre; no afirmamos que hoy siga allí la misma alfombra de flores. Sí muestra lo que descubrimos al observar con atención lo cercano. Nuestro dibujo combina flores completas y una antena en una ilustración original, sin copiar una fotografía.",
+    "facts": [
+      "El lugar está en Murchison, Australia Occidental.",
+      "Crecieron flores cerca de los radiotelescopios.",
+      "Estos telescopios reciben ondas de radio del espacio."
+    ],
+    "question": "¿Qué te gustaría descubrir alrededor de un edificio de investigación?",
+    "referenceCredit": "Foto de Calandrinia mirabilis: Craig Pope / CSIRO. No se indica una licencia libre junto a la imagen; solo referencia visual, sin copiar.",
+    "sources": [
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes"
+      },
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/about/facilities-collections/ATNF/ASKAP-radio-telescope"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
+  "curiosity-ochtendfoto-marskliffen": {
+    "title": "清晨照片里的奇特火星岩石",
+    "location": "火星；美国的研究团队",
+    "reportedDate": "2026年10月6日；照片拍摄于8月11日",
+    "theme": "太空与摄影",
+    "intro": "一张新公布的照片展示了火星上被风塑造的奇特岩石。",
+    "body": "好奇号是一辆在火星上探索的机器人车。10月6日，美国航天局公布了它拍摄的一幅清晨景色。这张照片不是本周拍的：相机在8月11日记录了这个地方。六张照片拼成了一个宽宽的全景。远处的岩壁形状很特别，研究人员把这种被风塑造的地形叫作雅丹。他们想弄清楚夏普山附近的这一层岩石是怎样形成的。照片能提供线索，却不能回答所有问题。比较岩石的形状和层次，可以帮助研究继续进行。火星车还能开得更近，再用仪器测量。想象一下，只能通过机器人的相机观察一个地方，你会先看什么？我们的涂色图是一幅新创作的简化插画，画着岩石之间的火星车，并不是照片的复制品。",
+    "facts": [
+      "新闻发表于2026年10月6日。",
+      "全景图由六张照片拼成。",
+      "好奇号正在探索夏普山附近的地形。"
+    ],
+    "question": "你想用机器人的相机仔细看看哪种岩石形状？",
+    "referenceCredit": "真实火星照片：NASA / JPL-Caltech / MSSS。图片旁未注明单独的再利用许可；只作视觉参考，不复制。",
+    "sources": [
+      {
+        "label": "NASA JPL",
+        "url": "https://www.nasa.gov/missions/mars-science-laboratory/curiosity-rover/nasas-curiosity-rover-catches-stunning-martian-dawn/"
+      },
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/mission/msl-curiosity/"
+      }
+    ]
+  },
+  "letland-korstmos-op-houten-muur": {
+    "title": "小小地衣引起了关注",
+    "location": "拉脱维亚，Kalna Kaibēni博物馆",
+    "reportedDate": "2026年10月6日",
+    "theme": "自然与观察",
+    "intro": "博物馆的一面木墙上，发现了一种此前未在拉脱维亚记录过的地衣。",
+    "body": "发现不一定很大。在拉脱维亚，一位自然观察者仔细查看了Kalna Kaibēni博物馆一座旧木建筑的墙面。他在那里发现了名叫Pseudothelomma ocellatum的地衣。拉脱维亚真菌学协会在10月6日介绍了这次发现。这是该物种在拉脱维亚的首次记录，并不表示全世界以前都不知道它。这种地衣在干燥、向阳的木头上形成一层薄薄的壳。靠近看，就能发现远处容易忽略的小斑点和花纹。科学家会比较这些特征来辨认物种。人造建筑上也可能藏着自然的小秘密！不需要刮下任何东西，也不用把它带回家，安静观察就很有趣。我们的图把一个简化的地衣例子放大，让小小的形状更容易涂色。",
+    "facts": [
+      "地衣是在博物馆的旧木墙上发现的。",
+      "这是该物种在拉脱维亚的首次记录。",
+      "这种地衣生长在干燥、向阳的木头上。"
+    ],
+    "question": "你想用放大镜观察自然中的哪个小细节？",
+    "referenceCredit": "文字和照片：Raivo Ivulāns / Latvijas Mikologu biedrība。未注明免费再利用许可；只作视觉参考，不复制。",
+    "sources": [
+      {
+        "label": "Letse Mycologische Vereniging",
+        "url": "https://mikologubiedriba.lv/en/events/pseudothelomma-ocellatum"
+      },
+      {
+        "label": "Wetenschappelijke beschrijving",
+        "url": "https://link.springer.com/article/10.1007/s13225-016-0372-y"
+      },
+      {
+        "label": "RTÉ / Letse publieke media",
+        "url": "https://www.rte.ie/news/a-european-perspective/2026/1009/1594750-latvia-lichen/"
+      }
+    ]
+  },
+  "puebla-samen-lezen-in-de-buurt": {
+    "title": "在社区里一起学习阅读",
+    "location": "墨西哥，普埃布拉",
+    "reportedDate": "2026年10月5日；10月6日更新",
+    "theme": "教育与合作",
+    "intro": "大学生在社区附近帮助人们学习阅读和写字。",
+    "body": "学习不一定只能在普通学校里进行。10月5日，联合国教科文组织介绍了墨西哥让学习更贴近人们生活的几种办法。一个例子来自普埃布拉，当地大学生自愿帮助开展社区课程。Barranca Honda社区有一个学习中心，儿童、年轻人和成年人都可以在那里学习。这个项目叫Aprender enseñando，意思是通过教别人来学习。帮助别人的人也在练习：认真倾听、耐心解释、一起寻找答案。并不是每个人都曾有同样的机会学习阅读，所以方便到达、适合学习者需要的课程很重要。这则新闻介绍的是已经开展了一段时间的工作，中心并不是本周才开门。我们的涂色图画的是一场虚构的友好成人学习活动，并非真实参与者的肖像。",
+    "facts": [
+      "这个例子发生在墨西哥普埃布拉。",
+      "大学生自愿协助社区课程。",
+      "学习中心欢迎不同年龄的学习者。"
+    ],
+    "question": "你能耐心地向别人解释什么事情？",
+    "referenceCredit": "成年教育工作者Mirta Isabel Figueroa的照片：© UNESCO / Prometeo Lucero。未注明免费许可；仅参考教学情境，不复制肖像。",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/bringing-literacy-closer-people-mexicos-continued-efforts-reach-every-learner"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/days/literacy"
+      }
+    ]
+  },
+  "singapore-zeilrobot-op-het-water": {
+    "title": "让风来帮忙的机器人",
+    "location": "新加坡",
+    "reportedDate": "2026年10月1日——过去一个月内的补充新闻",
+    "theme": "技术与水域研究",
+    "intro": "研究人员制作的实验机器人，可以从空中下降，再在水面上航行。",
+    "body": "自然有时能给发明带来好点子。新加坡的研究人员制作了一种实验机器人，部分灵感来自旋转着落下的枫树种子。它叫ALBATROSS。它可以向水面下降，调整到直立姿态，然后借助风航行。同一组坚固的翼帮助它下降，到水面上又能当作帆使用。在一次实验中，较大的版本自主航行了大约三小时，同时收集周围环境的数据。这并不表示它已经可以到处独自航行几个星期。更长的航程是未来应用的想法，不是这次实验已经证明的结果。这样的小研究船或许能帮助收集难以到达的地方的信息。最初的研究更新发表于10月1日，比本周稍早。我们的涂色图是一幅新创作的简化帆船机器人插画，并不是精确的制作图纸。",
+    "facts": [
+      "研究来自新加坡的一所大学。",
+      "同一组翼也可以作为帆。",
+      "较大的实验版本自主收集了约三小时的数据。"
+    ],
+    "question": "你想借用自然中的什么点子来做发明？",
+    "referenceCredit": "ALBATROSS水库实验照片：SUTD，由研究人员Shane Kyi Hla Win发布。未注明免费许可；只作视觉参考，不复制。",
+    "sources": [
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/projects/albatross/"
+      },
+      {
+        "label": "Onderzoeker",
+        "url": "https://shanekhw.github.io/"
+      }
+    ]
+  },
+  "murchison-bloemen-bij-radiotelescopen": {
+    "title": "望远镜之间盛开的野花",
+    "location": "澳大利亚西部，默奇森",
+    "reportedDate": "2026年9月16日——回顾过去一个月内的新闻",
+    "theme": "植物与风景",
+    "intro": "澳大利亚的一处天文观测场地，今年也出现了特别的花景。",
+    "body": "想到天文观测场地，你可能先想到朝向天空的大天线。今年在澳大利亚西部，地面上也有很多值得观察的东西。9月16日，澳大利亚科研机构CSIRO介绍了默奇森天文台周围的野花。较早到来的雨水，让土壤中的许多种子开始生长。不同植物在射电望远镜附近一起开花。射电望远镜是收集来自太空的无线电波的仪器。工作人员不只研究宇宙，还帮助记录场地上的植物。这里是Wajarri Yamaji的传统土地。这则花朵新闻是对9月的回顾，我们并没有说今天到处还铺着同样的花毯。它提醒我们，仔细观察身边，也能找到很多新发现。我们的图把完整的花朵与望远镜天线组合在一起，是原创插画，并不是照片的复制品。",
+    "facts": [
+      "场地位于西澳大利亚的默奇森。",
+      "花朵也生长在射电望远镜附近。",
+      "射电望远镜收集来自太空的无线电波。"
+    ],
+    "question": "你想在科研建筑周围发现什么？",
+    "referenceCredit": "Calandrinia mirabilis照片：Craig Pope / CSIRO。图片旁未注明免费再利用许可；只作视觉参考，不复制。",
+    "sources": [
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/news/all/articles/2026/september/wildflowers-and-telescopes"
+      },
+      {
+        "label": "CSIRO",
+        "url": "https://www.csiro.au/en/about/facilities-collections/ATNF/ASKAP-radio-telescope"
+      }
+    ]
+  }
+});
