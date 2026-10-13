@@ -40,3 +40,7 @@ Every mandala must fit completely on one flat white A4 page, including every out
 ## Verified first publication
 
 On 3 October 2026, 50 reviewed new coloring pages and the corrected safari artwork were published. R2 synchronization verified 179 uploaded files and 1,142 unchanged files. The compact static build was about 18 MB. The deployment and all 50 new detail pages, originals and thumbnails were checked successfully.
+
+## Open-eye quality rule
+
+Every visible open eye on a person, doll, animal or fantasy character must have a suitable dark pupil or clearly dark center. Avoid empty white eye circles. Keep white around the pupil and, where appropriate, a colorable iris and a small white highlight. Naturally closed or winking eyes remain closed; decorative circles are not eyes. Small black pupils are an intentional exception to the ban on filled coloring areas and must not be removed during cleanup. Include this requirement in generation and repair prompts, and inspect all eyes at full size before publication. Use versioned assets for repairs while preserving existing image links, IDs, slugs, translations and detail URLs.
