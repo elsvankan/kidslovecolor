@@ -6,6 +6,166 @@
  */
 const WORLD_STORY_EDITIONS = [
   {
+    "published": "2026-10-19",
+    "stories": [
+      {
+        "slug": "spaghettiworm-onderzeese-berg",
+        "title": "Een zeeworm met bijzondere zuignapjes",
+        "location": "Indische Oceaan, Australische eilandgebieden",
+        "reportedDate": "14 oktober 2026; onderzoek gepubliceerd in juli",
+        "theme": "Dieren & ontdekken",
+        "icon": "≈",
+        "intro": "Een nieuw museumbericht vertelt over kleine zeewormen die wetenschappers zorgvuldig hebben onderzocht.",
+        "body": "Op de bodem van de Indische Oceaan liggen bergen die je vanaf een schip niet ziet. Rond Christmas Island en de Cocoseilanden onderzochten wetenschappers daar zeewormen. Het Australian Museum vertelde op 14 oktober over een bijzondere groep: Terebellosuctoria. Deze wormen hebben kleine structuren aan hun onderkant die op zuignapjes lijken. De onderzoekers denken dat die kunnen helpen om op een ondergrond vast te blijven zitten. Dat is een mogelijke verklaring, geen proef die alles al bewijst. Een van de soorten heet Terebellosuctoria jimii. Net als andere spaghettiwormen gebruikt hij lange voeldraden om kleine voedseldeeltjes te verzamelen. Zijn naam heeft dus niets met een bord pasta te maken! Het onderzoek verscheen al in juli, na oudere zeereizen. De onderzoekers vergeleken onder meer lichaamsvormen en erfelijk materiaal. Zo krijgt een onbekende bewoner van de zeebodem een nauwkeurige naam. Op onze tekening zie je een vereenvoudigde worm bij zijn buisje, tussen stenen op een onderzeese helling.",
+        "facts": [
+          "Het museumbericht is van 14 oktober; het onderzoek is ouder.",
+          "Terebellosuctoria is een nieuw beschreven geslacht van zeewormen.",
+          "Lange voeldraden verzamelen kleine voedseldeeltjes."
+        ],
+        "question": "Wat zou jij met een onderwatercamera op een verborgen zeebodem willen bekijken?",
+        "sources": [
+          {
+            "label": "Australian Museum — nieuwsbericht van 14 oktober",
+            "url": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/"
+          },
+          {
+            "label": "Records of the Australian Museum — oorspronkelijk onderzoek",
+            "url": "https://journals.australian.museum/kupriyanova-2026-rec-aust-mus-784-139186/"
+          }
+        ],
+        "referenceUrl": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/",
+        "referenceCredit": "Echte foto van Terebellosuctoria jimii op de bronpagina: aangeleverd beeld © CSIRO. Geen vrije hergebruiklicentie vermeld; alleen visuele referentie, niet kopiëren.",
+        "coloringSlug": "spaghettiworm-onderzeese-berg",
+        "sourceUrl": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/",
+        "sourceLabel": "Australian Museum — nieuwsbericht van 14 oktober"
+      },
+      {
+        "slug": "webb-onderzoekt-veranderende-wolken",
+        "title": "Ook een verre wereld heeft veranderende wolken",
+        "location": "Ruimte; onderzoek geleid vanuit Arizona, Verenigde Staten",
+        "reportedDate": "8 oktober 2026; aanvulling binnen dertig dagen",
+        "theme": "Ruimte & meten",
+        "icon": "✧",
+        "intro": "Onderzoekers volgen met ruimtetelescoop Webb hoe wolken op een koude, verre wereld veranderen.",
+        "body": "Wolken kun je vanaf je raam zien veranderen. Maar hoe onderzoek je wolken op een wereld buiten ons zonnestelsel? Een team onder leiding van de Universiteit van Arizona gebruikte daarvoor de James Webb-ruimtetelescoop. In een bericht van 8 oktober vertelt de universiteit over WISE 0855, een heel koude bruine dwerg. Dat is een ruimteobject dat niet hetzelfde is als een gewone ster. Elf uur lang verzamelden de onderzoekers steeds opnieuw informatie over zijn licht. Daarbij vergeleken ze de metingen met rekenmodellen. Ze vonden aanwijzingen dat plekken met waterwolken dikker en dunner worden terwijl het object draait. Dat is geen scherpe foto van losse wolken zoals op een weerkaart. Lichtmetingen geven juist kleine aanwijzingen over wat er ver weg gebeurt. Het onderzoek stond in september al online; het universiteitsbericht is de recente aanleiding voor ons verhaal. Onze kleurplaat laat een vereenvoudigde telescoop en een verzonnen wolkenbeeld zien, niet de echte afstanden of een foto.",
+        "facts": [
+          "Het universiteitsbericht verscheen op 8 oktober 2026.",
+          "De metingen met Webb duurden elf uur.",
+          "De onderzoekers vergeleken lichtmetingen met modellen."
+        ],
+        "question": "Wat zou je willen weten over het weer op een wereld die je niet van dichtbij kunt bezoeken?",
+        "sources": [
+          {
+            "label": "University of Arizona — bericht over veranderende wolken",
+            "url": "https://news.arizona.edu/news/discovery-marks-first-detection-variable-water-clouds-outside-our-solar-system"
+          },
+          {
+            "label": "Onderzoeksteam — Water Cloud and Chemical Modulations",
+            "url": "https://arxiv.org/abs/2609.20664"
+          }
+        ],
+        "referenceUrl": "https://science.nasa.gov/image-detail/webb_4/",
+        "referenceCredit": "Echte foto van de Webb-spiegel vóór de lancering: NASA/Chris Gunn. Geen aparte beeldlicentie op deze fotopagina vermeld; alleen visuele referentie. Het is geen foto van WISE 0855.",
+        "coloringSlug": "webb-onderzoekt-veranderende-wolken",
+        "sourceUrl": "https://news.arizona.edu/news/discovery-marks-first-detection-variable-water-clouds-outside-our-solar-system",
+        "sourceLabel": "University of Arizona — bericht over veranderende wolken"
+      },
+      {
+        "slug": "almaty-kunst-en-levende-tradities",
+        "title": "Kunst brengt tradities bij elkaar in Almaty",
+        "location": "Almaty, Kazachstan",
+        "reportedDate": "14 oktober 2026; bijeenkomst op 12 oktober",
+        "theme": "Kunst & samenwerken",
+        "icon": "✎",
+        "intro": "Jonge makers uit verschillende landen ontdekten in Almaty hoe kunst verhalen over tradities kan vertellen.",
+        "body": "Een mand vlechten, een lied leren of een patroon borduren: mensen geven veel kennis aan elkaar door. Dat heet levend erfgoed. Bij een internationaal kunstfestival in Almaty stonden zulke tradities centraal. UNESCO berichtte op 14 oktober over de bijeenkomst en tentoonstelling van 12 oktober in het Almaty Museum of Arts. Jonge makers hadden kunst gemaakt over de rol van vrouwen bij het bewaren en doorgeven van tradities. Aan de wedstrijd deden deelnemers uit 54 landen mee. Tijdens het programma in Almaty konden finalisten musea bezoeken en buiten kunst maken. Niet ieder land heeft dezelfde gebruiken, en ook binnen één land kunnen families verschillende gewoonten hebben. Juist daarom is nieuwsgierig kijken zo interessant. Met een tekening kun je laten zien wat iemand jou heeft geleerd, zonder dat iedereen dezelfde taal spreekt. Onze kleurplaat toont twee verzonnen jonge makers aan een werktafel. Het zijn geen echte deelnemers en hun tekeningen zijn nieuwe voorbeelden, geen kopieën van festivalwerken.",
+        "facts": [
+          "De bijeenkomst en tentoonstelling waren op 12 oktober.",
+          "De wedstrijd ontving inzendingen uit 54 landen.",
+          "Het thema ging over vrouwen die tradities doorgeven."
+        ],
+        "question": "Welke vaardigheid of gewoonte zou jij van iemand willen leren en later doorgeven?",
+        "sources": [
+          {
+            "label": "UNESCO — verslag van de bijeenkomst in Almaty",
+            "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-under-patronage-unesco-planet-art-2026-honoured-almaty"
+          },
+          {
+            "label": "UNESCO — eerdere uitslag en uitleg over het festival",
+            "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-planet-art-2026-under-patronage-unesco-have-been-announced"
+          }
+        ],
+        "referenceUrl": "https://commons.wikimedia.org/wiki/File:The_Museum_of_Arts_in_Almaty.jpg",
+        "referenceCredit": "Foto van het museumgebouw, niet van deelnemende kinderen: Dauren Nabijan, 28 oktober 2025, Wikimedia Commons, CC0 1.0. Alleen als visuele referentie; geen festivalwerk kopiëren.",
+        "coloringSlug": "almaty-kunst-en-levende-tradities",
+        "sourceUrl": "https://www.unesco.org/en/articles/winners-international-youth-festival-under-patronage-unesco-planet-art-2026-honoured-almaty",
+        "sourceLabel": "UNESCO — verslag van de bijeenkomst in Almaty"
+      },
+      {
+        "slug": "zadenbank-kiemplantjes-onderzoek",
+        "title": "Een slimme wegwijzer voor wilde zaden",
+        "location": "Sussex, Verenigd Koninkrijk; samenwerking wereldwijd",
+        "reportedDate": "13 oktober 2026",
+        "theme": "Planten & uitvinden",
+        "icon": "♧",
+        "intro": "Een nieuwe gratis gegevensbank helpt onderzoekers zoeken naar passende wilde zaden en informatie over kiemen.",
+        "body": "In een klein zaadje kan een hele plant beginnen. Toch is zaden uitzoeken niet zo eenvoudig als een handje korrels over de grond strooien. Wie natuur wil herstellen, moet weten welke planten bij een plek passen en hoe hun zaden kunnen kiemen. Op 13 oktober presenteerde Kew daarom SeedPOD, een nieuwe gratis gegevensbank. Die brengt informatie over wilde zaden en het opkweken van planten bij elkaar. Onderzoekers, beheerders en gemeenschappen kunnen ermee zoeken. De herkomst is belangrijk: planten van dezelfde soort kunnen op verschillende plekken net andere eigenschappen hebben. Daarom helpt niet ieder zaadje overal even goed. De gegevensbank maakt zoeken gemakkelijker, maar laat niet vanzelf een nieuw bos groeien. Daar blijven kennis, geschikt terrein en zorgvuldig werk voor nodig. Bij de Millennium Seed Bank in Sussex worden zaden bewaard en kiemproeven gedaan. Onze kleurplaat laat een denkbeeldige onderzoekstafel zien met zaadjes, een vergrootglas en kleine plantjes. Wat zou er uit zo'n minuscuul zaadje kunnen groeien?",
+        "facts": [
+          "SeedPOD werd op 13 oktober 2026 gepresenteerd.",
+          "De gegevensbank is vrij toegankelijk.",
+          "De herkomst en kiemvoorwaarden van zaden doen ertoe."
+        ],
+        "question": "Wat zou je eerst willen uitzoeken voordat je ergens een nieuw plantje laat groeien?",
+        "sources": [
+          {
+            "label": "Kew — lancering van SeedPOD op 13 oktober",
+            "url": "https://www.kew.org/about-us/press-media/seedpod-platform-launch"
+          },
+          {
+            "label": "Kew — uitleg en foto's van zaadonderzoek",
+            "url": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration"
+          }
+        ],
+        "referenceUrl": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration",
+        "referenceCredit": "Echte foto 'Seed inspection work at MSB' op de bronpagina: Ben Hirschler © RBG Kew. Geen vrije hergebruiklicentie vermeld; uitsluitend visuele referentie, niet kopiëren.",
+        "coloringSlug": "zadenbank-kiemplantjes-onderzoek",
+        "sourceUrl": "https://www.kew.org/about-us/press-media/seedpod-platform-launch",
+        "sourceLabel": "Kew — lancering van SeedPOD op 13 oktober"
+      },
+      {
+        "slug": "amsterdam-stadionlopers-rugaanzicht",
+        "title": "Ethiopische lopers schitteren in Amsterdam",
+        "location": "Amsterdam, Nederland; sporters uit Ethiopië",
+        "reportedDate": "18 oktober 2026",
+        "theme": "Sport & volhouden",
+        "icon": "☆",
+        "intro": "Buze Diriba en Lemi Berhanu wonnen de marathon van Amsterdam; Diriba liep een nieuw parcoursrecord.",
+        "body": "Een marathon is geen wedstrijd van één snelle sprint. De lopers moeten hun energie over een lange afstand verdelen. Op zondag 18 oktober kwamen hardlopers daarvoor naar Amsterdam. Bij de vrouwen won Buze Diriba uit Ethiopië. Zij liep de route sneller dan alle vrouwen vóór haar bij deze marathon: een nieuw parcoursrecord. Ook de winnaar bij de mannen, Lemi Berhanu, komt uit Ethiopië. De wedstrijd begon voor hem met een grotere groep. Later bleven Berhanu en de Keniaanse loper Nicholas Kipkorir dicht bij elkaar. In de laatste kilometers maakte Berhanu het verschil. De finish lag in het Olympisch Stadion, waar publiek de sporters aanmoedigde. Het was nat weer; het verslag beschrijft geen gemakkelijke wandeling, maar een knappe sportprestatie. Niet iedereen hoeft zo ver te rennen om plezier in bewegen te hebben. Een spelletje op het plein kan ook fijn zijn. Onze kleurplaat laat verzonnen volwassen lopers in een stadion zien, geen portretten van de winnaars.",
+        "facts": [
+          "De marathon werd op 18 oktober 2026 gelopen.",
+          "Buze Diriba verbeterde het parcoursrecord bij de vrouwen.",
+          "Zij en mannenwinnaar Lemi Berhanu komen uit Ethiopië."
+        ],
+        "question": "Wat helpt jou om bij een spel of sport je eigen tempo te vinden?",
+        "sources": [
+          {
+            "label": "Organisator — verslag van de marathon",
+            "url": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today"
+          },
+          {
+            "label": "World-Track — onafhankelijk wedstrijdverslag",
+            "url": "https://world-track.org/2026/10/tcs-amsterdam-marathon-2026-results-report-diriba-berhanu/"
+          }
+        ],
+        "referenceUrl": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today",
+        "referenceCredit": "Echte wedstrijd-/finishfoto's bij het officiële organisatorenverslag. Fotograaf en vrije hergebruiklicentie niet zichtbaar bij het gebruikte beeld; organisatie: Le Champion. Alleen compositiereferentie, geen portret of sponsorlogo kopiëren.",
+        "coloringSlug": "amsterdam-stadionlopers-rugaanzicht",
+        "sourceUrl": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today",
+        "sourceLabel": "Organisator — verslag van de marathon"
+      }
+    ]
+  },
+  {
     "published": "2026-10-12",
     "stories": [
       {

@@ -33,4 +33,28 @@ for (const language of ['nl', 'en', 'fr', 'es', 'zh']) {
     }
     assert.ok(archive.innerHTML.includes(editions.at(-1).published));
   });
+
+  test(`The ${language} homepage promotes stories from the latest edition`, () => {
+    const context = {};
+    vm.runInNewContext(fs.readFileSync(new URL('vandaag-op-aarde/stories.js', root), 'utf8') + fs.readFileSync(new URL('vandaag-op-aarde/translations.js', root), 'utf8') + ';this.latest = WORLD_STORY_EDITIONS[0];this.translations = WORLD_STORY_TRANSLATIONS;', context);
+    const paths = {
+      nl: ['index.html', '/vandaag-op-aarde/'],
+      en: ['en/index.html', '/en/today-on-earth/'],
+      fr: ['fr/index.html', '/fr/aujourdhui-sur-terre/'],
+      es: ['es/index.html', '/es/hoy-en-la-tierra/'],
+      zh: ['zh/index.html', '/zh/jinri-diqiu/'],
+    };
+    const [path, route] = paths[language];
+    const homepage = fs.readFileSync(new URL(path, root), 'utf8');
+    const teaser = homepage.match(/<section class="earth-teaser[^\"]*"[\s\S]*?<\/section>/)?.[0];
+    assert.ok(teaser);
+    assert.equal((teaser.match(/class="earth-teaser-paper /g) || []).length, 2);
+    for (const story of [context.latest.stories[0], context.latest.stories.at(-1)]) {
+      assert.ok(teaser.includes(`href="${route}#${story.slug}"`));
+      assert.ok(teaser.includes(`${story.coloringSlug}.jpg`));
+      const translated = language === 'nl' ? story : context.translations[language][story.slug];
+      const escapedTitle = translated.title.replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;');
+      assert.ok(teaser.includes(escapedTitle));
+    }
+  });
 }

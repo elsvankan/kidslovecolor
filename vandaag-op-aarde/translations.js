@@ -1604,6 +1604,515 @@ Object.assign(WORLD_STORY_TRANSLATIONS.en, {
     ]
   }
 });
+
+Object.assign(WORLD_STORY_TRANSLATIONS.en, {
+  "spaghettiworm-onderzeese-berg": {
+    "title": "A Sea Worm with Remarkable Little Suckers",
+    "location": "Indian Ocean, Australian island territories",
+    "reportedDate": "14 October 2026; research published in July",
+    "theme": "Animals & discovery",
+    "intro": "A new museum report introduces sea worms that scientists have examined carefully.",
+    "body": "Under the Indian Ocean are mountains you cannot see from a ship. Scientists studied sea worms near Christmas Island and the Cocos (Keeling) Islands. On 14 October, the Australian Museum described a remarkable group called Terebellosuctoria. These worms have little structures underneath their bodies that look like suckers. Researchers suggest these might help them stay attached to a surface. This is a possible explanation, not something every experiment has already proved. One species is called Terebellosuctoria jimii. Like other spaghetti worms, it gathers tiny food particles with long feeding tentacles. Its nickname has nothing to do with a plate of pasta! The research appeared in July, following earlier sea voyages. Scientists compared body shapes and genetic material. Our coloring page shows a simplified worm beside its tube on an underwater slope, not an exact scientific reconstruction.",
+    "facts": [
+      "The museum report appeared on 14 October; the research is older.",
+      "Terebellosuctoria is a newly described genus of sea worms.",
+      "Long feeding tentacles collect tiny food particles."
+    ],
+    "question": "What would you like to examine with a camera on a hidden seabed?",
+    "referenceCredit": "Real Terebellosuctoria jimii photograph on the source page: supplied image © CSIRO. No free reuse license stated; visual reference only, do not copy.",
+    "sources": [
+      {
+        "label": "Australian Museum",
+        "url": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/"
+      },
+      {
+        "label": "Records of the Australian Museum",
+        "url": "https://journals.australian.museum/kupriyanova-2026-rec-aust-mus-784-139186/"
+      }
+    ]
+  },
+  "webb-onderzoekt-veranderende-wolken": {
+    "title": "Changing Clouds on a Distant World",
+    "location": "Space; research led from Arizona, United States",
+    "reportedDate": "8 October 2026; additional story within thirty days",
+    "theme": "Space & measurement",
+    "intro": "Researchers use the Webb space telescope to follow changing clouds on a cold, distant world.",
+    "body": "You can watch clouds change outside your window. But how could you study clouds beyond our solar system? A team led from the University of Arizona used the James Webb Space Telescope. In an 8 October report, the university described WISE 0855, a very cold brown dwarf. This space object is not the same as an ordinary star. For eleven hours, researchers repeatedly collected information about its light. They compared those measurements with computer models. They found evidence that patches of water clouds grow thicker and thinner as the object turns. This is not a sharp photograph of individual clouds like a weather map. Instead, light measurements offer clues about a distant atmosphere. The research was already online in September; the university report is the recent reason for our story. Our page is an imagined, simplified view, not a photograph or a picture to scale.",
+    "facts": [
+      "The university report appeared on 8 October 2026.",
+      "The Webb observations lasted eleven hours.",
+      "Scientists compared light measurements with models."
+    ],
+    "question": "What would you like to know about weather on a world you cannot visit?",
+    "referenceCredit": "Real pre-launch Webb mirror photograph: NASA/Chris Gunn. No separate image license stated on this photo page; visual reference only. This is not a photograph of WISE 0855.",
+    "sources": [
+      {
+        "label": "University of Arizona",
+        "url": "https://news.arizona.edu/news/discovery-marks-first-detection-variable-water-clouds-outside-our-solar-system"
+      },
+      {
+        "label": "Onderzoeksteam",
+        "url": "https://arxiv.org/abs/2609.20664"
+      }
+    ]
+  },
+  "almaty-kunst-en-levende-tradities": {
+    "title": "Art Brings Traditions Together in Almaty",
+    "location": "Almaty, Kazakhstan",
+    "reportedDate": "14 October 2026; gathering on 12 October",
+    "theme": "Art & cooperation",
+    "intro": "Young artists from different countries explored how art can tell stories about traditions.",
+    "body": "Weaving a basket, learning a song or embroidering a pattern: people pass many skills to one another. This is called living heritage. An international art festival in Almaty explored these traditions. On 14 October, UNESCO reported on a gathering and exhibition held on 12 October at the Almaty Museum of Arts. Young artists had made work about the role of women in keeping and passing on traditions. The competition received entries from 54 countries. During the Almaty programme, finalists could visit museums and make art outdoors. Customs differ between countries, and families within one country can have different habits too. That makes looking with curiosity interesting. A drawing can show what someone taught you, even when people do not share a language. Our coloring page shows two fictional young makers. They are not real participants, and their drawings are new examples rather than copies.",
+    "facts": [
+      "The gathering and exhibition took place on 12 October.",
+      "The competition received entries from 54 countries.",
+      "Its theme explored women passing on traditions."
+    ],
+    "question": "Which skill or custom would you like to learn and pass on later?",
+    "referenceCredit": "Museum-building photograph, not participating children: Dauren Nabijan, 28 October 2025, Wikimedia Commons, CC0 1.0. Visual reference only; do not copy festival artworks.",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-under-patronage-unesco-planet-art-2026-honoured-almaty"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-planet-art-2026-under-patronage-unesco-have-been-announced"
+      }
+    ]
+  },
+  "zadenbank-kiemplantjes-onderzoek": {
+    "title": "A Helpful Guide to Wild Seeds",
+    "location": "Sussex, United Kingdom; worldwide cooperation",
+    "reportedDate": "13 October 2026",
+    "theme": "Plants & invention",
+    "intro": "A new free database helps people find suitable wild seeds and information about germination.",
+    "body": "A whole plant can begin inside one tiny seed. Yet choosing seeds is not as simple as scattering a handful on the ground. People restoring nature need to know which plants belong in a place and how their seeds can germinate. On 13 October, Kew introduced SeedPOD, a new free database. It brings together information about wild seeds and growing plants. Researchers, land managers and communities can use it to search. Where a seed comes from matters: plants of the same species can have different characteristics in different places. Not every seed will therefore work equally well everywhere. The database makes searching easier, but does not grow a forest by itself. Knowledge, suitable land and careful work are still needed. At the Millennium Seed Bank in Sussex, seeds are stored and germination tests are carried out. Our page shows an imagined research bench with seeds, a magnifying glass and little sprouts.",
+    "facts": [
+      "SeedPOD was introduced on 13 October 2026.",
+      "The database is freely accessible.",
+      "Seed origin and germination conditions matter."
+    ],
+    "question": "What would you find out before helping a new plant grow somewhere?",
+    "referenceCredit": "Real photograph 'Seed inspection work at MSB' on the source page: Ben Hirschler © RBG Kew. No free reuse license stated; visual reference only, do not copy.",
+    "sources": [
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/about-us/press-media/seedpod-platform-launch"
+      },
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration"
+      }
+    ]
+  },
+  "amsterdam-stadionlopers-rugaanzicht": {
+    "title": "Ethiopian Runners Shine in Amsterdam",
+    "location": "Amsterdam, Netherlands; athletes from Ethiopia",
+    "reportedDate": "18 October 2026",
+    "theme": "Sport & perseverance",
+    "intro": "Buze Diriba and Lemi Berhanu won the Amsterdam marathon; Diriba set a women's course record.",
+    "body": "A marathon is not a race of one quick sprint. Runners have to spread their energy over a long distance. On Sunday 18 October, athletes came to Amsterdam to do just that. Ethiopia's Buze Diriba won the women's race. She ran the route faster than any woman had before at this marathon, setting a new course record. The men's winner, Lemi Berhanu, also comes from Ethiopia. He began in a larger group. Later, Berhanu and Kenyan runner Nicholas Kipkorir stayed close together. Berhanu made the difference in the final kilometres. The finish was in the Olympic Stadium, with spectators encouraging the athletes. It was wet, so the reports describe a demanding sporting achievement rather than an easy stroll. You do not need to run that far to enjoy moving. A playground game can be fun too. Our page shows fictional adult runners, not portraits of the winners.",
+    "facts": [
+      "The marathon took place on 18 October 2026.",
+      "Buze Diriba improved the women's course record.",
+      "She and men's winner Lemi Berhanu come from Ethiopia."
+    ],
+    "question": "What helps you find your own pace during a game or sport?",
+    "referenceCredit": "Real race/finish photographs on the organiser's report. Individual photographer and free reuse license not visible beside the selected image; organisation: Le Champion. Composition reference only; do not copy portraits or sponsor logos.",
+    "sources": [
+      {
+        "label": "Organisator",
+        "url": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today"
+      },
+      {
+        "label": "World-Track",
+        "url": "https://world-track.org/2026/10/tcs-amsterdam-marathon-2026-results-report-diriba-berhanu/"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.fr, {
+  "spaghettiworm-onderzeese-berg": {
+    "title": "Un ver marin aux curieuses ventouses",
+    "location": "Océan Indien, territoires insulaires australiens",
+    "reportedDate": "14 octobre 2026 ; recherche publiée en juillet",
+    "theme": "Animaux et découverte",
+    "intro": "Un nouveau communiqué présente des vers marins étudiés avec soin.",
+    "body": "Au fond de l’océan Indien se dressent des montagnes invisibles depuis un bateau. Des scientifiques y ont étudié des vers près de Christmas Island et des îles Cocos. Le 14 octobre, l’Australian Museum a présenté un groupe étonnant : Terebellosuctoria. Sous leur corps, ces vers portent de petites structures qui ressemblent à des ventouses. Les chercheurs pensent qu’elles pourraient les aider à rester fixés. C’est une explication possible, pas une certitude déjà prouvée par toutes les expériences. Une espèce s’appelle Terebellosuctoria jimii. Comme d’autres vers spaghetti, elle recueille de minuscules particules de nourriture avec de longs tentacules. Son surnom n’a donc rien à voir avec une assiette de pâtes ! L’étude avait paru en juillet, après des voyages plus anciens. Les chercheurs ont comparé les formes du corps et le matériel génétique. Notre coloriage représente un ver simplifié près de son tube, sur une pente sous-marine.",
+    "facts": [
+      "Le communiqué date du 14 octobre ; la recherche est plus ancienne.",
+      "Terebellosuctoria est un genre de vers marins nouvellement décrit.",
+      "Les longs tentacules recueillent de petites particules de nourriture."
+    ],
+    "question": "Que voudrais-tu observer avec une caméra sur un fond marin caché ?",
+    "referenceCredit": "Photo réelle de Terebellosuctoria jimii sur la page source : image fournie © CSIRO. Aucune licence libre indiquée ; référence visuelle uniquement, ne pas copier.",
+    "sources": [
+      {
+        "label": "Australian Museum",
+        "url": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/"
+      },
+      {
+        "label": "Records of the Australian Museum",
+        "url": "https://journals.australian.museum/kupriyanova-2026-rec-aust-mus-784-139186/"
+      }
+    ]
+  },
+  "webb-onderzoekt-veranderende-wolken": {
+    "title": "Des nuages changeants sur un monde lointain",
+    "location": "Espace ; recherche menée depuis l’Arizona, États-Unis",
+    "reportedDate": "8 octobre 2026 ; complément de moins de trente jours",
+    "theme": "Espace et mesures",
+    "intro": "Le télescope Webb aide des chercheurs à suivre les nuages d’un monde froid et lointain.",
+    "body": "Tu peux regarder les nuages changer depuis ta fenêtre. Mais comment étudier ceux d’un monde situé hors du Système solaire ? Une équipe dirigée depuis l’Université de l’Arizona a utilisé le télescope spatial James-Webb. Dans un article du 8 octobre, l’université présente WISE 0855, une naine brune très froide. Cet objet n’est pas une étoile ordinaire. Pendant onze heures, les chercheurs ont recueilli régulièrement des informations sur sa lumière. Ils ont comparé ces mesures à des modèles informatiques. Les résultats indiquent que des zones de nuages d’eau deviennent plus ou moins épaisses lorsque l’objet tourne. Ce n’est pas une photo nette de chaque nuage, comme une carte météo. Les mesures lumineuses donnent plutôt des indices. L’étude était déjà disponible en septembre ; l’article universitaire est l’actualité retenue. Notre coloriage est une représentation simplifiée et imaginée, ni une vraie photo ni un dessin à l’échelle.",
+    "facts": [
+      "L’article universitaire date du 8 octobre 2026.",
+      "Les observations de Webb ont duré onze heures.",
+      "Les chercheurs ont comparé mesures et modèles."
+    ],
+    "question": "Que voudrais-tu savoir sur la météo d’un monde que tu ne peux pas visiter ?",
+    "referenceCredit": "Photo réelle du miroir de Webb avant son lancement : NASA/Chris Gunn. Pas de licence particulière indiquée sur cette page ; référence uniquement. Ce n’est pas une photo de WISE 0855.",
+    "sources": [
+      {
+        "label": "University of Arizona",
+        "url": "https://news.arizona.edu/news/discovery-marks-first-detection-variable-water-clouds-outside-our-solar-system"
+      },
+      {
+        "label": "Onderzoeksteam",
+        "url": "https://arxiv.org/abs/2609.20664"
+      }
+    ]
+  },
+  "almaty-kunst-en-levende-tradities": {
+    "title": "L’art réunit les traditions à Almaty",
+    "location": "Almaty, Kazakhstan",
+    "reportedDate": "14 octobre 2026 ; rencontre du 12 octobre",
+    "theme": "Art et coopération",
+    "intro": "De jeunes créateurs ont découvert comment l’art raconte les traditions.",
+    "body": "Tresser un panier, apprendre une chanson ou broder un motif : les personnes se transmettent beaucoup de savoir-faire. C’est le patrimoine vivant. Un festival artistique international à Almaty s’est intéressé à ces traditions. Le 14 octobre, l’UNESCO a raconté une rencontre et une exposition organisées le 12 octobre au Almaty Museum of Arts. Les jeunes avaient créé des œuvres sur le rôle des femmes dans la transmission des traditions. Le concours avait reçu des participations de 54 pays. Pendant le programme d’Almaty, les finalistes pouvaient visiter des musées et créer dehors. Les coutumes ne sont pas identiques partout, et les familles d’un même pays peuvent avoir différentes habitudes. Voilà pourquoi il est intéressant de regarder avec curiosité. Un dessin peut montrer ce que quelqu’un nous a appris, même sans langue commune. Notre coloriage représente deux jeunes fictifs et des dessins originaux, pas de vrais participants ni des copies.",
+    "facts": [
+      "La rencontre et l’exposition ont eu lieu le 12 octobre.",
+      "Le concours a reçu des participations de 54 pays.",
+      "Le thème concernait les femmes qui transmettent les traditions."
+    ],
+    "question": "Quel savoir-faire aimerais-tu apprendre, puis transmettre ?",
+    "referenceCredit": "Photo du bâtiment du musée, sans enfants participants : Dauren Nabijan, 28 octobre 2025, Wikimedia Commons, CC0 1.0. Référence uniquement ; ne pas copier les œuvres du festival.",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-under-patronage-unesco-planet-art-2026-honoured-almaty"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-planet-art-2026-under-patronage-unesco-have-been-announced"
+      }
+    ]
+  },
+  "zadenbank-kiemplantjes-onderzoek": {
+    "title": "Un guide malin pour les graines sauvages",
+    "location": "Sussex, Royaume-Uni ; coopération mondiale",
+    "reportedDate": "13 octobre 2026",
+    "theme": "Plantes et invention",
+    "intro": "Une nouvelle base gratuite aide à trouver des graines adaptées et des informations sur leur germination.",
+    "body": "Une plante entière peut commencer dans une minuscule graine. Pourtant, choisir des graines ne consiste pas seulement à en jeter une poignée au sol. Pour restaurer la nature, il faut savoir quelles plantes conviennent au lieu et comment leurs graines germent. Le 13 octobre, Kew a présenté SeedPOD, une nouvelle base de données gratuite. Elle rassemble des informations sur les graines sauvages et la culture des plantes. Chercheurs, gestionnaires et communautés peuvent y chercher des renseignements. L’origine compte : une même espèce peut avoir des caractéristiques différentes selon les endroits. Toutes les graines ne réussissent donc pas partout de la même façon. La base facilite les recherches, mais elle ne fait pas pousser une forêt toute seule. Il faut encore des connaissances, un terrain adapté et du soin. À la Millennium Seed Bank, dans le Sussex, on conserve des graines et réalise des essais de germination. Notre dessin montre une table de recherche imaginaire.",
+    "facts": [
+      "SeedPOD a été présenté le 13 octobre 2026.",
+      "La base est accessible gratuitement.",
+      "L’origine et les conditions de germination sont importantes."
+    ],
+    "question": "Que voudrais-tu savoir avant d’aider une nouvelle plante à pousser ?",
+    "referenceCredit": "Photo réelle « Seed inspection work at MSB » sur la source : Ben Hirschler © RBG Kew. Aucune licence libre indiquée ; référence visuelle uniquement, ne pas copier.",
+    "sources": [
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/about-us/press-media/seedpod-platform-launch"
+      },
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration"
+      }
+    ]
+  },
+  "amsterdam-stadionlopers-rugaanzicht": {
+    "title": "Des coureurs éthiopiens brillent à Amsterdam",
+    "location": "Amsterdam, Pays-Bas ; athlètes d’Éthiopie",
+    "reportedDate": "18 octobre 2026",
+    "theme": "Sport et persévérance",
+    "intro": "Buze Diriba et Lemi Berhanu ont gagné le marathon ; Diriba a établi un record féminin du parcours.",
+    "body": "Un marathon n’est pas un simple sprint. Les coureurs doivent répartir leur énergie sur une longue distance. Dimanche 18 octobre, des athlètes se sont retrouvés à Amsterdam. Chez les femmes, l’Éthiopienne Buze Diriba a gagné. Aucune femme n’avait encore parcouru cet itinéraire aussi vite lors de ce marathon : c’est un nouveau record du parcours. Le vainqueur masculin, Lemi Berhanu, vient lui aussi d’Éthiopie. Il a commencé au sein d’un groupe plus grand. Ensuite, Berhanu et le Kényan Nicholas Kipkorir sont restés proches. Berhanu a fait la différence dans les derniers kilomètres. L’arrivée se trouvait dans le Stade olympique, où le public encourageait les sportifs. Il faisait humide : les récits décrivent une performance exigeante, pas une promenade facile. Pas besoin de courir si loin pour aimer bouger ! Un jeu dans la cour peut aussi être agréable. Notre coloriage représente des adultes fictifs, pas les vainqueurs.",
+    "facts": [
+      "Le marathon a eu lieu le 18 octobre 2026.",
+      "Buze Diriba a amélioré le record féminin du parcours.",
+      "Elle et Lemi Berhanu viennent d’Éthiopie."
+    ],
+    "question": "Qu’est-ce qui t’aide à trouver ton rythme dans un jeu ou un sport ?",
+    "referenceCredit": "Photos réelles de la course sur le compte rendu officiel. Photographe et licence libre non indiqués près de l’image choisie ; organisation : Le Champion. Référence de composition uniquement, sans copier portraits ou logos.",
+    "sources": [
+      {
+        "label": "Organisator",
+        "url": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today"
+      },
+      {
+        "label": "World-Track",
+        "url": "https://world-track.org/2026/10/tcs-amsterdam-marathon-2026-results-report-diriba-berhanu/"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.es, {
+  "spaghettiworm-onderzeese-berg": {
+    "title": "Un gusano marino con ventosas curiosas",
+    "location": "Océano Índico, territorios insulares australianos",
+    "reportedDate": "14 de octubre de 2026; investigación publicada en julio",
+    "theme": "Animales y descubrimiento",
+    "intro": "Un nuevo comunicado presenta gusanos marinos que los científicos han estudiado con cuidado.",
+    "body": "En el fondo del océano Índico hay montañas que no se ven desde un barco. Cerca de Christmas Island y las islas Cocos, unos científicos estudiaron gusanos marinos. El 14 de octubre, el Australian Museum presentó un grupo especial: Terebellosuctoria. Estos gusanos tienen pequeñas estructuras debajo del cuerpo que parecen ventosas. Los investigadores creen que podrían ayudarles a permanecer sujetos. Es una explicación posible, no algo que todos los experimentos hayan demostrado. Una especie se llama Terebellosuctoria jimii. Como otros gusanos espagueti, recoge pequeñas partículas de alimento con largos tentáculos. ¡Su apodo no tiene que ver con un plato de pasta! El estudio apareció en julio, después de viajes anteriores. El equipo comparó la forma del cuerpo y el material genético. Nuestro dibujo muestra un gusano simplificado junto a su tubo, entre piedras de una ladera submarina. No es una reconstrucción científica exacta.",
+    "facts": [
+      "El comunicado es del 14 de octubre; el estudio es anterior.",
+      "Terebellosuctoria es un género de gusanos recién descrito.",
+      "Los tentáculos largos recogen pequeñas partículas de alimento."
+    ],
+    "question": "¿Qué te gustaría observar con una cámara en un fondo marino escondido?",
+    "referenceCredit": "Foto real de Terebellosuctoria jimii en la fuente: imagen facilitada © CSIRO. Sin licencia libre indicada; solo referencia visual, no copiar.",
+    "sources": [
+      {
+        "label": "Australian Museum",
+        "url": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/"
+      },
+      {
+        "label": "Records of the Australian Museum",
+        "url": "https://journals.australian.museum/kupriyanova-2026-rec-aust-mus-784-139186/"
+      }
+    ]
+  },
+  "webb-onderzoekt-veranderende-wolken": {
+    "title": "Un mundo lejano tiene nubes cambiantes",
+    "location": "Espacio; investigación dirigida desde Arizona, Estados Unidos",
+    "reportedDate": "8 de octubre de 2026; complemento de menos de treinta días",
+    "theme": "Espacio y medición",
+    "intro": "Webb permite seguir cambios en las nubes de un mundo frío y lejano.",
+    "body": "Desde una ventana puedes ver cómo cambian las nubes. Pero ¿cómo estudiar las de un mundo fuera del sistema solar? Un equipo dirigido desde la Universidad de Arizona utilizó el telescopio espacial James Webb. En una noticia del 8 de octubre, la universidad describe WISE 0855, una enana marrón muy fría. Este objeto espacial no es una estrella corriente. Durante once horas, los investigadores recogieron información sobre su luz una y otra vez. Compararon las mediciones con modelos informáticos. Encontraron indicios de que algunas zonas de nubes de agua se vuelven más o menos gruesas mientras gira el objeto. No es una fotografía nítida de cada nube, como un mapa meteorológico. Las mediciones de luz dan pistas. El estudio ya estaba en internet en septiembre; la noticia universitaria es nuestra ocasión reciente. Nuestro dibujo es una representación imaginada y simplificada, no una fotografía ni una imagen a escala.",
+    "facts": [
+      "La noticia universitaria apareció el 8 de octubre de 2026.",
+      "Las observaciones de Webb duraron once horas.",
+      "Los investigadores compararon mediciones y modelos."
+    ],
+    "question": "¿Qué querrías saber del tiempo en un mundo que no puedes visitar?",
+    "referenceCredit": "Foto real del espejo de Webb antes del lanzamiento: NASA/Chris Gunn. No se indica una licencia específica en esta página; solo referencia. No es una foto de WISE 0855.",
+    "sources": [
+      {
+        "label": "University of Arizona",
+        "url": "https://news.arizona.edu/news/discovery-marks-first-detection-variable-water-clouds-outside-our-solar-system"
+      },
+      {
+        "label": "Onderzoeksteam",
+        "url": "https://arxiv.org/abs/2609.20664"
+      }
+    ]
+  },
+  "almaty-kunst-en-levende-tradities": {
+    "title": "El arte reúne tradiciones en Almaty",
+    "location": "Almaty, Kazajistán",
+    "reportedDate": "14 de octubre de 2026; encuentro del 12 de octubre",
+    "theme": "Arte y cooperación",
+    "intro": "Jóvenes creadores exploraron cómo el arte cuenta historias sobre las tradiciones.",
+    "body": "Tejer una cesta, aprender una canción o bordar un dibujo: las personas comparten muchos conocimientos. Eso es patrimonio vivo. Un festival internacional de arte en Almaty se centró en estas tradiciones. El 14 de octubre, la UNESCO informó sobre un encuentro y una exposición celebrados el día 12 en el Almaty Museum of Arts. Los jóvenes habían creado obras sobre las mujeres que conservan y transmiten tradiciones. El concurso recibió trabajos de 54 países. Durante el programa de Almaty, los finalistas podían visitar museos y hacer arte al aire libre. Las costumbres varían entre países, y las familias de un mismo lugar también pueden tener hábitos diferentes. Por eso resulta interesante mirar con curiosidad. Un dibujo puede mostrar lo que alguien te enseñó, aunque no todos compartáis idioma. Nuestro dibujo representa a dos jóvenes ficticios y obras originales: no son participantes reales ni copias de los trabajos del festival.",
+    "facts": [
+      "El encuentro y la exposición fueron el 12 de octubre.",
+      "El concurso recibió obras de 54 países.",
+      "El tema trataba de mujeres que transmiten tradiciones."
+    ],
+    "question": "¿Qué habilidad o costumbre te gustaría aprender y después compartir?",
+    "referenceCredit": "Foto del edificio, no de niños participantes: Dauren Nabijan, 28 de octubre de 2025, Wikimedia Commons, CC0 1.0. Solo referencia; no copiar obras del festival.",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-under-patronage-unesco-planet-art-2026-honoured-almaty"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-planet-art-2026-under-patronage-unesco-have-been-announced"
+      }
+    ]
+  },
+  "zadenbank-kiemplantjes-onderzoek": {
+    "title": "Una guía útil para semillas silvestres",
+    "location": "Sussex, Reino Unido; cooperación mundial",
+    "reportedDate": "13 de octubre de 2026",
+    "theme": "Plantas e invención",
+    "intro": "Una nueva base gratuita ayuda a buscar semillas adecuadas e información para que germinen.",
+    "body": "Una planta entera puede empezar dentro de una semilla diminuta. Pero elegir semillas no es tan sencillo como esparcir un puñado por el suelo. Para recuperar la naturaleza hay que saber qué plantas pertenecen al lugar y cómo germinan sus semillas. El 13 de octubre, Kew presentó SeedPOD, una nueva base de datos gratuita. Reúne información sobre semillas silvestres y cultivo de plantas. Pueden consultarla investigadores, responsables de terrenos y comunidades. El origen importa: las plantas de una misma especie pueden tener características distintas según el lugar. Por eso no todas las semillas funcionan igual en todas partes. La base facilita la búsqueda, pero no hace crecer un bosque por sí sola. Siguen haciendo falta conocimientos, un terreno adecuado y trabajo cuidadoso. En el Millennium Seed Bank de Sussex se guardan semillas y se realizan pruebas de germinación. Nuestro dibujo muestra una mesa de investigación imaginaria con semillas, lupa y pequeños brotes.",
+    "facts": [
+      "SeedPOD se presentó el 13 de octubre de 2026.",
+      "La base es de acceso gratuito.",
+      "El origen y las condiciones de germinación importan."
+    ],
+    "question": "¿Qué averiguarías antes de ayudar a crecer una planta en un lugar nuevo?",
+    "referenceCredit": "Foto real «Seed inspection work at MSB» en la fuente: Ben Hirschler © RBG Kew. Sin licencia libre indicada; solo referencia visual, no copiar.",
+    "sources": [
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/about-us/press-media/seedpod-platform-launch"
+      },
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration"
+      }
+    ]
+  },
+  "amsterdam-stadionlopers-rugaanzicht": {
+    "title": "Corredores etíopes brillan en Ámsterdam",
+    "location": "Ámsterdam, Países Bajos; atletas de Etiopía",
+    "reportedDate": "18 de octubre de 2026",
+    "theme": "Deporte y constancia",
+    "intro": "Buze Diriba y Lemi Berhanu ganaron el maratón; Diriba logró un récord femenino del recorrido.",
+    "body": "Un maratón no consiste en un solo esprint. Los corredores tienen que repartir su energía a lo largo de mucha distancia. El domingo 18 de octubre, unos atletas se reunieron para hacerlo en Ámsterdam. La etíope Buze Diriba ganó la prueba femenina. Recorrió la ruta más rápido que cualquier mujer anterior en este maratón: un nuevo récord del recorrido. El ganador masculino, Lemi Berhanu, también es de Etiopía. Empezó junto a un grupo más grande. Después, Berhanu y el keniano Nicholas Kipkorir permanecieron muy cerca. Berhanu marcó la diferencia en los últimos kilómetros. La meta estaba en el Estadio Olímpico, con público animando a los deportistas. Hacía tiempo húmedo: fue una gran actuación exigente, no un paseo sencillo. No necesitas correr tanto para disfrutar del movimiento. Un juego en el patio también puede ser divertido. Nuestro dibujo representa corredores adultos ficticios, no retratos de los ganadores.",
+    "facts": [
+      "El maratón se celebró el 18 de octubre de 2026.",
+      "Buze Diriba mejoró el récord femenino del recorrido.",
+      "Ella y Lemi Berhanu son de Etiopía."
+    ],
+    "question": "¿Qué te ayuda a encontrar tu propio ritmo en un juego o deporte?",
+    "referenceCredit": "Fotos reales de la carrera en el informe oficial. Fotógrafo y licencia libre no indicados junto a la imagen elegida; organización: Le Champion. Solo referencia de composición; no copiar retratos ni logotipos.",
+    "sources": [
+      {
+        "label": "Organisator",
+        "url": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today"
+      },
+      {
+        "label": "World-Track",
+        "url": "https://world-track.org/2026/10/tcs-amsterdam-marathon-2026-results-report-diriba-berhanu/"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
+  "spaghettiworm-onderzeese-berg": {
+    "title": "海洋蠕虫的小吸盘真特别",
+    "location": "印度洋，澳大利亚岛屿地区",
+    "reportedDate": "2026年10月14日；研究发表于7月",
+    "theme": "动物与发现",
+    "intro": "博物馆的新报道介绍了经过科学家仔细研究的海洋蠕虫。",
+    "body": "印度洋海底有些山，从船上根本看不见。科学家在圣诞岛和科科斯群岛附近研究海洋蠕虫。10月14日，澳大利亚博物馆介绍了一个特别的类群：Terebellosuctoria。这些蠕虫身体下方有像小吸盘的结构。研究人员认为，这可能帮助它们附着在表面，但这仍是一种解释，并不是所有实验都已证明的结论。其中一个物种叫Terebellosuctoria jimii。和其他意大利面虫一样，它用长长的触手收集微小的食物颗粒。这个昵称可不是说海底真的有一盘意大利面！研究已在7月发表，样本来自更早的海上考察。科学家比较了身体形状和遗传物质，才确定它们的身份。我们的涂色页画的是海底斜坡上、管状住所旁的一条简化蠕虫，不是精确的科学复原。",
+    "facts": [
+      "博物馆报道发表于10月14日，研究则更早。",
+      "Terebellosuctoria是新描述的海洋蠕虫属。",
+      "长触手可以收集微小的食物颗粒。"
+    ],
+    "question": "如果能把相机放到隐秘的海底，你最想观察什么？",
+    "referenceCredit": "来源页中的真实Terebellosuctoria jimii照片：供图© CSIRO。未注明自由使用许可；仅作视觉参考，请勿复制。",
+    "sources": [
+      {
+        "label": "Australian Museum",
+        "url": "https://australian.museum/about/organisation/media-centre/deep-sea-spaghetti-worm/"
+      },
+      {
+        "label": "Records of the Australian Museum",
+        "url": "https://journals.australian.museum/kupriyanova-2026-rec-aust-mus-784-139186/"
+      }
+    ]
+  },
+  "webb-onderzoekt-veranderende-wolken": {
+    "title": "遥远世界上的云也会变化",
+    "location": "太空；研究由美国亚利桑那州团队牵头",
+    "reportedDate": "2026年10月8日；三十天内的补充报道",
+    "theme": "太空与测量",
+    "intro": "研究人员利用韦布空间望远镜，追踪遥远寒冷世界上的云层变化。",
+    "body": "从窗前，你可以观察云怎样变化。可是，怎样研究太阳系外的云呢？亚利桑那大学牵头的团队使用了詹姆斯·韦布空间望远镜。大学在10月8日的报道中介绍了WISE 0855，这是一颗十分寒冷的褐矮星，并不等同于普通恒星。研究人员连续十一小时反复测量它的光，再与计算机模型比较。他们发现的证据表明，随着这个天体转动，一些水云区域可能会变厚或变薄。这不是像天气图那样清楚拍出每一朵云的照片，而是从光的测量中寻找线索。相关研究9月已经上网，较新的大学报道是我们讲述这个故事的契机。涂色页中是简化的望远镜和想象的云层示意，不是真实照片，也没有按真实距离比例绘制。",
+    "facts": [
+      "大学报道发表于2026年10月8日。",
+      "韦布的观测持续了十一小时。",
+      "研究人员比较了光的测量与模型。"
+    ],
+    "question": "对于一个无法亲自到访的世界，你最想知道它的什么天气情况？",
+    "referenceCredit": "发射前韦布镜面的真实照片：NASA/Chris Gunn。该照片页未单列图像许可；仅作参考。这不是WISE 0855的照片。",
+    "sources": [
+      {
+        "label": "University of Arizona",
+        "url": "https://news.arizona.edu/news/discovery-marks-first-detection-variable-water-clouds-outside-our-solar-system"
+      },
+      {
+        "label": "Onderzoeksteam",
+        "url": "https://arxiv.org/abs/2609.20664"
+      }
+    ]
+  },
+  "almaty-kunst-en-levende-tradities": {
+    "title": "艺术让传统在阿拉木图相遇",
+    "location": "哈萨克斯坦阿拉木图",
+    "reportedDate": "2026年10月14日；活动于10月12日举行",
+    "theme": "艺术与合作",
+    "intro": "不同国家的年轻创作者一起探索怎样用艺术讲述传统。",
+    "body": "编一个篮子、学一首歌、绣一种花纹，人们会把许多本领传给别人。这就是活态文化遗产。阿拉木图的一场国际艺术节关注了这些传统。联合国教科文组织在10月14日报道，12日阿拉木图艺术博物馆举办了聚会和入选作品展。年轻创作者通过作品，表现女性在保存和传承传统中的作用。比赛收到了来自54个国家的作品。在阿拉木图的活动中，入选者可以参观博物馆并到户外创作。不同国家的习惯并不相同，即使同一个国家的不同家庭，也可能有各自的传统。所以，带着好奇心观察很有意思。即使大家说的语言不同，一幅画也能表达别人教给你的本领。我们的涂色页画的是两个虚构的小创作者和原创示例，不是真实参赛者，也没有复制比赛作品。",
+    "facts": [
+      "聚会和展览于10月12日举行。",
+      "比赛收到了54个国家的作品。",
+      "主题关注女性如何传承传统。"
+    ],
+    "question": "你想向别人学会哪一种本领或习惯，以后再传给其他人？",
+    "referenceCredit": "博物馆建筑照片，不含参赛儿童：Dauren Nabijan，2025年10月28日，维基共享资源，CC0 1.0。仅作参考，请勿复制艺术节作品。",
+    "sources": [
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-under-patronage-unesco-planet-art-2026-honoured-almaty"
+      },
+      {
+        "label": "UNESCO",
+        "url": "https://www.unesco.org/en/articles/winners-international-youth-festival-planet-art-2026-under-patronage-unesco-have-been-announced"
+      }
+    ]
+  },
+  "zadenbank-kiemplantjes-onderzoek": {
+    "title": "野生种子的实用小向导",
+    "location": "英国萨塞克斯；全球合作",
+    "reportedDate": "2026年10月13日",
+    "theme": "植物与发明",
+    "intro": "新的免费数据库帮助人们寻找合适的野生种子和发芽信息。",
+    "body": "小小的一粒种子，可能长成一整株植物。不过，挑选种子可不只是随手把一把种子撒在地上。想恢复自然环境，就要知道哪些植物适合当地、它们的种子怎样才能发芽。10月13日，邱园推出了名为SeedPOD的新免费数据库。它汇集野生种子和培育植物的信息，供研究人员、土地管理者和社区查询。种子的来源很重要：同一种植物在不同地方，可能会有不同特点。因此，并不是每粒种子到哪里都能长得一样好。数据库能让寻找信息更方便，却不会自己变出一片新森林，仍然需要知识、合适的地方和细心的工作。在萨塞克斯的千年种子库，工作人员保存种子，也做发芽试验。我们的涂色页是一张想象的研究桌，上面有种子、放大镜和小幼苗。",
+    "facts": [
+      "SeedPOD于2026年10月13日推出。",
+      "数据库可以免费访问。",
+      "种子来源和发芽条件都很重要。"
+    ],
+    "question": "想让一株新植物在某个地方生长，你会先查清什么？",
+    "referenceCredit": "来源页中真实的“Seed inspection work at MSB”照片：Ben Hirschler © RBG Kew。未注明自由使用许可；仅作视觉参考，请勿复制。",
+    "sources": [
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/about-us/press-media/seedpod-platform-launch"
+      },
+      {
+        "label": "Kew",
+        "url": "https://www.kew.org/science/read-and-watch/seedpod-for-restoration"
+      }
+    ]
+  },
+  "amsterdam-stadionlopers-rugaanzicht": {
+    "title": "埃塞俄比亚跑者在阿姆斯特丹出彩",
+    "location": "荷兰阿姆斯特丹；埃塞俄比亚运动员",
+    "reportedDate": "2026年10月18日",
+    "theme": "运动与坚持",
+    "intro": "Buze Diriba和Lemi Berhanu赢得马拉松，Diriba还创造了女子赛道纪录。",
+    "body": "马拉松不是只冲刺一下的比赛，跑者要把体力分配在很长的路程中。10月18日星期日，运动员来到阿姆斯特丹参赛。女子比赛由埃塞俄比亚的Buze Diriba获胜。她比这场马拉松以往的所有女子选手都更快跑完路线，创造了新的赛道纪录。男子冠军Lemi Berhanu也来自埃塞俄比亚。一开始，他和较大的一组人一起跑。后来，他与肯尼亚跑者Nicholas Kipkorir始终靠得很近，直到最后几公里才拉开差距。终点设在奥林匹克体育场，观众为运动员加油。当天路面潮湿，报道讲述的是一场需要努力的出色比赛，而不是轻松散步。不过，享受运动不需要跑这么远，操场上的小游戏也可以很好玩。我们的涂色页画的是虚构的成年跑者，并非冠军肖像。",
+    "facts": [
+      "马拉松于2026年10月18日举行。",
+      "Buze Diriba刷新了女子赛道纪录。",
+      "她和男子冠军Lemi Berhanu都来自埃塞俄比亚。"
+    ],
+    "question": "在游戏或运动中，什么能帮助你找到自己的节奏？",
+    "referenceCredit": "主办方赛后报道中的真实比赛及冲线照片。选用图像旁未注明摄影师或自由使用许可；组织为Le Champion。仅参考构图，不复制人物肖像或赞助商标志。",
+    "sources": [
+      {
+        "label": "Organisator",
+        "url": "https://www.tcsamsterdammarathon.eu/ethiopians-buze-diriba-and-lemi-berhanu-claimed-victory-at-the-tcs-amsterdam-marathon-today"
+      },
+      {
+        "label": "World-Track",
+        "url": "https://world-track.org/2026/10/tcs-amsterdam-marathon-2026-results-report-diriba-berhanu/"
+      }
+    ]
+  }
+});
 Object.assign(WORLD_STORY_TRANSLATIONS.fr, {
   "curiosity-ochtendfoto-marskliffen": {
     "title": "Une photo matinale révèle des rochers martiens",
