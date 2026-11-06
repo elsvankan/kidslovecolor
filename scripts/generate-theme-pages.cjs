@@ -39,6 +39,7 @@ function renderTheme(key, theme, language, colorings) {
       </div></article>`;
   }).join('\n');
   const packCopy = theme.downloadPack?.copy[language];
+  const stylesheet = packCopy ? '/css/theme-pages.css?v=dinosaur-pack-v1' : '/css/theme-pages.css';
   const pack = packCopy ? `<section class="theme-pack" aria-labelledby="pack-heading"><div><h2 id="pack-heading">${escapeHtml(packCopy.heading)}</h2><p>${escapeHtml(packCopy.description)}</p><p class="theme-pack-format">${escapeHtml(packCopy.format)}</p></div><a class="theme-button" href="${escapeHtml(theme.downloadPack.url)}" download="${escapeHtml(path.basename(theme.downloadPack.url))}" type="application/pdf">${escapeHtml(packCopy.button)}</a></section>` : '';
   const schema = {
     '@context': 'https://schema.org', '@graph': [
@@ -65,7 +66,7 @@ function renderTheme(key, theme, language, colorings) {
   <meta property="og:image" content="${baseUrl}${heroImage}"/>
   <meta name="twitter:card" content="summary_large_image"/>
   <link rel="icon" href="/img/logo.svg" type="image/svg+xml"/>
-  <link rel="stylesheet" href="/css/theme-pages.css"/>
+  <link rel="stylesheet" href="${stylesheet}"/>
   <script type="application/ld+json">${JSON.stringify(schema).replaceAll('<', '\\u003c')}</script>
 </head>
 <body>
