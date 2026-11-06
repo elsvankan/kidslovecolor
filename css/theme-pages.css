@@ -28,6 +28,12 @@ main { width:min(1120px,calc(100% - 32px)); margin:24px auto 60px; }
 .theme-promises { display:flex; gap:8px; flex-wrap:wrap; list-style:none; padding:0; }
 .theme-promises li { background:var(--lavender); padding:6px 12px; border-radius:999px; font-size:.85rem; }
 #colorings { scroll-margin-top:24px; }
+.theme-pack { display:flex; align-items:center; justify-content:space-between; gap:28px; padding:28px; margin:0 0 48px; border:1px solid var(--line); border-radius:20px; background:white; }
+.theme-pack h2 { margin-bottom:12px; }
+.theme-pack p { max-width:650px; }
+.theme-pack .theme-button { flex-shrink:0; max-width:100%; }
+.theme-pack-format { color:var(--muted); font-size:.9rem; margin:0; }
+@media (max-width:900px) { .theme-pack { flex-direction:column; align-items:flex-start; } }
 .theme-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:24px; }
 .theme-card { background:white; border:1px solid var(--line); border-radius:20px; overflow:hidden; display:flex; flex-direction:column; }
 .theme-picture { display:block; background:white; padding:20px; }
