@@ -2506,3 +2506,512 @@ Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
     ]
   }
 });
+
+Object.assign(WORLD_STORY_TRANSLATIONS.en, {
+  "korora-pinguins-nieuw-zeeland": {
+    "title": "Two little penguins get some peace",
+    "location": "Ngarunui, Aotearoa New Zealand",
+    "theme": "Animals and nature",
+    "intro": "Workers near a New Zealand beach found two nesting penguins. Their spot is now being given some extra quiet.",
+    "body": "People were fixing a wooden walkway at Ngarunui Beach when they found two little blue penguins nesting. The local council announced the news on 6 November. It is working with the conservation department and local Māori communities to give the birds some peace. A small area around the nest is temporarily closed.\n\nThe little blue penguin is called kororā in Māori. It has blue-grey feathers on its back and a pale belly. Its flat wings push it through the water. On land it can find shelter under plants or among rocks, where it can stay close to its nest in peace.\n\nWalkers can help by staying outside the closed area and keeping their dogs on a lead. That way, people and penguins can share the same coast and both have space. The coloring page imagines what a sheltered spot among the dune grasses might look like.",
+    "facts": [
+      "A kororā stands about 25 centimetres tall.",
+      "It can swim at about 6 kilometres an hour using its wings.",
+      "Little blue penguins sometimes nest under plants or among rocks."
+    ],
+    "question": "How would you draw a path where people could walk and penguins could rest?",
+    "referenceCredit": "Anita Spencer / Department of Conservation. Two kororā in a sheltered nook, shown as a species reference.",
+    "reportedDate": "6 November 2026",
+    "sources": [
+      {
+        "label": "Waikato District Council",
+        "url": "https://www.waikatodistrict.govt.nz/news/article/2026/11/06/sharing-ngarunui-with-some-special-locals"
+      },
+      {
+        "label": "Department of Conservation",
+        "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/little-penguin-korora/"
+      }
+    ]
+  },
+  "fossielen-speuren-in-aren": {
+    "title": "Tiny fossils tell a big story",
+    "location": "Arén, Spain",
+    "theme": "Science",
+    "intro": "Researchers from Spain and Portugal recognized a previously unnamed ancient amphibian from some very small bones.",
+    "body": "Could a few little bones tell you which animal lived here millions of years ago? Researchers compared fossils from the Spanish village of Arén. The bones were found back in 1997 and kept in a museum in Zaragoza. The team studied more than eighty of them, looking at the shapes of skull and jaw fragments, for example.\n\nOn 6 November, two universities shared what the team had discovered. The bones belonged to an amphibian that scientists had never named before. The species is now called Synorerpeton ribagorzana. It lived around 66 million years ago, in the age of dinosaurs. This group of animals looked a little like small salamanders.\n\nA museum cares for many things beyond the ones in its display cases. A researcher can take a fresh look at old finds years later. Sometimes a missing piece of the puzzle falls into place. In our imagined laboratory, you can hunt for fossil clues with your coloring pencils.",
+    "facts": [
+      "The bones from Arén were collected in 1997.",
+      "Ribagorzana refers to the Ribagorza region.",
+      "The animal lived about 66 million years ago."
+    ],
+    "question": "What differences would you look for if two tiny fossils seemed alike?",
+    "referenceCredit": "Universidad de Zaragoza. Photograph of researchers recovering amphibian fossils.",
+    "reportedDate": "6 November 2026",
+    "sources": [
+      {
+        "label": "Universidad de Zaragoza",
+        "url": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de"
+      },
+      {
+        "label": "NOVA FCT",
+        "url": "https://www.fct.unl.pt/en/news/2026/11/tiny-fossils-spain-reveal-new-species-mysterious-group-iberian-amphibians"
+      }
+    ]
+  },
+  "houten-speelgoed-bouwen-in-ono": {
+    "title": "Building and playing with wood in Ōno",
+    "location": "Ōno, Gifu, Japan",
+    "theme": "Play and learning",
+    "intro": "The Japanese town of Ōno planned a day of wooden toys and crafts for 3 November.",
+    "body": "A wooden block can be part of a tower today and a bridge tomorrow. In Ōno, a town in Japan’s Gifu Prefecture, 3 November was the date on the programme for a play day about wood. The town used the word mokuiku. It means learning through play with wood and finding out where it comes from.\n\nThe programme listed two places to try wooden toys. It also included looking for acorns and watching marbles roll down a track. At one craft table, participants were invited to make small objects from wood. It came from trees removed from a forest to give the other trees more room to grow.\n\nThe coloring page shows a play area we imagined for this story. Wide blocks can make a gate, and a round top shows how something can spin on a single point. Look at the blocks on the table. What else could you make with those same pieces?",
+    "facts": [
+      "The play day was on the programme at the Ōno community centre.",
+      "Mokuiku is about learning with and about wood.",
+      "A traditional Japanese spinning top is called a koma."
+    ],
+    "question": "What would you build with an arch block, two cubes and a triangle?",
+    "referenceCredit": "Keisotyo, Wikimedia Commons. Japanese wooden tops, object reference. CC BY-SA 3.0 or GFDL 1.2 or later.",
+    "reportedDate": "3 November 2026",
+    "sources": [
+      {
+        "label": "Gemeente Ōno",
+        "url": "https://www.town-ono.jp/0000002700.html"
+      },
+      {
+        "label": "Nishi-Mino",
+        "url": "https://www.ginet.or.jp/nisimino/tokusyu/akimaturi/index3.shtml"
+      }
+    ]
+  },
+  "baseball5-bal-zonder-knuppel": {
+    "title": "Cuba wins gold with just one ball",
+    "location": "Dakar, Senegal · Cuba",
+    "theme": "Sport and teamwork",
+    "intro": "Cuba won the first Baseball5 final at the Youth Olympic Games in Dakar. Players hit the ball with a hand.",
+    "body": "You stand ready with a rubber ball. You hit it into the court with your hand and run for first base. That is a spot you try to reach before the other team gets you out. This is how a play begins in Baseball5, a quick version of baseball with five players from each team on the court.\n\nOn 3 November in Dakar, Cuba played the team competing as Chinese Taipei. It was the first time the sport had been on the Youth Olympic Games programme. Cuba won two sets in the final and took gold. In the second set, the team managed to get two opponents out in one play.\n\nOn a small court, it helps to agree on who does what. While you run towards the base, a teammate can watch where the ball goes. When your team is fielding, you need to decide quickly who can reach the ball and which base it should go to.",
+    "facts": [
+      "Each team has five players on the court.",
+      "Players hit the rubber ball with a hand.",
+      "Cuba won the Dakar final in two sets."
+    ],
+    "question": "What could your team agree on to help one another on the court?",
+    "referenceCredit": "Him Lam / Clicks Images. Senior Baseball5 World Cup, Hong Kong, 12 October 2024.",
+    "reportedDate": "3 November 2026",
+    "sources": [
+      {
+        "label": "IOC Newsroom",
+        "url": "https://newsroom.olympics.com/record/3892"
+      },
+      {
+        "label": "WBSC",
+        "url": "https://baseball5.wbsc.org/"
+      }
+    ]
+  },
+  "supermaan-boven-de-rotsen": {
+    "title": "A supermoon above the rocks",
+    "location": "Worldwide · NASA, United States",
+    "theme": "Astronomy",
+    "intro": "NASA put the supermoon on its skywatching calendar on 2 November. The next one is on 24 November.",
+    "body": "Imagine seeing a round moon rise above a row of rocks. On 24 November the Moon is full, and around that time it is close to Earth. NASA mentioned this supermoon in its skywatching guide on 2 November. If there are few clouds, you can see it with your eyes alone.\n\nThe Moon goes around Earth on a path shaped like a slightly stretched circle. This means that sometimes it is closer and sometimes farther away. When the Moon is full around the time it is close, many people call it a supermoon. It can look a little larger and brighter than a full Moon that is farther away. The Moon itself stays the same size.\n\nThe coloring page imagines a landscape with rounded sandstone rocks. It shows some round craters and wide plains on the Moon. Look at the real Moon and you can pick out lighter and darker patches too.",
+    "facts": [
+      "The next full Moon is on 24 November 2026.",
+      "The Moon stays the same size as its distance from Earth changes.",
+      "NASA counts November as the first of three supermoons in a row."
+    ],
+    "question": "How would you show in a drawing that something looks larger when it moves closer?",
+    "referenceCredit": "NASA / Preston Dyches. Full Moon rising above Vasquez Rocks on 24 June 2021. CC BY-NC 2.0.",
+    "reportedDate": "2 November 2026",
+    "sources": [
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/what-to-look-for-in-night-sky-november-2026"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.fr, {
+  "korora-pinguins-nieuw-zeeland": {
+    "title": "Deux petits manchots au calme",
+    "location": "Ngarunui, Aotearoa Nouvelle-Zélande",
+    "theme": "Animaux et nature",
+    "intro": "Près d’une plage de Nouvelle-Zélande, des ouvriers ont trouvé deux manchots en train de nicher. Leur petit coin est désormais protégé.",
+    "body": "Des ouvriers réparaient une passerelle en bois près de la plage de Ngarunui quand ils ont découvert deux petits manchots bleus qui nichaient. La commune a annoncé la nouvelle le 6 novembre. Elle travaille avec le service de protection de la nature et les communautés māories locales pour préserver la tranquillité des oiseaux. Les abords du nid sont temporairement fermés.\n\nEn māori, le petit manchot bleu s’appelle kororā. Il a le dos bleu-gris et le ventre clair. Ses ailes plates le propulsent dans l’eau. À terre, il peut s’abriter sous des plantes ou entre des rochers pour rester près de son nid au calme.\n\nLes promeneurs peuvent aider en restant hors de la zone fermée et en tenant leur chien en laisse. Ainsi, les humains et les manchots partagent la côte et chacun a sa place. Le coloriage imagine un abri parmi les herbes des dunes.",
+    "facts": [
+      "Un kororā mesure environ 25 centimètres de haut.",
+      "Avec ses ailes, il peut nager à environ 6 kilomètres par heure.",
+      "Les petits manchots bleus nichent parfois sous les plantes ou entre des rochers."
+    ],
+    "question": "Comment dessinerais-tu un chemin qui laisse assez de calme aux manchots et de place aux promeneurs ?",
+    "referenceCredit": "Anita Spencer / Department of Conservation. Deux kororā dans un abri, pour observer l’espèce.",
+    "reportedDate": "6 novembre 2026",
+    "sources": [
+      {
+        "label": "Waikato District Council",
+        "url": "https://www.waikatodistrict.govt.nz/news/article/2026/11/06/sharing-ngarunui-with-some-special-locals"
+      },
+      {
+        "label": "Department of Conservation",
+        "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/little-penguin-korora/"
+      }
+    ]
+  },
+  "fossielen-speuren-in-aren": {
+    "title": "De tout petits fossiles racontent une grande histoire",
+    "location": "Arén, Espagne",
+    "theme": "Sciences",
+    "intro": "Des chercheurs espagnols et portugais ont reconnu une espèce d’amphibien très ancienne grâce à de minuscules os.",
+    "body": "Quelques petits os peuvent-ils révéler quel animal vivait ici il y a des millions d’années ? Des chercheurs ont comparé des fossiles du village espagnol d’Arén. Ces os, trouvés en 1997, étaient conservés dans un musée à Saragosse. L’équipe en a étudié plus de quatre-vingts, en observant par exemple la forme de fragments de crâne et de mâchoire.\n\nLe 6 novembre, deux universités ont présenté la découverte. Les os appartenaient à une espèce d’amphibien à laquelle les scientifiques n’avaient encore donné aucun nom. Elle s’appelle désormais Synorerpeton ribagorzana. Elle vivait il y a environ 66 millions d’années, à l’époque des dinosaures. Ces animaux ressemblaient un peu à de petites salamandres.\n\nUn musée conserve bien plus que ce que l’on voit dans ses vitrines. Des années plus tard, on peut étudier de nouveau les anciennes trouvailles. Parfois, une pièce du puzzle trouve enfin sa place. Dans notre laboratoire imaginaire, à toi de chercher des indices avec tes crayons.",
+    "facts": [
+      "Les os d’Arén ont été recueillis en 1997.",
+      "Ribagorzana fait référence à la région de Ribagorza.",
+      "L’animal vivait il y a environ 66 millions d’années."
+    ],
+    "question": "Quelles différences chercherais-tu entre deux minuscules fossiles qui se ressemblent ?",
+    "referenceCredit": "Universidad de Zaragoza. Photo de la recherche de fossiles d’amphibiens.",
+    "reportedDate": "6 novembre 2026",
+    "sources": [
+      {
+        "label": "Universidad de Zaragoza",
+        "url": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de"
+      },
+      {
+        "label": "NOVA FCT",
+        "url": "https://www.fct.unl.pt/en/news/2026/11/tiny-fossils-spain-reveal-new-species-mysterious-group-iberian-amphibians"
+      }
+    ]
+  },
+  "houten-speelgoed-bouwen-in-ono": {
+    "title": "On joue et on construit en bois à Ōno",
+    "location": "Ōno, Gifu, Japon",
+    "theme": "Jeu et apprentissage",
+    "intro": "La ville japonaise d’Ōno avait prévu une journée de jeux et de bricolage autour du bois le 3 novembre.",
+    "body": "Un bloc de bois peut faire partie d’une tour aujourd’hui et d’un pont demain. À Ōno, dans la préfecture japonaise de Gifu, une journée de jeux autour du bois était au programme le 3 novembre. La commune a employé le mot mokuiku. C’est apprendre en jouant avec le bois et découvrir d’où il vient.\n\nLe programme annonçait deux espaces pour essayer des jouets en bois. On pouvait aussi chercher des glands ou regarder des billes rouler sur une piste. À une table de bricolage, les participants devaient pouvoir fabriquer de petits objets en bois. Ce bois vient d’arbres retirés de la forêt pour que les autres aient plus de place pour grandir.\n\nLe coloriage montre un espace de jeu imaginé pour cette histoire. De gros blocs peuvent former une porte et une toupie peut tourner sur sa pointe. Regarde les blocs sur la table. Que pourrais-tu construire d’autre avec les mêmes pièces ?",
+    "facts": [
+      "La journée était inscrite au programme du centre communal d’Ōno.",
+      "Le mokuiku consiste à apprendre avec le bois et à découvrir ce matériau.",
+      "Une toupie traditionnelle japonaise s’appelle koma."
+    ],
+    "question": "Que construirais-tu avec un bloc en forme d’arche, deux cubes et un triangle ?",
+    "referenceCredit": "Keisotyo, Wikimedia Commons. Toupies japonaises en bois, photo de référence. CC BY-SA 3.0 ou GFDL 1.2 et ultérieure.",
+    "reportedDate": "3 novembre 2026",
+    "sources": [
+      {
+        "label": "Gemeente Ōno",
+        "url": "https://www.town-ono.jp/0000002700.html"
+      },
+      {
+        "label": "Nishi-Mino",
+        "url": "https://www.ginet.or.jp/nisimino/tokusyu/akimaturi/index3.shtml"
+      }
+    ]
+  },
+  "baseball5-bal-zonder-knuppel": {
+    "title": "Cuba décroche l’or avec une seule balle",
+    "location": "Dakar, Sénégal · Cuba",
+    "theme": "Sport et coopération",
+    "intro": "Cuba a remporté la première finale de baseball5 aux Jeux olympiques de la jeunesse à Dakar. On frappe la balle avec la main.",
+    "body": "Tu tiens une balle en caoutchouc. Tu la frappes de la main pour l’envoyer sur le terrain, puis tu cours vers la première base. C’est un point que tu essaies d’atteindre avant que l’autre équipe ne te mette hors jeu. Voilà comment commence une action au baseball5, une version rapide du baseball avec cinq joueurs par équipe sur le terrain.\n\nLe 3 novembre à Dakar, Cuba a affronté l’équipe engagée sous le nom de Taipei chinois. Ce sport figurait pour la première fois au programme des Jeux olympiques de la jeunesse. En finale, Cuba a remporté deux manches et la médaille d’or. Dans la deuxième manche, l’équipe a réussi à éliminer deux adversaires sur une seule action.\n\nSur un petit terrain, il est utile de se répartir les rôles. Pendant que tu cours vers la base, un partenaire peut suivre la balle des yeux. Si ton équipe défend, vous devez vite décider qui peut attraper la balle et vers quelle base l’envoyer.",
+    "facts": [
+      "Chaque équipe a cinq joueurs sur le terrain.",
+      "On frappe la balle en caoutchouc avec la main.",
+      "Cuba a remporté la finale à Dakar en deux manches."
+    ],
+    "question": "Quel accord ton équipe pourrait-elle trouver pour mieux s’entraider sur le terrain ?",
+    "referenceCredit": "Him Lam / Clicks Images. Coupe du monde senior de baseball5, Hong Kong, 12 octobre 2024.",
+    "reportedDate": "3 novembre 2026",
+    "sources": [
+      {
+        "label": "IOC Newsroom",
+        "url": "https://newsroom.olympics.com/record/3892"
+      },
+      {
+        "label": "WBSC",
+        "url": "https://baseball5.wbsc.org/"
+      }
+    ]
+  },
+  "supermaan-boven-de-rotsen": {
+    "title": "Une super Lune au-dessus des rochers",
+    "location": "Dans le monde · NASA, États-Unis",
+    "theme": "Astronomie",
+    "intro": "Le 2 novembre, la NASA a signalé une super Lune dans son calendrier du ciel. La prochaine aura lieu le 24 novembre.",
+    "body": "Imagine une Lune toute ronde qui se lève au-dessus des rochers. Le 24 novembre, ce sera la pleine Lune. À cette période, la Lune sera proche de la Terre. La NASA a annoncé cette super Lune le 2 novembre dans son guide d’observation du ciel. S’il y a peu de nuages, tu pourras la voir à l’œil nu.\n\nLa Lune tourne autour de la Terre. Son chemin ressemble à un cercle un peu étiré. Elle passe donc parfois plus près de la Terre et parfois plus loin. Quand la pleine Lune arrive au moment où elle est proche, beaucoup de gens parlent de super Lune. Elle peut sembler un peu plus grande et plus lumineuse qu’une pleine Lune plus éloignée. Sa taille reste la même.\n\nLe coloriage imagine un paysage de rochers arrondis. Sur la Lune, tu verras des cratères et de vastes plaines. Sur la vraie Lune, tu peux aussi repérer des zones claires et sombres.",
+    "facts": [
+      "La prochaine pleine Lune aura lieu le 24 novembre 2026.",
+      "La taille de la Lune reste la même quand sa distance à la Terre change.",
+      "Pour la NASA, celle de novembre est la première de trois super Lunes consécutives."
+    ],
+    "question": "Comment montrerais-tu dans un dessin qu’un objet semble plus grand quand il se rapproche ?",
+    "referenceCredit": "NASA / Preston Dyches. Pleine Lune au-dessus de Vasquez Rocks le 24 juin 2021. CC BY-NC 2.0.",
+    "reportedDate": "2 novembre 2026",
+    "sources": [
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/what-to-look-for-in-night-sky-november-2026"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.es, {
+  "korora-pinguins-nieuw-zeeland": {
+    "title": "Dos pingüinos pequeños encuentran tranquilidad",
+    "location": "Ngarunui, Aotearoa Nueva Zelanda",
+    "theme": "Animales y naturaleza",
+    "intro": "Cerca de una playa de Nueva Zelanda, unos trabajadores encontraron dos pingüinos que estaban anidando. Ahora su rincón está más tranquilo.",
+    "body": "Unas personas estaban reparando una pasarela de madera en la playa de Ngarunui cuando descubrieron que dos pingüinos azules pequeños estaban anidando allí. El ayuntamiento dio la noticia el 6 de noviembre. Colabora con el servicio de conservación de la naturaleza y las comunidades maoríes locales para dar tranquilidad a las aves. Han cerrado temporalmente un pequeño espacio alrededor del nido.\n\nAl pingüino azul pequeño se le llama kororā en maorí. Tiene el lomo gris azulado y la barriga clara. Sus alas planas lo impulsan por el agua. En tierra puede refugiarse bajo las plantas o entre las rocas y quedarse tranquilo cerca de su nido.\n\nQuienes pasean pueden ayudar si se quedan fuera de la zona cerrada y llevan a su perro con correa. Así las personas y los pingüinos comparten la costa y todos tienen espacio. El dibujo imagina un refugio entre las hierbas de las dunas.",
+    "facts": [
+      "Un kororā mide unos 25 centímetros de alto.",
+      "Con sus alas puede nadar a unos 6 kilómetros por hora.",
+      "A veces anida debajo de plantas o entre rocas."
+    ],
+    "question": "¿Cómo dibujarías un camino donde las personas puedan pasear y los pingüinos tengan tranquilidad?",
+    "referenceCredit": "Anita Spencer / Department of Conservation. Dos kororā en un hueco protegido, como referencia de la especie.",
+    "reportedDate": "6 de noviembre de 2026",
+    "sources": [
+      {
+        "label": "Waikato District Council",
+        "url": "https://www.waikatodistrict.govt.nz/news/article/2026/11/06/sharing-ngarunui-with-some-special-locals"
+      },
+      {
+        "label": "Department of Conservation",
+        "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/little-penguin-korora/"
+      }
+    ]
+  },
+  "fossielen-speuren-in-aren": {
+    "title": "Fósiles diminutos cuentan una gran historia",
+    "location": "Arén, España",
+    "theme": "Ciencia",
+    "intro": "Investigadores de España y Portugal reconocieron un anfibio antiguo que aún no tenía nombre científico gracias a unos huesos diminutos.",
+    "body": "¿Puedes saber por unos huesos pequeños qué animal vivió aquí hace millones de años? Un equipo comparó fósiles del pueblo español de Arén. Los huesos se encontraron en 1997 y se guardaron en un museo de Zaragoza. Los investigadores estudiaron más de ochenta y se fijaron, por ejemplo, en la forma de trozos del cráneo y de la mandíbula.\n\nEl 6 de noviembre, dos universidades contaron qué había descubierto el equipo. Los huesos pertenecían a una especie de anfibio a la que los científicos aún no habían puesto nombre. Ahora se llama Synorerpeton ribagorzana. Vivió hace unos 66 millones de años, en tiempos de los dinosaurios. Los animales de este grupo se parecían un poco a pequeñas salamandras.\n\nUn museo guarda muchas más cosas de las que ves en sus vitrinas. Años después, los científicos pueden volver a estudiar los hallazgos. A veces, una pieza del puzle encuentra su lugar. En nuestro laboratorio imaginario, te toca buscar pistas entre fósiles con tus lápices.",
+    "facts": [
+      "Los huesos de Arén se recogieron en 1997.",
+      "Ribagorzana hace referencia a la comarca de la Ribagorza.",
+      "El animal vivió hace unos 66 millones de años."
+    ],
+    "question": "¿Qué diferencias buscarías entre dos fósiles diminutos que se parecen?",
+    "referenceCredit": "Universidad de Zaragoza. Fotografía de la recuperación de fósiles de anfibios.",
+    "reportedDate": "6 de noviembre de 2026",
+    "sources": [
+      {
+        "label": "Universidad de Zaragoza",
+        "url": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de"
+      },
+      {
+        "label": "NOVA FCT",
+        "url": "https://www.fct.unl.pt/en/news/2026/11/tiny-fossils-spain-reveal-new-species-mysterious-group-iberian-amphibians"
+      }
+    ]
+  },
+  "houten-speelgoed-bouwen-in-ono": {
+    "title": "Jugar y construir con madera en Ōno",
+    "location": "Ōno, Gifu, Japón",
+    "theme": "Juego y aprendizaje",
+    "intro": "La localidad japonesa de Ōno programó para el 3 de noviembre una jornada de juguetes de madera y manualidades.",
+    "body": "Un bloque de madera puede formar parte de una torre hoy y de un puente mañana. En Ōno, una localidad de la región japonesa de Gifu, el 3 de noviembre era la fecha prevista para una jornada de juegos con madera. El municipio usó la palabra mokuiku. Se trata de aprender jugando con madera y descubrir de dónde viene.\n\nEl programa incluía dos espacios para probar juguetes de madera. También se podían buscar bellotas y ver cómo rodaban las canicas por una pista. En una mesa de manualidades, estaba previsto que los participantes hicieran pequeños objetos. La madera venía de árboles retirados del bosque para dar más espacio a los demás.\n\nEl dibujo muestra un rincón de juegos imaginado para este relato. Los bloques grandes sirven para construir una puerta y una peonza gira sobre su punta. Mira los bloques de la mesa. ¿Qué otra cosa podrías inventar con las mismas piezas?",
+    "facts": [
+      "La jornada figuraba en el programa del centro comunitario de Ōno.",
+      "Mokuiku significa aprender con la madera y sobre ella.",
+      "Una peonza tradicional japonesa se llama koma."
+    ],
+    "question": "¿Qué construirías con un bloque en forma de arco, dos cubos y un triángulo?",
+    "referenceCredit": "Keisotyo, Wikimedia Commons. Peonzas japonesas de madera, referencia del objeto. CC BY-SA 3.0 o GFDL 1.2 o posterior.",
+    "reportedDate": "3 de noviembre de 2026",
+    "sources": [
+      {
+        "label": "Gemeente Ōno",
+        "url": "https://www.town-ono.jp/0000002700.html"
+      },
+      {
+        "label": "Nishi-Mino",
+        "url": "https://www.ginet.or.jp/nisimino/tokusyu/akimaturi/index3.shtml"
+      }
+    ]
+  },
+  "baseball5-bal-zonder-knuppel": {
+    "title": "Cuba gana el oro con una sola pelota",
+    "location": "Dakar, Senegal · Cuba",
+    "theme": "Deporte y trabajo en equipo",
+    "intro": "Cuba ganó la primera final de béisbol5 en los Juegos Olímpicos de la Juventud de Dakar. En este deporte se golpea la pelota con la mano.",
+    "body": "Tienes una pelota de goma. La golpeas con la mano para mandarla al campo y corres a la primera base. Es un punto al que intentas llegar antes de que el otro equipo te deje fuera de la jugada. Así empieza una jugada de béisbol5, una versión rápida del béisbol con cinco jugadores por equipo en el campo.\n\nEl 3 de noviembre, en Dakar, Cuba jugó contra el equipo inscrito como Taipéi Chino. Era la primera vez que este deporte formaba parte del programa de los Juegos Olímpicos de la Juventud. En la final, Cuba ganó dos sets y consiguió el oro. En el segundo set, el equipo hizo dos eliminaciones en una sola jugada.\n\nEn un campo pequeño ayuda ponerse de acuerdo. Mientras corres a la base, alguien de tu equipo puede seguir la pelota. Si estás en el equipo que defiende, toca decidir deprisa quién puede recoger la pelota y a qué base debe mandarla.",
+    "facts": [
+      "Cada equipo tiene cinco jugadores en el campo.",
+      "La pelota de goma se golpea con la mano.",
+      "Cuba ganó la final de Dakar en dos sets."
+    ],
+    "question": "¿Qué acordaría tu equipo para ayudarse durante el partido?",
+    "referenceCredit": "Him Lam / Clicks Images. Copa del Mundo sénior de béisbol5, Hong Kong, 12 de octubre de 2024.",
+    "reportedDate": "3 de noviembre de 2026",
+    "sources": [
+      {
+        "label": "IOC Newsroom",
+        "url": "https://newsroom.olympics.com/record/3892"
+      },
+      {
+        "label": "WBSC",
+        "url": "https://baseball5.wbsc.org/"
+      }
+    ]
+  },
+  "supermaan-boven-de-rotsen": {
+    "title": "Una superluna sobre las rocas",
+    "location": "En todo el mundo · NASA, Estados Unidos",
+    "theme": "Astronomía",
+    "intro": "La NASA incluyó una superluna en su calendario del cielo el 2 de noviembre. La próxima será el 24 de noviembre.",
+    "body": "Imagina una luna redonda que sale por encima de unas rocas. El 24 de noviembre habrá luna llena y, por esas fechas, la Luna estará cerca de la Tierra. La NASA anunció esta superluna el 2 de noviembre en su guía para mirar el cielo. Si hay pocas nubes, podrás verla a simple vista.\n\nLa Luna gira alrededor de la Tierra. Su recorrido se parece a un círculo un poco estirado. Por eso, a veces pasa más cerca de la Tierra y otras veces más lejos. Si la luna llena coincide con un momento en que está cerca, mucha gente la llama superluna. Puede verse un poco más grande y brillante que una luna llena más lejana. Su tamaño sigue siendo el mismo.\n\nEl dibujo imagina un paisaje de rocas redondeadas. En la Luna aparecen cráteres y llanuras amplias. Si miras la Luna de verdad, también puedes distinguir zonas claras y oscuras.",
+    "facts": [
+      "La próxima luna llena será el 24 de noviembre de 2026.",
+      "La Luna mantiene su tamaño cuando cambia su distancia a la Tierra.",
+      "Para la NASA, la de noviembre es la primera de tres superlunas seguidas."
+    ],
+    "question": "¿Cómo mostrarías en un dibujo que algo parece más grande cuando se acerca?",
+    "referenceCredit": "NASA / Preston Dyches. Luna llena sobre las rocas de Vasquez el 24 de junio de 2021. CC BY-NC 2.0.",
+    "reportedDate": "2 de noviembre de 2026",
+    "sources": [
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/what-to-look-for-in-night-sky-november-2026"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
+  "korora-pinguins-nieuw-zeeland": {
+    "title": "让两只小蓝企鹅安静筑巢",
+    "location": "新西兰纳鲁努伊海滩",
+    "theme": "动物与自然",
+    "intro": "在新西兰的海边，工人发现了两只正在筑巢繁殖的小蓝企鹅。现在，这个小角落有了更多安宁。",
+    "body": "工人正在修整纳鲁努伊海滩的木栈道，发现有两只小蓝企鹅在附近筑巢繁殖。当地议会在11月6日公布了这个消息。议会与自然保护部门和当地毛利社群一起为小企鹅留出安静的空间，暂时封闭了巢穴周围的一小片区域。\n\n在毛利语里，小蓝企鹅叫 kororā。它背上的羽毛是蓝灰色的，肚子颜色较浅。它用扁平的翅膀在水里划动。上岸以后，它可以在植物下或岩石间找个隐蔽的角落，安静地守在巢边。\n\n散步的人也能帮忙。大家可以绕开封闭区域，给狗拴好牵引绳。这样，人和企鹅都能在海边拥有自己的空间。涂色画里画的是想象中沙丘草丛里的庇护所。",
+    "facts": [
+      "小蓝企鹅站起来约有25厘米高。",
+      "它用翅膀划水，时速可达约6公里。",
+      "小蓝企鹅有时在植物下或岩石间筑巢。"
+    ],
+    "question": "你会怎样画一条既能让人散步，又能让企鹅安静休息的小路？",
+    "referenceCredit": "新西兰自然保护部／Anita Spencer。两只躲在岩隙中的小蓝企鹅，供观察这种鸟的外形。",
+    "reportedDate": "2026年11月6日",
+    "sources": [
+      {
+        "label": "Waikato District Council",
+        "url": "https://www.waikatodistrict.govt.nz/news/article/2026/11/06/sharing-ngarunui-with-some-special-locals"
+      },
+      {
+        "label": "Department of Conservation",
+        "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/little-penguin-korora/"
+      }
+    ]
+  },
+  "fossielen-speuren-in-aren": {
+    "title": "小小的化石讲出大故事",
+    "location": "西班牙阿伦",
+    "theme": "科学",
+    "intro": "西班牙和葡萄牙的研究人员从细小的骨头化石中辨认出一种此前未被命名的古老两栖动物。",
+    "body": "几块小骨头能告诉我们，数千万年前这里生活着什么动物吗？研究人员把来自西班牙阿伦村的化石放在一起比较。这些骨头是在1997年发现的，一直保存在萨拉戈萨的一家博物馆。研究小组观察了八十多块骨头，还仔细比较了头骨和下颌碎片的形状。\n\n11月6日，两所大学介绍了研究小组的发现。这些骨头来自一种科学家此前还没有命名的两栖动物。如今，它有了学名 Synorerpeton ribagorzana。它生活在大约6600万年前，当时地球上还有恐龙。它所属的那群动物看起来有点像小蝾螈。\n\n博物馆收藏的东西比展柜里看到的多得多。过了许多年，研究人员还可以重新观察这些发现，有时会找到拼图中缺失的一块。现在，你可以在想象中的研究室里用彩笔寻找化石线索。",
+    "facts": [
+      "阿伦的这些骨头是在1997年采集的。",
+      "学名里的 ribagorzana 指的是里瓦戈萨地区。",
+      "这种动物生活在大约6600万年前。"
+    ],
+    "question": "如果两块小化石长得很像，你会从哪里找出它们的不同？",
+    "referenceCredit": "萨拉戈萨大学。搜寻两栖动物化石的照片。",
+    "reportedDate": "2026年11月6日",
+    "sources": [
+      {
+        "label": "Universidad de Zaragoza",
+        "url": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de"
+      },
+      {
+        "label": "NOVA FCT",
+        "url": "https://www.fct.unl.pt/en/news/2026/11/tiny-fossils-spain-reveal-new-species-mysterious-group-iberian-amphibians"
+      }
+    ]
+  },
+  "houten-speelgoed-bouwen-in-ono": {
+    "title": "在大野町用木头玩出新花样",
+    "location": "日本岐阜县大野町",
+    "theme": "游戏与学习",
+    "intro": "日本大野町把11月3日安排为木制玩具和手工活动日。",
+    "body": "一块木头积木，今天可以搭成高塔的一部分，明天又能用来搭桥。日本岐阜县的大野町把11月3日安排为以木头为主题的游戏日。当地用「木育」来形容这种活动，意思是用木头玩耍，从中学习，也认识木头从哪里来。\n\n活动安排中有两处体验木制玩具的地方，还有找橡果和看弹珠沿轨道滚动的项目。手工桌上原本安排了用木头做小物件的活动。做手工的木材来自森林里的间伐，也就是移走一些树，给其他树留下更多生长空间。\n\n涂色画里的游戏角是我们为这个故事想象出来的。宽宽的积木能搭成门，圆圆的陀螺能在一个小尖上转动。看看桌上的积木。用同样的几块，你还能搭出什么？",
+    "facts": [
+      "活动安排在大野町的社区中心。",
+      "木育让人们用木头学习，也学习木头的知识。",
+      "日本的传统陀螺叫 koma。"
+    ],
+    "question": "如果只有一块拱形积木、两个立方体和一个三角形，你会搭什么？",
+    "referenceCredit": "Keisotyo／维基共享资源。日本木制陀螺的参考照片。CC BY-SA 3.0 或 GFDL 1.2 及以上版本。",
+    "reportedDate": "2026年11月3日",
+    "sources": [
+      {
+        "label": "Gemeente Ōno",
+        "url": "https://www.town-ono.jp/0000002700.html"
+      },
+      {
+        "label": "Nishi-Mino",
+        "url": "https://www.ginet.or.jp/nisimino/tokusyu/akimaturi/index3.shtml"
+      }
+    ]
+  },
+  "baseball5-bal-zonder-knuppel": {
+    "title": "古巴队用一颗球赢得金牌",
+    "location": "塞内加尔达喀尔 · 古巴",
+    "theme": "体育与合作",
+    "intro": "在达喀尔举行的青年奥运会上，古巴队赢得了首场五人制棒球决赛。这项运动用手击球。",
+    "body": "拿起一颗橡胶球，用手把它打进场内，再跑向一垒。垒是场上的固定位置，你要赶在对方让你出局之前到达那里。这就是五人制棒球一次进攻的开始。它的节奏很快，每队有五名球员在场上。\n\n11月3日，古巴队在达喀尔迎战以中华台北名义参赛的队伍。这项运动首次成为青年奥运会比赛项目。古巴队在决赛连赢两盘，拿到了金牌。第二盘里，他们在同一次防守中让两名对手出局。\n\n场地不大，队友之间事先商量好很有帮助。你向垒位跑去时，队友可以看球飞到哪里。轮到你们防守时，大家得很快想清楚谁来接球，以及该把球传向哪个垒位。",
+    "facts": [
+      "每队有五名球员在场上。",
+      "球员用手击打橡胶球。",
+      "古巴队连赢两盘，拿下达喀尔的决赛。"
+    ],
+    "question": "你会和队友约定什么，让大家在场上更好地互相帮助？",
+    "referenceCredit": "Him Lam／Clicks Images。2024年10月12日于香港举行的成年组五人制棒球世界杯。",
+    "reportedDate": "2026年11月3日",
+    "sources": [
+      {
+        "label": "IOC Newsroom",
+        "url": "https://newsroom.olympics.com/record/3892"
+      },
+      {
+        "label": "WBSC",
+        "url": "https://baseball5.wbsc.org/"
+      }
+    ]
+  },
+  "supermaan-boven-de-rotsen": {
+    "title": "岩石上空升起一轮超级月亮",
+    "location": "全球 · 美国国家航空航天局",
+    "theme": "天文学",
+    "intro": "美国国家航空航天局在11月2日发布的观星指南里提醒大家，下一次超级月亮将在11月24日出现。",
+    "body": "想象一轮圆月从一排岩石上方升起来。11月24日是满月，那段时间月球离地球也比较近。美国国家航空航天局在11月2日的观星指南里介绍了这次超级月亮。如果云不多，直接用眼睛就能看到。\n\n月球绕着地球走，它的轨道像一个稍微拉长的圆。所以月球有时离地球近一点，有时远一点。月球比较近的时候恰好遇上满月，很多人就把它叫作超级月亮。它看上去可能比离得较远的满月稍大、稍亮，月球本身的大小没有改变。\n\n涂色画里是想象中的圆形砂岩地貌。月面上画了圆圆的撞击坑和宽阔的平原。看看真正的月亮，你也能分辨出月面上较亮和较暗的地方。",
+    "facts": [
+      "下一次满月是2026年11月24日。",
+      "月球与地球之间的距离会变，月球的大小不会变。",
+      "按美国国家航空航天局的计算，11月的超级月亮是连续三次中的第一次。"
+    ],
+    "question": "你会怎样用一幅画表现一个物体靠近时看起来会变大？",
+    "referenceCredit": "NASA／Preston Dyches。2021年6月24日在瓦斯奎兹岩石上空升起的满月。 CC BY-NC 2.0.",
+    "reportedDate": "2026年11月2日",
+    "sources": [
+      {
+        "label": "NASA Science",
+        "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+      },
+      {
+        "label": "Space.com",
+        "url": "https://www.space.com/stargazing/what-to-look-for-in-night-sky-november-2026"
+      }
+    ]
+  }
+});

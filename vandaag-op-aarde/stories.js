@@ -6,6 +6,166 @@
  */
 const WORLD_STORY_EDITIONS = [
   {
+    "published": "2026-11-09",
+    "stories": [
+      {
+        "slug": "korora-pinguins-nieuw-zeeland",
+        "title": "Twee kleine pinguïns krijgen rust",
+        "location": "Ngarunui, Aotearoa Nieuw-Zeeland",
+        "reportedDate": "6 november 2026",
+        "theme": "Dieren en natuur",
+        "icon": "🐧",
+        "intro": "Bij een strand in Nieuw-Zeeland vonden werkers twee broedende pinguïns. Hun plekje krijgt nu extra rust.",
+        "body": "Bij Ngarunui Beach waren mensen bezig een houten wandelpad op te knappen. Daar ontdekten ze twee kleine blauwe pinguïns die aan het broeden waren. De gemeente maakte het nieuws op 6 november bekend. Ze werkt samen met de natuurdienst en de plaatselijke Māori-gemeenschap om de vogels rust te geven. Rond de broedplek is een stukje tijdelijk afgesloten.\n\nDe kleine blauwe pinguïn heet kororā in het Māori. Hij heeft blauwgrijze veren op zijn rug en een lichte buik. Met zijn platte vleugels duwt hij zich door het water. Op het land kan hij een beschut plekje zoeken onder planten of tussen rotsen. Daar kan hij rustig bij zijn nest blijven.\n\nOok wandelaars kunnen helpen. Ze blijven buiten het afgesloten gebied en houden hun hond aan de lijn. Zo delen mensen en pinguïns dezelfde kust, met genoeg ruimte voor allebei. Op de kleurplaat zie je hoe zo’n beschut plekje tussen het duingras eruit zou kunnen zien.",
+        "facts": [
+          "Een kororā is ongeveer 25 centimeter hoog.",
+          "Met zijn vleugels kan hij onder water ongeveer 6 kilometer per uur halen.",
+          "Kleine blauwe pinguïns nestelen onder meer onder planten of tussen rotsen."
+        ],
+        "question": "Hoe zou jij een pad tekenen waar mensen kunnen wandelen en pinguïns genoeg rust hebben?",
+        "sources": [
+          {
+            "label": "Waikato District Council — melding van het broedpaar",
+            "url": "https://www.waikatodistrict.govt.nz/news/article/2026/11/06/sharing-ngarunui-with-some-special-locals"
+          },
+          {
+            "label": "Department of Conservation — leefwijze van de kororā",
+            "url": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/little-penguin-korora/"
+          }
+        ],
+        "referenceUrl": "https://www.doc.govt.nz/nature/native-animals/birds/birds-a-z/penguins/little-penguin-korora/",
+        "referenceCredit": "Anita Spencer / Department of Conservation. Twee kororā in een nis, soortreferentie. Licentie niet vermeld bij de foto.",
+        "coloringSlug": "korora-pinguins-nieuw-zeeland",
+        "sourceUrl": "https://www.waikatodistrict.govt.nz/news/article/2026/11/06/sharing-ngarunui-with-some-special-locals",
+        "sourceLabel": "Waikato District Council — melding van het broedpaar"
+      },
+      {
+        "slug": "fossielen-speuren-in-aren",
+        "title": "Piepkleine fossielen vertellen een groot verhaal",
+        "location": "Arén, Spanje",
+        "reportedDate": "6 november 2026",
+        "theme": "Wetenschap",
+        "icon": "🔎",
+        "intro": "Spaanse en Portugese onderzoekers herkenden een nieuw soort oeroud amfibie aan heel kleine botjes.",
+        "body": "Kun je aan een paar kleine botjes zien welk dier hier miljoenen jaren geleden leefde? Onderzoekers legden fossielen uit het Spaanse dorp Arén naast elkaar. De botjes waren al in 1997 gevonden en werden bewaard in een museum in Zaragoza. Nu kon een team er meer dan tachtig van bestuderen. Het keek bijvoorbeeld naar de vorm van stukjes schedel en kaak.\n\nOp 6 november vertelden twee universiteiten wat het team had ontdekt. De botjes hoorden bij een soort amfibie die wetenschappers nog geen naam hadden gegeven. De soort heet nu Synorerpeton ribagorzana. Het dier leefde ongeveer 66 miljoen jaar geleden, in de tijd van de dinosaurussen. De diergroep leek een beetje op kleine salamanders.\n\nEen museum bewaart dus meer dan wat je in vitrines ziet. Een onderzoeker kan oude vondsten jaren later opnieuw bekijken. Soms past er dan een stukje van de puzzel op zijn plek. In onze getekende onderzoekskamer mag jij met je kleurpotloden tussen de fossielen speuren.",
+        "facts": [
+          "De botjes uit Arén werden in 1997 verzameld.",
+          "Ribagorzana verwijst naar de streek Ribagorza.",
+          "Het dier leefde ongeveer 66 miljoen jaar geleden."
+        ],
+        "question": "Welke verschillen zou jij zoeken als twee piepkleine fossielen op elkaar lijken?",
+        "sources": [
+          {
+            "label": "Universidad de Zaragoza — vondst en museumonderzoek",
+            "url": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de"
+          },
+          {
+            "label": "NOVA FCT — beschrijving van het amfibie",
+            "url": "https://www.fct.unl.pt/en/news/2026/11/tiny-fossils-spain-reveal-new-species-mysterious-group-iberian-amphibians"
+          }
+        ],
+        "referenceUrl": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de",
+        "referenceCredit": "Universidad de Zaragoza. Foto van Alexandre R. D. Guillaume tijdens fossielonderzoek. Fotograaf en licentie niet vermeld bij deze foto.",
+        "coloringSlug": "fossielen-speuren-in-aren",
+        "sourceUrl": "https://www.unizar.es/noticia/descubren-en-huesca-una-nueva-especie-de-anfibio-que-vivio-poco-antes-de-la-extincion-de",
+        "sourceLabel": "Universidad de Zaragoza — vondst en museumonderzoek"
+      },
+      {
+        "slug": "houten-speelgoed-bouwen-in-ono",
+        "title": "Spelen en bouwen met hout in Ōno",
+        "location": "Ōno, Gifu, Japan",
+        "reportedDate": "3 november 2026",
+        "theme": "Spelen en leren",
+        "icon": "🧩",
+        "intro": "In de Japanse plaats Ōno stond op 3 november een dag vol houten speelgoed en knutselen op het programma.",
+        "body": "Een houten blok is vandaag een toren en morgen een brug. In Ōno, in de Japanse streek Gifu, stond op 3 november een speeldag rond hout op het programma. De gemeente gebruikte het woord mokuiku. Dat gaat over spelend leren met hout en kennismaken met waar het vandaan komt.\n\nOp het programma stonden twee plekken om houten speelgoed uit te proberen. Je kon ook eikels zoeken of kijken hoe knikkers over een baan rollen. Bij een knutseltafel zouden deelnemers met hout kleine voorwerpen maken. Het ging om hout dat vrijkomt als er bomen uit een bos worden gehaald om andere bomen meer ruimte te geven.\n\nOp de kleurplaat zie je een speelplek die we voor dit verhaal hebben bedacht. Met brede blokken kun je een poort bouwen en met een ronde tol kun je zien hoe iets op één puntje draait. Kijk eens naar de blokken op tafel. Met dezelfde stukken kun je vast iets heel anders bedenken.",
+        "facts": [
+          "De speeldag stond op het programma van het gemeenschapscentrum van Ōno.",
+          "Mokuiku gaat over leren met en over hout.",
+          "Een traditionele Japanse tol heet koma."
+        ],
+        "question": "Wat zou jij bouwen met een boogblok, twee kubussen en een driehoek?",
+        "sources": [
+          {
+            "label": "Gemeente Ōno — officiële dag en programma",
+            "url": "https://www.town-ono.jp/0000002700.html"
+          },
+          {
+            "label": "Nishi-Mino — regionaal evenementoverzicht",
+            "url": "https://www.ginet.or.jp/nisimino/tokusyu/akimaturi/index3.shtml"
+          }
+        ],
+        "referenceUrl": "https://commons.wikimedia.org/wiki/File:Japanese_Top_nagegoma_kyusyu.jpg",
+        "referenceCredit": "Keisotyo, Wikimedia Commons. Japanse houten tollen, voorwerpreferentie. CC BY-SA 3.0 of GFDL 1.2 en hoger.",
+        "coloringSlug": "houten-speelgoed-bouwen-in-ono",
+        "sourceUrl": "https://www.town-ono.jp/0000002700.html",
+        "sourceLabel": "Gemeente Ōno — officiële dag en programma"
+      },
+      {
+        "slug": "baseball5-bal-zonder-knuppel",
+        "title": "Cuba speelt zich naar goud met één bal",
+        "location": "Dakar, Senegal · Cuba",
+        "reportedDate": "3 november 2026",
+        "theme": "Sport en samenwerking",
+        "icon": "⚾",
+        "intro": "Op de Jeugdspelen in Dakar won Cuba de eerste Baseball5-finale. Bij dit spel sla je de bal met je hand.",
+        "body": "Je staat klaar met een rubberen bal. Je tikt hem met je hand het veld in en rent naar het eerste honk. Dat is een vaste plek die je probeert te bereiken voordat de andere ploeg je uitspeelt. Zo begint een spelmoment in Baseball5, een snelle variant van honkbal met vijf spelers per ploeg op het veld.\n\nOp 3 november speelde Cuba in Dakar tegen het team dat op het toernooi Chinees Taipei heet. Het was de eerste keer dat deze sport op de Olympische Jeugdspelen stond. In de finale won Cuba twee sets en kreeg het team goud. In de tweede set wist de ploeg tijdens één spelmoment twee tegenstanders uit te maken.\n\nOp zo’n klein veld helpen goede afspraken. Als jij naar het honk rent, kijkt je ploeggenoot waar de bal heen gaat. Staat jouw team in het veld, dan moet je snel zien wie de bal kan pakken en naar welk honk die moet.",
+        "facts": [
+          "Elke ploeg heeft vijf spelers op het veld.",
+          "Je slaat de rubberen bal met je hand.",
+          "Cuba won in Dakar de finale in twee sets."
+        ],
+        "question": "Welke afspraak zou jouw ploeg maken om elkaar op het veld te helpen?",
+        "sources": [
+          {
+            "label": "IOC Newsroom — uitslag en spelmoment in de finale",
+            "url": "https://newsroom.olympics.com/record/3892"
+          },
+          {
+            "label": "WBSC — uitleg van Baseball5",
+            "url": "https://baseball5.wbsc.org/"
+          }
+        ],
+        "referenceUrl": "https://homebase.baseballjapan.org/articles/1341/",
+        "referenceCredit": "Him Lam / Clicks Images, WK Baseball5 voor senioren in Hongkong, 12 oktober 2024. Licentie niet vermeld bij de foto.",
+        "coloringSlug": "baseball5-bal-zonder-knuppel",
+        "sourceUrl": "https://newsroom.olympics.com/record/3892",
+        "sourceLabel": "IOC Newsroom — uitslag en spelmoment in de finale"
+      },
+      {
+        "slug": "supermaan-boven-de-rotsen",
+        "title": "Een supermaan boven de rotsen",
+        "location": "Wereldwijd · NASA, Verenigde Staten",
+        "reportedDate": "2 november 2026",
+        "theme": "Sterrenkunde",
+        "icon": "🌕",
+        "intro": "NASA zette op 2 november de supermaan op de kijkkalender. De volgende is op 24 november.",
+        "body": "Stel je voor dat je een ronde maan boven een rij rotsen ziet opkomen. Op 24 november is het volle maan en staat de maan rond die tijd dicht bij de aarde. NASA noemde deze supermaan op 2 november in zijn kijkgids. Als er weinig wolken zijn, kun je haar met het blote oog zien.\n\nDe maan draait om de aarde. Haar baan lijkt op een kring die een beetje is uitgerekt. Daardoor is de maan soms dichterbij en soms verder weg. Valt volle maan rond een moment waarop ze dichtbij staat, dan noemen veel mensen dat een supermaan. Ze kan wat groter en helderder lijken dan een volle maan die verder weg staat. De maan zelf blijft even groot.\n\nDe kleurplaat laat een verzonnen landschap met ronde zandsteenrotsen zien. Op de maan zijn een paar ronde kraters en grote vlaktes getekend. Als je de echte maan bekijkt, kun je ook lichte en donkere plekken onderscheiden.",
+        "facts": [
+          "De volgende volle maan valt op 24 november 2026.",
+          "De maan blijft even groot terwijl de afstand tot de aarde verandert.",
+          "NASA rekent november als de eerste van drie supermanen op rij."
+        ],
+        "question": "Hoe zou je met een tekening laten zien dat iets groter lijkt als het dichterbij komt?",
+        "sources": [
+          {
+            "label": "NASA Science — novemberkijkgids",
+            "url": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/"
+          },
+          {
+            "label": "Space.com — volle maan op 24 november",
+            "url": "https://www.space.com/stargazing/what-to-look-for-in-night-sky-november-2026"
+          }
+        ],
+        "referenceUrl": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+        "referenceCredit": "NASA / Preston Dyches, volle maan boven Vasquez Rocks op 24 juni 2021. CC BY-NC 2.0 volgens de bestandsnaam bij NASA.",
+        "coloringSlug": "supermaan-boven-de-rotsen",
+        "sourceUrl": "https://science.nasa.gov/solar-system/skywatching/whats-up-november-2026-skywatching-tips-from-nasa/",
+        "sourceLabel": "NASA Science — novemberkijkgids"
+      }
+    ]
+  },
+  {
     "published": "2026-10-19",
     "stories": [
       {
