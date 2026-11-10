@@ -16,8 +16,90 @@
     return;
   }
 
+  var measurementId = 'G-SKLBTW5Z87';
+  var preferenceKey = 'klc-detail-statistics-v1';
+  var disableKey = 'ga-disable-' + measurementId;
+  var analyticsAllowed = false;
+  var analyticsStarted = false;
+
+  function startAnalytics() {
+    if (analyticsStarted) return;
+    analyticsStarted = true;
+
+    var landing = new URL(window.location.href);
+    var campaign = new URLSearchParams();
+    ['utm_source', 'utm_medium', 'utm_campaign', 'utm_id'].forEach(function (key) {
+      var value = landing.searchParams.get(key);
+      if (value && /^[a-z0-9_. -]{1,100}$/i.test(value)) campaign.set(key, value);
+    });
+    landing.search = campaign.toString();
+    landing.hash = '';
+    var referrer = document.referrer ? new URL(document.referrer) : null;
+    var advertisingDenied = {ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied'};
+
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { window.dataLayer.push(arguments); };
+    window.gtag('consent', 'default', Object.assign({analytics_storage: 'denied'}, advertisingDenied));
+    window.gtag('consent', 'update', {analytics_storage: 'granted'});
+    window.gtag('js', new Date());
+    window.gtag('config', measurementId, {
+      page_location: landing.href,
+      page_referrer: referrer ? referrer.origin + '/' : '',
+      allow_google_signals: false,
+      allow_ad_personalization_signals: false
+    });
+    track('coloring_open');
+
+    var script = document.createElement('script');
+    script.async = true;
+    script.src = 'https://www.googletagmanager.com/gtag/js?id=' + measurementId;
+    document.head.appendChild(script);
+  }
+
+  function setupAnalytics(status) {
+    if (!status || !status.parentNode) return;
+    var choice;
+    try { choice = window.localStorage.getItem(preferenceKey); } catch (error) { /* Storage may be blocked. */ }
+
+    var preferences = document.createElement('details');
+    preferences.innerHTML =
+      '<summary>Statistieken op kleurplaatpagina’s</summary>' +
+      '<p>Met jouw toestemming gebruiken we Google Analytics om bezoeken, downloads en printacties op kleurplaatpagina’s te tellen. Je kunt altijd gratis blijven printen en downloaden.</p>' +
+      '<p><a href="/privacy">Privacybeleid</a></p>' +
+      '<div class="actions"><button type="button" class="button button-secondary">Toestaan</button>' +
+      '<button type="button" class="button button-secondary">Weigeren</button></div>' +
+      '<p role="status"></p>';
+    var buttons = preferences.querySelectorAll('button');
+    var feedback = preferences.querySelector('[role="status"]');
+    var summary = preferences.querySelector('summary');
+
+    function applyChoice(value) {
+      analyticsAllowed = value === 'allow';
+      window[disableKey] = !analyticsAllowed;
+      feedback.textContent = analyticsAllowed ? 'Statistieken staan aan.' :
+        value === 'deny' ? 'Statistieken staan uit.' : '';
+      if (analyticsAllowed) startAnalytics();
+    }
+
+    function remember(value) {
+      try { window.localStorage.setItem(preferenceKey, value); } catch (error) { /* Honor the choice on this page. */ }
+      applyChoice(value);
+      preferences.open = false;
+      summary.focus();
+    }
+
+    preferences.open = choice !== 'allow' && choice !== 'deny';
+    buttons[0].addEventListener('click', function () { remember('allow'); });
+    buttons[1].addEventListener('click', function () { remember('deny'); });
+    window.addEventListener('storage', function (event) {
+      if (event.key === preferenceKey || event.key === null) applyChoice(event.newValue);
+    });
+    status.insertAdjacentElement('afterend', preferences);
+    applyChoice(choice);
+  }
+
   function track(eventName, extra) {
-    if (typeof window.gtag !== 'function') return;
+    if (!analyticsAllowed || typeof window.gtag !== 'function') return;
     window.gtag('event', eventName, Object.assign({
       coloring_slug: PAGE.slug,
       coloring_title: PAGE.title,
@@ -138,6 +220,6 @@
       });
     }
 
-    track('coloring_open');
+    setupAnalytics(document.getElementById('actionStatus'));
   });
 }());
