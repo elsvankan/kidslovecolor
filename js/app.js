@@ -33,6 +33,7 @@ let searchQuery     = '';
 let currentColoring = null;
 let selectedCountry = 'all';
 let gridHasExpanded = false;
+let shuffledCategoryItems = null;
 
 // Base URL map for canonical / schema
 const BASE_URL_MAP = {
@@ -626,6 +627,7 @@ function renderCategories() {
   nav.querySelectorAll('button.cat-btn').forEach(btn => {
     btn.addEventListener('click', () => {
       activeCategory = btn.dataset.cat;
+      shuffledCategoryItems = null;
       selectedCountry = 'all';
       gridHasExpanded = true;
       nav.querySelectorAll('.cat-btn').forEach(b => {
@@ -686,34 +688,41 @@ function renderCountryFilter() {
 // -------------------------------------------------------
 // GRID RENDER
 // -------------------------------------------------------
+function getGridColorings() {
+  const isNew = activeCategory === 'nieuw';
+  const newestFirst = activeCategory === 'all' || isNew;
+  if (!newestFirst && shuffledCategoryItems) return shuffledCategoryItems;
+
+  const items = COLORINGS.filter(item => item.category !== 'actualiteiten' && !item.hidden
+    && (newestFirst || itemMatchesCategory(item, activeCategory)));
+  if (newestFirst) {
+    items.sort((a, b) => b.id - a.id);
+    return isNew ? items.slice(0, 24) : items;
+  }
+
+  // Keep this order until the visitor selects a category again.
+  for (let index = items.length - 1; index > 0; index--) {
+    const other = Math.floor(Math.random() * (index + 1));
+    [items[index], items[other]] = [items[other], items[index]];
+  }
+  shuffledCategoryItems = items;
+  return items;
+}
+
 function renderGrid() {
   const grid    = document.getElementById('coloringGrid');
   const noRes   = document.getElementById('noResults');
   const counter = document.getElementById('resultCount');
   if (!grid) return;
 
-  const publicColorings = COLORINGS.filter(item => item.category !== 'actualiteiten' && !item.hidden);
-  const NEW_COUNT = 24;
-  const newestIds = activeCategory === 'nieuw'
-    ? new Set([...publicColorings].sort((a, b) => b.id - a.id).slice(0, NEW_COUNT).map(c => c.id))
-    : null;
-
-  const filtered = publicColorings.filter(item => {
-    const matchCat     = activeCategory === 'all' ? true
-                        : activeCategory === 'nieuw' ? newestIds.has(item.id)
-                        : itemMatchesCategory(item, activeCategory);
+  const filtered = getGridColorings().filter(item => {
     const matchCountry = activeCategory !== 'actualiteiten' || selectedCountry === 'all'
                         || item.country === selectedCountry;
     const ld          = item[currentLang] || item.nl;
     const searchIn    = (ld.title + ' ' + ld.keywords + ' ' + item.category).toLowerCase();
     const matchSearch = !searchQuery || searchIn.includes(searchQuery.toLowerCase());
-    return matchCat && matchCountry && matchSearch;
+    return matchCountry && matchSearch;
   });
-
-  // The homepage should always open with the most recently added pages first.
-  if (activeCategory === 'all' || activeCategory === 'nieuw') {
-    filtered.sort((a, b) => b.id - a.id);
-  }
 
   const isDefaultHomepage = isHomepagePreview();
   const gridItems = isDefaultHomepage ? filtered.slice(3) : filtered;
