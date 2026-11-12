@@ -250,9 +250,7 @@ const TRANSLATIONS = {
 // INIT
 // -------------------------------------------------------
 document.addEventListener('DOMContentLoaded', () => {
-  arrangeHomepageSections();
   initializeGridViewFromUrl();
-  renderLatestHeroColorings();
   renderCategories();
   renderCountryFilter();
   setupSearch();
@@ -260,13 +258,13 @@ document.addEventListener('DOMContentLoaded', () => {
   renderGrid();
   setupModal();
   setupScrollTop();
-  setupSupportSticky();
   setupColoringRequests();
   updateLangUI();
   setupMobileSearch();
   setupRandomEarthGlobe();
   hideEmptyAdBanners();
-  injectColoringPageSchema();   // structured data on page load
+  if (activeCategory === 'all') injectColoringPageSchema();
+  else updateSEO(activeCategory);
 
   // Restore URL from 404.html SPA redirect (for /kleurplaat/SLUG direct visits)
   const spaPendingPath = sessionStorage.getItem('spa_path');
@@ -294,68 +292,59 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // -------------------------------------------------------
-// LATEST COLORINGS IN THE HOMEPAGE HERO
+// HOMEPAGE CATEGORY PREVIEWS
 // -------------------------------------------------------
-function renderLatestHeroColorings() {
-  const heroImages = Array.from(document.querySelectorAll('.hero-art .hero-paper img'));
-  if (heroImages.length !== 3 || !Array.isArray(COLORINGS)) return;
-
-  const latest = [...COLORINGS]
-    .filter(item => item.category !== 'actualiteiten' && !item.hidden)
-    .sort((a, b) => b.id - a.id)
-    .slice(0, 3);
-
-  if (latest.length < 3) return;
-
-  // Keep the newest page in the prominent centre card.
-  const heroOrder = [latest[1], latest[0], latest[2]];
-
-  heroImages.forEach((image, index) => {
-    const item = heroOrder[index];
-    const localized = item[currentLang] || item.nl;
-    const fullImage = resolveImgPath(item.img);
-    const thumbnail = resolveThumbPath(item.img);
-
-    image.src = thumbnail;
-    image.srcset = `${thumbnail} 400w, ${fullImage} 1055w`;
-    image.sizes = index === 1 ? '288px' : '235px';
-    image.alt = localized.altText;
-    image.title = localized.title;
-
-    const paper = image.closest('.hero-paper');
-    if (!paper) return;
-    paper.dataset.coloringId = item.id;
-    paper.setAttribute('role', 'button');
-    paper.setAttribute('tabindex', '0');
-    paper.setAttribute('aria-label', t('free_coloring_page') + ': ' + localized.title);
-    paper.addEventListener('click', () => openModal(item.id, 'hero'));
-    paper.addEventListener('keydown', (event) => {
-      if (event.key === 'Enter' || event.key === ' ') {
-        event.preventDefault();
-        openModal(item.id, 'hero');
-      }
-    });
+function getHomepageCategoryPreviews(newestItems) {
+  return Object.entries(CATEGORIES).flatMap(([key, category]) => {
+    if (key === 'all' || key === 'nieuw' || key === 'actualiteiten') return [];
+    const item = newestItems.find(item => itemMatchesCategory(item, key));
+    if (!item) return [];
+    return [{
+      item,
+      label: (category[currentLang] || category.nl).label,
+      href: category.landingPaths?.[currentLang]
+        || (currentLang === 'nl' ? '/' : '/' + currentLang + '/') + '?cat=' + encodeURIComponent(key) + '#main',
+    }];
   });
 }
 
-// -------------------------------------------------------
-// HOMEPAGE FLOW
-// -------------------------------------------------------
-function arrangeHomepageSections() {
-  const howSection = document.querySelector('.how-section');
-  const supportSection = document.querySelector('.support-section');
-  const seoBlock = document.querySelector('.seo-text-block');
-  if (!supportSection || !seoBlock) return;
+function updateHomepageCategories(isHomepage, newestItems) {
+  const section = document.getElementById('categorieen');
+  if (!section) return;
+  section.hidden = !isHomepage;
+  const nav = document.querySelector('.category-nav');
+  if (nav) nav.hidden = isHomepage;
 
-  // Requests and the story should follow the compact gallery directly.
-  // Keep the how-to and SEO content, but place them afterwards.
-  if (howSection) supportSection.insertAdjacentElement('afterend', howSection);
-  (howSection || supportSection).insertAdjacentElement('afterend', seoBlock);
-  seoBlock.classList.add('homepage-seo-footer');
+  const grid = document.getElementById('homeCategoryGrid');
+  if (!isHomepage || !grid || grid.childElementCount) return;
+  for (const { item, label, href } of getHomepageCategoryPreviews(newestItems)) {
+    const link = document.createElement('a');
+    link.className = 'home-category-card';
+    link.href = href;
+
+    const heading = document.createElement('span');
+    heading.textContent = label;
+
+    const image = document.createElement('img');
+    const original = resolveImgPath(item.img);
+    const thumbnail = resolveThumbPath(item.img);
+    image.src = thumbnail;
+    image.alt = '';
+    image.width = 400;
+    image.height = 566;
+    image.loading = 'lazy';
+    image.decoding = 'async';
+    if (thumbnail !== original) {
+      image.addEventListener('error', () => { image.src = original; }, { once: true });
+    }
+
+    link.append(heading, image);
+    grid.append(link);
+  }
 }
 
 function getGridPageSize() {
-  return window.matchMedia('(max-width: 700px)').matches ? 6 : 9;
+  return window.matchMedia('(max-width: 700px)').matches ? 6 : 8;
 }
 
 function initializeGridViewFromUrl() {
@@ -418,7 +407,7 @@ function setupGalleryControls() {
   grid.insertAdjacentElement('afterend', actions);
 
   document.getElementById('loadMoreColorings')?.addEventListener('click', () => {
-    const firstNewIndex = getGridPageSize() + 3;
+    const firstNewIndex = getGridPageSize();
     gridHasExpanded = true;
     updateGridUrl();
     renderGrid();
@@ -725,13 +714,21 @@ function renderGrid() {
   });
 
   const isDefaultHomepage = isHomepagePreview();
-  const gridItems = isDefaultHomepage ? filtered.slice(3) : filtered;
-  const visibleItems = isDefaultHomepage ? gridItems.slice(0, getGridPageSize()) : gridItems;
+  const visibleItems = isDefaultHomepage ? filtered.slice(0, getGridPageSize()) : filtered;
+  grid.classList.toggle('home-latest-grid', isDefaultHomepage);
+  updateHomepageCategories(isDefaultHomepage, filtered);
+  const breadcrumb = document.getElementById('breadcrumbNav');
+  if (breadcrumb) breadcrumb.hidden = isDefaultHomepage;
+  const chooseCategory = document.getElementById('chooseCategory');
+  if (chooseCategory) chooseCategory.hidden = isDefaultHomepage;
+  const intro = document.getElementById('categoryIntro');
+  if (intro) intro.hidden = isDefaultHomepage;
   const heading = document.getElementById('sectionHeading');
   if (heading && isDefaultHomepage) heading.textContent = t('newly_added_heading');
   else if (heading && activeCategory === 'all') heading.textContent = t('section_heading');
 
   if (counter) {
+    counter.hidden = isDefaultHomepage;
     counter.textContent = t('result_count').replace('{n}', filtered.length);
   }
 
@@ -758,7 +755,7 @@ function renderGrid() {
   if (actions) actions.hidden = false;
   if (moreButton) {
     moreButton.textContent = t('load_more_new');
-    moreButton.hidden = !isDefaultHomepage || visibleItems.length >= gridItems.length;
+    moreButton.hidden = !isDefaultHomepage || visibleItems.length >= filtered.length;
   }
 
   // Attach card events
@@ -1148,30 +1145,6 @@ function setupScrollTop() {
     btn.classList.toggle('visible', window.scrollY > 400);
   }, { passive: true });
   btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
-}
-
-// -------------------------------------------------------
-// STICKY SUPPORT LINK
-// -------------------------------------------------------
-function setupSupportSticky() {
-  const link = document.querySelector('[data-support-sticky]');
-  const section = document.getElementById('steun-ons');
-  const requestSection = document.getElementById('kleurplaat-aanvragen');
-  if (!link || !section) return;
-
-  const update = () => {
-    const sectionTop = section.getBoundingClientRect().top;
-    const sectionVisible = sectionTop < window.innerHeight * 0.82;
-    const requestRect = requestSection?.getBoundingClientRect();
-    const requestVisible = requestRect
-      ? requestRect.top < window.innerHeight * 0.92 && requestRect.bottom > window.innerHeight * 0.08
-      : false;
-    link.classList.toggle('is-visible', window.scrollY > 520 && !sectionVisible && !requestVisible);
-  };
-
-  window.addEventListener('scroll', update, { passive: true });
-  window.addEventListener('resize', update);
-  update();
 }
 
 // -------------------------------------------------------

@@ -35,7 +35,7 @@ function renderDetail(page) {
   const imgPath = `/img/kleurplaten/${imgFile}`;
   const imgUrl = `${BASE_URL}/img/kleurplaten/${imgFile}`;
   const pageUrl = `${BASE_URL}/kleurplaat/${slug}`;
-  const themeKey = page.collections?.find(key => THEMES[key]) || Object.keys(THEMES).find(key => THEMES[key].category === category && THEMES[key].coloringSlugs?.includes(slug));
+  const themeKey = page.collections?.find(key => THEMES[key]) || Object.keys(THEMES).find(key => THEMES[key].category === category);
   const categoryName = themeKey ? THEMES[themeKey].copy.nl.label : categoryNames[category] || category;
   const categoryHref = themeKey ? THEMES[themeKey].paths.nl : `/?cat=${category}`;
   const difficultyName = difficultyNames[page.difficulty] || page.difficulty;

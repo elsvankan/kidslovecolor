@@ -7,7 +7,7 @@ const catalogSource = fs.readFileSync(new URL('../js/data.js', import.meta.url),
 const appSource = fs.readFileSync(new URL('../js/app.js', import.meta.url), 'utf8');
 
 function openGallery(category, randomValue) {
-  const grid = {innerHTML: '', querySelectorAll: () => []};
+  const grid = {innerHTML: '', classList: {toggle() {}}, querySelectorAll: () => []};
   let selectCategory;
   const button = {
     dataset: {cat: category},
@@ -62,4 +62,20 @@ test('Nieuw still shows the 24 newest public coloring pages', () => {
   ));
   assert.equal(gallery.ids().length, 24);
   assert.deepEqual(gallery.ids(), expected);
+});
+
+test('The homepage shows the real newest items and previews the newest visible member of each category', () => {
+  const gallery = openGallery('all', 0);
+  gallery.run('gridHasExpanded = false; renderGrid();');
+  const expected = Array.from(gallery.run('getGridColorings().slice(0, 8).map(item => item.id)'));
+  assert.deepEqual(gallery.ids(), expected);
+
+  const cards = JSON.parse(gallery.run('JSON.stringify(getHomepageCategoryPreviews(getGridColorings()))'));
+  const princesses = cards.find(({href}) => href === '/prinsessen');
+  const latestPrincess = gallery.run("getGridColorings().find(item => item.category === 'prinsessen').id");
+  assert.equal(princesses.item.id, latestPrincess);
+  const surprise = cards.find(({href}) => href.includes('cat=surprise_minipoppen'));
+  const latestDoll = gallery.run("getGridColorings().find(item => item.collections?.includes('surprise_minipoppen')).id");
+  assert.equal(surprise.item.id, latestDoll);
+  assert.ok(cards.every(({item}) => !item.hidden && item.category !== 'actualiteiten'));
 });

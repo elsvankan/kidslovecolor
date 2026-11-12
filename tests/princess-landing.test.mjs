@@ -10,42 +10,33 @@ const root = new URL('../', import.meta.url);
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(new URL('js/data.js', root), 'utf8') + '\nthis.catalog = {categories: CATEGORIES, colorings: COLORINGS};', context);
 const theme = THEMES.prinsessen;
-const colorings = context.catalog.colorings;
+const {categories, colorings} = context.catalog;
 
-test('Princess pilot is a static curated landing with all existing gallery records preserved', () => {
+test('Princess landing lists all and only public princess coloring pages', () => {
   const html = renderTheme('prinsessen', theme, 'nl', colorings);
   const schema = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
   const list = schema['@graph'].find(entry => entry['@type'] === 'ItemList');
-  assert.equal(list.numberOfItems, 4);
-  assert.equal(colorings.filter(entry => entry.category === 'prinsessen').length, 22);
-  assert.ok(colorings.length >= 696, 'The pilot must allow the coloring catalog to grow');
-  assert.ok(html.includes('href="/?cat=prinsessen"'));
-  assert.ok(html.includes('href="https://www.kidslovecolor.com/prinsessen"'));
-  assert.ok(html.includes(theme.copy.nl.heading));
-  assert.ok(!html.includes('voor meisjes'));
-  assert.ok(!context.catalog.categories.prinsessen.landingPaths);
-  for (const slug of theme.coloringSlugs) {
-    assert.ok(html.includes(`/kleurplaat/${slug}`));
-    const detail = fs.readFileSync(new URL(`kleurplaat/${slug}/index.html`, root), 'utf8');
+  const expected = colorings.filter(entry => entry.category === 'prinsessen' && !entry.hidden);
+  assert.ok(expected.length > 4);
+  assert.equal(list.numberOfItems, expected.length);
+  assert.deepEqual(list.itemListElement.map(entry => entry.url), Array.from(expected, ({slug}) => 'https://www.kidslovecolor.com/kleurplaat/' + slug));
+  for (const {slug} of expected) {
+    assert.ok(html.includes('href="/kleurplaat/' + slug + '"'));
+    const detail = fs.readFileSync(new URL('kleurplaat/' + slug + '/index.html', root), 'utf8');
     assert.ok(detail.includes('id="detailPdf"'));
-    assert.ok(detail.includes('href="/prinsessen"'));
-    assert.ok(detail.includes(`href="https://www.kidslovecolor.com/kleurplaat/${slug}"`));
+  }
+
+  const original = expected[0];
+  for (const entry of [{ ...original, hidden: true }, { ...original, category: 'actualiteiten' }, { ...original, category: 'dieren' }]) {
+    assert.throws(() => renderTheme('prinsessen', theme, 'nl', [entry]), /no published coloring records/);
   }
 });
 
-test('Curated landing does not accidentally promote hidden, news or other-category records', () => {
-  const original = colorings.find(entry => entry.slug === theme.coloringSlugs[0]);
-  assert.throws(() => renderTheme('prinsessen', theme, 'nl', [{ ...original, hidden: true }]), /no published coloring records/);
-  assert.throws(() => renderTheme('prinsessen', theme, 'nl', [{ ...original, category: 'actualiteiten' }]), /no published coloring records/);
-  assert.throws(() => renderTheme('prinsessen', theme, 'nl', [{ ...original, category: 'dieren' }]), /no published coloring records/);
-  const html = renderTheme('prinsessen', theme, 'nl', colorings);
-  assert.ok(!html.includes('/kleurplaat/princess-sleeping-in-a-castle-tower'));
-});
-
-test('Princess pilot is discoverable without changing the full gallery canonical or adding tracking', () => {
-  assert.ok(fs.readFileSync(new URL('index.html', root), 'utf8').includes('href="/prinsessen"'));
+test('The full princess collection has a stable Dutch URL and returns to the category cards', () => {
+  assert.equal(categories.prinsessen.landingPaths.nl, '/prinsessen');
   assert.ok(fs.readFileSync(new URL('sitemap.xml', root), 'utf8').includes('<loc>https://www.kidslovecolor.com/prinsessen</loc>'));
   const html = renderTheme('prinsessen', theme, 'nl', colorings);
+  assert.ok(html.includes('href="https://www.kidslovecolor.com/prinsessen"'));
+  assert.ok(html.includes('href="/#categorieen"'));
   assert.ok(!html.includes('googletagmanager.com'));
-  assert.deepEqual(Object.keys(theme.paths), ['nl']);
 });
