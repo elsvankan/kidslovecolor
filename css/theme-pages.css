@@ -47,7 +47,7 @@ main { width:min(1120px,calc(100% - 32px)); margin:24px auto 60px; }
 .theme-guides { display:grid; grid-template-columns:1fr 1fr; gap:24px; margin:64px 0; }
 .theme-guides section { padding:28px; border-radius:20px; background:var(--lavender); }
 .theme-guides section:nth-child(2) { background:var(--blush); }
-.theme-guides ol { margin:0; padding-left:20px; }
+.theme-guides ul { margin:0; padding-left:20px; }
 .theme-guides li { padding:0 0 10px 8px; }
 .theme-faq details { border-top:1px solid var(--line); padding:16px 0; }
 .theme-faq details:last-child { border-bottom:1px solid var(--line); }

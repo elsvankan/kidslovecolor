@@ -38,5 +38,7 @@ test('The full princess collection has a stable Dutch URL and returns to the cat
   const html = renderTheme('prinsessen', theme, 'nl', colorings);
   assert.ok(html.includes('href="https://www.kidslovecolor.com/prinsessen"'));
   assert.ok(html.includes('href="/#categorieen"'));
+  assert.ok(html.includes('Maak er jouw eigen sprookje van'));
+  assert.ok(!html.includes('Hoe download ik een prinsessen kleurplaat als PDF?'));
   assert.ok(!html.includes('googletagmanager.com'));
 });

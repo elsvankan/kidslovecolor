@@ -42,6 +42,7 @@ function renderTheme(key, theme, language, colorings) {
   const packCopy = theme.downloadPack?.copy[language];
   const stylesheet = packCopy ? '/css/theme-pages.css?v=dinosaur-pack-v1' : '/css/theme-pages.css';
   const pack = packCopy ? `<section class="theme-pack" aria-labelledby="pack-heading"><div><h2 id="pack-heading">${escapeHtml(packCopy.heading)}</h2><p>${escapeHtml(packCopy.description)}</p><p class="theme-pack-format">${escapeHtml(packCopy.format)}</p></div><a class="theme-button" href="${escapeHtml(theme.downloadPack.url)}" download="${escapeHtml(path.basename(theme.downloadPack.url))}" type="application/pdf">${escapeHtml(packCopy.button)}</a></section>` : '';
+  const guides = copy.steps ? `<div class="theme-guides"><section><h2>${escapeHtml(copy.guide)}</h2><ul>${copy.steps.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></section><section><h2>${escapeHtml(copy.learn)}</h2><p>${escapeHtml(copy.learnText)}</p></section></div>` : '';
   const schema = {
     '@context': 'https://schema.org', '@graph': [
       { '@type': 'CollectionPage', '@id': url, url, name: copy.title, description: copy.description, inLanguage: language, mainEntity: { '@id': url + '#colorings' } },
@@ -80,8 +81,7 @@ function renderTheme(key, theme, language, colorings) {
       <figure class="theme-hero-paper"><img src="${escapeHtml(heroImage)}" alt="${escapeHtml((heroItem[language] || heroItem.nl).altText)}" width="1055" height="1491" fetchpriority="high"/></figure>
     </section>
     ${pack ? `${pack}\n    ` : ''}<section id="colorings" aria-labelledby="gallery-heading"><p class="theme-eyebrow">${pages.length} · ${escapeHtml(copy.label)}</p><h2 id="gallery-heading">${escapeHtml(copy.gallery)}</h2><div class="theme-grid">${cards}</div></section>
-    <div class="theme-guides"><section><h2>${escapeHtml(copy.guide)}</h2><ol>${copy.steps.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ol></section><section><h2>${escapeHtml(copy.learn)}</h2><p>${escapeHtml(copy.learnText)}</p></section></div>
-    <section class="theme-faq" aria-labelledby="faq-heading"><h2 id="faq-heading">${escapeHtml(copy.questions)}</h2>${copy.faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join('')}</section>
+    ${guides ? `${guides}\n    ` : ''}<section class="theme-faq" aria-labelledby="faq-heading"><h2 id="faq-heading">${escapeHtml(copy.questions)}</h2>${copy.faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join('')}</section>
     <nav class="theme-related" aria-label="${escapeHtml(copy.related)}"><h2>${escapeHtml(copy.related)}</h2><a href="${home}?cat=dieren">${escapeHtml(copy.animals)}</a><a href="${home}?cat=natuur">${escapeHtml(copy.nature)}</a><a href="${home}?cat=ruimte">${escapeHtml(copy.space)}</a><a href="/vandaag-op-aarde/">${escapeHtml(copy.story)}</a></nav>
   </main>
   <footer class="theme-footer"><p>${escapeHtml(copy.footer)}</p><a href="${gallery}">${escapeHtml(copy.all)}</a></footer>
