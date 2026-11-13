@@ -4059,5 +4059,166 @@
     "fr": "Un maître voilier dans son atelier du port",
     "es": "Un artesano de velas en el puerto",
     "zh": "港口工坊里的船帆匠"
+  },
+  "letters--easy--letter-b-bever.jpg": {
+    "nl": "Letter B met bever",
+    "en": "Letter B with beaver",
+    "fr": "Lettre B avec castor",
+    "es": "Letra B con castor",
+    "zh": "字母 B 和河狸"
+  },
+  "letters--easy--letter-c-kameleon.jpg": {
+    "nl": "Letter C met kameleon",
+    "en": "Letter C with chameleon",
+    "fr": "Lettre C avec caméléon",
+    "es": "Letra C con camaleón",
+    "zh": "字母 C 和变色龙"
+  },
+  "letters--easy--letter-d-dinosaurus.jpg": {
+    "nl": "Letter D met dinosaurus",
+    "en": "Letter D with dinosaur",
+    "fr": "Lettre D avec dinosaure",
+    "es": "Letra D con dinosaurio",
+    "zh": "字母 D 和恐龙"
+  },
+  "letters--easy--letter-e-eekhoorn.jpg": {
+    "nl": "Letter E met eekhoorn",
+    "en": "Letter E with squirrel",
+    "fr": "Lettre E avec écureuil",
+    "es": "Letra E con ardilla",
+    "zh": "字母 E 和松鼠"
+  },
+  "letters--easy--letter-f-fiets.jpg": {
+    "nl": "Letter F met fiets",
+    "en": "Letter F with bicycle",
+    "fr": "Lettre F avec vélo",
+    "es": "Letra F con bicicleta",
+    "zh": "字母 F 和自行车"
+  },
+  "letters--easy--letter-g-gekko.jpg": {
+    "nl": "Letter G met gekko",
+    "en": "Letter G with gecko",
+    "fr": "Lettre G avec gecko",
+    "es": "Letra G con geco",
+    "zh": "字母 G 和壁虎"
+  },
+  "letters--easy--letter-h-hond.jpg": {
+    "nl": "Letter H met hond",
+    "en": "Letter H with dog",
+    "fr": "Lettre H avec chien",
+    "es": "Letra H con perro",
+    "zh": "字母 H 和小狗"
+  },
+  "letters--easy--letter-i-iglo.jpg": {
+    "nl": "Letter I met iglo",
+    "en": "Letter I with igloo",
+    "fr": "Lettre I avec igloo",
+    "es": "Letra I con iglú",
+    "zh": "字母 I 和雪屋"
+  },
+  "letters--easy--letter-j-step.jpg": {
+    "nl": "Letter J met kind op een step",
+    "en": "Letter J with child on a scooter",
+    "fr": "Lettre J avec enfant en trottinette",
+    "es": "Letra J con niño en patinete",
+    "zh": "字母 J 和滑滑板车的孩子"
+  },
+  "letters--easy--letter-k-vlieger.jpg": {
+    "nl": "Letter K met vlieger",
+    "en": "Letter K with kite",
+    "fr": "Lettre K avec cerf-volant",
+    "es": "Letra K con cometa",
+    "zh": "字母 K 和风筝"
+  },
+  "letters--easy--letter-l-draak-met-lampion.jpg": {
+    "nl": "Letter L met draak met een lampion",
+    "en": "Letter L with dragon with a lantern",
+    "fr": "Lettre L avec dragon et sa lanterne",
+    "es": "Letra L con dragón con un farol",
+    "zh": "字母 L 和提灯的小龙"
+  },
+  "letters--easy--letter-m-molen.jpg": {
+    "nl": "Letter M met windmolen",
+    "en": "Letter M with windmill",
+    "fr": "Lettre M avec moulin à vent",
+    "es": "Letra M con molino de viento",
+    "zh": "字母 M 和风车"
+  },
+  "letters--easy--letter-n-neushoorn.jpg": {
+    "nl": "Letter N met jonge neushoorn",
+    "en": "Letter N with young rhinoceros",
+    "fr": "Lettre N avec jeune rhinocéros",
+    "es": "Letra N con rinoceronte joven",
+    "zh": "字母 N 和小犀牛"
+  },
+  "letters--easy--letter-o-uil.jpg": {
+    "nl": "Letter O met uil",
+    "en": "Letter O with owl",
+    "fr": "Lettre O avec hibou",
+    "es": "Letra O con búho",
+    "zh": "字母 O 和猫头鹰"
+  },
+  "letters--easy--letter-r-robot.jpg": {
+    "nl": "Letter R met robot",
+    "en": "Letter R with robot",
+    "fr": "Lettre R avec robot",
+    "es": "Letra R con robot",
+    "zh": "字母 R 和机器人"
+  },
+  "letters--easy--letter-s-zeilboot.jpg": {
+    "nl": "Letter S met zeilboot",
+    "en": "Letter S with sailboat",
+    "fr": "Lettre S avec voilier",
+    "es": "Letra S con velero",
+    "zh": "字母 S 和帆船"
+  },
+  "letters--easy--letter-t-stoomtrein.jpg": {
+    "nl": "Letter T met stoomtrein",
+    "en": "Letter T with steam train",
+    "fr": "Lettre T avec train à vapeur",
+    "es": "Letra T con tren de vapor",
+    "zh": "字母 T 和蒸汽火车"
+  },
+  "letters--easy--letter-u-onderzeeer.jpg": {
+    "nl": "Letter U met onderzeeër",
+    "en": "Letter U with submarine",
+    "fr": "Lettre U avec sous-marin",
+    "es": "Letra U con submarino",
+    "zh": "字母 U 和潜水艇"
+  },
+  "letters--easy--letter-v-vos.jpg": {
+    "nl": "Letter V met vos",
+    "en": "Letter V with fox",
+    "fr": "Lettre V avec renard",
+    "es": "Letra V con zorro",
+    "zh": "字母 V 和狐狸"
+  },
+  "letters--easy--letter-w-walvis.jpg": {
+    "nl": "Letter W met walviskalf",
+    "en": "Letter W with whale calf",
+    "fr": "Lettre W avec baleineau",
+    "es": "Letra W con cría de ballena",
+    "zh": "字母 W 和小鲸鱼"
+  },
+  "letters--easy--letter-x-xylofoon.jpg": {
+    "nl": "Letter X met xylofoon",
+    "en": "Letter X with xylophone",
+    "fr": "Lettre X avec xylophone",
+    "es": "Letra X con xilófono",
+    "zh": "字母 X 和木琴"
+  },
+  "letters--easy--letter-y-jak.jpg": {
+    "nl": "Letter Y met jonge jak",
+    "en": "Letter Y with young yak",
+    "fr": "Lettre Y avec jeune yak",
+    "es": "Letra Y con yak joven",
+    "zh": "字母 Y 和小牦牛"
+  },
+  "letters--easy--letter-z-zebra.jpg": {
+    "nl": "Letter Z met zebraveulen",
+    "en": "Letter Z with zebra foal",
+    "fr": "Lettre Z avec poulain zèbre",
+    "es": "Letra Z con cría de cebra",
+    "zh": "字母 Z 和小斑马"
   }
 }
