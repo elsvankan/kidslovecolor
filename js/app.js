@@ -105,7 +105,7 @@ const TRANSLATIONS = {
     load_more_new:            'Meer nieuwe kleurplaten bekijken',
     load_more_results:        'Meer resultaten bekijken',
     choose_category:          'Kies een categorie',
-    letter_styles: ['Letterthema', 'Klassiek A–Z', 'Surprise Mini Poppen A–Z', 'Dino'],
+    letter_styles: ['Letterthema', 'Klassiek A–Z', 'Surprise Mini Poppen A–Z', 'Dino A–Z'],
   },
   en: {
     all_pages:          'All coloring pages',
@@ -141,7 +141,7 @@ const TRANSLATIONS = {
     load_more_new:            'View more new coloring pages',
     load_more_results:        'View more results',
     choose_category:          'Choose a category',
-    letter_styles: ['Letter theme', 'Classic A–Z', 'Surprise Mini Dolls A–Z', 'Dinosaur'],
+    letter_styles: ['Letter theme', 'Classic A–Z', 'Surprise Mini Dolls A–Z', 'Dinosaurs A–Z'],
   },
   fr: {
     all_pages:          'Toutes les pages à colorier',
@@ -177,7 +177,7 @@ const TRANSLATIONS = {
     load_more_new:            'Voir plus de nouveaux coloriages',
     load_more_results:        'Voir plus de résultats',
     choose_category:          'Choisir une catégorie',
-    letter_styles: ['Thème des lettres', 'Classique A–Z', 'Mini-poupées surprise A–Z', 'Dinosaure'],
+    letter_styles: ['Thème des lettres', 'Classique A–Z', 'Mini-poupées surprise A–Z', 'Dinosaures A–Z'],
   },
   es: {
     all_pages:          'Todas las páginas para colorear',
@@ -213,7 +213,7 @@ const TRANSLATIONS = {
     load_more_new:            'Ver más dibujos nuevos',
     load_more_results:        'Ver más resultados',
     choose_category:          'Elegir una categoría',
-    letter_styles: ['Tema de las letras', 'Clásicas A–Z', 'Minimuñecas sorpresa A–Z', 'Dinosaurio'],
+    letter_styles: ['Tema de las letras', 'Clásicas A–Z', 'Minimuñecas sorpresa A–Z', 'Dinosaurios A–Z'],
   },
   zh: {
     all_pages:          '所有涂色页',
@@ -249,7 +249,7 @@ const TRANSLATIONS = {
     load_more_new:            '查看更多新涂色页',
     load_more_results:        '查看更多结果',
     choose_category:          '选择类别',
-    letter_styles: ['字母主题', '经典 A–Z', '惊喜迷你玩偶 A–Z', '恐龙'],
+    letter_styles: ['字母主题', '经典 A–Z', '惊喜迷你玩偶 A–Z', '恐龙 A–Z'],
   },
 };
 
@@ -397,11 +397,8 @@ function updateGridUrl() {
 function itemMatchesCategory(item, category) {
   if (!category || category === 'all') return true;
   if (category === 'nieuw') return false;
-  const categoryData = CATEGORIES[category];
-  if (categoryData?.collection) {
-    return Array.isArray(item.collections) && item.collections.includes(category);
-  }
-  return item.category === category;
+  return item.category === category
+    || (Array.isArray(item.collections) && item.collections.includes(category));
 }
 
 function setupGalleryControls() {

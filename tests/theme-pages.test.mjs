@@ -23,6 +23,8 @@ for (const language of Object.keys(theme.paths)) {
     assert.ok(html.includes(`<link rel="canonical" href="https://www.kidslovecolor.com${theme.paths[language]}"`));
     assert.ok(html.includes(theme.copy[language].heading));
     assert.ok(!html.includes('class="theme-guides"'));
+    const alphabetPath = (language === 'nl' ? '/' : `/${language}/`) + '?cat=letters&amp;stijl=dino#main';
+    assert.ok(html.includes(`href="${alphabetPath}"`));
     for (const route of Object.values(theme.paths)) assert.ok(html.includes(`href="https://www.kidslovecolor.com${route}"`));
     const schema = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
     const list = schema['@graph'].find(item => item['@type'] === 'ItemList');

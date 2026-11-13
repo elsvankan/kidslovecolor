@@ -94,8 +94,20 @@ test('Letter themes have their own alphabet order and the classic view remains t
   const dolls = openGallery('letters', 0, 'surprise');
   assert.deepEqual(Array.from(dolls.run('getGridColorings().map(item => item.letter)')), [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']);
   const dinosaur = openGallery('letters', 0, 'dino');
-  assert.deepEqual(Array.from(dinosaur.run('getGridColorings().map(item => item.slug)')), ['letter-t-triceratops']);
+  assert.deepEqual(Array.from(dinosaur.run('getGridColorings().map(item => item.letter)')), [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']);
   const unknown = openGallery('letters', 0, 'other');
   assert.deepEqual(unknown.ids(), openGallery('letters', 0).ids());
   assert.deepEqual(openGallery('kawaii', 0, 'dino').ids(), openGallery('kawaii', 0).ids());
+});
+
+test('A category includes its primary records and explicitly tagged records once each', () => {
+  const gallery = openGallery('stoere_detailwerelden', 0.5);
+  const expected = Array.from(gallery.run(`
+    COLORINGS.filter(item => !item.hidden && item.category !== 'actualiteiten'
+      && (item.category === 'stoere_detailwerelden' || item.collections?.includes('stoere_detailwerelden')))
+      .map(item => item.id)
+  `));
+  assert.deepEqual(new Set(gallery.ids()), new Set(expected));
+  assert.equal(gallery.ids().length, expected.length);
+  assert.ok(gallery.run("getGridColorings().some(item => item.slug === 'bicycle-repair-workshop')"));
 });

@@ -15,6 +15,12 @@ function renderTheme(key, theme, language, colorings) {
   const copy = theme.copy[language];
   const home = language === 'nl' ? '/' : `/${language}/`;
   const gallery = theme.galleryPaths?.[language] || home;
+  const letterCollectionLabel = theme.letterCollectionLabels?.[language];
+  const letterCollection = letterCollectionLabel
+    && colorings.filter(item => item.category === 'letters' && item.letterStyle === 'dino' && !item.hidden);
+  const alphabetLink = letterCollection && [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'].every(letter => letterCollection.some(item => item.letter === letter))
+    ? `<a href="${home}?cat=letters&amp;stijl=dino#main">${escapeHtml(letterCollectionLabel)}</a>`
+    : '';
   const url = baseUrl + theme.paths[language];
   const pages = colorings.filter(item => {
     const matchesTheme = theme.category ? item.category === theme.category : item.collections?.includes(key);
@@ -78,7 +84,7 @@ function renderTheme(key, theme, language, colorings) {
   <main id="main">
     <nav class="theme-breadcrumbs" aria-label="Breadcrumb"><a href="${home}">KidsLoveColor</a><span aria-hidden="true"> / </span>${escapeHtml(copy.label)}</nav>
     <section class="theme-hero" aria-labelledby="theme-heading">
-      <div><p class="theme-eyebrow">${escapeHtml(copy.eyebrow)}</p><h1 id="theme-heading">${escapeHtml(copy.heading)}</h1><p class="theme-hero-line">${escapeHtml(copy.hero)}</p><p>${escapeHtml(copy.intro)}</p><div class="theme-actions"><a class="theme-button" href="#colorings">${escapeHtml(copy.choose)}</a><a href="${gallery}">${escapeHtml(copy.all)} →</a></div><ul class="theme-promises">${copy.promise.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></div>
+      <div><p class="theme-eyebrow">${escapeHtml(copy.eyebrow)}</p><h1 id="theme-heading">${escapeHtml(copy.heading)}</h1><p class="theme-hero-line">${escapeHtml(copy.hero)}</p><p>${escapeHtml(copy.intro)}</p><div class="theme-actions"><a class="theme-button" href="#colorings">${escapeHtml(copy.choose)}</a><a href="${gallery}">${escapeHtml(copy.all)} →</a>${alphabetLink}</div><ul class="theme-promises">${copy.promise.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></div>
       <figure class="theme-hero-paper"><img src="${escapeHtml(heroImage)}" alt="${escapeHtml((heroItem[language] || heroItem.nl).altText)}" width="1055" height="1491" fetchpriority="high"/></figure>
     </section>
     ${pack ? `${pack}\n    ` : ''}<section id="colorings" aria-labelledby="gallery-heading"><p class="theme-eyebrow">${pages.length} · ${escapeHtml(copy.label)}</p><h2 id="gallery-heading">${escapeHtml(copy.gallery)}</h2><div class="theme-grid">${cards}</div></section>
