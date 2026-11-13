@@ -34,6 +34,8 @@ let currentColoring = null;
 let selectedCountry = 'all';
 let gridHasExpanded = false;
 let shuffledCategoryItems = null;
+let letterStyle = '';
+const letterStyles = ['', 'surprise', 'dino'];
 
 // Base URL map for canonical / schema
 const BASE_URL_MAP = {
@@ -103,6 +105,7 @@ const TRANSLATIONS = {
     load_more_new:            'Meer nieuwe kleurplaten bekijken',
     load_more_results:        'Meer resultaten bekijken',
     choose_category:          'Kies een categorie',
+    letter_styles: ['Letterthema', 'Klassiek A–Z', 'Surprise Mini Poppen A–Z', 'Dino'],
   },
   en: {
     all_pages:          'All coloring pages',
@@ -138,6 +141,7 @@ const TRANSLATIONS = {
     load_more_new:            'View more new coloring pages',
     load_more_results:        'View more results',
     choose_category:          'Choose a category',
+    letter_styles: ['Letter theme', 'Classic A–Z', 'Surprise Mini Dolls A–Z', 'Dinosaur'],
   },
   fr: {
     all_pages:          'Toutes les pages à colorier',
@@ -173,6 +177,7 @@ const TRANSLATIONS = {
     load_more_new:            'Voir plus de nouveaux coloriages',
     load_more_results:        'Voir plus de résultats',
     choose_category:          'Choisir une catégorie',
+    letter_styles: ['Thème des lettres', 'Classique A–Z', 'Mini-poupées surprise A–Z', 'Dinosaure'],
   },
   es: {
     all_pages:          'Todas las páginas para colorear',
@@ -208,6 +213,7 @@ const TRANSLATIONS = {
     load_more_new:            'Ver más dibujos nuevos',
     load_more_results:        'Ver más resultados',
     choose_category:          'Elegir una categoría',
+    letter_styles: ['Tema de las letras', 'Clásicas A–Z', 'Minimuñecas sorpresa A–Z', 'Dinosaurio'],
   },
   zh: {
     all_pages:          '所有涂色页',
@@ -243,6 +249,7 @@ const TRANSLATIONS = {
     load_more_new:            '查看更多新涂色页',
     load_more_results:        '查看更多结果',
     choose_category:          '选择类别',
+    letter_styles: ['字母主题', '经典 A–Z', '惊喜迷你玩偶 A–Z', '恐龙'],
   },
 };
 
@@ -303,7 +310,8 @@ function getHomepageCategoryPreviews(newestItems) {
       item,
       label: (category[currentLang] || category.nl).label,
       href: category.landingPaths?.[currentLang]
-        || (currentLang === 'nl' ? '/' : '/' + currentLang + '/') + '?cat=' + encodeURIComponent(key) + '#main',
+        || (currentLang === 'nl' ? '/' : '/' + currentLang + '/') + '?cat=' + encodeURIComponent(key)
+          + (key === 'letters' && item.letterStyle ? '&stijl=' + encodeURIComponent(item.letterStyle) : '') + '#main',
     }];
   });
 }
@@ -351,10 +359,12 @@ function initializeGridViewFromUrl() {
   const params = new URLSearchParams(window.location.search);
   const category = params.get('cat');
   const query = params.get('q');
+  const style = params.get('stijl');
 
   if (category && CATEGORIES[category] && category !== 'actualiteiten') {
     activeCategory = category;
   }
+  if (activeCategory === 'letters' && letterStyles.includes(style)) letterStyle = style;
   if (query) searchQuery = query.trim();
 
   // A direct browse/category/search URL is an overview, not the compact home preview.
@@ -373,6 +383,7 @@ function isHomepagePreview() {
 function updateGridUrl() {
   const params = new URLSearchParams();
   if (activeCategory !== 'all') params.set('cat', activeCategory);
+  if (activeCategory === 'letters' && letterStyle) params.set('stijl', letterStyle);
   if (searchQuery) params.set('q', searchQuery);
   if (activeCategory === 'all' && !searchQuery && gridHasExpanded) params.set('view', 'all');
   const query = params.toString();
@@ -522,7 +533,7 @@ function injectColoringPageSchema(cat) {
   const existing = document.getElementById('coloringSchemaScript');
   if (existing) existing.remove();
 
-  const items = COLORINGS.filter(item =>
+  const items = cat === 'letters' ? getGridColorings() : COLORINGS.filter(item =>
     item.category !== 'actualiteiten'
     && !item.hidden
     && itemMatchesCategory(item, cat)
@@ -615,6 +626,7 @@ function renderCategories() {
 
   nav.querySelectorAll('button.cat-btn').forEach(btn => {
     btn.addEventListener('click', () => {
+      if (activeCategory !== btn.dataset.cat) letterStyle = '';
       activeCategory = btn.dataset.cat;
       shuffledCategoryItems = null;
       selectedCountry = 'all';
@@ -691,7 +703,7 @@ function getGridColorings() {
   }
 
   if (alphabet) {
-    return items.sort((a, b) => {
+    return items.filter(item => (item.letterStyle || '') === letterStyle).sort((a, b) => {
       const first = a.letter || 'ZZ';
       const second = b.letter || 'ZZ';
       return first.localeCompare(second, 'en') || b.id - a.id;
@@ -707,11 +719,27 @@ function getGridColorings() {
   return items;
 }
 
+function updateLetterStyles() {
+  const controls = document.getElementById('letterStyles');
+  if (!controls) return;
+  controls.hidden = activeCategory !== 'letters';
+  if (controls.hidden) return;
+
+  const [label, ...options] = t('letter_styles');
+  controls.setAttribute('aria-label', label);
+  controls.innerHTML = letterStyles.map((style, index) => {
+    const url = '?cat=letters' + (style ? '&amp;stijl=' + style : '') + '#main';
+    const current = style === letterStyle ? ' aria-current="page"' : '';
+    return `<a class="cat-btn" href="${url}"${current}>${options[index]}</a>`;
+  }).join('');
+}
+
 function renderGrid() {
   const grid    = document.getElementById('coloringGrid');
   const noRes   = document.getElementById('noResults');
   const counter = document.getElementById('resultCount');
   if (!grid) return;
+  updateLetterStyles();
 
   const filtered = getGridColorings().filter(item => {
     const matchCountry = activeCategory !== 'actualiteiten' || selectedCountry === 'all'

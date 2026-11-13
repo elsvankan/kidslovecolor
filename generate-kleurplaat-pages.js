@@ -58,7 +58,8 @@ function renderDetail(page, language = 'nl') {
   const pageUrl = BASE_URL + coloringDetailPath(slug, language);
   const themeKey = page.collections?.find(key => THEMES[key]) || Object.keys(THEMES).find(key => THEMES[key].category === category);
   const categoryName = themeKey ? THEMES[themeKey].copy[language].label : categoryNames[category] || category;
-  const categoryHref = themeKey ? THEMES[themeKey].paths[language] : `/?cat=${category}`;
+  const letterStyle = category === 'letters' && ['surprise', 'dino'].includes(page.letterStyle) ? page.letterStyle : '';
+  const categoryHref = themeKey ? THEMES[themeKey].paths[language] : `/?cat=${category}${letterStyle ? '&stijl=' + letterStyle + '#main' : ''}`;
   const difficultyName = (chinese ? chineseDifficulty : difficultyNames)[page.difficulty] || page.difficulty;
   const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: content.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${slug}-kidslovecolor.pdf`, ...(chinese ? { language: htmlLang } : {}) }).replace(/</g, '\\u003c');
   const breadcrumb = JSON.stringify({
@@ -175,12 +176,12 @@ function renderDetail(page, language = 'nl') {
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="${home}" aria-label="${chinese ? 'KidsLoveColor 首页' : 'KidsLoveColor home'}"><img src="/img/logo.svg" alt="KidsLoveColor"/></a>
-      <a class="back-link" href="${categoryHref}">${chinese ? '更多恐龙涂色页' : `Bekijk meer ${categoryName.toLowerCase()} kleurplaten`}</a>
+      <a class="back-link" href="${escapeHtml(categoryHref)}">${chinese ? '更多恐龙涂色页' : `Bekijk meer ${categoryName.toLowerCase()} kleurplaten`}</a>
     </div>
   </header>
   <main>
     <nav class="breadcrumbs" aria-label="${chinese ? '页面路径' : 'Broodkruimel'}">
-      <a href="${home}">${homeLabel}</a> · <a href="${categoryHref}">${categoryName}</a> · ${escapeHtml(title)}${languageLink ? ` · ${languageLink}` : ''}
+      <a href="${home}">${homeLabel}</a> · <a href="${escapeHtml(categoryHref)}">${categoryName}</a> · ${escapeHtml(title)}${languageLink ? ` · ${languageLink}` : ''}
     </nav>
     <article class="page-grid">
       <figure class="coloring-card">

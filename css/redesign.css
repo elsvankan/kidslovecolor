@@ -711,6 +711,23 @@ h4 {
   }
 }
 
+.letter-styles[hidden] {
+  display: none;
+}
+
+.letter-styles {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 0 0 24px;
+}
+
+.letter-styles .cat-btn[aria-current="page"] {
+  background: var(--klc-raspberry);
+  border-color: var(--klc-raspberry);
+  color: var(--klc-white);
+}
+
 .home-categories {
   border-top: 1px solid var(--klc-line);
   margin-top: clamp(34px, 6vw, 76px);

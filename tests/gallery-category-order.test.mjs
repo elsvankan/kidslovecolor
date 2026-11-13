@@ -6,7 +6,7 @@ import test from 'node:test';
 const catalogSource = fs.readFileSync(new URL('../js/data.js', import.meta.url), 'utf8');
 const appSource = fs.readFileSync(new URL('../js/app.js', import.meta.url), 'utf8');
 
-function openGallery(category, randomValue) {
+function openGallery(category, randomValue, style = '') {
   const grid = {innerHTML: '', classList: {toggle() {}}, querySelectorAll: () => []};
   let selectCategory;
   const button = {
@@ -19,7 +19,7 @@ function openGallery(category, randomValue) {
   const context = vm.createContext({
     URLSearchParams,
     Math: Object.assign(Object.create(Math), {random: () => randomValue}),
-    window: {location: {pathname: '/', search: '?cat=' + category}, matchMedia: () => ({matches: false})},
+    window: {location: {pathname: '/', search: '?cat=' + category + (style ? '&stijl=' + style : '')}, matchMedia: () => ({matches: false})},
     history: {replaceState() {}},
     document: {
       documentElement: {lang: 'nl'},
@@ -88,4 +88,14 @@ test('Letter pages stay in A–Z order across visits, with the counting page at 
   assert.deepEqual(first.ids(), nextVisit.ids());
   first.reselect();
   assert.deepEqual(first.ids(), nextVisit.ids());
+});
+
+test('Letter themes have their own alphabet order and the classic view remains the default', () => {
+  const dolls = openGallery('letters', 0, 'surprise');
+  assert.deepEqual(Array.from(dolls.run('getGridColorings().map(item => item.letter)')), [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']);
+  const dinosaur = openGallery('letters', 0, 'dino');
+  assert.deepEqual(Array.from(dinosaur.run('getGridColorings().map(item => item.slug)')), ['letter-t-triceratops']);
+  const unknown = openGallery('letters', 0, 'other');
+  assert.deepEqual(unknown.ids(), openGallery('letters', 0).ids());
+  assert.deepEqual(openGallery('kawaii', 0, 'dino').ids(), openGallery('kawaii', 0).ids());
 });
