@@ -1097,7 +1097,7 @@ function downloadColoring(item, source = 'unknown') {
   const ld   = item[currentLang] || item.nl;
   const link = document.createElement('a');
   link.href     = resolveImgPath(item.img);
-  link.download = item.slug + (item.img.endsWith('.svg') ? '.svg' : '.jpg');
+  link.download = (item.downloadName || item.slug) + (item.img.endsWith('.svg') ? '.svg' : '.jpg');
   link.setAttribute('aria-label', `${ld.altText || ld.title} – download`);
   document.body.appendChild(link);
   link.click();
@@ -1157,7 +1157,7 @@ async function downloadPdf(item, source = 'unknown') {
     const pageW = landscape ? 297 : 210;
     const pageH = landscape ? 210 : 297;
     doc.addImage(dataUrl, 'JPEG', 0, 0, pageW, pageH);
-    doc.save(item.slug + '.pdf');
+    doc.save((item.downloadName || item.slug) + '.pdf');
     trackColoringEvent('coloring_download', item, source, {
       download_format: 'pdf',
     });

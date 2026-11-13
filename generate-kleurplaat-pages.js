@@ -27,7 +27,7 @@ const difficultyNames = { easy: 'Makkelijk', medium: 'Gemiddeld', hard: 'Uitdage
 const chineseDifficulty = { easy: '简单', medium: '中等', hard: '有挑战' };
 
 function renderDetail(page, language = 'nl') {
-  const { slug, img, category } = page;
+  const { slug, img, category, downloadName } = page;
   const chinese = language === 'zh';
   const translated = chineseColoringSlugs.has(slug);
   if (chinese && (!translated || !page.zh?.title || !page.zh.description || !page.zh.altText || page.hidden)) {
@@ -65,7 +65,7 @@ function renderDetail(page, language = 'nl') {
   const categoryQuery = rescueCollection ? 'mini_reddingshelden' : category;
   const categoryHref = themeKey ? THEMES[themeKey].paths[language] : `/?cat=${categoryQuery}${letterStyle ? '&stijl=' + letterStyle + '#main' : ''}`;
   const difficultyName = (chinese ? chineseDifficulty : difficultyNames)[page.difficulty] || page.difficulty;
-  const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: content.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${slug}-kidslovecolor.pdf`, ...(chinese ? { language: htmlLang } : {}) }).replace(/</g, '\\u003c');
+  const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: content.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${downloadName || slug}-kidslovecolor.pdf`, ...(chinese ? { language: htmlLang } : {}) }).replace(/</g, '\\u003c');
   const breadcrumb = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -199,7 +199,7 @@ function renderDetail(page, language = 'nl') {
         <div class="actions">
           <button class="button button-primary" id="detailPrint" type="button">${chinese ? '打印这张涂色页' : 'Print deze kleurplaat'}</button>
           <button class="button button-secondary" id="detailPdf" type="button">${chinese ? '下载 PDF' : 'Download PDF'}</button>
-          <a class="button button-secondary" id="detailDownload" href="${imgPath}" download>${chinese ? '下载 JPG' : 'Download als JPG'}</a>
+          <a class="button button-secondary" id="detailDownload" href="${imgPath}" download${downloadName ? `="${escapeHtml(downloadName)}.jpg"` : ''}>${chinese ? '下载 JPG' : 'Download als JPG'}</a>
           ${chinese ? `<a class="button button-secondary" href="${categoryHref}#colorings">查看全部恐龙涂色页</a>` : `<a class="button button-secondary" href="/?kleurplaat=${slug}">Open in de kleurplatengalerij</a>`}
         </div>
         <p id="actionStatus" role="status" aria-live="polite"></p>${chinese ? speciesNote : `
