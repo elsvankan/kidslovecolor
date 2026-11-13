@@ -9,12 +9,15 @@ import test from 'node:test';
 const require = createRequire(import.meta.url);
 const { renderTheme, writeThemePages, THEMES } = require('../scripts/generate-theme-pages.cjs');
 const { build } = require('../scripts/build-static.cjs');
+const { validateCatalogCategories } = require('../lib/catalog-categories.cjs');
 const root = new URL('../', import.meta.url);
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(new URL('js/data.js', root), 'utf8') + '\nthis.catalog = {categories: CATEGORIES, colorings: COLORINGS};', context);
 const theme = THEMES.dinosaurussen;
 const colorings = context.catalog.colorings;
-const dinosaurs = colorings.filter(item => item.collections?.includes('dinosaurussen') && !item.hidden && item.category !== 'actualiteiten');
+const dinosaurCollection = colorings.filter(item => item.collections?.includes('dinosaurussen') && !item.hidden && item.category !== 'actualiteiten');
+const dinosaurs = dinosaurCollection.filter(item => item.letterStyle !== 'dino');
+const dinosaurLetters = dinosaurCollection.filter(item => item.letterStyle === 'dino').sort((a, b) => a.letter.localeCompare(b.letter, 'en'));
 
 for (const language of Object.keys(theme.paths)) {
   test(`Dinosaur landing is static, linked and localized in ${language}`, () => {
@@ -23,13 +26,18 @@ for (const language of Object.keys(theme.paths)) {
     assert.ok(html.includes(`<link rel="canonical" href="https://www.kidslovecolor.com${theme.paths[language]}"`));
     assert.ok(html.includes(theme.copy[language].heading));
     assert.ok(!html.includes('class="theme-guides"'));
-    const alphabetPath = (language === 'nl' ? '/' : `/${language}/`) + '?cat=letters&amp;stijl=dino#main';
-    assert.ok(html.includes(`href="${alphabetPath}"`));
+    assert.ok(html.includes('href="#dinoletters"'));
+    const alphabet = html.match(/<section id="dinoletters"[^>]*>([\s\S]*?)<\/section>/)[1];
+    const links = [...alphabet.matchAll(/class="theme-picture" href="([^"]+)"/g)].map(match => match[1]);
+    assert.deepEqual(links, Array.from(dinosaurLetters, item => '/kleurplaat/' + item.slug));
+    assert.deepEqual(Array.from(dinosaurLetters, item => item.letter), [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ']);
+    assert.ok(dinosaurLetters.every(item => item.category === 'letters'));
     for (const route of Object.values(theme.paths)) assert.ok(html.includes(`href="https://www.kidslovecolor.com${route}"`));
     const schema = JSON.parse(html.match(/<script type="application\/ld\+json">(.*?)<\/script>/s)[1]);
     const list = schema['@graph'].find(item => item['@type'] === 'ItemList');
-    assert.equal(list.numberOfItems, dinosaurs.length);
-    assert.equal(list.itemListElement.length, dinosaurs.length);
+    assert.equal(list.numberOfItems, dinosaurCollection.length);
+    assert.equal(list.itemListElement.length, dinosaurCollection.length);
+    assert.equal(new Set(list.itemListElement.map(item => item.url)).size, dinosaurCollection.length);
     for (const dinosaur of dinosaurs) {
       assert.ok(html.includes(`/kleurplaat/${dinosaur.slug}`));
       assert.ok(html.includes(dinosaur.scientificName));
@@ -53,6 +61,7 @@ test('Landing excludes hidden records and news, and escapes HTML safely', () => 
   assert.ok(!html.includes('</script><script>bad()'));
   assert.ok(!html.includes('/kleurplaat/hidden-record'));
   assert.ok(!html.includes('/kleurplaat/news-record'));
+  assert.ok(!html.includes('id="dinoletters"'));
   assert.throws(() => renderTheme('dinosaurussen', theme, 'nl', []), /no published coloring records/);
 });
 
@@ -65,6 +74,24 @@ test('Theme navigation uses real landing links and preserves collection matching
     const index = language === 'nl' ? 'index.html' : language + '/index.html';
     assert.ok(fs.readFileSync(new URL(index, root), 'utf8').includes(`href="${route}"`));
     assert.ok(fs.readFileSync(new URL('sitemap.xml', root), 'utf8').includes(`<loc>https://www.kidslovecolor.com${route}</loc>`));
+  }
+});
+
+test('Category validation catches missing, unknown and duplicate assignments', () => {
+  const categories = context.catalog.categories;
+  const valid = { slug: 'letter-t', category: 'letters', letterStyle: 'dino', collections: ['dinosaurussen'] };
+  assert.doesNotThrow(() => validateCatalogCategories([valid, { slug: 'ordinary', category: 'dieren' }], categories));
+  assert.throws(() => validateCatalogCategories([{ slug: 'missing' }], categories), /missing: unknown primary category/);
+  assert.throws(() => validateCatalogCategories([{ ...valid, collections: [] }], categories), /require category letters and collection dinosaurussen/);
+  assert.throws(() => validateCatalogCategories([{ ...valid, collections: ['dinosaurussen', 'dinosaurussen', 'onbekend'] }], categories), /duplicate collection tags[\s\S]*invalid collection tag "onbekend"/);
+});
+
+test('Dinosaur letters keep their detail-page link to the alphabet', () => {
+  const { renderDetail } = require('../generate-kleurplaat-pages.js');
+  for (const letter of dinosaurLetters) {
+    const html = renderDetail(letter);
+    assert.ok(html.includes('class="back-link" href="/?cat=letters&amp;stijl=dino#main"'));
+    assert.equal(fs.readFileSync(new URL('kleurplaat/' + letter.slug + '/index.html', root), 'utf8'), html);
   }
 });
 

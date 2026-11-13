@@ -35,7 +35,7 @@ for (const language of Object.keys(THEMES.dinosaurussen.paths)) {
     assert.ok(html.includes(copy.heading));
     assert.ok(html.includes(copy.button));
     assert.ok(html.includes('aria-labelledby="pack-heading"'));
-    assert.ok(html.includes('href="/css/theme-pages.css?v=dinosaur-pack-v1"'));
+    assert.ok(html.includes('href="/css/theme-pages.css?v=dinosaur-letters-v1"'));
     assert.ok(html.includes('CollectionPage'));
   });
 }

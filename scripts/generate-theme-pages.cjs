@@ -4,6 +4,7 @@ const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
 const { THEMES, coloringDetailPath } = require('../lib/theme-pages.cjs');
+const { validateCatalogCategories } = require('../lib/catalog-categories.cjs');
 const baseUrl = 'https://www.kidslovecolor.com';
 const languageLabels = { nl: 'NL', en: 'EN', fr: 'FR', es: 'ES', zh: '中文' };
 
@@ -15,23 +16,21 @@ function renderTheme(key, theme, language, colorings) {
   const copy = theme.copy[language];
   const home = language === 'nl' ? '/' : `/${language}/`;
   const gallery = theme.galleryPaths?.[language] || home;
-  const letterCollectionLabel = theme.letterCollectionLabels?.[language];
-  const letterCollection = letterCollectionLabel
-    && colorings.filter(item => item.category === 'letters' && item.letterStyle === 'dino' && !item.hidden);
-  const alphabetLink = letterCollection && [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ'].every(letter => letterCollection.some(item => item.letter === letter))
-    ? `<a href="${home}?cat=letters&amp;stijl=dino#main">${escapeHtml(letterCollectionLabel)}</a>`
-    : '';
   const url = baseUrl + theme.paths[language];
-  const pages = colorings.filter(item => {
-    const matchesTheme = theme.category ? item.category === theme.category : item.collections?.includes(key);
-    return !item.hidden && item.category !== 'actualiteiten' && matchesTheme;
-  });
+  const pages = colorings.filter(item => !item.hidden && item.category !== 'actualiteiten'
+    && (item.category === (theme.category || key) || item.collections?.includes(key)));
   if (!pages.length) throw new Error(`Theme ${key} has no published coloring records`);
+  const letterCollectionLabel = theme.letterCollectionLabels?.[language];
+  const alphabet = letterCollectionLabel ? pages.filter(item => item.letterStyle === 'dino')
+    .sort((a, b) => a.letter.localeCompare(b.letter, 'en')) : [];
+  const alphabetSlugs = new Set(alphabet.map(item => item.slug));
+  const mainPages = pages.filter(item => !alphabetSlugs.has(item.slug));
+  const alphabetLink = alphabet.length ? `<a href="#dinoletters">${escapeHtml(letterCollectionLabel)}</a>` : '';
   const heroItem = pages.find(item => item.slug === theme.heroSlug) || pages[0];
   const heroImage = heroItem.img.replace(/^\.\.\//, '/');
   const alternates = Object.entries(theme.paths).map(([code, route]) => `<link rel="alternate" hreflang="${code === 'zh' ? 'zh-Hans' : code}" href="${baseUrl}${route}"/>`).join('\n');
   const languages = Object.entries(theme.paths).map(([code, route]) => `<a href="${route}" hreflang="${code}"${code === language ? ' aria-current="page"' : ''}>${languageLabels[code]}</a>`).join('');
-  const cards = pages.map(item => {
+  const renderCard = item => {
     const title = (item[language] || item.nl).title;
     const image = item.img.replace(/^\.\.\//, '/');
     const thumbnail = image.replace('/img/kleurplaten/', '/img/kleurplaten/thumbs/');
@@ -45,16 +44,19 @@ function renderTheme(key, theme, language, colorings) {
         <a class="theme-button" href="${detail}">${escapeHtml(copy.open)}</a>
         <a class="theme-download" href="${escapeHtml(image)}" download="${escapeHtml(path.basename(image))}">${escapeHtml(copy.download)}</a>
       </div></article>`;
-  }).join('\n');
+  };
+  const cards = mainPages.map(renderCard).join('\n');
+  const alphabetSection = alphabet.length ? `<section id="dinoletters" aria-labelledby="dinoletters-heading"><h2 id="dinoletters-heading">${escapeHtml(letterCollectionLabel)}</h2><div class="theme-grid">${alphabet.map(renderCard).join('\n')}</div></section>` : '';
+  const listedPages = [...mainPages, ...alphabet];
   const packCopy = theme.downloadPack?.copy[language];
-  const stylesheet = packCopy ? '/css/theme-pages.css?v=dinosaur-pack-v1' : '/css/theme-pages.css';
+  const stylesheet = packCopy ? '/css/theme-pages.css?v=dinosaur-letters-v1' : '/css/theme-pages.css';
   const pack = packCopy ? `<section class="theme-pack" aria-labelledby="pack-heading"><div><h2 id="pack-heading">${escapeHtml(packCopy.heading)}</h2><p>${escapeHtml(packCopy.description)}</p><p class="theme-pack-format">${escapeHtml(packCopy.format)}</p></div><a class="theme-button" href="${escapeHtml(theme.downloadPack.url)}" download="${escapeHtml(path.basename(theme.downloadPack.url))}" type="application/pdf">${escapeHtml(packCopy.button)}</a></section>` : '';
   const guides = copy.steps ? `<div class="theme-guides"><section><h2>${escapeHtml(copy.guide)}</h2><ul>${copy.steps.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></section><section><h2>${escapeHtml(copy.learn)}</h2><p>${escapeHtml(copy.learnText)}</p></section></div>` : '';
   const schema = {
     '@context': 'https://schema.org', '@graph': [
       { '@type': 'CollectionPage', '@id': url, url, name: copy.title, description: copy.description, inLanguage: language, mainEntity: { '@id': url + '#colorings' } },
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'KidsLoveColor', item: baseUrl + home }, { '@type': 'ListItem', position: 2, name: copy.label, item: url }] },
-      { '@type': 'ItemList', '@id': url + '#colorings', numberOfItems: pages.length, itemListElement: pages.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: (item[language] || item.nl).title, url: baseUrl + coloringDetailPath(item.slug, language) })) }
+      { '@type': 'ItemList', '@id': url + '#colorings', numberOfItems: listedPages.length, itemListElement: listedPages.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: (item[language] || item.nl).title, url: baseUrl + coloringDetailPath(item.slug, language) })) }
     ]
   };
   return `<!DOCTYPE html>
@@ -87,8 +89,8 @@ function renderTheme(key, theme, language, colorings) {
       <div><p class="theme-eyebrow">${escapeHtml(copy.eyebrow)}</p><h1 id="theme-heading">${escapeHtml(copy.heading)}</h1><p class="theme-hero-line">${escapeHtml(copy.hero)}</p><p>${escapeHtml(copy.intro)}</p><div class="theme-actions"><a class="theme-button" href="#colorings">${escapeHtml(copy.choose)}</a><a href="${gallery}">${escapeHtml(copy.all)} →</a>${alphabetLink}</div><ul class="theme-promises">${copy.promise.map(value => `<li>${escapeHtml(value)}</li>`).join('')}</ul></div>
       <figure class="theme-hero-paper"><img src="${escapeHtml(heroImage)}" alt="${escapeHtml((heroItem[language] || heroItem.nl).altText)}" width="1055" height="1491" fetchpriority="high"/></figure>
     </section>
-    ${pack ? `${pack}\n    ` : ''}<section id="colorings" aria-labelledby="gallery-heading"><p class="theme-eyebrow">${pages.length} · ${escapeHtml(copy.label)}</p><h2 id="gallery-heading">${escapeHtml(copy.gallery)}</h2><div class="theme-grid">${cards}</div></section>
-    ${guides ? `${guides}\n    ` : ''}<section class="theme-faq" aria-labelledby="faq-heading"><h2 id="faq-heading">${escapeHtml(copy.questions)}</h2>${copy.faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join('')}</section>
+    ${pack ? `${pack}\n    ` : ''}<section id="colorings" aria-labelledby="gallery-heading"><p class="theme-eyebrow">${mainPages.length} · ${escapeHtml(copy.label)}</p><h2 id="gallery-heading">${escapeHtml(copy.gallery)}</h2><div class="theme-grid">${cards}</div></section>
+    ${alphabetSection ? `${alphabetSection}\n    ` : ''}${guides ? `${guides}\n    ` : ''}<section class="theme-faq" aria-labelledby="faq-heading"><h2 id="faq-heading">${escapeHtml(copy.questions)}</h2>${copy.faq.map(([question, answer]) => `<details><summary>${escapeHtml(question)}</summary><p>${escapeHtml(answer)}</p></details>`).join('')}</section>
     <nav class="theme-related" aria-label="${escapeHtml(copy.related)}"><h2>${escapeHtml(copy.related)}</h2><a href="${home}?cat=dieren">${escapeHtml(copy.animals)}</a><a href="${home}?cat=natuur">${escapeHtml(copy.nature)}</a><a href="${home}?cat=ruimte">${escapeHtml(copy.space)}</a><a href="/vandaag-op-aarde/">${escapeHtml(copy.story)}</a></nav>
   </main>
   <footer class="theme-footer"><p>${escapeHtml(copy.footer)}</p><a href="${gallery}">${escapeHtml(copy.all)}</a></footer>
@@ -99,7 +101,8 @@ function renderTheme(key, theme, language, colorings) {
 
 function writeThemePages(root) {
   const context = { window: {} };
-  vm.runInNewContext(fs.readFileSync(path.join(root, 'js/data.js'), 'utf8') + '\nthis.colorings = COLORINGS;', context);
+  vm.runInNewContext(fs.readFileSync(path.join(root, 'js/data.js'), 'utf8') + '\nthis.colorings = COLORINGS; this.categories = CATEGORIES;', context);
+  validateCatalogCategories(context.colorings, context.categories);
   const paths = [];
   for (const [key, theme] of Object.entries(THEMES)) {
     for (const [language, route] of Object.entries(theme.paths)) {
