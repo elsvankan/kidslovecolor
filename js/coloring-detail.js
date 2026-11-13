@@ -16,6 +16,7 @@
     return;
   }
 
+  var chinese = PAGE.language === 'zh-Hans';
   var measurementId = 'G-SKLBTW5Z87';
   var preferenceKey = 'klc-detail-statistics-v1';
   var disableKey = 'ga-disable-' + measurementId;
@@ -134,12 +135,12 @@
     var paperWidth = isLandscape ? '297mm' : '210mm';
     var paperHeight = isLandscape ? '210mm' : '297mm';
     if (!printWindow) {
-      setStatus('Sta pop-ups toe om de kleurplaat te kunnen printen.');
+      setStatus(chinese ? '请允许弹出窗口，以便打印涂色页。' : 'Sta pop-ups toe om de kleurplaat te kunnen printen.');
       return;
     }
 
     printWindow.document.write(
-      '<!doctype html><html lang="nl"><head><meta charset="UTF-8"/>' +
+      '<!doctype html><html lang="' + (chinese ? 'zh-Hans' : 'nl') + '"><head><meta charset="UTF-8"/>' +
       '<title>' + escapeAttribute(PAGE.title) + ' – KidsLoveColor</title>' +
       '<style>@page{size:' + pageSize + ';margin:0}*{box-sizing:border-box;margin:0;padding:0}' +
       'html,body{background:#fff;height:' + paperHeight + ';overflow:hidden;width:' + paperWidth + '}' +
@@ -150,7 +151,7 @@
     );
     printWindow.document.close();
     track('coloring_print');
-    setStatus('Het afdrukvenster is geopend.');
+    setStatus(chinese ? '已打开打印窗口。' : 'Het afdrukvenster is geopend.');
   }
 
   function loadJsPdf() {
@@ -168,9 +169,9 @@
     var button = document.getElementById('detailPdf');
     if (button) {
       button.disabled = true;
-      button.textContent = 'PDF maken…';
+      button.textContent = chinese ? '正在生成 PDF…' : 'PDF maken…';
     }
-    setStatus('Even wachten, we maken je PDF.');
+    setStatus(chinese ? '请稍候，正在生成 PDF。' : 'Even wachten, we maken je PDF.');
 
     try {
       var jspdf = await loadJsPdf();
@@ -194,14 +195,14 @@
       doc.addImage(dataUrl, 'JPEG', (pageWidth - imageWidth) / 2, (pageHeight - imageHeight) / 2, imageWidth, imageHeight);
       doc.save(PAGE.pdfFilename || (PAGE.slug + '-kidslovecolor.pdf'));
       track('coloring_download', {download_format: 'pdf'});
-      setStatus('Je PDF is gedownload. Veel kleurplezier!');
+      setStatus(chinese ? 'PDF 下载已开始。祝你涂色愉快！' : 'Je PDF is gedownload. Veel kleurplezier!');
     } catch (error) {
       console.error('PDF download:', error);
-      setStatus('De PDF lukte niet. Gebruik Print kleurplaat en kies “Opslaan als PDF”.');
+      setStatus(chinese ? '无法生成 PDF。请点击打印，然后选择“另存为 PDF”。' : 'De PDF lukte niet. Gebruik Print kleurplaat en kies “Opslaan als PDF”.');
     } finally {
       if (button) {
         button.disabled = false;
-        button.textContent = 'Download PDF';
+        button.textContent = chinese ? '下载 PDF' : 'Download PDF';
       }
     }
   }
@@ -216,10 +217,10 @@
     if (downloadLink) {
       downloadLink.addEventListener('click', function () {
         track('coloring_download', {download_format: 'jpg'});
-        setStatus('Je JPG-download begint. Veel kleurplezier!');
+        setStatus(chinese ? 'JPG 下载已开始。祝你涂色愉快！' : 'Je JPG-download begint. Veel kleurplezier!');
       });
     }
 
-    setupAnalytics(document.getElementById('actionStatus'));
+    if (!chinese) setupAnalytics(document.getElementById('actionStatus'));
   });
 }());

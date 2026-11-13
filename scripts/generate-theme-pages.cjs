@@ -3,7 +3,7 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
-const { THEMES } = require('../lib/theme-pages.cjs');
+const { THEMES, coloringDetailPath } = require('../lib/theme-pages.cjs');
 const baseUrl = 'https://www.kidslovecolor.com';
 const languageLabels = { nl: 'NL', en: 'EN', fr: 'FR', es: 'ES', zh: '中文' };
 
@@ -30,12 +30,13 @@ function renderTheme(key, theme, language, colorings) {
     const image = item.img.replace(/^\.\.\//, '/');
     const thumbnail = image.replace('/img/kleurplaten/', '/img/kleurplaten/thumbs/');
     const fact = item.learningFact?.[language];
+    const detail = escapeHtml(coloringDetailPath(item.slug, language));
     return `<article class="theme-card">
-      <a class="theme-picture" href="/kleurplaat/${escapeHtml(item.slug)}"><img src="${escapeHtml(thumbnail)}" alt="${escapeHtml((item[language] || item.nl).altText)}" width="400" height="566" loading="lazy"/></a>
+      <a class="theme-picture" href="${detail}"><img src="${escapeHtml(thumbnail)}" alt="${escapeHtml((item[language] || item.nl).altText)}" width="400" height="566" loading="lazy"/></a>
       <div class="theme-card-copy"><h3>${escapeHtml(title)}</h3>${item.scientificName ? `
         <p class="species-name"><i>${escapeHtml(item.scientificName)}</i></p>` : ''}${fact ? `
         <p class="theme-fact">${escapeHtml(fact)} <a href="${escapeHtml(item.referenceUrl)}" rel="external">${escapeHtml(copy.source)}</a></p>` : ''}
-        <a class="theme-button" href="/kleurplaat/${escapeHtml(item.slug)}">${escapeHtml(copy.open)}</a>
+        <a class="theme-button" href="${detail}">${escapeHtml(copy.open)}</a>
         <a class="theme-download" href="${escapeHtml(image)}" download="${escapeHtml(path.basename(image))}">${escapeHtml(copy.download)}</a>
       </div></article>`;
   }).join('\n');
@@ -47,7 +48,7 @@ function renderTheme(key, theme, language, colorings) {
     '@context': 'https://schema.org', '@graph': [
       { '@type': 'CollectionPage', '@id': url, url, name: copy.title, description: copy.description, inLanguage: language, mainEntity: { '@id': url + '#colorings' } },
       { '@type': 'BreadcrumbList', itemListElement: [{ '@type': 'ListItem', position: 1, name: 'KidsLoveColor', item: baseUrl + home }, { '@type': 'ListItem', position: 2, name: copy.label, item: url }] },
-      { '@type': 'ItemList', '@id': url + '#colorings', numberOfItems: pages.length, itemListElement: pages.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: (item[language] || item.nl).title, url: baseUrl + '/kleurplaat/' + item.slug })) }
+      { '@type': 'ItemList', '@id': url + '#colorings', numberOfItems: pages.length, itemListElement: pages.map((item, index) => ({ '@type': 'ListItem', position: index + 1, name: (item[language] || item.nl).title, url: baseUrl + coloringDetailPath(item.slug, language) })) }
     ]
   };
   return `<!DOCTYPE html>

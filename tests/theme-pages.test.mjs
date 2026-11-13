@@ -85,3 +85,34 @@ test('Compact build regenerates all theme pages and never copies coloring assets
     fs.rmSync(temporary, { recursive: true, force: true });
   }
 });
+
+test('The Chinese detail pilot uses three localized routes with reciprocal alternates', () => {
+  const { renderDetail } = require('../generate-kleurplaat-pages.js');
+  const { chineseColoringSlugs } = require('../lib/theme-pages.cjs');
+  const chineseLanding = renderTheme('dinosaurussen', theme, 'zh', colorings);
+  const sitemap = fs.readFileSync(new URL('sitemap.xml', root), 'utf8');
+  assert.equal(chineseColoringSlugs.size, 3);
+  for (const dinosaur of dinosaurs) {
+    const dutchPath = '/kleurplaat/' + dinosaur.slug;
+    const chinesePath = '/zh' + dutchPath;
+    if (!chineseColoringSlugs.has(dinosaur.slug)) {
+      assert.ok(chineseLanding.includes('href="' + dutchPath + '"'));
+      assert.ok(!chineseLanding.includes(chinesePath));
+      continue;
+    }
+    const dutch = renderDetail(dinosaur);
+    const chinese = renderDetail(dinosaur, 'zh');
+    for (const [route, html] of [[dutchPath, dutch], [chinesePath, chinese]]) {
+      assert.ok(html.includes('<link rel="canonical" href="https://www.kidslovecolor.com' + route + '"/>'));
+      assert.ok(html.includes('hreflang="zh-Hans" href="https://www.kidslovecolor.com' + chinesePath + '"'));
+      assert.ok(html.includes('hreflang="nl" href="https://www.kidslovecolor.com' + dutchPath + '"'));
+      assert.equal(fs.readFileSync(new URL(route.slice(1) + '/index.html', root), 'utf8'), html);
+      assert.ok(sitemap.includes('<loc>https://www.kidslovecolor.com' + route + '</loc>'));
+    }
+    assert.ok(chineseLanding.includes('href="' + chinesePath + '"'));
+    assert.ok(chinese.includes('href="' + dutchPath + '" lang="nl"'));
+    assert.ok(dutch.includes('href="' + chinesePath + '" lang="zh-Hans"'));
+    assert.ok(chinese.includes('<html lang="zh-Hans"'));
+    assert.ok(chinese.includes('id="detailPdf" type="button">下载 PDF'));
+  }
+});
