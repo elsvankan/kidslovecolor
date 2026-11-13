@@ -57,9 +57,12 @@ function renderDetail(page, language = 'nl') {
   const imgUrl = `${BASE_URL}/img/kleurplaten/${imgFile}`;
   const pageUrl = BASE_URL + coloringDetailPath(slug, language);
   const themeKey = page.collections?.find(key => THEMES[key]) || Object.keys(THEMES).find(key => THEMES[key].category === category);
-  const categoryName = themeKey ? THEMES[themeKey].copy[language].label : categoryNames[category] || category;
+  const rescueCollection = page.collections?.includes('mini_reddingshelden');
+  const categoryName = themeKey ? THEMES[themeKey].copy[language].label
+    : rescueCollection ? 'Mini Reddingshelden' : categoryNames[category] || category;
   const letterStyle = category === 'letters' && ['surprise', 'dino'].includes(page.letterStyle) ? page.letterStyle : '';
-  const categoryHref = themeKey ? THEMES[themeKey].paths[language] : `/?cat=${category}${letterStyle ? '&stijl=' + letterStyle + '#main' : ''}`;
+  const categoryQuery = rescueCollection ? 'mini_reddingshelden' : category;
+  const categoryHref = themeKey ? THEMES[themeKey].paths[language] : `/?cat=${categoryQuery}${letterStyle ? '&stijl=' + letterStyle + '#main' : ''}`;
   const difficultyName = (chinese ? chineseDifficulty : difficultyNames)[page.difficulty] || page.difficulty;
   const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: content.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${slug}-kidslovecolor.pdf`, ...(chinese ? { language: htmlLang } : {}) }).replace(/</g, '\\u003c');
   const breadcrumb = JSON.stringify({
