@@ -79,3 +79,13 @@ test('The homepage shows the real newest items and previews the newest visible m
   assert.equal(surprise.item.id, latestDoll);
   assert.ok(cards.every(({item}) => !item.hidden && item.category !== 'actualiteiten'));
 });
+
+test('Letter pages stay in A–Z order across visits, with the counting page at the end', () => {
+  const first = openGallery('letters', 0);
+  const nextVisit = openGallery('letters', 0.99);
+  const expected = Array.from(first.run("getGridColorings().map(item => item.letter || item.slug)"));
+  assert.deepEqual(expected, [...'ABCDEFGHIJKLMNOPQRSTUVWXYZ', 'numbers-one-to-ten-ocean-counting']);
+  assert.deepEqual(first.ids(), nextVisit.ids());
+  first.reselect();
+  assert.deepEqual(first.ids(), nextVisit.ids());
+});

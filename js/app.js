@@ -680,13 +680,22 @@ function renderCountryFilter() {
 function getGridColorings() {
   const isNew = activeCategory === 'nieuw';
   const newestFirst = activeCategory === 'all' || isNew;
-  if (!newestFirst && shuffledCategoryItems) return shuffledCategoryItems;
+  const alphabet = activeCategory === 'letters';
+  if (!newestFirst && !alphabet && shuffledCategoryItems) return shuffledCategoryItems;
 
   const items = COLORINGS.filter(item => item.category !== 'actualiteiten' && !item.hidden
     && (newestFirst || itemMatchesCategory(item, activeCategory)));
   if (newestFirst) {
     items.sort((a, b) => b.id - a.id);
     return isNew ? items.slice(0, 24) : items;
+  }
+
+  if (alphabet) {
+    return items.sort((a, b) => {
+      const first = a.letter || 'ZZ';
+      const second = b.letter || 'ZZ';
+      return first.localeCompare(second, 'en') || b.id - a.id;
+    });
   }
 
   // Keep this order until the visitor selects a category again.
