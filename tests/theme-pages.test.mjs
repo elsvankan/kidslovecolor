@@ -10,6 +10,7 @@ const require = createRequire(import.meta.url);
 const { renderTheme, writeThemePages, THEMES } = require('../scripts/generate-theme-pages.cjs');
 const { build } = require('../scripts/build-static.cjs');
 const { validateCatalogCategories } = require('../lib/catalog-categories.cjs');
+const { coloringDetailPath, englishColoringSlugs } = require('../lib/theme-pages.cjs');
 const root = new URL('../', import.meta.url);
 const context = { window: {} };
 vm.runInNewContext(fs.readFileSync(new URL('js/data.js', root), 'utf8') + '\nthis.catalog = {categories: CATEGORIES, colorings: COLORINGS};', context);
@@ -39,7 +40,7 @@ for (const language of Object.keys(theme.paths)) {
     assert.equal(list.itemListElement.length, dinosaurCollection.length);
     assert.equal(new Set(list.itemListElement.map(item => item.url)).size, dinosaurCollection.length);
     for (const dinosaur of dinosaurs) {
-      assert.ok(html.includes(`/kleurplaat/${dinosaur.slug}`));
+      assert.ok(html.includes(`href="${coloringDetailPath(dinosaur.slug, language)}"`));
       assert.ok(html.includes(dinosaur.scientificName));
       assert.ok(html.includes(dinosaur.learningFact[language]));
       assert.ok(html.includes(dinosaur.referenceUrl));
@@ -104,10 +105,10 @@ test('Compact build regenerates all theme pages and never copies coloring assets
     fs.writeFileSync(path.join(temporary, 'img/kleurplaten/not-for-deployment.jpg'), 'asset');
     assert.equal(writeThemePages(temporary).length, Object.values(THEMES).reduce((count, entry) => count + Object.keys(entry.paths).length, 0));
     const output = build(temporary);
-    for (const route of Object.values(theme.paths)) {
+    for (const [language, route] of Object.entries(theme.paths)) {
       const html = fs.readFileSync(path.join(output, route.slice(1), 'index.html'), 'utf8');
       assert.ok(html.includes('CollectionPage'));
-      assert.ok(html.includes('/kleurplaat/' + dinosaurs[0].slug));
+      assert.ok(html.includes(`href="${coloringDetailPath(dinosaurs[0].slug, language)}"`));
     }
     assert.ok(!fs.existsSync(path.join(output, 'img/kleurplaten')));
   } finally {
@@ -143,5 +144,39 @@ test('The Chinese detail pilot uses three localized routes with reciprocal alter
     assert.ok(dutch.includes('href="' + chinesePath + '" lang="zh-Hans"'));
     assert.ok(chinese.includes('<html lang="zh-Hans"'));
     assert.ok(chinese.includes('id="detailPdf" type="button">下载 PDF'));
+  }
+});
+
+test('Three English dinosaur details keep reciprocal language, catalog and gallery routes', () => {
+  const { renderDetail } = require('../generate-kleurplaat-pages.js');
+  const englishLanding = renderTheme('dinosaurussen', theme, 'en', colorings);
+  const sitemap = fs.readFileSync(new URL('sitemap.xml', root), 'utf8');
+  assert.equal(englishColoringSlugs.size, 3);
+  for (const dinosaur of dinosaurs) {
+    const dutchPath = coloringDetailPath(dinosaur.slug, 'nl');
+    const englishPath = coloringDetailPath(dinosaur.slug, 'en');
+    if (!englishColoringSlugs.has(dinosaur.slug)) {
+      assert.equal(englishPath, dutchPath);
+      assert.ok(englishLanding.includes('href="' + dutchPath + '"'));
+      continue;
+    }
+    const chinesePath = coloringDetailPath(dinosaur.slug, 'zh');
+    const paths = { nl: dutchPath, en: englishPath, 'zh-Hans': chinesePath };
+    assert.equal(englishPath, '/en/coloring-page/' + dinosaur.slug);
+    assert.ok(englishLanding.includes('href="' + englishPath + '"'));
+    assert.ok(sitemap.includes('<loc>https://www.kidslovecolor.com' + englishPath + '</loc>'));
+    for (const route of Object.values(paths)) {
+      const html = fs.readFileSync(new URL(route.slice(1) + '/index.html', root), 'utf8');
+      assert.ok(html.includes('<link rel="canonical" href="https://www.kidslovecolor.com' + route + '"/>'));
+      for (const [lang, alternate] of Object.entries(paths)) {
+        assert.ok(html.includes('hreflang="' + lang + '" href="https://www.kidslovecolor.com' + alternate + '"'));
+      }
+    }
+    const english = renderDetail(dinosaur, 'en');
+    assert.equal(fs.readFileSync(new URL(englishPath.slice(1) + '/index.html', root), 'utf8'), english);
+    assert.ok(english.includes('<html lang="en"'));
+    assert.ok(english.includes('id="detailPrint" type="button">Print coloring page'));
+    assert.ok(english.includes('href="/en/dinosaurs"'));
+    assert.ok(english.includes('"language":"en"'));
   }
 });

@@ -12,7 +12,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { THEMES, chineseColoringSlugs, coloringDetailPath } = require('./lib/theme-pages.cjs');
+const { THEMES, chineseColoringSlugs, englishColoringSlugs, coloringDetailPath } = require('./lib/theme-pages.cjs');
 
 const BASE_URL = 'https://www.kidslovecolor.com';
 const categoryNames = {
@@ -26,30 +26,42 @@ const difficultyNames = { easy: 'Makkelijk', medium: 'Gemiddeld', hard: 'Uitdage
 
 const chineseDifficulty = { easy: '简单', medium: '中等', hard: '有挑战' };
 
+const englishDifficulty = { easy: 'Easy', medium: 'Medium', hard: 'Challenging' };
+
+const localizedSlugs = { en: englishColoringSlugs, zh: chineseColoringSlugs };
+const detailLanguages = {
+  nl: { htmlLang: 'nl', home: '/', homeLabel: 'Home', name: 'Nederlands', og: 'nl_NL' },
+  en: { htmlLang: 'en', home: '/en', homeLabel: 'Home', name: 'English', og: 'en_US' },
+  zh: { htmlLang: 'zh-Hans', home: '/zh', homeLabel: '首页', name: '简体中文', og: 'zh_CN' },
+};
+
 function renderDetail(page, language = 'nl') {
   const { slug, img, category, downloadName } = page;
   const chinese = language === 'zh';
-  const translated = chineseColoringSlugs.has(slug);
-  if (chinese && (!translated || !page.zh?.title || !page.zh.description || !page.zh.altText || page.hidden)) {
-    throw new Error(`Missing published Chinese metadata for ${slug}`);
+  const english = language === 'en';
+  const localized = chinese || english;
+  if (localized && (!localizedSlugs[language].has(slug) || !page[language]?.title ||
+      !page[language].description || !page[language].altText || page.hidden)) {
+    throw new Error(`Missing published ${language} metadata for ${slug}`);
   }
   const nl = page.nl || {};
-  const content = chinese ? page.zh : nl;
+  const content = localized ? page[language] : nl;
   const title = content.title || slug;
   const desc = content.description || 'Gratis kleurplaat voor kinderen.';
-  const htmlLang = chinese ? 'zh-Hans' : 'nl';
-  const home = chinese ? '/zh' : '/';
-  const homeLabel = chinese ? '首页' : 'Home';
-  const pageLabel = chinese ? '免费涂色页' : 'Gratis Kleurplaat';
+  const { htmlLang, home, homeLabel, og } = detailLanguages[language];
+  const pageLabel = chinese ? '免费涂色页' : english ? 'Free Coloring Page' : 'Gratis Kleurplaat';
   const dutchPath = coloringDetailPath(slug, 'nl');
-  const chinesePath = coloringDetailPath(slug, 'zh');
-  const alternates = translated ? `
-  <link rel="alternate" hreflang="nl" href="${BASE_URL}${dutchPath}"/>
-  <link rel="alternate" hreflang="zh-Hans" href="${BASE_URL}${chinesePath}"/>
-  <link rel="alternate" hreflang="x-default" href="${BASE_URL}${dutchPath}"/>` : '';
-  const languageLink = translated ? (chinese
-    ? `<a href="${dutchPath}" lang="nl" hreflang="nl">Nederlands</a>`
-    : `<a href="${chinesePath}" lang="zh-Hans" hreflang="zh-Hans">简体中文</a>`) : '';
+  const alternatesForSlug = Object.entries(detailLanguages)
+    .filter(([key]) => key === 'nl' || localizedSlugs[key].has(slug))
+    .map(([key, info]) => ({ ...info, url: coloringDetailPath(slug, key) }));
+  const alternates = alternatesForSlug.length > 1
+    ? alternatesForSlug.map(({htmlLang: alternate, url}) => `
+  <link rel="alternate" hreflang="${alternate}" href="${BASE_URL}${url}"/>`).join('') +
+      `
+  <link rel="alternate" hreflang="x-default" href="${BASE_URL}${dutchPath}"/>`
+    : '';
+  const languageLinks = alternatesForSlug.filter(alternate => alternate.htmlLang !== htmlLang)
+    .map(alternate => ` · <a href="${alternate.url}" lang="${alternate.htmlLang}" hreflang="${alternate.htmlLang}">${alternate.name}</a>`).join('');
 
   // Image URL: img is like '../img/kleurplaten/foo.jpg' → absolute URL
   const imgFile = img.replace('../img/kleurplaten/', '');
@@ -64,8 +76,8 @@ function renderDetail(page, language = 'nl') {
     : rescueCollection ? 'Mini Reddingshelden' : categoryNames[category] || category;
   const categoryQuery = rescueCollection ? 'mini_reddingshelden' : category;
   const categoryHref = themeKey ? THEMES[themeKey].paths[language] : `/?cat=${categoryQuery}${letterStyle ? '&stijl=' + letterStyle + '#main' : ''}`;
-  const difficultyName = (chinese ? chineseDifficulty : difficultyNames)[page.difficulty] || page.difficulty;
-  const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: content.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${downloadName || slug}-kidslovecolor.pdf`, ...(chinese ? { language: htmlLang } : {}) }).replace(/</g, '\\u003c');
+  const difficultyName = (chinese ? chineseDifficulty : english ? englishDifficulty : difficultyNames)[page.difficulty] || page.difficulty;
+  const actionData = JSON.stringify({ slug, title, category, difficulty: page.difficulty, image: imgPath, alt: content.altText || title, orientation: page.orientation || 'portrait', pdfFilename: `${downloadName || slug}-kidslovecolor.pdf`, ...(localized ? { language: htmlLang } : {}) }).replace(/</g, '\\u003c');
   const breadcrumb = JSON.stringify({
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -91,7 +103,7 @@ function renderDetail(page, language = 'nl') {
     creditText: 'KidsLoveColor',
     creator: { '@type': 'Organization', name: 'KidsLoveColor', url: BASE_URL },
   });
-  const newsHtml = !chinese && nl.newsExplainer ? `
+  const newsHtml = !localized && nl.newsExplainer ? `
     <section class="news-context" aria-labelledby="news-context-title">
       <h2 id="news-context-title">Het verhaal achter deze kleurplaat</h2>
       <p>${escapeHtml(nl.newsExplainer)}</p>
@@ -100,10 +112,10 @@ function renderDetail(page, language = 'nl') {
       ${nl.newsQuestion ? `<p><strong>Praatvraag:</strong> ${escapeHtml(nl.newsQuestion)}</p>` : ''}
     </section>` : '';
 
-  const speciesNote = chinese && page.scientificName && page.learningFact?.zh && page.referenceUrl ? `
+  const speciesNote = localized && page.scientificName && page.learningFact?.[language] && page.referenceUrl ? `
         <aside class="trust-note">
           <strong>${escapeHtml(page.scientificName)}</strong>
-          <p>${escapeHtml(page.learningFact.zh)} <a href="${escapeHtml(page.referenceUrl)}" rel="external">资料来源</a></p>
+          <p>${escapeHtml(page.learningFact[language])} <a href="${escapeHtml(page.referenceUrl)}" rel="external">${chinese ? '资料来源' : 'Source'}</a></p>
         </aside>` : '';
   const html = `<!DOCTYPE html>
 <html lang="${htmlLang}" prefix="og: https://ogp.me/ns#">
@@ -123,7 +135,7 @@ function renderDetail(page, language = 'nl') {
   <meta property="og:image:width" content="1055"/>
   <meta property="og:image:height" content="1491"/>
   <meta property="og:site_name"   content="KidsLoveColor"/>
-  <meta property="og:locale"      content="${chinese ? 'zh_CN' : 'nl_NL'}"/>
+  <meta property="og:locale"      content="${og}"/>
 
   <!-- Twitter Card -->
   <meta name="twitter:card"        content="summary_large_image"/>
@@ -180,29 +192,29 @@ function renderDetail(page, language = 'nl') {
   <header class="site-header">
     <div class="header-inner">
       <a class="brand" href="${home}" aria-label="${chinese ? 'KidsLoveColor 首页' : 'KidsLoveColor home'}"><img src="/img/logo.svg" alt="KidsLoveColor"/></a>
-      <a class="back-link" href="${escapeHtml(categoryHref)}">${chinese ? '更多恐龙涂色页' : `Bekijk meer ${categoryName.toLowerCase()} kleurplaten`}</a>
+      <a class="back-link" href="${escapeHtml(categoryHref)}">${chinese ? '更多恐龙涂色页' : english ? 'More dinosaur coloring pages' : `Bekijk meer ${categoryName.toLowerCase()} kleurplaten`}</a>
     </div>
   </header>
   <main>
-    <nav class="breadcrumbs" aria-label="${chinese ? '页面路径' : 'Broodkruimel'}">
-      <a href="${home}">${homeLabel}</a> · <a href="${escapeHtml(categoryHref)}">${categoryName}</a> · ${escapeHtml(title)}${languageLink ? ` · ${languageLink}` : ''}
+    <nav class="breadcrumbs" aria-label="${chinese ? '页面路径' : english ? 'Breadcrumbs' : 'Broodkruimel'}">
+      <a href="${home}">${homeLabel}</a> · <a href="${escapeHtml(categoryHref)}">${categoryName}</a> · ${escapeHtml(title)}${languageLinks}
     </nav>
     <article class="page-grid">
       <figure class="coloring-card">
         <img src="${imgPath}" width="1055" height="1491" alt="${escapeHtml(content.altText || title)}" fetchpriority="high"/>
       </figure>
       <div class="page-copy">
-        <span class="eyebrow">${chinese ? '免费打印涂色页' : 'Gratis printbare kleurplaat'}</span>
+        <span class="eyebrow">${chinese ? '免费打印涂色页' : english ? 'Free printable coloring page' : 'Gratis printbare kleurplaat'}</span>
         <h1>${escapeHtml(title)}</h1>
         <p class="lead">${escapeHtml(desc)}</p>
         <div class="badges"><span class="badge">${categoryName}</span><span class="badge">${difficultyName}</span><span class="badge">A4 · 1055 × 1491 px</span></div>
         <div class="actions">
-          <button class="button button-primary" id="detailPrint" type="button">${chinese ? '打印这张涂色页' : 'Print deze kleurplaat'}</button>
+          <button class="button button-primary" id="detailPrint" type="button">${chinese ? '打印这张涂色页' : english ? 'Print coloring page' : 'Print deze kleurplaat'}</button>
           <button class="button button-secondary" id="detailPdf" type="button">${chinese ? '下载 PDF' : 'Download PDF'}</button>
-          <a class="button button-secondary" id="detailDownload" href="${imgPath}" download${downloadName ? `="${escapeHtml(downloadName)}.jpg"` : ''}>${chinese ? '下载 JPG' : 'Download als JPG'}</a>
-          ${chinese ? `<a class="button button-secondary" href="${categoryHref}#colorings">查看全部恐龙涂色页</a>` : `<a class="button button-secondary" href="/?kleurplaat=${slug}">Open in de kleurplatengalerij</a>`}
+          <a class="button button-secondary" id="detailDownload" href="${imgPath}" download${downloadName ? `="${escapeHtml(downloadName)}.jpg"` : ''}>${chinese ? '下载 JPG' : english ? 'Download JPG' : 'Download als JPG'}</a>
+          ${localized ? `<a class="button button-secondary" href="${categoryHref}#colorings">${chinese ? '查看全部恐龙涂色页' : 'Browse all dinosaur coloring pages'}</a>` : `<a class="button button-secondary" href="/?kleurplaat=${slug}">Open in de kleurplatengalerij</a>`}
         </div>
-        <p id="actionStatus" role="status" aria-live="polite"></p>${chinese ? speciesNote : `
+        <p id="actionStatus" role="status" aria-live="polite"></p>${localized ? speciesNote : `
         <aside class="trust-note">
           <strong>Zelf kiezen en meteen printen</strong>
           <p>KidsLoveColor is intuïtief en reclamevrij. Kinderen kunnen zelf een kleurplaat uitzoeken en veilig printen.</p>
@@ -211,9 +223,9 @@ function renderDetail(page, language = 'nl') {
       ${newsHtml}
     </article>
   </main>
-  <footer>© KidsLoveColor · ${chinese ? '适合在家和学校使用的免费涂色页' : 'Gratis kleurplaten voor thuis en op school'}</footer>
+  <footer>© KidsLoveColor · ${chinese ? '适合在家和学校使用的免费涂色页' : english ? 'Free coloring pages for home and school' : 'Gratis kleurplaten voor thuis en op school'}</footer>
   <script type="application/json" id="coloringPageData">${actionData}</script>
-  <script src="/js/coloring-detail.js" defer></script>
+  <script src="/js/coloring-detail.js${english ? '?v=20261117-en' : ''}" defer></script>
 </body>
 </html>`;
 
@@ -226,23 +238,25 @@ function main() {
   if (!coloringsMatch) throw new Error('COLORINGS not found');
   const colorings = eval(coloringsMatch[1]);
   const newOnly = process.argv.includes('--new-only');
-  const chinese = process.argv.includes('--lang=zh');
+  const language = process.argv.find(arg => arg.startsWith('--lang='))?.slice(7) || 'nl';
+  if (!Object.hasOwn(detailLanguages, language)) throw new Error(`Unsupported language: ${language}`);
+  const translatedSlugs = localizedSlugs[language];
   const syncRoutes = process.argv.includes('--sync-routes');
-  if (chinese && syncRoutes) throw new Error('Chinese detail generation does not synchronize Dutch rewrites');
+  if (translatedSlugs && syncRoutes) throw new Error('Localized detail generation does not synchronize Dutch rewrites');
   const requestedSlugs = new Set(process.argv.filter(argument => argument.startsWith('--slug=')).map(argument => argument.slice(7)));
   for (const slug of requestedSlugs) {
     if (!colorings.some(page => page.slug === slug)) throw new Error(`Unknown coloring slug: ${slug}`);
-    if (chinese && !chineseColoringSlugs.has(slug)) throw new Error(`No Chinese detail page configured for ${slug}`);
+    if (translatedSlugs && !translatedSlugs.has(slug)) throw new Error(`No ${language} detail page configured for ${slug}`);
   }
   let created = 0;
   for (const page of colorings) {
     if (requestedSlugs.size && !requestedSlugs.has(page.slug)) continue;
-    if (chinese && !chineseColoringSlugs.has(page.slug)) continue;
-    const directory = path.join(__dirname, coloringDetailPath(page.slug, chinese ? 'zh' : 'nl').slice(1));
+    if (translatedSlugs && !translatedSlugs.has(page.slug)) continue;
+    const directory = path.join(__dirname, coloringDetailPath(page.slug, language).slice(1));
     const filename = path.join(directory, 'index.html');
     if (newOnly && fs.existsSync(filename)) continue;
     fs.mkdirSync(directory, {recursive: true});
-    fs.writeFileSync(filename, renderDetail(page, chinese ? 'zh' : 'nl'), 'utf8');
+    fs.writeFileSync(filename, renderDetail(page, language), 'utf8');
     created++;
   }
   if (syncRoutes) syncVercelRewrites(colorings);
