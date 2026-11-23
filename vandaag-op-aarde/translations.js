@@ -3015,3 +3015,512 @@ Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
     ]
   }
 });
+
+Object.assign(WORLD_STORY_TRANSLATIONS.en, {
+  "voyager-een-lichtdag-van-huis": {
+    "title": "A space greeting takes a whole day",
+    "location": "Interstellar space · team in California, USA",
+    "reportedDate": "19 November 2026",
+    "theme": "Space exploration",
+    "intro": "Voyager 1 is so far away that its radio signal needs a whole day to reach Earth.",
+    "body": "On 18 November, Voyager 1 reached a special distance: one light-day from Earth. That means the distance light travels in 24 hours. Radio waves travel just as fast. Even so, a signal from this distant explorer took a whole day to reach us. NASA announced the milestone on 19 November.\n\nVoyager 1 left Earth in 1977. It has no pilot on board. People follow the spacecraft using large antennas on Earth. Along the way it studied Jupiter and Saturn. Now it travels through interstellar space, far beyond the region shaped by the solar wind.\n\nAt present, everything is not working as intended. Since 14 November, usable science and engineering data have stopped arriving. A simple radio signal is still there. That signal and calculations allowed the team to confirm the distance. Engineers are looking for a solution. Find the dish antenna, instruments and long booms on the coloring page.",
+    "facts": [
+      "One light-day is about 25.9 billion kilometers.",
+      "Voyager 1 launched in 1977.",
+      "At this distance, a radio signal needs about 24 hours."
+    ],
+    "question": "What would you ask a robot traveling so far from home?",
+    "referenceCredit": "NASA/JPL-Caltech · photograph from 1977 · public domain (PD-NASA). A shape reference, not a photograph of the spacecraft at its current location.",
+    "sources": [
+      {
+        "label": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+      },
+      {
+        "label": "NASA",
+        "url": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+      }
+    ]
+  },
+  "fujian-bloemen-met-bobbelblaadjes": {
+    "title": "A flower with wonderfully bumpy leaves",
+    "location": "Fujian, China",
+    "reportedDate": "18 November 2026",
+    "theme": "Plants and discovery",
+    "intro": "Researchers described a flowering plant with strikingly bumpy leaves from a mountain in China.",
+    "body": "Sometimes a discovery begins with looking very closely. In the Lingtong mountain area of Fujian, China, scientists studied a small flowering plant. Their description appeared in the botanical journal PhytoKeys on 18 November. They gave the plant the scientific name Oreocharis vesiculosa.\n\nWhat makes it special? Its leaves are almost round and have a distinctly bumpy upper surface. Think of a quilt with little raised sections. Above the leaves stand funnel-shaped flowers. They can be pale pink to pinkish purple. On your coloring page, of course, they stay white.\n\nNaming a new species takes more than finding one unusual leaf. Researchers compare several features with those of known plants, including the shape and structure of the flowers. The plant already existed before it received this name. Its scientific description is new. Our illustration imagines a rocky growing place, with leaves, flowers and buds to color.",
+    "facts": [
+      "The plant comes from Fujian in eastern China.",
+      "Its upper leaf surface is strongly bumpy.",
+      "Its flower is shaped like a small funnel."
+    ],
+    "question": "Which differences would you look for in two plants that seem almost identical?",
+    "referenceCredit": "Bin Chen · figure 1 in Nie and colleagues (2026) · CC BY 4.0. Photograph of the studied plant; visual reference only.",
+    "sources": [
+      {
+        "label": "PhytoKeys",
+        "url": "https://phytokeys.pensoft.net/article/202498/"
+      },
+      {
+        "label": "Species New to Science",
+        "url": "https://novataxa.blogspot.com/2026/11/oreochaves.html"
+      }
+    ]
+  },
+  "sulawesi-boomkikker-bij-bergpoel": {
+    "title": "A tree frog gets a name of its own",
+    "location": "Sulawesi, Indonesia",
+    "reportedDate": "17 November 2026",
+    "theme": "Animals and research",
+    "intro": "A frog from the mountains of Sulawesi is a distinct species. Recordings of its calls helped researchers.",
+    "body": "High in Sulawesi’s mountains, frogs live beside a small mountain pond. Researchers from Indonesia and the United States have described one of these frogs as a separate species. UC Davis shared the news on 17 November. The study itself appeared in Zootaxa on 11 November.\n\nThe species is called Rhacophorus kurniatiae. It belongs to a group of tree frogs known as flying frogs. They do not fly with wings. Their broad webbed feet can help them glide between trees. Round toe pads help them hold on to branches.\n\nThe researchers compared body features, genetic material and sound recordings. The frog also stood out because its eggs develop in a jelly-like mass. Fieldwork took place between 2009 and 2013, so this was not a discovery made just this week. Careful research can take a long time. On the coloring page, a tree frog rests above a pond among leaves and ferns.",
+    "facts": [
+      "Sulawesi is an island in Indonesia.",
+      "Researchers also compared recordings of the frog’s calls.",
+      "Broad webbing helps this group of frogs glide."
+    ],
+    "question": "How would you tell animals apart when they look almost the same?",
+    "referenceCredit": "Wahyu Trilaksono / Museum Zoologicum Bogoriense · the source permits downloads with credit. Visual reference only; the photograph is not republished.",
+    "sources": [
+      {
+        "label": "UC Davis",
+        "url": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+      },
+      {
+        "label": "Zootaxa",
+        "url": "https://www.mapress.com/zt/article/view/zootaxa.5900.4.3"
+      }
+    ]
+  },
+  "abu-dhabi-ontdekken-door-microscopen": {
+    "title": "Tiny nature grows big at the museum",
+    "location": "Abu Dhabi, United Arab Emirates",
+    "reportedDate": "18 November 2026",
+    "theme": "Learning and science",
+    "intro": "A new discovery space invites children to look closely at plants, insects and minerals.",
+    "body": "A tiny leaf can hold many surprises. A new discovery space called Curiosity Lab was scheduled to become available from 22 November at the Natural History Museum Abu Dhabi. That date marked the museum’s first anniversary. The programme was announced on 18 November.\n\nThe first theme is Into the Micro World. It focuses on things that become easier to explore when magnified. Children and their families can investigate plants, insects and minerals using microscopes. There are also tactile stations, creative activities and large close-up photographs. Looking, feeling, asking questions and making discoveries are all part of the idea.\n\nUnder a microscope, tiny shapes and structures become noticeable. A leaf is much more than a flat green piece of nature. You might wonder about the lines running through it. Our coloring page shows two imaginary young researchers at a table with leaves and minerals. It is an original illustration, not an exact picture of the museum’s interior.",
+    "facts": [
+      "The museum opened in November 2025.",
+      "Curiosity Lab is designed for ages three and above and their families.",
+      "The first theme explores insects, plants and minerals."
+    ],
+    "question": "Which small natural object would you like to examine under a microscope?",
+    "referenceCredit": "Stephanie cheks · microscope photograph, 17 November 2025 · CC BY-SA 4.0. An equipment reference, not a photograph taken in Curiosity Lab.",
+    "sources": [
+      {
+        "label": "Museum",
+        "url": "https://www.nhmad.ae/en/event/celebrate-a-year-full-of-curiosity"
+      },
+      {
+        "label": "WAM",
+        "url": "https://www.wam.ae/en/article/c3bg9es-natural-history-museum-abu-dhabi-mark-first"
+      }
+    ]
+  },
+  "dakar-samen-leren-door-sport": {
+    "title": "In Dakar, sport includes learning together",
+    "location": "Dakar, Senegal",
+    "reportedDate": "20 November 2026",
+    "theme": "Cooperation and sport",
+    "intro": "Thousands of young people met in Dakar to talk about sport, learning and friendship.",
+    "body": "Sport is about more than running fastest or scoring the most points. In Dakar, Senegal, more than 3,000 young people gathered at a house for learning and conversation. Called La Case des Valeurs Olympiques, it was part of the Youth Olympic Games. Activities took place from 1 to 13 November. A report looking back appeared this week.\n\nParticipants were between ten and twenty years old. They met athletes and educators, asked questions and shared ideas. Sessions covered education, cooperation and making room for different people. There were also knowledge competitions for school and university students.\n\nThe house stood on Dakar’s Corniche Ouest, a coastal road. Its idea drew on gathering and sharing knowledge. Our coloring page represents that with three imaginary young people completing a puzzle together. It is not a photograph or an exact account of a particular workshop. Can you see how their different actions help them finish something together?",
+    "facts": [
+      "More than 3,000 young people participated.",
+      "The programme ran from 1 to 13 November.",
+      "The meeting place stood on Dakar’s Corniche Ouest."
+    ],
+    "question": "What could you do to include someone who is new to your group?",
+    "referenceCredit": "Tbo47 · Corniche Ouest in Dakar, 25 May 2026 · CC0 1.0. A setting reference, not a photograph of the gathering.",
+    "sources": [
+      {
+        "label": "IOC",
+        "url": "https://www.olympics.com/ioc/news/house-of-olympic-values-put-education-at-the-heart-of-dakar-2026"
+      },
+      {
+        "label": "Olympisch Museum",
+        "url": "https://museum.olympics.com/docs/events/TheHouseofOlympicValues/EN_Media%20Brief_The%20House%20of%20Olympic%20Values.pdf"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.fr, {
+  "voyager-een-lichtdag-van-huis": {
+    "title": "Un message spatial voyage pendant une journée",
+    "location": "Espace interstellaire · équipe en Californie, États-Unis",
+    "reportedDate": "19 novembre 2026",
+    "theme": "Exploration spatiale",
+    "intro": "Voyager 1 est si loin que son signal radio met une journée entière à atteindre la Terre.",
+    "body": "Le 18 novembre, Voyager 1 a atteint une distance particulière : un jour-lumière de la Terre. C’est la distance parcourue par la lumière en 24 heures. Les ondes radio voyagent aussi vite. Pourtant, le signal de cette lointaine exploratrice a mis une journée entière à nous parvenir. La NASA a annoncé cette étape le 19 novembre.\n\nVoyager 1 a quitté la Terre en 1977, sans pilote à bord. Des équipes la suivent grâce à de grandes antennes. Après avoir étudié Jupiter et Saturne, elle voyage maintenant entre les étoiles, au-delà de la région façonnée par le vent solaire.\n\nTout ne fonctionne pas comme prévu actuellement. Depuis le 14 novembre, les données scientifiques et techniques utilisables ne parviennent plus aux équipes. Un simple signal radio reste présent. Avec des calculs, il a permis de confirmer la distance. Les ingénieurs cherchent une solution. Sur le coloriage, observe la grande antenne, les instruments et les longs bras de mesure.",
+    "facts": [
+      "Un jour-lumière correspond à environ 25,9 milliards de kilomètres.",
+      "Voyager 1 a été lancée en 1977.",
+      "À cette distance, un signal radio voyage environ 24 heures."
+    ],
+    "question": "Que demanderais-tu à un robot qui voyage si loin de chez lui ?",
+    "referenceCredit": "NASA/JPL-Caltech · photo de 1977 · domaine public (PD-NASA). Référence de forme, pas une photo de la sonde à son emplacement actuel.",
+    "sources": [
+      {
+        "label": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+      },
+      {
+        "label": "NASA",
+        "url": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+      }
+    ]
+  },
+  "fujian-bloemen-met-bobbelblaadjes": {
+    "title": "Une fleur aux feuilles toutes bosselées",
+    "location": "Fujian, Chine",
+    "reportedDate": "18 novembre 2026",
+    "theme": "Plantes et découvertes",
+    "intro": "Des scientifiques ont décrit une plante aux feuilles très bosselées dans une montagne chinoise.",
+    "body": "Parfois, une découverte commence en regardant très attentivement. Dans les montagnes de Lingtong, au Fujian, en Chine, des scientifiques ont étudié une petite plante à fleurs. Leur description est parue le 18 novembre dans la revue botanique PhytoKeys. Ils lui ont donné le nom scientifique Oreocharis vesiculosa.\n\nQue remarque-t-on ? Les feuilles sont presque rondes, avec une face supérieure nettement bosselée. Elles font penser à une couverture matelassée aux petits compartiments gonflés. Au-dessus se dressent des fleurs en forme d’entonnoir. Elles peuvent être rose pâle à rose violacé. Sur ton coloriage, elles restent bien sûr blanches.\n\nPour nommer une nouvelle espèce, une seule feuille étonnante ne suffit pas. Les chercheurs comparent plusieurs caractères à ceux de plantes déjà connues, notamment la forme et la structure des fleurs. La plante existait avant de recevoir ce nom : c’est sa description scientifique qui est nouvelle. Notre dessin imagine son petit coin rocheux, avec des feuilles, des fleurs et des boutons.",
+    "facts": [
+      "La plante vient du Fujian, dans l’est de la Chine.",
+      "Le dessus de ses feuilles est fortement bosselé.",
+      "Ses fleurs ressemblent à de petits entonnoirs."
+    ],
+    "question": "Quelles différences chercherais-tu entre deux plantes presque identiques ?",
+    "referenceCredit": "Bin Chen · figure 1 dans Nie et ses collègues (2026) · CC BY 4.0. Photo de la plante étudiée ; référence visuelle uniquement.",
+    "sources": [
+      {
+        "label": "PhytoKeys",
+        "url": "https://phytokeys.pensoft.net/article/202498/"
+      },
+      {
+        "label": "Species New to Science",
+        "url": "https://novataxa.blogspot.com/2026/11/oreochaves.html"
+      }
+    ]
+  },
+  "sulawesi-boomkikker-bij-bergpoel": {
+    "title": "Une rainette reçoit son propre nom",
+    "location": "Sulawesi, Indonésie",
+    "reportedDate": "17 novembre 2026",
+    "theme": "Animaux et recherche",
+    "intro": "Une grenouille des montagnes de Sulawesi est une espèce distincte. Son chant a aidé les chercheurs.",
+    "body": "Dans les montagnes de Sulawesi, des grenouilles vivent près d’une petite mare. Des chercheurs indonésiens et américains ont décrit l’une d’elles comme une espèce distincte. UC Davis l’a annoncé le 17 novembre. L’étude était parue le 11 novembre dans Zootaxa.\n\nSon nom est Rhacophorus kurniatiae. Elle appartient à un groupe de rainettes appelées grenouilles volantes. Elles ne volent pas avec des ailes : leurs larges palmures peuvent les aider à planer entre les arbres. Le bout arrondi de leurs doigts les aide à s’accrocher aux branches.\n\nLes scientifiques ont comparé des caractères physiques, du matériel génétique et des enregistrements sonores. Les œufs de cette grenouille se développent aussi dans une masse gélatineuse particulière. Le travail de terrain a eu lieu entre 2009 et 2013 : la découverte ne date donc pas de cette semaine. Une recherche soignée prend du temps. Sur le coloriage, une rainette se repose au-dessus d’une mare, parmi feuilles et fougères.",
+    "facts": [
+      "Sulawesi est une île indonésienne.",
+      "Les chercheurs ont aussi comparé les chants enregistrés.",
+      "Les larges palmures aident ce groupe de grenouilles à planer."
+    ],
+    "question": "Comment distinguerais-tu des animaux qui se ressemblent beaucoup ?",
+    "referenceCredit": "Wahyu Trilaksono / Museum Zoologicum Bogoriense · la source autorise le téléchargement avec crédit. Référence visuelle uniquement ; photo non republiée.",
+    "sources": [
+      {
+        "label": "UC Davis",
+        "url": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+      },
+      {
+        "label": "Zootaxa",
+        "url": "https://www.mapress.com/zt/article/view/zootaxa.5900.4.3"
+      }
+    ]
+  },
+  "abu-dhabi-ontdekken-door-microscopen": {
+    "title": "La petite nature devient grande au musée",
+    "location": "Abou Dhabi, Émirats arabes unis",
+    "reportedDate": "18 novembre 2026",
+    "theme": "Apprentissage et science",
+    "intro": "Un nouvel espace invite les enfants à observer de près plantes, insectes et minéraux.",
+    "body": "Une petite feuille peut réserver bien des surprises. Au musée d’histoire naturelle d’Abou Dhabi, l’accès à un nouvel espace, Curiosity Lab, était prévu à partir du 22 novembre. Cette date marquait le premier anniversaire du musée. Le programme avait été annoncé le 18 novembre.\n\nLe premier thème s’appelle Into the Micro World. Il permet d’explorer ce qui devient plus facile à observer quand on l’agrandit. Enfants et familles peuvent examiner plantes, insectes et minéraux au microscope. Des stations tactiles, des activités créatives et de grandes photographies de détails complètent l’ensemble. Il s’agit d’observer, de toucher, de poser des questions et de découvrir.\n\nAu microscope, de petites formes et structures deviennent visibles. Une feuille est bien plus qu’un morceau de nature plat et vert. On peut s’interroger sur les lignes qui la traversent. Notre coloriage représente deux jeunes chercheurs imaginaires avec des feuilles et des minéraux. Ce n’est pas une reproduction exacte de l’intérieur du musée.",
+    "facts": [
+      "Le musée a ouvert en novembre 2025.",
+      "Curiosity Lab s’adresse aux enfants dès trois ans et à leurs familles.",
+      "Le premier thème porte sur les insectes, les plantes et les minéraux."
+    ],
+    "question": "Quel petit objet naturel aimerais-tu examiner au microscope ?",
+    "referenceCredit": "Stephanie cheks · photo d’un microscope du 17 novembre 2025 · CC BY-SA 4.0. Référence de matériel ; photo non prise dans Curiosity Lab.",
+    "sources": [
+      {
+        "label": "Museum",
+        "url": "https://www.nhmad.ae/en/event/celebrate-a-year-full-of-curiosity"
+      },
+      {
+        "label": "WAM",
+        "url": "https://www.wam.ae/en/article/c3bg9es-natural-history-museum-abu-dhabi-mark-first"
+      }
+    ]
+  },
+  "dakar-samen-leren-door-sport": {
+    "title": "À Dakar, le sport fait apprendre ensemble",
+    "location": "Dakar, Sénégal",
+    "reportedDate": "20 novembre 2026",
+    "theme": "Coopération et sport",
+    "intro": "Des milliers de jeunes se sont réunis à Dakar pour parler de sport, d’apprentissage et d’amitié.",
+    "body": "Le sport ne consiste pas seulement à courir le plus vite ou à marquer le plus de points. À Dakar, au Sénégal, plus de 3 000 jeunes se sont réunis dans une maison consacrée aux échanges et à l’apprentissage. La Case des Valeurs Olympiques faisait partie des Jeux Olympiques de la Jeunesse. Les activités ont eu lieu du 1er au 13 novembre. Un bilan est paru cette semaine.\n\nLes participants avaient entre dix et vingt ans. Ils ont rencontré sportifs et éducateurs, posé des questions et partagé des idées. Les séances abordaient notamment l’éducation, la coopération et la place des personnes différentes. Des concours de connaissances réunissaient aussi élèves et étudiants.\n\nLa maison se trouvait sur la Corniche Ouest, une route côtière de Dakar. Elle s’inspirait des rencontres et du partage des savoirs. Notre coloriage représente cette idée avec trois jeunes imaginaires réalisant un puzzle. Il ne décrit pas un atelier précis. Observe comment chacun aide le groupe à terminer.",
+    "facts": [
+      "Plus de 3 000 jeunes ont participé.",
+      "Le programme s’est déroulé du 1er au 13 novembre.",
+      "Le lieu de rencontre se trouvait sur la Corniche Ouest."
+    ],
+    "question": "Que ferais-tu pour accueillir une nouvelle personne dans ton groupe ?",
+    "referenceCredit": "Tbo47 · Corniche Ouest à Dakar, 25 mai 2026 · CC0 1.0. Référence du cadre ; ce n’est pas une photo de la rencontre.",
+    "sources": [
+      {
+        "label": "IOC",
+        "url": "https://www.olympics.com/ioc/news/house-of-olympic-values-put-education-at-the-heart-of-dakar-2026"
+      },
+      {
+        "label": "Olympisch Museum",
+        "url": "https://museum.olympics.com/docs/events/TheHouseofOlympicValues/EN_Media%20Brief_The%20House%20of%20Olympic%20Values.pdf"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.es, {
+  "voyager-een-lichtdag-van-huis": {
+    "title": "Un saludo espacial tarda un día entero",
+    "location": "Espacio interestelar · equipo en California, Estados Unidos",
+    "reportedDate": "19 de noviembre de 2026",
+    "theme": "Exploración espacial",
+    "intro": "La Voyager 1 está tan lejos que su señal de radio necesita un día entero para llegar a la Tierra.",
+    "body": "El 18 de noviembre, la Voyager 1 alcanzó una distancia especial: un día luz de la Tierra. Es la distancia que recorre la luz en 24 horas. Las ondas de radio viajan igual de rápido. Aun así, la señal de esta exploradora lejana tardó un día entero en llegar. La NASA anunció el hito el 19 de noviembre.\n\nLa Voyager 1 salió en 1977 sin piloto a bordo. Desde la Tierra, los equipos la siguen con grandes antenas. Tras estudiar Júpiter y Saturno, ahora viaja entre las estrellas, más allá de la región marcada por el viento solar.\n\nActualmente no todo funciona como debería. Desde el 14 de noviembre no llegan datos científicos ni técnicos utilizables. Sí continúa una señal de radio sencilla. Esa señal y los cálculos permitieron confirmar la distancia. Los ingenieros buscan una solución. En el dibujo puedes descubrir la antena parabólica, los instrumentos y los largos brazos de medición.",
+    "facts": [
+      "Un día luz equivale a unos 25.900 millones de kilómetros.",
+      "La Voyager 1 se lanzó en 1977.",
+      "A esta distancia, una señal de radio tarda unas 24 horas."
+    ],
+    "question": "¿Qué le preguntarías a un robot que viaja tan lejos de casa?",
+    "referenceCredit": "NASA/JPL-Caltech · fotografía de 1977 · dominio público (PD-NASA). Referencia de la forma; no muestra la sonda en su posición actual.",
+    "sources": [
+      {
+        "label": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+      },
+      {
+        "label": "NASA",
+        "url": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+      }
+    ]
+  },
+  "fujian-bloemen-met-bobbelblaadjes": {
+    "title": "Una flor con hojas llenas de bultitos",
+    "location": "Fujian, China",
+    "reportedDate": "18 de noviembre de 2026",
+    "theme": "Plantas y descubrimientos",
+    "intro": "Unos investigadores describieron una planta de flores con hojas muy abultadas en una montaña china.",
+    "body": "A veces un descubrimiento empieza al mirar con mucha atención. En la zona montañosa de Lingtong, en Fujian, China, unos científicos estudiaron una pequeña planta con flores. Su descripción apareció el 18 de noviembre en la revista botánica PhytoKeys. Le dieron el nombre científico Oreocharis vesiculosa.\n\n¿Qué llama la atención? Sus hojas son casi redondas y tienen la cara superior claramente abultada. Recuerdan a una manta acolchada con pequeñas partes hinchadas. Sobre ellas crecen flores con forma de embudo. Pueden ser rosa pálido o rosa violáceo. En tu dibujo para colorear, por supuesto, permanecen blancas.\n\nNombrar una especie nueva requiere más que encontrar una hoja curiosa. Los investigadores comparan distintos rasgos con los de plantas conocidas, como la forma y la estructura de las flores. La planta ya existía antes de recibir su nombre: lo nuevo es la descripción científica. Nuestra ilustración imagina un rincón rocoso con hojas, flores y capullos para colorear.",
+    "facts": [
+      "La planta procede de Fujian, en el este de China.",
+      "La cara superior de sus hojas es muy abultada.",
+      "La flor tiene forma de pequeño embudo."
+    ],
+    "question": "¿Qué diferencias buscarías entre dos plantas que parecen casi iguales?",
+    "referenceCredit": "Bin Chen · figura 1 de Nie y colaboradores (2026) · CC BY 4.0. Fotografía de la planta estudiada; solo como referencia visual.",
+    "sources": [
+      {
+        "label": "PhytoKeys",
+        "url": "https://phytokeys.pensoft.net/article/202498/"
+      },
+      {
+        "label": "Species New to Science",
+        "url": "https://novataxa.blogspot.com/2026/11/oreochaves.html"
+      }
+    ]
+  },
+  "sulawesi-boomkikker-bij-bergpoel": {
+    "title": "Una rana arborícola recibe su propio nombre",
+    "location": "Sulawesi, Indonesia",
+    "reportedDate": "17 de noviembre de 2026",
+    "theme": "Animales e investigación",
+    "intro": "Una rana de las montañas de Sulawesi es una especie diferente. Su canto ayudó a los investigadores.",
+    "body": "En las montañas de Sulawesi viven ranas junto a una pequeña charca. Investigadores de Indonesia y Estados Unidos han descrito una de ellas como una especie distinta. UC Davis compartió la noticia el 17 de noviembre. El estudio apareció en Zootaxa el 11 de noviembre.\n\nSu nombre es Rhacophorus kurniatiae. Pertenece a un grupo de ranas arborícolas conocidas como ranas voladoras. No vuelan con alas: sus amplias membranas entre los dedos pueden ayudarlas a planear entre árboles. Los extremos redondeados de los dedos les permiten agarrarse a las ramas.\n\nLos científicos compararon características del cuerpo, material genético y grabaciones de sonidos. También destacaba la masa gelatinosa donde se desarrollan sus huevos. El trabajo de campo se realizó entre 2009 y 2013: el descubrimiento no ocurrió esta semana. Una investigación cuidadosa puede llevar mucho tiempo. En el dibujo, una rana descansa sobre una charca entre hojas y helechos.",
+    "facts": [
+      "Sulawesi es una isla de Indonesia.",
+      "Los investigadores también compararon grabaciones del canto.",
+      "Las membranas anchas ayudan a este grupo de ranas a planear."
+    ],
+    "question": "¿Cómo distinguirías animales que se parecen muchísimo?",
+    "referenceCredit": "Wahyu Trilaksono / Museum Zoologicum Bogoriense · la fuente permite descargar con atribución. Solo referencia visual; la fotografía no se republica.",
+    "sources": [
+      {
+        "label": "UC Davis",
+        "url": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+      },
+      {
+        "label": "Zootaxa",
+        "url": "https://www.mapress.com/zt/article/view/zootaxa.5900.4.3"
+      }
+    ]
+  },
+  "abu-dhabi-ontdekken-door-microscopen": {
+    "title": "La naturaleza diminuta crece en el museo",
+    "location": "Abu Dabi, Emiratos Árabes Unidos",
+    "reportedDate": "18 de noviembre de 2026",
+    "theme": "Aprendizaje y ciencia",
+    "intro": "Un nuevo espacio invita a niños y familias a observar de cerca plantas, insectos y minerales.",
+    "body": "Una hoja pequeña puede guardar muchas sorpresas. En el Museo de Historia Natural de Abu Dabi estaba previsto abrir un nuevo espacio, Curiosity Lab, a partir del 22 de noviembre. Ese día era el primer aniversario del museo. El programa se anunció el 18 de noviembre.\n\nEl primer tema se llama Into the Micro World. Se centra en cosas que resultan más fáciles de explorar cuando las aumentamos. Los niños y sus familias pueden investigar plantas, insectos y minerales con microscopios. También hay estaciones táctiles, actividades creativas y grandes fotografías de detalles. La idea es observar, tocar, preguntar y descubrir.\n\nCon un microscopio aparecen pequeñas formas y estructuras. Una hoja es mucho más que un trocito verde y plano de naturaleza. Podemos preguntarnos por las líneas que la recorren. Nuestro dibujo muestra a dos jóvenes investigadores imaginarios con hojas y minerales. Es una ilustración original, no una copia exacta del interior del museo.",
+    "facts": [
+      "El museo abrió en noviembre de 2025.",
+      "Curiosity Lab está pensado para niños desde tres años y sus familias.",
+      "El primer tema trata de insectos, plantas y minerales."
+    ],
+    "question": "¿Qué objeto pequeño de la naturaleza te gustaría observar con un microscopio?",
+    "referenceCredit": "Stephanie cheks · fotografía de un microscopio, 17 de noviembre de 2025 · CC BY-SA 4.0. Referencia del equipo; no fue tomada en Curiosity Lab.",
+    "sources": [
+      {
+        "label": "Museum",
+        "url": "https://www.nhmad.ae/en/event/celebrate-a-year-full-of-curiosity"
+      },
+      {
+        "label": "WAM",
+        "url": "https://www.wam.ae/en/article/c3bg9es-natural-history-museum-abu-dhabi-mark-first"
+      }
+    ]
+  },
+  "dakar-samen-leren-door-sport": {
+    "title": "En Dakar, el deporte también une para aprender",
+    "location": "Dakar, Senegal",
+    "reportedDate": "20 de noviembre de 2026",
+    "theme": "Cooperación y deporte",
+    "intro": "Miles de jóvenes se reunieron en Dakar para hablar de deporte, aprendizaje y amistad.",
+    "body": "El deporte no consiste solo en correr más rápido o sumar más puntos. En Dakar, Senegal, más de 3.000 jóvenes se reunieron en una casa dedicada a aprender y conversar. Se llamaba La Case des Valeurs Olympiques y formaba parte de los Juegos Olímpicos de la Juventud. Las actividades tuvieron lugar del 1 al 13 de noviembre. Esta semana apareció un balance.\n\nLos participantes tenían entre diez y veinte años. Conocieron a deportistas y educadores, hicieron preguntas y compartieron ideas. Las sesiones trataron de educación, cooperación y cómo dar espacio a personas diferentes. También hubo concursos de conocimientos para alumnos y universitarios.\n\nLa casa estaba en la Corniche Ouest, una carretera costera de Dakar. Su idea se inspiraba en reunirse y compartir conocimientos. Nuestro dibujo representa eso con tres jóvenes imaginarios que completan un rompecabezas. No es una fotografía ni el relato de un taller concreto. Mira cómo cada uno ayuda al grupo a terminar.",
+    "facts": [
+      "Participaron más de 3.000 jóvenes.",
+      "El programa se desarrolló del 1 al 13 de noviembre.",
+      "El lugar de encuentro estaba en la Corniche Ouest de Dakar."
+    ],
+    "question": "¿Qué puedes hacer para incluir a alguien que acaba de llegar a tu grupo?",
+    "referenceCredit": "Tbo47 · Corniche Ouest en Dakar, 25 de mayo de 2026 · CC0 1.0. Referencia del entorno, no una fotografía del encuentro.",
+    "sources": [
+      {
+        "label": "IOC",
+        "url": "https://www.olympics.com/ioc/news/house-of-olympic-values-put-education-at-the-heart-of-dakar-2026"
+      },
+      {
+        "label": "Olympisch Museum",
+        "url": "https://museum.olympics.com/docs/events/TheHouseofOlympicValues/EN_Media%20Brief_The%20House%20of%20Olympic%20Values.pdf"
+      }
+    ]
+  }
+});
+Object.assign(WORLD_STORY_TRANSLATIONS.zh, {
+  "voyager-een-lichtdag-van-huis": {
+    "title": "一声太空问候要走一整天",
+    "location": "星际空间 · 团队位于美国加利福尼亚州",
+    "reportedDate": "2026年11月19日",
+    "theme": "太空探索",
+    "intro": "旅行者1号离我们非常遥远，它的无线电信号需要一整天才能到达地球。",
+    "body": "11月18日，旅行者1号到达了离地球一个光日的距离。一个光日，就是光在24小时内走过的距离。无线电波也传播得这么快。即使如此，这位遥远探索者的信号仍然要走一整天。美国航天局在11月19日公布了这个里程碑。\n\n旅行者1号于1977年出发，里面没有驾驶员。地球上的工作人员用大型天线跟踪它。它曾研究木星和土星，如今正在太阳风影响区域之外的星际空间旅行。\n\n不过，目前并不是所有设备都按计划工作。从11月14日起，团队没有收到可用的科学和工程数据，但仍能收到一种简单的无线电信号。团队结合信号和计算确认了距离。工程师正在寻找解决办法。在涂色页上，你可以寻找碟形天线、仪器和长长的探测杆。",
+    "facts": [
+      "一个光日约为259亿千米。",
+      "旅行者1号于1977年发射。",
+      "在这个距离，无线电信号需要约24小时。"
+    ],
+    "question": "如果能向离家这么远的机器人提问，你想问什么？",
+    "referenceCredit": "NASA/JPL-Caltech · 1977年照片 · 公有领域（PD-NASA）。仅参考外形，并非探测器当前位置的照片。",
+    "sources": [
+      {
+        "label": "NASA",
+        "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+      },
+      {
+        "label": "NASA",
+        "url": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+      }
+    ]
+  },
+  "fujian-bloemen-met-bobbelblaadjes": {
+    "title": "这朵小花的叶子鼓鼓的",
+    "location": "中国福建",
+    "reportedDate": "2026年11月18日",
+    "theme": "植物与发现",
+    "intro": "研究人员描述了福建山地的一种植物，它的叶片表面有明显的隆起。",
+    "body": "有时，发现从仔细观察开始。在中国福建的灵通山地区，科学家研究了一种小型开花植物。11月18日，他们的描述发表在植物学期刊PhytoKeys上。这种植物的学名是Oreocharis vesiculosa。\n\n它有什么特别之处？叶片接近圆形，上表面有明显的鼓起部分，看上去有点像一块分成许多小格的软被子。叶子上方长着漏斗形的花，颜色可以是浅粉色或带紫色的粉色。当然，在你的涂色页上，花朵都是白色的，等你来涂。\n\n描述新物种不能只凭一片奇特的叶子。研究人员会把不同特征与已知植物比较，也观察花朵的形状和结构。这种植物早在得到名字之前就已经存在；新的是科学描述。我们的原创画面想象了它在岩石缝中生长的样子，有叶片、花朵和花蕾。",
+    "facts": [
+      "这种植物来自中国东部的福建。",
+      "叶片的上表面有明显隆起。",
+      "花朵像一个小漏斗。"
+    ],
+    "question": "如果两株植物看起来几乎一样，你会寻找哪些区别？",
+    "referenceCredit": "Bin Chen · Nie及同事（2026）论文图1 · CC BY 4.0。所研究植物的照片，仅作视觉参考。",
+    "sources": [
+      {
+        "label": "PhytoKeys",
+        "url": "https://phytokeys.pensoft.net/article/202498/"
+      },
+      {
+        "label": "Species New to Science",
+        "url": "https://novataxa.blogspot.com/2026/11/oreochaves.html"
+      }
+    ]
+  },
+  "sulawesi-boomkikker-bij-bergpoel": {
+    "title": "山间树蛙有了自己的名字",
+    "location": "印度尼西亚苏拉威西岛",
+    "reportedDate": "2026年11月17日",
+    "theme": "动物与研究",
+    "intro": "苏拉威西山地的一种树蛙被描述为独立物种，叫声录音也帮助了研究。",
+    "body": "在苏拉威西岛的高山上，一处小池塘附近生活着树蛙。印度尼西亚和美国的研究人员把其中一种描述为独立物种。加州大学戴维斯分校于11月17日介绍了这项研究，论文已于11月11日发表在Zootaxa上。\n\n这种树蛙的学名是Rhacophorus kurniatiae。它属于常被称为“飞蛙”的树蛙类群。它们并没有翅膀，宽大的蹼可以帮助这类树蛙在树木之间滑翔。圆圆的趾端帮助它们抓住树枝。\n\n研究人员比较了身体特征、遗传物质和叫声录音。这种树蛙的卵在胶状物中发育，也是引人注意的特点。野外调查其实是在2009年至2013年进行的，所以不能说它是本周才被发现的。细致的研究可能需要很长时间。涂色页上的树蛙安静地停在池塘上方，四周有叶子和蕨类植物。",
+    "facts": [
+      "苏拉威西是印度尼西亚的一座岛。",
+      "研究人员也比较了树蛙的叫声录音。",
+      "宽大的蹼帮助这类树蛙滑翔。"
+    ],
+    "question": "如果两种动物非常相像，你会怎样分辨它们？",
+    "referenceCredit": "Wahyu Trilaksono / Museum Zoologicum Bogoriense · 来源页允许注明作者后下载。仅作视觉参考，本站不转载照片。",
+    "sources": [
+      {
+        "label": "UC Davis",
+        "url": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+      },
+      {
+        "label": "Zootaxa",
+        "url": "https://www.mapress.com/zt/article/view/zootaxa.5900.4.3"
+      }
+    ]
+  },
+  "abu-dhabi-ontdekken-door-microscopen": {
+    "title": "博物馆里，小小自然变大了",
+    "location": "阿拉伯联合酋长国阿布扎比",
+    "reportedDate": "2026年11月18日",
+    "theme": "学习与科学",
+    "intro": "一个新的探索空间让孩子和家人近距离观察植物、昆虫和矿物。",
+    "body": "一片小叶子也能藏着许多惊喜。阿布扎比自然历史博物馆计划从11月22日起开放名为Curiosity Lab的探索空间。那天是博物馆开放一周年，活动安排于11月18日公布。\n\n第一个主题叫作Into the Micro World，也就是走进微小的世界。孩子和家人可以使用显微镜研究植物、昆虫和矿物。空间还安排了触摸探索、创作活动，以及放大的细节照片。重点是观察、感受、提问和自己发现。\n\n通过显微镜，微小的形状和结构会变得明显。一片叶子就不再只是一小片平平的绿色。你也许会好奇：叶子里的线条为什么这样分布？我们的涂色页画了两位虚构的小小研究者，桌上有叶子和矿物。这是配合新闻创作的想象画面，并不是博物馆内部布置的精确复制，也不把计划开放当成已经独立证实的事实。",
+    "facts": [
+      "博物馆于2025年11月开放。",
+      "Curiosity Lab面向三岁及以上儿童和家人。",
+      "第一个主题包括昆虫、植物和矿物。"
+    ],
+    "question": "你想把哪件小小的自然物品放在显微镜下观察？",
+    "referenceCredit": "Stephanie cheks · 2025年11月17日显微镜照片 · CC BY-SA 4.0。仅参考仪器，并非Curiosity Lab内部照片。",
+    "sources": [
+      {
+        "label": "Museum",
+        "url": "https://www.nhmad.ae/en/event/celebrate-a-year-full-of-curiosity"
+      },
+      {
+        "label": "WAM",
+        "url": "https://www.wam.ae/en/article/c3bg9es-natural-history-museum-abu-dhabi-mark-first"
+      }
+    ]
+  },
+  "dakar-samen-leren-door-sport": {
+    "title": "在达喀尔，通过运动一起学习",
+    "location": "塞内加尔达喀尔",
+    "reportedDate": "2026年11月20日",
+    "theme": "合作与运动",
+    "intro": "数千名年轻人在达喀尔相聚，一起交流运动、学习和友谊。",
+    "body": "运动不只是比谁跑得快或得分多。在塞内加尔达喀尔，三千多名年轻人来到一处交流学习的场所。它叫La Case des Valeurs Olympiques，是青年奥林匹克运动会期间的教育空间。活动从11月1日持续到13日，本周发表了回顾报道。\n\n参与者年龄在十岁到二十岁之间。他们与运动员和教育工作者见面、提问、分享想法。活动讨论了教育、合作，以及怎样让不同的人都能参与。学生和大学生还参加了知识竞赛。\n\n这处场所位于达喀尔的Corniche Ouest海滨道路。它的构想来自相聚与分享知识。我们的涂色页用三位虚构年轻人合作完成拼图的画面来表达这个意思。它不是某个工作坊的照片，也不把想象的活动写成真实发生的新闻细节。看看每个人不同的动作，是怎样帮助大家一起完成任务的？",
+    "facts": [
+      "三千多名年轻人参加了活动。",
+      "活动日期为11月1日至13日。",
+      "交流场所位于达喀尔的Corniche Ouest。"
+    ],
+    "question": "有新伙伴来到你的小组时，你可以怎样邀请他或她一起参与？",
+    "referenceCredit": "Tbo47 · 达喀尔Corniche Ouest，2026年5月25日 · CC0 1.0。仅参考环境，不是上述活动的照片。",
+    "sources": [
+      {
+        "label": "IOC",
+        "url": "https://www.olympics.com/ioc/news/house-of-olympic-values-put-education-at-the-heart-of-dakar-2026"
+      },
+      {
+        "label": "Olympisch Museum",
+        "url": "https://museum.olympics.com/docs/events/TheHouseofOlympicValues/EN_Media%20Brief_The%20House%20of%20Olympic%20Values.pdf"
+      }
+    ]
+  }
+});

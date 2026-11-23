@@ -6,6 +6,166 @@
  */
 const WORLD_STORY_EDITIONS = [
   {
+    "published": "2026-11-23",
+    "stories": [
+      {
+        "slug": "voyager-een-lichtdag-van-huis",
+        "title": "Een ruimtegroet doet er een dag over",
+        "location": "Interstellaire ruimte · team in Californië, VS",
+        "reportedDate": "19 november 2026",
+        "theme": "Ruimtevaart",
+        "icon": "🛰️",
+        "intro": "Voyager 1 is zo ver weg dat zijn radiosignaal een hele dag naar de aarde reist.",
+        "body": "Op 18 november bereikte ruimtesonde Voyager 1 een bijzondere afstand: één lichtdag van de aarde. Dat is de afstand die licht in 24 uur aflegt. Ook radiogolven reizen zo snel. Toch deed het signaal van deze verre verkenner er een hele dag over om ons te bereiken. NASA maakte de mijlpaal op 19 november bekend.\n\nVoyager 1 vertrok in 1977. Er zit geen piloot in: mensen op aarde volgen de sonde met grote antennes. Onderweg onderzocht hij Jupiter en Saturnus. Nu reist hij door de ruimte tussen de sterren, ver buiten de invloedssfeer van de zonnewind.\n\nNiet alles werkt op dit moment zoals bedoeld. Sinds 14 november komen er geen bruikbare onderzoeksgegevens en technische gegevens binnen. Een eenvoudig radiosignaal is er wel. Daarmee en met berekeningen kon het team de afstand bevestigen. Technici zoeken naar een oplossing. Op de kleurplaat kun je de schotelantenne, instrumenten en lange meetarmen ontdekken.",
+        "facts": [
+          "Een lichtdag is ongeveer 25,9 miljard kilometer.",
+          "Voyager 1 werd in 1977 gelanceerd.",
+          "Een radiosignaal heeft op deze afstand ongeveer 24 uur nodig."
+        ],
+        "question": "Wat zou jij willen weten van een robot die zo ver van huis reist?",
+        "sources": [
+          {
+            "label": "NASA — mijlpaal én actuele storing",
+            "url": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/"
+          },
+          {
+            "label": "NASA — geschiedenis en werking van de missie",
+            "url": "https://science.nasa.gov/mission/voyager/fact-sheet/"
+          }
+        ],
+        "referenceUrl": "https://commons.wikimedia.org/wiki/File:Voyager.jpg",
+        "referenceCredit": "NASA/JPL-Caltech · foto uit 1977 · publiek domein (PD-NASA). Alleen vormreferentie; geen foto van de sonde op haar huidige plek.",
+        "coloringSlug": "voyager-een-lichtdag-van-huis",
+        "sourceUrl": "https://www.nasa.gov/news-release/nasas-voyager-1-makes-history-reaching-one-light-day-from-earth/",
+        "sourceLabel": "NASA — mijlpaal én actuele storing"
+      },
+      {
+        "slug": "fujian-bloemen-met-bobbelblaadjes",
+        "title": "Een bloem met bijzondere bobbelblaadjes",
+        "location": "Fujian, China",
+        "reportedDate": "18 november 2026",
+        "theme": "Planten en ontdekken",
+        "icon": "🌸",
+        "intro": "Op een berg in China beschreven onderzoekers een plant met opvallend bobbelige bladeren.",
+        "body": "Soms begint een ontdekking met heel goed kijken. In het Lingtong-berggebied in de Chinese provincie Fujian onderzochten wetenschappers een kleine bloeiende plant. Op 18 november verscheen hun beschrijving in het plantenblad PhytoKeys. De plant kreeg de wetenschappelijke naam Oreocharis vesiculosa.\n\nWat valt er zo op? De bladeren zijn bijna rond en hebben een duidelijk bobbelige bovenkant. Het lijkt een beetje op een dekentje met opgebolde vakjes. Boven de bladeren staan bloemen met een trechtervorm. Ze kunnen lichtroze tot roze-paars zijn. Voor jouw kleurplaat blijven ze natuurlijk wit.\n\nEen nieuwe soort benoemen gebeurt niet op basis van één opvallend blaadje. Onderzoekers vergelijken verschillende kenmerken met die van al bekende planten. Zo letten ze ook op de vorm en bouw van de bloemen. De plant bestond al voordat hij deze naam kreeg. Nieuw is de wetenschappelijke beschrijving. Op de tekening zie je een bedachte groeiplek tussen rotsen, met bladeren, bloemen en knoppen om rustig in te kleuren.",
+        "facts": [
+          "De plant komt uit Fujian in het oosten van China.",
+          "De bovenzijde van het blad is sterk bobbelig.",
+          "De bloem heeft de vorm van een kleine trechter."
+        ],
+        "question": "Welke verschillen zou jij zoeken als twee planten bijna op elkaar lijken?",
+        "sources": [
+          {
+            "label": "PhytoKeys — oorspronkelijke soortbeschrijving, 18 november",
+            "url": "https://phytokeys.pensoft.net/article/202498/"
+          },
+          {
+            "label": "Species New to Science — kenmerken en verwijzing naar het onderzoek",
+            "url": "https://novataxa.blogspot.com/2026/11/oreochaves.html"
+          }
+        ],
+        "referenceUrl": "https://phytokeys.pensoft.net/article/202498/",
+        "referenceCredit": "Bin Chen · figuur 1 bij Nie en collega’s (2026) · CC BY 4.0. Foto van de onderzochte plant; alleen visuele referentie.",
+        "coloringSlug": "fujian-bloemen-met-bobbelblaadjes",
+        "sourceUrl": "https://phytokeys.pensoft.net/article/202498/",
+        "sourceLabel": "PhytoKeys — oorspronkelijke soortbeschrijving, 18 november"
+      },
+      {
+        "slug": "sulawesi-boomkikker-bij-bergpoel",
+        "title": "Een boomkikker krijgt een eigen naam",
+        "location": "Sulawesi, Indonesië",
+        "reportedDate": "17 november 2026",
+        "theme": "Dieren en onderzoek",
+        "icon": "🐸",
+        "intro": "Een kikker uit de bergen van Sulawesi blijkt een aparte soort. Ook zijn roep hielp bij het onderzoek.",
+        "body": "Hoog in de bergen van Sulawesi leven kikkers bij een kleine bergpoel. Onderzoekers uit Indonesië en de Verenigde Staten hebben een van deze kikkers als aparte soort beschreven. De universiteit UC Davis vertelde er op 17 november over. Het onderzoek zelf verscheen op 11 november in Zootaxa.\n\nDe soort heet Rhacophorus kurniatiae. Hij hoort bij een groep boomkikkers die vliegende kikkers wordt genoemd. Ze vliegen niet met vleugels. Hun brede zwemvliezen kunnen helpen bij het zweven tussen bomen. Op een tak hebben hun tenen ronde uiteinden waarmee ze zich kunnen vasthouden.\n\nDe onderzoekers vergeleken onder andere lichaamsvormen, erfelijk materiaal en geluidsopnamen. De kikker viel ook op door de geleiachtige massa waarin zijn eitjes zich ontwikkelen. Het veldwerk gebeurde al tussen 2009 en 2013: de ontdekking vond dus niet pas deze week plaats. Zo zie je hoeveel tijd zorgvuldig onderzoek kan kosten. Op de kleurplaat zit een boomkikker rustig boven een poel, tussen bladeren en varens.",
+        "facts": [
+          "Sulawesi is een eiland in Indonesië.",
+          "De onderzoekers vergeleken ook opnamen van de kikkerroep.",
+          "De brede zwemvliezen helpen deze groep kikkers bij het zweven."
+        ],
+        "question": "Hoe zou jij dieren uit elkaar proberen te houden als ze bijna hetzelfde eruitzien?",
+        "sources": [
+          {
+            "label": "UC Davis — toelichting op het kikkeronderzoek, 17 november",
+            "url": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia"
+          },
+          {
+            "label": "Zootaxa — oorspronkelijke publicatie, 11 november",
+            "url": "https://www.mapress.com/zt/article/view/zootaxa.5900.4.3"
+          }
+        ],
+        "referenceUrl": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia",
+        "referenceCredit": "Wahyu Trilaksono / Museum Zoologicum Bogoriense · toestemming op de bronpagina: downloaden met naamsvermelding. Alleen visuele referentie, geen herpublicatie van de foto.",
+        "coloringSlug": "sulawesi-boomkikker-bij-bergpoel",
+        "sourceUrl": "https://agriculture.ucdavis.edu/news/new-asian-flying-frog-species-identified-indonesia",
+        "sourceLabel": "UC Davis — toelichting op het kikkeronderzoek, 17 november"
+      },
+      {
+        "slug": "abu-dhabi-ontdekken-door-microscopen",
+        "title": "Kleine natuur wordt groot in het museum",
+        "location": "Abu Dhabi, Verenigde Arabische Emiraten",
+        "reportedDate": "18 november 2026",
+        "theme": "Leren en wetenschap",
+        "icon": "🔬",
+        "intro": "Een nieuwe ontdekkingsruimte laat kinderen planten, insecten en mineralen van dichtbij bekijken.",
+        "body": "Een klein blad kan vol verrassingen zitten. In het natuurhistorisch museum van Abu Dhabi is vanaf 22 november een nieuwe ontdekkingsruimte gepland: Curiosity Lab. Het museum vierde op die datum zijn eerste verjaardag. Het programma werd op 18 november aangekondigd.\n\nDe eerste invulling heet Into the Micro World. Daar draait het om dingen die je beter kunt bekijken als je ze vergroot. Kinderen en hun familie kunnen planten, insecten en mineralen onderzoeken met microscopen. Er zijn ook voelstations, creatieve activiteiten en grote detailfoto’s. Het gaat om kijken, voelen, vragen stellen en zelf ontdekken.\n\nOnder een microscoop vallen opeens kleine vormen en structuren op. Een blad is dan veel meer dan een vlak groen stukje natuur. Je kunt bijvoorbeeld nadenken over de lijnen die erdoorheen lopen. Op onze kleurplaat staan twee bedachte jonge onderzoekers aan een tafel met bladeren en mineralen. Hun tafel is een eigen illustratie bij het nieuws, geen precies nagetekende inrichting van het museum.",
+        "facts": [
+          "Het museum opende in november 2025.",
+          "Curiosity Lab is bedoeld voor kinderen vanaf drie jaar en hun familie.",
+          "De eerste invulling gaat over insecten, planten en mineralen."
+        ],
+        "question": "Welk klein voorwerp uit de natuur zou jij onder een microscoop willen bekijken?",
+        "sources": [
+          {
+            "label": "Museum — officieel programma en openingsdatum",
+            "url": "https://www.nhmad.ae/en/event/celebrate-a-year-full-of-curiosity"
+          },
+          {
+            "label": "WAM — microscopen, voelstations en eerste invulling",
+            "url": "https://www.wam.ae/en/article/c3bg9es-natural-history-museum-abu-dhabi-mark-first"
+          }
+        ],
+        "referenceUrl": "https://commons.wikimedia.org/wiki/File:A_microscope.jpg",
+        "referenceCredit": "Stephanie cheks · foto van een microscoop, 17 november 2025 · CC BY-SA 4.0. Voorwerpreferentie; niet genomen in Curiosity Lab.",
+        "coloringSlug": "abu-dhabi-ontdekken-door-microscopen",
+        "sourceUrl": "https://www.nhmad.ae/en/event/celebrate-a-year-full-of-curiosity",
+        "sourceLabel": "Museum — officieel programma en openingsdatum"
+      },
+      {
+        "slug": "dakar-samen-leren-door-sport",
+        "title": "In Dakar hoort samen leren bij sport",
+        "location": "Dakar, Senegal",
+        "reportedDate": "20 november 2026",
+        "theme": "Samenwerken en sport",
+        "icon": "🏀",
+        "intro": "Duizenden jongeren kwamen in Dakar samen om over sport, leren en vriendschap te praten.",
+        "body": "Sport gaat niet alleen over wie het snelste rent of de meeste punten maakt. In Dakar in Senegal kwamen meer dan 3.000 jongeren samen in een huis voor leren en gesprekken. Het heette La Case des Valeurs Olympiques en hoorde bij de Jeugd Olympische Spelen. De activiteiten vonden plaats van 1 tot en met 13 november. Deze week verscheen de terugblik.\n\nDe deelnemers waren tussen de tien en twintig jaar. Ze ontmoetten sporters en begeleiders, stelden vragen en deelden ideeën. In de bijeenkomsten ging het onder meer over onderwijs, samenwerken en ruimte maken voor verschillende mensen. Ook waren er kenniswedstrijden voor leerlingen en studenten.\n\nHet huis stond aan de Corniche Ouest, een kustweg in Dakar. Het idee sloot aan bij samenkomen en kennis delen. Onze kleurplaat verbeeldt dat met drie bedachte jongeren die samen een puzzel maken. Dat is geen foto of precies verslag van één workshop. Kun jij zien hoe hun verschillende handelingen helpen om samen iets af te krijgen?",
+        "facts": [
+          "Meer dan 3.000 jongeren deden mee.",
+          "Het programma liep van 1 tot en met 13 november.",
+          "De ontmoetingsplek stond aan de Corniche Ouest in Dakar."
+        ],
+        "question": "Wat kun jij doen om iemand die nieuw is in jouw groep mee te laten doen?",
+        "sources": [
+          {
+            "label": "IOC — terugblik op het onderwijsprogramma",
+            "url": "https://www.olympics.com/ioc/news/house-of-olympic-values-put-education-at-the-heart-of-dakar-2026"
+          },
+          {
+            "label": "Olympisch Museum — oorspronkelijk programma met data en locatie",
+            "url": "https://museum.olympics.com/docs/events/TheHouseofOlympicValues/EN_Media%20Brief_The%20House%20of%20Olympic%20Values.pdf"
+          }
+        ],
+        "referenceUrl": "https://commons.wikimedia.org/wiki/File:La_corniche_ouest_%C3%A0_Dakar.jpg",
+        "referenceCredit": "Tbo47 · Corniche Ouest in Dakar, 25 mei 2026 · CC0 1.0. Omgevingsreferentie; geen foto van de genoemde bijeenkomst.",
+        "coloringSlug": "dakar-samen-leren-door-sport",
+        "sourceUrl": "https://www.olympics.com/ioc/news/house-of-olympic-values-put-education-at-the-heart-of-dakar-2026",
+        "sourceLabel": "IOC — terugblik op het onderwijsprogramma"
+      }
+    ]
+  },
+  {
     "published": "2026-11-09",
     "stories": [
       {
