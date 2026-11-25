@@ -75,7 +75,7 @@ test('The homepage shows the real newest items and previews the newest visible m
   const latestPrincess = gallery.run("getGridColorings().find(item => item.category === 'prinsessen').id");
   assert.equal(princesses.item.id, latestPrincess);
   const surprise = cards.find(({href}) => href.includes('cat=surprise_minipoppen'));
-  const latestDoll = gallery.run("getGridColorings().find(item => item.collections?.includes('surprise_minipoppen')).id");
+  const latestDoll = gallery.run("getGridColorings().find(item => item.category === 'surprise_minipoppen' || item.collections?.includes('surprise_minipoppen')).id");
   assert.equal(surprise.item.id, latestDoll);
   assert.ok(cards.every(({item}) => !item.hidden && item.category !== 'actualiteiten'));
 });
